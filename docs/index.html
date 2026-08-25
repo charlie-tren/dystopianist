@@ -20,11 +20,11 @@
 <style>
 *,*::before,*::after{box-sizing:border-box}
 :root{--ground:#12100E;--panel:#191614;--ink:#E8E3DA;--dim:#A39B8D;--faint:#6E665B;
-  --rule:#2C2724;--accent:#B98A4A;
+  --rule:#2C2724;--accent:#B98A4A;--bad:#C4635A;--good:#7FA86A;
   --body:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
   --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
 :root[data-theme="light"]{--ground:#F3F0EA;--panel:#FBF9F5;--ink:#1B1815;--dim:#5A5349;
-  --faint:#8A8175;--rule:#DCD5C9;--accent:#8A5A1E}
+  --faint:#8A8175;--rule:#DCD5C9;--accent:#8A5A1E;--bad:#A6402F;--good:#446E33}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--ground);color:var(--ink);font:400 18px/1.68 var(--body)}
 a{color:inherit}
@@ -56,10 +56,15 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .list a{text-decoration:none;display:flex;flex-wrap:wrap;align-items:baseline;
   gap:.4rem 1.2rem;justify-content:space-between}
 .list a:hover .t{color:var(--accent)}
-.rate{flex:none;display:flex;align-items:baseline;gap:.55rem;margin-left:auto}
+.rate{flex:none;display:flex;align-items:baseline;gap:.55rem;
+  margin-left:auto;margin-right:2.2rem}
 .rate .verdict{color:var(--faint);font:400 13px/1.4 var(--sans);text-align:right}
-.rate .score{color:var(--accent);font:500 15px/1 var(--sans);
-  font-variant-numeric:tabular-nums;min-width:2.4ch;text-align:right}
+.rate .score{font:500 15px/1 var(--sans);font-variant-numeric:tabular-nums;
+  min-width:2.4ch;text-align:right}
+.s-bad{color:var(--bad)}
+.s-mid{color:var(--accent)}
+.s-good{color:var(--good)}
+@media (max-width:560px){.rate{margin-right:0}}
 .t{font-size:1.28rem}
 /* The writer's name carries the row; the object it was set on sits back a shade. */
 .t .thing{color:var(--dim)}
@@ -112,8 +117,8 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
   <nav class="tabs"><a href="index.html" aria-current="page">Latest</a><a href="writers.html">Writers</a><a href="objects.html">Things</a></nav>
   <p class="stand">Essays by writers who died before the thing they are describing existed. Pastiche, written by a language model in imitation of their style.</p>
   <ul class="list">
-    <li><a href="e/2026-08-25-aurelius-escape-rooms.html"><span class="t">Marcus Aurelius <span class="thing">on escape rooms</span></span><span class="rate"><span class="verdict">fleeting amusement</span><span class="score">4.5</span></span></a></li>
-    <li><a href="e/2026-08-25-aurelius-the-alarm-clock.html"><span class="t">Marcus Aurelius <span class="thing">on the alarm clock</span></span><span class="rate"><span class="verdict">foolish contraption</span><span class="score">2.1</span></span></a></li>
+    <li><a href="e/2026-08-25-aurelius-escape-rooms.html"><span class="t">Marcus Aurelius <span class="thing">on escape rooms</span></span><span class="rate"><span class="verdict">fleeting amusement</span><span class="score s-mid">4.5</span></span></a></li>
+    <li><a href="e/2026-08-25-aurelius-the-alarm-clock.html"><span class="t">Marcus Aurelius <span class="thing">on the alarm clock</span></span><span class="rate"><span class="verdict">foolish contraption</span><span class="score s-bad">2.1</span></span></a></li>
   </ul>
 
   <p class="foot"></p>
