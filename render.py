@@ -44,8 +44,13 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .list{list-style:none;margin:0;padding:0}
 .list li{border-top:1px solid var(--rule);padding:1.1rem 0}
 .list li:last-child{border-bottom:1px solid var(--rule)}
-.list a{text-decoration:none;display:block}
+.list a{text-decoration:none;display:flex;flex-wrap:wrap;align-items:baseline;
+  gap:.4rem 1.2rem;justify-content:space-between}
 .list a:hover .t{color:var(--accent)}
+.rate{flex:none;display:flex;align-items:baseline;gap:.55rem;margin-left:auto}
+.rate .verdict{color:var(--faint);font:400 13px/1.4 var(--sans);text-align:right}
+.rate .score{color:var(--accent);font:500 15px/1 var(--sans);
+  font-variant-numeric:tabular-nums;min-width:2.4ch;text-align:right}
 .t{font-size:1.28rem}
 /* The writer's name carries the row; the object it was set on sits back a shade. */
 .t .thing{color:var(--dim)}
@@ -216,11 +221,19 @@ def essay_rows(entries, up="", show="both") -> str:
         else:
             t = (f'{html.escape(e["name"])} '
                  f'<span class="thing">on {html.escape(e["object"])}</span>')
+        # What the writer made of it, and how much out of ten. Only on the mixed
+        # listing: on a writer's own page a column of their own scores is a chart
+        # nobody asked for.
+        rate = ""
+        if show == "both" and e.get("score") is not None:
+            rate = (f'<span class="rate"><span class="verdict">'
+                    f'{html.escape(e.get("verdict", ""))}</span>'
+                    f'<span class="score">{e["score"]:.1f}</span></span>')
         rows.append(
             f'    <li><a href="{up}e/{slug(e)}.html">'
             f'<span class="t">{t}</span>'
             + (f'<span class="sub">{html.escape(sub)}</span>' if sub else "")
-            + "</a></li>")
+            + rate + "</a></li>")
     return "\n".join(rows)
 
 
