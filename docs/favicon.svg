@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- A quill nib over a barcode: the old voice and the thing it never saw. Kept
+       to four heavy strokes because anything finer dissolves at 16px. -->
+  <rect width="100" height="100" rx="24" fill="#12100E"/>
+  <g fill="#B98A4A">
+    <rect x="22" y="62" width="6" height="20" rx="2"/>
+    <rect x="34" y="62" width="10" height="20" rx="2"/>
+    <rect x="50" y="62" width="5" height="20" rx="2"/>
+    <rect x="61" y="62" width="9" height="20" rx="2"/>
+  </g>
+  <path d="M74 20 L44 52 L38 56 L42 46 Z" fill="#E8E3DA"/>
+</svg>

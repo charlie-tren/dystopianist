@@ -1,0 +1,54 @@
+name: Daily essay
+
+on:
+  # Odd minute: GitHub drops on-the-hour scheduled runs under load, and a dropped
+  # day here is a day with no essay.
+  schedule:
+    - cron: "19 20 * * *"
+  workflow_dispatch:
+
+jobs:
+  write:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet requests pyyaml
+
+      - name: Write today's essay
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python run.py
+
+      # Runs AFTER the essay lands, so a collapse shows up on the day it happens
+      # rather than whenever someone next reads two pages.
+      - name: Are the voices still distinct
+        run: python tests/test_voice.py
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data docs
+          if git diff --cached --quiet; then
+            echo "nothing changed"
+            exit 0
+          fi
+          git commit -m "essay: $(date -u +%Y-%m-%d)"
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            echo "push attempt $attempt lost a race - replaying onto main"
+            git fetch origin main || true
+            git reset --soft origin/main
+            git add data docs
+            git diff --cached --quiet && exit 0
+            git commit -m "essay: $(date -u +%Y-%m-%d)"
+            sleep 3
+          done
+          echo "::error::could not push after 3 attempts"
+          exit 1
