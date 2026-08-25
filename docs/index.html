@@ -56,7 +56,12 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .list a{text-decoration:none;display:block}
 .list a:hover .t{color:var(--accent)}
 .t{font-size:1.28rem}
-.sub{color:var(--faint);font:400 13.5px/1.5 var(--sans);margin-top:.2rem}
+/* The writer's name carries the row; the object it was set on sits back a shade. */
+.t .thing{color:var(--dim)}
+.list a:hover .thing{color:var(--accent)}
+/* A span, so its margin-top did nothing and it ran straight on from the title.
+   It only shows on the writer and object pages, which is why the index hid it. */
+.sub{display:block;color:var(--faint);font:400 13.5px/1.5 var(--sans);margin-top:.25rem}
 .foot{margin-top:3.4rem;color:var(--faint);font:400 13px/1.6 var(--sans)}
 .foot a{color:var(--dim)}
 .tabs{display:flex;gap:1.5rem;margin:1.1rem 0 2.4rem;font:600 12px/1 var(--sans);
@@ -102,12 +107,12 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
   <nav class="tabs"><a href="index.html" aria-current="page">Latest</a><a href="writers.html">Writers</a><a href="objects.html">Things</a></nav>
   <p class="stand">Essays by writers who died before the thing they are describing existed. Pastiche, written by a language model in imitation of their style.</p>
   <ul class="list">
-    <li><a href="e/2026-08-25-wilde-the-automatic-hand-dryer.html"><span class="t">Oscar Wilde on the automatic hand dryer</span><span class="sub"></span></a></li>
-    <li><a href="e/2026-08-25-thompson-the-drive-through.html"><span class="t">Hunter S Thompson on the drive-through</span><span class="sub"></span></a></li>
-    <li><a href="e/2026-08-25-wallace-the-abandoned-electric-scooter.html"><span class="t">David Foster Wallace on the abandoned electric scooter</span><span class="sub"></span></a></li>
-    <li><a href="e/2026-08-25-thompson-the-doorbell-camera.html"><span class="t">Hunter S Thompson on the doorbell camera</span><span class="sub"></span></a></li>
-    <li><a href="e/2026-08-25-wallace-the-hotel-minibar.html"><span class="t">David Foster Wallace on the hotel minibar</span><span class="sub"></span></a></li>
-    <li><a href="e/2026-08-25-twain-the-karaoke-machine.html"><span class="t">Mark Twain on the karaoke machine</span><span class="sub"></span></a></li>
+    <li><a href="e/2026-08-25-wilde-the-automatic-hand-dryer.html"><span class="t">Oscar Wilde <span class="thing">on the automatic hand dryer</span></span></a></li>
+    <li><a href="e/2026-08-25-thompson-the-drive-through.html"><span class="t">Hunter S Thompson <span class="thing">on the drive-through</span></span></a></li>
+    <li><a href="e/2026-08-25-wallace-the-abandoned-electric-scooter.html"><span class="t">David Foster Wallace <span class="thing">on the abandoned electric scooter</span></span></a></li>
+    <li><a href="e/2026-08-25-thompson-the-doorbell-camera.html"><span class="t">Hunter S Thompson <span class="thing">on the doorbell camera</span></span></a></li>
+    <li><a href="e/2026-08-25-wallace-the-hotel-minibar.html"><span class="t">David Foster Wallace <span class="thing">on the hotel minibar</span></span></a></li>
+    <li><a href="e/2026-08-25-twain-the-karaoke-machine.html"><span class="t">Mark Twain <span class="thing">on the karaoke machine</span></span></a></li>
   </ul>
 
   <p class="foot"></p>

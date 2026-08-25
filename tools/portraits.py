@@ -35,17 +35,19 @@ LOOK = {
     "wallace":  "a man in his thirties with long hair under a white bandana, round glasses, unshaven",
     "orwell":   "a gaunt Englishman with a thin moustache, tweed jacket, tired eyes",
     "twain":    "an older man with a full white walrus moustache and wild white hair, white suit",
-    "wilde":    "a heavyset young Victorian dandy with a centre parting, fur-collared coat, green carnation",
+    "wilde":    "a heavyset young Victorian dandy with a centre parting, fur-collared coat, a carnation in the buttonhole",
     "aurelius": "a bearded Roman emperor in a plain toga, curly hair and beard, weary",
     "kafka":    "a thin young man in a dark suit and stiff collar, enormous dark eyes, ears sticking out",
     "thompson": "a bald man in aviator sunglasses with a cigarette holder clenched in his teeth, bucket hat",
     "didion":   "a very slight woman in her sixties, dark sunglasses, straight shoulder-length hair, cigarette, cool unsmiling expression",
 }
 
-STYLE = ("hand-drawn ink caricature portrait, loose confident line work, cross-hatching, "
-         "warm cream paper, single muted ochre accent, head and shoulders, plain background, "
-         "editorial illustration, clean empty margins, "
-         "no text anywhere, no lettering, no words, no signature, no watermark")
+# Black and white only. The first set carried an ochre accent and Flux kept turning it
+# into a stray blob beside the face; monochrome removes the blob and the decision.
+STYLE = ("hand-drawn ink caricature portrait, black and white only, monochrome, no colour, "
+         "loose confident line work, cross-hatching, white paper, head and shoulders, "
+         "plain empty background, editorial illustration, clean empty margins, unsigned, "
+         "no text anywhere, no lettering, no words, no signature, no watermark, no stray marks")
 
 
 def draw(acct: str, tok: str, prompt: str) -> bytes:
@@ -60,6 +62,18 @@ def draw(acct: str, tok: str, prompt: str) -> bytes:
     if not img:
         raise RuntimeError(f"no image in response: {list(d['result'])}")
     return base64.b64decode(img)
+
+
+# Flux signs these however firmly the prompt says not to - a scrawled fake artist
+# name, always within a few percent of a corner. Trimming the margin removes it and
+# tightens the framing, which the head-and-shoulders composition can spare.
+INSET = 0.09
+
+
+def crop(im):
+    w, h = im.size
+    return im.crop((int(w * INSET), int(h * INSET),
+                    int(w * (1 - INSET)), int(h * (1 - INSET))))
 
 
 def main() -> int:
@@ -88,8 +102,8 @@ def main() -> int:
             print(f"{t['id']:10} FAILED {type(exc).__name__}: {str(exc)[:110]}")
             continue
         from PIL import Image
-        im = Image.open(_io.BytesIO(raw)).convert("RGB")
-        im = im.resize((360, 360), Image.LANCZOS)
+        im = Image.open(_io.BytesIO(raw)).convert("L").convert("RGB")
+        im = crop(im).resize((360, 360), Image.LANCZOS)
         im.save(dest, "JPEG", quality=82, optimize=True)
         print(f"{t['id']:10} {dest.stat().st_size // 1024}KB")
     return 0

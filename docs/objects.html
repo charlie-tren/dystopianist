@@ -56,7 +56,12 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .list a{text-decoration:none;display:block}
 .list a:hover .t{color:var(--accent)}
 .t{font-size:1.28rem}
-.sub{color:var(--faint);font:400 13.5px/1.5 var(--sans);margin-top:.2rem}
+/* The writer's name carries the row; the object it was set on sits back a shade. */
+.t .thing{color:var(--dim)}
+.list a:hover .thing{color:var(--accent)}
+/* A span, so its margin-top did nothing and it ran straight on from the title.
+   It only shows on the writer and object pages, which is why the index hid it. */
+.sub{display:block;color:var(--faint);font:400 13.5px/1.5 var(--sans);margin-top:.25rem}
 .foot{margin-top:3.4rem;color:var(--faint);font:400 13px/1.6 var(--sans)}
 .foot a{color:var(--dim)}
 .tabs{display:flex;gap:1.5rem;margin:1.1rem 0 2.4rem;font:600 12px/1 var(--sans);

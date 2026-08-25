@@ -47,7 +47,12 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .list a{text-decoration:none;display:block}
 .list a:hover .t{color:var(--accent)}
 .t{font-size:1.28rem}
-.sub{color:var(--faint);font:400 13.5px/1.5 var(--sans);margin-top:.2rem}
+/* The writer's name carries the row; the object it was set on sits back a shade. */
+.t .thing{color:var(--dim)}
+.list a:hover .thing{color:var(--accent)}
+/* A span, so its margin-top did nothing and it ran straight on from the title.
+   It only shows on the writer and object pages, which is why the index hid it. */
+.sub{display:block;color:var(--faint);font:400 13.5px/1.5 var(--sans);margin-top:.25rem}
 .foot{margin-top:3.4rem;color:var(--faint);font:400 13px/1.6 var(--sans)}
 .foot a{color:var(--dim)}
 .tabs{display:flex;gap:1.5rem;margin:1.1rem 0 2.4rem;font:600 12px/1 var(--sans);
@@ -209,11 +214,13 @@ def essay_rows(entries, up="", show="both") -> str:
         elif show == "writer":
             t = html.escape(e["name"])
         else:
-            t = f'{html.escape(e["name"])} on {html.escape(e["object"])}'
+            t = (f'{html.escape(e["name"])} '
+                 f'<span class="thing">on {html.escape(e["object"])}</span>')
         rows.append(
             f'    <li><a href="{up}e/{slug(e)}.html">'
             f'<span class="t">{t}</span>'
-            f'<span class="sub">{sub}</span></a></li>')
+            + (f'<span class="sub">{html.escape(sub)}</span>' if sub else "")
+            + "</a></li>")
     return "\n".join(rows)
 
 
@@ -284,13 +291,11 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
                 f'width="54" height="54" loading="lazy">'
                 '<span class="eyebrow" style="margin:0">In the style of</span></div>\n'
                 f'  <h1>{html.escape(name)}</h1>\n'
-                f'  <p class="stand">{len(es)} '
-                f'{"essay" if len(es) == 1 else "essays"} on things they never saw.</p>\n'
                 f'  <ul class="list">\n{essay_rows(es, "../", show="object")}\n  </ul>\n')
         p = page(f"{name} - Ghostwriters",
                  f"Pastiche essays in the style of {name} about things that did not exist "
                  "in their lifetime.", body, "../", "writers",
-                 '<a href="../writers.html">All the writers</a>')
+                 "")
         (DOCS / "by" / f"{tid}.html").write_text(p, encoding="utf-8", newline="\n")
 
     # --- one page per object: everyone who has been set on it ---------------
