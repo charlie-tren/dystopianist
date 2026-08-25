@@ -196,6 +196,21 @@ def build(entries: list[dict]) -> None:
     for sub in ("e", "by", "on"):
         (DOCS / sub).mkdir(exist_ok=True)
 
+    # Remove any generated page this build does not produce. Without this the
+    # renderer only ever ADDS: a page written by an earlier run - a test, a
+    # renamed object, a deleted essay - survives forever and stays reachable by
+    # URL. That happened on 25/08/2026: a render test wrote three synthetic essay
+    # pages, the rebuild left them in place, and they went live. Whatever is not
+    # in `entries` is not real, so it should not exist on disk.
+    keep = {DOCS / "e" / f"{slug(e)}.html" for e in entries}
+    keep |= {DOCS / "by" / f'{e["thinker"]}.html' for e in entries}
+    keep |= {DOCS / "on" / f'{obj_slug(e["object"])}.html' for e in entries}
+    for sub in ("e", "by", "on"):
+        for f in (DOCS / sub).glob("*.html"):
+            if f not in keep:
+                print(f"  pruned stale page {sub}/{f.name}")
+                f.unlink()
+
     by_writer, by_object = {}, {}
     for e in entries:
         by_writer.setdefault(e["thinker"], []).append(e)
