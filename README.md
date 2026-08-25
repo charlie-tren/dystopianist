@@ -1,10 +1,10 @@
-# The Dystopianist
+# Ghostwriters
 
 Essays by writers who died before the thing they are describing existed. Diogenes on
 the self-checkout machine, Orwell on the smart fridge, Dorothy Parker on the
 productivity app.
 
-Live at <https://charlietrenorden.com/dystopianist/>.
+Live at <https://charlietrenorden.com/ghostwriters/>.
 
 Pastiche, not attribution. Every page says so in the body, not in a footer.
 

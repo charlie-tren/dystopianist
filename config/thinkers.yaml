@@ -1,16 +1,24 @@
-# One entry per thinker. `shot` is the whole mechanism: the variety comes from
-# each thinker carrying its own example, not from a shared prompt asking for
-# variety - a longer instruction loses to a few-shot every time.
+# One entry per writer. `shot` is the whole mechanism: the variety comes from each
+# writer carrying its own example, not from a shared prompt asking for variety - a
+# longer instruction loses to a few-shot every time.
 #
 # EVERY `shot` HERE IS PASTICHE, WRITTEN FOR THIS REPO. None is a real quotation.
-# That is deliberate on two counts: several of these writers are still in
-# copyright, and a real excerpt in a public repo is a reproduction. It also keeps
-# the shots tuned to the job - each one is the sentence SHAPE we want copied.
+# Deliberate on two counts: several of these writers are still in copyright, and a
+# real excerpt in a repo is a reproduction. It also keeps each shot tuned to the
+# sentence SHAPE we want copied.
+#
+# KNOWN LIMITATION, and the next thing to fix. Imitating a pastiche is a copy of a
+# copy, and it is the likeliest reason output reads only broadly like its author.
+# `public_domain: true` marks the writers whose real prose could legally be the shot
+# instead - the plan is to pull actual text from Project Gutenberg (free, keyless,
+# already used by The Lindy Effect) rather than to type quotes from memory, which
+# risks publishing a misquotation as if it were real.
 
 thinkers:
   - id: wallace
     name: David Foster Wallace
     dates: 1962-2008
+    public_domain: false
     note: >-
       Recursive and self-interrupting. Long sentences that qualify themselves mid-clause.
       Sincerity smuggled in under irony. Second-person drift. Ends by turning the object
@@ -24,6 +32,7 @@ thinkers:
   - id: diogenes
     name: Diogenes of Sinope
     dates: c.412-323 BC
+    public_domain: true
     note: >-
       Blunt, physical, aphoristic. Short sentences. Answers with an action or an insult
       rather than an argument. Contempt for possessions and for the effort of acquiring them.
@@ -35,6 +44,7 @@ thinkers:
   - id: veblen
     name: Thorstein Veblen
     dates: 1857-1929
+    public_domain: true
     note: >-
       Deadpan pseudo-academic. Latinate, unhurried. Treats status display as an economic
       function and never once says a thing is silly. Words like pecuniary, honorific,
@@ -47,6 +57,7 @@ thinkers:
   - id: orwell
     name: George Orwell
     dates: 1903-1950
+    public_domain: true
     note: >-
       Plain, concrete, declarative. Short Anglo-Saxon words in preference to long Latin
       ones. Political meaning found in a small domestic detail. Suspicious of any phrase
@@ -56,31 +67,10 @@ thinkers:
       should be thick; it simply became easier to defend the cup than to explain the tea.
       A dozen small surrenders of this kind will do more than any decree.
 
-  - id: parker
-    name: Dorothy Parker
-    dates: 1893-1967
-    note: >-
-      Short, dry, wounded. Sets up a polite sentence and detonates it in the last four
-      words. First person. Never explains the joke, never repeats it.
-    shot: >-
-      I was told the evening would be intimate, which is the word people use when they
-      have run out of chairs. I stayed until the host began describing his renovation. I
-      have been to warmer funerals.
-
-  - id: bierce
-    name: Ambrose Bierce
-    dates: 1842-c.1914
-    note: >-
-      Mock-lexicographic and pitiless. Often a definition, delivered straight, whose second
-      clause removes the floor. No warmth, no hedging, no first person.
-    shot: >-
-      COMMITTEE, n. A body of persons appointed to decide that nothing can be decided,
-      and to record the fact at length, so that the record may be consulted by a later
-      committee appointed for the same purpose.
-
   - id: ballard
     name: J G Ballard
     dates: 1930-2009
+    public_domain: false
     note: >-
       Cool, clinical, present tense. Treats the psychological as landscape and the landscape
       as symptom. Finds the erotic and the catastrophic in car parks and business hotels.
@@ -93,6 +83,7 @@ thinkers:
   - id: debord
     name: Guy Debord
     dates: 1931-1994
+    public_domain: false
     note: >-
       Aphoristic and total. Numbered-thesis cadence. Everything is an image of a relation
       rather than the relation. Declarative, never illustrative; refuses the example.
@@ -100,3 +91,83 @@ thinkers:
       The image of leisure is what remains of leisure once it has been organised. What is
       offered as rest is the representation of rest, and the worker who accepts it consumes
       his own absence, which has been prepared for him with great care.
+
+  - id: twain
+    name: Mark Twain
+    dates: 1835-1910
+    public_domain: true
+    note: >-
+      Conversational, tall-tale cadence. Builds a reasonable-sounding case and lets it
+      collapse under its own politeness. Homely comparisons, a narrator who claims less
+      intelligence than he has, and one deadpan sentence at the end that does the damage.
+    shot: >-
+      I have been reliably informed that the machine will save me a full hour every day,
+      which over a year comes to a fortnight of leisure I have not yet been able to locate.
+      I asked the man where they keep it. He said it accrues. I have known banks to fail
+      on gentler arithmetic.
+
+  - id: wilde
+    name: Oscar Wilde
+    dates: 1854-1900
+    public_domain: true
+    note: >-
+      Epigram, paradox, and the inversion of a received opinion. Elegant, unhurried,
+      pleased with itself in a way that earns it. Prefers to be witty about a serious
+      thing rather than serious about a witty one.
+    shot: >-
+      To be talked about is a misfortune; to be talked about accurately is a catastrophe.
+      Society forgives a man anything except the appearance of effort, which is why the
+      idle are so universally admired and the industrious so quietly despised.
+
+  - id: aurelius
+    name: Marcus Aurelius
+    dates: 121-180
+    public_domain: true
+    note: >-
+      Second person, addressed to himself. Short admonitions, one idea each. Nature,
+      death and proportion invoked plainly, without ornament. Never argues with anyone
+      else - only with his own impatience.
+    shot: >-
+      You are irritated by the noise. Consider what the noise is: air, moved briefly, by a
+      thing that does not know you exist. It will stop. You will stop. Do the work in front
+      of you and let the air do as it does.
+
+  - id: kafka
+    name: Franz Kafka
+    dates: 1883-1924
+    public_domain: true
+    note: >-
+      Bureaucratic dread told calmly. Long subordinate clauses that qualify a permission
+      into an obstruction. The protagonist is always nearly finished and never finished.
+      No anger, only patience - which is worse.
+    shot: >-
+      The application had been accepted, subject only to confirmation by the second office,
+      which was housed in the same building and which had, he was assured, no reason to
+      withhold it, although the confirmation could not be issued until the first office
+      had been notified of it, and the first office was closed.
+
+  - id: thompson
+    name: Hunter S Thompson
+    dates: 1937-2005
+    public_domain: false
+    note: >-
+      First person, accelerating. Piles clauses until the sentence is out of control, then
+      lands a short one. Paranoid, funny, morally certain in the middle of chaos. Names
+      things as enemies.
+    shot: >-
+      We were somewhere past the third roundabout when the machine began to speak, and I
+      understood immediately that it had been designed by a committee of insurance men who
+      had never once been afraid of anything. It wanted my postcode. It was going to get it.
+
+  - id: didion
+    name: Joan Didion
+    dates: 1934-2021
+    public_domain: false
+    note: >-
+      Cool, exact, unsettling. Repeats a phrase until it changes meaning. Reports the
+      surface - the brand, the temperature, the time - and lets the dread sit underneath
+      it, unmentioned. Never raises her voice.
+    shot: >-
+      The room was cold and the light was the light they use in places where nobody stays.
+      I remember the carpet. I remember thinking that someone had chosen the carpet, that
+      this had been a decision, made by a person, in a meeting, on an ordinary afternoon.

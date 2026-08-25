@@ -91,7 +91,7 @@ def main() -> int:
     past.append(entry)
     ARCHIVE.parent.mkdir(exist_ok=True)
     ARCHIVE.write_text(json.dumps(past, indent=2, ensure_ascii=False), encoding="utf-8", newline="\n")
-    render.build(past)
+    render.build(past, thinkers)
     print(f"wrote essay {len(past)} and rebuilt the site")
     return 0
 
