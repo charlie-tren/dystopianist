@@ -127,9 +127,10 @@ TAIL = """
 # The ghost from favicon.svg, inline so it can sit beside the title and take the
 # theme. Two shapes and two dots - the same reason the favicon works at 16px.
 GHOST = ('<svg class="ghost" viewBox="0 0 100 100" width="1em" height="1em" aria-hidden="true">'
-         '<path d="M26 76V50a24 24 0 0 1 48 0v26l-8-7-8 7-8-7-8 7-8-7z" fill="currentColor"/>'
-         '<circle cx="41" cy="49" r="5.4" fill="var(--ground)"/>'
-         '<circle cx="59" cy="49" r="5.4" fill="var(--ground)"/></svg>')
+         '<path d="M30 78V46a20 20 0 0 1 40 0v32l-6.7-5.5-6.6 5.5-6.7-5.5-6.6 5.5-6.7-5.5z" fill="currentColor"/>'
+         '<ellipse cx="42" cy="47" rx="4" ry="5" fill="var(--ground)"/>'
+         '<ellipse cx="58" cy="47" rx="4" ry="5" fill="var(--ground)"/>'
+         '<ellipse cx="50" cy="61" rx="3.4" ry="4.4" fill="var(--ground)"/></svg>')
 
 
 # A dozen line glyphs, mapped to objects by keyword. Deliberately a SMALL set: the
