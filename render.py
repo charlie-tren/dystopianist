@@ -50,7 +50,7 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .sub{color:var(--faint);font:400 13.5px/1.5 var(--sans);margin-top:.2rem}
 .foot{margin-top:3.4rem;color:var(--faint);font:400 13px/1.6 var(--sans)}
 .foot a{color:var(--dim)}
-.tabs{display:flex;gap:1.5rem;margin:0 0 2rem;font:600 12px/1 var(--sans);
+.tabs{display:flex;gap:1.5rem;margin:1.1rem 0 2.4rem;font:600 12px/1 var(--sans);
   letter-spacing:.14em;text-transform:uppercase}
 .tabs a{color:var(--faint);text-decoration:none;padding-bottom:.4rem;border-bottom:2px solid transparent}
 .tabs a:hover{color:var(--ink)}
@@ -62,6 +62,8 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .chips .n{color:var(--faint);font-size:11.5px}
 .chips a{display:inline-flex;align-items:center;gap:.45rem}
 .chips .g{color:var(--accent);flex:none;opacity:.85}
+.wordmark{display:flex;align-items:center;gap:.55rem}
+.wordmark .ghost{flex:none;color:var(--ink)}
 .chips .chip-off{display:inline-flex;align-items:center;gap:.45rem;border:1px dashed var(--rule);border-radius:999px;padding:.42rem .8rem;font:500 13px/1 var(--sans);color:var(--faint)}
 """
 
@@ -113,6 +115,16 @@ TAIL = """
 </body>
 </html>
 """
+
+
+# The ghost from favicon.svg, inline so it can sit beside the title and take the
+# theme. Two shapes and two dots - the same reason the favicon works at 16px.
+GHOST = ('<svg class="ghost" viewBox="0 0 100 100" width="1em" height="1em" aria-hidden="true">'
+         '<path d="M28 74V47a22 22 0 0 1 44 0v27l-7.3-6-7.3 6-7.4-6-7.3 6-7.4-6z" fill="currentColor"/>'
+         '<circle cx="42" cy="48" r="4.2" fill="var(--ground)"/>'
+         '<circle cx="58" cy="48" r="4.2" fill="var(--ground)"/>'
+         '<path d="M60 63c-3.5 3.2-9 3.4-12.8.6" fill="none" stroke="var(--ground)" '
+         'stroke-width="3" stroke-linecap="round"/></svg>')
 
 
 # A dozen line glyphs, mapped to objects by keyword. Deliberately a SMALL set: the
@@ -236,8 +248,13 @@ def essay_rows(entries, up="", show="both") -> str:
 
 
 def page(title, desc, body, up, here, footer):
+    """`body` carries its own <h1>; the nav is injected straight after it, so the
+    heading comes first and the three ways in sit under it."""
+    if here and "</h1>" in body:
+        head_end = body.index("</h1>") + len("</h1>") + 1
+        body = body[:head_end] + nav(up, here) + body[head_end:]
     return (HEAD.format(title=html.escape(title), desc=html.escape(desc), css=CSS, up=up)
-            + nav(up, here) + body + TAIL.replace("FOOTER", footer))
+            + body + TAIL.replace("FOOTER", footer))
 
 
 def build(entries: list[dict], roster: list[dict] | None = None) -> None:
@@ -317,9 +334,8 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
     # --- the three top-level views ------------------------------------------
     desc = ("Essays by writers who died before the thing they are describing existed. "
             "Pastiche, written by a language model in imitation of their style.")
-    listing = (f'  <ul class="list">\n{essay_rows(entries)}\n  </ul>\n' if entries
-               else '  <p class="stand">The first essay arrives with the next run.</p>\n')
-    idx = ('  <h1>Ghostwriters</h1>\n'
+    listing = f'  <ul class="list">\n{essay_rows(entries)}\n  </ul>\n' if entries else ""
+    idx = (f'  <h1 class="wordmark">{GHOST}Ghostwriters</h1>\n'
            f'  <p class="stand">{html.escape(desc)}</p>\n' + listing)
     (DOCS / "index.html").write_text(
         page("Ghostwriters", desc, idx, "", "index",
@@ -342,7 +358,7 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
              "Every writer in the rotation, and how many essays each has.",
              '  <h1>Writers</h1>\n  <p class="stand">Pick a voice.</p>\n'
              f'  <ul class="chips">\n{chips}\n  </ul>\n', "", "writers",
-             f"{len(listed)} writers."),
+             ""),
         encoding="utf-8", newline="\n")
 
     ochips = "\n".join(
@@ -352,9 +368,9 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
     (DOCS / "objects.html").write_text(
         page("Things - Ghostwriters",
              "Every object written about here, and how many writers have been set on it.",
-             '  <h1>By object</h1>\n'
+             '  <h1>Things</h1>\n'
              '  <p class="stand">Pick a thing. The number is how many writers have been '
              'set on it.</p>\n'
              f'  <ul class="chips">\n{ochips}\n  </ul>\n', "", "objects",
-             f"{len(by_object)} objects."),
+             ""),
         encoding="utf-8", newline="\n")
