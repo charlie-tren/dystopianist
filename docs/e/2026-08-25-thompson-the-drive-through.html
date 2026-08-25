@@ -80,6 +80,11 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
   30%{transform:translateY(-13%) rotate(-4deg)}
   65%{transform:translateY(5%) rotate(3deg)}}
 @media (prefers-reduced-motion:reduce){.wordmark:hover .ghost{animation:none}}
+.face{border-radius:50%;flex:none;object-fit:cover;filter:saturate(.85)}
+.byline{display:flex;align-items:center;gap:.9rem;margin:0 0 2.2rem}
+.byline .face{width:54px;height:54px}
+.chips .face{width:22px;height:22px;margin:-2px 0}
+.chip-off .face{opacity:.35}
 .chips .chip-off{display:inline-flex;align-items:center;gap:.45rem;border:1px dashed var(--rule);border-radius:999px;padding:.42rem .8rem;font:500 13px/1 var(--sans);color:var(--faint)}
 </style>
 </head>
@@ -89,13 +94,12 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
     <a class="home" href="https://charlietrenorden.com/"><span class="back">&larr;</span>&nbsp;Other projects</a>
     <button class="tog" id="tog" type="button">Light</button>
   </div>
-  <p class="eyebrow">In the style of</p>
+  <div class="byline"><img class="face" src="../faces/thompson.jpg" alt="" width="54" height="54" loading="lazy"><span class="eyebrow" style="margin:0">In the style of</span></div>
   <h1><a href="../by/thompson.html" style="text-decoration:none">Hunter S Thompson</a> on <a href="../on/the-drive-through.html" style="text-decoration:none">the drive-through</a></h1>
-  <p class="stand">1937-2005 &middot; written 2026-08-25</p>
   <div class="essay">
     <p>We careened into the drive-through, a vortex of fluorescent lights and disembodied voices, where the sacred ritual of consumption was about to be reduced to a sterile transaction, and I could feel the weight of a thousand midnights bearing down on me, the smell of grease and desperation hanging in the air like a bad omen, as we inched forward, a steel leviathan in a sea of asphalt, waiting for the inevitable moment when the mechanized voice would bark out its demands, and I would be forced to surrender my dignity, my sense of self, to the void, all for the sake of a paper bag filled with the processed remnants of a forgotten dream, and the voice, when it came, was like a cold wind, cutting through the din, asking for my order, my payment, my soul, and I knew in that instant, I was doomed to repeat this surreal waltz, forever trapped in this endless cycle of hunger and consumption, with no escape from the drive-through&#x27;s abyss.</p>
   </div>
-  <p class="pastiche"><b>This is pastiche.</b> Hunter S Thompson (1937-2005) never wrote a word about the drive-through and never saw one. It is written in imitation of their style by a language model, the way a cartoonist draws a likeness.</p>
+  <p class="pastiche"><b>This is pastiche.</b> Hunter S Thompson never wrote a word about the drive-through and never saw one. It is written in imitation of their style by a language model, the way a cartoonist draws a likeness.</p>
 
   <p class="foot"><a href="../index.html">All the essays</a></p>
 </div>

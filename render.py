@@ -71,6 +71,11 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
   30%{transform:translateY(-13%) rotate(-4deg)}
   65%{transform:translateY(5%) rotate(3deg)}}
 @media (prefers-reduced-motion:reduce){.wordmark:hover .ghost{animation:none}}
+.face{border-radius:50%;flex:none;object-fit:cover;filter:saturate(.85)}
+.byline{display:flex;align-items:center;gap:.9rem;margin:0 0 2.2rem}
+.byline .face{width:54px;height:54px}
+.chips .face{width:22px;height:22px;margin:-2px 0}
+.chip-off .face{opacity:.35}
 .chips .chip-off{display:inline-flex;align-items:center;gap:.45rem;border:1px dashed var(--rule);border-radius:999px;padding:.42rem .8rem;font:500 13px/1 var(--sans);color:var(--faint)}
 """
 
@@ -193,12 +198,12 @@ def nav(up: str, here: str) -> str:
     return "".join(out) + "\n"
 
 
-def pastiche_note(name: str, dates: str, obj: str) -> str:
+def pastiche_note(name: str, obj: str) -> str:
     """Said on EVERY essay page, in the body, not in a footer. These are real
     people and the essay puts words in their mouths; a disclaimer nobody scrolls
     to is not a disclaimer."""
     return ('<p class="pastiche"><b>This is pastiche.</b> '
-            f'{html.escape(name)} ({html.escape(dates)}) never wrote a word about '
+            f'{html.escape(name)} never wrote a word about '
             f'{html.escape(obj)} and never saw one. It is written in imitation of their '
             'style by a language model, the way a cartoonist draws a likeness.</p>')
 
@@ -239,6 +244,9 @@ def essay_rows(entries, up="", show="both") -> str:
     row says the same object."""
     rows = []
     for e in reversed(entries):
+        # the sub-line carries whichever half the heading does not. No dates: a
+        # writer's years and the day a machine generated the essay are both noise.
+        sub = {"writer": e["object"], "object": e["name"]}.get(show, "")
         if show == "object":
             t = html.escape(e["object"])
         elif show == "writer":
@@ -248,7 +256,7 @@ def essay_rows(entries, up="", show="both") -> str:
         rows.append(
             f'    <li><a href="{up}e/{slug(e)}.html">'
             f'<span class="t">{t}</span>'
-            f'<span class="sub">{html.escape(e["dates"])} &middot; {e["date"]}</span></a></li>')
+            f'<span class="sub">{sub}</span></a></li>')
     return "\n".join(rows)
 
 
@@ -297,14 +305,15 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
                               for x in others)
             also = (f'  <p class="foot">Also on {html.escape(e["object"])}: {links}. '
                     f'<a href="../on/{obj_slug(e["object"])}.html">All of them</a>.</p>\n')
-        body = ('  <p class="eyebrow">In the style of</p>\n'
+        body = (f'  <div class="byline"><img class="face" src="../faces/{e["thinker"]}.jpg" '
+                f'alt="" width="54" height="54" loading="lazy">'
+                '<span class="eyebrow" style="margin:0">In the style of</span></div>\n'
                 f'  <h1><a href="../by/{e["thinker"]}.html" style="text-decoration:none">'
                 f'{html.escape(e["name"])}</a> on '
                 f'<a href="../on/{obj_slug(e["object"])}.html" style="text-decoration:none">'
                 f'{html.escape(e["object"])}</a></h1>\n'
-                f'  <p class="stand">{html.escape(e["dates"])} &middot; written {e["date"]}</p>\n'
                 f'  <div class="essay">\n    {paragraphs(e["essay"])}\n  </div>\n'
-                f'  {pastiche_note(e["name"], e["dates"], e["object"])}\n' + also)
+                f'  {pastiche_note(e["name"], e["object"])}\n' + also)
         p = page(f'{e["name"]} on {e["object"]}',
                  f'A pastiche essay in the style of {e["name"]} about {e["object"]}, '
                  'which they never saw.',
@@ -314,8 +323,11 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
     # --- one page per writer ------------------------------------------------
     for tid, es in by_writer.items():
         name, dates = es[0]["name"], es[0]["dates"]
-        body = (f'  <p class="eyebrow">In the style of</p>\n  <h1>{html.escape(name)}</h1>\n'
-                f'  <p class="stand">{html.escape(dates)} &middot; {len(es)} '
+        body = (f'  <div class="byline"><img class="face" src="../faces/{tid}.jpg" alt="" '
+                f'width="54" height="54" loading="lazy">'
+                '<span class="eyebrow" style="margin:0">In the style of</span></div>\n'
+                f'  <h1>{html.escape(name)}</h1>\n'
+                f'  <p class="stand">{len(es)} '
                 f'{"essay" if len(es) == 1 else "essays"} on things they never saw.</p>\n'
                 f'  <ul class="list">\n{essay_rows(es, "../", show="object")}\n  </ul>\n')
         p = page(f"{name} - Ghostwriters",
@@ -353,10 +365,12 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
               if roster else
               [(k, v[0]["name"], len(v)) for k, v in by_writer.items()])
     chips = "\n".join(
-        (f'    <li><a href="by/{tid}.html">{html.escape(name)} '
-         f'<span class="n">{n}</span></a></li>') if n else
-        (f'    <li><span class="chip-off">{html.escape(name)} '
-         f'<span class="n">0</span></span></li>')
+        (f'    <li><a href="by/{tid}.html">'
+         f'<img class="face" src="faces/{tid}.jpg" alt="" width="22" height="22" loading="lazy">'
+         f'{html.escape(name)} <span class="n">{n}</span></a></li>') if n else
+        (f'    <li><span class="chip-off">'
+         f'<img class="face" src="faces/{tid}.jpg" alt="" width="22" height="22" loading="lazy">'
+         f'{html.escape(name)} <span class="n">0</span></span></li>')
         for tid, name, n in sorted(listed, key=lambda x: x[1]))
     (DOCS / "writers.html").write_text(
         page("Writers - Ghostwriters",

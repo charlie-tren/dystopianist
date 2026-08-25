@@ -80,6 +80,11 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
   30%{transform:translateY(-13%) rotate(-4deg)}
   65%{transform:translateY(5%) rotate(3deg)}}
 @media (prefers-reduced-motion:reduce){.wordmark:hover .ghost{animation:none}}
+.face{border-radius:50%;flex:none;object-fit:cover;filter:saturate(.85)}
+.byline{display:flex;align-items:center;gap:.9rem;margin:0 0 2.2rem}
+.byline .face{width:54px;height:54px}
+.chips .face{width:22px;height:22px;margin:-2px 0}
+.chip-off .face{opacity:.35}
 .chips .chip-off{display:inline-flex;align-items:center;gap:.45rem;border:1px dashed var(--rule);border-radius:999px;padding:.42rem .8rem;font:500 13px/1 var(--sans);color:var(--faint)}
 </style>
 </head>
@@ -89,15 +94,14 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
     <a class="home" href="https://charlietrenorden.com/"><span class="back">&larr;</span>&nbsp;Other projects</a>
     <button class="tog" id="tog" type="button">Light</button>
   </div>
-  <p class="eyebrow">In the style of</p>
+  <div class="byline"><img class="face" src="../faces/twain.jpg" alt="" width="54" height="54" loading="lazy"><span class="eyebrow" style="margin:0">In the style of</span></div>
   <h1><a href="../by/twain.html" style="text-decoration:none">Mark Twain</a> on <a href="../on/the-karaoke-machine.html" style="text-decoration:none">the karaoke machine</a></h1>
-  <p class="stand">1835-1910 &middot; written 2026-08-25</p>
   <div class="essay">
     <p>I reckon it&#x27;s a mighty curious thing, this contraption that can make a person sound like a nightingale or a wounded animal, depending on their inclination and talent. Now, I&#x27;ve seen folks gather &#x27;round it, eager to take their turn at warbling into the microphone, and I&#x27;ve wondered what sort of sorcery is at work here.</p>
     <p>It&#x27;s as if the machine is a magic lantern, projecting the singer&#x27;s voice out into the world, amplified and transformed in some way. But then, I&#x27;ve heard tell of people who can sing like angels, and others who can curdle milk at fifty paces, and I suppose this machine just gives &#x27;em a platform to showcase their gifts.</p>
     <p>Still, it&#x27;s a puzzlement to me, and I&#x27;ll just have to take it on faith that it&#x27;s not some sort of trickery or deceit. It just makes a racket, if you ask me.</p>
   </div>
-  <p class="pastiche"><b>This is pastiche.</b> Mark Twain (1835-1910) never wrote a word about the karaoke machine and never saw one. It is written in imitation of their style by a language model, the way a cartoonist draws a likeness.</p>
+  <p class="pastiche"><b>This is pastiche.</b> Mark Twain never wrote a word about the karaoke machine and never saw one. It is written in imitation of their style by a language model, the way a cartoonist draws a likeness.</p>
 
   <p class="foot"><a href="../index.html">All the essays</a></p>
 </div>

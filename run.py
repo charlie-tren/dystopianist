@@ -22,6 +22,7 @@ import yaml
 
 import _env
 import critic
+import styles
 import render
 import write as write_stage
 
@@ -50,7 +51,7 @@ def main() -> int:
     ap.add_argument("--dry", action="store_true")
     args = ap.parse_args()
 
-    thinkers = load("thinkers.yaml")["thinkers"]
+    thinkers = styles.load()
     objects = load("objects.yaml")["objects"]
     by_id = {t["id"]: t for t in thinkers}
     shots = {t["id"]: t["shot"] for t in thinkers}

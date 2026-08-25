@@ -80,6 +80,11 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
   30%{transform:translateY(-13%) rotate(-4deg)}
   65%{transform:translateY(5%) rotate(3deg)}}
 @media (prefers-reduced-motion:reduce){.wordmark:hover .ghost{animation:none}}
+.face{border-radius:50%;flex:none;object-fit:cover;filter:saturate(.85)}
+.byline{display:flex;align-items:center;gap:.9rem;margin:0 0 2.2rem}
+.byline .face{width:54px;height:54px}
+.chips .face{width:22px;height:22px;margin:-2px 0}
+.chip-off .face{opacity:.35}
 .chips .chip-off{display:inline-flex;align-items:center;gap:.45rem;border:1px dashed var(--rule);border-radius:999px;padding:.42rem .8rem;font:500 13px/1 var(--sans);color:var(--faint)}
 </style>
 </head>
@@ -89,14 +94,13 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
     <a class="home" href="https://charlietrenorden.com/"><span class="back">&larr;</span>&nbsp;Other projects</a>
     <button class="tog" id="tog" type="button">Light</button>
   </div>
-  <p class="eyebrow">In the style of</p>
+  <div class="byline"><img class="face" src="../faces/wilde.jpg" alt="" width="54" height="54" loading="lazy"><span class="eyebrow" style="margin:0">In the style of</span></div>
   <h1><a href="../by/wilde.html" style="text-decoration:none">Oscar Wilde</a> on <a href="../on/the-automatic-hand-dryer.html" style="text-decoration:none">the automatic hand dryer</a></h1>
-  <p class="stand">1854-1900 &middot; written 2026-08-25</p>
   <div class="essay">
     <p>In the most fastidiously designed of public spaces, one finds an object that whispers promises of hygiene and efficiency, yet ultimately reveals itself to be a curious amalgam of noise and necessity. The gentle warmth it dispenses is a small comfort, indeed, when set against the cacophonous drone that accompanies its operation, a sound that seems to reverberate deep within the chambers of the soul.</p>
     <p>And yet, we submit to its ministrations, our hands held supplicant beneath its blustery caress, as if the price of cleanliness must always be paid in full to the altar of din and disruption. It is a trade, one supposes, that we are willing to make, for in the end, it is not the elegance of its design, but the brute efficacy of its purpose that recommends it to our attention. Still, one cannot help but wonder if the soft glow of its metal skin is not, in fact, a subtle rebuke to the senses, a reminder that even in the most mundane of transactions, there lies a hidden toll, exacted in the currency of our own serenity.</p>
   </div>
-  <p class="pastiche"><b>This is pastiche.</b> Oscar Wilde (1854-1900) never wrote a word about the automatic hand dryer and never saw one. It is written in imitation of their style by a language model, the way a cartoonist draws a likeness.</p>
+  <p class="pastiche"><b>This is pastiche.</b> Oscar Wilde never wrote a word about the automatic hand dryer and never saw one. It is written in imitation of their style by a language model, the way a cartoonist draws a likeness.</p>
 
   <p class="foot"><a href="../index.html">All the essays</a></p>
 </div>

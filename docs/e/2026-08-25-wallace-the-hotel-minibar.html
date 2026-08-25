@@ -80,6 +80,11 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
   30%{transform:translateY(-13%) rotate(-4deg)}
   65%{transform:translateY(5%) rotate(3deg)}}
 @media (prefers-reduced-motion:reduce){.wordmark:hover .ghost{animation:none}}
+.face{border-radius:50%;flex:none;object-fit:cover;filter:saturate(.85)}
+.byline{display:flex;align-items:center;gap:.9rem;margin:0 0 2.2rem}
+.byline .face{width:54px;height:54px}
+.chips .face{width:22px;height:22px;margin:-2px 0}
+.chip-off .face{opacity:.35}
 .chips .chip-off{display:inline-flex;align-items:center;gap:.45rem;border:1px dashed var(--rule);border-radius:999px;padding:.42rem .8rem;font:500 13px/1 var(--sans);color:var(--faint)}
 </style>
 </head>
@@ -89,13 +94,12 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
     <a class="home" href="https://charlietrenorden.com/"><span class="back">&larr;</span>&nbsp;Other projects</a>
     <button class="tog" id="tog" type="button">Light</button>
   </div>
-  <p class="eyebrow">In the style of</p>
+  <div class="byline"><img class="face" src="../faces/wallace.jpg" alt="" width="54" height="54" loading="lazy"><span class="eyebrow" style="margin:0">In the style of</span></div>
   <h1><a href="../by/wallace.html" style="text-decoration:none">David Foster Wallace</a> on <a href="../on/the-hotel-minibar.html" style="text-decoration:none">the hotel minibar</a></h1>
-  <p class="stand">1962-2008 &middot; written 2026-08-25</p>
   <div class="essay">
     <p>As you stand there, staring at the minibar&#x27;s compact, overlit interior, it&#x27;s possible that what you&#x27;re really looking at is not the array of diminutive bottles and snacks, but rather the apotheosis of a certain kind of consumerist intimacy, one that promises to satisfy your every late-night craving while also, somehow, reinforcing the sense of isolation that drove you to raid the thing in the first place, and yet, even as you&#x27;re aware of this dynamic, you can&#x27;t help but feel a twinge of excitement, or maybe it&#x27;s just anticipation, at the prospect of indulging in these pricey, bite-sized luxuries, which is to say that the minibar, in its very design, seems to be exploiting a deep-seated paradox, one that pits your desire for comfort and convenience against your suspicion of being, well, exploited, and it&#x27;s this tension, this push-and-pull, that makes the experience of using the minibar feel at once so alluring and so fundamentally unsatisfying, like a whispered secret that&#x27;s also a lie.</p>
   </div>
-  <p class="pastiche"><b>This is pastiche.</b> David Foster Wallace (1962-2008) never wrote a word about the hotel minibar and never saw one. It is written in imitation of their style by a language model, the way a cartoonist draws a likeness.</p>
+  <p class="pastiche"><b>This is pastiche.</b> David Foster Wallace never wrote a word about the hotel minibar and never saw one. It is written in imitation of their style by a language model, the way a cartoonist draws a likeness.</p>
 
   <p class="foot"><a href="../index.html">All the essays</a></p>
 </div>
