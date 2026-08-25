@@ -220,12 +220,6 @@ def paragraphs(essay: str) -> str:
     return "\n    ".join(f"<p>{html.escape(p)}</p>" for p in out)
 
 
-def sentence(obj: str) -> str:
-    """First letter up, the rest left alone - the objects are stored the way they read
-    mid-sentence, and LinkedIn must not be flattened by a .capitalize()."""
-    return html.escape(obj[:1].upper() + obj[1:])
-
-
 def obj_slug(obj: str) -> str:
     return "".join(c if c.isalnum() else "-" for c in obj.lower()).strip("-")[:50]
 
@@ -344,9 +338,9 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
     for obj, es in by_object.items():
         who = " and ".join([", ".join(x["name"] for x in es[:-1]), es[-1]["name"]]).strip(", ")
         # The rows are the front page's rows verbatim - name, object, verdict, score.
-        body = (f'  <h1>{sentence(obj)}</h1>\n'
+        body = (f'  <h1>{html.escape(obj)}</h1>\n'
                 f'  <ul class="list">\n{essay_rows(es, "../")}\n  </ul>\n')
-        p = page(f"{sentence(obj)} - Ghostwriters",
+        p = page(f"{obj} - Ghostwriters",
                  f"{who} on {obj}, in pastiche.", body, "../", "objects", "")
         (DOCS / "on" / f"{obj_slug(obj)}.html").write_text(p, encoding="utf-8", newline="\n")
 
