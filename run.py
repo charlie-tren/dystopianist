@@ -112,8 +112,10 @@ def main() -> int:
             if failed:
                 print(f"giving up on {tid}", file=sys.stderr)
                 return 1
-        print(f"\nevery writer has at least {args.until}")
-        return 0
+        # Fall through to today's essay. Without this the daily job would go silent
+        # the moment the backfill finished: --until would find nobody short, print a
+        # cheerful line and write nothing, every day, forever.
+        print(f"\nevery writer has at least {args.until} - writing today's essay")
 
     try:
         return one(args.writer, thinkers, objects, by_id, shots, past, args.dry)

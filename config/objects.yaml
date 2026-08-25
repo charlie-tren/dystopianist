@@ -6,13 +6,13 @@
 # back to the whole roster, because part of the point is a writer meeting something
 # they have no natural claim on.
 objects:
-  - name: the self-checkout machine
+  - name: self-checkout machines
     writers: [kafka, orwell, wallace]
-  - name: the alarm clock
+  - name: alarm clocks
     writers: [aurelius, montaigne, kafka]
-  - name: the group chat
+  - name: group chats
     writers: [wilde, ephron, didion]
-  - name: the airport lounge
+  - name: airport lounges
     writers: [didion, wallace, orwell]
   - name: dating apps
     writers: [wilde, nietzsche, ephron]
