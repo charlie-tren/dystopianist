@@ -21,7 +21,7 @@ body{margin:0;background:var(--ground);color:var(--ink);font:400 18px/1.68 var(-
 a{color:inherit}
 :focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 .wrap{max-width:660px;margin:0 auto;padding:2.2rem 1.4rem 5rem}
-.bar{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-bottom:3.4rem}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-bottom:2.2rem}
 .home{order:2;font:500 13px/1 var(--sans);letter-spacing:.1em;text-transform:uppercase;
   color:var(--dim);text-decoration:none;display:inline-flex;align-items:center;gap:0}
 .home:hover{color:var(--accent)}
@@ -216,7 +216,10 @@ def essay_rows(entries, up="", show="both") -> str:
     for e in reversed(entries):
         # the sub-line carries whichever half the heading does not. No dates: a
         # writer's years and the day a machine generated the essay are both noise.
-        sub = {"writer": e["object"], "object": e["name"]}.get(show, "")
+        # Nothing on a subject page: the heading is the object, so a row reading
+        # "Marcus Aurelius / escape rooms" says it twice. That page is meant to
+        # read like the front page - a name and a score.
+        sub = {"object": e["name"]}.get(show, "")
         if show == "object":
             t = html.escape(e["object"])
         elif show == "writer":
@@ -224,11 +227,11 @@ def essay_rows(entries, up="", show="both") -> str:
         else:
             t = (f'{html.escape(e["name"])} '
                  f'<span class="thing">on {html.escape(e["object"])}</span>')
-        # What the writer made of it, and how much out of ten. Only on the mixed
-        # listing: on a writer's own page a column of their own scores is a chart
-        # nobody asked for.
+        # What the writer made of it, and how much out of ten. Not on a writer's own
+        # page, where a column of their own scores is a chart nobody asked for; a
+        # subject page is the same comparison the front page makes, so it keeps it.
         rate = ""
-        if show == "both" and e.get("score") is not None:
+        if show in ("both", "writer") and e.get("score") is not None:
             band = "s-bad" if e["score"] < 3.5 else "s-good" if e["score"] > 6.5 else "s-mid"
             rate = (f'<span class="rate"><span class="verdict">'
                     f'{html.escape(e.get("verdict", ""))}</span>'
@@ -319,8 +322,6 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
     for obj, es in by_object.items():
         who = " and ".join([", ".join(x["name"] for x in es[:-1]), es[-1]["name"]]).strip(", ")
         body = (f'  <p class="eyebrow">On</p>\n  <h1>{html.escape(obj)}</h1>\n'
-                f'  <p class="stand">{len(es)} '
-                f'{"writer" if len(es) == 1 else "writers"} on it, none of whom saw one.</p>\n'
                 f'  <ul class="list">\n{essay_rows(es, "../", show="writer")}\n  </ul>\n')
         p = page(f"{obj} - Ghostwriters",
                  f"{who} on {obj}, in pastiche.", body, "../", "objects",
@@ -328,8 +329,8 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
         (DOCS / "on" / f"{obj_slug(obj)}.html").write_text(p, encoding="utf-8", newline="\n")
 
     # --- the three top-level views ------------------------------------------
-    desc = ("Essays by writers who died before the thing they are describing existed. "
-            "Pastiche, written by a language model in imitation of their style.")
+    desc = ("We asked dead writers what they make of the modern world. "
+            "They were not kind.")
     listing = f'  <ul class="list">\n{essay_rows(entries)}\n  </ul>\n' if entries else ""
     idx = (f'  <h1 class="wordmark">{GHOST}Ghostwriters</h1>\n'
            f'  <p class="stand">{html.escape(desc)}</p>\n' + listing)
