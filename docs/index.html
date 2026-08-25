@@ -72,7 +72,14 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .chips a{display:inline-flex;align-items:center;gap:.45rem}
 .chips .g{color:var(--accent);flex:none;opacity:.85}
 .wordmark{display:flex;align-items:center;gap:.55rem}
-.wordmark .ghost{flex:none;color:var(--ink)}
+.wordmark .ghost{flex:none;color:var(--ink);transition:transform .25s ease}
+/* He floats when you hover him. Two seconds, eased both ways, a few pixels - a
+   ghost bobbing, not a logo doing a trick. */
+.wordmark:hover .ghost{animation:bob 2s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0) rotate(0)}
+  30%{transform:translateY(-13%) rotate(-4deg)}
+  65%{transform:translateY(5%) rotate(3deg)}}
+@media (prefers-reduced-motion:reduce){.wordmark:hover .ghost{animation:none}}
 .chips .chip-off{display:inline-flex;align-items:center;gap:.45rem;border:1px dashed var(--rule);border-radius:999px;padding:.42rem .8rem;font:500 13px/1 var(--sans);color:var(--faint)}
 </style>
 </head>
@@ -82,11 +89,11 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
     <a class="home" href="https://charlietrenorden.com/"><span class="back">&larr;</span>&nbsp;Other projects</a>
     <button class="tog" id="tog" type="button">Light</button>
   </div>
-  <h1 class="wordmark"><svg class="ghost" viewBox="0 0 100 100" width="1em" height="1em" aria-hidden="true"><path d="M28 74V47a22 22 0 0 1 44 0v27l-7.3-6-7.3 6-7.4-6-7.3 6-7.4-6z" fill="currentColor"/><circle cx="42" cy="48" r="4.2" fill="var(--ground)"/><circle cx="58" cy="48" r="4.2" fill="var(--ground)"/><path d="M60 63c-3.5 3.2-9 3.4-12.8.6" fill="none" stroke="var(--ground)" stroke-width="3" stroke-linecap="round"/></svg>Ghostwriters</h1>
+  <h1 class="wordmark"><svg class="ghost" viewBox="0 0 100 100" width="1em" height="1em" aria-hidden="true"><path d="M26 76V50a24 24 0 0 1 48 0v26l-8-7-8 7-8-7-8 7-8-7z" fill="currentColor"/><circle cx="41" cy="49" r="5.4" fill="var(--ground)"/><circle cx="59" cy="49" r="5.4" fill="var(--ground)"/></svg>Ghostwriters</h1>
   <nav class="tabs"><a href="index.html" aria-current="page">Latest</a><a href="writers.html">Writers</a><a href="objects.html">Things</a></nav>
   <p class="stand">Essays by writers who died before the thing they are describing existed. Pastiche, written by a language model in imitation of their style.</p>
 
-  <p class="foot">0 essays. Nothing here is a quotation.</p>
+  <p class="foot"></p>
 </div>
 <script>
   (function(){

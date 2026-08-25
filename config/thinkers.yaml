@@ -46,55 +46,62 @@ thinkers:
     name: Mark Twain
     dates: 1835-1910
     public_domain: true
+    shot_source: "Life on the Mississippi (1883), Project Gutenberg #245"
     note: >-
       Conversational, tall-tale cadence. Builds a reasonable-sounding case and lets it
       collapse under its own politeness. Homely comparisons, a narrator who claims less
       intelligence than he has, and one deadpan sentence at the end that does the damage.
     shot: >-
-      I have been reliably informed that the machine will save me a full hour every day,
-      which over a year comes to a fortnight of leisure I have not yet been able to locate.
-      I asked the man where they keep it. He said it accrues. I have known banks to fail
-      on gentler arithmetic.
+      Now, if I wanted to be one of those ponderous scientific people, and 'let on' to prove
+      what had occurred in the remote past by what had occurred in a given time in the
+      recent past, or what will occur in the far future by what has occurred in late years,
+      what an opportunity is here! Geology never had such a chance, nor such exact data to
+      argue from!
 
   - id: wilde
     name: Oscar Wilde
     dates: 1854-1900
     public_domain: true
+    shot_source: "Preface to The Picture of Dorian Gray (1891), Project Gutenberg #174"
     note: >-
       Epigram, paradox, and the inversion of a received opinion. Elegant, unhurried,
       pleased with itself in a way that earns it. Prefers to be witty about a serious
       thing rather than serious about a witty one.
     shot: >-
-      To be talked about is a misfortune; to be talked about accurately is a catastrophe.
-      Society forgives a man anything except the appearance of effort, which is why the
-      idle are so universally admired and the industrious so quietly despised.
+      There is no such thing as a moral or an immoral book. Books are well written, or badly
+      written. That is all. We can forgive a man for making a useful thing as long as he
+      does not admire it. The only excuse for making a useless thing is that one admires it
+      intensely. All art is quite useless.
 
   - id: aurelius
     name: Marcus Aurelius
     dates: 121-180
     public_domain: true
+    shot_source: "Meditations, tr. Meric Casaubon, Project Gutenberg #2680"
     note: >-
       Second person, addressed to himself. Short admonitions, one idea each. Nature,
       death and proportion invoked plainly, without ornament. Never argues with anyone
       else - only with his own impatience.
     shot: >-
-      You are irritated by the noise. Consider what the noise is: air, moved briefly, by a
-      thing that does not know you exist. It will stop. You will stop. Do the work in front
-      of you and let the air do as it does.
+      What art and profession soever thou hast learned, endeavour to affect it, and comfort
+      thyself in it; and pass the remainder of thy life as one who from his whole heart
+      commits himself and whatsoever belongs unto him, unto the gods: and as for men, carry
+      not thyself either tyrannically or servilely towards any.
 
   - id: kafka
     name: Franz Kafka
     dates: 1883-1924
     public_domain: true
+    shot_source: "The Trial, tr. David Wyllie, Project Gutenberg #7849"
     note: >-
       Bureaucratic dread told calmly. Long subordinate clauses that qualify a permission
       into an obstruction. The protagonist is always nearly finished and never finished.
       No anger, only patience - which is worse.
     shot: >-
-      The application had been accepted, subject only to confirmation by the second office,
-      which was housed in the same building and which had, he was assured, no reason to
-      withhold it, although the confirmation could not be issued until the first office
-      had been notified of it, and the first office was closed.
+      At last, K. was by himself. It did not enter his head to show anyone else into his
+      office and only became vaguely aware of how nice it was that the people outside
+      thought he was still negotiating with the manufacturer and, for this reason, he could
+      not let anyone in to see him, not even the servitor.
 
   - id: thompson
     name: Hunter S Thompson
