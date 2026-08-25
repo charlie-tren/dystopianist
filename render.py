@@ -95,12 +95,12 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .backlink:hover{color:var(--accent)}
 .backlink .arr{color:var(--accent);font-size:14px}
 .chips .face{width:26px;height:26px;margin:-3px 0}
-/* The writers list carries a portrait, so it gets more room than the Exhibits list. */
-.chips.people a,.chips.people .chip-off{padding:0 1.5rem 0 0;height:66px;
-  font-size:17px;gap:1rem}
-.chips.people{gap:.8rem}
-.chips.people .face{width:64px;height:64px;margin:0}
-.chips.people .n{font-size:13.5px}
+/* The writers list carries a portrait, so it gets more room than the Subjects list. */
+.chips.people a,.chips.people .chip-off{padding:0 1.7rem 0 0;height:88px;
+  font-size:18px;gap:1.15rem}
+.chips.people{gap:.9rem}
+.chips.people .face{width:86px;height:86px;margin:0}
+.chips.people .n{font-size:14px}
 .chip-off .face{opacity:.35}
 .chips .chip-off{display:inline-flex;align-items:center;gap:.45rem;border:1px dashed var(--rule);border-radius:999px;padding:.42rem .8rem;font:500 13px/1 var(--sans);color:var(--faint)}
 """
@@ -169,22 +169,13 @@ def nav(up: str, here: str) -> str:
     the site is browsable from wherever you land, not only from the front page."""
     items = [("index", "Latest", f"{up}index.html"),
              ("writers", "Writers", f"{up}writers.html"),
-             ("objects", "Exhibits", f"{up}objects.html")]
+             ("objects", "Subjects", f"{up}objects.html")]
     out = ['  <nav class="tabs">']
     for key, label, href in items:
         cur = ' aria-current="page"' if key == here else ""
         out.append(f'<a href="{href}"{cur}>{label}</a>')
     out.append("</nav>")
     return "".join(out) + "\n"
-
-
-def pastiche_note(name: str) -> str:
-    """One line, not a boxed panel. Something has to say it - these are real people
-    and the page puts invented words in their mouths under their name - but the front
-    page already says the site is pastiche, so the essay page only has to be honest,
-    not emphatic."""
-    return ('<p class="foot">A language model imitating '
-            f'{html.escape(name)}, who did not write this.</p>')
 
 
 def slug(entry: dict) -> str:
@@ -304,7 +295,7 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
                 f'<a href="../on/{obj_slug(e["object"])}.html" style="text-decoration:none">'
                 f'{html.escape(e["object"])}</a></span></h1>\n'
                 f'  <div class="essay">\n    {paragraphs(e["essay"])}\n  </div>\n'
-                f'  {pastiche_note(e["name"])}\n' + also)
+                + also)
         p = page(f'{e["name"]} on {e["object"]}',
                  f'A pastiche essay in the style of {e["name"]} about {e["object"]}, '
                  'which they never saw.',
@@ -333,7 +324,7 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
                 f'  <ul class="list">\n{essay_rows(es, "../", show="writer")}\n  </ul>\n')
         p = page(f"{obj} - Ghostwriters",
                  f"{who} on {obj}, in pastiche.", body, "../", "objects",
-                 '<a href="../objects.html">Every exhibit</a>')
+                 '<a href="../objects.html">Every subject</a>')
         (DOCS / "on" / f"{obj_slug(obj)}.html").write_text(p, encoding="utf-8", newline="\n")
 
     # --- the three top-level views ------------------------------------------
@@ -354,10 +345,10 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
               [(k, v[0]["name"], len(v)) for k, v in by_writer.items()])
     chips = "\n".join(
         (f'    <li><a href="by/{tid}.html">'
-         f'<img class="face" src="faces/{tid}.jpg" alt="" width="64" height="64" loading="lazy">'
+         f'<img class="face" src="faces/{tid}.jpg" alt="" width="86" height="86" loading="lazy">'
          f'{html.escape(name)} <span class="n">{n}</span></a></li>') if n else
         (f'    <li><span class="chip-off">'
-         f'<img class="face" src="faces/{tid}.jpg" alt="" width="64" height="64" loading="lazy">'
+         f'<img class="face" src="faces/{tid}.jpg" alt="" width="86" height="86" loading="lazy">'
          f'{html.escape(name)} <span class="n">0</span></span></li>')
         for tid, name, n in sorted(listed, key=lambda x: x[1]))
     (DOCS / "writers.html").write_text(
@@ -373,9 +364,9 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
         f'<span class="n">{len(es)}</span></a></li>'
         for o, es in sorted(by_object.items()))
     (DOCS / "objects.html").write_text(
-        page("Exhibits - Ghostwriters",
-             "Every exhibit written about here, and how many writers have been set on it.",
-             '  <h1>Exhibits</h1>\n'
+        page("Subjects - Ghostwriters",
+             "Every subject written about here, and how many writers have been set on it.",
+             '  <h1>Subjects</h1>\n'
              f'  <ul class="chips">\n{ochips}\n  </ul>\n', "", "objects",
              ""),
         encoding="utf-8", newline="\n")

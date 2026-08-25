@@ -23,6 +23,12 @@ jobs:
       - name: Write today's essay
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          # Locally llm.py falls back to Cloudflare when Gemini's day is spent. CI had
+          # no such fallback, so a spent Gemini day was a missed essay. Empty until
+          # the two secrets are added to the repo, which llm.py handles as "no
+          # provider" rather than an error.
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
         run: python run.py
 
       # Runs AFTER the essay lands, so a collapse shows up on the day it happens

@@ -3,6 +3,7 @@
     python tools/portraits.py                     # only writers without a portrait
     python tools/portraits.py --force             # redraw everything
     python tools/portraits.py --only orwell,kafka # redraw just these
+    python tools/portraits.py --model=sdxl        # a different image model
 
 Deliberately CARTOON, not photoreal. These are real people and the site already
 says the essays are pastiche; a photorealistic fake portrait would undercut that,
@@ -26,7 +27,16 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import _env  # noqa: E402
 import styles  # noqa: E402
 
-MODEL = "@cf/black-forest-labs/flux-1-schnell"
+# Flux Schnell is a distilled 4-8 step model: fast and free, but the line quality is
+# the weakest part of the set. The alternatives are here so the choice can be
+# COMPARED rather than assumed - run --model sdxl and put the two side by side.
+MODELS = {
+    "flux":       "@cf/black-forest-labs/flux-1-schnell",
+    "sdxl":       "@cf/stabilityai/stable-diffusion-xl-base-1.0",
+    "lightning":  "@cf/bytedance/stable-diffusion-xl-lightning",
+    "dreamshaper": "@cf/lykon/dreamshaper-8-lcm",
+}
+MODEL = MODELS["flux"]
 OUT = Path(__file__).resolve().parent.parent / "docs" / "faces"
 
 # One line each, describing the PERSON not the style - the style is the same for
@@ -53,11 +63,17 @@ STYLE = ("hand-drawn ink caricature portrait, black and white only, monochrome, 
          "no text anywhere, no lettering, no words, no signature, no watermark, no stray marks")
 
 
-def draw(acct: str, tok: str, prompt: str) -> bytes:
-    r = requests.post(f"https://api.cloudflare.com/client/v4/accounts/{acct}/ai/run/{MODEL}",
-                      headers={"Authorization": f"Bearer {tok}"},
-                      json={"prompt": prompt, "steps": 8}, timeout=180)
+def draw(acct: str, tok: str, prompt: str, model: str, steps: int) -> bytes:
+    """Flux answers with base64 inside JSON; the Stable Diffusion endpoints answer
+    with raw PNG bytes. Handle both rather than assuming the one we started with."""
+    body = {"prompt": prompt, "steps": steps,
+            "negative_prompt": "text, lettering, words, signature, watermark, colour, "
+                               "blurry, smudged, low detail"}
+    r = requests.post(f"https://api.cloudflare.com/client/v4/accounts/{acct}/ai/run/{model}",
+                      headers={"Authorization": f"Bearer {tok}"}, json=body, timeout=180)
     r.raise_for_status()
+    if "image" in r.headers.get("content-type", ""):
+        return r.content
     d = r.json()
     if not d.get("success"):
         raise RuntimeError(str(d.get("errors"))[:200])
@@ -90,6 +106,12 @@ def main() -> int:
     if only == "--only":                               # "--only x" rather than "--only=x"
         only = sys.argv[sys.argv.index("--only") + 1]
     wanted = {x.strip() for x in only.split(",") if x.strip()}
+    which = next((a.split("=", 1)[-1] for a in sys.argv if a.startswith("--model=")), "flux")
+    if which not in MODELS:
+        print(f"--model must be one of {', '.join(MODELS)}", file=sys.stderr)
+        return 1
+    model = MODELS[which]
+    steps = 8 if which == "flux" else 20
     OUT.mkdir(parents=True, exist_ok=True)
     for t in styles.load():
         if wanted and t["id"] not in wanted:
@@ -100,15 +122,15 @@ def main() -> int:
             continue
         prompt = f"{LOOK[t['id']]}. {STYLE}"
         try:
-            raw = draw(acct, tok, prompt)
+            raw = draw(acct, tok, prompt, model, steps)
         except Exception as exc:                       # noqa: BLE001
             print(f"{t['id']:10} FAILED {type(exc).__name__}: {str(exc)[:110]}")
             continue
         from PIL import Image
         im = Image.open(_io.BytesIO(raw)).convert("L").convert("RGB")
-        im = crop(im).resize((360, 360), Image.LANCZOS)
+        im = crop(im).resize((512, 512), Image.LANCZOS)
         im.save(dest, "JPEG", quality=82, optimize=True)
-        print(f"{t['id']:10} {dest.stat().st_size // 1024}KB")
+        print(f"{t['id']:10} {dest.stat().st_size // 1024}KB via {which}")
     return 0
 
 
