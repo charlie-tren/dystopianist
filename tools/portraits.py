@@ -35,9 +35,9 @@ LOOK = {
     "wallace":  "a man in his thirties with long hair under a white bandana, round glasses, unshaven",
     "orwell":   "a gaunt Englishman with a thin moustache, tweed jacket, tired eyes",
     "twain":    "an older man with a full white walrus moustache and wild white hair, white suit",
-    "wilde":    "a heavyset young Victorian dandy with a centre parting, fur-collared coat, a carnation in the buttonhole",
+    "wilde":    "a heavyset young Victorian dandy with long centre-parted hair, fur-collared overcoat, one small flower in the buttonhole",
     "aurelius": "a bearded Roman emperor in a plain toga, curly hair and beard, weary",
-    "kafka":    "a thin young man in a dark suit and stiff collar, enormous dark eyes, ears sticking out",
+    "kafka":    "a thin young man in a dark suit and stiff collar, black hair swept straight back, a narrow face and large dark intense eyes",
     "thompson": "a bald man in aviator sunglasses with a cigarette holder clenched in his teeth, bucket hat",
     "didion":   "a very slight woman in her sixties, dark sunglasses, straight shoulder-length hair, cigarette, cool unsmiling expression",
 }
