@@ -35,6 +35,7 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .stand{color:var(--dim);font-size:1.08rem;margin:0 0 2.6rem;max-width:46ch}
 .eyebrow{font:600 11px/1 var(--sans);letter-spacing:.22em;text-transform:uppercase;
   color:var(--accent);margin:0 0 1.1rem}
+.essay{margin-top:2.4rem}
 .essay p{margin:0 0 1.35rem}
 .essay p:first-of-type::first-letter{float:left;font-size:3.4rem;line-height:.86;
   padding:.06em .09em 0 0;color:var(--accent)}
@@ -86,14 +87,21 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
   65%{transform:translateY(5%) rotate(3deg)}}
 @media (prefers-reduced-motion:reduce){.wordmark:hover .ghost{animation:none}}
 .face{border-radius:50%;flex:none;object-fit:cover;filter:saturate(.85)}
-.byline{display:flex;align-items:center;gap:.9rem;margin:0 0 2.2rem}
-.byline .face{width:76px;height:76px}
+/* The portrait sits beside the title rather than over it under a label. */
+.titled{display:flex;align-items:center;gap:1rem}
+.titled .face{width:78px;height:78px}
+/* NOT .back - the top bar already uses that for the arrow inside .home. */
+.backlink{display:inline-flex;align-items:center;color:var(--dim);text-decoration:none;
+  font:500 12px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;
+  margin:0 0 1.4rem}
+.backlink:hover{color:var(--accent)}
+.backlink .arr{color:var(--accent);font-size:14px}
 .chips .face{width:26px;height:26px;margin:-3px 0}
 /* The writers list carries a portrait, so it gets more room than the Things list. */
-.chips.people a,.chips.people .chip-off{padding:.55rem 1.05rem;font-size:15px;gap:.7rem}
-.chips.people{gap:.65rem}
-.chips.people .face{width:40px;height:40px;margin:-8px 0}
-.chips.people .n{font-size:12.5px}
+.chips.people a,.chips.people .chip-off{padding:.6rem 1.15rem;font-size:16px;gap:.8rem}
+.chips.people{gap:.75rem}
+.chips.people .face{width:48px;height:48px;margin:-10px 0}
+.chips.people .n{font-size:13px}
 .chip-off .face{opacity:.35}
 .chips .chip-off{display:inline-flex;align-items:center;gap:.45rem;border:1px dashed var(--rule);border-radius:999px;padding:.42rem .8rem;font:500 13px/1 var(--sans);color:var(--faint)}
 """
@@ -176,8 +184,7 @@ def pastiche_note(name: str) -> str:
     people and the essay puts words in their mouths; a disclaimer nobody scrolls
     to is not a disclaimer."""
     return ('<p class="pastiche"><b>This is pastiche.</b> It is written in imitation of '
-            f'{html.escape(name)}\'s style by a language model, the way a cartoonist '
-            'draws a likeness.</p>')
+            f'{html.escape(name)}\'s style by a language model.</p>')
 
 
 def slug(entry: dict) -> str:
@@ -288,28 +295,28 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
                               for x in others)
             also = (f'  <p class="foot">Also on {html.escape(e["object"])}: {links}. '
                     f'<a href="../on/{obj_slug(e["object"])}.html">All of them</a>.</p>\n')
-        body = (f'  <div class="byline"><img class="face" src="../faces/{e["thinker"]}.jpg" '
-                f'alt="" width="76" height="76" loading="lazy">'
-                '<span class="eyebrow" style="margin:0">In the style of</span></div>\n'
-                f'  <h1><a href="../by/{e["thinker"]}.html" style="text-decoration:none">'
+        body = ('  <a class="backlink" href="../index.html">'
+                '<span class="arr">&larr;</span>&nbsp;All the essays</a>\n'
+                f'  <h1 class="titled"><img class="face" src="../faces/{e["thinker"]}.jpg" '
+                f'alt="" width="76" height="76" loading="lazy"><span>'
+                f'<a href="../by/{e["thinker"]}.html" style="text-decoration:none">'
                 f'{html.escape(e["name"])}</a> on '
                 f'<a href="../on/{obj_slug(e["object"])}.html" style="text-decoration:none">'
-                f'{html.escape(e["object"])}</a></h1>\n'
+                f'{html.escape(e["object"])}</a></span></h1>\n'
                 f'  <div class="essay">\n    {paragraphs(e["essay"])}\n  </div>\n'
                 f'  {pastiche_note(e["name"])}\n' + also)
         p = page(f'{e["name"]} on {e["object"]}',
                  f'A pastiche essay in the style of {e["name"]} about {e["object"]}, '
                  'which they never saw.',
-                 body, "../", "", '<a href="../index.html">All the essays</a>')
+                 body, "../", "", "")
         (DOCS / "e" / f"{slug(e)}.html").write_text(p, encoding="utf-8", newline="\n")
 
     # --- one page per writer ------------------------------------------------
     for tid, es in by_writer.items():
         name, dates = es[0]["name"], es[0]["dates"]
-        body = (f'  <div class="byline"><img class="face" src="../faces/{tid}.jpg" alt="" '
+        body = (f'  <h1 class="titled"><img class="face" src="../faces/{tid}.jpg" alt="" '
                 f'width="76" height="76" loading="lazy">'
-                '<span class="eyebrow" style="margin:0">In the style of</span></div>\n'
-                f'  <h1>{html.escape(name)}</h1>\n'
+                f'<span>{html.escape(name)}</span></h1>\n'
                 f'  <ul class="list">\n{essay_rows(es, "../", show="object")}\n  </ul>\n')
         p = page(f"{name} - Ghostwriters",
                  f"Pastiche essays in the style of {name} about things that did not exist "
@@ -347,10 +354,10 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
               [(k, v[0]["name"], len(v)) for k, v in by_writer.items()])
     chips = "\n".join(
         (f'    <li><a href="by/{tid}.html">'
-         f'<img class="face" src="faces/{tid}.jpg" alt="" width="40" height="40" loading="lazy">'
+         f'<img class="face" src="faces/{tid}.jpg" alt="" width="48" height="48" loading="lazy">'
          f'{html.escape(name)} <span class="n">{n}</span></a></li>') if n else
         (f'    <li><span class="chip-off">'
-         f'<img class="face" src="faces/{tid}.jpg" alt="" width="40" height="40" loading="lazy">'
+         f'<img class="face" src="faces/{tid}.jpg" alt="" width="48" height="48" loading="lazy">'
          f'{html.escape(name)} <span class="n">0</span></span></li>')
         for tid, name, n in sorted(listed, key=lambda x: x[1]))
     (DOCS / "writers.html").write_text(
