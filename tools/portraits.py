@@ -66,9 +66,16 @@ STYLE = ("hand-drawn ink caricature portrait, black and white only, monochrome, 
 def draw(acct: str, tok: str, prompt: str, model: str, steps: int) -> bytes:
     """Flux answers with base64 inside JSON; the Stable Diffusion endpoints answer
     with raw PNG bytes. Handle both rather than assuming the one we started with."""
-    body = {"prompt": prompt, "steps": steps,
-            "negative_prompt": "text, lettering, words, signature, watermark, colour, "
-                               "blurry, smudged, low detail"}
+    body = {"prompt": prompt, "steps": steps}
+    if "flux" not in model:
+        # Flux Schnell 400s on ANY field it does not know - it takes prompt and steps
+        # and nothing else, no negative prompt and no seed. Verified against the API,
+        # not assumed. The Stable Diffusion endpoints take both, and a SHARED seed is
+        # what would make the set read as one hand rather than eleven unrelated
+        # commissions - which is a reason to prefer them over Flux for this job.
+        body["negative_prompt"] = ("text, lettering, words, signature, watermark, "
+                                   "colour, blurry, smudged, low detail")
+        body["seed"] = SEED
     r = requests.post(f"https://api.cloudflare.com/client/v4/accounts/{acct}/ai/run/{model}",
                       headers={"Authorization": f"Bearer {tok}"}, json=body, timeout=180)
     r.raise_for_status()
@@ -87,6 +94,10 @@ def draw(acct: str, tok: str, prompt: str, model: str, steps: int) -> bytes:
 # name, always within a few percent of a corner. Trimming the margin removes it and
 # tightens the framing, which the head-and-shoulders composition can spare.
 INSET = 0.09
+
+# One seed for the whole set, so the style is a constant and only the face varies.
+# Ignored by Flux, which does not accept one.
+SEED = 774411
 
 
 def crop(im):

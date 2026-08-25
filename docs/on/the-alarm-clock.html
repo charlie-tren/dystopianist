@@ -111,8 +111,24 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .chips.people .face{width:86px;height:86px;margin:0}
 .chips.people .n{font-size:14px}
 .chip-off .face{opacity:.35}
+/* Phones. Content-width pills leave ragged trailing space in a narrow column and a
+   long name wraps inside one, so the writers become full-width rows with the count
+   pushed right; and the title portrait comes down so the heading is not squeezed
+   into a two-word column beside it. */
+@media (max-width:560px){
+  .chips.people{display:block;margin-bottom:2rem}
+  .chips.people li{margin-bottom:.7rem}
+  .chips.people a,.chips.people .chip-off{display:flex;width:100%;height:74px;
+    font-size:17px;padding-right:1.2rem}
+  .chips.people .face{width:72px;height:72px}
+  .chips.people .n{margin-left:auto}
+  .titled{gap:.8rem}
+  .titled .face{width:58px;height:58px}
+}
 .chips .chip-off{display:inline-flex;align-items:center;gap:.45rem;border:1px dashed var(--rule);border-radius:999px;padding:.42rem .8rem;font:500 13px/1 var(--sans);color:var(--faint)}
 </style>
+<!-- Cloudflare Web Analytics - same estate-wide token as the hub root. -->
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "32b821209b5441a08df42ccf61c9e6c2"}'></script>
 </head>
 <body>
 <div class="wrap">
