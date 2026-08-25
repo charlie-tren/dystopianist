@@ -39,9 +39,6 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .essay p{margin:0 0 1.35rem}
 .essay p:first-of-type::first-letter{float:left;font-size:3.4rem;line-height:.86;
   padding:.06em .09em 0 0;color:var(--accent)}
-.pastiche{margin:3rem 0 0;padding:1rem 1.1rem;border:1px solid var(--rule);border-radius:6px;
-  background:var(--panel);color:var(--dim);font:400 14px/1.6 var(--sans)}
-.pastiche b{color:var(--ink);font-weight:600}
 .list{list-style:none;margin:0;padding:0}
 .list li{border-top:1px solid var(--rule);padding:1.1rem 0}
 .list li:last-child{border-bottom:1px solid var(--rule)}
@@ -65,6 +62,7 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
    It only shows on the writer and object pages, which is why the index hid it. */
 .sub{display:block;color:var(--faint);font:400 13.5px/1.5 var(--sans);margin-top:.25rem}
 .foot{margin-top:3.4rem;color:var(--faint);font:400 13px/1.6 var(--sans)}
+.foot + .foot{margin-top:.7rem}
 .foot a{color:var(--dim)}
 .tabs{display:flex;gap:1.5rem;margin:1.1rem 0 2.4rem;font:600 12px/1 var(--sans);
   letter-spacing:.14em;text-transform:uppercase}
@@ -97,11 +95,12 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .backlink:hover{color:var(--accent)}
 .backlink .arr{color:var(--accent);font-size:14px}
 .chips .face{width:26px;height:26px;margin:-3px 0}
-/* The writers list carries a portrait, so it gets more room than the Things list. */
-.chips.people a,.chips.people .chip-off{padding:.6rem 1.15rem;font-size:16px;gap:.8rem}
-.chips.people{gap:.75rem}
-.chips.people .face{width:48px;height:48px;margin:-10px 0}
-.chips.people .n{font-size:13px}
+/* The writers list carries a portrait, so it gets more room than the Exhibits list. */
+.chips.people a,.chips.people .chip-off{padding:0 1.5rem 0 0;height:66px;
+  font-size:17px;gap:1rem}
+.chips.people{gap:.8rem}
+.chips.people .face{width:64px;height:64px;margin:0}
+.chips.people .n{font-size:13.5px}
 .chip-off .face{opacity:.35}
 .chips .chip-off{display:inline-flex;align-items:center;gap:.45rem;border:1px dashed var(--rule);border-radius:999px;padding:.42rem .8rem;font:500 13px/1 var(--sans);color:var(--faint)}
 """
@@ -170,7 +169,7 @@ def nav(up: str, here: str) -> str:
     the site is browsable from wherever you land, not only from the front page."""
     items = [("index", "Latest", f"{up}index.html"),
              ("writers", "Writers", f"{up}writers.html"),
-             ("objects", "Things", f"{up}objects.html")]
+             ("objects", "Exhibits", f"{up}objects.html")]
     out = ['  <nav class="tabs">']
     for key, label, href in items:
         cur = ' aria-current="page"' if key == here else ""
@@ -180,11 +179,12 @@ def nav(up: str, here: str) -> str:
 
 
 def pastiche_note(name: str) -> str:
-    """Said on EVERY essay page, in the body, not in a footer. These are real
-    people and the essay puts words in their mouths; a disclaimer nobody scrolls
-    to is not a disclaimer."""
-    return ('<p class="pastiche"><b>This is pastiche.</b> It is written in imitation of '
-            f'{html.escape(name)}\'s style by a language model.</p>')
+    """One line, not a boxed panel. Something has to say it - these are real people
+    and the page puts invented words in their mouths under their name - but the front
+    page already says the site is pastiche, so the essay page only has to be honest,
+    not emphatic."""
+    return ('<p class="foot">A language model imitating '
+            f'{html.escape(name)}, who did not write this.</p>')
 
 
 def slug(entry: dict) -> str:
@@ -333,7 +333,7 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
                 f'  <ul class="list">\n{essay_rows(es, "../", show="writer")}\n  </ul>\n')
         p = page(f"{obj} - Ghostwriters",
                  f"{who} on {obj}, in pastiche.", body, "../", "objects",
-                 '<a href="../objects.html">Every object</a>')
+                 '<a href="../objects.html">Every exhibit</a>')
         (DOCS / "on" / f"{obj_slug(obj)}.html").write_text(p, encoding="utf-8", newline="\n")
 
     # --- the three top-level views ------------------------------------------
@@ -354,10 +354,10 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
               [(k, v[0]["name"], len(v)) for k, v in by_writer.items()])
     chips = "\n".join(
         (f'    <li><a href="by/{tid}.html">'
-         f'<img class="face" src="faces/{tid}.jpg" alt="" width="48" height="48" loading="lazy">'
+         f'<img class="face" src="faces/{tid}.jpg" alt="" width="64" height="64" loading="lazy">'
          f'{html.escape(name)} <span class="n">{n}</span></a></li>') if n else
         (f'    <li><span class="chip-off">'
-         f'<img class="face" src="faces/{tid}.jpg" alt="" width="48" height="48" loading="lazy">'
+         f'<img class="face" src="faces/{tid}.jpg" alt="" width="64" height="64" loading="lazy">'
          f'{html.escape(name)} <span class="n">0</span></span></li>')
         for tid, name, n in sorted(listed, key=lambda x: x[1]))
     (DOCS / "writers.html").write_text(
@@ -373,9 +373,9 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
         f'<span class="n">{len(es)}</span></a></li>'
         for o, es in sorted(by_object.items()))
     (DOCS / "objects.html").write_text(
-        page("Things - Ghostwriters",
-             "Every object written about here, and how many writers have been set on it.",
-             '  <h1>Things</h1>\n'
+        page("Exhibits - Ghostwriters",
+             "Every exhibit written about here, and how many writers have been set on it.",
+             '  <h1>Exhibits</h1>\n'
              f'  <ul class="chips">\n{ochips}\n  </ul>\n', "", "objects",
              ""),
         encoding="utf-8", newline="\n")

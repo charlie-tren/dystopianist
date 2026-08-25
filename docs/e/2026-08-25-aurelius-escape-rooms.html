@@ -48,9 +48,6 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .essay p{margin:0 0 1.35rem}
 .essay p:first-of-type::first-letter{float:left;font-size:3.4rem;line-height:.86;
   padding:.06em .09em 0 0;color:var(--accent)}
-.pastiche{margin:3rem 0 0;padding:1rem 1.1rem;border:1px solid var(--rule);border-radius:6px;
-  background:var(--panel);color:var(--dim);font:400 14px/1.6 var(--sans)}
-.pastiche b{color:var(--ink);font-weight:600}
 .list{list-style:none;margin:0;padding:0}
 .list li{border-top:1px solid var(--rule);padding:1.1rem 0}
 .list li:last-child{border-bottom:1px solid var(--rule)}
@@ -74,6 +71,7 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
    It only shows on the writer and object pages, which is why the index hid it. */
 .sub{display:block;color:var(--faint);font:400 13.5px/1.5 var(--sans);margin-top:.25rem}
 .foot{margin-top:3.4rem;color:var(--faint);font:400 13px/1.6 var(--sans)}
+.foot + .foot{margin-top:.7rem}
 .foot a{color:var(--dim)}
 .tabs{display:flex;gap:1.5rem;margin:1.1rem 0 2.4rem;font:600 12px/1 var(--sans);
   letter-spacing:.14em;text-transform:uppercase}
@@ -106,11 +104,12 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .backlink:hover{color:var(--accent)}
 .backlink .arr{color:var(--accent);font-size:14px}
 .chips .face{width:26px;height:26px;margin:-3px 0}
-/* The writers list carries a portrait, so it gets more room than the Things list. */
-.chips.people a,.chips.people .chip-off{padding:.6rem 1.15rem;font-size:16px;gap:.8rem}
-.chips.people{gap:.75rem}
-.chips.people .face{width:48px;height:48px;margin:-10px 0}
-.chips.people .n{font-size:13px}
+/* The writers list carries a portrait, so it gets more room than the Exhibits list. */
+.chips.people a,.chips.people .chip-off{padding:0 1.5rem 0 0;height:66px;
+  font-size:17px;gap:1rem}
+.chips.people{gap:.8rem}
+.chips.people .face{width:64px;height:64px;margin:0}
+.chips.people .n{font-size:13.5px}
 .chip-off .face{opacity:.35}
 .chips .chip-off{display:inline-flex;align-items:center;gap:.45rem;border:1px dashed var(--rule);border-radius:999px;padding:.42rem .8rem;font:500 13px/1 var(--sans);color:var(--faint)}
 </style>
@@ -128,7 +127,7 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
     <p>And yet, I must acknowledge the fleeting pleasure that comes from overcoming these trivial hurdles. But let us not be deceived, for in the grand tapestry of existence, such diversions are but a minor thread.</p>
     <p>The hours we spend in such pursuits are lost forever, and the triumphs we achieve are hollow and short-lived. Still, I shall play along, for even in the most frivolous of activities, there lies a lesson to be learned about the human condition, and the fragility of our existence. In the end, it is not the escape that matters, but the journey, and the opportunity to confront our own mortality, and the impermanence of all things.</p>
   </div>
-  <p class="pastiche"><b>This is pastiche.</b> It is written in imitation of Marcus Aurelius's style by a language model.</p>
+  <p class="foot">A language model imitating Marcus Aurelius, who did not write this.</p>
 
   <p class="foot"></p>
 </div>
