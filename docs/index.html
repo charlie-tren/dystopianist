@@ -59,6 +59,16 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .sub{color:var(--faint);font:400 13.5px/1.5 var(--sans);margin-top:.2rem}
 .foot{margin-top:3.4rem;color:var(--faint);font:400 13px/1.6 var(--sans)}
 .foot a{color:var(--dim)}
+.tabs{display:flex;gap:1.5rem;margin:0 0 2rem;font:600 12px/1 var(--sans);
+  letter-spacing:.14em;text-transform:uppercase}
+.tabs a{color:var(--faint);text-decoration:none;padding-bottom:.4rem;border-bottom:2px solid transparent}
+.tabs a:hover{color:var(--ink)}
+.tabs a[aria-current]{color:var(--ink);border-bottom-color:var(--accent)}
+.chips{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 2.4rem;padding:0;list-style:none}
+.chips a{display:inline-block;text-decoration:none;border:1px solid var(--rule);
+  border-radius:999px;padding:.42rem .8rem;font:500 13px/1 var(--sans);color:var(--dim)}
+.chips a:hover{color:var(--ink);border-color:var(--accent)}
+.chips .n{color:var(--faint);font-size:11.5px}
 </style>
 </head>
 <body>
@@ -67,6 +77,7 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
     <a class="home" href="https://charlietrenorden.com/"><span class="back">&larr;</span>&nbsp;Other projects</a>
     <button class="tog" id="tog" type="button">Light</button>
   </div>
+  <nav class="tabs"><a href="index.html" aria-current="page">Latest</a><a href="writers.html">By writer</a><a href="objects.html">By object</a></nav>
   <h1>The Dystopianist</h1>
   <p class="stand">Essays by writers who died before the thing they are describing existed. Pastiche, written by a language model in imitation of their style.</p>
   <ul class="list">

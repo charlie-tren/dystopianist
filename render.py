@@ -50,6 +50,16 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .sub{color:var(--faint);font:400 13.5px/1.5 var(--sans);margin-top:.2rem}
 .foot{margin-top:3.4rem;color:var(--faint);font:400 13px/1.6 var(--sans)}
 .foot a{color:var(--dim)}
+.tabs{display:flex;gap:1.5rem;margin:0 0 2rem;font:600 12px/1 var(--sans);
+  letter-spacing:.14em;text-transform:uppercase}
+.tabs a{color:var(--faint);text-decoration:none;padding-bottom:.4rem;border-bottom:2px solid transparent}
+.tabs a:hover{color:var(--ink)}
+.tabs a[aria-current]{color:var(--ink);border-bottom-color:var(--accent)}
+.chips{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 2.4rem;padding:0;list-style:none}
+.chips a{display:inline-block;text-decoration:none;border:1px solid var(--rule);
+  border-radius:999px;padding:.42rem .8rem;font:500 13px/1 var(--sans);color:var(--dim)}
+.chips a:hover{color:var(--ink);border-color:var(--accent)}
+.chips .n{color:var(--faint);font-size:11.5px}
 """
 
 HEAD = """<!DOCTYPE html>
@@ -102,6 +112,20 @@ TAIL = """
 """
 
 
+def nav(up: str, here: str) -> str:
+    """Three ways in: newest first, by writer, by object. Rendered on every page so
+    the site is browsable from wherever you land, not only from the front page."""
+    items = [("index", "Latest", f"{up}index.html"),
+             ("writers", "By writer", f"{up}writers.html"),
+             ("objects", "By object", f"{up}objects.html")]
+    out = ['  <nav class="tabs">']
+    for key, label, href in items:
+        cur = ' aria-current="page"' if key == here else ""
+        out.append(f'<a href="{href}"{cur}>{label}</a>')
+    out.append("</nav>")
+    return "".join(out) + "\n"
+
+
 def pastiche_note(name: str, dates: str, obj: str) -> str:
     """Said on EVERY essay page, in the body, not in a footer. These are real
     people and the essay puts words in their mouths; a disclaimer nobody scrolls
@@ -139,33 +163,126 @@ def paragraphs(essay: str) -> str:
     return "\n    ".join(f"<p>{html.escape(p)}</p>" for p in out)
 
 
+def obj_slug(obj: str) -> str:
+    return "".join(c if c.isalnum() else "-" for c in obj.lower()).strip("-")[:50]
+
+
+def essay_rows(entries, up="", show="both") -> str:
+    """A list of essays. `show` drops whichever half is already the page's heading -
+    on a writer's page every row says the same name, and on an object's page every
+    row says the same object."""
+    rows = []
+    for e in reversed(entries):
+        if show == "object":
+            t = html.escape(e["object"])
+        elif show == "writer":
+            t = html.escape(e["name"])
+        else:
+            t = f'{html.escape(e["name"])} on {html.escape(e["object"])}'
+        rows.append(
+            f'    <li><a href="{up}e/{slug(e)}.html">'
+            f'<span class="t">{t}</span>'
+            f'<span class="sub">{html.escape(e["dates"])} &middot; {e["date"]}</span></a></li>')
+    return "\n".join(rows)
+
+
+def page(title, desc, body, up, here, footer):
+    return (HEAD.format(title=html.escape(title), desc=html.escape(desc), css=CSS, up=up)
+            + nav(up, here) + body + TAIL.replace("FOOTER", footer))
+
+
 def build(entries: list[dict]) -> None:
     DOCS.mkdir(exist_ok=True)
-    (DOCS / "e").mkdir(exist_ok=True)
+    for sub in ("e", "by", "on"):
+        (DOCS / sub).mkdir(exist_ok=True)
 
+    by_writer, by_object = {}, {}
     for e in entries:
-        title = f'{e["name"]} on {e["object"]}'
-        desc = (f'A pastiche essay in the style of {e["name"]} about {e["object"]}, '
-                'which they never saw.')
-        page = (HEAD.format(title=html.escape(title), desc=html.escape(desc), css=CSS, up="../")
-                + '  <p class="eyebrow">In the style of</p>\n'
-                + f'  <h1>{html.escape(e["name"])} on {html.escape(e["object"])}</h1>\n'
-                + f'  <p class="stand">{html.escape(e["dates"])} &middot; written {e["date"]}</p>\n'
-                + f'  <div class="essay">\n    {paragraphs(e["essay"])}\n  </div>\n'
-                + f'  {pastiche_note(e["name"], e["dates"], e["object"])}\n'
-                + TAIL.replace("FOOTER", '<a href="../">All the essays</a>'))
-        (DOCS / "e" / f"{slug(e)}.html").write_text(page, encoding="utf-8", newline="\n")
+        by_writer.setdefault(e["thinker"], []).append(e)
+        by_object.setdefault(e["object"], []).append(e)
 
-    items = "\n".join(
-        f'    <li><a href="e/{slug(e)}.html">'
-        f'<span class="t">{html.escape(e["name"])} on {html.escape(e["object"])}</span>'
-        f'<span class="sub">{html.escape(e["dates"])} &middot; {e["date"]}</span></a></li>'
-        for e in reversed(entries))
+    # --- one page per essay -------------------------------------------------
+    for e in entries:
+        others = [x for x in by_object[e["object"]] if x is not e]
+        also = ""
+        if others:
+            # The point of the object axis: who ELSE has been set on this thing.
+            links = ", ".join(f'<a href="../e/{slug(x)}.html">{html.escape(x["name"])}</a>'
+                              for x in others)
+            also = (f'  <p class="foot">Also on {html.escape(e["object"])}: {links}. '
+                    f'<a href="../on/{obj_slug(e["object"])}.html">All of them</a>.</p>\n')
+        body = ('  <p class="eyebrow">In the style of</p>\n'
+                f'  <h1><a href="../by/{e["thinker"]}.html" style="text-decoration:none">'
+                f'{html.escape(e["name"])}</a> on '
+                f'<a href="../on/{obj_slug(e["object"])}.html" style="text-decoration:none">'
+                f'{html.escape(e["object"])}</a></h1>\n'
+                f'  <p class="stand">{html.escape(e["dates"])} &middot; written {e["date"]}</p>\n'
+                f'  <div class="essay">\n    {paragraphs(e["essay"])}\n  </div>\n'
+                f'  {pastiche_note(e["name"], e["dates"], e["object"])}\n' + also)
+        p = page(f'{e["name"]} on {e["object"]}',
+                 f'A pastiche essay in the style of {e["name"]} about {e["object"]}, '
+                 'which they never saw.',
+                 body, "../", "", '<a href="../index.html">All the essays</a>')
+        (DOCS / "e" / f"{slug(e)}.html").write_text(p, encoding="utf-8", newline="\n")
+
+    # --- one page per writer ------------------------------------------------
+    for tid, es in by_writer.items():
+        name, dates = es[0]["name"], es[0]["dates"]
+        body = (f'  <p class="eyebrow">In the style of</p>\n  <h1>{html.escape(name)}</h1>\n'
+                f'  <p class="stand">{html.escape(dates)} &middot; {len(es)} '
+                f'{"essay" if len(es) == 1 else "essays"} on things they never saw.</p>\n'
+                f'  <ul class="list">\n{essay_rows(es, "../", show="object")}\n  </ul>\n')
+        p = page(f"{name} - The Dystopianist",
+                 f"Pastiche essays in the style of {name} about things that did not exist "
+                 "in their lifetime.", body, "../", "writers",
+                 '<a href="../writers.html">All the writers</a>')
+        (DOCS / "by" / f"{tid}.html").write_text(p, encoding="utf-8", newline="\n")
+
+    # --- one page per object: everyone who has been set on it ---------------
+    for obj, es in by_object.items():
+        who = " and ".join([", ".join(x["name"] for x in es[:-1]), es[-1]["name"]]).strip(", ")
+        body = (f'  <p class="eyebrow">On</p>\n  <h1>{html.escape(obj)}</h1>\n'
+                f'  <p class="stand">{len(es)} '
+                f'{"writer" if len(es) == 1 else "writers"} on it, none of whom saw one.</p>\n'
+                f'  <ul class="list">\n{essay_rows(es, "../", show="writer")}\n  </ul>\n')
+        p = page(f"{obj} - The Dystopianist",
+                 f"{who} on {obj}, in pastiche.", body, "../", "objects",
+                 '<a href="../objects.html">Every object</a>')
+        (DOCS / "on" / f"{obj_slug(obj)}.html").write_text(p, encoding="utf-8", newline="\n")
+
+    # --- the three top-level views ------------------------------------------
     desc = ("Essays by writers who died before the thing they are describing existed. "
             "Pastiche, written by a language model in imitation of their style.")
-    index = (HEAD.format(title="The Dystopianist", desc=html.escape(desc), css=CSS, up="")
-             + '  <h1>The Dystopianist</h1>\n'
-             + f'  <p class="stand">{html.escape(desc)}</p>\n'
-             + f'  <ul class="list">\n{items}\n  </ul>\n'
-             + TAIL.replace("FOOTER", f"{len(entries)} essays. Nothing here is a quotation."))
-    (DOCS / "index.html").write_text(index, encoding="utf-8", newline="\n")
+    idx = ('  <h1>The Dystopianist</h1>\n'
+           f'  <p class="stand">{html.escape(desc)}</p>\n'
+           f'  <ul class="list">\n{essay_rows(entries)}\n  </ul>\n')
+    (DOCS / "index.html").write_text(
+        page("The Dystopianist", desc, idx, "", "index",
+             f"{len(entries)} essays. Nothing here is a quotation."),
+        encoding="utf-8", newline="\n")
+
+    chips = "\n".join(
+        f'    <li><a href="by/{tid}.html">{html.escape(es[0]["name"])} '
+        f'<span class="n">{len(es)}</span></a></li>'
+        for tid, es in sorted(by_writer.items(), key=lambda kv: kv[1][0]["name"]))
+    (DOCS / "writers.html").write_text(
+        page("By writer - The Dystopianist",
+             "Every writer with an essay here, and how many they have.",
+             '  <h1>By writer</h1>\n  <p class="stand">Pick a voice.</p>\n'
+             f'  <ul class="chips">\n{chips}\n  </ul>\n', "", "writers",
+             f"{len(by_writer)} writers."),
+        encoding="utf-8", newline="\n")
+
+    ochips = "\n".join(
+        f'    <li><a href="on/{obj_slug(o)}.html">{html.escape(o)} '
+        f'<span class="n">{len(es)}</span></a></li>'
+        for o, es in sorted(by_object.items()))
+    (DOCS / "objects.html").write_text(
+        page("By object - The Dystopianist",
+             "Every object written about here, and how many writers have been set on it.",
+             '  <h1>By object</h1>\n'
+             '  <p class="stand">Pick a thing. The number is how many writers have been '
+             'set on it.</p>\n'
+             f'  <ul class="chips">\n{ochips}\n  </ul>\n', "", "objects",
+             f"{len(by_object)} objects."),
+        encoding="utf-8", newline="\n")
