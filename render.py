@@ -61,7 +61,6 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .chips a:hover{color:var(--ink);border-color:var(--accent)}
 .chips .n{color:var(--faint);font-size:11.5px}
 .chips a{display:inline-flex;align-items:center;gap:.45rem}
-.chips .g{color:var(--accent);flex:none;opacity:.85}
 .wordmark{display:flex;align-items:center;gap:.55rem}
 .wordmark .ghost{flex:none;color:var(--ink);transition:transform .25s ease}
 /* He floats when you hover him. Two seconds, eased both ways, a few pixels - a
@@ -75,6 +74,11 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .byline{display:flex;align-items:center;gap:.9rem;margin:0 0 2.2rem}
 .byline .face{width:54px;height:54px}
 .chips .face{width:22px;height:22px;margin:-2px 0}
+/* The writers list carries a portrait, so it gets more room than the Things list. */
+.chips.people a,.chips.people .chip-off{padding:.6rem 1rem;font-size:15px;gap:.6rem}
+.chips.people{gap:.65rem}
+.chips.people .face{width:30px;height:30px;margin:-4px 0}
+.chips.people .n{font-size:12.5px}
 .chip-off .face{opacity:.35}
 .chips .chip-off{display:inline-flex;align-items:center;gap:.45rem;border:1px dashed var(--rule);border-radius:999px;padding:.42rem .8rem;font:500 13px/1 var(--sans);color:var(--faint)}
 """
@@ -138,52 +142,6 @@ GHOST = ('<svg class="ghost" viewBox="0 0 100 100" width="1.28em" height="1.28em
          '<ellipse cx="50" cy="61" rx="3.4" ry="4.4" fill="var(--ground)"/></svg>')
 
 
-# A dozen line glyphs, mapped to objects by keyword. Deliberately a SMALL set: the
-# point is a bit of texture on a long list of chips, not a bespoke illustration per
-# object. currentColor so they follow the theme and the hover state.
-GLYPHS = {
-    "screen":  '<rect x="2" y="3" width="16" height="11" rx="1.5"/><path d="M7 17h6"/>',
-    "phone":   '<rect x="5.5" y="2" width="9" height="16" rx="2"/><path d="M9 15.4h2"/>',
-    "card":    '<rect x="2" y="4.5" width="16" height="11" rx="1.5"/><path d="M2 8.5h16"/>',
-    "clock":   '<circle cx="10" cy="10" r="7.5"/><path d="M10 5.5V10l3 2"/>',
-    "cart":    '<path d="M2 3h2.2l2.3 9.5h8.4L17 6H5"/><circle cx="8" cy="16" r="1.4"/><circle cx="14.5" cy="16" r="1.4"/>',
-    "door":    '<rect x="4.5" y="2" width="11" height="16" rx="1"/><circle cx="12.4" cy="10" r="0.9"/>',
-    "car":     '<path d="M2.5 12.5h15M4 12.5l1.7-4.5h8.6l1.7 4.5v3h-2v-1.5H6.5V15.5h-2z"/>',
-    "plane":   '<path d="M2 11.5 18 5l-4 6.5 1 5-2.6-3.2L9 15l-.5-3.2z"/>',
-    "person":  '<circle cx="10" cy="6" r="3"/><path d="M4 17c0-3.3 2.7-5.5 6-5.5s6 2.2 6 5.5"/>',
-    "wave":    '<path d="M2 12c2.6-4.5 5.2-4.5 8 0s5.4 4.5 8 0"/><path d="M2 7c2.6-4 5.2-4 8 0s5.4 4 8 0"/>',
-    "box":     '<path d="M2.5 6 10 2.5 17.5 6v8L10 17.5 2.5 14z"/><path d="M2.5 6 10 9.5 17.5 6M10 9.5v8"/>',
-    "pen":     '<path d="M14 2.5 17.5 6 7 16.5l-4.5 1 1-4.5z"/>',
-}
-
-# First keyword that appears in the object name wins, so order matters: put the
-# specific before the generic.
-GLYPH_FOR = [
-    ("scooter", "car"), ("petrol", "car"), ("drive-through", "car"),
-    ("roundabout", "car"), ("parcel", "box"), ("meal-kit", "box"),
-    ("locker", "box"), ("peanut", "plane"), ("plane", "plane"),
-    ("lounge", "plane"), ("alarm", "clock"), ("ticket", "clock"),
-    ("loyalty", "card"), ("minibar", "card"), ("membership", "card"),
-    ("self-checkout", "cart"), ("checkout", "cart"), ("delivery", "cart"),
-    ("doorbell", "door"), ("escape room", "door"), ("hand dryer", "door"),
-    ("group chat", "phone"), ("dating", "phone"), ("step counter", "phone"),
-    ("app", "phone"), ("podcast", "wave"), ("headphone", "wave"),
-    ("karaoke", "wave"), ("influencer", "person"), ("endorsement", "person"),
-    ("pet", "person"), ("birthday card", "pen"), ("hashtag", "pen"),
-    ("poster", "pen"), ("survey", "pen"), ("banner", "screen"),
-    ("spinner", "screen"), ("unsubscribe", "screen"), ("reply", "screen"),
-    ("office", "screen"), ("fun day", "person"), ("fridge", "box"),
-    ("seat", "plane"),
-]
-
-
-def glyph(obj: str) -> str:
-    name = next((g for k, g in GLYPH_FOR if k in obj.lower()), "screen")
-    return ('<svg class="g" viewBox="0 0 20 20" width="15" height="15" aria-hidden="true" '
-            'fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" '
-            f'stroke-linejoin="round">{GLYPHS[name]}</svg>')
-
-
 def nav(up: str, here: str) -> str:
     """Three ways in: newest first, by writer, by object. Rendered on every page so
     the site is browsable from wherever you land, not only from the front page."""
@@ -198,14 +156,13 @@ def nav(up: str, here: str) -> str:
     return "".join(out) + "\n"
 
 
-def pastiche_note(name: str, obj: str) -> str:
+def pastiche_note(name: str) -> str:
     """Said on EVERY essay page, in the body, not in a footer. These are real
     people and the essay puts words in their mouths; a disclaimer nobody scrolls
     to is not a disclaimer."""
-    return ('<p class="pastiche"><b>This is pastiche.</b> '
-            f'{html.escape(name)} never wrote a word about '
-            f'{html.escape(obj)} and never saw one. It is written in imitation of their '
-            'style by a language model, the way a cartoonist draws a likeness.</p>')
+    return ('<p class="pastiche"><b>This is pastiche.</b> It is written in imitation of '
+            f'{html.escape(name)}\'s style by a language model, the way a cartoonist '
+            'draws a likeness.</p>')
 
 
 def slug(entry: dict) -> str:
@@ -313,7 +270,7 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
                 f'<a href="../on/{obj_slug(e["object"])}.html" style="text-decoration:none">'
                 f'{html.escape(e["object"])}</a></h1>\n'
                 f'  <div class="essay">\n    {paragraphs(e["essay"])}\n  </div>\n'
-                f'  {pastiche_note(e["name"], e["object"])}\n' + also)
+                f'  {pastiche_note(e["name"])}\n' + also)
         p = page(f'{e["name"]} on {e["object"]}',
                  f'A pastiche essay in the style of {e["name"]} about {e["object"]}, '
                  'which they never saw.',
@@ -366,30 +323,28 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
               [(k, v[0]["name"], len(v)) for k, v in by_writer.items()])
     chips = "\n".join(
         (f'    <li><a href="by/{tid}.html">'
-         f'<img class="face" src="faces/{tid}.jpg" alt="" width="22" height="22" loading="lazy">'
+         f'<img class="face" src="faces/{tid}.jpg" alt="" width="30" height="30" loading="lazy">'
          f'{html.escape(name)} <span class="n">{n}</span></a></li>') if n else
         (f'    <li><span class="chip-off">'
-         f'<img class="face" src="faces/{tid}.jpg" alt="" width="22" height="22" loading="lazy">'
+         f'<img class="face" src="faces/{tid}.jpg" alt="" width="30" height="30" loading="lazy">'
          f'{html.escape(name)} <span class="n">0</span></span></li>')
         for tid, name, n in sorted(listed, key=lambda x: x[1]))
     (DOCS / "writers.html").write_text(
         page("Writers - Ghostwriters",
              "Every writer in the rotation, and how many essays each has.",
-             '  <h1>Writers</h1>\n  <p class="stand">Pick a voice.</p>\n'
-             f'  <ul class="chips">\n{chips}\n  </ul>\n', "", "writers",
+             '  <h1>Writers</h1>\n'
+             f'  <ul class="chips people">\n{chips}\n  </ul>\n', "", "writers",
              ""),
         encoding="utf-8", newline="\n")
 
     ochips = "\n".join(
-        f'    <li><a href="on/{obj_slug(o)}.html">{glyph(o)}{html.escape(o)} '
+        f'    <li><a href="on/{obj_slug(o)}.html">{html.escape(o)} '
         f'<span class="n">{len(es)}</span></a></li>'
         for o, es in sorted(by_object.items()))
     (DOCS / "objects.html").write_text(
         page("Things - Ghostwriters",
              "Every object written about here, and how many writers have been set on it.",
              '  <h1>Things</h1>\n'
-             '  <p class="stand">Pick a thing. The number is how many writers have been '
-             'set on it.</p>\n'
              f'  <ul class="chips">\n{ochips}\n  </ul>\n', "", "objects",
              ""),
         encoding="utf-8", newline="\n")

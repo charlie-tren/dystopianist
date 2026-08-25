@@ -35,18 +35,17 @@ Twain, which is what a shared prompt does.
 
 ### Real prose where the copyright has expired
 
-Four writers use their own words, pulled from Project Gutenberg and attributed in the
-file: **Twain** (Life on the Mississippi), **Wilde** (the Dorian Gray preface),
-**Marcus Aurelius** (Meditations, Casaubon) and **Kafka** (The Trial, Wyllie). The other
-four are pastiche written for this repo, because they are still in copyright - Wallace
-(2078), Thompson (2075), Didion (2091), and **Orwell**, who died in 1950 but whose work
-is post-1929 and so is not on Gutenberg at all.
+Five writers use their own words, attributed in the file: **Twain** (Life on the
+Mississippi), **Wilde** (the Dorian Gray preface), **Marcus Aurelius** (Meditations,
+Casaubon) and **Kafka** (The Trial, Wyllie) from Project Gutenberg, and **Orwell**
+(A Nice Cup of Tea, Pleasure Spots) from Project Gutenberg **Australia** - a different
+site with a different rule, life+70 rather than a US publication date, which cleared
+him in 2021. The remaining three are pastiche written for this repo because they are
+still in copyright: Wallace (2078), Thompson (2075) and Didion (2091).
 
 Imitating a pastiche is a copy of a copy, and it was the likeliest reason the first
-batches read only broadly like their author. Expect the four pastiche writers to imitate
-less closely, and say so rather than pretending otherwise. Orwell can be sourced from
-Project Gutenberg **Australia**, where life+70 puts him in the public domain - Charlie's
-call, since the site is served worldwide.
+batches read only broadly like their author. Expect those three to imitate less
+closely, and say so rather than pretending otherwise.
 
 ## Two providers, both free
 

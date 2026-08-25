@@ -1,7 +1,8 @@
 """Generate a cartoon portrait per writer, free, on Cloudflare Workers AI.
 
-    python tools/portraits.py            # only writers without a portrait
-    python tools/portraits.py --force    # redraw everything
+    python tools/portraits.py                     # only writers without a portrait
+    python tools/portraits.py --force             # redraw everything
+    python tools/portraits.py --only orwell,kafka # redraw just these
 
 Deliberately CARTOON, not photoreal. These are real people and the site already
 says the essays are pastiche; a photorealistic fake portrait would undercut that,
@@ -38,12 +39,13 @@ LOOK = {
     "aurelius": "a bearded Roman emperor in a plain toga, curly hair and beard, weary",
     "kafka":    "a thin young man in a dark suit and stiff collar, enormous dark eyes, ears sticking out",
     "thompson": "a bald man in aviator sunglasses with a cigarette holder clenched in his teeth, bucket hat",
-    "didion":   "a very slight woman in dark sunglasses, straight hair, cigarette, cool expression",
+    "didion":   "a very slight woman in her sixties, dark sunglasses, straight shoulder-length hair, cigarette, cool unsmiling expression",
 }
 
 STYLE = ("hand-drawn ink caricature portrait, loose confident line work, cross-hatching, "
          "warm cream paper, single muted ochre accent, head and shoulders, plain background, "
-         "no text, no signature, editorial illustration")
+         "editorial illustration, clean empty margins, "
+         "no text anywhere, no lettering, no words, no signature, no watermark")
 
 
 def draw(acct: str, tok: str, prompt: str) -> bytes:
@@ -67,10 +69,16 @@ def main() -> int:
         print("CF_ACCOUNT_ID / CF_API_TOKEN not set", file=sys.stderr)
         return 1
     force = "--force" in sys.argv
+    only = next((a.split("=", 1)[-1] for a in sys.argv if a.startswith("--only")), "")
+    if only == "--only":                               # "--only x" rather than "--only=x"
+        only = sys.argv[sys.argv.index("--only") + 1]
+    wanted = {x.strip() for x in only.split(",") if x.strip()}
     OUT.mkdir(parents=True, exist_ok=True)
     for t in styles.load():
+        if wanted and t["id"] not in wanted:
+            continue
         dest = OUT / f"{t['id']}.jpg"
-        if dest.exists() and not force:
+        if dest.exists() and not (force or wanted):
             print(f"{t['id']:10} already drawn")
             continue
         prompt = f"{LOOK[t['id']]}. {STYLE}"

@@ -70,7 +70,6 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .chips a:hover{color:var(--ink);border-color:var(--accent)}
 .chips .n{color:var(--faint);font-size:11.5px}
 .chips a{display:inline-flex;align-items:center;gap:.45rem}
-.chips .g{color:var(--accent);flex:none;opacity:.85}
 .wordmark{display:flex;align-items:center;gap:.55rem}
 .wordmark .ghost{flex:none;color:var(--ink);transition:transform .25s ease}
 /* He floats when you hover him. Two seconds, eased both ways, a few pixels - a
@@ -84,6 +83,11 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .byline{display:flex;align-items:center;gap:.9rem;margin:0 0 2.2rem}
 .byline .face{width:54px;height:54px}
 .chips .face{width:22px;height:22px;margin:-2px 0}
+/* The writers list carries a portrait, so it gets more room than the Things list. */
+.chips.people a,.chips.people .chip-off{padding:.6rem 1rem;font-size:15px;gap:.6rem}
+.chips.people{gap:.65rem}
+.chips.people .face{width:30px;height:30px;margin:-4px 0}
+.chips.people .n{font-size:12.5px}
 .chip-off .face{opacity:.35}
 .chips .chip-off{display:inline-flex;align-items:center;gap:.45rem;border:1px dashed var(--rule);border-radius:999px;padding:.42rem .8rem;font:500 13px/1 var(--sans);color:var(--faint)}
 </style>
@@ -101,7 +105,7 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
     <p>It&#x27;s as if the machine is a magic lantern, projecting the singer&#x27;s voice out into the world, amplified and transformed in some way. But then, I&#x27;ve heard tell of people who can sing like angels, and others who can curdle milk at fifty paces, and I suppose this machine just gives &#x27;em a platform to showcase their gifts.</p>
     <p>Still, it&#x27;s a puzzlement to me, and I&#x27;ll just have to take it on faith that it&#x27;s not some sort of trickery or deceit. It just makes a racket, if you ask me.</p>
   </div>
-  <p class="pastiche"><b>This is pastiche.</b> Mark Twain never wrote a word about the karaoke machine and never saw one. It is written in imitation of their style by a language model, the way a cartoonist draws a likeness.</p>
+  <p class="pastiche"><b>This is pastiche.</b> It is written in imitation of Mark Twain's style by a language model, the way a cartoonist draws a likeness.</p>
 
   <p class="foot"><a href="../index.html">All the essays</a></p>
 </div>

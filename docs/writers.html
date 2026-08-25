@@ -70,7 +70,6 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .chips a:hover{color:var(--ink);border-color:var(--accent)}
 .chips .n{color:var(--faint);font-size:11.5px}
 .chips a{display:inline-flex;align-items:center;gap:.45rem}
-.chips .g{color:var(--accent);flex:none;opacity:.85}
 .wordmark{display:flex;align-items:center;gap:.55rem}
 .wordmark .ghost{flex:none;color:var(--ink);transition:transform .25s ease}
 /* He floats when you hover him. Two seconds, eased both ways, a few pixels - a
@@ -84,6 +83,11 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .byline{display:flex;align-items:center;gap:.9rem;margin:0 0 2.2rem}
 .byline .face{width:54px;height:54px}
 .chips .face{width:22px;height:22px;margin:-2px 0}
+/* The writers list carries a portrait, so it gets more room than the Things list. */
+.chips.people a,.chips.people .chip-off{padding:.6rem 1rem;font-size:15px;gap:.6rem}
+.chips.people{gap:.65rem}
+.chips.people .face{width:30px;height:30px;margin:-4px 0}
+.chips.people .n{font-size:12.5px}
 .chip-off .face{opacity:.35}
 .chips .chip-off{display:inline-flex;align-items:center;gap:.45rem;border:1px dashed var(--rule);border-radius:999px;padding:.42rem .8rem;font:500 13px/1 var(--sans);color:var(--faint)}
 </style>
@@ -96,16 +100,15 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
   </div>
   <h1>Writers</h1>
   <nav class="tabs"><a href="index.html">Latest</a><a href="writers.html" aria-current="page">Writers</a><a href="objects.html">Things</a></nav>
-  <p class="stand">Pick a voice.</p>
-  <ul class="chips">
-    <li><a href="by/wallace.html"><img class="face" src="faces/wallace.jpg" alt="" width="22" height="22" loading="lazy">David Foster Wallace <span class="n">2</span></a></li>
-    <li><span class="chip-off"><img class="face" src="faces/kafka.jpg" alt="" width="22" height="22" loading="lazy">Franz Kafka <span class="n">0</span></span></li>
-    <li><span class="chip-off"><img class="face" src="faces/orwell.jpg" alt="" width="22" height="22" loading="lazy">George Orwell <span class="n">0</span></span></li>
-    <li><a href="by/thompson.html"><img class="face" src="faces/thompson.jpg" alt="" width="22" height="22" loading="lazy">Hunter S Thompson <span class="n">2</span></a></li>
-    <li><span class="chip-off"><img class="face" src="faces/didion.jpg" alt="" width="22" height="22" loading="lazy">Joan Didion <span class="n">0</span></span></li>
-    <li><span class="chip-off"><img class="face" src="faces/aurelius.jpg" alt="" width="22" height="22" loading="lazy">Marcus Aurelius <span class="n">0</span></span></li>
-    <li><a href="by/twain.html"><img class="face" src="faces/twain.jpg" alt="" width="22" height="22" loading="lazy">Mark Twain <span class="n">1</span></a></li>
-    <li><a href="by/wilde.html"><img class="face" src="faces/wilde.jpg" alt="" width="22" height="22" loading="lazy">Oscar Wilde <span class="n">1</span></a></li>
+  <ul class="chips people">
+    <li><a href="by/wallace.html"><img class="face" src="faces/wallace.jpg" alt="" width="30" height="30" loading="lazy">David Foster Wallace <span class="n">2</span></a></li>
+    <li><span class="chip-off"><img class="face" src="faces/kafka.jpg" alt="" width="30" height="30" loading="lazy">Franz Kafka <span class="n">0</span></span></li>
+    <li><span class="chip-off"><img class="face" src="faces/orwell.jpg" alt="" width="30" height="30" loading="lazy">George Orwell <span class="n">0</span></span></li>
+    <li><a href="by/thompson.html"><img class="face" src="faces/thompson.jpg" alt="" width="30" height="30" loading="lazy">Hunter S Thompson <span class="n">2</span></a></li>
+    <li><span class="chip-off"><img class="face" src="faces/didion.jpg" alt="" width="30" height="30" loading="lazy">Joan Didion <span class="n">0</span></span></li>
+    <li><span class="chip-off"><img class="face" src="faces/aurelius.jpg" alt="" width="30" height="30" loading="lazy">Marcus Aurelius <span class="n">0</span></span></li>
+    <li><a href="by/twain.html"><img class="face" src="faces/twain.jpg" alt="" width="30" height="30" loading="lazy">Mark Twain <span class="n">1</span></a></li>
+    <li><a href="by/wilde.html"><img class="face" src="faces/wilde.jpg" alt="" width="30" height="30" loading="lazy">Oscar Wilde <span class="n">1</span></a></li>
   </ul>
 
   <p class="foot"></p>

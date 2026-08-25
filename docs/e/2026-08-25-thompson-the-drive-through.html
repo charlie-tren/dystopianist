@@ -70,7 +70,6 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .chips a:hover{color:var(--ink);border-color:var(--accent)}
 .chips .n{color:var(--faint);font-size:11.5px}
 .chips a{display:inline-flex;align-items:center;gap:.45rem}
-.chips .g{color:var(--accent);flex:none;opacity:.85}
 .wordmark{display:flex;align-items:center;gap:.55rem}
 .wordmark .ghost{flex:none;color:var(--ink);transition:transform .25s ease}
 /* He floats when you hover him. Two seconds, eased both ways, a few pixels - a
@@ -84,6 +83,11 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .byline{display:flex;align-items:center;gap:.9rem;margin:0 0 2.2rem}
 .byline .face{width:54px;height:54px}
 .chips .face{width:22px;height:22px;margin:-2px 0}
+/* The writers list carries a portrait, so it gets more room than the Things list. */
+.chips.people a,.chips.people .chip-off{padding:.6rem 1rem;font-size:15px;gap:.6rem}
+.chips.people{gap:.65rem}
+.chips.people .face{width:30px;height:30px;margin:-4px 0}
+.chips.people .n{font-size:12.5px}
 .chip-off .face{opacity:.35}
 .chips .chip-off{display:inline-flex;align-items:center;gap:.45rem;border:1px dashed var(--rule);border-radius:999px;padding:.42rem .8rem;font:500 13px/1 var(--sans);color:var(--faint)}
 </style>
@@ -99,7 +103,7 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
   <div class="essay">
     <p>We careened into the drive-through, a vortex of fluorescent lights and disembodied voices, where the sacred ritual of consumption was about to be reduced to a sterile transaction, and I could feel the weight of a thousand midnights bearing down on me, the smell of grease and desperation hanging in the air like a bad omen, as we inched forward, a steel leviathan in a sea of asphalt, waiting for the inevitable moment when the mechanized voice would bark out its demands, and I would be forced to surrender my dignity, my sense of self, to the void, all for the sake of a paper bag filled with the processed remnants of a forgotten dream, and the voice, when it came, was like a cold wind, cutting through the din, asking for my order, my payment, my soul, and I knew in that instant, I was doomed to repeat this surreal waltz, forever trapped in this endless cycle of hunger and consumption, with no escape from the drive-through&#x27;s abyss.</p>
   </div>
-  <p class="pastiche"><b>This is pastiche.</b> Hunter S Thompson never wrote a word about the drive-through and never saw one. It is written in imitation of their style by a language model, the way a cartoonist draws a likeness.</p>
+  <p class="pastiche"><b>This is pastiche.</b> It is written in imitation of Hunter S Thompson's style by a language model, the way a cartoonist draws a likeness.</p>
 
   <p class="foot"><a href="../index.html">All the essays</a></p>
 </div>

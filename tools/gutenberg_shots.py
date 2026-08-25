@@ -11,12 +11,14 @@ It PRINTS candidates rather than writing the config: which paragraph best shows 
 voice is a judgement, and picking automatically would put an unread passage in front
 of the model and on the site.
 
-Not every writer is available. Orwell died in 1950 and is NOT on Gutenberg - anything
-post-1929 is still in US copyright - so he keeps a pastiche sample and is marked as
-such in the config.
+Not every writer is available. Gutenberg proper stops at 1929, so Orwell is not there -
+but Project Gutenberg AUSTRALIA runs on life+70, which put him in the public domain in
+2021, and that is where his samples come from. Wallace, Thompson and Didion have no
+free source and keep pastiche samples, marked as such in styles/.
 """
 from __future__ import annotations
 
+import html
 import re
 import sys
 
@@ -34,6 +36,10 @@ BOOKS = {
     "aurelius": (2680, "Meditations"),
     "kafka":    (7849, "The Trial"),
 }
+
+# Project Gutenberg Australia, which is a different site with a different rule:
+# life + 70 rather than a US publication date. Orwell cleared there in 2021.
+AU = {"orwell": ("http://gutenberg.net.au/ebooks03/0300011h.html", "Fifty Orwell Essays")}
 
 START = re.compile(r"\*\*\*\s*START OF (?:THE|THIS) PROJECT GUTENBERG.*?\*\*\*", re.S)
 END = re.compile(r"\*\*\*\s*END OF (?:THE|THIS) PROJECT GUTENBERG", re.S)
@@ -69,7 +75,26 @@ def paragraphs(text: str):
         yield words, p
 
 
+def strip_html(raw: str) -> str:
+    """PG Australia serves HTML, not the plain text Gutenberg proper offers. Keep the
+    paragraph breaks the tags carry, then hand the result to the same filter."""
+    raw = re.sub(r"(?is)<(script|style|head).*?</\1>", "", raw)
+    raw = re.sub(r"(?i)</p>|<br\s*/?>|</h\d>", "\n\n", raw)
+    return html.unescape(re.sub(r"<[^>]+>", "", raw))
+
+
 def main(only=None) -> int:
+    for who, (url, title) in AU.items():
+        if only and who != only:
+            continue
+        r = S.get(url, timeout=60)
+        r.encoding = r.encoding or "utf-8"
+        paras = list(paragraphs(strip_html(r.text)))
+        print(f"\n{'=' * 78}\n{who} - {title} (PG Australia) - {len(paras)} candidates\n{'=' * 78}")
+        for i in range(4):
+            n, p = paras[int(len(paras) * (0.25 + 0.15 * i))]
+            print(f"\n[{i}] {n} words\n{p}")
+
     for who, (book_id, title) in BOOKS.items():
         if only and who != only:
             continue
