@@ -126,7 +126,7 @@ TAIL = """
 
 # The ghost from favicon.svg, inline so it can sit beside the title and take the
 # theme. Two shapes and two dots - the same reason the favicon works at 16px.
-GHOST = ('<svg class="ghost" viewBox="0 0 100 100" width="1em" height="1em" aria-hidden="true">'
+GHOST = ('<svg class="ghost" viewBox="0 0 100 100" width="1.28em" height="1.28em" aria-hidden="true">'
          '<path d="M30 78V46a20 20 0 0 1 40 0v32l-6.7-5.5-6.6 5.5-6.7-5.5-6.6 5.5-6.7-5.5z" fill="currentColor"/>'
          '<ellipse cx="42" cy="47" rx="4" ry="5" fill="var(--ground)"/>'
          '<ellipse cx="58" cy="47" rx="4" ry="5" fill="var(--ground)"/>'
