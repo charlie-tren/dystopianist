@@ -1,8 +1,8 @@
 # Ghostwriters
 
 Essays by writers who died before the thing they are describing existed. Diogenes on
-the self-checkout machine, Orwell on the smart fridge, Dorothy Parker on the
-productivity app.
+the self-checkout machine, Orwell on the doorbell camera, Kafka on the unsubscribe
+flow.
 
 Live at <https://charlietrenorden.com/ghostwriters/>.
 
@@ -14,7 +14,7 @@ Pastiche, not attribution. Every page says so in the body, not in a footer.
     python run.py --dry    # generate and gate, write nothing
     python tests/test_voice.py
 
-One essay per run. The pairing is thinker x object: 8 x 40 = 320 combinations, never
+One essay per run. The pairing is thinker x object: 12 x 35 = 420 combinations, never
 the same pair twice and never the same thinker two days running, so it does not repeat
 itself for most of a year.
 
@@ -36,7 +36,7 @@ the generator should copy.
 
 `tests/test_voice.py` guards the balance at corpus level: it measures sentence length,
 Latinate vocabulary, person, comma density and spread for everything each thinker has
-published, and fails if two of them converge. The eight reference samples sit at 0.88
+published, and fails if two of them converge. The twelve reference samples sit at 0.88
 for their closest pair (Debord and Veblen, fairly - both abstract and Latinate), so the
 floor is 0.45.
 
