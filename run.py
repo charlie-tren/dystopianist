@@ -65,10 +65,10 @@ def main() -> int:
     # tends to reproduce the same mistake.
     essay, problems = "", ["not attempted"]
     for i in range(ATTEMPTS):
-        essay = write_stage.write(thinker, obj, temperature=0.9 + 0.05 * i)
+        essay, provider = write_stage.write(thinker, obj, temperature=0.9 + 0.05 * i)
         problems = critic.check(essay, thinker, shots)
         status = "ok" if not problems else "; ".join(problems)
-        print(f"  attempt {i + 1}: {len(essay.split())} words - {status}")
+        print(f"  attempt {i + 1}: {len(essay.split())} words via {provider} - {status}")
         if not problems:
             break
     if problems:
@@ -87,6 +87,7 @@ def main() -> int:
         "object": obj,
         "essay": essay,
         "generated": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
+        "provider": provider,
     }
     past.append(entry)
     ARCHIVE.parent.mkdir(exist_ok=True)
