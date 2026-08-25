@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Oscar Wilde on the automatic hand dryer</title>
-<meta name="description" content="A pastiche essay in the style of Oscar Wilde about the automatic hand dryer, which they never saw.">
+<title>Marcus Aurelius - Ghostwriters</title>
+<meta name="description" content="Pastiche essays in the style of Marcus Aurelius about things that did not exist in their lifetime.">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Oscar Wilde on the automatic hand dryer">
-<meta property="og:description" content="A pastiche essay in the style of Oscar Wilde about the automatic hand dryer, which they never saw.">
+<meta property="og:title" content="Marcus Aurelius - Ghostwriters">
+<meta property="og:description" content="Pastiche essays in the style of Marcus Aurelius about things that did not exist in their lifetime.">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="icon" href="../favicon.ico" sizes="any">
 <link rel="icon" href="../favicon-192.png" type="image/png" sizes="192x192">
@@ -53,8 +53,13 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .list{list-style:none;margin:0;padding:0}
 .list li{border-top:1px solid var(--rule);padding:1.1rem 0}
 .list li:last-child{border-bottom:1px solid var(--rule)}
-.list a{text-decoration:none;display:block}
+.list a{text-decoration:none;display:flex;flex-wrap:wrap;align-items:baseline;
+  gap:.4rem 1.2rem;justify-content:space-between}
 .list a:hover .t{color:var(--accent)}
+.rate{flex:none;display:flex;align-items:baseline;gap:.55rem;margin-left:auto}
+.rate .verdict{color:var(--faint);font:400 13px/1.4 var(--sans);text-align:right}
+.rate .score{color:var(--accent);font:500 15px/1 var(--sans);
+  font-variant-numeric:tabular-nums;min-width:2.4ch;text-align:right}
 .t{font-size:1.28rem}
 /* The writer's name carries the row; the object it was set on sits back a shade. */
 .t .thing{color:var(--dim)}
@@ -103,15 +108,15 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
     <a class="home" href="https://charlietrenorden.com/"><span class="back">&larr;</span>&nbsp;Other projects</a>
     <button class="tog" id="tog" type="button">Light</button>
   </div>
-  <div class="byline"><img class="face" src="../faces/wilde.jpg" alt="" width="76" height="76" loading="lazy"><span class="eyebrow" style="margin:0">In the style of</span></div>
-  <h1><a href="../by/wilde.html" style="text-decoration:none">Oscar Wilde</a> on <a href="../on/the-automatic-hand-dryer.html" style="text-decoration:none">the automatic hand dryer</a></h1>
-  <div class="essay">
-    <p>In the most fastidiously designed of public spaces, one finds an object that whispers promises of hygiene and efficiency, yet ultimately reveals itself to be a curious amalgam of noise and necessity. The gentle warmth it dispenses is a small comfort, indeed, when set against the cacophonous drone that accompanies its operation, a sound that seems to reverberate deep within the chambers of the soul.</p>
-    <p>And yet, we submit to its ministrations, our hands held supplicant beneath its blustery caress, as if the price of cleanliness must always be paid in full to the altar of din and disruption. It is a trade, one supposes, that we are willing to make, for in the end, it is not the elegance of its design, but the brute efficacy of its purpose that recommends it to our attention. Still, one cannot help but wonder if the soft glow of its metal skin is not, in fact, a subtle rebuke to the senses, a reminder that even in the most mundane of transactions, there lies a hidden toll, exacted in the currency of our own serenity.</p>
-  </div>
-  <p class="pastiche"><b>This is pastiche.</b> It is written in imitation of Oscar Wilde's style by a language model, the way a cartoonist draws a likeness.</p>
+  <div class="byline"><img class="face" src="../faces/aurelius.jpg" alt="" width="76" height="76" loading="lazy"><span class="eyebrow" style="margin:0">In the style of</span></div>
+  <h1>Marcus Aurelius</h1>
+  <nav class="tabs"><a href="../index.html">Latest</a><a href="../writers.html" aria-current="page">Writers</a><a href="../objects.html">Things</a></nav>
+  <ul class="list">
+    <li><a href="../e/2026-08-25-aurelius-escape-rooms.html"><span class="t">escape rooms</span><span class="sub">Marcus Aurelius</span></a></li>
+    <li><a href="../e/2026-08-25-aurelius-the-alarm-clock.html"><span class="t">the alarm clock</span><span class="sub">Marcus Aurelius</span></a></li>
+  </ul>
 
-  <p class="foot"><a href="../index.html">All the essays</a></p>
+  <p class="foot"></p>
 </div>
 <script>
   (function(){

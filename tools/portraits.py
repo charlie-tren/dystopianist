@@ -39,6 +39,9 @@ LOOK = {
     "aurelius": "a bearded Roman emperor in a plain toga, curly hair and beard, weary",
     "kafka":    "a thin young man in a dark suit and stiff collar, black hair swept straight back, a narrow face and large dark intense eyes",
     "thompson": "a bald man in aviator sunglasses with a cigarette holder clenched in his teeth, bucket hat",
+    "nietzsche": "a stern man with an enormous drooping walrus moustache, heavy brows, high forehead, dark 19th-century coat",
+    "montaigne": "a balding 16th-century Frenchman with a pointed beard and a wide starched ruff collar",
+    "ephron":   "a dark-haired American woman in her sixties, short practical haircut, amused sceptical expression, plain shirt",
     "didion":   "a very slight woman in her sixties, dark sunglasses, straight shoulder-length hair, cigarette, cool unsmiling expression",
 }
 

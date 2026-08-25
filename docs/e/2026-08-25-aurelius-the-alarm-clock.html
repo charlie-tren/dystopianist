@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Oscar Wilde - Ghostwriters</title>
-<meta name="description" content="Pastiche essays in the style of Oscar Wilde about things that did not exist in their lifetime.">
+<title>Marcus Aurelius on the alarm clock</title>
+<meta name="description" content="A pastiche essay in the style of Marcus Aurelius about the alarm clock, which they never saw.">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Oscar Wilde - Ghostwriters">
-<meta property="og:description" content="Pastiche essays in the style of Oscar Wilde about things that did not exist in their lifetime.">
+<meta property="og:title" content="Marcus Aurelius on the alarm clock">
+<meta property="og:description" content="A pastiche essay in the style of Marcus Aurelius about the alarm clock, which they never saw.">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="icon" href="../favicon.ico" sizes="any">
 <link rel="icon" href="../favicon-192.png" type="image/png" sizes="192x192">
@@ -53,8 +53,13 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .list{list-style:none;margin:0;padding:0}
 .list li{border-top:1px solid var(--rule);padding:1.1rem 0}
 .list li:last-child{border-bottom:1px solid var(--rule)}
-.list a{text-decoration:none;display:block}
+.list a{text-decoration:none;display:flex;flex-wrap:wrap;align-items:baseline;
+  gap:.4rem 1.2rem;justify-content:space-between}
 .list a:hover .t{color:var(--accent)}
+.rate{flex:none;display:flex;align-items:baseline;gap:.55rem;margin-left:auto}
+.rate .verdict{color:var(--faint);font:400 13px/1.4 var(--sans);text-align:right}
+.rate .score{color:var(--accent);font:500 15px/1 var(--sans);
+  font-variant-numeric:tabular-nums;min-width:2.4ch;text-align:right}
 .t{font-size:1.28rem}
 /* The writer's name carries the row; the object it was set on sits back a shade. */
 .t .thing{color:var(--dim)}
@@ -103,14 +108,16 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
     <a class="home" href="https://charlietrenorden.com/"><span class="back">&larr;</span>&nbsp;Other projects</a>
     <button class="tog" id="tog" type="button">Light</button>
   </div>
-  <div class="byline"><img class="face" src="../faces/wilde.jpg" alt="" width="76" height="76" loading="lazy"><span class="eyebrow" style="margin:0">In the style of</span></div>
-  <h1>Oscar Wilde</h1>
-  <nav class="tabs"><a href="../index.html">Latest</a><a href="../writers.html" aria-current="page">Writers</a><a href="../objects.html">Things</a></nav>
-  <ul class="list">
-    <li><a href="../e/2026-08-25-wilde-the-automatic-hand-dryer.html"><span class="t">the automatic hand dryer</span><span class="sub">Oscar Wilde</span></a></li>
-  </ul>
+  <div class="byline"><img class="face" src="../faces/aurelius.jpg" alt="" width="76" height="76" loading="lazy"><span class="eyebrow" style="margin:0">In the style of</span></div>
+  <h1><a href="../by/aurelius.html" style="text-decoration:none">Marcus Aurelius</a> on <a href="../on/the-alarm-clock.html" style="text-decoration:none">the alarm clock</a></h1>
+  <div class="essay">
+    <p>As I lie here, a device screams at me to rise, shattering the stillness of the morning. What urgency is this, that I must be jarred from my rest like a beast from its lair?</p>
+    <p>Can it truly be said that the passing of time is so precious, so fleeting, that I must be torn from slumber to attend to its every tick? And yet, I submit to this tyranny, day after day, as if the arbitrary chime of this device held some greater significance than the gentle stirrings of my own heart.</p>
+    <p>In this, I am a slave to the whims of a machine, rather than a master of my own soul. The universe unfolds with indifference, heedless of my petty schedules and appointments, and still I rush to answer the summons of this mindless thing, as if my very existence depended on it. I am ashamed of this weakness, and the absurdity of it all.</p>
+  </div>
+  <p class="pastiche"><b>This is pastiche.</b> It is written in imitation of Marcus Aurelius's style by a language model, the way a cartoonist draws a likeness.</p>
 
-  <p class="foot"></p>
+  <p class="foot"><a href="../index.html">All the essays</a></p>
 </div>
 <script>
   (function(){

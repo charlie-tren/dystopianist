@@ -53,8 +53,13 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .list{list-style:none;margin:0;padding:0}
 .list li{border-top:1px solid var(--rule);padding:1.1rem 0}
 .list li:last-child{border-bottom:1px solid var(--rule)}
-.list a{text-decoration:none;display:block}
+.list a{text-decoration:none;display:flex;flex-wrap:wrap;align-items:baseline;
+  gap:.4rem 1.2rem;justify-content:space-between}
 .list a:hover .t{color:var(--accent)}
+.rate{flex:none;display:flex;align-items:baseline;gap:.55rem;margin-left:auto}
+.rate .verdict{color:var(--faint);font:400 13px/1.4 var(--sans);text-align:right}
+.rate .score{color:var(--accent);font:500 15px/1 var(--sans);
+  font-variant-numeric:tabular-nums;min-width:2.4ch;text-align:right}
 .t{font-size:1.28rem}
 /* The writer's name carries the row; the object it was set on sits back a shade. */
 .t .thing{color:var(--dim)}
@@ -107,10 +112,8 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
   <nav class="tabs"><a href="index.html" aria-current="page">Latest</a><a href="writers.html">Writers</a><a href="objects.html">Things</a></nav>
   <p class="stand">Essays by writers who died before the thing they are describing existed. Pastiche, written by a language model in imitation of their style.</p>
   <ul class="list">
-    <li><a href="e/2026-08-25-wilde-the-automatic-hand-dryer.html"><span class="t">Oscar Wilde <span class="thing">on the automatic hand dryer</span></span></a></li>
-    <li><a href="e/2026-08-25-thompson-the-drive-through.html"><span class="t">Hunter S Thompson <span class="thing">on the drive-through</span></span></a></li>
-    <li><a href="e/2026-08-25-wallace-the-abandoned-electric-scooter.html"><span class="t">David Foster Wallace <span class="thing">on the abandoned electric scooter</span></span></a></li>
-    <li><a href="e/2026-08-25-twain-karaoke.html"><span class="t">Mark Twain <span class="thing">on karaoke</span></span></a></li>
+    <li><a href="e/2026-08-25-aurelius-escape-rooms.html"><span class="t">Marcus Aurelius <span class="thing">on escape rooms</span></span><span class="rate"><span class="verdict">fleeting amusement</span><span class="score">4.5</span></span></a></li>
+    <li><a href="e/2026-08-25-aurelius-the-alarm-clock.html"><span class="t">Marcus Aurelius <span class="thing">on the alarm clock</span></span><span class="rate"><span class="verdict">foolish contraption</span><span class="score">2.1</span></span></a></li>
   </ul>
 
   <p class="foot"></p>

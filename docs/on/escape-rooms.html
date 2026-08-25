@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>David Foster Wallace on the abandoned electric scooter</title>
-<meta name="description" content="A pastiche essay in the style of David Foster Wallace about the abandoned electric scooter, which they never saw.">
+<title>escape rooms - Ghostwriters</title>
+<meta name="description" content="and Marcus Aurelius on escape rooms, in pastiche.">
 <meta property="og:type" content="website">
-<meta property="og:title" content="David Foster Wallace on the abandoned electric scooter">
-<meta property="og:description" content="A pastiche essay in the style of David Foster Wallace about the abandoned electric scooter, which they never saw.">
+<meta property="og:title" content="escape rooms - Ghostwriters">
+<meta property="og:description" content="and Marcus Aurelius on escape rooms, in pastiche.">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="icon" href="../favicon.ico" sizes="any">
 <link rel="icon" href="../favicon-192.png" type="image/png" sizes="192x192">
@@ -53,8 +53,13 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .list{list-style:none;margin:0;padding:0}
 .list li{border-top:1px solid var(--rule);padding:1.1rem 0}
 .list li:last-child{border-bottom:1px solid var(--rule)}
-.list a{text-decoration:none;display:block}
+.list a{text-decoration:none;display:flex;flex-wrap:wrap;align-items:baseline;
+  gap:.4rem 1.2rem;justify-content:space-between}
 .list a:hover .t{color:var(--accent)}
+.rate{flex:none;display:flex;align-items:baseline;gap:.55rem;margin-left:auto}
+.rate .verdict{color:var(--faint);font:400 13px/1.4 var(--sans);text-align:right}
+.rate .score{color:var(--accent);font:500 15px/1 var(--sans);
+  font-variant-numeric:tabular-nums;min-width:2.4ch;text-align:right}
 .t{font-size:1.28rem}
 /* The writer's name carries the row; the object it was set on sits back a shade. */
 .t .thing{color:var(--dim)}
@@ -103,14 +108,15 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
     <a class="home" href="https://charlietrenorden.com/"><span class="back">&larr;</span>&nbsp;Other projects</a>
     <button class="tog" id="tog" type="button">Light</button>
   </div>
-  <div class="byline"><img class="face" src="../faces/wallace.jpg" alt="" width="76" height="76" loading="lazy"><span class="eyebrow" style="margin:0">In the style of</span></div>
-  <h1><a href="../by/wallace.html" style="text-decoration:none">David Foster Wallace</a> on <a href="../on/the-abandoned-electric-scooter.html" style="text-decoration:none">the abandoned electric scooter</a></h1>
-  <div class="essay">
-    <p>And so the electric scooter, just standing there on the footpath, becomes a kind of Rorschach test for the people who have to walk around it, its presence seeming to provoke a weirdly intense mix of annoyance and indifference, as if the fact that it&#x27;s not actually in anyone&#x27;s way only makes its abandonment feel more egregious, which is to say that what bothers you about it, if you&#x27;re bothered, is not the obstruction itself but the implied disdain for the idea that someone else might need to use the footpath, and yet at the same time you can&#x27;t help but wonder, as you step around it, whether maybe the owner just got distracted or had some kind of emergency, and so the scooter ends up being a tiny, irritating reminder that your own sense of order and decency is always on the verge of being disrupted by other people&#x27;s crap, which is maybe why, as you continue on your way, you find yourself glancing back at the thing with a mixture of disdain and recognition, the latter of which is really just a polite way of saying that, hey, you&#x27;ve been that guy, too, leaving your stuff lying around for others to deal with, and that&#x27;s what really gets your goat.</p>
-  </div>
-  <p class="pastiche"><b>This is pastiche.</b> It is written in imitation of David Foster Wallace's style by a language model, the way a cartoonist draws a likeness.</p>
+  <p class="eyebrow">On</p>
+  <h1>escape rooms</h1>
+  <nav class="tabs"><a href="../index.html">Latest</a><a href="../writers.html">Writers</a><a href="../objects.html" aria-current="page">Things</a></nav>
+  <p class="stand">1 writer on it, none of whom saw one.</p>
+  <ul class="list">
+    <li><a href="../e/2026-08-25-aurelius-escape-rooms.html"><span class="t">Marcus Aurelius</span><span class="sub">escape rooms</span></a></li>
+  </ul>
 
-  <p class="foot"><a href="../index.html">All the essays</a></p>
+  <p class="foot"><a href="../objects.html">Every object</a></p>
 </div>
 <script>
   (function(){

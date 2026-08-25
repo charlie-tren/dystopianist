@@ -1,40 +1,24 @@
-# Things none of them lived to see. The pairing thinker x object is the anti-repeat
-# axis: 8 thinkers x 40 objects is 320 pairs, so a daily site does not repeat a pair
-# for the better part of a year even before the "no thinker twice in a row" rule.
+# Things none of them lived to see.
 #
-# Keep these SMALL and ordinary. "Artificial intelligence" is a subject; "the
-# unsubscribe flow" is an object, and the essay has somewhere to stand.
+# `writers` is the shortlist for that object - the voices with a specific reason to
+# have an opinion on it rather than a general one. The pairing prefers these until
+# they are spent, so the early essays are the strong matchups; after that it falls
+# back to the whole roster, because part of the point is a writer meeting something
+# they have no natural claim on.
 objects:
-  - the self-checkout machine
-  - the alarm clock
-  - the loyalty card
-  - the group chat
-  - the step counter
-  - the unsubscribe flow
-  - the airport lounge
-  - the open-plan office
-  - the automatic out-of-office reply
-  - the drive-through
-  - the cookie consent banner
-  - the loading spinner
-  - the stairwell motivational poster
-  - the wedding hashtag
-  - the dating app
-  - the packet of airline peanuts
-  - the take-a-number dispenser
-  - the abandoned electric scooter
-  - the LinkedIn endorsement
-  - the meal-kit delivery box
-  - the noise-cancelling headphone
-  - the host-read podcast ad
-  - the parcel locker
-  - the automatic hand dryer
-  - the traffic roundabout
-  - the mandatory fun day
-  - the influencer's morning routine
-  - the reclining seat on a plane
-  - karaoke
-  - the escape room
-  - the pet's social media account
-  - the self-service petrol pump
-  - the office birthday card
+  - name: the self-checkout machine
+    writers: [kafka, orwell, wallace]
+  - name: the alarm clock
+    writers: [aurelius, montaigne, kafka]
+  - name: the group chat
+    writers: [wilde, ephron, didion]
+  - name: the airport lounge
+    writers: [didion, wallace, orwell]
+  - name: dating apps
+    writers: [wilde, nietzsche, ephron]
+  - name: LinkedIn
+    writers: [twain, nietzsche, wilde]
+  - name: reclining a seat on a plane
+    writers: [montaigne, twain, thompson]
+  - name: escape rooms
+    writers: [kafka, thompson, nietzsche]

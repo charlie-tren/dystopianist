@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hunter S Thompson - Ghostwriters</title>
-<meta name="description" content="Pastiche essays in the style of Hunter S Thompson about things that did not exist in their lifetime.">
+<title>the alarm clock - Ghostwriters</title>
+<meta name="description" content="and Marcus Aurelius on the alarm clock, in pastiche.">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Hunter S Thompson - Ghostwriters">
-<meta property="og:description" content="Pastiche essays in the style of Hunter S Thompson about things that did not exist in their lifetime.">
+<meta property="og:title" content="the alarm clock - Ghostwriters">
+<meta property="og:description" content="and Marcus Aurelius on the alarm clock, in pastiche.">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="icon" href="../favicon.ico" sizes="any">
 <link rel="icon" href="../favicon-192.png" type="image/png" sizes="192x192">
@@ -53,8 +53,13 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .list{list-style:none;margin:0;padding:0}
 .list li{border-top:1px solid var(--rule);padding:1.1rem 0}
 .list li:last-child{border-bottom:1px solid var(--rule)}
-.list a{text-decoration:none;display:block}
+.list a{text-decoration:none;display:flex;flex-wrap:wrap;align-items:baseline;
+  gap:.4rem 1.2rem;justify-content:space-between}
 .list a:hover .t{color:var(--accent)}
+.rate{flex:none;display:flex;align-items:baseline;gap:.55rem;margin-left:auto}
+.rate .verdict{color:var(--faint);font:400 13px/1.4 var(--sans);text-align:right}
+.rate .score{color:var(--accent);font:500 15px/1 var(--sans);
+  font-variant-numeric:tabular-nums;min-width:2.4ch;text-align:right}
 .t{font-size:1.28rem}
 /* The writer's name carries the row; the object it was set on sits back a shade. */
 .t .thing{color:var(--dim)}
@@ -103,14 +108,15 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
     <a class="home" href="https://charlietrenorden.com/"><span class="back">&larr;</span>&nbsp;Other projects</a>
     <button class="tog" id="tog" type="button">Light</button>
   </div>
-  <div class="byline"><img class="face" src="../faces/thompson.jpg" alt="" width="76" height="76" loading="lazy"><span class="eyebrow" style="margin:0">In the style of</span></div>
-  <h1>Hunter S Thompson</h1>
-  <nav class="tabs"><a href="../index.html">Latest</a><a href="../writers.html" aria-current="page">Writers</a><a href="../objects.html">Things</a></nav>
+  <p class="eyebrow">On</p>
+  <h1>the alarm clock</h1>
+  <nav class="tabs"><a href="../index.html">Latest</a><a href="../writers.html">Writers</a><a href="../objects.html" aria-current="page">Things</a></nav>
+  <p class="stand">1 writer on it, none of whom saw one.</p>
   <ul class="list">
-    <li><a href="../e/2026-08-25-thompson-the-drive-through.html"><span class="t">the drive-through</span><span class="sub">Hunter S Thompson</span></a></li>
+    <li><a href="../e/2026-08-25-aurelius-the-alarm-clock.html"><span class="t">Marcus Aurelius</span><span class="sub">the alarm clock</span></a></li>
   </ul>
 
-  <p class="foot"></p>
+  <p class="foot"><a href="../objects.html">Every object</a></p>
 </div>
 <script>
   (function(){

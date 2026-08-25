@@ -1,7 +1,8 @@
 # Ghostwriters
 
-Essays by writers who died before the thing they are describing existed. Twain on the
-karaoke machine, Orwell on the doorbell camera, Kafka on the unsubscribe flow.
+Essays by writers who died before the thing they are describing existed. Twain on
+LinkedIn, Aurelius on the alarm clock, Kafka on the self-checkout machine. Each one
+carries a verdict and a score out of ten, and the prose is written to earn it.
 
 Live at <https://charlietrenorden.com/ghostwriters/>. Renamed from "The Dystopianist"
 on 25/08/2026; the old path redirects.
@@ -10,14 +11,26 @@ Pastiche, not attribution. Every essay page says so in the body, not in a footer
 
 ## How it works
 
-    python run.py          # today's pairing: generate, gate, render
-    python run.py --dry    # generate and gate, write nothing
+    python run.py                    # today's pairing: generate, gate, render
+    python run.py --dry              # generate and gate, write nothing
+    python run.py --writer kafka     # a named writer instead of the rotation
+    python run.py --until 2          # backfill every writer to a minimum count
     python tests/test_voice.py
     python tools/portraits.py        # cartoon portrait per writer, free
     python tools/gutenberg_shots.py  # candidate samples from real books
 
-One essay per run. The pairing is writer x object: 8 x 35 = 280 combinations, never the
-same pair twice and never the same writer two days running.
+One essay per run. The pairing is writer x object - 11 x 8 - and each object names the
+two or three writers with a SPECIFIC reason to have an opinion on it. Those shortlisted
+pairings go first, so the early essays are the strong matchups; after that it falls back
+to the whole roster, because a writer meeting something they have no claim on is half
+the point. Never the same pair twice, never the same writer two days running.
+
+### The score
+
+The model is asked for a verdict and a score out of ten BEFORE the essay, and told the
+prose must earn it - a demolition scored 6 is a failure. The score shows on the front
+page beside the title. `critic.py` checks it exists and is in range; whether the prose
+actually matches is a reading job, not a gate.
 
 ## styles/ is the part that matters
 
@@ -35,17 +48,18 @@ Twain, which is what a shared prompt does.
 
 ### Real prose where the copyright has expired
 
-Five writers use their own words, attributed in the file: **Twain** (Life on the
+Seven of the eleven use their own words, attributed in the file: **Twain** (Life on the
 Mississippi), **Wilde** (the Dorian Gray preface), **Marcus Aurelius** (Meditations,
-Casaubon) and **Kafka** (The Trial, Wyllie) from Project Gutenberg, and **Orwell**
-(A Nice Cup of Tea, Pleasure Spots) from Project Gutenberg **Australia** - a different
-site with a different rule, life+70 rather than a US publication date, which cleared
-him in 2021. The remaining three are pastiche written for this repo because they are
-still in copyright: Wallace (2078), Thompson (2075) and Didion (2091).
+Casaubon), **Kafka** (The Trial, Wyllie), **Nietzsche** (Beyond Good and Evil, Zimmern)
+and **Montaigne** (Essays, Cotton) from Project Gutenberg, and **Orwell** (A Nice Cup of
+Tea, Pleasure Spots) from Project Gutenberg **Australia** - a different site with a
+different rule, life+70 rather than a US publication date, which cleared him in 2021.
 
-Imitating a pastiche is a copy of a copy, and it was the likeliest reason the first
-batches read only broadly like their author. Expect those three to imitate less
-closely, and say so rather than pretending otherwise.
+The other four are pastiche written for this repo because they are still in copyright:
+Wallace (2078), Thompson (2075), Didion (2091) and Ephron (2083). Imitating a pastiche
+is a copy of a copy, and it was the likeliest reason the first batches read only broadly
+like their author. Expect those four to imitate less closely, and say so rather than
+pretending otherwise.
 
 ## Two providers, both free
 
@@ -67,8 +81,8 @@ Measured on the same Kafka prompt, so the choice is not a guess:
 **Every writer collapsing into the same voice.** Invisible on any one page - you only see
 it reading two. `tests/test_voice.py` guards it at CORPUS level: sentence length, Latinate
 vocabulary, person, comma density and spread across everything each writer has published,
-failing if two converge. The eight samples sit at 0.61 for their closest pair, so the floor
-is 0.45.
+failing if two converge. The eleven samples sit at 1.02 for their closest pair
+(Montaigne/Twain), so the floor is 0.45.
 
 **The model cloning a sample instead of imitating it.** The first batch opened Wilde with
 "There is no such thing as a considerate or an inconsiderate message" - the sample's own
@@ -92,10 +106,10 @@ real collapse, a per-essay gate mostly catches formality.
 |---|---|
 | `styles/*.md` | Register, samples, avoid list, log. One per writer |
 | `styles.py`   | Reads them |
-| `config/objects.yaml` | Things none of them saw |
+| `config/objects.yaml` | Things none of them saw, each with its shortlist of writers |
 | `llm.py`      | Gemini, then Cloudflare. Records which one wrote each essay |
 | `write.py`    | The prompt. Short - the samples do the work |
-| `critic.py`   | Length, no name-drop, no year, no anachronism tells |
+| `critic.py`   | Length, score in range, no name-drop, no year, no anachronism tells, no markdown |
 | `voice.py`    | Prose fingerprints and the distance between two |
 | `render.py`   | Static pages. Prunes anything the archive no longer contains |
 | `run.py`      | Pick a pairing, generate, gate, retry, render |

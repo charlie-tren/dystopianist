@@ -6,8 +6,8 @@
     python run.py --until 2        # keep going until every writer has 2 essays
 
 The pairing is the anti-repeat axis: never the same thinker-object pair twice, and
-never the same thinker two days running. With 8 x 40 pairs that lasts most of a
-year before it has to reach for a used pair.
+never the same thinker two days running. Shortlisted pairings - see pick() - go
+first, so the strong matchups are not left to the shuffle.
 """
 from __future__ import annotations
 
@@ -24,6 +24,7 @@ import yaml
 
 import _env
 import critic
+import llm
 import styles
 import render
 import write as write_stage
@@ -38,16 +39,27 @@ def load(name):
 
 
 def pick(thinkers, objects, past, only=None):
+    """Prefer the shortlisted pairings while any are left.
+
+    Each object in the config names the two or three writers with a specific reason
+    to have an opinion on it. Those go first, so the early essays are the strong
+    matchups rather than whatever the shuffle produced; once they are spent it falls
+    back to the whole roster, because a writer meeting something they have no claim
+    on is half the point."""
     used = {(e["thinker"], e["object"]) for e in past}
     last = past[-1]["thinker"] if past else None
     ids = [only] if only else [x["id"] for x in thinkers]
     if only:
         last = None                    # a targeted backfill is not the daily rotation
-    pool = [(t, o) for t in ids for o in objects
-            if (t, o) not in used and t != last]
-    if not pool:                       # every pair spent: allow repeats, still not twice running
-        pool = [(t, o) for t in ids for o in objects if t != last]
-    return random.choice(pool)
+
+    free = [(t, o["name"]) for t in ids for o in objects
+            if (t, o["name"]) not in used and t != last]
+    shortlisted = [(t, o["name"]) for t in ids for o in objects
+                   if t in (o.get("writers") or []) and (t, o["name"]) not in used
+                   and t != last]
+    if not free:                       # every pair spent: allow repeats, still not twice running
+        free = [(t, o["name"]) for t in ids for o in objects if t != last]
+    return random.choice(shortlisted or free)
 
 
 def main() -> int:
@@ -85,7 +97,19 @@ def main() -> int:
         while short():
             tid = short()[0]
             print(f"\n--- {tid} ({len(short())} writer(s) still short of {args.until}) ---")
-            if one(tid, thinkers, objects, by_id, shots, past, args.dry):
+            try:
+                failed = one(tid, thinkers, objects, by_id, shots, past, args.dry)
+            except llm.NoProvider as exc:
+                # Both free tiers are day-limited, so a long backfill can simply run
+                # out. Everything written so far is already on disk and rendered;
+                # re-running the same command tomorrow picks up where it stopped.
+                print(f"\nout of free quota after {len(past)} essay(s): {exc}",
+                      file=sys.stderr)
+                print(f"{len(short())} writer(s) still short - re-run "
+                      f"'python run.py --until {args.until}' once the quota resets",
+                      file=sys.stderr)
+                return 3
+            if failed:
                 print(f"giving up on {tid}", file=sys.stderr)
                 return 1
         print(f"\nevery writer has at least {args.until}")
@@ -103,11 +127,14 @@ def one(only, thinkers, objects, by_id, shots, past, dry) -> int:
     # Temperature climbs a little each time: the same prompt at the same heat
     # tends to reproduce the same mistake.
     essay, problems = "", ["not attempted"]
+    verdict, score = "", None
     for i in range(ATTEMPTS):
-        essay, provider = write_stage.write(thinker, obj, temperature=0.9 + 0.05 * i)
-        problems = critic.check(essay, thinker, shots)
+        essay, verdict, score, provider = write_stage.write(
+            thinker, obj, temperature=0.9 + 0.05 * i)
+        problems = critic.check(essay, thinker, shots, verdict, score)
         status = "ok" if not problems else "; ".join(problems)
-        print(f"  attempt {i + 1}: {len(essay.split())} words via {provider} - {status}")
+        print(f"  attempt {i + 1}: {len(essay.split())} words via {provider} "
+              f"- {verdict} {score} - {status}")
         if not problems:
             break
     if problems:
@@ -124,6 +151,8 @@ def one(only, thinkers, objects, by_id, shots, past, dry) -> int:
         "name": thinker["name"],
         "dates": thinker["dates"],
         "object": obj,
+        "verdict": verdict,
+        "score": score,
         "essay": essay,
         "generated": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
         "provider": provider,

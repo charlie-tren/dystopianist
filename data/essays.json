@@ -1,42 +1,26 @@
 [
   {
     "date": "2026-08-25",
-    "thinker": "twain",
-    "name": "Mark Twain",
-    "dates": "1835-1910",
-    "object": "karaoke",
-    "essay": "I reckon it's a mighty curious thing, this contraption that can make a person sound like a nightingale or a wounded animal, depending on their inclination and talent. Now, I've seen folks gather 'round it, eager to take their turn at warbling into the microphone, and I've wondered what sort of sorcery is at work here. It's as if the machine is a magic lantern, projecting the singer's voice out into the world, amplified and transformed in some way. But then, I've heard tell of people who can sing like angels, and others who can curdle milk at fifty paces, and I suppose this machine just gives 'em a platform to showcase their gifts. Still, it's a puzzlement to me, and I'll just have to take it on faith that it's not some sort of trickery or deceit. It just makes a racket, if you ask me.",
-    "generated": "2026-08-25T01:56:06+00:00",
+    "thinker": "aurelius",
+    "name": "Marcus Aurelius",
+    "dates": "121-180",
+    "object": "the alarm clock",
+    "verdict": "foolish contraption",
+    "score": 2.1,
+    "essay": "As I lie here, a device screams at me to rise, shattering the stillness of the morning. What urgency is this, that I must be jarred from my rest like a beast from its lair? Can it truly be said that the passing of time is so precious, so fleeting, that I must be torn from slumber to attend to its every tick? And yet, I submit to this tyranny, day after day, as if the arbitrary chime of this device held some greater significance than the gentle stirrings of my own heart. In this, I am a slave to the whims of a machine, rather than a master of my own soul. The universe unfolds with indifference, heedless of my petty schedules and appointments, and still I rush to answer the summons of this mindless thing, as if my very existence depended on it. I am ashamed of this weakness, and the absurdity of it all.",
+    "generated": "2026-08-25T03:38:40+00:00",
     "provider": "cloudflare"
   },
   {
     "date": "2026-08-25",
-    "thinker": "wallace",
-    "name": "David Foster Wallace",
-    "dates": "1962-2008",
-    "object": "the abandoned electric scooter",
-    "essay": "And so the electric scooter, just standing there on the footpath, becomes a kind of Rorschach test for the people who have to walk around it, its presence seeming to provoke a weirdly intense mix of annoyance and indifference, as if the fact that it's not actually in anyone's way only makes its abandonment feel more egregious, which is to say that what bothers you about it, if you're bothered, is not the obstruction itself but the implied disdain for the idea that someone else might need to use the footpath, and yet at the same time you can't help but wonder, as you step around it, whether maybe the owner just got distracted or had some kind of emergency, and so the scooter ends up being a tiny, irritating reminder that your own sense of order and decency is always on the verge of being disrupted by other people's crap, which is maybe why, as you continue on your way, you find yourself glancing back at the thing with a mixture of disdain and recognition, the latter of which is really just a polite way of saying that, hey, you've been that guy, too, leaving your stuff lying around for others to deal with, and that's what really gets your goat.",
-    "generated": "2026-08-25T01:57:07+00:00",
-    "provider": "cloudflare"
-  },
-  {
-    "date": "2026-08-25",
-    "thinker": "thompson",
-    "name": "Hunter S Thompson",
-    "dates": "1937-2005",
-    "object": "the drive-through",
-    "essay": "We careened into the drive-through, a vortex of fluorescent lights and disembodied voices, where the sacred ritual of consumption was about to be reduced to a sterile transaction, and I could feel the weight of a thousand midnights bearing down on me, the smell of grease and desperation hanging in the air like a bad omen, as we inched forward, a steel leviathan in a sea of asphalt, waiting for the inevitable moment when the mechanized voice would bark out its demands, and I would be forced to surrender my dignity, my sense of self, to the void, all for the sake of a paper bag filled with the processed remnants of a forgotten dream, and the voice, when it came, was like a cold wind, cutting through the din, asking for my order, my payment, my soul, and I knew in that instant, I was doomed to repeat this surreal waltz, forever trapped in this endless cycle of hunger and consumption, with no escape from the drive-through's abyss.",
-    "generated": "2026-08-25T01:57:26+00:00",
-    "provider": "cloudflare"
-  },
-  {
-    "date": "2026-08-25",
-    "thinker": "wilde",
-    "name": "Oscar Wilde",
-    "dates": "1854-1900",
-    "object": "the automatic hand dryer",
-    "essay": "In the most fastidiously designed of public spaces, one finds an object that whispers promises of hygiene and efficiency, yet ultimately reveals itself to be a curious amalgam of noise and necessity. The gentle warmth it dispenses is a small comfort, indeed, when set against the cacophonous drone that accompanies its operation, a sound that seems to reverberate deep within the chambers of the soul. And yet, we submit to its ministrations, our hands held supplicant beneath its blustery caress, as if the price of cleanliness must always be paid in full to the altar of din and disruption. It is a trade, one supposes, that we are willing to make, for in the end, it is not the elegance of its design, but the brute efficacy of its purpose that recommends it to our attention. Still, one cannot help but wonder if the soft glow of its metal skin is not, in fact, a subtle rebuke to the senses, a reminder that even in the most mundane of transactions, there lies a hidden toll, exacted in the currency of our own serenity.",
-    "generated": "2026-08-25T01:57:46+00:00",
+    "thinker": "aurelius",
+    "name": "Marcus Aurelius",
+    "dates": "121-180",
+    "object": "escape rooms",
+    "verdict": "fleeting amusement",
+    "score": 4.5,
+    "essay": "As I find myself confined in a room with contrived obstacles, I am reminded that true freedom lies not in the physical realm, but in the mind. The artificial challenges that surround me are but a pale reflection of the real struggles that beset us all. And yet, I must acknowledge the fleeting pleasure that comes from overcoming these trivial hurdles. But let us not be deceived, for in the grand tapestry of existence, such diversions are but a minor thread. The hours we spend in such pursuits are lost forever, and the triumphs we achieve are hollow and short-lived. Still, I shall play along, for even in the most frivolous of activities, there lies a lesson to be learned about the human condition, and the fragility of our existence. In the end, it is not the escape that matters, but the journey, and the opportunity to confront our own mortality, and the impermanence of all things.",
+    "generated": "2026-08-25T03:38:59+00:00",
     "provider": "cloudflare"
   }
 ]

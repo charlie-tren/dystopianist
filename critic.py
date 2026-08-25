@@ -17,9 +17,22 @@ TELLS = [
 ]
 
 
-def check(essay: str, thinker: dict, shots: dict[str, str]) -> list[str]:
+def check(essay: str, thinker: dict, shots: dict[str, str],
+          verdict: str = "-", score: float | None = None) -> list[str]:
     """Every reason this essay should not be published. Empty list means fine."""
     problems = []
+    # The score is shown beside the essay, so a missing or absurd one is a broken
+    # page rather than a cosmetic flaw. Whether the PROSE matches the number is not
+    # checkable here - that lives in the prompt and in reading the output.
+    if score is None or not 0 <= score <= 10:
+        problems.append(f"score {score!r}, want 0-10")
+    if not 1 <= len(verdict.split()) <= 3:
+        problems.append(f"verdict {verdict!r}, want one to three words")
+    if re.search(r"\d(?:\.\d)?\s*(?:/|out of)\s*(?:10|ten)|\bten out of ten\b",
+                 essay, re.I):
+        problems.append("states a score in the essay")
+    if "_" in essay or "*" in essay:
+        problems.append("markdown emphasis in the prose")
     words = re.findall(r"[A-Za-z']+", essay)
     if not (MIN_WORDS <= len(words) <= MAX_WORDS):
         problems.append(f"length {len(words)} words, want {MIN_WORDS}-{MAX_WORDS}")

@@ -19,9 +19,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import voice  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
-# Below this two thinkers are writing the same way. The eight reference samples
-# sit at 0.88 for their closest pair (Debord/Veblen, which is fair - both are
-# abstract and Latinate), so anything under half that is a real collapse.
+# Below this two thinkers are writing the same way. The eleven reference samples sit
+# at 1.02 for their closest pair (Montaigne/Twain, which is fair - both ramble
+# genially in the first person), so anything under half that is a real collapse.
 FLOOR = 0.45
 MIN_EACH = 2          # a thinker needs a couple of essays before an average means much
 
