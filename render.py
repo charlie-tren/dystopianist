@@ -77,12 +77,12 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 @media (prefers-reduced-motion:reduce){.wordmark:hover .ghost{animation:none}}
 .face{border-radius:50%;flex:none;object-fit:cover;filter:saturate(.85)}
 .byline{display:flex;align-items:center;gap:.9rem;margin:0 0 2.2rem}
-.byline .face{width:54px;height:54px}
-.chips .face{width:22px;height:22px;margin:-2px 0}
+.byline .face{width:76px;height:76px}
+.chips .face{width:26px;height:26px;margin:-3px 0}
 /* The writers list carries a portrait, so it gets more room than the Things list. */
-.chips.people a,.chips.people .chip-off{padding:.6rem 1rem;font-size:15px;gap:.6rem}
+.chips.people a,.chips.people .chip-off{padding:.55rem 1.05rem;font-size:15px;gap:.7rem}
 .chips.people{gap:.65rem}
-.chips.people .face{width:30px;height:30px;margin:-4px 0}
+.chips.people .face{width:40px;height:40px;margin:-8px 0}
 .chips.people .n{font-size:12.5px}
 .chip-off .face{opacity:.35}
 .chips .chip-off{display:inline-flex;align-items:center;gap:.45rem;border:1px dashed var(--rule);border-radius:999px;padding:.42rem .8rem;font:500 13px/1 var(--sans);color:var(--faint)}
@@ -270,7 +270,7 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
             also = (f'  <p class="foot">Also on {html.escape(e["object"])}: {links}. '
                     f'<a href="../on/{obj_slug(e["object"])}.html">All of them</a>.</p>\n')
         body = (f'  <div class="byline"><img class="face" src="../faces/{e["thinker"]}.jpg" '
-                f'alt="" width="54" height="54" loading="lazy">'
+                f'alt="" width="76" height="76" loading="lazy">'
                 '<span class="eyebrow" style="margin:0">In the style of</span></div>\n'
                 f'  <h1><a href="../by/{e["thinker"]}.html" style="text-decoration:none">'
                 f'{html.escape(e["name"])}</a> on '
@@ -288,7 +288,7 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
     for tid, es in by_writer.items():
         name, dates = es[0]["name"], es[0]["dates"]
         body = (f'  <div class="byline"><img class="face" src="../faces/{tid}.jpg" alt="" '
-                f'width="54" height="54" loading="lazy">'
+                f'width="76" height="76" loading="lazy">'
                 '<span class="eyebrow" style="margin:0">In the style of</span></div>\n'
                 f'  <h1>{html.escape(name)}</h1>\n'
                 f'  <ul class="list">\n{essay_rows(es, "../", show="object")}\n  </ul>\n')
@@ -328,10 +328,10 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
               [(k, v[0]["name"], len(v)) for k, v in by_writer.items()])
     chips = "\n".join(
         (f'    <li><a href="by/{tid}.html">'
-         f'<img class="face" src="faces/{tid}.jpg" alt="" width="30" height="30" loading="lazy">'
+         f'<img class="face" src="faces/{tid}.jpg" alt="" width="40" height="40" loading="lazy">'
          f'{html.escape(name)} <span class="n">{n}</span></a></li>') if n else
         (f'    <li><span class="chip-off">'
-         f'<img class="face" src="faces/{tid}.jpg" alt="" width="30" height="30" loading="lazy">'
+         f'<img class="face" src="faces/{tid}.jpg" alt="" width="40" height="40" loading="lazy">'
          f'{html.escape(name)} <span class="n">0</span></span></li>')
         for tid, name, n in sorted(listed, key=lambda x: x[1]))
     (DOCS / "writers.html").write_text(
