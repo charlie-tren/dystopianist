@@ -115,7 +115,13 @@ def main() -> int:
         print(f"\nevery writer has at least {args.until}")
         return 0
 
-    return one(args.writer, thinkers, objects, by_id, shots, past, args.dry)
+    try:
+        return one(args.writer, thinkers, objects, by_id, shots, past, args.dry)
+    except llm.NoProvider as exc:
+        # Same treatment as the backfill: an exhausted free tier is an expected
+        # daily condition, not a crash worth a traceback.
+        print(f"out of free quota: {exc}", file=sys.stderr)
+        return 3
 
 
 def one(only, thinkers, objects, by_id, shots, past, dry) -> int:
