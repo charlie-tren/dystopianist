@@ -39,6 +39,12 @@ def check(essay: str, thinker: dict, shots: dict[str, str],
         problems.append("states a score in the essay")
     if "_" in essay or "*" in essay:
         problems.append("markdown emphasis in the prose")
+    # No English word triples a letter, so this only ever fires on a slip. Kafka's
+    # first alarm-clock essay published with "rearrrange" in it; cheap to detect and
+    # embarrassing to leave up, which is what this file is for.
+    for w in re.findall(r"[A-Za-z']+", essay):
+        if re.search(r"(.)\1\1", w, re.I):
+            problems.append(f"letter tripled in {w!r}")
     words = re.findall(r"[A-Za-z']+", essay)
     if not (MIN_WORDS <= len(words) <= MAX_WORDS):
         problems.append(f"length {len(words)} words, want {MIN_WORDS}-{MAX_WORDS}")

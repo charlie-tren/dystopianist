@@ -79,6 +79,12 @@ Give a verdict of one to three words and a score out of ten to one decimal place
   suffering" are verdicts. "mild praise", "mixed feelings", "vague appreciation",
   "ambivalent observation" are grades, and are not. Never describe the essay; name
   the thing it is describing.
+- Judge the STANCE, not the surface vocabulary. Calm, level or affectless prose
+  about something the writer plainly finds ominous is not approval. Kafka writing
+  that a device waits "quietly, patiently" for the moment to strike is describing
+  dread in a flat voice, which is how he describes dread; scoring it as contentment
+  because the adjectives are soft gets it exactly backwards. Ask what the piece
+  would have its reader FEEL about the object, not which words it happens to use.
 - Say whether the essay actually engages {object} at all. An essay that circles the
   subject without ever taking it on - describing an operating theatre and never the
   anaesthesia - is not on topic, however good the prose is.
