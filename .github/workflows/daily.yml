@@ -46,8 +46,8 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
       # pillow is only used by tools/portraits.py, which was a local-only tool until
@@ -124,7 +124,7 @@ jobs:
       # Commit step's `git add docs` cannot sweep it into the live site by accident.
       - name: Keep the preview for inspection
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.preview == 'yes' }}
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: portraits-preview-${{ inputs.model }}
           path: docs/faces/_preview/
