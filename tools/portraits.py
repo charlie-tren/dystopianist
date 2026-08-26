@@ -4,6 +4,12 @@
     python tools/portraits.py --force             # redraw everything
     python tools/portraits.py --only orwell,kafka # redraw just these
     python tools/portraits.py --model=sdxl        # a different image model
+    python tools/portraits.py --force --out docs/faces/_preview --model=lightning
+
+The last form is how a change to the model or the STYLE string gets JUDGED before it
+lands: it draws into a throwaway directory, so the live set is untouched and the two
+can be put side by side. Replacing eighteen faces in place and then deciding is not
+reversible in any useful sense - the previous draw is gone even if the file is not.
 
 Deliberately CARTOON, not photoreal. These are real people and the site already
 says the essays are pastiche; a photorealistic fake portrait would undercut that,
@@ -37,7 +43,8 @@ MODELS = {
     "dreamshaper": "@cf/lykon/dreamshaper-8-lcm",
 }
 MODEL = MODELS["flux"]
-OUT = Path(__file__).resolve().parent.parent / "docs" / "faces"
+ROOT = Path(__file__).resolve().parent.parent
+OUT = ROOT / "docs" / "faces"
 
 # One line each, describing the PERSON not the style - the style is the same for
 # all eight so the set reads as one hand.
@@ -135,11 +142,15 @@ def main() -> int:
         return 1
     model = MODELS[which]
     steps = 8 if which == "flux" else 20
-    OUT.mkdir(parents=True, exist_ok=True)
+    out = next((a.split("=", 1)[-1] for a in sys.argv if a.startswith("--out=")), "")
+    if not out and "--out" in sys.argv:
+        out = sys.argv[sys.argv.index("--out") + 1]
+    dest_dir = (ROOT / out) if out else OUT
+    dest_dir.mkdir(parents=True, exist_ok=True)
     for t in styles.load():
         if wanted and t["id"] not in wanted:
             continue
-        dest = OUT / f"{t['id']}.jpg"
+        dest = dest_dir / f"{t['id']}.jpg"
         if dest.exists() and not (force or wanted):
             print(f"{t['id']:10} already drawn")
             continue

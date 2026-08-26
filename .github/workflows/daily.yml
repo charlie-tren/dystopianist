@@ -16,6 +16,18 @@ on:
         description: "essays | reverdict | portraits | all"
         required: false
         default: "essays"
+      only:
+        description: "portraits: comma-separated writer ids, blank = every writer missing one"
+        required: false
+        default: ""
+      model:
+        description: "portraits: flux | sdxl | lightning | dreamshaper"
+        required: false
+        default: "flux"
+      preview:
+        description: "portraits: yes = draw to a throwaway dir and upload, do not touch the live set"
+        required: false
+        default: "no"
 
 env:
   # Every writer should have at least this many before the site settles into one a
@@ -84,13 +96,34 @@ jobs:
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
         run: python tools/reverdict.py
 
-      # Only draws writers that have no portrait yet, so it is safe to re-run.
-      - name: Draw any missing portraits
+      # With no inputs this only draws writers that have no portrait yet, so it is
+      # safe to re-run. `only` redraws named writers over the top of the live files;
+      # `preview: yes` draws into a throwaway directory and uploads it instead, which
+      # is the only way to see a model or STYLE change before it replaces the set.
+      - name: Draw portraits
         if: ${{ github.event_name == 'workflow_dispatch' && (inputs.jobs == 'portraits' || inputs.jobs == 'all') }}
         env:
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
-        run: python tools/portraits.py
+          ONLY: ${{ inputs.only }}
+          MODEL: ${{ inputs.model }}
+          PREVIEW: ${{ inputs.preview }}
+        run: |
+          args="--model=${MODEL:-flux}"
+          if [ -n "$ONLY" ]; then args="$args --only=$ONLY"; fi
+          if [ "$PREVIEW" = "yes" ]; then args="$args --force --out=docs/faces/_preview"; fi
+          echo "portraits.py $args"
+          python tools/portraits.py $args
+
+      # A preview is never committed - docs/faces/_preview is gitignored so the
+      # Commit step's `git add docs` cannot sweep it into the live site by accident.
+      - name: Keep the preview for inspection
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.preview == 'yes' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: portraits-preview-${{ inputs.model }}
+          path: docs/faces/_preview/
+          if-no-files-found: error
 
       # Runs AFTER the essays land, so a collapse shows up on the day it happens
       # rather than whenever someone next reads two pages.
