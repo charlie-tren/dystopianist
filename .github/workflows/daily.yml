@@ -34,7 +34,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install --quiet requests pyyaml
+      # pillow is only used by tools/portraits.py, which was a local-only tool until
+      # it was wired into this workflow. Its absence took a run down.
+      - run: pip install --quiet requests pyyaml pillow
 
       # Cheap, and it runs BEFORE anything that costs a quota call. A writer added to
       # styles/ but not to the portraits LOOK map used to surface as a KeyError three
@@ -89,9 +91,17 @@ jobs:
       # Runs AFTER the essays land, so a collapse shows up on the day it happens
       # rather than whenever someone next reads two pages.
       - name: Are the voices still distinct
+        id: voice
+        if: ${{ !cancelled() }}
         run: python tests/test_voice.py
 
+      # Runs even when an earlier step failed, because the steps are independent and
+      # the expensive ones come first. Twice on 26/08/2026 a portraits failure - once a
+      # KeyError, once a missing Pillow - skipped this step and threw away a completed
+      # reverdict pass over seventeen essays that had already been written to disk. The
+      # job still reports failure; it just does not take finished work down with it.
       - name: Commit
+        if: ${{ !cancelled() && steps.voice.outcome != 'failure' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -123,6 +133,7 @@ jobs:
       # charlie-tren/charlie-tren.github.io. Until it exists the step skips loudly
       # rather than failing the run.
       - name: Publish to the hub
+        if: ${{ !cancelled() && steps.voice.outcome != 'failure' }}
         env:
           HUB_TOKEN: ${{ secrets.HUB_TOKEN }}
         run: |
