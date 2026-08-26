@@ -164,7 +164,7 @@ HEAD = """<!DOCTYPE html>
 </script>
 <style>{css}</style>
 <!-- Cloudflare Web Analytics - same estate-wide token as the hub root. -->
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{{"token": "32b821209b5441a08df42ccf61c9e6c2"}}'></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{{"token": "32b821209b5441a08df42ccf61c9e6c2"}}'></script><script defer src="https://beacon.charlietrenorden.com/b.js"></script>
 </head>
 <body>
 <div class="wrap">
