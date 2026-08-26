@@ -36,6 +36,13 @@ jobs:
           python-version: "3.12"
       - run: pip install --quiet requests pyyaml
 
+      # Cheap, and it runs BEFORE anything that costs a quota call. A writer added to
+      # styles/ but not to the portraits LOOK map used to surface as a KeyError three
+      # steps later, which skipped the commit and threw away the work of the steps
+      # that had already succeeded.
+      - name: Is the roster wired up
+        run: python tests/test_roster.py
+
       - name: Write
         if: ${{ github.event.inputs.jobs == '' || github.event.inputs.jobs == 'essays' || github.event.inputs.jobs == 'all' }}
         env:

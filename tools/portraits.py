@@ -41,6 +41,10 @@ OUT = Path(__file__).resolve().parent.parent / "docs" / "faces"
 
 # One line each, describing the PERSON not the style - the style is the same for
 # all eight so the set reads as one hand.
+# EVERY id in styles/ must appear here. A writer added to styles/ and forgotten here
+# raises KeyError and takes the whole workflow with it - on 26/08/2026 that killed the
+# portraits step, which skipped the Commit step, which threw away a completed reverdict
+# pass in the same run. main() now reports the missing ones and draws the rest.
 LOOK = {
     "wallace":  "a man in his thirties with long hair under a white bandana, round glasses, unshaven",
     "orwell":   "a gaunt Englishman with a thin moustache, tweed jacket, tired eyes",
@@ -53,6 +57,13 @@ LOOK = {
     "montaigne": "a balding 16th-century Frenchman with a pointed beard and a wide starched ruff collar",
     "ephron":   "a dark-haired American woman in her sixties, short practical haircut, amused sceptical expression, plain shirt",
     "didion":   "a very slight woman in her sixties, dark sunglasses, straight shoulder-length hair, cigarette, cool unsmiling expression",
+    "proust":   "a pale young Frenchman of the 1900s with a heavy black moustache, very large dark eyes with dark rings beneath them, thick black hair, high stiff collar and cravat, an invalid's delicacy",
+    "whitman":  "an old American with a huge untrimmed white beard spreading over his chest, a broad soft hat worn at an angle, open shirt collar, no tie, weathered kindly face",
+    "austen":   "a young Englishwoman of about 1800 in a white bonnet with dark curls escaping at the temples, a high-waisted Regency dress, small knowing half-smile",
+    "woolf":    "an Englishwoman with a long narrow face and heavy-lidded eyes, dark hair pinned loosely back, a slightly haunted inward expression, plain high-necked blouse",
+    "dickinson": "a young woman of the 1850s with hair parted severely in the centre and drawn back, a plain dark high-necked dress with a narrow white collar, very still direct gaze",
+    "dickens":  "a Victorian gentleman with long wavy hair to the collar and a full straggling beard, deep-set lively eyes, velvet-collared coat and watch chain",
+    "thoreau":  "a plain-featured 19th-century New Englander with a chin-strap beard leaving the upper lip bare, unruly hair, a long nose, homespun jacket",
 }
 
 # Black and white only. The first set carried an ochre accent and Flux kept turning it
@@ -107,6 +118,7 @@ def crop(im):
 
 
 def main() -> int:
+    missing: list[str] = []
     _env.load()
     acct, tok = os.environ.get("CF_ACCOUNT_ID"), os.environ.get("CF_API_TOKEN")
     if not (acct and tok):
@@ -131,7 +143,11 @@ def main() -> int:
         if dest.exists() and not (force or wanted):
             print(f"{t['id']:10} already drawn")
             continue
-        prompt = f"{LOOK[t['id']]}. {STYLE}"
+        look = LOOK.get(t["id"])
+        if not look:
+            missing.append(t["id"])
+            continue
+        prompt = f"{look}. {STYLE}"
         try:
             raw = draw(acct, tok, prompt, model, steps)
         except Exception as exc:                       # noqa: BLE001
@@ -142,6 +158,12 @@ def main() -> int:
         im = crop(im).resize((512, 512), Image.LANCZOS)
         im.save(dest, "JPEG", quality=82, optimize=True)
         print(f"{t['id']:10} {dest.stat().st_size // 1024}KB via {which}")
+    if missing:
+        # Loud, but not fatal. Everything drawable has been drawn and saved by now,
+        # and taking the run down here would skip the commit that keeps it.
+        print("")
+        print("::warning::no LOOK entry, not drawn: "
+              + ", ".join(sorted(missing)))
     return 0
 
 

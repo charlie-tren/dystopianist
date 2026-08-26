@@ -407,7 +407,11 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
     # Sorting is the only interactive thing on this page, so it is two buttons and
     # no framework. The default is the published order, newest first, which is what
     # the page has always shown and what someone arriving expects to see.
-    sortbar = ('  <div class="sortbar">\n    <span>Sort</span>\n    <button type="button" data-sort="seq" aria-pressed="true">Latest</button>\n    <button type="button" data-sort="score" aria-pressed="false">Rating</button>\n  </div>\n') if entries else ""
+    #
+    # "Newest" rather than "Latest" because Latest is the name of the nav tab
+    # directly above it, and the same word twice in two stacked bars reads as a
+    # cross-reference to the other page rather than as a sort order.
+    sortbar = ('  <div class="sortbar">\n    <span>Sort</span>\n    <button type="button" data-sort="seq" aria-pressed="true">Newest</button>\n    <button type="button" data-sort="score" aria-pressed="false">Rating</button>\n  </div>\n') if entries else ""
     idx = (f'  <h1 class="wordmark">{GHOST}Ghostwriters</h1>\n'
            f'  <p class="stand">{html.escape(desc)}</p>\n' + sortbar + listing)
     (DOCS / "index.html").write_text(
