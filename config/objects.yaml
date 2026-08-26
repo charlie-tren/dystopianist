@@ -22,3 +22,21 @@ objects:
     writers: [montaigne, twain, thompson]
   - name: escape rooms
     writers: [kafka, thompson, nietzsche]
+  # Added 26/08/2026. Everything above is a modern irritation, which is why the
+  # first 17 essays averaged 1.8 out of 10 and none cleared 4.5 - the roster was
+  # never handed anything it could like. These are things a writer could plausibly
+  # admire, or genuinely split on.
+  - name: anaesthesia
+    writers: [whitman, montaigne, proust]
+  - name: the hot shower
+    writers: [whitman, thoreau, montaigne]
+  - name: painkillers
+    writers: [nietzsche, montaigne, proust]
+  - name: Wikipedia
+    writers: [woolf, wilde, twain]
+  - name: audiobooks
+    writers: [dickens, woolf, austen]
+  - name: podcasts
+    writers: [thoreau, wilde, ephron]
+  - name: the step counter
+    writers: [thoreau, dickens, whitman]

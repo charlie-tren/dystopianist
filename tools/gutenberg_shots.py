@@ -35,6 +35,16 @@ BOOKS = {
     "wilde":    (174, "The Picture of Dorian Gray"),
     "aurelius": (2680, "Meditations"),
     "kafka":    (7849, "The Trial"),
+    # Added 26/08/2026. Where a writer has both fiction and essays, the essays win:
+    # a novel's narration is a character doing the talking, and this site wants the
+    # writer thinking aloud about a thing in front of them.
+    "proust":    (7178, "Swann's Way (Moncrieff)"),
+    "whitman":   (8813, "Specimen Days"),
+    "austen":    (1342, "Pride and Prejudice"),
+    "woolf":     (64457, "The Common Reader"),
+    "dickinson": (12242, "Poems, Three Series"),
+    "dickens":   (914, "The Uncommercial Traveller"),
+    "thoreau":   (205, "Walden"),
 }
 
 # Project Gutenberg Australia, which is a different site with a different rule:

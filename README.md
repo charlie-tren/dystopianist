@@ -2,7 +2,7 @@
 
 Essays by writers who died before the thing they are describing existed. Twain on
 LinkedIn, Aurelius on the alarm clock, Kafka on the self-checkout machine. Each one
-carries a verdict and a score out of ten, and the prose is written to earn it.
+carries a verdict and a score out of ten, read off the finished prose.
 
 Live at <https://charlietrenorden.com/ghostwriters/>. Renamed from "The Dystopianist"
 on 25/08/2026; the old path redirects.
@@ -19,7 +19,7 @@ Pastiche, not attribution. Every essay page says so in the body, not in a footer
     python tools/portraits.py        # cartoon portrait per writer, free
     python tools/gutenberg_shots.py  # candidate samples from real books
 
-One essay per run. The pairing is writer x object - 11 x 8 - and each object names the
+One essay per run. The pairing is writer x object - 18 x 15 - and each object names the
 two or three writers with a SPECIFIC reason to have an opinion on it. Those shortlisted
 pairings go first, so the early essays are the strong matchups; after that it falls back
 to the whole roster, because a writer meeting something they have no claim on is half
@@ -27,10 +27,29 @@ the point. Never the same pair twice, never the same writer two days running.
 
 ### The score
 
-The model is asked for a verdict and a score out of ten BEFORE the essay, and told the
-prose must earn it - a demolition scored 6 is a failure. The score shows on the front
-page beside the title. `critic.py` checks it exists and is in range; whether the prose
-actually matches is a reading job, not a gate.
+Two passes. The essay is written with no number anywhere in its context, then a second
+call reads the finished prose and reports what it expresses. The score shows on the
+front page beside the title. `critic.py` checks it exists and is in range; whether the
+prose actually matches is a reading job, not a gate.
+
+It used to be the other way round - verdict and score first, essay told to earn them -
+on the reasoning that a number bolted on afterwards is decoration. Reading all 17 of
+the first batch against their scores showed what that cost. Every Thompson, Nietzsche,
+Orwell and Twain earned its number. Seven did not, and they were the same seven every
+time: Montaigne at 1.5 "senseless tyranny" on an essay conceding the alarm clock may be
+"a necessary whip for a mind as sluggish as mine"; Kafka at 1.5 on a narrator who "did
+not mind waiting"; both Didions under 2 for essays that pass no judgement at all.
+
+Asking for the verdict first handed the writer a target before they had seen the thing,
+and a target in the register of judgement - which is not a register Didion, Kafka,
+Montaigne or Aurelius write in. The scoring pass is now told in as many words that an
+essay which observes without judging, or concedes a point while disliking something, is
+a 4, 5 or 6.
+
+The other half of the same problem was the object list. All eight of the originals were
+modern irritations, so the roster was never handed anything it could like, and the first
+17 essays averaged 1.8 out of ten with nothing above 4.5. Seven objects were added on
+26/08/2026 that a writer could plausibly admire or genuinely split on.
 
 ## styles/ is the part that matters
 
@@ -48,12 +67,23 @@ Twain, which is what a shared prompt does.
 
 ### Real prose where the copyright has expired
 
-Seven of the eleven use their own words, attributed in the file: **Twain** (Life on the
+Fourteen of the eighteen use their own words, attributed in the file: **Twain** (Life on the
 Mississippi), **Wilde** (the Dorian Gray preface), **Marcus Aurelius** (Meditations,
 Casaubon), **Kafka** (The Trial, Wyllie), **Nietzsche** (Beyond Good and Evil, Zimmern)
 and **Montaigne** (Essays, Cotton) from Project Gutenberg, and **Orwell** (A Nice Cup of
 Tea, Pleasure Spots) from Project Gutenberg **Australia** - a different site with a
 different rule, life+70 rather than a US publication date, which cleared him in 2021.
+
+Seven more joined on 26/08/2026, all from Project Gutenberg and all with two real
+passages each: **Proust** (Swann's Way, Moncrieff), **Whitman** (Specimen Days),
+**Austen** (Pride and Prejudice), **Woolf** (The Common Reader), **Dickens** (The
+Uncommercial Traveller), **Thoreau** (Walden) and **Dickinson** (Poems, Three Series).
+
+Where a writer has both fiction and essays the essays win, because a novel's narration
+is a character doing the talking and this site wants the writer thinking aloud about
+something in front of them. Dickinson is the exception and the one to watch: no prose of
+hers is in the public domain, so her samples are POEMS, and her Avoid list carries an
+explicit rule against verse, line breaks and rhyme.
 
 The other four are pastiche written for this repo because they are still in copyright:
 Wallace (2078), Thompson (2075), Didion (2091) and Ephron (2083). Imitating a pastiche
@@ -81,8 +111,13 @@ Measured on the same Kafka prompt, so the choice is not a guess:
 **Every writer collapsing into the same voice.** Invisible on any one page - you only see
 it reading two. `tests/test_voice.py` guards it at CORPUS level: sentence length, Latinate
 vocabulary, person, comma density and spread across everything each writer has published,
-failing if two converge. The eleven samples sit at 1.02 for their closest pair
-(Montaigne/Twain), so the floor is 0.45.
+failing if two converge, with the floor at 0.45.
+
+Adding seven writers on 26/08/2026 compressed that space and the margin is worth
+watching. The closest pair across the eighteen sample sets is now Dickens/Montaigne at
+0.61, where the closest of the original eleven was Montaigne/Twain at 1.02. Still clear
+of the floor, but by rather less. The gate reads the published CORPUS rather than the
+samples, so this is a leading indicator rather than a failure.
 
 **The model cloning a sample instead of imitating it.** The first batch opened Wilde with
 "There is no such thing as a considerate or an inconsiderate message" - the sample's own
