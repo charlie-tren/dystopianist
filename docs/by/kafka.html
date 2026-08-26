@@ -48,21 +48,35 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .essay p{margin:0 0 1.35rem}
 .essay p:first-of-type::first-letter{float:left;font-size:3.4rem;line-height:.86;
   padding:.06em .09em 0 0;color:var(--accent)}
+.sortbar{display:flex;align-items:baseline;gap:.7rem;margin:0 0 .2rem;
+  font:500 11px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase}
+.sortbar span{color:var(--faint)}
+.sortbar button{appearance:none;background:none;border:0;cursor:pointer;padding:.2rem 0;
+  color:var(--dim);font:inherit;letter-spacing:inherit;text-transform:inherit;
+  border-bottom:1px solid transparent}
+.sortbar button:hover{color:var(--ink)}
+.sortbar button[aria-pressed="true"]{color:var(--accent);border-bottom-color:var(--accent)}
 .list{list-style:none;margin:0;padding:0}
 .list li{border-top:1px solid var(--rule);padding:1.1rem 0}
 .list li:last-child{border-bottom:1px solid var(--rule)}
 .list a{text-decoration:none;display:flex;flex-wrap:wrap;align-items:baseline;
   gap:.4rem 1.2rem;justify-content:space-between}
 .list a:hover .t{color:var(--accent)}
-.rate{flex:none;display:flex;align-items:baseline;gap:.55rem;
-  margin-left:auto;margin-right:2.2rem}
+.rate{flex:none;display:flex;align-items:baseline;gap:.55rem;margin-left:auto}
 .rate .verdict{color:var(--faint);font:400 13px/1.4 var(--sans);text-align:right}
 .rate .score{font:500 15px/1 var(--sans);font-variant-numeric:tabular-nums;
   min-width:2.4ch;text-align:right}
 .s-bad{color:var(--bad)}
 .s-mid{color:var(--accent)}
 .s-good{color:var(--good)}
-@media (max-width:560px){.rate{margin-right:0}}
+/* Under this width the title takes the whole line and the verdict wraps below it.
+   Pinned right by margin-left:auto it landed against the far edge on its own,
+   which read as a stray caption rather than as part of the row. Left-aligned it
+   sits under the title and the two lines read as one thing. */
+@media (max-width:620px){
+  .rate{margin-left:0;text-align:left}
+  .rate .verdict{text-align:left}
+}
 .t{font-size:1.28rem}
 /* The writer's name carries the row; the object it was set on sits back a shade. */
 .t .thing{color:var(--dim)}
@@ -139,8 +153,8 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
   <h1 class="titled"><img class="face" src="../faces/kafka.jpg" alt="" width="76" height="76" loading="lazy"><span>Franz Kafka</span></h1>
   <nav class="tabs"><a href="../index.html">Latest</a><a href="../writers.html" aria-current="page">Writers</a><a href="../objects.html">Subjects</a></nav>
   <ul class="list">
-    <li><a href="../e/2026-08-25-kafka-escape-rooms.html"><span class="t">escape rooms</span><span class="sub">Franz Kafka</span></a></li>
-    <li><a href="../e/2026-08-25-kafka-self-checkout-machines.html"><span class="t">self-checkout machines</span><span class="sub">Franz Kafka</span></a></li>
+    <li data-score="1.8" data-seq="0"><a href="../e/2026-08-25-kafka-escape-rooms.html"><span class="t">escape rooms</span><span class="sub">Franz Kafka</span></a></li>
+    <li data-score="1.5" data-seq="1"><a href="../e/2026-08-25-kafka-self-checkout-machines.html"><span class="t">self-checkout machines</span><span class="sub">Franz Kafka</span></a></li>
   </ul>
 
   <p class="foot"></p>

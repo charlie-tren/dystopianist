@@ -12,6 +12,10 @@ on:
         description: "Top every writer up to this many essays (blank = one essay)"
         required: false
         default: ""
+      jobs:
+        description: "essays | reverdict | portraits | all"
+        required: false
+        default: "essays"
 
 env:
   # Every writer should have at least this many before the site settles into one a
@@ -33,6 +37,7 @@ jobs:
       - run: pip install --quiet requests pyyaml
 
       - name: Write
+        if: ${{ github.event.inputs.jobs == '' || github.event.inputs.jobs == 'essays' || github.event.inputs.jobs == 'all' }}
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           # Locally llm.py falls back to Cloudflare when Gemini's day is spent. CI had
@@ -54,6 +59,25 @@ jobs:
           elif [ "$code" -ne 0 ]; then
             exit "$code"
           fi
+
+      # Verdicts that came back as grades rather than as the writer's own words.
+      # Manual only: it re-reads published essays, which is not something a nightly
+      # job should do to a page that is already correct.
+      - name: Re-read the grade-ish verdicts
+        if: ${{ github.event.inputs.jobs == 'reverdict' || github.event.inputs.jobs == 'all' }}
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        run: python tools/reverdict.py
+
+      # Only draws writers that have no portrait yet, so it is safe to re-run.
+      - name: Draw any missing portraits
+        if: ${{ github.event.inputs.jobs == 'portraits' || github.event.inputs.jobs == 'all' }}
+        env:
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        run: python tools/portraits.py
 
       # Runs AFTER the essays land, so a collapse shows up on the day it happens
       # rather than whenever someone next reads two pages.

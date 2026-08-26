@@ -39,21 +39,35 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .essay p{margin:0 0 1.35rem}
 .essay p:first-of-type::first-letter{float:left;font-size:3.4rem;line-height:.86;
   padding:.06em .09em 0 0;color:var(--accent)}
+.sortbar{display:flex;align-items:baseline;gap:.7rem;margin:0 0 .2rem;
+  font:500 11px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase}
+.sortbar span{color:var(--faint)}
+.sortbar button{appearance:none;background:none;border:0;cursor:pointer;padding:.2rem 0;
+  color:var(--dim);font:inherit;letter-spacing:inherit;text-transform:inherit;
+  border-bottom:1px solid transparent}
+.sortbar button:hover{color:var(--ink)}
+.sortbar button[aria-pressed="true"]{color:var(--accent);border-bottom-color:var(--accent)}
 .list{list-style:none;margin:0;padding:0}
 .list li{border-top:1px solid var(--rule);padding:1.1rem 0}
 .list li:last-child{border-bottom:1px solid var(--rule)}
 .list a{text-decoration:none;display:flex;flex-wrap:wrap;align-items:baseline;
   gap:.4rem 1.2rem;justify-content:space-between}
 .list a:hover .t{color:var(--accent)}
-.rate{flex:none;display:flex;align-items:baseline;gap:.55rem;
-  margin-left:auto;margin-right:2.2rem}
+.rate{flex:none;display:flex;align-items:baseline;gap:.55rem;margin-left:auto}
 .rate .verdict{color:var(--faint);font:400 13px/1.4 var(--sans);text-align:right}
 .rate .score{font:500 15px/1 var(--sans);font-variant-numeric:tabular-nums;
   min-width:2.4ch;text-align:right}
 .s-bad{color:var(--bad)}
 .s-mid{color:var(--accent)}
 .s-good{color:var(--good)}
-@media (max-width:560px){.rate{margin-right:0}}
+/* Under this width the title takes the whole line and the verdict wraps below it.
+   Pinned right by margin-left:auto it landed against the far edge on its own,
+   which read as a stray caption rather than as part of the row. Left-aligned it
+   sits under the title and the two lines read as one thing. */
+@media (max-width:620px){
+  .rate{margin-left:0;text-align:left}
+  .rate .verdict{text-align:left}
+}
 .t{font-size:1.28rem}
 /* The writer's name carries the row; the object it was set on sits back a shade. */
 .t .thing{color:var(--dim)}
@@ -252,12 +266,51 @@ def essay_rows(entries, up="", show="both") -> str:
             rate = (f'<span class="rate"><span class="verdict">'
                     f'{html.escape(e.get("verdict", ""))}</span>'
                     f'<span class="score {band}">{e["score"]:.1f}</span></span>')
+        # data-score lets the front page sort client-side; data-seq preserves the
+        # published order so "latest" can be restored exactly rather than guessed.
+        ds = "" if e.get("score") is None else f' data-score="{e["score"]:.1f}"'
         rows.append(
-            f'    <li><a href="{up}e/{slug(e)}.html">'
+            f'    <li{ds} data-seq="{len(rows)}"><a href="{up}e/{slug(e)}.html">'
             f'<span class="t">{t}</span>'
             + (f'<span class="sub">{html.escape(sub)}</span>' if sub else "")
             + rate + "</a></li>")
     return "\n".join(rows)
+
+
+SORT_JS = """
+<script>
+/* Reorder the front-page list in place. Latest is the order the pages were built
+   in, kept on each row as data-seq, so switching back restores it exactly rather
+   than re-deriving it from dates that several essays share. */
+(function () {
+  var bar = document.querySelector('.sortbar');
+  var list = document.getElementById('all');
+  if (!bar || !list) return;
+  var rows = Array.prototype.slice.call(list.children);
+  bar.addEventListener('click', function (ev) {
+    var btn = ev.target.closest('button[data-sort]');
+    if (!btn) return;
+    var key = btn.dataset.sort;
+    bar.querySelectorAll('button[data-sort]').forEach(function (b) {
+      b.setAttribute('aria-pressed', String(b === btn));
+    });
+    var sorted = rows.slice().sort(function (a, b) {
+      if (key === 'score') {
+        /* An essay with no score sorts last rather than as a zero, which would
+           put it below a genuine 0.5. */
+        var sa = a.dataset.score === undefined ? -Infinity : parseFloat(a.dataset.score);
+        var sb = b.dataset.score === undefined ? -Infinity : parseFloat(b.dataset.score);
+        if (sb !== sa) return sb - sa;
+      }
+      return (+a.dataset.seq) - (+b.dataset.seq);
+    });
+    var frag = document.createDocumentFragment();
+    sorted.forEach(function (r) { frag.appendChild(r); });
+    list.appendChild(frag);
+  });
+})();
+</script>
+"""
 
 
 def page(title, desc, body, up, here, footer):
@@ -266,8 +319,12 @@ def page(title, desc, body, up, here, footer):
     if here and "</h1>" in body:
         head_end = body.index("</h1>") + len("</h1>") + 1
         body = body[:head_end] + nav(up, here) + body[head_end:]
+    tail = TAIL.replace("FOOTER", footer)
+    # Only the front page carries the sort control, so only it carries the script.
+    if 'class="sortbar"' in body:
+        tail = SORT_JS + tail
     return (HEAD.format(title=html.escape(title), desc=html.escape(desc), css=CSS, up=up)
-            + body + TAIL.replace("FOOTER", footer))
+            + body + tail)
 
 
 def build(entries: list[dict], roster: list[dict] | None = None) -> None:
@@ -346,9 +403,13 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
     # --- the three top-level views ------------------------------------------
     desc = ("We asked dead writers what they make of the modern world. "
             "They were not kind.")
-    listing = f'  <ul class="list">\n{essay_rows(entries)}\n  </ul>\n' if entries else ""
+    listing = f'  <ul class="list" id="all">\n{essay_rows(entries)}\n  </ul>\n' if entries else ""
+    # Sorting is the only interactive thing on this page, so it is two buttons and
+    # no framework. The default is the published order, newest first, which is what
+    # the page has always shown and what someone arriving expects to see.
+    sortbar = ('  <div class="sortbar">\n    <span>Sort</span>\n    <button type="button" data-sort="seq" aria-pressed="true">Latest</button>\n    <button type="button" data-sort="score" aria-pressed="false">Rating</button>\n  </div>\n') if entries else ""
     idx = (f'  <h1 class="wordmark">{GHOST}Ghostwriters</h1>\n'
-           f'  <p class="stand">{html.escape(desc)}</p>\n' + listing)
+           f'  <p class="stand">{html.escape(desc)}</p>\n' + sortbar + listing)
     (DOCS / "index.html").write_text(
         page("Ghostwriters", desc, idx, "", "index",
              ""),
