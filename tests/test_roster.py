@@ -42,11 +42,27 @@ if look - ids:
 
 # --- objects.yaml shortlists -------------------------------------------------
 objs = yaml.safe_load((ROOT / "config" / "objects.yaml").read_text(encoding="utf-8"))
+died = {t["id"]: int(str(t.get("dates", "0-0")).split("-")[-1]) for t in roster}
 for o in objs["objects"]:
     unknown = [w for w in (o.get("writers") or []) if w not in ids]
     if unknown:
         failures.append(f"{o['name']!r} shortlists writers not in styles/: "
                         f"{', '.join(unknown)}")
+
+    # A dated object may only go to writers who died BEFORE it. The whole premise is
+    # that none of them lived to see the thing, and the site says so on its front
+    # page, so a Didion review of a 2017 film is not a bad essay - it is the site
+    # contradicting itself. Checked against the whole roster and not just the
+    # shortlist, because `pick` falls back to everyone once the shortlists are spent.
+    year = o.get("year")
+    if year is None:
+        continue
+    saw_it = [w for w in (o.get("writers") or []) if died.get(w, 0) >= year]
+    if saw_it:
+        failures.append(f"{o['name']!r} shortlists writers who lived to see it: "
+                        f"{', '.join(saw_it)}")
+    if not [t for t in ids if died.get(t, 0) < year]:
+        failures.append(f"{o['name']!r} has no eligible writer at all")
 
 # --- every writer has at least one sample, and real prose is attributed -------
 for t in roster:

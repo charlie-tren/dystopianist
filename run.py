@@ -38,6 +38,24 @@ def load(name):
     return yaml.safe_load(io.open(ROOT / "config" / name, encoding="utf-8"))
 
 
+def died(thinker) -> int:
+    """The year on the right of `dates:`. Every writer here died AD and none of the
+    ranges carry a BC, so the plain int is enough."""
+    return int(str(thinker.get("dates", "0-0")).split("-")[-1])
+
+
+def eligible(thinker, obj) -> bool:
+    """A writer may only be set on something that postdates them.
+
+    Only dated objects are constrained. An alarm clock has no year and everyone is
+    eligible; a film does, and the whole premise of the site collapses the moment
+    Didion is asked what she made of a film she reviewed. The check lives HERE and
+    not only in the shortlists because the fallback below draws from the whole
+    roster, which is precisely where an ineligible pairing would appear."""
+    year = obj.get("year")
+    return year is None or died(thinker) < year
+
+
 def pick(thinkers, objects, past, only=None):
     """Prefer the shortlisted pairings while any are left.
 
@@ -48,17 +66,21 @@ def pick(thinkers, objects, past, only=None):
     on is half the point."""
     used = {(e["thinker"], e["object"]) for e in past}
     last = past[-1]["thinker"] if past else None
+    by_id = {t["id"]: t for t in thinkers}
     ids = [only] if only else [x["id"] for x in thinkers]
     if only:
         last = None                    # a targeted backfill is not the daily rotation
 
+    def ok(t, o):
+        return t != last and t in by_id and eligible(by_id[t], o)
+
     free = [(t, o["name"]) for t in ids for o in objects
-            if (t, o["name"]) not in used and t != last]
+            if (t, o["name"]) not in used and ok(t, o)]
     shortlisted = [(t, o["name"]) for t in ids for o in objects
                    if t in (o.get("writers") or []) and (t, o["name"]) not in used
-                   and t != last]
+                   and ok(t, o)]
     if not free:                       # every pair spent: allow repeats, still not twice running
-        free = [(t, o["name"]) for t in ids for o in objects if t != last]
+        free = [(t, o["name"]) for t in ids for o in objects if ok(t, o)]
     return random.choice(shortlisted or free)
 
 
@@ -128,6 +150,7 @@ def main() -> int:
 
 def one(only, thinkers, objects, by_id, shots, past, dry) -> int:
     tid, obj = pick(thinkers, objects, past, only)
+    kind = next((o.get("kind") for o in objects if o["name"] == obj), None)
     thinker = by_id[tid]
     print(f"{thinker['name']} on {obj}")
 
@@ -138,7 +161,7 @@ def one(only, thinkers, objects, by_id, shots, past, dry) -> int:
     verdict, score = "", None
     for i in range(ATTEMPTS):
         essay, verdict, score, provider, on_topic = write_stage.write(
-            thinker, obj, temperature=0.9 + 0.05 * i)
+            thinker, obj, temperature=0.9 + 0.05 * i, kind=kind)
         problems = critic.check(essay, thinker, shots, verdict, score, on_topic)
         status = "ok" if not problems else "; ".join(problems)
         print(f"  attempt {i + 1}: {len(essay.split())} words via {provider} "

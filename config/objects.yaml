@@ -40,3 +40,33 @@ objects:
     writers: [thoreau, wilde, ephron]
   - name: the step counter
     writers: [thoreau, dickens, whitman]
+
+  # FILMS. Added 26/08/2026, chosen by Charlie from a list of twenty.
+  #
+  # A film carries a `year`, and that is not decoration: the premise of the site is
+  # that none of them lived to see the thing, so a writer may only be set on a film
+  # released AFTER they died. Didion is the latest death at 2021, so a 2022 film is
+  # open to the whole roster while a 1975 one is closed to the four moderns. `pick`
+  # enforces it and test_roster asserts it, because the pairing falls back to the
+  # WHOLE roster once the shortlists are spent and that fallback is exactly where a
+  # writer who had seen the film would otherwise turn up.
+  - name: Jaws (1975)
+    kind: film
+    year: 1975
+    writers: [twain, thoreau, montaigne]
+  - name: The Matrix (1999)
+    kind: film
+    year: 1999
+    writers: [nietzsche, proust, kafka]
+  - name: Titanic (1997)
+    kind: film
+    year: 1997
+    writers: [austen, dickens, wilde]
+  - name: Shrek (2001)
+    kind: film
+    year: 2001
+    writers: [wilde, twain, montaigne]
+  - name: Paddington 2 (2017)
+    kind: film
+    year: 2017
+    writers: [dickens, austen, woolf]

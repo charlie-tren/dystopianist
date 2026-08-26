@@ -24,8 +24,25 @@ import llm
 # Kafka, Montaigne and Aurelius do not write in. So the essay is now written with no
 # number anywhere in its context, and a second pass reads the finished prose and
 # scores what it actually expresses. The score became a reading rather than a brief.
-PROMPT = """Write a short essay in the style of {name} ({dates}) about {object}, which did
-not exist in their lifetime.
+# Two openings and two "assume the reader" lines, because a film is not an object.
+# "Which did not exist in their lifetime" is true of Jaws but says the wrong thing:
+# the point is that it was RELEASED after they died, and that the writer is being
+# asked for a view on a work rather than on a thing. And "has met it today" is
+# nonsense about a film, where the useful instruction is that the reader has seen it.
+OPENING = {
+    None: "about {object}, which did not exist in their lifetime.",
+    "film": ("about the film {object}, released long after their death. Write about "
+             "the film itself - what happens in it, how it is made, what it wants "
+             "from its audience - not about cinema in general."),
+}
+ASSUME = {
+    None: ("Do not define or explain {object}. Assume the reader knows it and has met "
+           "it today."),
+    "film": ("Do not summarise the plot of {object} for someone who has not seen it. "
+             "Assume the reader has, and go straight to what you make of it."),
+}
+
+PROMPT = """Write a short essay in the style of {name} ({dates}) {opening}
 
 {samples}
 What marks the voice: {note}
@@ -42,10 +59,9 @@ Rules:
   first sentence into one about this object is a failure, not a success. The samples
   show you how the writer moves, not what to say. Start somewhere they do not.
 - Never name the author, their century, their books, or that they are dead.
-- Do not define or explain {object}. Assume the reader knows it and has met it
-  today. (The old wording here was "assume the reader is holding one", which
+- {assume} (The old wording here was "assume the reader is holding one", which
   stopped making sense the moment the list grew past gadgets: nobody holds
-  anaesthesia, a hot shower or Wikipedia.)
+  anaesthesia, a hot shower or Wikipedia, and nobody holds Jaws at all.)
 - No opening throat-clearing. First sentence does work. "In the vast expanse of
   human endeavour, there exists a..." is exactly the sentence not to write.
 - Plain prose. No markdown, no underscores or asterisks around words for emphasis.
@@ -92,7 +108,7 @@ Give a verdict of one to three words and a score out of ten to one decimal place
 Return JSON: {{"verdict": "...", "score": 0.0, "on_topic": true}}"""
 
 
-def build_prompt(thinker: dict, obj: str, words: str) -> str:
+def build_prompt(thinker: dict, obj: str, words: str, kind=None) -> str:
     samples = "".join(
         "A sample in that register:\n---\n" + s["text"] + "\n---\n\n"
         for s in (thinker.get("samples") or [{"text": thinker["shot"]}]))
@@ -103,6 +119,8 @@ def build_prompt(thinker: dict, obj: str, words: str) -> str:
         avoid = "\nThis writer specifically - do not:\n" + lines + "\n"
     return PROMPT.format(
         name=thinker["name"], dates=thinker["dates"], object=obj,
+        opening=OPENING.get(kind, OPENING[None]).format(object=obj),
+        assume=ASSUME.get(kind, ASSUME[None]).format(object=obj),
         samples=samples, note=thinker["note"].strip(), words=words, avoid=avoid)
 
 
@@ -135,12 +153,13 @@ def score_essay(thinker: dict, obj: str, essay: str) -> tuple[str, float | None,
 
 
 def write(thinker: dict, obj: str, words: str = "170-230",
-          temperature: float = 0.95) -> tuple[str, str, float, str, bool]:
+          temperature: float = 0.95, kind=None) -> tuple[str, str, float, str, bool]:
     """Returns (essay, verdict, score, provider). The provider is recorded with the
     essay so a batch that reads differently can be traced to the model that wrote it.
     It is the provider that WROTE the piece; the scoring pass may land elsewhere, and
     the prose is the thing worth tracing."""
-    raw, provider = llm.generate(build_prompt(thinker, obj, words), temperature=temperature)
+    raw, provider = llm.generate(build_prompt(thinker, obj, words, kind),
+                                 temperature=temperature)
     d = llm.extract_json(raw)
     # Markdown emphasis leaks in whenever a sample carries italics - one Nietzsche
     # attempt came back with a dozen _underscored_ words, which the page would print
