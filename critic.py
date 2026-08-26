@@ -18,9 +18,15 @@ TELLS = [
 
 
 def check(essay: str, thinker: dict, shots: dict[str, str],
-          verdict: str = "-", score: float | None = None) -> list[str]:
+          verdict: str = "-", score: float | None = None,
+          on_topic: bool = True) -> list[str]:
     """Every reason this essay should not be published. Empty list means fine."""
     problems = []
+    # Judged by the scoring pass, which has already read the prose. A keyword test
+    # cannot do this job: the essay is told not to define or explain its object, so
+    # the literal word is often and legitimately absent.
+    if not on_topic:
+        problems.append("never engages the object")
     # The score is shown beside the essay, so a missing or absurd one is a broken
     # page rather than a cosmetic flaw. Whether the PROSE matches the number is not
     # checkable here - that lives in the prompt and in reading the output.

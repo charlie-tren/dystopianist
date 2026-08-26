@@ -137,9 +137,9 @@ def one(only, thinkers, objects, by_id, shots, past, dry) -> int:
     essay, problems = "", ["not attempted"]
     verdict, score = "", None
     for i in range(ATTEMPTS):
-        essay, verdict, score, provider = write_stage.write(
+        essay, verdict, score, provider, on_topic = write_stage.write(
             thinker, obj, temperature=0.9 + 0.05 * i)
-        problems = critic.check(essay, thinker, shots, verdict, score)
+        problems = critic.check(essay, thinker, shots, verdict, score, on_topic)
         status = "ok" if not problems else "; ".join(problems)
         print(f"  attempt {i + 1}: {len(essay.split())} words via {provider} "
               f"- {verdict} {score} - {status}")

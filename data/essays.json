@@ -373,18 +373,6 @@
   },
   {
     "date": "2026-08-26",
-    "thinker": "whitman",
-    "name": "Walt Whitman",
-    "dates": "1819-1892",
-    "object": "anaesthesia",
-    "verdict": "no mention",
-    "score": 1.0,
-    "essay": "Surgeons' skilled hands move with precision - scalpels glinting, forceps grasping, needles injecting - as they work to mend the damaged body; monitors beeping, machines humming, the antiseptic smell of the operating room filling the air. Nurses assist, their faces intent, focused on the task at hand; the patient lies still, unresponsive, as the medical team works to repair the harm. In this quiet, controlled space, the chaos of injury or illness is held at bay - the steady rhythm of the equipment, the calm movements of the medical staff, a testament to the power of human ingenuity and compassion. The soft whoosh of the ventilator, the gentle beep of the heart monitor, the rustle of the surgical drapes - all blend together in a symphony of sound, a dance of movement, as life and health are carefully, meticulously restored.",
-    "generated": "2026-08-26T03:17:06+00:00",
-    "provider": "cloudflare"
-  },
-  {
-    "date": "2026-08-26",
     "thinker": "wilde",
     "name": "Oscar Wilde",
     "dates": "1854-1900",

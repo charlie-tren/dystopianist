@@ -73,9 +73,17 @@ Give a verdict of one to three words and a score out of ten to one decimal place
 - Use the MIDDLE when the essay sits there. An essay that observes without judging,
   or accepts, or concedes a point to the thing while disliking it, is a 4, 5 or 6.
   Do not read contempt into flat attention, and do not read approval into politeness.
-- The verdict must be sayable about the object and must match the number.
+- The verdict is printed on the page beside the title, in the writer's company, so it
+  has to sound like a phrase from the essay rather than a mark on a report. Lift the
+  words from the prose where you can. "solemn humbug", "a clean limbo", "counterfeit
+  suffering" are verdicts. "mild praise", "mixed feelings", "vague appreciation",
+  "ambivalent observation" are grades, and are not. Never describe the essay; name
+  the thing it is describing.
+- Say whether the essay actually engages {object} at all. An essay that circles the
+  subject without ever taking it on - describing an operating theatre and never the
+  anaesthesia - is not on topic, however good the prose is.
 
-Return JSON: {{"verdict": "...", "score": 0.0}}"""
+Return JSON: {{"verdict": "...", "score": 0.0, "on_topic": true}}"""
 
 
 def build_prompt(thinker: dict, obj: str, words: str) -> str:
@@ -96,9 +104,16 @@ def build_score_prompt(thinker: dict, obj: str, essay: str) -> str:
     return SCORE_PROMPT.format(name=thinker["name"], object=obj, essay=essay)
 
 
-def score_essay(thinker: dict, obj: str, essay: str) -> tuple[str, float | None]:
+def score_essay(thinker: dict, obj: str, essay: str) -> tuple[str, float | None, bool]:
     """Pass two: read the finished essay and report what it expresses. Temperature is
-    low because this is a reading, not a performance."""
+    low because this is a reading, not a performance.
+
+    Also returns whether the essay is on topic. The reader is already here with the
+    prose in front of it, so this costs nothing, and it catches a failure no string
+    match can: Whitman's first anaesthesia essay described an operating theatre in
+    fine detail and never once touched the anaesthetic. Absent from the gate, it
+    published, and the scorer's honest verdict for it was "no mention" - which then
+    printed on the site as though it were the writer's opinion."""
     raw, _ = llm.generate(build_score_prompt(thinker, obj, essay), temperature=0.2)
     d = llm.extract_json(raw)
     try:
@@ -106,11 +121,15 @@ def score_essay(thinker: dict, obj: str, essay: str) -> tuple[str, float | None]
     except (TypeError, ValueError):
         score = None
     verdict = " ".join(str(d.get("verdict", "")).split()).strip(" .").lower()
-    return verdict, score
+    on_topic = d.get("on_topic")
+    # Absent or unparseable means "do not know", and the gate should not fail an
+    # essay because the scorer dropped a field.
+    on_topic = True if on_topic is None else bool(on_topic)
+    return verdict, score, on_topic
 
 
 def write(thinker: dict, obj: str, words: str = "170-230",
-          temperature: float = 0.95) -> tuple[str, str, float, str]:
+          temperature: float = 0.95) -> tuple[str, str, float, str, bool]:
     """Returns (essay, verdict, score, provider). The provider is recorded with the
     essay so a batch that reads differently can be traced to the model that wrote it.
     It is the provider that WROTE the piece; the scoring pass may land elsewhere, and
@@ -124,5 +143,6 @@ def write(thinker: dict, obj: str, words: str = "170-230",
     essay = re.sub(r"(?<!\w)[_*]{1,2}(?=\w)|(?<=\w)[_*]{1,2}(?!\w)", "",
                    str(d.get("essay", "")))
     essay = " ".join(essay.split())
-    verdict, score = score_essay(thinker, obj, essay) if essay else ("", None)
-    return essay, verdict, score, provider
+    verdict, score, on_topic = (score_essay(thinker, obj, essay) if essay
+                                else ("", None, False))
+    return essay, verdict, score, provider, on_topic
