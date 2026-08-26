@@ -46,7 +46,11 @@ jobs:
         run: python tests/test_roster.py
 
       - name: Write
-        if: ${{ github.event.inputs.jobs == '' || github.event.inputs.jobs == 'essays' || github.event.inputs.jobs == 'all' }}
+        # The nightly cron must never depend on the jobs input. On a scheduled run
+        # github.event.inputs is null, so the old condition rode on null == ''
+        # coercing to true - and if that ever stopped holding, the daily essay would
+        # stop with no error anywhere. The schedule path is now unconditional.
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.jobs == '' || inputs.jobs == 'essays' || inputs.jobs == 'all' }}
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           # Locally llm.py falls back to Cloudflare when Gemini's day is spent. CI had
@@ -73,7 +77,7 @@ jobs:
       # Manual only: it re-reads published essays, which is not something a nightly
       # job should do to a page that is already correct.
       - name: Re-read the grade-ish verdicts
-        if: ${{ github.event.inputs.jobs == 'reverdict' || github.event.inputs.jobs == 'all' }}
+        if: ${{ github.event_name == 'workflow_dispatch' && (inputs.jobs == 'reverdict' || inputs.jobs == 'all') }}
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
@@ -82,7 +86,7 @@ jobs:
 
       # Only draws writers that have no portrait yet, so it is safe to re-run.
       - name: Draw any missing portraits
-        if: ${{ github.event.inputs.jobs == 'portraits' || github.event.inputs.jobs == 'all' }}
+        if: ${{ github.event_name == 'workflow_dispatch' && (inputs.jobs == 'portraits' || inputs.jobs == 'all') }}
         env:
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
