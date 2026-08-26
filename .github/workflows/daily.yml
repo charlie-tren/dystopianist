@@ -28,6 +28,10 @@ on:
         description: "portraits: yes = draw to a throwaway dir and upload, do not touch the live set"
         required: false
         default: "no"
+      tries:
+        description: "portraits + preview: how many candidates to draw per writer"
+        required: false
+        default: "1"
 
 env:
   # Every writer should have at least this many before the site settles into one a
@@ -108,10 +112,11 @@ jobs:
           ONLY: ${{ inputs.only }}
           MODEL: ${{ inputs.model }}
           PREVIEW: ${{ inputs.preview }}
+          TRIES: ${{ inputs.tries }}
         run: |
           args="--model=${MODEL:-flux}"
           if [ -n "$ONLY" ]; then args="$args --only=$ONLY"; fi
-          if [ "$PREVIEW" = "yes" ]; then args="$args --force --out=docs/faces/_preview"; fi
+          if [ "$PREVIEW" = "yes" ]; then args="$args --force --out=docs/faces/_preview --tries=${TRIES:-1}"; fi
           echo "portraits.py $args"
           python tools/portraits.py $args
 

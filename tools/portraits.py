@@ -5,6 +5,7 @@
     python tools/portraits.py --only orwell,kafka # redraw just these
     python tools/portraits.py --model=sdxl        # a different image model
     python tools/portraits.py --force --out docs/faces/_preview --model=lightning
+    python tools/portraits.py --only austen --out docs/faces/_preview --tries 4
 
 The last form is how a change to the model or the STYLE string gets JUDGED before it
 lands: it draws into a throwaway directory, so the live set is untouched and the two
@@ -46,7 +47,12 @@ MODEL = MODELS["flux"]
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs" / "faces"
 
-# One line each, describing the PERSON not the style - the style is the same for
+# One line each, describing the PERSON not the style. Three of these carry anti-
+# glamour wording ("a plain ordinary face", "scratchy pen lines"): asked for a young
+# woman with a smooth face the model leaves the editorial-ink style entirely and
+# returns a doe-eyed vector illustration, which is what Austen and Dickinson were
+# until 26/08/2026. The style string is shared by all eighteen, so the correction
+# has to sit on the faces that need it. - the style is the same for
 # all eight so the set reads as one hand.
 # EVERY id in styles/ must appear here. A writer added to styles/ and forgotten here
 # raises KeyError and takes the whole workflow with it - on 26/08/2026 that killed the
@@ -64,11 +70,11 @@ LOOK = {
     "montaigne": "a balding 16th-century Frenchman with a pointed beard and a wide starched ruff collar",
     "ephron":   "a dark-haired American woman in her sixties, short practical haircut, amused sceptical expression, plain shirt",
     "didion":   "a very slight woman in her sixties, dark sunglasses, straight shoulder-length hair, cigarette, cool unsmiling expression",
-    "proust":   "a pale young Frenchman of the 1900s with a heavy black moustache, very large dark eyes with dark rings beneath them, thick black hair, high stiff collar and cravat, an invalid's delicacy",
+    "proust":   "a pale young Frenchman of the 1900s with a straight heavy black moustache that does not curl or turn up at the ends, very large dark eyes with dark rings beneath them, thick black hair, high stiff collar and cravat, an invalid's delicacy",
     "whitman":  "an old American with a huge untrimmed white beard spreading over his chest, a broad soft hat worn at an angle, open shirt collar, no tie, weathered kindly face",
-    "austen":   "a young Englishwoman of about 1800 in a white bonnet with dark curls escaping at the temples, a high-waisted Regency dress, small knowing half-smile",
+    "austen":   "a young Englishwoman of about 1800 in a white bonnet with dark curls escaping at the temples, a high-waisted Regency dress, small knowing half-smile, a plain ordinary face rather than a beautiful one, scratchy pen lines and visible hatching on the face",
     "woolf":    "an Englishwoman with a long narrow face and heavy-lidded eyes, dark hair pinned loosely back, a slightly haunted inward expression, plain high-necked blouse",
-    "dickinson": "a young woman of the 1850s with hair parted severely in the centre and drawn back, a plain dark high-necked dress with a narrow white collar, very still direct gaze",
+    "dickinson": "a young woman of the 1850s with hair parted severely in the centre and drawn back, a plain dark high-necked dress with a narrow white collar, very still direct gaze, a gaunt plain unsmiling face, scratchy pen lines and visible hatching, not a smooth or pretty illustration",
     "dickens":  "a Victorian gentleman with long wavy hair to the collar and a full straggling beard, deep-set lively eyes, velvet-collared coat and watch chain",
     "thoreau":  "a plain-featured 19th-century New Englander with a chin-strap beard leaving the upper lip bare, unruly hair, a long nose, homespun jacket",
 }
@@ -147,6 +153,13 @@ def main() -> int:
         out = sys.argv[sys.argv.index("--out") + 1]
     dest_dir = (ROOT / out) if out else OUT
     dest_dir.mkdir(parents=True, exist_ok=True)
+    tries = next((a.split("=", 1)[-1] for a in sys.argv if a.startswith("--tries=")), "")
+    if not tries and "--tries" in sys.argv:
+        tries = sys.argv[sys.argv.index("--tries") + 1]
+    # Flux takes no seed, so every call is a fresh roll and a bad face is not a bad
+    # prompt - it is one bad roll. Drawing four and picking is the difference between
+    # editing the description and editing the outcome.
+    tries = max(1, int(tries or 1))
     for t in styles.load():
         if wanted and t["id"] not in wanted:
             continue
@@ -159,16 +172,18 @@ def main() -> int:
             missing.append(t["id"])
             continue
         prompt = f"{look}. {STYLE}"
-        try:
-            raw = draw(acct, tok, prompt, model, steps)
-        except Exception as exc:                       # noqa: BLE001
-            print(f"{t['id']:10} FAILED {type(exc).__name__}: {str(exc)[:110]}")
-            continue
-        from PIL import Image
-        im = Image.open(_io.BytesIO(raw)).convert("L").convert("RGB")
-        im = crop(im).resize((512, 512), Image.LANCZOS)
-        im.save(dest, "JPEG", quality=82, optimize=True)
-        print(f"{t['id']:10} {dest.stat().st_size // 1024}KB via {which}")
+        for n in range(tries):
+            target = dest if tries == 1 else dest.with_name(f"{t['id']}-{n + 1}.jpg")
+            try:
+                raw = draw(acct, tok, prompt, model, steps)
+            except Exception as exc:                   # noqa: BLE001
+                print(f"{t['id']:10} FAILED {type(exc).__name__}: {str(exc)[:110]}")
+                continue
+            from PIL import Image
+            im = Image.open(_io.BytesIO(raw)).convert("L").convert("RGB")
+            im = crop(im).resize((512, 512), Image.LANCZOS)
+            im.save(target, "JPEG", quality=82, optimize=True)
+            print(f"{target.name:16} {target.stat().st_size // 1024}KB via {which}")
     if missing:
         # Loud, but not fatal. Everything drawable has been drawn and saved by now,
         # and taking the run down here would skip the commit that keeps it.
