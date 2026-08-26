@@ -48,7 +48,7 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .essay p{margin:0 0 1.35rem}
 .essay p:first-of-type::first-letter{float:left;font-size:3.4rem;line-height:.86;
   padding:.06em .09em 0 0;color:var(--accent)}
-.sortbar{display:flex;align-items:baseline;gap:.7rem;margin:0 0 .2rem;
+.sortbar{display:flex;align-items:baseline;gap:.7rem;margin:0 0 .7rem;
   font:500 11px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase}
 .sortbar span{color:var(--faint)}
 .sortbar button{appearance:none;background:none;border:0;cursor:pointer;padding:.2rem 0;
@@ -59,31 +59,37 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .list{list-style:none;margin:0;padding:0}
 .list li{border-top:1px solid var(--rule);padding:1.1rem 0}
 .list li:last-child{border-bottom:1px solid var(--rule)}
-.list a{text-decoration:none;display:flex;flex-wrap:wrap;align-items:baseline;
-  gap:.4rem 1.2rem;justify-content:space-between}
+/* Two columns, not a wrapping flex row. As a flex row a long title used the whole
+   line and pushed the verdict onto its own, pinned to the far right with nothing
+   beside it - "Michel de Montaigne on reclining a seat on a plane" did it at every
+   width, since the column is capped at 660px. On a grid the title wraps inside its
+   own column and the verdict stays on the first line where it belongs. */
+.list a{text-decoration:none;display:grid;grid-template-columns:minmax(0,1fr) auto;
+  column-gap:1.2rem;align-items:baseline}
 .list a:hover .t{color:var(--accent)}
-.rate{flex:none;display:flex;align-items:baseline;gap:.55rem;margin-left:auto}
+.rate{grid-column:2;grid-row:1;display:flex;align-items:baseline;gap:.55rem}
 .rate .verdict{color:var(--faint);font:400 13px/1.4 var(--sans);text-align:right}
 .rate .score{font:500 15px/1 var(--sans);font-variant-numeric:tabular-nums;
   min-width:2.4ch;text-align:right}
 .s-bad{color:var(--bad)}
 .s-mid{color:var(--accent)}
 .s-good{color:var(--good)}
-/* Under this width the title takes the whole line and the verdict wraps below it.
-   Pinned right by margin-left:auto it landed against the far edge on its own,
-   which read as a stray caption rather than as part of the row. Left-aligned it
-   sits under the title and the two lines read as one thing. */
+/* Under this width two columns leave the title too little to work with, so the row
+   becomes one column and the verdict sits under the title. Left-aligned, not pinned
+   to the far edge on its own, where it read as a stray caption rather than as part
+   of the row. */
 @media (max-width:620px){
-  .rate{margin-left:0;text-align:left}
+  .list a{grid-template-columns:minmax(0,1fr)}
+  .rate{grid-column:1;grid-row:auto;margin-top:.3rem;text-align:left}
   .rate .verdict{text-align:left}
 }
-.t{font-size:1.28rem}
+.t{grid-column:1;grid-row:1;font-size:1.28rem}
 /* The writer's name carries the row; the object it was set on sits back a shade. */
 .t .thing{color:var(--dim)}
 .list a:hover .thing{color:var(--accent)}
 /* A span, so its margin-top did nothing and it ran straight on from the title.
    It only shows on the writer and object pages, which is why the index hid it. */
-.sub{display:block;color:var(--faint);font:400 13.5px/1.5 var(--sans);margin-top:.25rem}
+.sub{grid-column:1;grid-row:2;color:var(--faint);font:400 13.5px/1.5 var(--sans);margin-top:.25rem}
 .foot{margin-top:3.4rem;color:var(--faint);font:400 13px/1.6 var(--sans)}
 .foot + .foot{margin-top:.7rem}
 .foot a{color:var(--dim)}
@@ -118,24 +124,28 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .backlink:hover{color:var(--accent)}
 .backlink .arr{color:var(--accent);font-size:14px;position:relative;top:-1px}
 .chips .face{width:26px;height:26px;margin:-3px 0}
-/* The writers list carries a portrait, so it gets more room than the Subjects list. */
-.chips.people a,.chips.people .chip-off{padding:0 1.7rem 0 0;height:88px;
-  font-size:18px;gap:1.15rem}
-.chips.people{gap:.9rem}
-.chips.people .face{width:86px;height:86px;margin:0}
-.chips.people .n{font-size:14px}
+/* The writers list carries a portrait, so it gets more room than the Subjects list.
+   Two to a row on a fixed grid rather than content-width pills wrapping as they
+   fall: shrink-to-fit gave a ragged column - one pill on some rows, two on others,
+   every one a different length - and a roster reads as a roster only when the rows
+   line up. The count is pushed to the pill's right edge so it makes a column too. */
+.chips.people{display:grid;grid-template-columns:1fr 1fr;gap:.9rem}
+.chips.people a,.chips.people .chip-off{display:flex;width:100%;height:78px;
+  padding:0 .9rem 0 0;font-size:16px;gap:.8rem}
+.chips.people .face{width:70px;height:70px;margin:0}
+.chips.people .n{font-size:14px;margin-left:auto;padding-left:.5rem}
 .chip-off .face{opacity:.35}
-/* Phones. Content-width pills leave ragged trailing space in a narrow column and a
-   long name wraps inside one, so the writers become full-width rows with the count
-   pushed right; and the title portrait comes down so the heading is not squeezed
-   into a two-word column beside it. */
-@media (max-width:560px){
-  .chips.people{display:block;margin-bottom:2rem}
-  .chips.people li{margin-bottom:.7rem}
-  .chips.people a,.chips.people .chip-off{display:flex;width:100%;height:74px;
-    font-size:17px;padding-right:1.2rem}
+/* The column stops growing at 660px, so that is also where the two-up roster stops
+   shrinking. Narrower than that and "David Foster Wallace" wraps inside its pill,
+   so the grid drops to a single full-width row per writer instead. */
+@media (max-width:660px){
+  .chips.people{grid-template-columns:1fr;margin-bottom:2rem}
+  .chips.people a,.chips.people .chip-off{height:74px;padding-right:1.2rem;font-size:17px}
   .chips.people .face{width:72px;height:72px}
-  .chips.people .n{margin-left:auto}
+}
+/* Phones. The title portrait comes down so the heading is not squeezed into a
+   two-word column beside it. */
+@media (max-width:560px){
   .titled{gap:.8rem}
   .titled .face{width:58px;height:58px}
 }
