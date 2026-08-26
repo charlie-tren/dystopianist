@@ -25,7 +25,7 @@ a{color:inherit}
 .home{order:2;font:500 13px/1 var(--sans);letter-spacing:.1em;text-transform:uppercase;
   color:var(--dim);text-decoration:none;display:inline-flex;align-items:center;gap:0}
 .home:hover{color:var(--accent)}
-.home .back{color:var(--accent);font-size:14px}
+.home .back{color:var(--accent);font-size:14px;position:relative;top:-1px}
 .tog{order:1;appearance:none;cursor:pointer;background:transparent;color:var(--dim);
   border:1px solid var(--rule);border-radius:999px;padding:.42rem .8rem;
   font:500 12px/1 var(--sans);letter-spacing:.04em}
@@ -93,7 +93,7 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
   font:500 12px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;
   margin:0 0 1.4rem}
 .backlink:hover{color:var(--accent)}
-.backlink .arr{color:var(--accent);font-size:14px}
+.backlink .arr{color:var(--accent);font-size:14px;position:relative;top:-1px}
 .chips .face{width:26px;height:26px;margin:-3px 0}
 /* The writers list carries a portrait, so it gets more room than the Subjects list. */
 .chips.people a,.chips.people .chip-off{padding:0 1.7rem 0 0;height:88px;
@@ -303,8 +303,7 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
             # The point of the object axis: who ELSE has been set on this thing.
             links = ", ".join(f'<a href="../e/{slug(x)}.html">{html.escape(x["name"])}</a>'
                               for x in others)
-            also = (f'  <p class="foot">Also on {html.escape(e["object"])}: {links}. '
-                    f'<a href="../on/{obj_slug(e["object"])}.html">All of them</a>.</p>\n')
+            also = f'  <p class="foot">Also on {html.escape(e["object"])}: {links}.</p>\n'
         body = ('  <a class="backlink" href="../index.html">'
                 '<span class="arr">&larr;</span>&nbsp;All the essays</a>\n'
                 f'  <h1 class="titled"><img class="face" src="../faces/{e["thinker"]}.jpg" '
