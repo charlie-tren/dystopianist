@@ -522,19 +522,6 @@
   },
   {
     "date": "2026-08-27",
-    "thinker": "austen",
-    "name": "Jane Austen",
-    "dates": "1775-1817",
-    "object": "Paddington 2 (2017)",
-    "verdict": "domestic harmony",
-    "score": 8.8,
-    "essay": "That a small bear of South American extraction should possess a finer sense of propriety than the greater part of the London theatrical profession can surprise only those who mistake vanity for refinement. The misfortunes which attend his innocent desire to procure a book of moveable views for an aged relative serve chiefly to display the superiority of his temper over the frailties of those around him. In the gaol, where a creature of weaker resolution might have yielded to despair or vulgarity, his unyielding attachment to civility and orange preserve reduces the most hardened felons to a state of domestic harmony. Meanwhile, the actor whose fraudulent ambitions precipitated the disaster is permitted to indulge every variety of absurd disguise, revealing only that self-love, when unassisted by genuine talent, is a most tedious spectacle. The work demands of its beholders a willingness to believe that good manners may conquer the most entrenched prejudice; and though such an expectation must appear somewhat sanguine to those acquainted with the world, the neatness with which every grievance is redressed, and the villain brought to an appropriately theatrical humiliation, affords a satisfaction which few prudent minds would care to dispute.",
-    "generated": "2026-08-27T23:35:50+00:00",
-    "provider": "gemini",
-    "scored_by": "gemini"
-  },
-  {
-    "date": "2026-08-27",
     "thinker": "wilde",
     "name": "Oscar Wilde",
     "dates": "1854-1900",
