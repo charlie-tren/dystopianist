@@ -148,6 +148,13 @@ jobs:
       # Not gated to the commit, deliberately: the essays and the repairs are already
       # on disk by now, and the lesson recorded on the Commit step below is that a
       # failure here should mark the job red without throwing away finished work.
+      # After the essay, so the slug and reflow checks run over the archive as
+      # published rather than as it was an hour ago. Same treatment as the two below:
+      # it marks the job red without blocking the commit of work already on disk.
+      - name: Does the renderer do what it says
+        if: ${{ !cancelled() }}
+        run: python tests/test_render.py
+
       - name: Are the scores one measurement
         if: ${{ !cancelled() }}
         run: python tests/test_scores.py
