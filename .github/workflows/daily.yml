@@ -202,45 +202,13 @@ jobs:
           echo "::error::could not push after 3 attempts"
           exit 1
 
-      # This repo is private, and GitHub Pages will not serve a private repo on the
-      # free plan - the live site is charlietrenorden.com/ghostwriters/, a folder
-      # inside the public hub repo. So publishing means copying docs/ across. Without
-      # this the daily essay lands here and never reaches the site.
+      # Publishing is the hub's job, not this one's. The live site is
+      # charlietrenorden.com/ghostwriters/, a folder inside the public hub repo, and
+      # the "Pull Ghostwriters" workflow THERE clones this repo and copies docs/
+      # across using its own GITHUB_TOKEN - so no PAT exists on either side. It runs
+      # at 21:53 UTC, an hour and a half after this job writes.
       #
-      # HUB_TOKEN is a fine-grained PAT with Contents: read and write on
-      # charlie-tren/charlie-tren.github.io. Until it exists the step skips loudly
-      # rather than failing the run.
-      - name: Publish to the hub
-        if: ${{ !cancelled() && steps.voice.outcome != 'failure' }}
-        env:
-          HUB_TOKEN: ${{ secrets.HUB_TOKEN }}
-        run: |
-          if [ -z "$HUB_TOKEN" ]; then
-            echo "::warning::HUB_TOKEN not set - the essay is committed here but NOT live"
-            exit 0
-          fi
-          git clone --depth 1 \
-            "https://x-access-token:${HUB_TOKEN}@github.com/charlie-tren/charlie-tren.github.io.git" hub
-          rm -rf hub/ghostwriters
-          cp -r docs hub/ghostwriters
-          cd hub
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add ghostwriters
-          if git diff --cached --quiet; then
-            echo "hub already up to date"
-            exit 0
-          fi
-          git commit -m "ghostwriters: $(date -u +%Y-%m-%d)"
-          for attempt in 1 2 3; do
-            if git push; then exit 0; fi
-            echo "hub push attempt $attempt lost a race - replaying onto main"
-            git fetch origin main
-            git reset --soft origin/main
-            git add ghostwriters
-            git diff --cached --quiet && exit 0
-            git commit -m "ghostwriters: $(date -u +%Y-%m-%d)"
-            sleep 3
-          done
-          echo "::error::could not push to the hub after 3 attempts"
-          exit 1
+      # A HUB_TOKEN push step used to sit here. The secret was never set, so it
+      # warned "the essay is committed here but NOT live" on every single run - which
+      # was false from the moment the hub workflow landed, and sent this session
+      # looking for a broken deploy that did not exist. Removed 28/08/2026.
