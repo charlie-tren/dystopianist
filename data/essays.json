@@ -466,5 +466,18 @@
     "essay": "I am currently on intimate terms with two men named Dan who live in Brooklyn and spend two hours every Tuesday explaining the minor characters in 1970s movies. I have never met either Dan. If I passed them outside Fairway on 74th Street, I would not recognize their faces, though I know precisely how Dan Number One takes his espresso and that Dan Number Two has a deeply tragic relationship with his landlord. I listen to them while I fold fitted sheets, while I wipe down the counters, and while I wait for the elevator. The theory is that you are enriching your mind while doing the laundry, which is a comforting fiction invented by those of us who cannot bear thirty seconds of silence in a kitchen. Yesterday morning, a very serious woman with a lovely voice spent forty-five minutes explaining the fall of the Austro-Hungarian Empire directly into my left ear. I bought four lemons and walked all the way to 86th Street, perfectly convinced I was becoming an intellectual. Then I got home and realized I had listened to the entire thing without hearing a single word, because I was thinking about my neck. My neck looked fine. The empire was still gone.",
     "generated": "2026-08-26T23:45:07+00:00",
     "provider": "gemini"
+  },
+  {
+    "date": "2026-08-27",
+    "thinker": "aurelius",
+    "name": "Marcus Aurelius",
+    "dates": "121-180",
+    "object": "Wikipedia",
+    "verdict": "fleeting pages",
+    "score": 3.5,
+    "essay": "Look upon this endless gathering of voices, wherein every man adds his fragment of memory and busies himself correcting the errors of another. Do not marvel at the sheer pile of it, nor suffer thy mind to be drawn into endless wandering among matters that do not concern thy present duty. If a fact recorded there be true and useful, receive it plainly as a tool for the hour, and then cast it aside; for in a little while, both he who inscribed the words and he who reads them will be turned to dust and forgotten. Consider how men strive to settle their disputes upon these fleeting pages, altering a phrase today only to have another undo their labour by nightfall. Is this not like children building towers in the sand, trembling lest the tide wash away their names? Be content to seek only what is necessary for right action, and curb the urge to master every idle detail of distant lands or dead affairs. Thy life is brief, and nature asks not that thou shouldst contain all knowledge, but that thou shouldst govern thy ruling centre with justice and tranquility. Keep thy inner citadel quiet, using this store of words as a traveler uses a spring, taking what is needful without mistaking the water for thy home.",
+    "generated": "2026-08-27T02:56:27+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini"
   }
 ]
