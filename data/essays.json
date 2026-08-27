@@ -5,11 +5,12 @@
     "name": "Marcus Aurelius",
     "dates": "121-180",
     "object": "alarm clocks",
-    "verdict": "foolish contraption",
-    "score": 2.1,
+    "verdict": "mindless thing",
+    "score": 1.2,
     "essay": "As I lie here, a device screams at me to rise, shattering the stillness of the morning. What urgency is this, that I must be jarred from my rest like a beast from its lair? Can it truly be said that the passing of time is so precious, so fleeting, that I must be torn from slumber to attend to its every tick? And yet, I submit to this tyranny, day after day, as if the arbitrary chime of this device held some greater significance than the gentle stirrings of my own heart. In this, I am a slave to the whims of a machine, rather than a master of my own soul. The universe unfolds with indifference, heedless of my petty schedules and appointments, and still I rush to answer the summons of this mindless thing, as if my very existence depended on it. I am ashamed of this weakness, and the absurdity of it all.",
     "generated": "2026-08-25T03:38:40+00:00",
-    "provider": "cloudflare"
+    "provider": "cloudflare",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-25",
@@ -479,5 +480,70 @@
     "generated": "2026-08-27T02:56:27+00:00",
     "provider": "gemini",
     "scored_by": "gemini"
+  },
+  {
+    "date": "2026-08-27",
+    "thinker": "austen",
+    "name": "Jane Austen",
+    "dates": "1775-1817",
+    "object": "Titanic (1997)",
+    "verdict": "an absurdity",
+    "score": 1.8,
+    "essay": "The spectacle of a great vessel, constructed at immense expense only to be systematically submerged for the gratification of the public, presents a curious view of modern sentiments. One is invited to admire a young lady of birth and condition who, while engaged to a gentleman of suitable fortune, conceives a sudden and invincible attachment to an itinerant drawer of no visible means. That such an imprudence should be elevated not merely above familial duty, but above the common dictates of self-preservation, says much for the indulgence of the age. The author of this extravagance has spared no expense in reproducing the grandeur of the ship, nor any exertion in ensuring that its destruction should be as prolonged and distressing as artifice can render it. We are expected to observe the rising waters with an affliction that quite eclipses any regard for decorum, and to weep over the ultimate fate of a hero whose devotion so far exceeds his understanding of displacement. That two persons of slender frame could not both find room upon a floating door is an absurdity which the company is politely requested to pardon, in consideration of the very handsome sentiments involved.",
+    "generated": "2026-08-27T23:34:27+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini"
+  },
+  {
+    "date": "2026-08-27",
+    "thinker": "thoreau",
+    "name": "Henry David Thoreau",
+    "dates": "1817-1862",
+    "object": "Jaws (1975)",
+    "verdict": "unreasoning tax",
+    "score": 8.0,
+    "essay": "Men will pay two bits of silver to sit in a shaded parlor and shudder at the water, when for the same price they might have bought a stout pair of boots and walked away from the shore altogether. The selectmen of that sandy island weigh human flesh against the seasonal revenue of bathers, calculating that three corpses on the beach are cheaper than a silent July; thus trade always drives men into the gullet of what they cannot bargain with. Yet consider the monster itself—not the iron gears and painted rubber that cost a million dollars to stall in the surf, but the thought of that Great Fish, which moves through the sea like an unreasoning tax on human pride. The three who set out to hunt it carry their own tallies: a rich man with his brass instruments, a poor captain who sells his scars by the foot, and a timid sheriff who fears the element he is sworn to keep. When the yellow barrels go under, one feels a wild, unbought joy at the leviathan's strength. It demands of us only our fear, which is the cheapest commodity we possess, yet we yield it up as though it were gold.",
+    "generated": "2026-08-27T23:34:56+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini"
+  },
+  {
+    "date": "2026-08-27",
+    "thinker": "kafka",
+    "name": "Franz Kafka",
+    "dates": "1883-1924",
+    "object": "The Matrix (1999)",
+    "verdict": "mechanized patience",
+    "score": 2.5,
+    "essay": "N. had long suspected that the green figures cascading down the screens were not calculation errors in the accounting department, but rather the actual text of the regulations under which he was summoned to work without ever seeing his contract. When solemn men in dark suits informed him that his office was an elaborate deception constructed by machines to extract his life force, N. felt a quiet relief, for it explained why his daily petitions regarding his quarters had gone unanswered. Yet the liberation offered by his new companions, who dressed in heavy leather coats and spoke constantly of a prophecy awaiting official seal, proved no less demanding than his previous duties; he was required to leap across impossibly wide lightwells and ingest colored capsules without prescription, only to discover that the true world was merely a darker cellar where the clerks ate porridge from tin bowls. The film moves with a mechanized patience, presenting these endless combat maneuvers as though they were routine audits, ultimately demanding from the viewer not rebellion, but an absolute compliance with a world whose rules are revised faster than one can sign the ledger.",
+    "generated": "2026-08-27T23:35:22+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini"
+  },
+  {
+    "date": "2026-08-27",
+    "thinker": "austen",
+    "name": "Jane Austen",
+    "dates": "1775-1817",
+    "object": "Paddington 2 (2017)",
+    "verdict": "domestic harmony",
+    "score": 8.8,
+    "essay": "That a small bear of South American extraction should possess a finer sense of propriety than the greater part of the London theatrical profession can surprise only those who mistake vanity for refinement. The misfortunes which attend his innocent desire to procure a book of moveable views for an aged relative serve chiefly to display the superiority of his temper over the frailties of those around him. In the gaol, where a creature of weaker resolution might have yielded to despair or vulgarity, his unyielding attachment to civility and orange preserve reduces the most hardened felons to a state of domestic harmony. Meanwhile, the actor whose fraudulent ambitions precipitated the disaster is permitted to indulge every variety of absurd disguise, revealing only that self-love, when unassisted by genuine talent, is a most tedious spectacle. The work demands of its beholders a willingness to believe that good manners may conquer the most entrenched prejudice; and though such an expectation must appear somewhat sanguine to those acquainted with the world, the neatness with which every grievance is redressed, and the villain brought to an appropriately theatrical humiliation, affords a satisfaction which few prudent minds would care to dispute.",
+    "generated": "2026-08-27T23:35:50+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini"
+  },
+  {
+    "date": "2026-08-27",
+    "thinker": "wilde",
+    "name": "Oscar Wilde",
+    "dates": "1854-1900",
+    "object": "Shrek (2001)",
+    "verdict": "quiet luxury",
+    "score": 8.5,
+    "essay": "To insist upon one’s own ugliness in a world obsessed with decorative virtue is not merely a breach of etiquette; it is the highest form of self-respect. The green creature of the swamp understands what the romantic poets so foolishly forgot: that solitude is only charming when it is thoroughly uninviting. He does not ask for our affection, which is precisely why he receives our fascination. The tragedy of the modern fairy tale has always been its insistence on perfection, a defect most dreadfully embodied by the diminutive lord who builds a kingdom of terrifying symmetry. Yet how exquisite that our heroine finds redemption not by elevating her monster, but by descending to his delightfully coarse level. The illusion itself—rendered with a mathematical precision that pretends to be mere buffoonery—demands that we mock the very romance we are secretly relieved to see destroyed. It asks the audience to abandon the exhausting duty of admiring beauty, offering instead the quiet luxury of contentment in the mud. There is something profoundly civilized about an enchanted princess who chooses to remain comfortably monstrous, for it proves that true romance lies not in transforming the beast, but in admitting that beauty was always an unnecessary complication.",
+    "generated": "2026-08-27T23:36:45+00:00",
+    "provider": "gemini",
+    "scored_by": "cloudflare"
   }
 ]
