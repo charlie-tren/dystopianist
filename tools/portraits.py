@@ -52,8 +52,13 @@ OUT = ROOT / "docs" / "faces"
 # woman with a smooth face the model leaves the editorial-ink style entirely and
 # returns a doe-eyed vector illustration, which is what Austen and Dickinson were
 # until 26/08/2026. The style string is shared by all eighteen, so the correction
-# has to sit on the faces that need it. - the style is the same for
-# all eight so the set reads as one hand.
+# has to sit on the faces that need it.
+#
+# Some of it Flux will not do however it is worded. Three rounds on 28/08/2026 could
+# not get a flat uncurled moustache onto Proust or a bare upper lip onto Thoreau -
+# the caricature prior wins, and every candidate came back a handlebar. Rewriting the
+# line again is not the lever; drawing three or four and picking is. Wording that has
+# been tried and lost is left in place rather than escalated.
 # EVERY id in styles/ must appear here. A writer added to styles/ and forgotten here
 # raises KeyError and takes the whole workflow with it - on 26/08/2026 that killed the
 # portraits step, which skipped the Commit step, which threw away a completed reverdict
@@ -66,17 +71,17 @@ LOOK = {
     "aurelius": "a bearded Roman emperor in a plain toga, curly hair and beard, weary",
     "kafka":    "a thin young man in a dark suit and stiff collar, black hair swept straight back, a narrow face and large dark intense eyes",
     "thompson": "a bald man in aviator sunglasses with a cigarette holder clenched in his teeth, bucket hat",
-    "nietzsche": "a stern 19th-century German man whose hair is cropped close and plastered flat to the skull with no volume and no waves, a very heavy drooping walrus moustache covering the mouth entirely, deep-set eyes under heavy brows, buttoned dark coat",
+    "nietzsche": "a stern 19th-century German man whose hair is cropped close and plastered flat to the skull with no volume and no waves, a heavy walrus moustache that hangs straight DOWN over the mouth with its ends drooping below the corners of the lips, never waxed, never curled, never turned up at the ends, the chin and cheeks clean-shaven so there is a moustache and no beard at all, deep-set eyes under heavy brows, buttoned dark coat",
     "montaigne": "a balding 16th-century Frenchman with a pointed beard and a wide starched ruff collar",
     "ephron":   "a dark-haired American woman in her sixties, short practical haircut, amused sceptical expression, plain shirt",
     "didion":   "a very slight woman in her sixties, dark sunglasses, straight shoulder-length hair, cigarette, cool unsmiling expression",
-    "proust":   "a pale young Frenchman of the 1900s with a heavy black moustache lying flat across the upper lip like a straight bar with the ends cut square, never a handlebar and never waxed or curled upward, very large dark eyes with dark rings beneath them, thick black hair, high stiff collar and cravat, an invalid's delicacy",
+    "proust":   "a pale young Frenchman of the 1900s with a modest dark moustache sitting flat and low on the upper lip, no wider than the mouth itself, ends hanging slightly down, absolutely not a large waxed handlebar and not curled upward, very large dark eyes with dark rings beneath them, thick black hair, high stiff collar and cravat, an invalid's delicacy",
     "whitman":  "an old American with a huge untrimmed white beard spreading over his chest, a broad soft hat worn at an angle, open shirt collar, no tie, weathered kindly face",
     "austen":   "a young Englishwoman of about 1800 wearing a frilled white day cap tied under the chin with dark curls escaping at the temples, a high-waisted Regency dress, small knowing half-smile, a plain ordinary long-nosed face rather than a beautiful one, drawn in scratchy pen lines with heavy visible hatching over the face, never a smooth doe-eyed illustration",
     "woolf":    "an Englishwoman with a long narrow face and heavy-lidded eyes, dark hair pinned loosely back, a slightly haunted inward expression, plain high-necked blouse",
     "dickinson": "a young woman of the 1850s with hair parted severely in the centre and drawn back flat, a plain dark high-necked dress with a narrow white collar, very still direct unblinking gaze, a gaunt severe unsmiling face with hollow cheeks and a long jaw, drawn in scratchy scratchboard pen lines with heavy visible cross-hatching over the whole face, deliberately unglamorous, never a smooth clean-lined or doe-eyed illustration",
     "dickens":  "a Victorian gentleman with long wavy hair to the collar and a full straggling beard, deep-set lively eyes, velvet-collared coat and watch chain",
-    "thoreau":  "a plain-featured 19th-century New Englander whose beard grows only along the jawline and under the chin while the upper lip and both cheeks are clean-shaven, absolutely no moustache, unruly hair, a long nose, homespun jacket",
+    "thoreau":  "a plain-featured 19th-century New Englander wearing a chin curtain: the beard grows in a narrow fringe under the jaw and chin only, while the upper lip is shaved bare with no moustache of any kind and the cheeks are shaved bare, unruly hair, a long nose, homespun jacket",
 }
 
 # Black and white only. The first set carried an ochre accent and Flux kept turning it
