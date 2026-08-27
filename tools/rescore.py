@@ -37,6 +37,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -110,8 +111,18 @@ def main() -> int:
     if moved:
         print(f"\nmoved by {sum(moved) / len(moved):.1f} on average, "
               f"largest {max(moved):.1f}")
-    left = sum(stale(x) for x in entries) - (0 if args.dry else changed)
-    print(f"{changed} rescored, {max(left, 0)} still off-scale")
+    left = max(sum(stale(x) for x in entries) - (0 if args.dry else changed), 0)
+    print(f"{changed} rescored, {left} still off-scale")
+    # A run that repairs NOTHING while a backlog exists is the failure worth knowing
+    # about, and it is silent by construction: the step exits 0, the job goes green,
+    # and the only trace is a line in a log nobody opens. That is how the mixed scale
+    # went unnoticed for two days in the first place. On a spent-quota day this is
+    # expected and self-correcting; on many days running it means the drain is dead
+    # and the front page stays wrong. An annotation puts it on the run's own summary.
+    if left and not changed and os.environ.get("GITHUB_ACTIONS"):
+        print(f"::warning::rescored nothing this run; {left} essays still on the old "
+              "scale. Expected on a day the free tier is spent - see the error above. "
+              "If this repeats for several days the drain has stopped working.")
     if args.dry or not changed:
         return 0
     ESSAYS.write_text(json.dumps(entries, indent=2, ensure_ascii=False),
