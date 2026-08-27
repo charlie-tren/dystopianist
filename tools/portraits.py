@@ -66,17 +66,17 @@ LOOK = {
     "aurelius": "a bearded Roman emperor in a plain toga, curly hair and beard, weary",
     "kafka":    "a thin young man in a dark suit and stiff collar, black hair swept straight back, a narrow face and large dark intense eyes",
     "thompson": "a bald man in aviator sunglasses with a cigarette holder clenched in his teeth, bucket hat",
-    "nietzsche": "a stern 19th-century German man with SHORT dark hair combed flat, a very heavy drooping moustache covering the mouth, deep-set eyes under heavy brows, buttoned dark coat",
+    "nietzsche": "a stern 19th-century German man whose hair is cropped close and plastered flat to the skull with no volume and no waves, a very heavy drooping walrus moustache covering the mouth entirely, deep-set eyes under heavy brows, buttoned dark coat",
     "montaigne": "a balding 16th-century Frenchman with a pointed beard and a wide starched ruff collar",
     "ephron":   "a dark-haired American woman in her sixties, short practical haircut, amused sceptical expression, plain shirt",
     "didion":   "a very slight woman in her sixties, dark sunglasses, straight shoulder-length hair, cigarette, cool unsmiling expression",
-    "proust":   "a pale young Frenchman of the 1900s with a straight heavy black moustache that does not curl or turn up at the ends, very large dark eyes with dark rings beneath them, thick black hair, high stiff collar and cravat, an invalid's delicacy",
+    "proust":   "a pale young Frenchman of the 1900s with a heavy black moustache lying flat across the upper lip like a straight bar with the ends cut square, never a handlebar and never waxed or curled upward, very large dark eyes with dark rings beneath them, thick black hair, high stiff collar and cravat, an invalid's delicacy",
     "whitman":  "an old American with a huge untrimmed white beard spreading over his chest, a broad soft hat worn at an angle, open shirt collar, no tie, weathered kindly face",
-    "austen":   "a young Englishwoman of about 1800 in a white bonnet with dark curls escaping at the temples, a high-waisted Regency dress, small knowing half-smile, a plain ordinary face rather than a beautiful one, scratchy pen lines and visible hatching on the face",
+    "austen":   "a young Englishwoman of about 1800 wearing a frilled white day cap tied under the chin with dark curls escaping at the temples, a high-waisted Regency dress, small knowing half-smile, a plain ordinary long-nosed face rather than a beautiful one, drawn in scratchy pen lines with heavy visible hatching over the face, never a smooth doe-eyed illustration",
     "woolf":    "an Englishwoman with a long narrow face and heavy-lidded eyes, dark hair pinned loosely back, a slightly haunted inward expression, plain high-necked blouse",
-    "dickinson": "a young woman of the 1850s with hair parted severely in the centre and drawn back, a plain dark high-necked dress with a narrow white collar, very still direct gaze, a gaunt plain unsmiling face, scratchy pen lines and visible hatching, not a smooth or pretty illustration",
+    "dickinson": "a young woman of the 1850s with hair parted severely in the centre and drawn back flat, a plain dark high-necked dress with a narrow white collar, very still direct unblinking gaze, a gaunt severe unsmiling face with hollow cheeks and a long jaw, drawn in scratchy scratchboard pen lines with heavy visible cross-hatching over the whole face, deliberately unglamorous, never a smooth clean-lined or doe-eyed illustration",
     "dickens":  "a Victorian gentleman with long wavy hair to the collar and a full straggling beard, deep-set lively eyes, velvet-collared coat and watch chain",
-    "thoreau":  "a plain-featured 19th-century New Englander with a chin-strap beard leaving the upper lip bare, unruly hair, a long nose, homespun jacket",
+    "thoreau":  "a plain-featured 19th-century New Englander whose beard grows only along the jawline and under the chin while the upper lip and both cheeks are clean-shaven, absolutely no moustache, unruly hair, a long nose, homespun jacket",
 }
 
 # Black and white only. The first set carried an ochre accent and Flux kept turning it

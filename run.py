@@ -4,6 +4,7 @@
     python run.py --dry            # generate and gate, write nothing
     python run.py --writer kafka   # a named writer instead of the rotation
     python run.py --until 2        # keep going until every writer has 2 essays
+    python run.py --cover          # keep going until every subject has one
 
 The pairing is the anti-repeat axis: never the same thinker-object pair twice, and
 never the same thinker two days running. Shortlisted pairings - see pick() - go
@@ -57,14 +58,22 @@ def eligible(thinker, obj) -> bool:
 
 
 def pick(thinkers, objects, past, only=None):
-    """Prefer the shortlisted pairings while any are left.
+    """Cover every subject first, then prefer the shortlisted pairings.
 
-    Each object in the config names the two or three writers with a specific reason
-    to have an opinion on it. Those go first, so the early essays are the strong
-    matchups rather than whatever the shuffle produced; once they are spent it falls
-    back to the whole roster, because a writer meeting something they have no claim
-    on is half the point."""
+    Two preferences, in order. An object nobody has written about yet outranks
+    everything: the site promises a take on each subject, and a subject sitting on
+    nought reads as an empty shelf rather than as a queue. The five films added on
+    26/08/2026 sat at nought for two days because the pairing only ever balanced
+    WRITERS, so a new subject could wait out the whole rotation.
+
+    Within each of those, the shortlisted writers go first - the two or three the
+    config names as having a specific reason to have an opinion - so the early
+    essays are the strong matchups rather than whatever the shuffle produced. Once
+    the shortlists are spent it falls back to the whole roster, because a writer
+    meeting something they have no claim on is half the point.
+    """
     used = {(e["thinker"], e["object"]) for e in past}
+    covered = {e["object"] for e in past}
     last = past[-1]["thinker"] if past else None
     by_id = {t["id"]: t for t in thinkers}
     ids = [only] if only else [x["id"] for x in thinkers]
@@ -74,14 +83,18 @@ def pick(thinkers, objects, past, only=None):
     def ok(t, o):
         return t != last and t in by_id and eligible(by_id[t], o)
 
-    free = [(t, o["name"]) for t in ids for o in objects
-            if (t, o["name"]) not in used and ok(t, o)]
-    shortlisted = [(t, o["name"]) for t in ids for o in objects
-                   if t in (o.get("writers") or []) and (t, o["name"]) not in used
-                   and ok(t, o)]
-    if not free:                       # every pair spent: allow repeats, still not twice running
-        free = [(t, o["name"]) for t in ids for o in objects if ok(t, o)]
-    return random.choice(shortlisted or free)
+    def pairs(pool, shortlisted_only):
+        return [(t, o["name"]) for t in ids for o in pool
+                if (t, o["name"]) not in used and ok(t, o)
+                and (not shortlisted_only or t in (o.get("writers") or []))]
+
+    new = [o for o in objects if o["name"] not in covered]
+    for pool in (pairs(new, True), pairs(new, False),
+                 pairs(objects, True), pairs(objects, False)):
+        if pool:
+            return random.choice(pool)
+    # Every pair is spent: allow a repeat, still never the same writer twice running.
+    return random.choice([(t, o["name"]) for t in ids for o in objects if ok(t, o)])
 
 
 def main() -> int:
@@ -91,6 +104,8 @@ def main() -> int:
     ap.add_argument("--writer", help="writer id, instead of the daily rotation")
     ap.add_argument("--until", type=int, metavar="N",
                     help="backfill until every writer has N essays")
+    ap.add_argument("--cover", action="store_true",
+                    help="backfill until every subject has at least one essay")
     args = ap.parse_args()
 
     thinkers = styles.load()
@@ -99,6 +114,39 @@ def main() -> int:
     shots = {t["id"]: t["shot"] for t in thinkers}
 
     past = json.loads(ARCHIVE.read_text(encoding="utf-8")) if ARCHIVE.exists() else []
+
+    if args.cover:
+        # Subject coverage, run BEFORE the writer top-up. pick() already prefers an
+        # uncovered subject, so this is only the difference between covering them
+        # over five nights and covering them tonight - which matters when a batch of
+        # subjects is added at once and the page shows five noughts until it drains.
+        if args.dry:
+            print("--cover writes; it cannot be combined with --dry", file=sys.stderr)
+            return 2
+
+        def uncovered():
+            done = {e["object"] for e in past}
+            return [o["name"] for o in objects if o["name"] not in done]
+
+        while uncovered():
+            left = uncovered()
+            print(f"\n--- covering {left[0]} ({len(left)} subject(s) at nought) ---")
+            try:
+                failed = one(None, thinkers, objects, by_id, shots, past, args.dry)
+            except llm.NoProvider as exc:
+                print(f"\nout of free quota with {len(left)} subject(s) still at "
+                      f"nought: {exc}", file=sys.stderr)
+                return 3
+            if failed:
+                print(f"giving up on {left[0]}", file=sys.stderr)
+                return 1
+            if uncovered() == left:
+                # pick() chose a covered subject anyway - eligibility can leave a
+                # subject with no writer the rotation will give it. Loud, and a stop
+                # rather than the same choice forever.
+                print(f"::warning::{left[0]} is still at nought after a write - "
+                      f"stopping the coverage pass", file=sys.stderr)
+                break
 
     if args.until:
         # Backfill: the writers page shows a nought beside anyone in the rotation

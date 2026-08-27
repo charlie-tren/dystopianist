@@ -36,7 +36,9 @@ on:
 env:
   # Every writer should have at least this many before the site settles into one a
   # day. Until then each run writes as many as the free tiers allow and stops - a
-  # spent quota is exit 3, which is a normal end, not a failure.
+  # spent quota is exit 3, which is a normal end, not a failure. --cover does the
+  # same for SUBJECTS, and runs first: a subject on nought is an empty shelf on a
+  # site whose index IS the list of subjects.
   MIN_PER_WRITER: "2"
 
 jobs:
@@ -61,6 +63,11 @@ jobs:
       - name: Is the roster wired up
         run: python tests/test_roster.py
 
+      # Also cheap and also before anything that spends a quota: it draws 500 pairings
+      # in memory and writes nothing.
+      - name: Does the pairing cover every subject
+        run: python tests/test_pick.py
+
       - name: Write
         # The nightly cron must never depend on the jobs input. On a scheduled run
         # github.event.inputs is null, so the old condition rode on null == ''
@@ -78,7 +85,7 @@ jobs:
           UNTIL: ${{ github.event.inputs.until }}
         run: |
           set +e
-          python run.py --until "${UNTIL:-$MIN_PER_WRITER}"
+          python run.py --cover --until "${UNTIL:-$MIN_PER_WRITER}"
           code=$?
           set -e
           # 0 = everyone is topped up. 3 = the free tiers are spent for the day, and
