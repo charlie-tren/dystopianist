@@ -78,9 +78,6 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 /* The writer's name carries the row; the object it was set on sits back a shade. */
 .t .thing{color:var(--dim)}
 .list a:hover .thing{color:var(--accent)}
-/* A span, so its margin-top did nothing and it ran straight on from the title.
-   It only shows on the writer and object pages, which is why the index hid it. */
-.sub{grid-column:1;grid-row:2;color:var(--faint);font:400 13.5px/1.5 var(--sans);margin-top:.25rem}
 .foot{margin-top:3.4rem;color:var(--faint);font:400 13px/1.6 var(--sans)}
 .foot + .foot{margin-top:.7rem}
 .foot a{color:var(--dim)}
@@ -254,12 +251,12 @@ def essay_rows(entries, up="", show="both") -> str:
     row says the same object."""
     rows = []
     for e in reversed(entries):
-        # the sub-line carries whichever half the heading does not. No dates: a
-        # writer's years and the day a machine generated the essay are both noise.
-        # Nothing on a subject page: the heading is the object, so a row reading
-        # "Marcus Aurelius / escape rooms" says it twice. That page is meant to
-        # read like the front page - a name and a score.
-        sub = {"object": e["name"]}.get(show, "")
+        # NO SECOND LINE ON ANY OF THEM. It used to print the writer's name under
+        # each row of a writer's own page, which is the name the h1 two inches above
+        # is already carrying - the exact repetition the docstring says this argument
+        # exists to prevent, and it shipped on all 18 writer pages. There is nothing
+        # left for it to carry: a writer's years and the day a machine generated the
+        # essay were both ruled out as noise, and the object is already the title.
         if show == "object":
             t = html.escape(e["object"])
         elif show == "writer":
@@ -281,9 +278,7 @@ def essay_rows(entries, up="", show="both") -> str:
         ds = "" if e.get("score") is None else f' data-score="{e["score"]:.1f}"'
         rows.append(
             f'    <li{ds} data-seq="{len(rows)}"><a href="{up}e/{slug(e)}.html">'
-            f'<span class="t">{t}</span>'
-            + (f'<span class="sub">{html.escape(sub)}</span>' if sub else "")
-            + rate + "</a></li>")
+            f'<span class="t">{t}</span>' + rate + "</a></li>")
     return "\n".join(rows)
 
 

@@ -1,0 +1,125 @@
+"""Re-read published essays and put every score on ONE model's scale.
+
+    python tools/rescore.py                # only the ones not on the canonical scale
+    python tools/rescore.py --all          # every essay, whatever scored it
+    python tools/rescore.py --limit 15     # stop after N, for a day-limited free tier
+    python tools/rescore.py --dry          # show what would change, write nothing
+
+WHY THIS EXISTS
+A score is not an absolute measurement. It only means anything against the other
+scores on the same page, and the page sorts on it. So a corpus scored by two models
+is not a corpus with a bit of noise in it - it is two different scales printed in one
+column, and the Rating sort compares them as though they were one.
+
+That is what the first 39 essays were. Measured 27/08/2026:
+
+    25/08 batch  17 essays  range 0.5-4.5  1.5 x6, 1.8 x3
+    26/08 batch  22 essays  range 1.5-8.5  5.5 x6, 5.4 x4, 6.4 x3
+
+Two causes, one per batch. The 25/08 essays were scored under the old design where
+the model was asked for a verdict and a number BEFORE writing, so the number
+commissioned the prose instead of describing it - see the long note at the top of
+write.py. The 26/08 essays got the current second pass, but Gemini's day was already
+spent when they ran, so llama-3.3-70b scored all 22 while Gemini had scored the 17
+before them. Neither batch is repeating a favourite number for want of judgement:
+they are two calibrations, stacked.
+
+Re-reading eight of them with the current pass gave nine distinct values where the
+live page had five, including three that moved more than two points (Montaigne on
+alarm clocks 1.5 -> 3.5, Woolf on Wikipedia 6.4 -> 5.0). Repeated reads of the SAME
+essay were near-identical - 5.0, 5.0, 5.0 and 5.5, 5.5, 5.5 - so the judge is stable
+and the spread comes from putting it on one scale, not from asking it twice.
+
+The verdict is rewritten alongside, because it comes from the same read and a verdict
+that disagrees with its own number reads worse than either.
+"""
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+
+import _env                        # noqa: E402
+import render                      # noqa: E402
+import styles                      # noqa: E402
+import write as write_stage        # noqa: E402
+
+ESSAYS = ROOT / "data" / "essays.json"
+
+
+def stale(e: dict) -> bool:
+    """Not on the canonical scale. Absent means it predates the field, which is every
+    essay written before 27/08/2026 and so every essay of the two mixed batches."""
+    return e.get("scored_by") != write_stage.SCORER
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--all", action="store_true", help="re-read every essay")
+    ap.add_argument("--limit", type=int, help="stop after N, for a day-limited tier")
+    ap.add_argument("--dry", action="store_true", help="write nothing")
+    args = ap.parse_args()
+    _env.load()
+
+    entries = json.loads(ESSAYS.read_text(encoding="utf-8"))
+    roster = {t["id"]: t for t in styles.load()}
+
+    targets = [e for e in entries if args.all or stale(e)]
+    if args.limit:
+        targets = targets[:args.limit]
+    print(f"{len(targets)} of {len(entries)} essays to re-read "
+          f"onto the {write_stage.SCORER} scale\n")
+
+    changed, moved = 0, []
+    for e in targets:
+        thinker = roster.get(e["thinker"])
+        if not thinker:
+            print(f"  ?? {e['thinker']} not in styles/, skipped")
+            continue
+        try:
+            verdict, score, on_topic, by = write_stage.score_essay(
+                thinker, e["object"], e["essay"])
+        except Exception as exc:                     # noqa: BLE001
+            # A spent quota mid-run keeps everything already repaired. Re-running
+            # tomorrow picks up where it stopped, because the field records progress.
+            print(f"  !! {e['thinker']}/{e['object']}: {type(exc).__name__}: {exc}"[:120])
+            break
+        if score is None:
+            print(f"  -- {e['thinker']}/{e['object']}: no score returned, kept")
+            continue
+        if by != write_stage.SCORER:
+            # The fallback answered. Writing this would swap one off-scale number for
+            # another and mark it repaired, which is worse than leaving it alone.
+            print(f"  -- {e['thinker']}/{e['object']}: scored by {by}, not {write_stage.SCORER}"
+                  " - left for the next run")
+            break
+        was = e.get("score")
+        print(f"  -> {e['thinker']:<10} {e['object'][:22]:<22} "
+              f"{was} -> {score}   {e.get('verdict','')!r} -> {verdict!r}"
+              + ("   [OFF TOPIC]" if not on_topic else ""))
+        if was is not None:
+            moved.append(abs(score - was))
+        if not args.dry:
+            e["score"], e["verdict"], e["scored_by"] = score, verdict, by
+        changed += 1
+
+    if moved:
+        print(f"\nmoved by {sum(moved) / len(moved):.1f} on average, "
+              f"largest {max(moved):.1f}")
+    left = sum(stale(x) for x in entries) - (0 if args.dry else changed)
+    print(f"{changed} rescored, {max(left, 0)} still off-scale")
+    if args.dry or not changed:
+        return 0
+    ESSAYS.write_text(json.dumps(entries, indent=2, ensure_ascii=False),
+                      encoding="utf-8", newline="\n")
+    render.build(entries, styles.load())
+    print("archive written and pages re-rendered")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

@@ -160,7 +160,7 @@ def one(only, thinkers, objects, by_id, shots, past, dry) -> int:
     essay, problems = "", ["not attempted"]
     verdict, score = "", None
     for i in range(ATTEMPTS):
-        essay, verdict, score, provider, on_topic = write_stage.write(
+        essay, verdict, score, provider, on_topic, scored_by = write_stage.write(
             thinker, obj, temperature=0.9 + 0.05 * i, kind=kind)
         problems = critic.check(essay, thinker, shots, verdict, score, on_topic)
         status = "ok" if not problems else "; ".join(problems)
@@ -187,6 +187,10 @@ def one(only, thinkers, objects, by_id, shots, past, dry) -> int:
         "essay": essay,
         "generated": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
         "provider": provider,
+        # Which model READ it. See write.SCORER: a score only means anything against
+        # the other scores on the page, so one written by the fallback is repaired by
+        # tools/rescore.py rather than left on a different scale from its neighbours.
+        "scored_by": scored_by,
     }
     past.append(entry)
     ARCHIVE.parent.mkdir(exist_ok=True)

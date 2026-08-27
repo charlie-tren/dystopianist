@@ -128,9 +128,23 @@ def build_score_prompt(thinker: dict, obj: str, essay: str) -> str:
     return SCORE_PROMPT.format(name=thinker["name"], object=obj, essay=essay)
 
 
-def score_essay(thinker: dict, obj: str, essay: str) -> tuple[str, float | None, bool]:
+# The scoring pass is pinned to ONE model, and which one is recorded on the essay.
+# Not because Gemini scores better - because a score is only meaningful against the
+# other scores on the page, and two models do not share a scale. On 26/08/2026 Gemini's
+# day was spent by the time the batch ran, so llama-3.3-70b scored all 22 essays while
+# Gemini had scored the 17 before them. The front page ended up with a llama band at
+# 5.4-5.5 and a Gemini band at 1.5-1.8, sorted against each other as though they were
+# one measurement. Falling back is still allowed, because an unscorable essay fails the
+# gate and a spent quota would mean no essay at all; but the fallback is RECORDED, and
+# tools/rescore.py re-reads anything not scored by the canonical model once quota
+# returns. Publish now, converge later.
+SCORER = "gemini"
+
+
+def score_essay(thinker: dict, obj: str, essay: str) -> tuple[str, float | None, bool, str]:
     """Pass two: read the finished essay and report what it expresses. Temperature is
-    low because this is a reading, not a performance.
+    low because this is a reading, not a performance. Returns the scoring provider as
+    well, so a corpus scored by two models is detectable rather than invisible.
 
     Also returns whether the essay is on topic. The reader is already here with the
     prose in front of it, so this costs nothing, and it catches a failure no string
@@ -138,7 +152,8 @@ def score_essay(thinker: dict, obj: str, essay: str) -> tuple[str, float | None,
     fine detail and never once touched the anaesthetic. Absent from the gate, it
     published, and the scorer's honest verdict for it was "no mention" - which then
     printed on the site as though it were the writer's opinion."""
-    raw, _ = llm.generate(build_score_prompt(thinker, obj, essay), temperature=0.2)
+    raw, scored_by = llm.generate(build_score_prompt(thinker, obj, essay),
+                                  temperature=0.2, prefer=SCORER)
     d = llm.extract_json(raw)
     try:
         score = round(float(d.get("score")), 1)
@@ -149,15 +164,18 @@ def score_essay(thinker: dict, obj: str, essay: str) -> tuple[str, float | None,
     # Absent or unparseable means "do not know", and the gate should not fail an
     # essay because the scorer dropped a field.
     on_topic = True if on_topic is None else bool(on_topic)
-    return verdict, score, on_topic
+    return verdict, score, on_topic, scored_by
 
 
 def write(thinker: dict, obj: str, words: str = "170-230",
-          temperature: float = 0.95, kind=None) -> tuple[str, str, float, str, bool]:
-    """Returns (essay, verdict, score, provider). The provider is recorded with the
-    essay so a batch that reads differently can be traced to the model that wrote it.
-    It is the provider that WROTE the piece; the scoring pass may land elsewhere, and
-    the prose is the thing worth tracing."""
+          temperature: float = 0.95, kind=None) -> tuple[str, str, float, str, bool, str]:
+    """Returns (essay, verdict, score, provider, on_topic, scored_by).
+
+    `provider` WROTE the essay; `scored_by` READ it. They are recorded separately
+    because they answer different questions: a batch that reads differently is traced
+    to the model that wrote it, and a score that will not compare with its neighbours
+    is traced to the model that scored it. They are usually the same model and were
+    not on 26/08/2026, which is the whole reason both are kept."""
     raw, provider = llm.generate(build_prompt(thinker, obj, words, kind),
                                  temperature=temperature)
     d = llm.extract_json(raw)
@@ -168,6 +186,6 @@ def write(thinker: dict, obj: str, words: str = "170-230",
     essay = re.sub(r"(?<!\w)[_*]{1,2}(?=\w)|(?<=\w)[_*]{1,2}(?!\w)", "",
                    str(d.get("essay", "")))
     essay = " ".join(essay.split())
-    verdict, score, on_topic = (score_essay(thinker, obj, essay) if essay
-                                else ("", None, False))
-    return essay, verdict, score, provider, on_topic
+    verdict, score, on_topic, scored_by = (score_essay(thinker, obj, essay) if essay
+                                           else ("", None, False, ""))
+    return essay, verdict, score, provider, on_topic, scored_by

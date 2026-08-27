@@ -73,7 +73,7 @@ def main() -> int:
             print(f"  ?? {e['thinker']} not in styles/, skipped")
             continue
         try:
-            verdict, _score, on_topic = write_stage.score_essay(
+            verdict, _score, on_topic, _by = write_stage.score_essay(
                 thinker, e["object"], e["essay"])
         except Exception as exc:                     # noqa: BLE001
             # A spent quota mid-run should keep what it has already improved.
