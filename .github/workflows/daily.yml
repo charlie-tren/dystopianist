@@ -134,7 +134,15 @@ jobs:
       # `preview: yes` draws into a throwaway directory and uploads it instead, which
       # is the only way to see a model or STYLE change before it replaces the set.
       - name: Draw portraits
-        if: ${{ github.event_name == 'workflow_dispatch' && (inputs.jobs == 'portraits' || inputs.jobs == 'all') }}
+        # Runs on the SCHEDULE too, as of 28/08/2026. With no inputs the tool draws only
+        # writers who have no portrait, so on a settled roster this costs one line of
+        # output and nothing else - and on the night a writer is added it closes the gap
+        # by itself. Adding five writers on a spent image tier was what made the case:
+        # the alternative is a name with no face until somebody remembers to dispatch it.
+        # continue-on-error because a portrait is an ornament and the essays are the
+        # site; a 429 here must not take down a run that has already written.
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.jobs == 'portraits' || inputs.jobs == 'all' }}
+        continue-on-error: true
         env:
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
@@ -148,6 +156,19 @@ jobs:
           if [ "$PREVIEW" = "yes" ]; then args="$args --force --out=docs/faces/_preview --tries=${TRIES:-1}"; fi
           echo "portraits.py $args"
           python tools/portraits.py $args
+
+      # The pages were rendered inside the Write step, BEFORE any portrait drawn above
+      # existed, and render.face() omits a portrait it cannot find. Without this a face
+      # drawn tonight would not appear on the site until some later run happened to
+      # rebuild the pages - the file would be committed and invisible.
+      - name: Re-render, now the faces exist
+        if: ${{ !cancelled() }}
+        continue-on-error: true
+        run: |
+          python -c "
+          import json, styles, render
+          render.build(json.load(open('data/essays.json')), styles.load())
+          "
 
       # A preview is never committed - docs/faces/_preview is gitignored so the
       # Commit step's `git add docs` cannot sweep it into the live site by accident.
