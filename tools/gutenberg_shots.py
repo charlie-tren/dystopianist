@@ -45,6 +45,11 @@ BOOKS = {
     "dickinson": (12242, "Poems, Three Series"),
     "dickens":   (914, "The Uncommercial Traveller"),
     "thoreau":   (205, "Walden"),
+    # Added 28/08/2026. Franklin's Autobiography is him explaining a practical scheme
+    # and grading himself on it, which is the register the site wants; What Is Art? is
+    # late Tolstoy judging a cultural product outright, rather than narrating a character.
+    "franklin":  (20203, "The Autobiography of Benjamin Franklin"),
+    "tolstoy":   (64908, "What Is Art?"),
 }
 
 # Project Gutenberg Australia, which is a different site with a different rule:

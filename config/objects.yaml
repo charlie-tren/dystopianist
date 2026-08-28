@@ -7,17 +7,17 @@
 # they have no natural claim on.
 objects:
   - name: self-checkout machines
-    writers: [kafka, orwell, wallace]
+    writers: [kafka, orwell, wallace, adams]
   - name: alarm clocks
     writers: [aurelius, montaigne, kafka]
   - name: group chats
     writers: [wilde, ephron, didion]
   - name: airport lounges
-    writers: [didion, wallace, orwell, bourdain]
+    writers: [didion, wallace, orwell, bourdain, child]
   - name: dating apps
     writers: [wilde, nietzsche, ephron]
   - name: LinkedIn
-    writers: [twain, nietzsche, wilde]
+    writers: [twain, nietzsche, wilde, franklin, tolstoy]
   - name: reclining a seat on a plane
     writers: [montaigne, twain, thompson]
   - name: escape rooms
@@ -29,7 +29,7 @@ objects:
   - name: anaesthesia
     writers: [whitman, montaigne, proust]
   - name: the hot shower
-    writers: [whitman, thoreau, montaigne]
+    writers: [whitman, thoreau, montaigne, child]
   - name: painkillers
     writers: [nietzsche, montaigne, proust]
   - name: Wikipedia
@@ -39,19 +39,19 @@ objects:
   - name: podcasts
     writers: [thoreau, wilde, ephron]
   - name: the step counter
-    writers: [thoreau, dickens, whitman]
+    writers: [thoreau, dickens, whitman, franklin]
 
   # Added 28/08/2026, chosen by Charlie from a list of thirty-six.
   - name: the washing machine
-    writers: [woolf, dickens, austen]
+    writers: [woolf, dickens, austen, franklin, child]
   - name: influencers
-    writers: [wilde, nietzsche, twain, bourdain]
+    writers: [wilde, nietzsche, twain, bourdain, tolstoy]
   - name: airport security
-    writers: [kafka, orwell, thompson, bourdain]
+    writers: [kafka, orwell, thompson, bourdain, adams]
   - name: emojis
     writers: [dickinson, wilde, woolf]
   - name: chatbots
-    writers: [nietzsche, wallace, kafka]
+    writers: [nietzsche, wallace, kafka, adams]
 
   # FILMS. Added 26/08/2026, chosen by Charlie from a list of twenty.
   #
