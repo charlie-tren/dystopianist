@@ -2,8 +2,15 @@ name: Daily essay
 
 on:
   # Odd minute: GitHub drops on-the-hour scheduled runs under load, and a dropped
-  # day here is a day with no essay. 20:19 UTC is 06:19 Sydney, and sits after both
-  # free tiers roll over (Gemini at midnight Pacific, Cloudflare at 00:00 UTC).
+  # day here is a day with no essay. 20:19 UTC is 06:19 Sydney, and sits well after
+  # Gemini rolls over at midnight Pacific (07:00 UTC), which is the provider the
+  # essays actually run on.
+  #
+  # Cloudflare's reset time is NOT known. This comment used to assert 00:00 UTC; on
+  # 28/08/2026 it was still returning 429 at 00:11 UTC after a heavy day, so that is
+  # wrong, and nothing here should be reasoned from it until it is measured on a day
+  # the tier has not been hammered. Cloudflare is only the fallback, so the schedule
+  # does not depend on the answer.
   schedule:
     - cron: "19 20 * * *"
   workflow_dispatch:
