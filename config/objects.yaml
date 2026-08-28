@@ -41,6 +41,18 @@ objects:
   - name: the step counter
     writers: [thoreau, dickens, whitman]
 
+  # Added 28/08/2026, chosen by Charlie from a list of thirty-six.
+  - name: the washing machine
+    writers: [woolf, dickens, austen]
+  - name: influencers
+    writers: [wilde, nietzsche, twain]
+  - name: airport security
+    writers: [kafka, orwell, thompson]
+  - name: emojis
+    writers: [dickinson, wilde, woolf]
+  - name: chatbots
+    writers: [nietzsche, wallace, kafka]
+
   # FILMS. Added 26/08/2026, chosen by Charlie from a list of twenty.
   #
   # A film carries a `year`, and that is not decoration: the premise of the site is
