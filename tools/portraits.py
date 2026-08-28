@@ -87,6 +87,7 @@ LOOK = {
     "woolf":    "an Englishwoman with a long narrow face and heavy-lidded eyes, dark hair pinned loosely back, a slightly haunted inward expression, plain high-necked blouse",
     "dickinson": "a young woman of the 1850s with hair parted severely in the centre and drawn back flat, a plain dark high-necked dress with a narrow white collar, very still direct unblinking gaze, a gaunt severe unsmiling face with hollow cheeks and a long jaw, drawn in scratchy scratchboard pen lines with heavy visible cross-hatching over the whole face, deliberately unglamorous, never a smooth clean-lined or doe-eyed illustration",
     "dickens":  "a Victorian gentleman with long wavy hair to the collar and a full straggling beard, deep-set lively eyes, velvet-collared coat and watch chain",
+    "bourdain": "a tall lean American man in his late fifties with a deeply lined weathered face, short spiky silver-grey hair, a long nose and a wry sceptical half-smile, an open-collared shirt with the sleeves pushed up",
     "thoreau":  "a plain-featured 19th-century New Englander wearing a chin curtain: the beard grows in a narrow fringe under the jaw and chin only, while the upper lip is shaved bare with no moustache of any kind and the cheeks are shaved bare, unruly hair, a long nose, homespun jacket",
 }
 

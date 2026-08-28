@@ -13,7 +13,7 @@ objects:
   - name: group chats
     writers: [wilde, ephron, didion]
   - name: airport lounges
-    writers: [didion, wallace, orwell]
+    writers: [didion, wallace, orwell, bourdain]
   - name: dating apps
     writers: [wilde, nietzsche, ephron]
   - name: LinkedIn
@@ -45,9 +45,9 @@ objects:
   - name: the washing machine
     writers: [woolf, dickens, austen]
   - name: influencers
-    writers: [wilde, nietzsche, twain]
+    writers: [wilde, nietzsche, twain, bourdain]
   - name: airport security
-    writers: [kafka, orwell, thompson]
+    writers: [kafka, orwell, thompson, bourdain]
   - name: emojis
     writers: [dickinson, wilde, woolf]
   - name: chatbots
