@@ -147,12 +147,58 @@ def build_prunes_what_is_no_longer_real(fails):
     print("  prune keeps what is real and removes what is not")
 
 
+def share_cards_are_absolute_and_unique(fails):
+    """The card WhatsApp, Slack and X show when a link is pasted.
+
+    Until 28/08/2026 the pages declared og:title and og:description and NO og:image, so
+    a link arrived in WhatsApp as a bare line of text. The failure mode worth guarding
+    is subtler than a missing tag though: a RELATIVE og:image looks correct in the HTML
+    and in a local preview, and WhatsApp silently ignores it. So this asserts absolute,
+    not merely present.
+    """
+    entries = json.load(open(ROOT / "data" / "essays.json", encoding="utf-8"))
+    render.build(entries, styles.load())
+
+    DOCS = ROOT / "docs"
+    pages = [DOCS / "index.html", DOCS / "writers.html", DOCS / "objects.html"]
+    # All FIVE page shapes. The first pass of this check sampled only three of
+    # them and passed while every writer page and every subject page still
+    # declared the front page as its own og:url - a share of any of them would
+    # have attributed to the homepage.
+    for d in ("e", "by", "on"):
+        pages += sorted(DOCS.glob(f"{d}/*.html"))[:3]
+    seen = set()
+    for p in pages:
+        h = p.read_text(encoding="utf-8")
+        for tag in ("og:image", "og:url"):
+            m = re.search(rf'property="{tag}" content="([^"]*)"', h)
+            if not m:
+                fails.append(f"{p.name} has no {tag}"); continue
+            assert m.group(1).startswith("https://"), \
+                f"{p.name} {tag} is not absolute: {m.group(1)}"
+        if 'name="twitter:card" content="summary_large_image"' not in h:
+            fails.append(f"{p.name} has no twitter:card")
+        # og:url must differ per page, or every share attributes to the front page
+        seen.add(re.search(r'property="og:url" content="([^"]*)"', h).group(1))
+    if len(seen) != len(pages):
+        fails.append(f"og:url is not unique per page: {len(seen)} of {len(pages)}")
+
+    card = DOCS / "og.png"
+    if not card.exists():
+        fails.append("docs/og.png missing - run tools/make_og.py"); return
+    # WhatsApp is the strictest on thumbnail size and fails silently over it.
+    assert card.stat().st_size < 300 * 1024, \
+        f"og.png is {card.stat().st_size // 1024}KB, over the 300KB WhatsApp renders"
+    print("  share cards: absolute, unique per page, and the image is under 300KB")
+
+
 def main() -> int:
     fails: list[str] = []
     for check in (rows_show_the_half_the_heading_does_not,
                   slugs_are_stable_and_unique,
                   paragraphs_never_drop_a_sentence,
-                  build_prunes_what_is_no_longer_real):
+                  build_prunes_what_is_no_longer_real,
+                  share_cards_are_absolute_and_unique):
         print(f"{check.__name__}:")
         check(fails)
     if fails:
@@ -165,3 +211,5 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
+

@@ -150,6 +150,19 @@ HEAD = """<!DOCTYPE html>
 <meta property="og:type" content="website">
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{desc}">
+<meta property="og:site_name" content="Ghostwriters">
+<!-- ABSOLUTE, not {up}og.png. WhatsApp does not resolve a relative og:image, which is
+     why a card can look right in a local preview and show nothing in a chat. Same for
+     og:url - without it a share of an essay page attributes to no canonical address.
+     Built by tools/make_og.py, which fails rather than shipping a file over the size
+     WhatsApp will render. -->
+<meta property="og:image" content="{SITE}og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ghostwriters - nine ink portraits of dead writers">
+<meta property="og:url" content="{SITE}{canon}">
+<link rel="canonical" href="{SITE}{canon}">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="{up}favicon.svg" type="image/svg+xml">
 <link rel="icon" href="{up}favicon.ico" sizes="any">
 <link rel="icon" href="{up}favicon-192.png" type="image/png" sizes="192x192">
@@ -337,9 +350,16 @@ SORT_JS = """
 """
 
 
-def page(title, desc, body, up, here, footer):
+SITE = "https://charlietrenorden.com/ghostwriters/"
+
+
+def page(title, desc, body, up, here, footer, canon=""):
     """`body` carries its own <h1>; the nav is injected straight after it, so the
-    heading comes first and the three ways in sit under it."""
+    heading comes first and the three ways in sit under it.
+
+    `canon` is the page's path below SITE - "" for the front page, "e/<slug>.html" for
+    an essay. It feeds og:url and rel=canonical, both of which must be ABSOLUTE: a
+    share of an essay otherwise attributes to no address at all."""
     if here and "</h1>" in body:
         head_end = body.index("</h1>") + len("</h1>") + 1
         body = body[:head_end] + nav(up, here) + body[head_end:]
@@ -347,7 +367,8 @@ def page(title, desc, body, up, here, footer):
     # Only the front page carries the sort control, so only it carries the script.
     if 'class="sortbar"' in body:
         tail = SORT_JS + tail
-    return (HEAD.format(title=html.escape(title), desc=html.escape(desc), css=CSS, up=up)
+    return (HEAD.format(title=html.escape(title), desc=html.escape(desc), css=CSS, up=up,
+                        SITE=SITE, canon=canon)
             + body + tail)
 
 
@@ -397,7 +418,7 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
         p = page(f'{e["name"]} on {e["object"]}',
                  f'A pastiche essay in the style of {e["name"]} about {e["object"]}, '
                  'which they never saw.',
-                 body, "../", "", "")
+                 body, "../", "", "", canon=f"e/{slug(e)}.html")
         (DOCS / "e" / f"{slug(e)}.html").write_text(p, encoding="utf-8", newline="\n")
 
     # --- one page per writer ------------------------------------------------
@@ -409,7 +430,7 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
         p = page(f"{name} - Ghostwriters",
                  f"Pastiche essays in the style of {name} about things that did not exist "
                  "in their lifetime.", body, "../", "writers",
-                 "")
+                 "", canon=f"by/{tid}.html")
         (DOCS / "by" / f"{tid}.html").write_text(p, encoding="utf-8", newline="\n")
 
     # --- one page per object: everyone who has been set on it ---------------
@@ -419,7 +440,8 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
         body = (f'  <h1>{html.escape(obj)}</h1>\n'
                 f'  <ul class="list">\n{essay_rows(es, "../")}\n  </ul>\n')
         p = page(f"{obj} - Ghostwriters",
-                 f"{who} on {obj}, in pastiche.", body, "../", "objects", "")
+                 f"{who} on {obj}, in pastiche.", body, "../", "objects", "",
+                 canon=f"on/{obj_slug(obj)}.html")
         (DOCS / "on" / f"{obj_slug(obj)}.html").write_text(p, encoding="utf-8", newline="\n")
 
     # --- the three top-level views ------------------------------------------
@@ -459,7 +481,7 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
              "Every writer in the rotation, and how many essays each has.",
              '  <h1>Writers</h1>\n'
              f'  <ul class="chips people">\n{chips}\n  </ul>\n', "", "writers",
-             ""),
+             "", canon="writers.html"),
         encoding="utf-8", newline="\n")
 
     ochips = "\n".join(
@@ -471,5 +493,5 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
              "Every subject written about here, and how many writers have been set on it.",
              '  <h1>Subjects</h1>\n'
              f'  <ul class="chips">\n{ochips}\n  </ul>\n', "", "objects",
-             ""),
+             "", canon="objects.html"),
         encoding="utf-8", newline="\n")

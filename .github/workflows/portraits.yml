@@ -53,6 +53,16 @@ jobs:
           render.build(json.load(open('data/essays.json')), styles.load())
           "
 
+      # The share card is nine portraits, so it goes stale the moment one is redrawn
+      # or a writer joins. Rebuilt here rather than in the nightly essay job because
+      # this is the job that changes faces, and it needs Playwright either way.
+      - name: Rebuild the share card
+        continue-on-error: true
+        run: |
+          pip install --quiet playwright
+          python -m playwright install --with-deps chromium
+          python tools/make_og.py
+
       - run: python tests/test_render.py
 
       - name: Commit if a face actually landed
