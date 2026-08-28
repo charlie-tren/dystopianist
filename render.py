@@ -392,6 +392,17 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
                 print(f"  pruned stale page {sub}/{f.name}")
                 f.unlink()
 
+    # Every list of WRITERS on the site files by surname, not just the Writers page:
+    # the "Also on <subject>" line under an essay and the sentence in a subject page's
+    # meta description are lists of authors too, and a roster that sorts one way while
+    # its own cross-references sort another reads as an oversight. The essays carry an
+    # id and a display name, so the sort key has to come from the roster; without one
+    # this falls back to the display name rather than refusing to render.
+    sort_of = {t["id"]: (t.get("sort") or t["name"]) for t in (roster or [])}
+
+    def by_surname(es):
+        return sorted(es, key=lambda x: sort_of.get(x["thinker"], x["name"]).lower())
+
     by_writer, by_object = {}, {}
     for e in entries:
         by_writer.setdefault(e["thinker"], []).append(e)
@@ -399,7 +410,7 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
 
     # --- one page per essay -------------------------------------------------
     for e in entries:
-        others = [x for x in by_object[e["object"]] if x is not e]
+        others = by_surname([x for x in by_object[e["object"]] if x is not e])
         also = ""
         if others:
             # The point of the object axis: who ELSE has been set on this thing.
@@ -435,7 +446,8 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
 
     # --- one page per object: everyone who has been set on it ---------------
     for obj, es in by_object.items():
-        who = " and ".join([", ".join(x["name"] for x in es[:-1]), es[-1]["name"]]).strip(", ")
+        names = [x["name"] for x in by_surname(es)]
+        who = " and ".join([", ".join(names[:-1]), names[-1]]).strip(", ")
         # The rows are the front page's rows verbatim - name, object, verdict, score.
         body = (f'  <h1>{html.escape(obj)}</h1>\n'
                 f'  <ul class="list">\n{essay_rows(es, "../")}\n  </ul>\n')
