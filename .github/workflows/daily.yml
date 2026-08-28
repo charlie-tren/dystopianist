@@ -6,11 +6,16 @@ on:
   # Gemini rolls over at midnight Pacific (07:00 UTC), which is the provider the
   # essays actually run on.
   #
-  # Cloudflare's reset time is NOT known. This comment used to assert 00:00 UTC; on
-  # 28/08/2026 it was still returning 429 at 00:11 UTC after a heavy day, so that is
-  # wrong, and nothing here should be reasoned from it until it is measured on a day
-  # the tier has not been hammered. Cloudflare is only the fallback, so the schedule
-  # does not depend on the answer.
+  # Cloudflare does NOT reset at 00:00 UTC. Measured on 28/08/2026: about 31 images
+  # were drawn between 23:20 and 23:35 UTC on the 27th, and the account was still
+  # answering "you have used up your daily free allocation of 10,000 neurons" at
+  # 04:12 UTC the next day - four hours past midnight. It behaves as a rolling window
+  # from the spend, not a calendar day, so a heavy evening costs the following
+  # evening too. There is no reset header on the 429 to read.
+  #
+  # It only matters for the portraits step below, which is why that step is
+  # continue-on-error and simply tries again the next night. The essays run on
+  # Gemini, which does reset at midnight Pacific.
   schedule:
     - cron: "19 20 * * *"
   workflow_dispatch:
