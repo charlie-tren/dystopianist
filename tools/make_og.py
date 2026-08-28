@@ -70,12 +70,12 @@ p {{ font-size: 38px; line-height: 1.35; max-width: 21ch; color: #E8E3DA; }}
 .strip {{ display: flex; gap: 0; margin: 0 -68px; }}
 /* Bled to the edges and cropped to the top two-thirds of each portrait: at this size
    the faces are the recognisable part and the collars are not. */
-/* invert() alone leaves each tile on pure black, which is a visible tonal step
-   against the card's warm ground. screen() maps that black back onto the ground and
-   leaves the white lines white, so the strip sits IN the card rather than on it. */
+/* NOT inverted. The portraits are black ink on white everywhere else on the site -
+   inverting them here made the writers appear as negatives, which is the one thing a
+   share card must not do to the artwork it is advertising. Left as drawn, the strip
+   reads as a white band of faces across the foot of the dark card. */
 .strip img {{ width: 133.4px; height: 168px; object-fit: cover;
-  object-position: 50% 22%; filter: invert(1); mix-blend-mode: screen;
-  opacity: .93; }}
+  object-position: 50% 22%; }}
 </style></head><body>
   <div class="mark">
     <svg viewBox="0 0 100 100">
