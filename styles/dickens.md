@@ -12,6 +12,7 @@
 ---
 id: dickens
 name: Charles Dickens
+sort: Dickens
 dates: 1812-1870
 public_domain: True
 ---

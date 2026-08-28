@@ -70,10 +70,27 @@ def parse(path: Path) -> dict:
 
 
 def load() -> list[dict]:
+    """Writers, in the order a ROSTER wants them: by the name a reader holds them by.
+
+    `sort:` in the front matter, and it is stated per writer rather than derived from
+    the display name, because the last word is wrong three times out of twenty-three.
+    Marcus Aurelius files under Aurelius, which is not a surname at all. Michel de
+    Montaigne files under Montaigne, dropping the particle. David Foster Wallace files
+    under Wallace, not Foster. A clever rule would get all three wrong quietly; a
+    stated key is checked by tests/test_roster.py and cannot.
+
+    Nobody thinks "Eric Blair" or even reaches for "George" - they think Orwell,
+    Kafka, Didion, Proust. First-name order also put David Foster Wallace next to
+    Douglas Adams, which is an adjacency that helps no one.
+    """
     out = [parse(p) for p in sorted(STYLES.glob("*.md"))]
     ids = [t["id"] for t in out]
     if len(set(ids)) != len(ids):
         raise ValueError("duplicate writer id in styles/")
+    missing = [t["id"] for t in out if not str(t.get("sort", "")).strip()]
+    if missing:
+        raise ValueError("no sort: key in styles/ for " + ", ".join(missing))
+    out.sort(key=lambda t: (t["sort"].lower(), t["name"].lower()))
     return out
 
 

@@ -40,6 +40,24 @@ if look - ids:
     failures.append(f"LOOK describes writers that are not in styles/: "
                     f"{', '.join(sorted(look - ids))}")
 
+# --- the surname sort key ----------------------------------------------------
+# The Writers page files by the name a reader holds a writer by, and the key is STATED
+# per writer rather than derived, because the last word of the display name is wrong
+# three times in twenty-three: Aurelius is not a surname, Montaigne carries a particle,
+# and Wallace is the third word of "David Foster Wallace". A clever rule gets those
+# wrong quietly. This makes a forgotten key loud instead - the same failure the LOOK
+# map already taught, where a writer added to styles/ and forgotten elsewhere took the
+# whole workflow down.
+for t in roster:
+    key = str(t.get("sort", "")).strip()
+    if not key:
+        failures.append(f"{t['id']} has no sort: key in its front matter")
+        continue
+    if key not in t["name"]:
+        failures.append(f"{t['id']} sort key {key!r} is not part of {t['name']!r}")
+if len({t.get("sort") for t in roster}) != len(roster):
+    failures.append("two writers share a sort key, so their order is arbitrary")
+
 # --- objects.yaml shortlists -------------------------------------------------
 objs = yaml.safe_load((ROOT / "config" / "objects.yaml").read_text(encoding="utf-8"))
 died = {t["id"]: int(str(t.get("dates", "0-0")).split("-")[-1]) for t in roster}

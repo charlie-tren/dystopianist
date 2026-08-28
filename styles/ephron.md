@@ -6,6 +6,7 @@
 ---
 id: ephron
 name: Nora Ephron
+sort: Ephron
 dates: 1941-2012
 public_domain: False
 ---

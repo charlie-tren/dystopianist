@@ -12,6 +12,7 @@
 ---
 id: woolf
 name: Virginia Woolf
+sort: Woolf
 dates: 1882-1941
 public_domain: True
 ---

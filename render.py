@@ -465,9 +465,18 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
 
     # The whole roster, not only the writers who happen to have published. A name
     # with a nought beside it is information: it is in the rotation, not yet drawn.
-    listed = ([(t["id"], t["name"], len(by_writer.get(t["id"], []))) for t in roster]
+    # styles.load() already returns the roster by SURNAME - the name a reader holds a
+    # writer by - so this iterates it rather than re-sorting on the display name, which
+    # is what put David Foster Wallace beside Douglas Adams. The fallback has no sort
+    # key to work with and keeps the display name.
+    # t.get("sort") rather than t["sort"]: styles.load() guarantees the key and
+    # tests/test_roster.py enforces it, but a roster built by hand - a test fixture, a
+    # one-off script - should not have to know about it to render a page.
+    listed = ([(t["id"], t["name"], len(by_writer.get(t["id"], [])),
+                t.get("sort") or t["name"]) for t in roster]
               if roster else
-              [(k, v[0]["name"], len(v)) for k, v in by_writer.items()])
+              sorted(((k, v[0]["name"], len(v), v[0]["name"])
+                      for k, v in by_writer.items()), key=lambda x: x[3].lower()))
     chips = "\n".join(
         (f'    <li><a href="by/{tid}.html">'
          f'{face(tid, "", 86)}'
@@ -475,7 +484,7 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
         (f'    <li><span class="chip-off">'
          f'{face(tid, "", 86)}'
          f'{html.escape(name)} <span class="n">0</span></span></li>')
-        for tid, name, n in sorted(listed, key=lambda x: x[1]))
+        for tid, name, n, _ in listed)
     (DOCS / "writers.html").write_text(
         page("Writers - Ghostwriters",
              "Every writer in the rotation, and how many essays each has.",

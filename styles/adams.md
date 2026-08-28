@@ -12,6 +12,7 @@
 ---
 id: adams
 name: Douglas Adams
+sort: Adams
 dates: 1952-2001
 public_domain: False
 ---

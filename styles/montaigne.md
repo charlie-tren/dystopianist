@@ -6,6 +6,7 @@
 ---
 id: montaigne
 name: Michel de Montaigne
+sort: Montaigne
 dates: 1533-1592
 public_domain: True
 ---

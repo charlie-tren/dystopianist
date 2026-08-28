@@ -12,6 +12,7 @@
 ---
 id: twain
 name: Mark Twain
+sort: Twain
 dates: 1835-1910
 public_domain: True
 ---

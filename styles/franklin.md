@@ -12,6 +12,7 @@
 ---
 id: franklin
 name: Benjamin Franklin
+sort: Franklin
 dates: 1706-1790
 public_domain: True
 ---

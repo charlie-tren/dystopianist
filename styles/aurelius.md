@@ -12,6 +12,7 @@
 ---
 id: aurelius
 name: Marcus Aurelius
+sort: Aurelius
 dates: 121-180
 public_domain: True
 ---

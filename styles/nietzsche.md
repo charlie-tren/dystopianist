@@ -6,6 +6,7 @@
 ---
 id: nietzsche
 name: Friedrich Nietzsche
+sort: Nietzsche
 dates: 1844-1900
 public_domain: True
 ---

@@ -12,6 +12,7 @@
 ---
 id: wallace
 name: David Foster Wallace
+sort: Wallace
 dates: 1962-2008
 public_domain: False
 ---

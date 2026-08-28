@@ -12,6 +12,7 @@
 ---
 id: dickinson
 name: Emily Dickinson
+sort: Dickinson
 dates: 1830-1886
 public_domain: True
 ---

@@ -12,6 +12,7 @@
 ---
 id: thoreau
 name: Henry David Thoreau
+sort: Thoreau
 dates: 1817-1862
 public_domain: True
 ---

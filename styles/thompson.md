@@ -12,6 +12,7 @@
 ---
 id: thompson
 name: Hunter S Thompson
+sort: Thompson
 dates: 1937-2005
 public_domain: False
 ---

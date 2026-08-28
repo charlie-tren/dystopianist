@@ -12,6 +12,7 @@
 ---
 id: whitman
 name: Walt Whitman
+sort: Whitman
 dates: 1819-1892
 public_domain: True
 ---

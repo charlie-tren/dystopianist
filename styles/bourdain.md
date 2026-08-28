@@ -12,6 +12,7 @@
 ---
 id: bourdain
 name: Anthony Bourdain
+sort: Bourdain
 dates: 1956-2018
 public_domain: False
 ---

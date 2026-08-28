@@ -12,6 +12,7 @@
 ---
 id: kafka
 name: Franz Kafka
+sort: Kafka
 dates: 1883-1924
 public_domain: True
 ---

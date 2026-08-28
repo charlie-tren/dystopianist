@@ -12,6 +12,7 @@
 ---
 id: child
 name: Julia Child
+sort: Child
 dates: 1912-2004
 public_domain: False
 ---

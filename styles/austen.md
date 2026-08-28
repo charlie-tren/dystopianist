@@ -12,6 +12,7 @@
 ---
 id: austen
 name: Jane Austen
+sort: Austen
 dates: 1775-1817
 public_domain: True
 ---

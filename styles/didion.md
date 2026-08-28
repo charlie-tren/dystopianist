@@ -12,6 +12,7 @@
 ---
 id: didion
 name: Joan Didion
+sort: Didion
 dates: 1934-2021
 public_domain: False
 ---

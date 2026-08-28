@@ -12,6 +12,7 @@
 ---
 id: proust
 name: Marcel Proust
+sort: Proust
 dates: 1871-1922
 public_domain: True
 ---
