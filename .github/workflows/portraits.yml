@@ -40,6 +40,8 @@ jobs:
         env:
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          # Empty until the key exists, which portraits.py reads as "one provider".
+          TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
         run: python tools/portraits.py
 
       # render.face() omits a portrait it cannot find, so a face drawn above is

@@ -1,6 +1,7 @@
 """Generate a cartoon portrait per writer, free, on Cloudflare Workers AI.
 
     python tools/portraits.py                     # only writers without a portrait
+    python tools/portraits.py --provider=together # force the fallback, for the test
     python tools/portraits.py --force             # redraw everything
     python tools/portraits.py --only orwell,kafka # redraw just these
     python tools/portraits.py --model=sdxl        # a different image model
@@ -25,6 +26,23 @@ impression of someone rather than a picture of them.
 
 Flux Schnell is the free-tier model The Aftertimes already uses for its
 illustrations, so this costs nothing new.
+
+TWO PROVIDERS, ONE CHECKPOINT. Cloudflare's free image allowance is a rolling window
+from the spend rather than a calendar day, so a heavy evening blocks the next one and a
+new writer can sit faceless for days. Together AI serves the SAME model - Flux Schnell -
+which is the only reason it is the fallback: a second provider on a different model
+would be a second style wearing one name, and render.face() already omits a missing
+portrait cleanly, so a face in the wrong hand is worse than no face. Set
+TOGETHER_API_KEY and it is used automatically whenever Cloudflare declines.
+
+THE ACCEPTANCE TEST, once a key exists, because "same model" is a claim until it is
+looked at:
+
+    python tools/portraits.py --only=kafka --provider=together         --out=docs/faces/_together --tries=3
+
+Kafka already has a portrait. Put the three candidates beside the committed one. If a
+fresh Kafka is indistinguishable, the fallback is genuinely interchangeable. If it is
+not, say so and do not ship it - the whole point is a set that reads as one hand.
 """
 from __future__ import annotations
 
@@ -103,6 +121,46 @@ STYLE = ("hand-drawn ink caricature portrait, black and white only, monochrome, 
          "no text anywhere, no lettering, no words, no signature, no watermark, no stray marks")
 
 
+# Together AI serves the SAME checkpoint Cloudflare does - black-forest-labs
+# FLUX.1-schnell - which is the whole reason it is the fallback rather than any of the
+# other free image APIs. A second provider on a DIFFERENT model would not be a
+# fallback; it would be a second style wearing the same name, and render.face() already
+# omits a missing portrait cleanly, so a face in the wrong hand is worse than no face.
+#
+# Pollinations was tried and rejected on exactly that test (28/08/2026): free, keyless,
+# works in a minute, and serves one photoreal-leaning checkpoint that ignores the model
+# parameter. Gemini's image models are not in its free tier at all.
+#
+# NOT YET EXERCISED. There is no key on this machine, so the request and response shapes
+# below are written to Together's documented API and have never seen a live 200. The
+# acceptance test is in the module docstring: redraw a writer who already has a
+# portrait and put the two side by side.
+TOGETHER_MODEL = "black-forest-labs/FLUX.1-schnell-Free"
+TOGETHER_URL = "https://api.together.xyz/v1/images/generations"
+
+
+def draw_together(tok: str, prompt: str, steps: int) -> bytes:
+    """The free FLUX.1-schnell endpoint. Caps at 4 steps, so do not pass 8."""
+    r = requests.post(TOGETHER_URL,
+                      headers={"Authorization": f"Bearer {tok}"},
+                      json={"model": TOGETHER_MODEL, "prompt": prompt,
+                            "width": 768, "height": 768,
+                            "steps": min(steps, 4), "n": 1,
+                            "response_format": "b64_json"},
+                      timeout=180)
+    r.raise_for_status()
+    item = r.json()["data"][0]
+    # Documented to return b64_json when asked; some deployments answer with a URL
+    # instead. Handle both rather than discovering it on the night Cloudflare is spent.
+    if item.get("b64_json"):
+        return base64.b64decode(item["b64_json"])
+    if item.get("url"):
+        img = requests.get(item["url"], timeout=180)
+        img.raise_for_status()
+        return img.content
+    raise RuntimeError(f"no image in response: {list(item)}")
+
+
 def draw(acct: str, tok: str, prompt: str, model: str, steps: int) -> bytes:
     """Flux answers with base64 inside JSON; the Stable Diffusion endpoints answer
     with raw PNG bytes. Handle both rather than assuming the one we started with."""
@@ -130,6 +188,41 @@ def draw(acct: str, tok: str, prompt: str, model: str, steps: int) -> bytes:
     return base64.b64decode(img)
 
 
+def draw_any(acct, tok, together, prompt, model, steps, forced=""):
+    """Cloudflare, then Together. Returns (bytes, which provider drew it).
+
+    Order matters and is not arbitrary. Cloudflare is the incumbent that drew the
+    existing set, so it goes first and the fallback only ever runs on a night its
+    window is spent - which keeps the set drawn by one provider wherever possible even
+    though both serve the same checkpoint.
+
+    A 429 is the case this exists for, but ANY failure falls through: a provider that
+    is down is as useless as one that is spent, and the alternative is a writer with no
+    face. The reason for the fall-through is printed, because "it silently used the
+    other one" is how two subtly different styles get into a set unnoticed.
+    """
+    order = []
+    if forced in ("", "cloudflare") and acct and tok:
+        order.append("cloudflare")
+    if forced in ("", "together") and together:
+        order.append("together")
+    if not order:
+        raise RuntimeError(f"no key for provider {forced or 'any'}")
+
+    last = None
+    for name in order:
+        try:
+            if name == "cloudflare":
+                return draw(acct, tok, prompt, model, steps), name
+            return draw_together(together, prompt, steps), name
+        except Exception as exc:                       # noqa: BLE001
+            last = exc
+            if name != order[-1]:
+                print(f"    {name} declined ({type(exc).__name__}: "
+                      f"{str(exc)[:70]}) - trying {order[order.index(name) + 1]}")
+    raise last
+
+
 # Flux signs these however firmly the prompt says not to - a scrawled fake artist
 # name, always within a few percent of a corner. Trimming the margin removes it and
 # tightens the framing, which the head-and-shoulders composition can spare.
@@ -150,8 +243,19 @@ def main() -> int:
     missing: list[str] = []
     _env.load()
     acct, tok = os.environ.get("CF_ACCOUNT_ID"), os.environ.get("CF_API_TOKEN")
-    if not (acct and tok):
-        print("CF_ACCOUNT_ID / CF_API_TOKEN not set", file=sys.stderr)
+    together = os.environ.get("TOGETHER_API_KEY")
+    if not (acct and tok) and not together:
+        print("no image provider: set CF_ACCOUNT_ID / CF_API_TOKEN, or TOGETHER_API_KEY",
+              file=sys.stderr)
+        return 1
+    # --provider forces one, which is how the fallback gets PROVEN rather than assumed:
+    # redraw a writer who already has a portrait through Together and put the two side
+    # by side. Indistinguishable means a real fallback; anything else is a second style
+    # wearing one name, and the renderer already degrades better than that.
+    forced = next((a.split("=", 1)[-1] for a in sys.argv
+                   if a.startswith("--provider=")), "")
+    if forced not in ("", "cloudflare", "together"):
+        print("--provider must be cloudflare or together", file=sys.stderr)
         return 1
     force = "--force" in sys.argv
     only = next((a.split("=", 1)[-1] for a in sys.argv if a.startswith("--only")), "")
@@ -191,7 +295,7 @@ def main() -> int:
         for n in range(tries):
             target = dest if tries == 1 else dest.with_name(f"{t['id']}-{n + 1}.jpg")
             try:
-                raw = draw(acct, tok, prompt, model, steps)
+                raw, via = draw_any(acct, tok, together, prompt, model, steps, forced)
             except Exception as exc:                   # noqa: BLE001
                 print(f"{t['id']:10} FAILED {type(exc).__name__}: {str(exc)[:110]}")
                 continue
@@ -199,7 +303,8 @@ def main() -> int:
             im = Image.open(_io.BytesIO(raw)).convert("L").convert("RGB")
             im = crop(im).resize((512, 512), Image.LANCZOS)
             im.save(target, "JPEG", quality=82, optimize=True)
-            print(f"{target.name:16} {target.stat().st_size // 1024}KB via {which}")
+            print(f"{target.name:16} {target.stat().st_size // 1024}KB via "
+                  f"{which if via == 'cloudflare' else via}")
     if missing:
         # Loud, but not fatal. Everything drawable has been drawn and saved by now,
         # and taking the run down here would skip the commit that keeps it.
