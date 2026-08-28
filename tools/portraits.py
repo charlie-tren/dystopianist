@@ -12,6 +12,12 @@ lands: it draws into a throwaway directory, so the live set is untouched and the
 can be put side by side. Replacing eighteen faces in place and then deciding is not
 reversible in any useful sense - the previous draw is gone even if the file is not.
 
+REVIEWING the set means building a contact sheet and reading each face AGAINST its own
+LOOK line below - not glancing at the folder. The faults are specific and quiet: a
+signature inked onto a shoulder, hair the line explicitly forbids, a moustache curling
+the way the line says it must not. Two sweeps missed a fake signature on Whitman
+because nobody compared the drawing to the description that asked for it.
+
 Deliberately CARTOON, not photoreal. These are real people and the site already
 says the essays are pastiche; a photorealistic fake portrait would undercut that,
 while a drawing reads the way a newspaper caricature does - obviously an
