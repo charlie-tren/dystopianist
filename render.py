@@ -220,6 +220,20 @@ def nav(up: str, here: str) -> str:
     return "".join(out) + "\n"
 
 
+def face(tid: str, prefix: str, size: int) -> str:
+    """The portrait, or nothing at all if it has not been drawn yet.
+
+    Adding a writer is two commits: styles/ and the essays are cheap, the portrait
+    needs the image tier, which is metered and often spent by the evening. Without
+    this check the writers page carries a broken-image icon for however long that
+    gap lasts. An absent face is a missing ornament; a broken one looks like a
+    broken site."""
+    if not (DOCS / "faces" / f"{tid}.jpg").exists():
+        return ""
+    return (f'<img class="face" src="{prefix}faces/{tid}.jpg" alt="" '
+            f'width="{size}" height="{size}" loading="lazy">')
+
+
 def slug(entry: dict) -> str:
     o = "".join(c if c.isalnum() else "-" for c in entry["object"].lower())
     return f'{entry["date"]}-{entry["thinker"]}-{o.strip("-")[:40]}'
@@ -373,8 +387,7 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
             also = f'  <p class="foot">Also on {html.escape(e["object"])}: {links}.</p>\n'
         body = ('  <a class="backlink" href="../index.html">'
                 '<span class="arr">&larr;</span>&nbsp;All the essays</a>\n'
-                f'  <h1 class="titled"><img class="face" src="../faces/{e["thinker"]}.jpg" '
-                f'alt="" width="76" height="76" loading="lazy"><span>'
+                f'  <h1 class="titled">{face(e["thinker"], "../", 76)}<span>'
                 f'<a href="../by/{e["thinker"]}.html" style="text-decoration:none">'
                 f'{html.escape(e["name"])}</a> on '
                 f'<a href="../on/{obj_slug(e["object"])}.html" style="text-decoration:none">'
@@ -390,8 +403,7 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
     # --- one page per writer ------------------------------------------------
     for tid, es in by_writer.items():
         name, dates = es[0]["name"], es[0]["dates"]
-        body = (f'  <h1 class="titled"><img class="face" src="../faces/{tid}.jpg" alt="" '
-                f'width="76" height="76" loading="lazy">'
+        body = (f'  <h1 class="titled">{face(tid, "../", 76)}'
                 f'<span>{html.escape(name)}</span></h1>\n'
                 f'  <ul class="list">\n{essay_rows(es, "../", show="object")}\n  </ul>\n')
         p = page(f"{name} - Ghostwriters",
@@ -436,10 +448,10 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
               [(k, v[0]["name"], len(v)) for k, v in by_writer.items()])
     chips = "\n".join(
         (f'    <li><a href="by/{tid}.html">'
-         f'<img class="face" src="faces/{tid}.jpg" alt="" width="86" height="86" loading="lazy">'
+         f'{face(tid, "", 86)}'
          f'{html.escape(name)} <span class="n">{n}</span></a></li>') if n else
         (f'    <li><span class="chip-off">'
-         f'<img class="face" src="faces/{tid}.jpg" alt="" width="86" height="86" loading="lazy">'
+         f'{face(tid, "", 86)}'
          f'{html.escape(name)} <span class="n">0</span></span></li>')
         for tid, name, n in sorted(listed, key=lambda x: x[1]))
     (DOCS / "writers.html").write_text(
