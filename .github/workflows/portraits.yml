@@ -1,0 +1,74 @@
+name: Draw any missing portrait
+
+# The daily job already draws portraits, but at 20:19 UTC - and Cloudflare's free image
+# allowance behaves as a rolling window from the spend rather than resetting at
+# midnight (measured 28/08/2026: still refusing at 04:12 UTC after a heavy 23:20-23:35
+# evening). So an evening spent drawing pushes the next free moment to roughly the same
+# hour the following night, which the 20:19 job keeps missing by three hours, and five
+# writers added in one sitting sat faceless for two days.
+#
+# This is that second attempt, at an hour on the other side of the likely boundary. It
+# costs nothing to have: the repo is public so Actions minutes are unlimited, the tool
+# draws ONLY writers with no portrait, and on a settled roster the whole job is a
+# checkout and one line of output. It commits nothing when nothing changed.
+on:
+  schedule:
+    - cron: "41 23 * * *"
+  workflow_dispatch:
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet requests pyyaml pillow
+
+      # Cheap, and it catches a writer added to styles/ but not to the LOOK map before
+      # anything spends a neuron.
+      - run: python tests/test_roster.py
+
+      # A spent tier is the expected case on most nights, not a failure - the point of
+      # this job is that it tries again tomorrow.
+      - name: Draw
+        continue-on-error: true
+        env:
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        run: python tools/portraits.py
+
+      # render.face() omits a portrait it cannot find, so a face drawn above is
+      # committed but INVISIBLE until the pages are rebuilt.
+      - name: Re-render
+        run: |
+          python -c "
+          import json, styles, render
+          render.build(json.load(open('data/essays.json')), styles.load())
+          "
+
+      - run: python tests/test_render.py
+
+      - name: Commit if a face actually landed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git diff --cached --quiet && echo "no new portraits" && exit 0
+          git commit -m "portraits: $(date -u +%Y-%m-%d)"
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            echo "push attempt $attempt lost a race - replaying onto master"
+            git fetch origin master
+            git reset --soft origin/master
+            git add docs
+            git diff --cached --quiet && exit 0
+            git commit -m "portraits: $(date -u +%Y-%m-%d)"
+            sleep 3
+          done
+          echo "::error::could not push after 3 attempts"
+          exit 1
