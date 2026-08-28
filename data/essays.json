@@ -18,11 +18,12 @@
     "name": "Marcus Aurelius",
     "dates": "121-180",
     "object": "escape rooms",
-    "verdict": "fleeting amusement",
-    "score": 4.5,
+    "verdict": "contrived obstacles",
+    "score": 3.5,
     "essay": "As I find myself confined in a room with contrived obstacles, I am reminded that true freedom lies not in the physical realm, but in the mind. The artificial challenges that surround me are but a pale reflection of the real struggles that beset us all. And yet, I must acknowledge the fleeting pleasure that comes from overcoming these trivial hurdles. But let us not be deceived, for in the grand tapestry of existence, such diversions are but a minor thread. The hours we spend in such pursuits are lost forever, and the triumphs we achieve are hollow and short-lived. Still, I shall play along, for even in the most frivolous of activities, there lies a lesson to be learned about the human condition, and the fragility of our existence. In the end, it is not the escape that matters, but the journey, and the opportunity to confront our own mortality, and the impermanence of all things.",
     "generated": "2026-08-25T03:38:59+00:00",
-    "provider": "cloudflare"
+    "provider": "cloudflare",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-25",
