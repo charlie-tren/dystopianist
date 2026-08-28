@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 .venv/
 docs/faces/_preview/
+
+# hand-generated portraits waiting to be processed into docs/faces/
+incoming/
