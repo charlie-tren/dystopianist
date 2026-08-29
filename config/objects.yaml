@@ -17,7 +17,7 @@ objects:
   - name: dating apps
     writers: [wilde, nietzsche, ephron]
   - name: LinkedIn
-    writers: [twain, nietzsche, wilde, franklin, tolstoy]
+    writers: [twain, nietzsche, wilde, franklin, tolstoy, russell]
   - name: reclining a seat on a plane
     writers: [montaigne, twain, thompson]
   - name: escape rooms
@@ -33,13 +33,13 @@ objects:
   - name: painkillers
     writers: [nietzsche, montaigne, proust]
   - name: Wikipedia
-    writers: [woolf, wilde, twain]
+    writers: [woolf, wilde, twain, russell]
   - name: audiobooks
     writers: [dickens, woolf, austen]
   - name: podcasts
     writers: [thoreau, wilde, ephron]
   - name: the step counter
-    writers: [thoreau, dickens, whitman, franklin]
+    writers: [thoreau, dickens, whitman, franklin, russell]
 
   # Added 28/08/2026, chosen by Charlie from a list of thirty-six.
   - name: the washing machine

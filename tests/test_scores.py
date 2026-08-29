@@ -41,21 +41,24 @@ def main() -> int:
     print(f"{len(entries)} essays; scored by {dict(by)}")
     print(f"  canonical scale is {write_stage.SCORER!r}; {off} still off it")
 
-    # The regression check: once the archive starts recording who scored an essay it
-    # must never stop. Expressed as a ratchet over the append-ordered archive rather
-    # than as a count, so it needs no baseline constant to keep in step with the
-    # backlog, and it stays silent about the legacy essays in front of the first
-    # recorded one. A run that writes an essay without the field puts an unrecorded
-    # entry after a recorded one, which is the only shape this can take.
-    first = next((i for i, e in enumerate(entries) if e.get("scored_by")), None)
-    if first is not None:
-        missing = [e for e in entries[first:] if not e.get("scored_by")]
-        if missing:
-            problems.append(
-                f"{len(missing)} essay(s) written after the archive started recording "
-                "scored_by do not carry it, newest "
-                f"{missing[-1]['thinker']}/{missing[-1]['object']} - see "
-                "write.score_essay and run.one")
+    # The regression check: the newest essay must record who scored it.
+    #
+    # This WAS expressed as a ratchet - "once the archive starts recording, it never
+    # stops" - and that was wrong, in a way a green run hid for two days. rescore.py
+    # repairs the OLDEST entries first, so index 0 gains the field while the fifty
+    # behind it have not been reached yet. The ratchet read that legitimate shape as
+    # a regression and failed with 37 false positives the first time the drain
+    # actually ran.
+    #
+    # Position is the wrong signal. A repair never appends; a new essay always does.
+    # So the question is only ever about the last entry, and it can still fail for
+    # the reason the check exists: if run.py stops recording the field, tomorrow's
+    # essay lands without it and this goes red the next morning.
+    newest = entries[-1]
+    if not newest.get("scored_by"):
+        problems.append(
+            f"the newest essay ({newest['thinker']}/{newest['object']}, "
+            f"{newest['date']}) records no scored_by - see write.score_essay and run.one")
 
     # A published essay with no number at all is a broken page, not a scale problem.
     if unscored:

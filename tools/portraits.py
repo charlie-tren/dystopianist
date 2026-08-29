@@ -125,6 +125,7 @@ LOOK = {
     "tolstoy":  "an old Russian with an enormous untrimmed white beard reaching his chest, a bald crown with white hair at the sides, fierce deep-set eyes under heavy white brows, a loose belted peasant smock",
     "child":    "a very tall American woman in her fifties with short wavy hair, a long face and a wide delighted open-mouthed smile, a plain blouse with a kitchen apron over it",
     "bourdain": "a tall lean American man in his late fifties with a deeply lined weathered face, short spiky silver-grey hair, a long nose and a wry sceptical half-smile, an open-collared shirt with the sleeves pushed up",
+    "russell":  "a very small wiry old Englishman with a great shock of fine white hair standing out from the head in all directions, a long prominent nose and a small pointed chin, deep-set bright alert eyes under heavy white brows, a pipe, a rumpled tweed three-piece suit with a high stiff collar and tie, birdlike and amused",
     "thoreau":  "a plain-featured 19th-century New Englander wearing a chin curtain: the beard grows in a narrow fringe under the jaw and chin only, while the upper lip is shaved bare with no moustache of any kind and the cheeks are shaved bare, unruly hair, a long nose, homespun jacket",
 }
 
