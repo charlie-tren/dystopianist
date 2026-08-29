@@ -31,11 +31,12 @@
     "name": "Joan Didion",
     "dates": "1934-2021",
     "object": "group chats",
-    "verdict": "a quiet violence",
-    "score": 1.5,
+    "verdict": "quiet violence",
+    "score": 2.5,
     "essay": "It is 3:14 in the morning in a hotel room in Omaha. The phone lit up on the nightstand. Someone in London was typing about a coat. Someone in New York was sending an image of a dog. I sat on the edge of the mattress and watched the names appear. Laura. Sam. Laura again. There were fourteen people in the room, though none of them were in Nebraska. They were talking about dinner from three nights ago. They were talking about whether it had rained in Connecticut. I watched the green dot appear beside Laura’s name. I watched the green dot disappear. I thought about the silence before the green dot. I thought about what it meant to have fourteen people in your bedroom at 3:14 in the morning, none of them speaking, all of them typing. You do not leave the room because leaving is an act of violence. Staying is also an act of violence, but it is a quiet one. The screen dimmed. Then Laura typed again. The phone vibrated twice on the faux-wood veneer. It was not an emergency. Nothing was ever an emergency. That was the point.",
     "generated": "2026-08-25T20:51:22+00:00",
-    "provider": "gemini"
+    "provider": "gemini",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-25",
@@ -43,11 +44,12 @@
     "name": "Joan Didion",
     "dates": "1934-2021",
     "object": "airport lounges",
-    "verdict": "a clean limbo",
-    "score": 1.8,
+    "verdict": "nowhere to nowhere",
+    "score": 1.5,
     "essay": "It was three in the afternoon in the quiet area, which was not quiet, only dimly lit. A sign on the frosted glass said Executive Lounge, but there were no executives, only tired men in unbuttoned shirts drinking lukewarm San Pellegrino from heavy crystal tumblers. The carpet was navy blue with faint silver grid lines, designed to disguise spills. Someone had spilled tomato juice near the espresso machine at eleven that morning. At three, the stain was still there, dark and sticky under the recessed LED lights. A woman in a camel coat was speaking into a silver earpiece about a contract in Zurich. She spoke in a flat, even tone that suggested Zurich was not a place, but merely a set of numbers that had to be moved from one ledger to another before five o'clock. Outside the glass, a line of yellow tugs moved across the tarmac in the grey rain, moving baggage from nowhere to nowhere. The room smelled of ozone and hot carpet fibers. They tell you that you are waiting for a flight to London, or Tokyo, or Frankfurt. You sit on a low leather sofa that has lost its shape and you drink the cold water and you realize that no one in this room is going anywhere.",
     "generated": "2026-08-25T20:51:41+00:00",
-    "provider": "gemini"
+    "provider": "gemini",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-25",
@@ -55,11 +57,12 @@
     "name": "Nora Ephron",
     "dates": "1941-2012",
     "object": "dating apps",
-    "verdict": "a total racket",
-    "score": 2.3,
+    "verdict": "catalog shopping",
+    "score": 1.5,
     "essay": "I have spent four hundred dollars on neck cream because of a man named Arthur who listed his height as six foot one and turned out to be five foot eight in thick loafers. We were at the bar at Michael’s on West Fifty-Fifth Street, and he was explaining his divorce while I looked at his forehead and thought about my own lighting. That is what Hinge does. It turns you into a woman who swipes right on a thirty-four-year-old venture capitalist named Chad because he is holding a golden retriever, even though you know perfectly well the dog belongs to his sister. You sit on the sofa in your pajamas at midnight, moving your thumb half an inch to the left, rejecting men because they are wearing wraparound sunglasses or because they used the word adventure as a verb. It feels like catalog shopping, except everything on the page has already been returned once. The trouble is not that it is humiliating, though it is. The trouble is that next Tuesday, when the apartment is quiet, you will open the little yellow icon again, convincing yourself that somewhere in Manhattan there is a man who understands why you hate the sound of people eating apples, and that he is waiting.",
     "generated": "2026-08-25T20:52:14+00:00",
-    "provider": "gemini"
+    "provider": "gemini",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-25",
@@ -67,11 +70,12 @@
     "name": "Nora Ephron",
     "dates": "1941-2012",
     "object": "group chats",
-    "verdict": "social claustrophobia",
-    "score": 2.1,
+    "verdict": "public execution",
+    "score": 1.8,
     "essay": "I muted the five of us at nine in the morning on a Tuesday, right after Sarah sent a photo of a turnip. By noon there were forty-two messages, mostly from Jane, who lives on East End Avenue and has never once met a root vegetable she couldn't write three paragraphs about. The trouble with the group is that you cannot leave without committing a public execution. If you press leave, a small grey announcement appears on everyone else’s screen, which is precisely the same as standing up at a dinner party on 74th Street, spitting into the butter dish, and walking out into the rain without your coat. So you stay. You watch three little grey dots jump up and down like a frantic heart monitor while four grown women debate whether eight o'clock is too late for polenta. I spend two hours a day typing ha ha to things that are not funny. I do it because if I stop, they will start another group without me, the one where they talk about my neck. But mostly I do it because I am terrified that if I step out of the noise, even for an afternoon, nobody will notice I went.",
     "generated": "2026-08-25T20:52:45+00:00",
-    "provider": "gemini"
+    "provider": "gemini",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-25",
@@ -79,11 +83,12 @@
     "name": "Franz Kafka",
     "dates": "1883-1924",
     "object": "self-checkout machines",
-    "verdict": "an ongoing tribunal",
-    "score": 1.5,
+    "verdict": "insufferable polite stillness",
+    "score": 1.8,
     "essay": "S. had placed the small jar of preserved plums upon the tray precisely where the illuminated arrows indicated, yet the machine, possessing no visible capacity for thought and yet deliberating with an insufferable, polite stillness, immediately flashed a small crimson lamp above its frame to signal that an unscheduled weight had been detected. Although S. knew that he possessed the required coins and that the clerk standing several paces away had seen him place the jar down without any improper intent, it was nonetheless impossible for S. to proceed to the payment slot until this same clerk, who was presently occupied with smoothing the apron of a colleague, chose to touch a master key against the glass, an act that might take only a moment or might require S. to remain standing quietly in the glaring light until closing time. S. did not mind waiting, for he understood that the machine was merely enforcing a rule whose higher logic had simply not been explained to him, and so he adjusted his posture slightly, holding his breath so as not to disturb the scales, entirely convinced that once the red light was extinguished he would be permitted to pay, though he suspected that a second verification would then become necessary for the paper bag.",
     "generated": "2026-08-25T20:53:09+00:00",
-    "provider": "gemini"
+    "provider": "gemini",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-25",
@@ -91,11 +96,12 @@
     "name": "Franz Kafka",
     "dates": "1883-1924",
     "object": "escape rooms",
-    "verdict": "voluntary sentence",
-    "score": 1.8,
+    "verdict": "provisional liberation",
+    "score": 1.2,
     "essay": "It was explained to K. that he had paid for the privilege of being locked inside the small, dimly lit parlor, a circumstance which, though presented to him as a form of amusement, seemed to differ very little from his ordinary working life, except that here the authorities had taken the trouble to paint faux-cracks upon the plaster and hide brass keys inside fake hollowed-out volumes of historical treatises. He sat upon the threadbare sofa, listening to the muffled whispers of his companions who were frantically turning over couch cushions and deciphering numbers scribbled on the backs of framed landscapes, while a hidden clock ticked away minutes that were said to belong to them, though K. suspected that even if they managed to align every symbol correctly before the chime sounded, the door would only open into another hallway where a different attendant, possessing slightly more authority than the youth who had locked them in, would inform them that their liberation was merely provisional and subject to a final audit by the central directorate, who was currently away on business and could not be reached until Monday morning at the earliest. Therefore, he remained seated, refraining from touching the lock, lest an accidental success be interpreted as a request for immediate dismissal.",
     "generated": "2026-08-25T20:53:31+00:00",
-    "provider": "gemini"
+    "provider": "gemini",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-25",
@@ -103,11 +109,12 @@
     "name": "Michel de Montaigne",
     "dates": "1533-1592",
     "object": "alarm clocks",
-    "verdict": "senseless tyranny",
-    "score": 1.5,
+    "verdict": "tiny executioner",
+    "score": 3.0,
     "essay": "I am naturally inclined to linger in my bed, where my thoughts settle most agreeably before the demands of the day intrude; yet here is a little brass engine, devised to shatter that quietude by a sudden, violent ringing. I know not what profit a man finds in startling his own soul out of its proper rest: for if slumber be a shadow of death, to wrench ourselves from it by artifice rather than by the gentle invitation of nature seems a kind of daily violence. And yet, I must confess my own weakness; when left to my own humour, I slide so far into sloth that the morning is half spent before I have put on my doublet; so perhaps this noisy fury is a necessary whip for a mind as sluggish as mine. But what a miserable condition it is, to owe our vigilance not to reason or virtue, but to a piece of rattling iron! We mock the slave who moves at the sound of his master's bell, while we place upon our own nightstands a tiny executioner of our ease; or if not an executioner, at least a rude intruder that takes from us that sweet, uncertain borderland between dreaming and waking, where I think I am often wiser than in my full soberness.",
     "generated": "2026-08-25T20:53:50+00:00",
-    "provider": "gemini"
+    "provider": "gemini",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-25",
@@ -115,11 +122,12 @@
     "name": "Michel de Montaigne",
     "dates": "1533-1592",
     "object": "reclining a seat on a plane",
-    "verdict": "an uneasy indulgence",
-    "score": 2.8,
+    "verdict": "an uneasy slope",
+    "score": 3.5,
     "essay": "I have so little mastery over my own limbs when confined in narrow quarters that I am forever shifting from cheek to cheek, seeking a repose that my restless nature denies me; yet no sooner do I press that small lever to ease my spine by two inches than I feel a sudden pang of shame, knowing I have stolen that same measure of air from the knees of the unoffending gentleman behind me. And if he, in his turn, should thrust his chair back into my lap, I am presently moved to an unreasonable anger: so prompt are we to pardon in ourselves the very inclinations we condemn in others. For what is this desire to tilt one's frame but a childish refusal of our present condition? Yet I cannot wholly condemn a man for seeking a little respite from this iron stiffness; I have done it myself in moments of weariness, though I never reaped from it the peace I promised my soul. We are so built that our tiny comforts must ever be bought at the expense of our neighbor's misery; and I know not whether to blame the contrivance itself, or rather that restless infirmity of our spirits which makes us prefer an uneasy slope to an honest uprightness.",
     "generated": "2026-08-25T20:54:05+00:00",
-    "provider": "gemini"
+    "provider": "gemini",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-25",
@@ -715,5 +723,44 @@
     "generated": "2026-08-29T03:02:33+00:00",
     "provider": "cloudflare",
     "scored_by": "cloudflare"
+  },
+  {
+    "date": "2026-08-29",
+    "thinker": "russell",
+    "name": "Bertrand Russell",
+    "dates": "1872-1970",
+    "object": "Wikipedia",
+    "verdict": "most useful compendium",
+    "score": 8.5,
+    "essay": "Nothing pleases an ordinary man quite so much as discovering that his neighbor is mistaken. We are, by nature, a disputatious species, far more interested in proving our acquaintances wrong than in arriving at any useful truth ourselves. It was long assumed that such petty vanity was an obstacle to learning; one required quiet scholars in secluded libraries to preserve knowledge. Experience, however, suggests the opposite. By giving every private vanity an outlet, we have accidentally constructed the most useful compendium of fact ever assembled. A man who spends his evening correcting the date of a minor battle does not do so from a noble devotion to truth; he does it because he cannot bear the thought of an anonymous stranger remaining peacefully wrong. I have spent much of my own life succumbing to the same irresistible impulse, though usually with less useful results. The consequence of millions of these tiny, spiteful corrections is not chaos, but an astonishing degree of agreement. We expected popular authorship to produce rubbish, because we forgot that the itch to contradict is far more reliable than the desire to instruct. A man will rarely labor until midnight for the moral improvement of his fellows, but he will gladly do so to settle a trivial dispute about railway timetables.",
+    "generated": "2026-08-29T22:41:38+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini"
+  },
+  {
+    "date": "2026-08-29",
+    "thinker": "russell",
+    "name": "Bertrand Russell",
+    "dates": "1872-1970",
+    "object": "LinkedIn",
+    "verdict": "public self-congratulation",
+    "score": 1.0,
+    "essay": "We have constructed an engine of public self-congratulation, and we call it professional networking. On LinkedIn, every clerk announces that he is delighted to have spent his weekend compiling a memorandum no one will read. I have noticed in my own heart the same vulgar desire to display modest triumphs whenever I fear I am being forgotten, so I cannot judge the vanity of others too severely. Yet there is something singularly depressing about a place dedicated entirely to corporate solemnity. Here, no one is ever idle, no one is ever defeated, and every subscriber claims to be deeply humbled by his own astonishing promotion. We congratulate acquaintances upon acquiring titles that sound grand only because they are nonsensical. The fundamental assumption of the site is that toil is not merely a means of earning one's bread, but a noble passion worthy of daily worship. This seems to me an error of proportion. A man who must repeatedly profess his devotion to corporate administration has surrendered a vital portion of his freedom; he has lost the right to be privately bored. If we must boast, we ought to boast of our leisure. It is a strange spectacle to see rational beings competing for the reputation of being exceptionally diligent servants.",
+    "generated": "2026-08-29T22:42:04+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini"
+  },
+  {
+    "date": "2026-08-29",
+    "thinker": "twain",
+    "name": "Mark Twain",
+    "dates": "1835-1910",
+    "object": "Wikipedia",
+    "verdict": "collective guesswork",
+    "score": 1.0,
+    "essay": "It is a remarkable comfort to live in an age where a man no longer needs to carry a heavy burden of ignorance around in his own head, when he can so easily borrow the ignorance of several million complete strangers. If a fellow wishes to know the exact weight of a whale or the year a bad king caught the measles, he needs only consult that great communal inkwell where every passerby is invited to stir the soup. A tailor in Ohio may correct a bishop in London on a matter of divinity, and if the tailor has more time on his hands, his version of God will naturally carry the day. There is something profoundly noble about a system that treats the opinion of a scholar and the notion of a gentleman who has just lost an argument as precise equivalents. It rests upon the charming assumption that if you gather enough people who do not know a thing, their collective guesswork will eventually settle into holy writ. Whenever two men disagree on a fact, a third man, who was not present and knows less than either, settles the matter by writing it down. It has made truth so remarkably accessible that any citizen can possess a fresh version of it before breakfast, provided he does not mind it being thoroughly refuted by tea-time.",
+    "generated": "2026-08-29T22:42:44+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini"
   }
 ]
