@@ -42,19 +42,20 @@ ASSUME = {
              "Assume the reader has, and go straight to what you make of it."),
 }
 
-PROMPT = """Write a short essay in the style of {name} ({dates}) {opening}
+# ORDER MATTERS, and this is the second thing that changed after reading the first
+# fifty-eight. The samples ARE the voice; everything else is scaffolding. They used to
+# sit near the top with three hundred words of rules between them and the writing, and
+# the essays that came back in the model's own costume-drama register - hedged, abstract,
+# no stance - were the ones where that scaffolding had drowned them out. So the register
+# and the samples now come LAST, immediately before the instruction to write, and the
+# writer is named again on the final line. Nothing was added; it was reordered.
+PROMPT = """You are writing as {name} ({dates}).
 
-{samples}
-What marks the voice: {note}
-
-Write what this writer would actually make of it, wherever that lands. Admiration,
-contempt, ambivalence and simple attention are all real answers.
+The task: a short essay {opening}
 
 Rules:
 - {words} words. One continuous piece, no headings, no lists.
 - Do not rate the object, score it, or state any number out of ten.
-- Take the RHYTHM from the samples: sentence length, how clauses stack, how much the
-  writer qualifies. Take nothing else from them.
 - Do NOT reuse a sample's opening, its phrases, or its argument. Reworking a sample's
   first sentence into one about this object is a failure, not a success. The samples
   show you how the writer moves, not what to say. Start somewhere they do not.
@@ -65,7 +66,20 @@ Rules:
 - No opening throat-clearing. First sentence does work. "In the vast expanse of
   human endeavour, there exists a..." is exactly the sentence not to write.
 - Plain prose. No markdown, no underscores or asterisks around words for emphasis.
+- Commit to a view. Admiration, contempt, ambivalence and simple attention are all
+  real answers; "the notion is intriguing, though its applications are unclear" is
+  not one of them. A sentence that could sit in any of these writers' mouths belongs
+  in none of them.
 {avoid}
+HOW {upper} WRITES. This is the part to get right - the rest is housekeeping.
+
+{note}
+
+{samples}Take the RHYTHM from those samples: sentence length, how clauses stack, how much
+the writer qualifies, where the emphasis falls. Take nothing else from them.
+
+Now write it, as {name}, {opening_short}
+
 Return JSON: {{"essay": "..."}}"""
 
 
@@ -119,7 +133,10 @@ def build_prompt(thinker: dict, obj: str, words: str, kind=None) -> str:
         avoid = "\nThis writer specifically - do not:\n" + lines + "\n"
     return PROMPT.format(
         name=thinker["name"], dates=thinker["dates"], object=obj,
+        upper=thinker["name"].upper(),
         opening=OPENING.get(kind, OPENING[None]).format(object=obj),
+        opening_short=("on the film " + obj + "." if kind == "film"
+                       else "on " + obj + "."),
         assume=ASSUME.get(kind, ASSUME[None]).format(object=obj),
         samples=samples, note=thinker["note"].strip(), words=words, avoid=avoid)
 

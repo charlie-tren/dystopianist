@@ -60,6 +60,41 @@ def check(essay: str, thinker: dict, shots: dict[str, str],
     if essay.count('"') > 6:
         problems.append("reads as dialogue, not an essay")
 
+    # THE FILLER GATES. Added 29/08/2026 after reading all fifty-eight published
+    # essays and measuring them. The corpus split hard by the model that WROTE it:
+    # Gemini's 28 averaged 3.3 concrete anchors and 0.21 hedges, llama-3.3-70b's 30
+    # averaged 0.3 and 0.83. The second group is not worse pastiche, it is a different
+    # genre - costume drama with no stance, hedged into saying nothing. Franklin on
+    # LinkedIn managed "the notion of it is intriguing, though its practical
+    # applications are not entirely clear to me" and stopped there.
+    #
+    # A CONCRETENESS gate was the obvious fix and was tried and REJECTED: requiring
+    # one concrete anchor would have failed 17 of the 28 good essays, because
+    # Montaigne, Aurelius and Kafka are legitimately abstract. Being specific
+    # separates Didion from filler; it does not separate Montaigne from filler.
+    # The three below were each measured against the published corpus first, and
+    # between them they catch 12 of 58 with ZERO of Gemini's essays among them.
+    #
+    # "I must confess" and "is it not" were in the first draft of this list and taken
+    # out: both read correctly in Montaigne and Franklin, and a gate that costs a
+    # legitimate line is not worth its catch.
+    for m in re.findall(r"\b(a testament to|relentless pursuit|the very act of)\b",
+                        essay, re.I):
+        problems.append(f"stock phrase: {m.lower()!r}")
+    # Hedging is fine once. Three times in 200 words is a writer with no opinion,
+    # which is the one thing none of these writers are.
+    hedges = re.findall(r"\b(perhaps|somewhat|rather|seems? to|appears? to|one might"
+                        r"|may well|not entirely|I must say|intriguing|the notion of)\b",
+                        essay, re.I)
+    if len(hedges) >= 3:
+        problems.append(f"hedged {len(hedges)} times, so it takes no position")
+    # "a metallic flower, a perforated disk, a sprinkle of tiny holes". Whitman on the
+    # hot shower was nine of these end to end, no verb doing any work, and it scored
+    # 8.5 - the highest on the site - because a catalogue has nothing in it to dislike.
+    if len(re.findall(r"\ba [\w\s]{2,20}, a [\w\s]{2,20}, a [\w\s]{2,20}\b",
+                      essay, re.I)) >= 2:
+        problems.append("runs of three appositives: a catalogue, not an essay")
+
     # NO PER-ESSAY VOICE GATE HERE, on purpose. The first version rejected an essay
     # whose fingerprint sat nearer another thinker's sample than its own, and it was
     # WRONG: it killed a Bierce piece that opens "PNEUMATIC DRYER, n." and reads as

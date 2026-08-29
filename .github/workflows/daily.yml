@@ -193,6 +193,13 @@ jobs:
       # After the essay, so the slug and reflow checks run over the archive as
       # published rather than as it was an hour ago. Same treatment as the two below:
       # it marks the job red without blocking the commit of work already on disk.
+      # Cheap and pure, so it runs with the other joins BEFORE anything spends quota:
+      # a gate that has stopped firing should be found before the day's essay is
+      # written against it, not after.
+      - name: Do the gates still fire
+        if: ${{ !cancelled() }}
+        run: python tests/test_critic.py
+
       - name: Does the renderer do what it says
         if: ${{ !cancelled() }}
         run: python tests/test_render.py
