@@ -47,6 +47,8 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
   border-bottom:1px solid transparent}
 .sortbar button:hover{color:var(--ink)}
 .sortbar button[aria-pressed="true"]{color:var(--accent);border-bottom-color:var(--accent)}
+/* Sits outside the underline so the rule under "Rating" does not grow a tail. */
+.sortbar .dir:not(:empty){margin-left:.35em;font-size:11px}
 .list{list-style:none;margin:0;padding:0}
 .list li{border-top:1px solid var(--rule);padding:1.1rem 0}
 .list li:last-child{border-bottom:1px solid var(--rule)}
@@ -318,26 +320,46 @@ SORT_JS = """
 <script>
 /* Reorder the front-page list in place. Latest is the order the pages were built
    in, kept on each row as data-seq, so switching back restores it exactly rather
-   than re-deriving it from dates that several essays share. */
+   than re-deriving it from dates that several essays share.
+
+   Rating TOGGLES. Clicking it again turns the list over, worst first, because the
+   bad ones are half the fun and there was no way to reach them without scrolling to
+   the bottom. The direction shows as an arrow on the button rather than as a second
+   control or a changed word: one thing to click, and its state is visible. Newest
+   does not toggle - "oldest first" is a different question nobody asked, and a bar
+   where one button has a hidden second state and the other does not would be worse
+   than either. */
 (function () {
   var bar = document.querySelector('.sortbar');
   var list = document.getElementById('all');
   if (!bar || !list) return;
   var rows = Array.prototype.slice.call(list.children);
+  var asc = false;                       /* rating: high to low first */
   bar.addEventListener('click', function (ev) {
     var btn = ev.target.closest('button[data-sort]');
     if (!btn) return;
     var key = btn.dataset.sort;
+    /* Only a second click on the button that is ALREADY pressed flips it. Arriving
+       from Newest gives high-to-low, which is what someone asking for a rating
+       expects to see first. */
+    asc = (key === 'score' && btn.getAttribute('aria-pressed') === 'true') ? !asc : false;
     bar.querySelectorAll('button[data-sort]').forEach(function (b) {
       b.setAttribute('aria-pressed', String(b === btn));
+      var arrow = b.querySelector('.dir');
+      if (arrow) arrow.textContent = (b === btn && key === 'score')
+        ? (asc ? '↑' : '↓') : '';
     });
     var sorted = rows.slice().sort(function (a, b) {
       if (key === 'score') {
-        /* An essay with no score sorts last rather than as a zero, which would
-           put it below a genuine 0.5. */
-        var sa = a.dataset.score === undefined ? -Infinity : parseFloat(a.dataset.score);
-        var sb = b.dataset.score === undefined ? -Infinity : parseFloat(b.dataset.score);
-        if (sb !== sa) return sb - sa;
+        /* An unscored essay sorts LAST in both directions rather than as a zero,
+           which would put it below a genuine 0.5 going down and at the very top
+           going up - the one row nobody is looking for, twice. */
+        var ua = a.dataset.score === undefined, ub = b.dataset.score === undefined;
+        if (ua !== ub) return ua ? 1 : -1;
+        if (!ua) {
+          var sa = parseFloat(a.dataset.score), sb = parseFloat(b.dataset.score);
+          if (sa !== sb) return asc ? sa - sb : sb - sa;
+        }
       }
       return (+a.dataset.seq) - (+b.dataset.seq);
     });
@@ -467,7 +489,7 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
     # "Newest" rather than "Latest" because Latest is the name of the nav tab
     # directly above it, and the same word twice in two stacked bars reads as a
     # cross-reference to the other page rather than as a sort order.
-    sortbar = ('  <div class="sortbar">\n    <span>Sort</span>\n    <button type="button" data-sort="seq" aria-pressed="true">Newest</button>\n    <button type="button" data-sort="score" aria-pressed="false">Rating</button>\n  </div>\n') if entries else ""
+    sortbar = ('  <div class="sortbar">\n    <span>Sort</span>\n    <button type="button" data-sort="seq" aria-pressed="true">Newest</button>\n    <button type="button" data-sort="score" aria-pressed="false">Rating<span class="dir"></span></button>\n  </div>\n') if entries else ""
     idx = (f'  <h1 class="wordmark">{GHOST}Ghostwriters</h1>\n'
            f'  <p class="stand">{html.escape(desc)}</p>\n' + sortbar + listing)
     (DOCS / "index.html").write_text(
