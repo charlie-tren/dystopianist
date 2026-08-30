@@ -135,11 +135,12 @@
     "name": "Friedrich Nietzsche",
     "dates": "1844-1900",
     "object": "dating apps",
-    "verdict": "mechanized cowardice",
-    "score": 1.0,
+    "verdict": "organized anesthesia",
+    "score": 0.5,
     "essay": "The modern soul demands above all things that love be rendered painless—and in doing so, it destroys the very soil out of which love grows. What is this digital market of faces if not the final triumph of the small man, who trembles at the thought of rejection, of conflict, of the violent collision of two wills? He wishes to select his destiny as one selects a sausage at the butcher: pre-inspected, guaranteed, stripped of all dangerous ambiguity. One flicks a finger, and the troubling mystery of another human being is reduced to a flickering image, a commodity to be approved or dismissed without the slightest expenditure of spirit. This is the morality of the herd made invisible: the total elimination of risk. But where there is no risk, there is no value; where there is no danger, there is only the pathetic comfort of swine huddling together against the frost. You believe you are choosing a partner—in truth, you are merely organizing your own anesthesia. You have traded the terrible magnificence of the encounter for a machine that promises you will never again have to suffer the agony of a gaze that does not look back.",
     "generated": "2026-08-25T20:54:20+00:00",
-    "provider": "gemini"
+    "provider": "gemini",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-25",
@@ -147,11 +148,12 @@
     "name": "Friedrich Nietzsche",
     "dates": "1844-1900",
     "object": "escape rooms",
-    "verdict": "counterfeit suffering",
-    "score": 1.5,
+    "verdict": "counterfeit agony",
+    "score": 0.5,
     "essay": "To seek out a lock merely for the pleasure of finding its key—that is the final, pathetic refinement of a race that has forgotten how to bleed. The modern coward demands the thrill of the dungeon, but only on the condition that the gaoler holds the clock and guarantees his supper. Observe these voluntary prisoners: they gather in small, eager herds to solve petty riddles constructed by clerks as hollow as themselves; they cheer when a false door springs open, believing they have achieved a triumph of the spirit. It is not liberation they desire, but the illusion of peril without its terrible price. True overcoming is forged only in the furnace of necessity, where failure means ruin and the walls do not part for a fee. But the little man cannot bear necessity—his nerves are too fragile, his soul too soft. He requires a crisis with an appointment: a catastrophe that expires in sixty minutes. He pays his coin for this counterfeit agony so that he may return to his comfortable numbness, persuaded that he has wrestled with fate—when he has merely played at captivity.",
     "generated": "2026-08-25T20:54:41+00:00",
-    "provider": "gemini"
+    "provider": "gemini",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-25",
@@ -159,11 +161,12 @@
     "name": "George Orwell",
     "dates": "1903-1950",
     "object": "airport lounges",
-    "verdict": "a dreary fraud",
-    "score": 1.8,
+    "verdict": "a carpeted box",
+    "score": 1.0,
     "essay": "The main trouble with the airport lounge is that it tries to make a man feel like a gentleman by treating him like an invalid. You pay an extra pound or two at the gate, or hold the right strip of cardboard, and at once you are ushered away from the noise of the main hall into a carpeted box where everything is muted, soft, and slightly warm. The lighting is turned down so low that you can barely read a newspaper, and soft music drips constantly from hidden speakers like water from a leaky tap. There are deep leather armchairs to sink into, but they are designed in such a way that you cannot sit up straight or look your neighbour in the eye. On a long counter sit metal dishes full of lukewarm, yellow soup and dry bread rolls wrapped in cellophane. It is all free, or seems free, which is why middle-class travellers gorge themselves on cheap gin and stale nuts while watching a television screen with the sound turned off. The whole place smells faintly of carpet cleaner and gin. It exists not to give you real comfort, but to sell the illusion that you are better than the crowd outside, when in truth you have merely paid to be penned in a quieter room.",
     "generated": "2026-08-25T20:55:05+00:00",
-    "provider": "gemini"
+    "provider": "gemini",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-25",
@@ -171,11 +174,12 @@
     "name": "George Orwell",
     "dates": "1903-1950",
     "object": "self-checkout machines",
-    "verdict": "a dismal fraud",
-    "score": 1.5,
+    "verdict": "unpaid clerical work",
+    "score": 1.0,
     "essay": "If you watch a man at one of these metal tills, you will see that he is doing two things at once: paying for his own bread and doing the shopkeeper's work for him. The shopkeeper saves a wage, and the customer receives nothing in return except the trouble of finding the barcode on a tin of peas. It is sold to us as a convenience, but it is obvious to anyone with eyes that it is merely a device to make the public do for free what used to be paid labor. When you bark at a glass screen because a plastic bag has not registered its proper weight, you are not saving time. You are simply performing a piece of unpaid clerical work under the watchful eye of a bored guard who has been hired to make sure you do not steal the bacon you are already packing yourself. The whole business belongs to that modern habit of pretending that less service is actually more freedom. A hundred years ago, a shopkeeper who asked his customers to weigh their own flour and drop the money into a box would have been thought mad or bankrupt. Today it is called progress, and millions of people step up to the glowing screen every evening, perfectly content to be turned into unpaid shop assistants.",
     "generated": "2026-08-25T20:55:55+00:00",
-    "provider": "gemini"
+    "provider": "gemini",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-25",
@@ -183,11 +187,12 @@
     "name": "Hunter S Thompson",
     "dates": "1937-2005",
     "object": "escape rooms",
-    "verdict": "suburban fascist slime",
-    "score": 1.2,
+    "verdict": "permanent incarceration",
+    "score": 1.0,
     "essay": "The manager was nineteen years old, possessed the flat, dead eyes of a turnpike toll-collector, and he took forty-five of my dollars before slamming a bolted oak door in my face with the hideous, practiced glee of a small-town hanging judge. There were six of us trapped in that velvet-lined dungeon under the strip mall, surrounded by fake books and brass padlocks that smelled faintly of cheap disinfectant and absolute defeat, while a digital clock on the wall shrieked red numbers down toward zero like a missile launch countdown managed by accountants. I knew instantly that the whole enterprise was a sick psychological experiment funded by the chamber of commerce to train the middle class for permanent incarceration. We were supposed to find a key hidden inside a hollow skull, but my fingers were locking up because some unseen bastard in a back room was watching us through a fish-eye lens and broadcasting recorded thunder through a tinny speaker whenever we touched the wrong lamp. It was a terrifying glimpse into the future of American leisure. People were paying top dollar to simulate their own execution. I kicked the door until my boots cracked, but the lock held firm, and the manager just laughed through the intercom like a hyena on the corporate payroll.",
     "generated": "2026-08-25T20:56:20+00:00",
-    "provider": "gemini"
+    "provider": "gemini",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-25",
@@ -195,11 +200,12 @@
     "name": "Hunter S Thompson",
     "dates": "1937-2005",
     "object": "reclining a seat on a plane",
-    "verdict": "a hostile act",
-    "score": 0.5,
+    "verdict": "passive-aggressive warfare",
+    "score": 0.0,
     "essay": "Thirty thousand feet above the Oklahoma panhandle, the bastard in 14B unleashed a calculated act of violence against my kneecaps. There was a sickening hydraulic hiss, a sharp metallic click, and suddenly two hundred pounds of sweaty synthetic polyester leaned back into my personal airspace with the quiet, unyielding authority of an armored division taking a border town. It is a terrible mechanism, engineered by sadists in corporate boardrooms who realized they could sell six extra inches of legroom back to us if they first turned the economy cabin into a crawling pit of human agony. I stared at the back of his greasy head, mere centimeters from my chin, feeling the raw panic of a trapped animal as my plastic tray table jammed directly into my solar plexus. He didn't even look back. That is the genius of the machine: it converts ordinary middle-management cowardice into a weapon of quiet, passive-aggressive warfare, allowing a man to crush another human being's femur without ever having to look him in the eye. I hit my own button in pure self-defense, plunging the poor doomed soul behind me into the same cramped hell, compounding the misery down the line like a row of falling dominoes in a high-altitude prison ward. We are monsters now.",
     "generated": "2026-08-25T20:57:07+00:00",
-    "provider": "gemini"
+    "provider": "gemini",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-25",
@@ -207,11 +213,12 @@
     "name": "Mark Twain",
     "dates": "1835-1910",
     "object": "LinkedIn",
-    "verdict": "solemn humbug",
-    "score": 1.5,
+    "verdict": "mutual flattery",
+    "score": 1.0,
     "essay": "A man will sit down before this glass slate and spend three hours declaring himself the most modest creature alive, and another four accepting the tearful congratulations of six hundred strangers for having said so. Now, I am no philosopher, nor do I pretend to fathom the deep workings of modern enterprise, but it seems to me that if a fellow were half as indispensable as he claims on his page, he would scarcely have the leisure to compose forty paragraphs on the profound moral lesson he derived from dropping his toast. Yet there they assemble by the million, doffing their caps to one another, each solemn soul certifying that his neighbor is a prodigy of wisdom and a marvel of virtue, though neither would trust the other to guard a brass button. The entire enterprise rests upon a silent contract: if I agree to marvel at your elevation to Assistant Sub-Secretary of Corrugated Box Planning, you will pretend to weep with inspiration over my thoughts on corporate synergy. It is the most meticulously engineered spectacle of mutual flattery ever devised, and I reckon it keeps several million people entirely too busy to perform any useful labor whatever.",
     "generated": "2026-08-25T20:57:36+00:00",
-    "provider": "gemini"
+    "provider": "gemini",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-26",
@@ -219,11 +226,12 @@
     "name": "Jane Austen",
     "dates": "1775-1817",
     "object": "audiobooks",
-    "verdict": "convenient indolence",
-    "score": 3.2,
+    "verdict": "polite indolence",
+    "score": 2.0,
     "essay": "The practice of receiving an entire volume through the ears, while the hands remain at liberty to trim a bonnet or the feet to wander the shrubbery, is now so generally cultivated as to render the physical opening of a book almost superfluous. It is an arrangement which commends itself singularly to those young ladies who, wishing to be thought accomplished without incurring the fatigue of application, find in an unseen narrator a companion at once indefatigable and admirably restrained from offering opinions of his own. That one may now absorb the domestic trials of a distant family while traversing a muddy lane, with no greater exertion than what is required to wear a modest headpiece, must be regarded as a most convenient refinement of polite indolence. Indeed, several young persons of my acquaintance have lately displayed a devotion to literature hitherto unsuspected in them, though it is observed that their reflection upon these works seldom survives the arrival of fresh gossip. Such a method permits the illusion of intellectual employment to coexist peacefully with complete bodily ease; and should the reader prove tedious, he suffers the singular fate of being silenced without the least injury to his feelings or any breach of decorum.",
     "generated": "2026-08-26T03:08:50+00:00",
-    "provider": "gemini"
+    "provider": "gemini",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-26",
@@ -760,6 +768,19 @@
     "score": 1.0,
     "essay": "It is a remarkable comfort to live in an age where a man no longer needs to carry a heavy burden of ignorance around in his own head, when he can so easily borrow the ignorance of several million complete strangers. If a fellow wishes to know the exact weight of a whale or the year a bad king caught the measles, he needs only consult that great communal inkwell where every passerby is invited to stir the soup. A tailor in Ohio may correct a bishop in London on a matter of divinity, and if the tailor has more time on his hands, his version of God will naturally carry the day. There is something profoundly noble about a system that treats the opinion of a scholar and the notion of a gentleman who has just lost an argument as precise equivalents. It rests upon the charming assumption that if you gather enough people who do not know a thing, their collective guesswork will eventually settle into holy writ. Whenever two men disagree on a fact, a third man, who was not present and knows less than either, settles the matter by writing it down. It has made truth so remarkably accessible that any citizen can possess a fresh version of it before breakfast, provided he does not mind it being thoroughly refuted by tea-time.",
     "generated": "2026-08-29T22:42:44+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini"
+  },
+  {
+    "date": "2026-08-30",
+    "thinker": "russell",
+    "name": "Bertrand Russell",
+    "dates": "1872-1970",
+    "object": "the step counter",
+    "verdict": "digital master",
+    "score": 1.2,
+    "essay": "Walking was once the last refuge of the man who wished to think about nothing at all. Now it has been converted into an audited task. One straps a tiny accountant to one's wrist and sets off, not to admire the scenery, but to satisfy a digital master. I find myself pacing around my own study late at night, not because I have a thought to pursue, but because I am four hundred strides short of an arbitrary figure set by some distant manufacturer. This is an entirely ridiculous way to spend an evening; yet I do it, and feel a foolish satisfaction when the wristband vibrates to signal my compliance. We have grown so terrified of unmeasured leisure that we cannot take a turn in the garden without demanding a balance sheet. The tragedy is not that the body requires exercise, but that we can only persuade ourselves to walk if we pretend we are conducting a piece of arithmetic. A stroll that produces no tally is felt to be wasted effort. If a man cannot enjoy an hour of aimless wandering without requiring a machine to congratulate him at the end, he has lost the art of idleness; and a man who cannot be idle is at the mercy of every silly ambition that presents itself.",
+    "generated": "2026-08-30T22:50:35+00:00",
     "provider": "gemini",
     "scored_by": "gemini"
   }
