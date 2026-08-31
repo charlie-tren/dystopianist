@@ -239,11 +239,12 @@
     "name": "Jane Austen",
     "dates": "1775-1817",
     "object": "dating apps",
-    "verdict": "superficial and exhausting",
-    "score": 2.2,
+    "verdict": "exhausting suspicion",
+    "score": 1.8,
     "essay": "The practice of presenting oneself to the world by means of illuminated likenesses, accompanied by a brief testimonial of one’s temper and expectations, has simplified the business of courtship without rendering it notably more agreeable. A young gentleman, having surveyed a hundred countenances in the space of a quarter of an hour, feels himself fully qualified to judge the propriety of an acquaintance before a single sentence has been exchanged. Should a lady’s inclination happen to coincide with his own, a circumstance signaled by a mutual agreement of the glass, a correspondence is immediately permitted; yet this privilege, being obtained with so little exertion, is commonly held in very slight esteem. It is not unusual for a promising attachment, founded entirely upon the favorable angle of a miniature portrait, to languish into total neglect within three days, as soon as the exertion of maintaining a sensible conversation becomes necessary. The extraordinary facility with which one candidate may be dismissed in favor of another encourages a species of fastidiousness that pretends to high delicacy, whilst in truth it arises merely from an excess of choice. Thus, many a young person remains solitary, not from any lack of offered affections, but from the exhausting suspicion that a superior match must inevitably follow the next turn of the hand.",
     "generated": "2026-08-26T03:09:19+00:00",
-    "provider": "gemini"
+    "provider": "gemini",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-26",
@@ -251,11 +252,12 @@
     "name": "Charles Dickens",
     "dates": "1812-1870",
     "object": "audiobooks",
-    "verdict": "intrigued and unsettled",
-    "score": 5.5,
+    "verdict": "disembodied voices",
+    "score": 4.5,
     "essay": "As I stroll through the bustling streets, my ears are beset on all sides by the murmurs of voices, disembodied and detached from their owners, yet still managing to convey the full force of their emotions. It is a curious thing, this ability to convey the nuances of the human experience through the spoken word alone, without the aid of gestures or facial expressions. I find myself drawn to the sound of these voices, my attention captured by the rise and fall of their inflections, the pause and emphasis that conveys meaning beyond the mere words themselves. And yet, I am also aware of the disconnect between the speaker and the listener, the fact that the voice is not truly present, but rather a recording, a shadow of the real thing. It is a strange and disconcerting experience, one that leaves me feeling both intrigued and unsettled, like a traveller who has stumbled into a unfamiliar land, unsure of the customs or the language.",
     "generated": "2026-08-26T03:09:52+00:00",
-    "provider": "cloudflare"
+    "provider": "cloudflare",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-26",
@@ -264,10 +266,11 @@
     "dates": "1812-1870",
     "object": "the step counter",
     "verdict": "curious spectacle",
-    "score": 5.5,
+    "score": 5.0,
     "essay": "As I stroll through the bustling streets, my gaze falls upon a multitude of individuals, their eyes fixed intently on tiny devices strapped to their wrists, their fingers instinctively reaching up to touch them, as if to reassure themselves of their very presence. It is a curious spectacle, this fascination with the step counter, and one that prompts me to ponder the motivations behind such fervent devotion. Are these individuals driven by a genuine desire to monitor their physical activity, or is it merely a case of succumbing to the whims of a fashionable trend? I watch as they pace, their footsteps quickening, their faces set in determined expressions, and I am struck by the incongruity of it all - this zeal for quantifying every step, every movement, as if the very act of living itself were not enough. And yet, I must confess that I find myself drawn to this peculiar phenomenon, this testament to human ingenuity and our irrepressible desire to measure, to track, and to control.",
     "generated": "2026-08-26T03:10:24+00:00",
-    "provider": "cloudflare"
+    "provider": "cloudflare",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-26",
@@ -275,11 +278,12 @@
     "name": "Emily Dickinson",
     "dates": "1830-1886",
     "object": "self-checkout machines",
-    "verdict": "detached observation",
-    "score": 5.5,
+    "verdict": "mask of efficiency",
+    "score": 3.0,
     "essay": "In the stillness of a store, a lone figure stands before a glassy screen, its fingers dancing across a keypad with a quiet urgency. The soft beep of each item scanned is a gentle reminder of the task at hand, a steady heartbeat that underscores the solitude of this interaction. A sense of detachment settles over the scene, as if the figure is merely a conduit for the flow of goods, a temporary nexus between the shelves and the bag. The machine's calm façade - its blank face a mask of efficiency - belies the intricate web of calculations and verifications that hum beneath its surface, a hidden world of codes and checks that underpin this fleeting transaction. In this brief, shining moment, the boundaries between self and machine are blurred, and the figure becomes an extension of the device, a symbiotic union of flesh and steel that dissolves as soon as the last item is scanned - and the silence that follows is a palpable thing, a physical presence that fills the space left by the absence of human connection.",
     "generated": "2026-08-26T03:10:56+00:00",
-    "provider": "cloudflare"
+    "provider": "cloudflare",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-26",
@@ -288,10 +292,11 @@
     "dates": "1830-1886",
     "object": "the step counter",
     "verdict": "gentle tyranny",
-    "score": 5.5,
+    "score": 5.0,
     "essay": "The step counter's gentle tyranny - it imposes a rhythm on the day, a cadence of footsteps that can be as soothing as a metronome or as jarring as a discordant note. In its presence, the body becomes a kind of instrument, each step a deliberate gesture, a physical manifestation of intention. To wear it is to be reminded of the intricate web of habits and routines that govern our lives, the hidden patterns that shape our movements and our days. The step counter's quiet persistence - a steady heartbeat of measurement and tracking - can be a source of comfort, a reassurance that even in the most mundane moments, something is being counted, something is being noted. And yet, it can also be a source of unease, a nagging sense that every step, every movement, is being watched, weighed, and measured.",
     "generated": "2026-08-26T03:11:27+00:00",
-    "provider": "cloudflare"
+    "provider": "cloudflare",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-26",
@@ -299,11 +304,12 @@
     "name": "Marcel Proust",
     "dates": "1871-1922",
     "object": "anaesthesia",
-    "verdict": "eerie quietude",
-    "score": 8.5,
+    "verdict": "imperceptible beauty",
+    "score": 7.5,
     "essay": "As the sensation of numbness begins to seep into my awareness, like the gentle lapping of waves against a distant shore, I find myself drawn into the peculiar realm of anaesthesia, where the familiar contours of sensation are subtly altered, and the world, once a vibrant tapestry of feeling, is reduced to a muted palette of dulled perceptions, and yet, even as the boundaries of my awareness are thus shifted, I become aware of a strange, almost imperceptible, beauty, a quietude that pervades the space, like the stillness that follows a snowfall, and it is here, in this eerie, suspended landscape, that I begin to grasp the elusive, whispered promise of anaesthesia, a promise that beckons me deeper, into the hidden recesses of its mysterious, twilight world, where the very notion of feeling is transformed, and I, a traveler in this strange land, am left to ponder the enigmatic, whispering shadows that dance upon its walls.",
     "generated": "2026-08-26T03:11:58+00:00",
-    "provider": "cloudflare"
+    "provider": "cloudflare",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-26",
@@ -311,11 +317,12 @@
     "name": "Marcel Proust",
     "dates": "1871-1922",
     "object": "painkillers",
-    "verdict": "gentle solace",
-    "score": 6.4,
+    "verdict": "effortless lightness",
+    "score": 8.2,
     "essay": "As the small, unassuming packet lay before me, its contents waiting to be released from their tightly sealed prison, I found myself pondering the subtle yet profound influence it wielded over our daily lives, a presence as unobtrusive as the gentle hum of a clock in the hallway, yet capable of conjuring entire worlds of relief and solace, much like the soft, golden light that spills from a doorway into a darkened room, illuminating the contours of a space that had previously been shrouded in shadow, and it was this very interplay of light and darkness that seemed to reverberate through my mind, long after my initial glance at the packet had faded into the background of my awareness, and I began to wander through the labyrinthine corridors of memory, guided by the faint, shimmering thread of association that the packet had unwittingly stirred, leading me to contemplate the mysterious, almost alchemical process by which it transformed the leaden weight of suffering into a buoyant, effortless lightness, and the ways in which this transformation, in turn, rippled outward, disturbing the tranquil surface of my thoughts, like the delicate, lace-like patterns that form on the surface of a pond when a stone is cast into its still waters.",
     "generated": "2026-08-26T03:12:59+00:00",
-    "provider": "cloudflare"
+    "provider": "cloudflare",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-26",
@@ -323,11 +330,12 @@
     "name": "Henry David Thoreau",
     "dates": "1817-1862",
     "object": "the hot shower",
-    "verdict": "complex calculus",
-    "score": 5.5,
+    "verdict": "fleeting comfort",
+    "score": 5.0,
     "essay": "As I stood beneath the hot shower's cascade, I pondered the hours of toil that had earned me this fleeting comfort, and whether the respite from the chill of morning was worth the cost of the fuel that warmed the water. The droplets, like tiny messengers, brought news of distant coal mines and the labours of those who delved into the earth to unearth the black stones that fired the boiler. And yet, as the warmth seeped into my skin, I felt a sense of delight, a simple pleasure that was not to be underestimated, for it was a testament to the human desire for comfort and the ingenuity that had made it possible. But how many days of labour, I wondered, had been exchanged for this brief, shining moment, and what other comforts had been forgone in its pursuit? The hot shower, a marvel of modern convenience, stood as a testament to the complex calculus of human desire and the hidden costs of our daily indulgences.",
     "generated": "2026-08-26T03:13:30+00:00",
-    "provider": "cloudflare"
+    "provider": "cloudflare",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-26",
@@ -781,6 +789,19 @@
     "score": 1.2,
     "essay": "Walking was once the last refuge of the man who wished to think about nothing at all. Now it has been converted into an audited task. One straps a tiny accountant to one's wrist and sets off, not to admire the scenery, but to satisfy a digital master. I find myself pacing around my own study late at night, not because I have a thought to pursue, but because I am four hundred strides short of an arbitrary figure set by some distant manufacturer. This is an entirely ridiculous way to spend an evening; yet I do it, and feel a foolish satisfaction when the wristband vibrates to signal my compliance. We have grown so terrified of unmeasured leisure that we cannot take a turn in the garden without demanding a balance sheet. The tragedy is not that the body requires exercise, but that we can only persuade ourselves to walk if we pretend we are conducting a piece of arithmetic. A stroll that produces no tally is felt to be wasted effort. If a man cannot enjoy an hour of aimless wandering without requiring a machine to congratulate him at the end, he has lost the art of idleness; and a man who cannot be idle is at the mercy of every silly ambition that presents itself.",
     "generated": "2026-08-30T22:50:35+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini"
+  },
+  {
+    "date": "2026-08-31",
+    "thinker": "austen",
+    "name": "Jane Austen",
+    "dates": "1775-1817",
+    "object": "Paddington (2014)",
+    "verdict": "alarming precedent",
+    "score": 2.8,
+    "essay": "The readiness with which Mr. Brown surrenders the tranquil governance of his household to a creature of the South American wilderness speaks less of extraordinary benevolence than of that weakness of mind which cannot withstand a persistent display of vulnerability. One must admire the fortitude of Mrs. Brown, who discovers in the total destruction of her bathroom not an occasion for censure, but a compelling proof of the stranger's sweetness of disposition. The animal itself, though possessing a degree of politeness rarely observed in beasts of prey, exhibits a constant conflict between a desire for civilised decorum and an unfortunate attachment to marmalade. That a family of such respectable standing should subject their domestic peace, their furniture, and their very safety to the perils of an uninvited ursine guest must strike the discerning observer as an alarming precedent; yet the spectator is expected to regard this surrender of common sense as the highest form of virtue. Even the villainy of the museum curator, whose zeal for taxidermy is pursued with an unwearied, if misplaced, singularity of purpose, serves only to unite the household in a common fondness for their troublesome charge. Domestic harmony, it appears, is most effectively restored not by prudence or frugality, but by inviting chaos into the drawing-room under the guise of charity.",
+    "generated": "2026-08-31T22:14:15+00:00",
     "provider": "gemini",
     "scored_by": "gemini"
   }
