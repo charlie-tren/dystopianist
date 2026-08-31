@@ -17,7 +17,26 @@ on:
   # continue-on-error and simply tries again the next night. The essays run on
   # Gemini, which does reset at midnight Pacific.
   schedule:
-    - cron: "19 20 * * *"
+    - cron: "19 17 * * *"   # 17:19 UTC / 03:19 AEST - primary
+    #
+    # MOVED 3 HOURS EARLIER, 01/09/2026, and the reason is arithmetic rather than
+    # taste. This cron said 20:19 and the run actually STARTED 22:41, 22:49,
+    # 02:50 and 04:23 on the last four days - GitHub delivers this account's
+    # scheduled work 2 to 6 hours late. The essay was therefore published after
+    # 22:41 UTC, which is 08:41 Sydney, and Charlie reads the site at 07:55. The
+    # hub, which copies these essays in, pulls at 21:53 - BEFORE the generator
+    # had run at all - so it copied yesterday's essay every single day and both
+    # repos logged success.
+    #
+    # Arrival is cron + lateness, so moving the cron earlier moves the arrival
+    # earlier by the same amount: 17:19 plus the observed worst case still lands
+    # around 21:20 UTC, ahead of the hub's pull and ahead of him.
+    #
+    # This narrows the window; it does not close it. The reliable fix is the
+    # heartbeat Worker (site-stats/heartbeat), which fires this from Cloudflare
+    # in a slot BEFORE the hub's pull, so the order is guaranteed rather than
+    # hoped for. Keep both.
+    - cron: "19 21 * * *"   # 21:19 UTC - late backup, in case the primary is dropped
   workflow_dispatch:
   # Fired by the heartbeat Worker (site-stats/heartbeat) from OUTSIDE GitHub
   # Actions. Added 01/09/2026: this cron says 20:19 UTC and has actually been
