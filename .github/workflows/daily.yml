@@ -19,6 +19,16 @@ on:
   schedule:
     - cron: "19 20 * * *"
   workflow_dispatch:
+  # Fired by the heartbeat Worker (site-stats/heartbeat) from OUTSIDE GitHub
+  # Actions. Added 01/09/2026: this cron says 20:19 UTC and has actually been
+  # starting 22:41-22:49, and on two of the last four days 02:50 and 04:23. The
+  # hub pulls these essays at 21:53, so the CONSUMER was running an hour before
+  # the PRODUCER and copied yesterday's essay every single day.
+  #
+  # The step conditions below key on `!= 'workflow_dispatch'`, so a
+  # repository_dispatch runs the essay job without any of them needing to change.
+  repository_dispatch:
+    types: [heartbeat]
     inputs:
       until:
         description: "Top every writer up to this many essays (blank = one essay)"
