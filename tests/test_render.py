@@ -22,7 +22,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-import render                      # noqa: E402
+import render
+import voice                      # noqa: E402
 import styles                      # noqa: E402
 
 ARCHIVE = json.loads((ROOT / "data" / "essays.json").read_text(encoding="utf-8"))
@@ -111,6 +112,37 @@ def paragraphs_never_drop_a_sentence(fails):
     print(f"  {len(ARCHIVE)} essays reflowed, no words lost")
 
 
+def no_paragraph_begins_mid_sentence(fails):
+    """Found on the live site 29/08/2026: a paragraph ended "One must admire the
+    fortitude of Mrs." and the next began "Brown, who discovers...". The splitter broke
+    after any full stop, so a title or an initial started a new paragraph.
+
+    The check above cannot catch this - a mid-sentence split moves no words, so the
+    word count matches perfectly. This one reads the paragraph ENDINGS instead: a
+    paragraph that ends on an abbreviation or an initial did not end on a sentence."""
+    # Written out rather than borrowed from voice, so the test is not checking the
+    # implementation against itself.
+    bad = re.compile(r"(?:\b(?:Mr|Mrs|Ms|Dr|St|Prof|Rev|Sr|Jr|Hon|Capt|Gen|Col"
+                     r"|Sgt|Lt|Ave|No|vs|etc|cf|Fig|Vol|pp|al|Co|Ltd|Inc)"
+                     r"|(?:^|[\s(\"'])[A-Z])\.$")
+    n = 0
+    for e in ARCHIVE:
+        for para in re.findall(r"<p>(.*?)</p>", render.paragraphs(e["essay"]), re.S):
+            n += 1
+            if bad.search(para.strip()):
+                fails.append(f"a paragraph for {e['thinker']}/{e['object']} ends "
+                             f"mid-sentence: ...{para.strip()[-45:]!r}")
+    # And prove the check can fail, because every assertion above is about the archive
+    # as it happens to stand today - an archive with no titles in it would pass this
+    # even with the splitter fully broken.
+    forced = render.paragraphs(
+        "A one. A two. A three. Consider Mrs. Brown and her bathroom. A five. A six. "
+        "A seven. A eight.")
+    if bad.search(re.findall(r"<p>(.*?)</p>", forced, re.S)[0].strip()):
+        fails.append("the splitter still breaks after a title")
+    print(f"  {n} paragraphs, none starting mid-sentence")
+
+
 def build_prunes_what_is_no_longer_real(fails):
     """The 25/08 incident: the renderer only ever ADDED, so a page from a deleted or
     renamed essay survived every rebuild and stayed reachable."""
@@ -197,6 +229,7 @@ def main() -> int:
     for check in (rows_show_the_half_the_heading_does_not,
                   slugs_are_stable_and_unique,
                   paragraphs_never_drop_a_sentence,
+                  no_paragraph_begins_mid_sentence,
                   build_prunes_what_is_no_longer_real,
                   share_cards_are_absolute_and_unique):
         print(f"{check.__name__}:")

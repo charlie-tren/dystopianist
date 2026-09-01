@@ -5,6 +5,8 @@ import html
 import re
 from pathlib import Path
 
+import voice
+
 ROOT = Path(__file__).resolve().parent
 DOCS = ROOT / "docs"
 
@@ -256,8 +258,12 @@ def slug(entry: dict) -> str:
 
 def paragraphs(essay: str) -> str:
     """The model returns one block. Break it into three-ish paragraphs on sentence
-    boundaries so the page is readable rather than a wall of text."""
-    sents = re.split(r"(?<=[.!?])\s+", essay.strip())
+    boundaries so the page is readable rather than a wall of text.
+
+    The boundaries come from voice.sentences rather than a local regex, because this
+    module had its own copy and it broke after any full stop at all - so a title or an
+    initial started a new paragraph mid-sentence."""
+    sents = voice.sentences(essay)
     if len(sents) < 4:
         return f"<p>{html.escape(essay)}</p>"
     per = max(2, round(len(sents) / 3))

@@ -19,9 +19,31 @@ FIRST_PERSON = re.compile(r"\b(I|me|my|mine|myself)\b")
 SECOND_PERSON = re.compile(r"\b(you|your|yours|yourself)\b")
 
 
+# A full stop is not a sentence boundary after a title, an abbreviation or an initial.
+# Splitting on one anyway is what put "One must admire the fortitude of Mrs." at the end
+# of a paragraph and started the next with "Brown, who discovers...", found on the live
+# site 29/08/2026. The list is deliberately short: only forms these writers actually
+# use. Single capital letters cover initials - "H. G. Wells", "T. S. Eliot", "K." - and
+# are the most common case here by some way.
+ABBREV = (r"Mr|Mrs|Ms|Dr|St|Prof|Rev|Sr|Jr|Hon|Capt|Gen|Col|Sgt|Lt|Ave|No|vs|etc"
+          r"|e\.g|i\.e|cf|approx|Fig|Vol|pp|al|Co|Ltd|Inc")
+_SPLIT = re.compile(r"(?<=[.!?])\s+(?!\s)")
+_NO_BREAK = re.compile(rf"(?:\b(?:{ABBREV})|(?:^|[\s(\"'])[A-Z])\.$")
+
+
 def sentences(text: str) -> list[str]:
-    parts = re.split(r"(?<=[.!?])\s+", text.strip())
-    return [p for p in parts if p.strip()]
+    """Split on sentence boundaries, keeping abbreviations and initials intact.
+
+    Used for BOTH the rendered paragraphs and the voice fingerprint, because a
+    mis-split is two bugs: a paragraph that begins mid-sentence, and a sentence-length
+    average pulled down by fragments that were never sentences."""
+    out = []
+    for part in _SPLIT.split(text.strip()):
+        if out and _NO_BREAK.search(out[-1]):
+            out[-1] += " " + part
+        else:
+            out.append(part)
+    return [p for p in out if p.strip()]
 
 
 def fingerprint(text: str) -> dict:
