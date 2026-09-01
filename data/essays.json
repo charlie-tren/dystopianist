@@ -447,11 +447,12 @@
     "name": "Virginia Woolf",
     "dates": "1882-1941",
     "object": "Wikipedia",
-    "verdict": "fluid collaboration",
-    "score": 6.4,
+    "verdict": "contradictory nature",
+    "score": 5.5,
     "essay": "As we navigate the labyrinthine corridors of knowledge, we find ourselves confronting a vast and ever-shifting entity, one that embodies the collective efforts of countless individuals. It is an entity that defies traditional notions of authorship and authority, instead embracing a fluid, collaborative ethos. We see in it a reflection of our own desires for connection and understanding, a desire to transcend the limitations of individual perspective and tap into the wisdom of the crowd. And yet, as we delve deeper into its depths, we begin to discern the outlines of a more complex, even contradictory, nature: a simultaneous pursuit of precision and fragmentation, of comprehensiveness and dispersal. In this entity, we find a microcosm of our own struggles to make sense of the world, to impose order upon chaos, and to reconcile the disparate threads of human experience.",
     "generated": "2026-08-26T03:19:09+00:00",
-    "provider": "cloudflare"
+    "provider": "cloudflare",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-26",
@@ -459,11 +460,12 @@
     "name": "Friedrich Nietzsche",
     "dates": "1844-1900",
     "object": "LinkedIn",
-    "verdict": "profound solitude",
-    "score": 1.5,
+    "verdict": "fabricated familiarity",
+    "score": 1.0,
     "essay": "The accumulation of profiles on LinkedIn serves as a testament to the human desire for validation, a craving that is sated by the relentless pursuit of connections and endorsements. It is here that individuals seek to establish their existence, to proclaim their skills and accomplishments to a vast and largely indifferent audience. And yet, in this digital landscape, one finds a peculiar sort of intimacy: the fabricated familiarity that arises from the exchange of brief, formulaic messages, the likes and comments that simulate a sense of community. But what lies beneath this veneer of connection is a profound solitude, a disconnection from the very essence of human experience, reduced to a series of calculated transactions and strategic alignments. In this realm, the individual is diminished, subsumed by the imperatives of self-promotion, and the distinctions between authenticity and artifice are willfully obscured.",
     "generated": "2026-08-26T03:19:39+00:00",
-    "provider": "cloudflare"
+    "provider": "cloudflare",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-26",
@@ -471,11 +473,12 @@
     "name": "Walt Whitman",
     "dates": "1819-1892",
     "object": "the hot shower",
-    "verdict": "soothing hum",
+    "verdict": "comforting heat",
     "score": 8.5,
     "essay": "The warm water cascades down - droplets on skin, rivulets on shoulders, trickles down the spine; the sound of it - a steady drumbeat, a soothing hum, a gentle roar; the feel of it - warmth seeping into muscles, relaxation spreading through limbs, tension easing out of the body; the scent of soap and shampoo - fragrant, pungent, sweet; the steam rises - a misty veil, a cloudy shroud, a damp aura; the showerhead above - a metallic flower, a perforated disk, a sprinkle of tiny holes; water pools on the floor - a small lake, a tiny tide, a miniature ocean; the drain swallows it - a gaping mouth, a hungry throat, a swallowing vortex; the warmth lingers - a gentle glow, a soothing ember, a comforting heat.",
     "generated": "2026-08-26T03:51:26+00:00",
-    "provider": "cloudflare"
+    "provider": "cloudflare",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-26",
@@ -483,11 +486,12 @@
     "name": "Friedrich Nietzsche",
     "dates": "1844-1900",
     "object": "painkillers",
-    "verdict": "steep price",
-    "score": 2.5,
+    "verdict": "a steep price",
+    "score": 3.0,
     "essay": "Painkillers are a curious thing: they reveal to us the depth of our desire to escape, to flee from the burdens of existence. In taking them, we acknowledge that our lives are not entirely our own, that we are subject to the whims of our bodies and the cruel hand of fate. And yet, in this surrender, we find a strange sort of freedom: the freedom to momentarily forget, to push aside the nagging doubts and fears that plague us. But what does this say about us, that we would rather numb ourselves than face the darkness head-on? That we would trade the sharp sting of reality for a dull haze of comfort? It is a bargain, to be sure, but one that comes with a steep price: the price of our own authenticity, our own true experience of the world. For in avoiding pain, we also avoid the depths of our own humanity.",
     "generated": "2026-08-26T04:17:30+00:00",
-    "provider": "cloudflare"
+    "provider": "cloudflare",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-26",
@@ -499,7 +503,8 @@
     "score": 4.5,
     "essay": "I am currently on intimate terms with two men named Dan who live in Brooklyn and spend two hours every Tuesday explaining the minor characters in 1970s movies. I have never met either Dan. If I passed them outside Fairway on 74th Street, I would not recognize their faces, though I know precisely how Dan Number One takes his espresso and that Dan Number Two has a deeply tragic relationship with his landlord. I listen to them while I fold fitted sheets, while I wipe down the counters, and while I wait for the elevator. The theory is that you are enriching your mind while doing the laundry, which is a comforting fiction invented by those of us who cannot bear thirty seconds of silence in a kitchen. Yesterday morning, a very serious woman with a lovely voice spent forty-five minutes explaining the fall of the Austro-Hungarian Empire directly into my left ear. I bought four lemons and walked all the way to 86th Street, perfectly convinced I was becoming an intellectual. Then I got home and realized I had listened to the entire thing without hearing a single word, because I was thinking about my neck. My neck looked fine. The empire was still gone.",
     "generated": "2026-08-26T23:45:07+00:00",
-    "provider": "gemini"
+    "provider": "gemini",
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-27",
@@ -559,12 +564,12 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "Shrek (2001)",
-    "verdict": "quiet luxury",
-    "score": 8.5,
+    "verdict": "comfortably monstrous",
+    "score": 8.8,
     "essay": "To insist upon one’s own ugliness in a world obsessed with decorative virtue is not merely a breach of etiquette; it is the highest form of self-respect. The green creature of the swamp understands what the romantic poets so foolishly forgot: that solitude is only charming when it is thoroughly uninviting. He does not ask for our affection, which is precisely why he receives our fascination. The tragedy of the modern fairy tale has always been its insistence on perfection, a defect most dreadfully embodied by the diminutive lord who builds a kingdom of terrifying symmetry. Yet how exquisite that our heroine finds redemption not by elevating her monster, but by descending to his delightfully coarse level. The illusion itself—rendered with a mathematical precision that pretends to be mere buffoonery—demands that we mock the very romance we are secretly relieved to see destroyed. It asks the audience to abandon the exhausting duty of admiring beauty, offering instead the quiet luxury of contentment in the mud. There is something profoundly civilized about an enchanted princess who chooses to remain comfortably monstrous, for it proves that true romance lies not in transforming the beast, but in admitting that beauty was always an unnecessary complication.",
     "generated": "2026-08-27T23:36:45+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare"
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-29",
@@ -611,12 +616,12 @@
     "name": "Julia Child",
     "dates": "1912-2004",
     "object": "the washing machine",
-    "verdict": "marvellous job",
-    "score": 7.4,
+    "verdict": "splendidly vigorous",
+    "score": 8.5,
     "essay": "Look at the drum and stop panicking about the dial. What you have here is a splendidly vigorous tub that will do all the heavy sloshing for you, provided you give it proper instructions. The real work was never the rubbing anyway; it was knowing what can stand a boiling soak and what will shrink to the size of a tea cozy if you turn your back on it. People dump a mountain of heavy denim in with delicate woolens, set the temperature to warm out of sheer timid indecision, and then express surprise when the whole mess comes out grey and miserable. That is not the machine's fault! It merely obeys whatever foolishness you dial into it. Sort your whites properly, give the heavily soiled collars a good stiff rub with soap before you begin, and for heaven's sake use enough water to let the things tumble freely. A jammed tub accomplishes nothing except a great deal of strain on the motor. Once you understand that it is an assistant rather than a miracle worker, you will find it does a perfectly marvellous job, leaving you free to attend to far more interesting business.",
     "generated": "2026-08-29T02:56:54+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare"
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-29",
@@ -624,12 +629,12 @@
     "name": "Emily Dickinson",
     "dates": "1830-1886",
     "object": "emojis",
-    "verdict": "fleeting appreciation",
-    "score": 7.4,
+    "verdict": "residue of feeling",
+    "score": 7.2,
     "essay": "The mind assigns a fleeting life to these tiny messengers, as if their existence depended on the whims of our attention - a brief glance and they are born, another and they expire. In the crowded marketplace of human expression, they jostle for position, each one a concentrated gesture, a distillation of sentiment. Their appeal lies not in their durability, but in their ephemerality, for they can be summoned and dismissed with equal ease, leaving behind only the faintest impression of their presence. The fingers that summon them move with a rapidity that belies the complexity of emotions they convey, as if the very act of creation were a form of impermanence. And yet, despite their transience, they accumulate, a residue of feeling that clings to the digital ether, a reminder that even the most fleeting expressions can leave an indelible mark.",
     "generated": "2026-08-29T02:57:54+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare"
+    "scored_by": "gemini"
   },
   {
     "date": "2026-08-29",
@@ -823,6 +828,19 @@
     "score": 0.5,
     "essay": "The grey-faced bastards in the blue polyester shirts have finally perfected the art of the pre-flight strip search. They stand under the fluorescent tubes with their rubber gloves and their little plastic bins, demanding my belt, my shoes, and my soul before I even get a whiff of jet fuel. It is a massive, mechanized humiliation engine designed by terrified middle-managers to ensure that every free citizen walks through the steel archway looking like a plucked chicken, shivering in his socks while a machine that costs more than a small country scans his liver for treason. You stand in line behind three generations of frightened tourists, shuffling forward three inches at a time while some twenty-two-year-old tyrant with a badge checks your ticket for signs of original sin. It is pure totalitarian theater. The whole brutal circus operates on the insane premise that anyone trying to catch a flight to Denver is a feral saboteur until proven innocent by a glowing blue tube. They want you naked, docile, and broken. I watched a man lose a small bottle of shampoo like it was nitroglycerin, and the crowd just nodded along like sheep. The machine eats your self-respect and vomits out permission to fly.",
     "generated": "2026-09-01T19:57:47+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini"
+  },
+  {
+    "date": "2026-09-01",
+    "thinker": "austen",
+    "name": "Jane Austen",
+    "dates": "1775-1817",
+    "object": "the washing machine",
+    "verdict": "secret satisfaction",
+    "score": 8.5,
+    "essay": "To relieve the female arm of its most laborious domestic duty must be regarded as an act of considerable mercy, though it deprives the lower order of cottagers of their most reliable source of honest income. That an iron cabinet, supplied with water and lather, should accomplish in an hour what formerly occupied three stout maidservants for a day, is an invention which few housewives can contemplate without secret satisfaction. The modern lady need no longer choose between the sacrifice of her skin and the neglect of her petticoats. She deposits her garments within the dark chamber, turns a modest brass dial, and leaves her linens to be churned in violent solitude, returning presently to find them restored to immaculate purity without a single sigh having been uttered in her presence. Such convenience, however, is not entirely without its moral inconvenience. In eliminating the arduous toil of the wash-tub, it has likewise removed that wholesome trial of patience which once taught young women the fortitude necessary for enduring a tedious husband. Yet when one considers the pristine brightness of the muslin thus produced, it becomes exceedingly difficult to regret the loss of so useful a virtue.",
+    "generated": "2026-09-01T20:31:27+00:00",
     "provider": "gemini",
     "scored_by": "gemini"
   }
