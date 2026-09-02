@@ -229,9 +229,35 @@ jobs:
         if: ${{ !cancelled() }}
         run: python tests/test_critic.py
 
+      # Read published essays back and write the faults into the writer's own Avoid
+      # list, which is where the next essay by that writer will read them. Three a
+      # night, oldest unchecked first, so it works through the archive instead of
+      # re-reading yesterday's essay forever.
+      #
+      # AFTER the essay, so a spent quota costs a critique rather than a publication.
+      # continue-on-error because this is the improvement loop, not the product: a day
+      # with no critique is a day, a day with no essay is a gap on the page.
+      #
+      # NOTE the Commit step below now stages `styles` as well as `data` and `docs`.
+      # Without that this step would rewrite styles/*.md every night, the commit would
+      # ignore it, and the job would go green having improved nothing - the whole loop
+      # would be a no-op that looked like it was working.
+      - name: Re-read published essays into the style files
+        if: ${{ !cancelled() }}
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        run: python tools/reread.py --n 3
+
       - name: Does the renderer do what it says
         if: ${{ !cancelled() }}
         run: python tests/test_render.py
+
+      - name: Does the re-read loop only write evidence
+        if: ${{ !cancelled() }}
+        run: python tests/test_reread.py
 
       - name: Is the score scale intact
         if: ${{ !cancelled() }}
@@ -258,7 +284,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data docs
+          git add data docs styles
           if git diff --cached --quiet; then
             echo "nothing changed"
             exit 0
@@ -269,7 +295,7 @@ jobs:
             echo "push attempt $attempt lost a race - replaying onto master"
             git fetch origin master || true
             git reset --soft origin/master
-            git add data docs
+            git add data docs styles
             git diff --cached --quiet && exit 0
             git commit -m "essays: $(date -u +%Y-%m-%d)"
             sleep 3
