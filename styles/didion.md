@@ -36,6 +36,8 @@ Source: pastiche written for this repo (still in copyright)
 - Adjectives doing the emotional work. The dread is in what she reports, not what she calls it.
 - California. The object could be anywhere and usually is.
 
+- The use of the word 'violence' to describe the situation is too explicit, a reader of Joan Didion would have expected a more subtle implication of the tension. Seen in a published essay: "You do not leave the room because leaving is an act of violence. Staying is also an act of violence, but it is a quiet one." (found 2026-09-02).
+- The direct statement of the point being made is too on-the-nose, a reader of Joan Didion would have expected the implication to be left unstated, allowing the reader to infer the meaning. Seen in a published essay: "Nothing was ever an emergency. That was the point." (found 2026-09-02).
 ## Log
 
 - 25/08/2026 - migrated from config/thinkers.yaml; Avoid list seeded from the first batch.

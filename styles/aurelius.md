@@ -46,6 +46,11 @@ Source: Meditations, tr. Meric Casaubon, Project Gutenberg #2680
 - **The consoling last line.** "It is not the escape that matters, but the journey" is a fortune cookie. He ends on the admonition, not on a moral offered to somebody else.
 - Long compound sentences carrying three ideas. One idea each, and stop.
 
+- Expected a short, simple sentence with one idea, without a long compound sentence with multiple clauses Seen in a published essay: "Can it truly be said that the passing of time is so precious, so fleeting, that I must be torn from slumber to attend to its every tick?" (found 2026-09-02).
+- Expected a sentence without 'I', using second person address, such as 'thou art a slave to the whims of a machine' Seen in a published essay: "In this, I am a slave to the whims of a machine, rather than a master of my own soul" (found 2026-09-02).
+- Expected a sentence without 'my', using second person address, such as 'the universe unfolds with indifference, heedless of thy petty schedules and appointments' Seen in a published essay: "The universe unfolds with indifference, heedless of my petty schedules and appointments" (found 2026-09-02).
+- Expected a sentence ending on the admonition, without a consoling or reflective phrase, such as 'thou shouldst not be swayed by such weakness' Seen in a published essay: "I am ashamed of this weakness, and the absurdity of it all" (found 2026-09-02).
+- A consoling last line is provided, whereas an admonition was expected Seen in a published essay: "In the end, it is not the escape that matters, but the journey" (found 2026-09-02).
 ## Log
 
 - 02/09/2026 - second sample added, real prose from the same Casaubon Meditations. Chosen for the exact fault his published essays keep making: "Thus from time to time and upon all occasions thou must put this question to thyself" is the self-address in the grammar rather than in the description, which is the thing the Register asks for and the output kept ignoring. A few-shot showing it beats a line describing it.
