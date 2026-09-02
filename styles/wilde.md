@@ -38,4 +38,6 @@ Source: Preface to The Picture of Dorian Gray (1891), Project Gutenberg #174
 
 ## Log
 
+- 02/09/2026 - considered for a second sample and DELIBERATELY LEFT AT ONE. The four candidates tools/gutenberg_shots.py returns for him are all mid-novel narration from Dorian Gray - a painter feeling strangely moved, a description of Venice - and none of it is the register this site wants. His essayistic voice is the epigram, which lives in the preface, and the tool samples from 25-70% through a book by design. A second sample of third-person novel description would actively teach the wrong voice, so no sample beats a bad one. If he is to get a second, it has to come from the preface or the essays, not from this tool as configured.
+
 - 25/08/2026 - migrated from config/thinkers.yaml; Avoid list seeded from the first batch.

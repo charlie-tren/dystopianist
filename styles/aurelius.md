@@ -31,6 +31,12 @@ Source: Meditations, tr. Meric Casaubon, Project Gutenberg #2680
 
 > What art and profession soever thou hast learned, endeavour to affect it, and comfort thyself in it; and pass the remainder of thy life as one who from his whole heart commits himself and whatsoever belongs unto him, unto the gods: and as for men, carry not thyself either tyrannically or servilely towards any.
 
+### 2
+
+Source: Meditations, tr. Meric Casaubon, Project Gutenberg #2680
+
+> What is the use that now at this present I make of my soul? Thus from time to time and upon all occasions thou must put this question to thyself; what is now that part of mine which they call the rational mistress part, employed about? Whose soul do I now properly possess? a child's? or a youth's? a woman's? or a tyrant's? some brute, or some wild beast's soul?
+
 ## Avoid
 
 - Naming Rome, gods, or emperors. The register is the point, not the setting.
@@ -41,6 +47,8 @@ Source: Meditations, tr. Meric Casaubon, Project Gutenberg #2680
 - Long compound sentences carrying three ideas. One idea each, and stop.
 
 ## Log
+
+- 02/09/2026 - second sample added, real prose from the same Casaubon Meditations. Chosen for the exact fault his published essays keep making: "Thus from time to time and upon all occasions thou must put this question to thyself" is the self-address in the grammar rather than in the description, which is the thing the Register asks for and the output kept ignoring. A few-shot showing it beats a line describing it.
 
 - 02/09/2026 - Avoid list rewritten from the two published essays, both by the fallback
   model. The Register was already right and specific; the output simply ignored it, so

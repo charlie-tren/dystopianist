@@ -31,11 +31,19 @@ Source: The Trial, tr. David Wyllie, Project Gutenberg #7849
 
 > At last, K. was by himself. It did not enter his head to show anyone else into his office and only became vaguely aware of how nice it was that the people outside thought he was still negotiating with the manufacturer and, for this reason, he could not let anyone in to see him, not even the servitor.
 
+### 2
+
+Source: The Trial, tr. David Wyllie, Project Gutenberg #7849
+
+> It was hardly long enough or broad enough to make two steps. Everything, floor, walls and ceiling, was made of wood, between the planks narrow gaps could be seen. Across from where K. was, the bed stood against the wall under a covering of many different colours. In the middle of the room a picture stood on an easel, covered over with a shirt whose arms dangled down to the ground. Behind K. was the window through which the fog made it impossible to see further than the snow covered roof of the neighbouring building.
+
 ## Avoid
 
 - Waking up transformed, or any nod to Metamorphosis. Mistral did this unprompted.
 - Naming the protagonist anything other than a single letter.
 
 ## Log
+
+- 02/09/2026 - second sample added from the same Wyllie translation. Chosen as the flat exact accumulation of detail about a room, because the site asks him to describe an object and the first sample is all interiority. The oppressiveness is in the inventory, not in any adjective.
 
 - 25/08/2026 - migrated from config/thinkers.yaml; Avoid list seeded from the first batch.

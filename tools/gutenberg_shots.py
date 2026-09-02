@@ -52,6 +52,15 @@ BOOKS = {
     "tolstoy":   (64908, "What Is Art?"),
 }
 
+# A NOVELIST IS NOT AN ESSAYIST, and sampling at 25-70% through the book cannot tell
+# the difference. That spread is right for Walden, Specimen Days and The Uncommercial
+# Traveller, where any page is the writer thinking aloud. It fails for Wilde: every
+# candidate it returns from Dorian Gray is third-person narration, and his essayistic
+# register - the epigram - is in the PREFACE, which the spread skips. Kafka survives
+# the same treatment only because his narration IS his voice.
+# So when adding a fiction-only writer here, read the candidates against what the site
+# actually asks for (a view on an object) before taking one. Wilde was left on a single
+# sample on 02/09/2026 for exactly this reason: no second sample beats a wrong one.
 # Project Gutenberg Australia, which is a different site with a different rule:
 # life + 70 rather than a US publication date. Orwell cleared there in 2021.
 AU = {"orwell": ("http://gutenberg.net.au/ebooks03/0300011h.html", "Fifty Orwell Essays")}
