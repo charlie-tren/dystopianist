@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import re
 
+import critic
 import llm
 
 # The instruction stays SHORT on purpose. The register comes from the samples, and a
@@ -70,7 +71,7 @@ Rules:
   real answers; "the notion is intriguing, though its applications are unclear" is
   not one of them. A sentence that could sit in any of these writers' mouths belongs
   in none of them.
-{avoid}
+{spelling}{avoid}
 HOW {upper} WRITES. This is the part to get right - the rest is housekeeping.
 
 {note}
@@ -111,7 +112,10 @@ where 0 is total contempt and 100 is unreserved delight.
   words from the prose where you can. "solemn humbug", "a clean limbo", "counterfeit
   suffering" are verdicts. "mild praise", "mixed feelings", "vague appreciation",
   "ambivalent observation" are grades, and are not. Never describe the essay; name
-  the thing it is describing.
+  the thing it is describing. British and Australian spelling, whoever the writer is:
+  theatre not theater, anaesthesia not anesthesia, catalogue not catalog. The verdict
+  prints in a column beside sixty-five others, so it is the site's spelling and not
+  the essay's.
 - Judge the STANCE, not the surface vocabulary. Calm, level or affectless prose
   about something the writer plainly finds ominous is not approval. Kafka writing
   that a device waits "quietly, patiently" for the moment to strike is describing
@@ -155,7 +159,22 @@ def build_prompt(thinker: dict, obj: str, words: str, kind=None) -> str:
         opening_short=("on the film " + obj + "." if kind == "film"
                        else "on " + obj + "."),
         assume=ASSUME.get(kind, ASSUME[None]).format(object=obj),
-        samples=samples, note=thinker["note"].strip(), words=words, avoid=avoid)
+        samples=samples, note=thinker["note"].strip(), words=words, avoid=avoid,
+        spelling=spelling_rule(thinker))
+
+
+def spelling_rule(thinker: dict) -> str:
+    """One line, and only for the writers it is true of.
+
+    The models spell American by default, and critic.py rejects that in the thirteen
+    writers who were not American - so without this the gate is paid for with a whole
+    re-roll every time it fires. Eleven of the roster ARE American and get no line at
+    all: telling Twain to write "labour" would be the same mistake pointing the other
+    way, and an instruction that is wrong for half the roster is worse than none."""
+    if thinker.get("id") in critic.AMERICAN:
+        return ""
+    return ("- British and Australian spelling, not American: labour, neighbour, "
+            "theatre, realise, civilised.\n")
 
 
 def build_score_prompt(thinker: dict, obj: str, essay: str) -> str:

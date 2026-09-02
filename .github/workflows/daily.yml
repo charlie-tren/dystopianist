@@ -152,6 +152,25 @@ jobs:
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
         run: python tools/rescore.py --limit 8
 
+      # Rewrite the essays that today's filler gates would refuse to publish. Twelve
+      # of the sixty-six, every one of them written by the fallback model on a night
+      # Gemini's quota was spent, because the gates only ever applied to what came
+      # after them. Two a night: the cap is the free tier, and this comes after both
+      # the day's essay and the score drain so neither is starved by a repair queue.
+      #
+      # It refuses the fallback's work outright rather than writing it, and it keeps
+      # the original whenever the rewrite fails the same gates - so the backlog can
+      # only empty by actually being fixed. Nothing to disable once it converges: the
+      # list is derived from the gates, so a clean archive makes it a no-op.
+      - name: Rewrite the essays with no voice in them
+        if: ${{ !cancelled() }}
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        run: python tools/revoice.py --limit 2
+
       # Verdicts that came back as grades rather than as the writer's own words.
       # Manual only: it re-reads published essays, which is not something a nightly
       # job should do to a page that is already correct.
@@ -258,6 +277,16 @@ jobs:
       # Runs every night because the passages are rebuilt from whatever was written
       # that night. A new essay naming its own author would hand the game away, and
       # nothing else on the site would look wrong.
+      # The half that matters here is the false positives: a gate that "corrects"
+      # Mark Twain's spelling would pass every obvious test and be worse than none.
+      - name: Australian where it should be, American where it should be
+        if: ${{ !cancelled() }}
+        run: python tests/test_spelling.py
+
+      - name: Can the rewrite drain only empty by fixing things
+        if: ${{ !cancelled() }}
+        run: python tests/test_revoice.py
+
       - name: Is the guessing game still a test of the prose
         if: ${{ !cancelled() }}
         run: python tests/test_guess.py

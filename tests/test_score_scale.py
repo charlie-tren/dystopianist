@@ -22,7 +22,9 @@ sys.path.insert(0, str(ROOT))
 import llm                          # noqa: E402
 import write as write_stage         # noqa: E402
 
-THINKER = {"name": "George Orwell", "dates": "1903-1950"}
+# `id` is required: critic.check keys the spelling gate on it, and reports a
+# missing one rather than guessing, so a fixture without it fails loudly.
+THINKER = {"id": "orwell", "name": "George Orwell", "dates": "1903-1950"}
 
 
 def _score_returning(payload):

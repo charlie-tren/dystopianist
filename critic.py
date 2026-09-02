@@ -8,6 +8,62 @@ import voice
 
 MIN_WORDS, MAX_WORDS = 120, 300
 
+# --- spelling -----------------------------------------------------------------
+# Eleven of the twenty-four writers are American and thirteen are not, and the models
+# spell American by default. Orwell writing "labor" and Kafka "mechanized" is a
+# pastiche error of the same kind as a date or a modern word; Twain writing "labor"
+# is correct and must never be touched. So this is keyed on the WRITER, not applied
+# to the site - which is why it lives beside the anachronism tells rather than in a
+# tidy-up script.
+#
+# Measured over the 66 published essays: seven instances across five writers, all of
+# them in the non-American half - orwell, russell and tolstoy on "labor", montaigne
+# and russell on "neighbor", kafka on "mechanized", nietzsche on "anesthesia".
+AMERICAN = {"bourdain", "child", "dickinson", "didion", "ephron", "franklin",
+            "thompson", "thoreau", "twain", "wallace", "whitman"}
+
+# Deliberately conservative. Every entry here is wrong in Australian English in every
+# context. The near misses that are NOT in the list, and why:
+#   practice  a noun, and correct as one; only the verb is "practise"
+#   program   Australian usage keeps "program"
+#   gray      a valid variant, and a surname
+#   meter     correct for the device, wrong only for the unit
+#   story     a floor is a storey, a tale is a story
+US_SPELLING = {
+    "theater": "theatre", "color": "colour", "colors": "colours",
+    "colored": "coloured", "honor": "honour", "honored": "honoured",
+    "labor": "labour", "labors": "labours", "neighbor": "neighbour",
+    "neighbors": "neighbours", "favorite": "favourite", "flavor": "flavour",
+    "odor": "odour", "rumor": "rumour", "splendor": "splendour",
+    "vapor": "vapour", "behavior": "behaviour", "defense": "defence",
+    "offense": "offence", "pretense": "pretence", "center": "centre",
+    "centers": "centres", "fiber": "fibre", "somber": "sombre",
+    "traveled": "travelled", "traveling": "travelling", "canceled": "cancelled",
+    "marveled": "marvelled", "anesthesia": "anaesthesia",
+    "anesthetic": "anaesthetic", "esthetic": "aesthetic", "maneuver": "manoeuvre",
+    "plow": "plough", "catalog": "catalogue", "dialog": "dialogue",
+    "analog": "analogue", "mold": "mould", "smolder": "smoulder",
+    "realize": "realise", "realized": "realised", "organize": "organise",
+    "organized": "organised", "recognize": "recognise",
+    "recognized": "recognised", "apologize": "apologise", "analyze": "analyse",
+    "mechanized": "mechanised", "civilization": "civilisation",
+    "civilized": "civilised", "sterilized": "sterilised",
+    "memorialize": "memorialise", "criticize": "criticise",
+    "sympathize": "sympathise", "emphasize": "emphasise",
+}
+_US = re.compile(r"\b(" + "|".join(sorted(US_SPELLING)) + r")\b", re.I)
+
+
+def us_spellings(text: str) -> list[tuple[str, str]]:
+    """Every American spelling in `text`, as (found, Australian form)."""
+    seen, out = set(), []
+    for m in _US.finditer(text or ""):
+        w = m.group(1).lower()
+        if w not in seen:
+            seen.add(w)
+            out.append((m.group(1), US_SPELLING[w]))
+    return out
+
 # Phrases that give away the pastiche as pastiche, or that are the model talking
 # about the task instead of doing it.
 TELLS = [
@@ -34,6 +90,13 @@ def check(essay: str, thinker: dict, shots: dict[str, str],
         problems.append(f"score {score!r}, want 0-10")
     if not 1 <= len(verdict.split()) <= 3:
         problems.append(f"verdict {verdict!r}, want one to three words")
+    # The verdict is the SITE speaking, not the writer: it prints in a column beside
+    # sixty-five others, under a heading in the site's own voice. So it is Australian
+    # English whoever the essay is by - a column carrying both "theater" and "theatre"
+    # reads as a mistake rather than as characterisation. Five of the sixty-six were
+    # American: catalog, organized, anesthesia, mechanized, theater.
+    for found, au in us_spellings(verdict):
+        problems.append(f"verdict spells {found!r}, want {au!r}")
     if re.search(r"\d(?:\.\d)?\s*(?:/|out of)\s*(?:10|ten)|\bten out of ten\b",
                  essay, re.I):
         problems.append("states a score in the essay")
@@ -57,6 +120,17 @@ def check(essay: str, thinker: dict, shots: dict[str, str],
     for t in TELLS:
         if t in essay.lower():
             problems.append(f"anachronism tell: {t!r}")
+    # American spelling in a writer who was not American. See AMERICAN above: this is
+    # a fault in Orwell and correct in Twain, so it is keyed on the writer.
+    # A missing id is reported rather than shrugged off. Defaulting either way is a
+    # silent failure: assume American and the gate is off for a writer who needs it,
+    # assume not and it fires on one who does not. Neither shows up in a green run.
+    if "id" not in thinker:
+        problems.append("thinker has no id, so the spelling gate cannot run")
+    elif thinker["id"] not in AMERICAN:
+        for found, au in us_spellings(essay):
+            problems.append(f"American spelling {found!r} in a writer who was not, "
+                            f"want {au!r}")
     if essay.count('"') > 6:
         problems.append("reads as dialogue, not an essay")
 
