@@ -255,6 +255,13 @@ jobs:
         if: ${{ !cancelled() }}
         run: python tests/test_render.py
 
+      # Runs every night because the passages are rebuilt from whatever was written
+      # that night. A new essay naming its own author would hand the game away, and
+      # nothing else on the site would look wrong.
+      - name: Is the guessing game still a test of the prose
+        if: ${{ !cancelled() }}
+        run: python tests/test_guess.py
+
       - name: Does the re-read loop only write evidence
         if: ${{ !cancelled() }}
         run: python tests/test_reread.py

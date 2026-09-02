@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import html
+import json
 import re
 from pathlib import Path
 
@@ -90,6 +91,12 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .tabs a{color:var(--faint);text-decoration:none;padding-bottom:.4rem;border-bottom:2px solid transparent}
 .tabs a:hover{color:var(--ink)}
 .tabs a[aria-current]{color:var(--ink);border-bottom-color:var(--accent)}
+/* A fourth tab does not fit at the desktop gap on a small phone: measured at 320px,
+   294px of tabs into a 275px box, with "Guess" and half its underline off the right
+   edge. The row is uppercase and letter-spaced, so the space between the words is
+   where the slack is, not in the words. Applied at 400 rather than 320 because 375
+   was fitting with nothing to spare. */
+@media (max-width:400px){.tabs{gap:1rem;letter-spacing:.1em}}
 .chips{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 2.4rem;padding:0;list-style:none}
 .chips a{display:inline-block;text-decoration:none;border:1px solid var(--rule);
   border-radius:999px;padding:.42rem .8rem;font:500 13px/1 var(--sans);color:var(--dim)}
@@ -142,6 +149,39 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
   .titled .face{width:58px;height:58px}
 }
 .chips .chip-off{display:inline-flex;align-items:center;gap:.45rem;border:1px dashed var(--rule);border-radius:999px;padding:.42rem .8rem;font:500 13px/1 var(--sans);color:var(--faint)}
+/* --- Guess the writer ---------------------------------------------------
+   The options are the same portrait pill as the writers roster, two to a row, on the
+   same fixed grid, because they are the same thing: a list of writers to choose
+   between. Colour here only ever means right or wrong, never decoration. */
+.qprog{font:500 11px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;
+  color:var(--faint);margin:0 0 1.2rem}
+.qtext{margin:0 0 1.9rem;padding:0 0 0 1.1rem;border-left:2px solid var(--rule);
+  font-size:1.12rem}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:.8rem;margin:0 0 1.5rem;
+  padding:0;list-style:none}
+.opts button{display:flex;align-items:center;gap:.8rem;width:100%;height:66px;
+  padding:0 .9rem 0 0;appearance:none;cursor:pointer;background:transparent;
+  color:var(--dim);border:1px solid var(--rule);border-radius:999px;
+  font:500 15px/1.25 var(--sans);text-align:left}
+.opts button.plain{padding-left:1.1rem}
+.opts button .face{width:58px;height:58px;margin:0 0 0 3px}
+.opts button:hover:not(:disabled){color:var(--ink);border-color:var(--accent)}
+.opts button:disabled{cursor:default}
+.opts button.is-right{color:var(--good);border-color:var(--good)}
+.opts button.is-wrong{color:var(--bad);border-color:var(--bad)}
+.qafter{display:flex;align-items:center;justify-content:space-between;gap:1rem;
+  flex-wrap:wrap;min-height:2.6rem}
+.qafter a{color:var(--dim);font:400 14px/1.5 var(--sans)}
+.qbtn{appearance:none;cursor:pointer;background:transparent;color:var(--accent);
+  border:1px solid var(--accent);border-radius:999px;padding:.52rem 1.1rem;
+  font:500 12px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase}
+.qbtn:hover{background:var(--panel)}
+.qscore{font-size:1.5rem;margin:0 0 1.6rem}
+.qscore + .list{margin-bottom:2rem}
+@media (max-width:520px){
+  .opts{grid-template-columns:1fr}
+  .opts button{height:62px}
+}
 """
 
 HEAD = """<!DOCTYPE html>
@@ -228,7 +268,8 @@ def nav(up: str, here: str) -> str:
     the site is browsable from wherever you land, not only from the front page."""
     items = [("index", "Latest", f"{up}index.html"),
              ("writers", "Writers", f"{up}writers.html"),
-             ("objects", "Subjects", f"{up}objects.html")]
+             ("objects", "Subjects", f"{up}objects.html"),
+             ("guess", "Guess", f"{up}guess.html")]
     out = ['  <nav class="tabs">']
     for key, label, href in items:
         cur = ' aria-current="page"' if key == here else ""
@@ -279,6 +320,73 @@ def paragraphs(essay: str) -> str:
         else:
             out.append(" ".join(buf))
     return "\n    ".join(f"<p>{html.escape(p)}</p>" for p in out)
+
+
+def extract(essay: str, target: int = 55, cap: int = 5) -> str:
+    """The passage the guessing game shows: whole sentences from the top, until it
+    has enough words to have a voice in it.
+
+    Whole sentences because the tells are cadence and where a clause turns, and a
+    passage cut mid-clause takes exactly that away. It starts at the first sentence
+    rather than skipping in: the opening is where these writers are most themselves,
+    and the shortest essay here is 129 words, so there is always more after it.
+
+    Split with voice.sentences, never a local regex - a plain split on a full stop
+    breaks after an initial or a title, and Kafka's essays are full of both."""
+    out, n = [], 0
+    for s in voice.sentences(essay):
+        out.append(s)
+        n += len(s.split())
+        if n >= target or len(out) >= cap:
+            break
+    return clip(" ".join(out))
+
+
+# Whole sentences would be the whole essay for the writers who work in one long one:
+# Proust on painkillers ran 207 words to its first full stop, out of an essay of 220.
+# That gives the passage away twice over - it leaves nothing to click through to, and
+# a block four times the length of the others is a tell in itself.
+HARD = 110
+_BREAK = re.compile(r"[,;:]")
+
+
+def clip(passage: str) -> str:
+    """Cut an over-long passage at a clause boundary and leave it visibly unfinished.
+
+    The obvious alternative, dropping that sentence and taking a shorter one, is wrong
+    here: an unbroken sentence IS the fingerprint for Proust, Wallace and Whitman, so
+    it would remove the evidence from exactly the writers who are easiest to spot. A
+    sentence still running at the ellipsis says the same thing in a quarter the space."""
+    words = passage.split()
+    if len(words) <= HARD:
+        return passage
+    head = " ".join(words[:HARD])
+    cuts = [m.end() for m in _BREAK.finditer(head)]
+    # Only honour a clause break in the back half; an early comma would throw most of
+    # the passage away to save a few words.
+    if cuts and cuts[-1] > len(head) * 0.6:
+        head = head[:cuts[-1] - 1]
+    return head.rstrip(",;: ") + "…"
+
+
+def guess_data(entries: list[dict], roster: list[dict] | None) -> dict:
+    """Everything the game needs, in one blob: the roster it draws options from, and
+    one passage per published essay.
+
+    Every writer in the roster is an option, including any with nothing published yet.
+    A writer who could never be the answer would be learnable as one to rule out,
+    which is a way of scoring that has nothing to do with reading the prose."""
+    ids = [t["id"] for t in (roster or [])] or sorted({e["thinker"] for e in entries})
+    names = {e["thinker"]: e["name"] for e in entries}
+    names.update({t["id"]: t["name"] for t in (roster or [])})
+    idx = {tid: i for i, tid in enumerate(ids)}
+    return {
+        "writers": [{"id": t, "name": names.get(t, t),
+                     "face": (DOCS / "faces" / f"{t}.jpg").exists()} for t in ids],
+        "qs": [{"t": extract(e["essay"]), "w": idx[e["thinker"]],
+                "e": slug(e), "o": e["object"]}
+               for e in entries if e["thinker"] in idx],
+    }
 
 
 def obj_slug(obj: str) -> str:
@@ -378,6 +486,152 @@ SORT_JS = """
 """
 
 
+GUESS_JS = """
+<script>
+/* Guess the writer. Ten passages, four names under each, and a link into the essay
+   once you have answered.
+
+   The round is drawn fresh on every load rather than fixed at build time, so the page
+   is worth opening twice. Nothing is stored: a score kept in localStorage would turn a
+   two-minute game into a record you can spoil by reloading. */
+(function () {
+  var root = document.getElementById('quiz');
+  var blob = document.getElementById('quiz-data');
+  if (!root || !blob) return;
+  var data = JSON.parse(blob.textContent);
+  var ROUND = Math.min(10, data.qs.length);
+  var order, at, right, log;
+
+  function shuffle(a) {
+    for (var i = a.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1)), t = a[i];
+      a[i] = a[j]; a[j] = t;
+    }
+    return a;
+  }
+  function esc(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text !== undefined) n.textContent = text;
+    return n;
+  }
+  function pill(w) {
+    /* The same portrait pill as the writers roster. A writer whose portrait has not
+       been drawn yet gets the name alone rather than a broken image. */
+    var b = el('button', w.face ? '' : 'plain');
+    b.type = 'button';
+    if (w.face) {
+      var img = document.createElement('img');
+      img.className = 'face'; img.src = 'faces/' + w.id + '.jpg'; img.alt = '';
+      img.width = 58; img.height = 58; img.loading = 'lazy';
+      b.appendChild(img);
+    }
+    b.appendChild(document.createTextNode(w.name));
+    return b;
+  }
+
+  function start() {
+    order = shuffle(data.qs.map(function (_, i) { return i; })).slice(0, ROUND);
+    at = 0; right = 0; log = [];
+    ask();
+  }
+
+  function prog() {
+    /* Redrawn on the answer as well as on the question. Left to the question alone
+       it lagged a step: you got one right, a green tick said so, and the counter
+       above it still read 0. A running total that is only right between turns is
+       not a running total. */
+    root.querySelector('.qprog').textContent =
+      (at + 1) + ' of ' + ROUND + ' \\u00b7 ' + right + ' right';
+  }
+
+  function ask() {
+    var q = data.qs[order[at]];
+    var pool = data.writers.map(function (_, i) { return i; })
+      .filter(function (i) { return i !== q.w; });
+    var opts = shuffle(shuffle(pool).slice(0, 3).concat([q.w]));
+
+    root.textContent = '';
+    root.appendChild(el('p', 'qprog', ''));
+    prog();
+    root.appendChild(el('blockquote', 'qtext', q.t));
+
+    var box = el('div', 'opts');
+    opts.forEach(function (i) {
+      var b = pill(data.writers[i]);
+      b.addEventListener('click', function () { answer(q, i, box); });
+      box.appendChild(b);
+    });
+    root.appendChild(box);
+    root.appendChild(el('div', 'qafter'));
+  }
+
+  function answer(q, picked, box) {
+    var hit = picked === q.w;
+    if (hit) right++;
+    log.push({ q: q, picked: picked, hit: hit });
+    prog();
+
+    /* Mark the answer green wherever it is, and the wrong pick red. Both, so a wrong
+       guess still tells you who it actually was. */
+    Array.prototype.forEach.call(box.children, function (b) {
+      b.disabled = true;
+      var name = b.textContent;
+      if (name === data.writers[q.w].name) b.classList.add('is-right');
+      else if (!hit && name === data.writers[picked].name) b.classList.add('is-wrong');
+    });
+
+    var after = root.querySelector('.qafter');
+    after.setAttribute('role', 'status');
+    var link = document.createElement('a');
+    link.href = 'e/' + q.e + '.html';
+    link.textContent = data.writers[q.w].name + ' on ' + q.o;
+    after.appendChild(link);
+    var next = el('button', 'qbtn', at + 1 < ROUND ? 'Next' : 'How you did');
+    next.type = 'button';
+    next.addEventListener('click', function () {
+      at++;
+      if (at < ROUND) ask(); else done();
+    });
+    after.appendChild(next);
+    next.focus();
+  }
+
+  function done() {
+    root.textContent = '';
+    root.appendChild(el('p', 'qscore', 'You got ' + right + ' of ' + ROUND + '.'));
+    var ul = el('ul', 'list');
+    log.forEach(function (r) {
+      var w = data.writers[r.q.w];
+      ul.insertAdjacentHTML('beforeend',
+        '<li><a href="e/' + esc(r.q.e) + '.html"><span class="t">' + esc(w.name) +
+        ' <span class="thing">on ' + esc(r.q.o) + '</span></span>' +
+        '<span class="rate"><span class="verdict">' +
+        (r.hit ? '' : 'you said ' + esc(data.writers[r.picked].name)) +
+        '</span><span class="score ' + (r.hit ? 's-good' : 's-bad') + '">' +
+        (r.hit ? '\\u2713' : '\\u2717') + '</span></span></a></li>');
+    });
+    root.appendChild(ul);
+    var again = el('button', 'qbtn', 'Play again');
+    again.type = 'button';
+    again.addEventListener('click', start);
+    root.appendChild(again);
+    /* Deliberately NOT again.focus(). Focusing the button scrolls it into view, and
+       it sits under ten rows: on a phone that lands the reader at the bottom of the
+       list with their score off the top of the screen, which is the one thing they
+       just asked to see. Scroll only when the score is genuinely above the fold. */
+    if (root.getBoundingClientRect().top < 0) root.scrollIntoView({ block: 'start' });
+  }
+
+  start();
+})();
+</script>
+"""
+
+
 SITE = "https://charlietrenorden.com/ghostwriters/"
 
 
@@ -395,6 +649,8 @@ def page(title, desc, body, up, here, footer, canon=""):
     # Only the front page carries the sort control, so only it carries the script.
     if 'class="sortbar"' in body:
         tail = SORT_JS + tail
+    if 'id="quiz"' in body:
+        tail = GUESS_JS + tail
     return (HEAD.format(title=html.escape(title), desc=html.escape(desc), css=CSS, up=up,
                         SITE=SITE, canon=canon)
             + body + tail)
@@ -532,6 +788,32 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
              f'  <ul class="chips people">\n{chips}\n  </ul>\n', "", "writers",
              "", canon="writers.html"),
         encoding="utf-8", newline="\n")
+
+    # --- guess the writer ---------------------------------------------------
+    # Four options means four writers to draw from, and a passage means an essay.
+    # Below either, this would be a game that cannot be played, so it is not written
+    # at all and any copy an earlier run left behind is removed.
+    gd = guess_data(entries, roster)
+    if len(gd["writers"]) >= 4 and gd["qs"]:
+        gdesc = "Read a passage and pick which of the writers wrote it."
+        gbody = ('  <h1>Guess the Writer</h1>\n'
+                 f'  <p class="stand">{len(gd["qs"])} essays, and none of them '
+                 'signed.</p>\n'
+                 '  <div id="quiz"><noscript>This one needs JavaScript. '
+                 '<a href="index.html">The essays</a> do not.</noscript></div>\n'
+                 '  <script type="application/json" id="quiz-data">'
+                 # Escaped so a `</script>` in an essay cannot close the block early
+                 # and take the whole game down with it. What a model writes at night
+                 # is not something the renderer gets to assume about.
+                 + json.dumps(gd, ensure_ascii=False).replace("<", "\\u003c")
+                 + '</script>\n')
+        (DOCS / "guess.html").write_text(
+            page("Guess the Writer - Ghostwriters", gdesc, gbody, "", "guess", "",
+                 canon="guess.html"),
+            encoding="utf-8", newline="\n")
+    elif (DOCS / "guess.html").exists():
+        (DOCS / "guess.html").unlink()
+        print("  pruned guess.html - not enough writers or essays to play")
 
     ochips = "\n".join(
         f'    <li><a href="on/{obj_slug(o)}.html">{html.escape(o)} '

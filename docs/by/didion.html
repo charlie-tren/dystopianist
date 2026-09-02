@@ -110,6 +110,12 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 .tabs a{color:var(--faint);text-decoration:none;padding-bottom:.4rem;border-bottom:2px solid transparent}
 .tabs a:hover{color:var(--ink)}
 .tabs a[aria-current]{color:var(--ink);border-bottom-color:var(--accent)}
+/* A fourth tab does not fit at the desktop gap on a small phone: measured at 320px,
+   294px of tabs into a 275px box, with "Guess" and half its underline off the right
+   edge. The row is uppercase and letter-spaced, so the space between the words is
+   where the slack is, not in the words. Applied at 400 rather than 320 because 375
+   was fitting with nothing to spare. */
+@media (max-width:400px){.tabs{gap:1rem;letter-spacing:.1em}}
 .chips{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 2.4rem;padding:0;list-style:none}
 .chips a{display:inline-block;text-decoration:none;border:1px solid var(--rule);
   border-radius:999px;padding:.42rem .8rem;font:500 13px/1 var(--sans);color:var(--dim)}
@@ -162,6 +168,39 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
   .titled .face{width:58px;height:58px}
 }
 .chips .chip-off{display:inline-flex;align-items:center;gap:.45rem;border:1px dashed var(--rule);border-radius:999px;padding:.42rem .8rem;font:500 13px/1 var(--sans);color:var(--faint)}
+/* --- Guess the writer ---------------------------------------------------
+   The options are the same portrait pill as the writers roster, two to a row, on the
+   same fixed grid, because they are the same thing: a list of writers to choose
+   between. Colour here only ever means right or wrong, never decoration. */
+.qprog{font:500 11px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;
+  color:var(--faint);margin:0 0 1.2rem}
+.qtext{margin:0 0 1.9rem;padding:0 0 0 1.1rem;border-left:2px solid var(--rule);
+  font-size:1.12rem}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:.8rem;margin:0 0 1.5rem;
+  padding:0;list-style:none}
+.opts button{display:flex;align-items:center;gap:.8rem;width:100%;height:66px;
+  padding:0 .9rem 0 0;appearance:none;cursor:pointer;background:transparent;
+  color:var(--dim);border:1px solid var(--rule);border-radius:999px;
+  font:500 15px/1.25 var(--sans);text-align:left}
+.opts button.plain{padding-left:1.1rem}
+.opts button .face{width:58px;height:58px;margin:0 0 0 3px}
+.opts button:hover:not(:disabled){color:var(--ink);border-color:var(--accent)}
+.opts button:disabled{cursor:default}
+.opts button.is-right{color:var(--good);border-color:var(--good)}
+.opts button.is-wrong{color:var(--bad);border-color:var(--bad)}
+.qafter{display:flex;align-items:center;justify-content:space-between;gap:1rem;
+  flex-wrap:wrap;min-height:2.6rem}
+.qafter a{color:var(--dim);font:400 14px/1.5 var(--sans)}
+.qbtn{appearance:none;cursor:pointer;background:transparent;color:var(--accent);
+  border:1px solid var(--accent);border-radius:999px;padding:.52rem 1.1rem;
+  font:500 12px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase}
+.qbtn:hover{background:var(--panel)}
+.qscore{font-size:1.5rem;margin:0 0 1.6rem}
+.qscore + .list{margin-bottom:2rem}
+@media (max-width:520px){
+  .opts{grid-template-columns:1fr}
+  .opts button{height:62px}
+}
 </style>
 <!-- Analytics, gated. Two kinds of visitor are not an audience and never load it:
      anyone who has opted out with ?nostats=1, and automation, since navigator.webdriver
@@ -178,7 +217,7 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
     <button class="tog" id="tog" type="button">Light</button>
   </div>
   <h1 class="titled"><img class="face" src="../faces/didion.jpg" alt="" width="76" height="76" loading="lazy"><span>Joan Didion</span></h1>
-  <nav class="tabs"><a href="../index.html">Latest</a><a href="../writers.html" aria-current="page">Writers</a><a href="../objects.html">Subjects</a></nav>
+  <nav class="tabs"><a href="../index.html">Latest</a><a href="../writers.html" aria-current="page">Writers</a><a href="../objects.html">Subjects</a><a href="../guess.html">Guess</a></nav>
   <ul class="list">
     <li data-score="1.5" data-seq="0"><a href="../e/2026-08-25-didion-airport-lounges.html"><span class="t">airport lounges</span></a></li>
     <li data-score="2.5" data-seq="1"><a href="../e/2026-08-25-didion-group-chats.html"><span class="t">group chats</span></a></li>
