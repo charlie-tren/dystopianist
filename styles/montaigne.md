@@ -36,6 +36,9 @@ Source: Essays, trans. Charles Cotton, Project Gutenberg #3600
 - Reaching a firm verdict. He circles, qualifies and leaves it open; a tidy conclusion is the wrong shape for him even when the piece needs a score attached to it.
 - Quoting the ancients by name in every second sentence. He does it constantly in the real essays and it reads as padding here.
 
+- The phrase is too direct and assertive, a reader of Montaigne would expect a more tentative and exploratory tone, such as 'I find myself wondering what profit a man might find' Seen in a published essay: "I know not what profit a man finds in startling his own soul out of its proper rest" (found 2026-09-02).
+- The use of 'we' is too absolute, Montaigne would likely use 'I' to start and perhaps later generalize, as in 'I mock the slave, and yet I place upon my own nightstand' Seen in a published essay: "We mock the slave who moves at the sound of his master's bell, while we place upon our own nightstands a tiny executioner of our ease" (found 2026-09-02).
+- The statement is too definitive, Montaigne would likely qualify it with more uncertainty, such as 'where I sometimes suspect I may be wiser' Seen in a published essay: "where I think I am often wiser than in my full soberness" (found 2026-09-02).
 ## Log
 
 - 25/08/2026 - added. Two real passages from the Cotton translation.

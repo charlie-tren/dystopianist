@@ -94,7 +94,8 @@
     "essay": "S. had placed the small jar of preserved plums upon the tray precisely where the illuminated arrows indicated, yet the machine, possessing no visible capacity for thought and yet deliberating with an insufferable, polite stillness, immediately flashed a small crimson lamp above its frame to signal that an unscheduled weight had been detected. Although S. knew that he possessed the required coins and that the clerk standing several paces away had seen him place the jar down without any improper intent, it was nonetheless impossible for S. to proceed to the payment slot until this same clerk, who was presently occupied with smoothing the apron of a colleague, chose to touch a master key against the glass, an act that might take only a moment or might require S. to remain standing quietly in the glaring light until closing time. S. did not mind waiting, for he understood that the machine was merely enforcing a rule whose higher logic had simply not been explained to him, and so he adjusted his posture slightly, holding his breath so as not to disturb the scales, entirely convinced that once the red light was extinguished he would be permitted to pay, though he suspected that a second verification would then become necessary for the paper bag.",
     "generated": "2026-08-25T20:53:09+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-02"
   },
   {
     "date": "2026-08-25",
@@ -107,7 +108,8 @@
     "essay": "It was explained to K. that he had paid for the privilege of being locked inside the small, dimly lit parlor, a circumstance which, though presented to him as a form of amusement, seemed to differ very little from his ordinary working life, except that here the authorities had taken the trouble to paint faux-cracks upon the plaster and hide brass keys inside fake hollowed-out volumes of historical treatises. He sat upon the threadbare sofa, listening to the muffled whispers of his companions who were frantically turning over couch cushions and deciphering numbers scribbled on the backs of framed landscapes, while a hidden clock ticked away minutes that were said to belong to them, though K. suspected that even if they managed to align every symbol correctly before the chime sounded, the door would only open into another hallway where a different attendant, possessing slightly more authority than the youth who had locked them in, would inform them that their liberation was merely provisional and subject to a final audit by the central directorate, who was currently away on business and could not be reached until Monday morning at the earliest. Therefore, he remained seated, refraining from touching the lock, lest an accidental success be interpreted as a request for immediate dismissal.",
     "generated": "2026-08-25T20:53:31+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-02"
   },
   {
     "date": "2026-08-25",
@@ -120,7 +122,8 @@
     "essay": "I am naturally inclined to linger in my bed, where my thoughts settle most agreeably before the demands of the day intrude; yet here is a little brass engine, devised to shatter that quietude by a sudden, violent ringing. I know not what profit a man finds in startling his own soul out of its proper rest: for if slumber be a shadow of death, to wrench ourselves from it by artifice rather than by the gentle invitation of nature seems a kind of daily violence. And yet, I must confess my own weakness; when left to my own humour, I slide so far into sloth that the morning is half spent before I have put on my doublet; so perhaps this noisy fury is a necessary whip for a mind as sluggish as mine. But what a miserable condition it is, to owe our vigilance not to reason or virtue, but to a piece of rattling iron! We mock the slave who moves at the sound of his master's bell, while we place upon our own nightstands a tiny executioner of our ease; or if not an executioner, at least a rude intruder that takes from us that sweet, uncertain borderland between dreaming and waking, where I think I am often wiser than in my full soberness.",
     "generated": "2026-08-25T20:53:50+00:00",
     "provider": "gemini",
-    "scored_by": "gemini"
+    "scored_by": "gemini",
+    "reread": "2026-09-02"
   },
   {
     "date": "2026-08-25",
@@ -336,12 +339,12 @@
     "name": "Henry David Thoreau",
     "dates": "1817-1862",
     "object": "the hot shower",
-    "verdict": "fleeting comfort",
-    "score": 5.0,
-    "essay": "As I stood beneath the hot shower's cascade, I pondered the hours of toil that had earned me this fleeting comfort, and whether the respite from the chill of morning was worth the cost of the fuel that warmed the water. The droplets, like tiny messengers, brought news of distant coal mines and the labours of those who delved into the earth to unearth the black stones that fired the boiler. And yet, as the warmth seeped into my skin, I felt a sense of delight, a simple pleasure that was not to be underestimated, for it was a testament to the human desire for comfort and the ingenuity that had made it possible. But how many days of labour, I wondered, had been exchanged for this brief, shining moment, and what other comforts had been forgone in its pursuit? The hot shower, a marvel of modern convenience, stood as a testament to the complex calculus of human desire and the hidden costs of our daily indulgences.",
+    "verdict": "expensive bath",
+    "score": 2.3,
+    "essay": "I spent three cents this morning for six minutes of indoor tropical rain, bought from a town steam-pipe, and deemed myself scrubbed. A man pays a heavy interest in his own native vigor for the privilege of turning a brass spigot to summon August into a tiled closet. Yet who can deny the feline pleasure of that falling mist, when the hot drops beat a storm upon the shoulders, lulling the flesh into a vaporous, momentary paradise? It is an expensive bath, however cheap the bill appears. To warm twenty gallons of river water to ninety degrees demands three pounds of hard coal, mined by a stranger, and a full half-hour of a man’s own labor surrendered to satisfy the city collector. We pay for this deluge with the very stamina it washes away. The wood-frog plunges into the dark pond without a penny’s toll and emerges hardened for his leap; the townsman steps from his box, steamed to the soft consistency of a boiled turnip, having spent the morning's best hour paying to be unstrung. We pour out our vital heat into the sewer and call it clean living.",
     "generated": "2026-08-26T03:13:30+00:00",
-    "provider": "cloudflare",
-    "scored_by": "gemini"
+    "provider": "gemini",
+    "scored_by": "cloudflare/100"
   },
   {
     "date": "2026-08-26",
@@ -349,12 +352,12 @@
     "name": "Henry David Thoreau",
     "dates": "1817-1862",
     "object": "the step counter",
-    "verdict": "tiny tyrant",
-    "score": 1.5,
-    "essay": "As I watch people glance at the step counter on their wrist, I am struck by the Faustian bargain they have made, trading the gentle rustle of leaves and the warmth of sunlight on their skin for the cold glow of a screen and the relentless pursuit of a numerical goal. The hours they spend each day pacing back and forth, driven by the insatiable hunger of this tiny tyrant, could be spent exploring the winding trails of the nearby woods, or simply sitting by the river, listening to the water's gentle song. And for what? So they may boast of their daily tally, a meager harvest of steps, garnered at the cost of a thousand un noticed moments, a lifetime of wonder and awe, reduced to a mere statistic. Yet, I must confess, there is a certain fascination in watching them, their faces aglow with an almost feral intensity, as they strive to outdo themselves, to conquer the day, one step at a time.",
+    "verdict": "costly travel",
+    "score": 1.4,
+    "essay": "A man goes into the woods to free his legs, then straps a little iron accountant to his body to keep his books. He buys for three dollars the liberty to measure his own motion, as if a stride were worth nothing until it appears as a figure in a ledger. I watched a clerk today march through the pine needles with his eyes fixed on a mechanical tally, oblivious to the red squirrel that scolded him from the pitch-pine overhead. He had walked four miles by his machine, but had not arrived anywhere; he had paid his afternoon’s leisure to buy a sum of numbers, and left the woods unvisited. It is a costly way to travel. To count your footsteps is to mistrust the sun that tells you when to return, and to convert the pure currency of air and exercise into a depreciated scrip. I had rather know where the fox crossed the creek than know how many times my boot struck the gravel between here and the village. When we must employ a machine to inform us whether we have lived today, the machine has taken the walk, and we have merely carried the freight.",
     "generated": "2026-08-26T03:14:01+00:00",
-    "provider": "cloudflare",
-    "scored_by": "gemini"
+    "provider": "gemini",
+    "scored_by": "cloudflare/100"
   },
   {
     "date": "2026-08-26",
@@ -888,5 +891,18 @@
     "generated": "2026-09-02T20:31:22+00:00",
     "provider": "cloudflare",
     "scored_by": "cloudflare/100"
+  },
+  {
+    "date": "2026-09-02",
+    "thinker": "wilde",
+    "name": "Oscar Wilde",
+    "dates": "1854-1900",
+    "object": "podcasts",
+    "verdict": "delightful illusion",
+    "score": 8.1,
+    "essay": "The greatest luxury of our civilised age is the ability to eavesdrop on intimacy without the tedious necessity of participating in it. Conversation was once a delicate art of mutual deception, wherein two people pretended to care for each other’s opinions; today we have perfected a far more charming arrangement, allowing complete strangers to whisper their prejudices directly into our ears. It is the ultimate triumph of solitude over society. To listen to a friend requires a certain sacrifice of patience, but to listen to a disembodied voice requires only a small plastic button and a profound desire to avoid one’s own thoughts. The world is tragically full of people who have nothing to say, and extraordinarily populated by those who insist on saying it at great length. Yet we forgive them their loquacity, precisely because we can silence them with a single touch of the finger. Nothing is so dreadful as a monologue, unless it is a monologue one can turn off at will, in which case it becomes the highest form of companionship. We consume these endless streams of chatter not to acquire wisdom, but to indulge the delightful illusion that we are present at a dinner party where no one can ask us to pass the salt.",
+    "generated": "2026-09-02T23:19:27+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100"
   }
 ]

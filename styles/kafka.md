@@ -42,6 +42,10 @@ Source: The Trial, tr. David Wyllie, Project Gutenberg #7849
 - Waking up transformed, or any nod to Metamorphosis. Mistral did this unprompted.
 - Naming the protagonist anything other than a single letter.
 
+- A reader of Franz Kafka would have expected a more convoluted and indirect phrase, such as 'it became apparent that the progression of S. towards the payment slot was contingent upon the clerk's initiation of a specific action' Seen in a published essay: "it was nonetheless impossible for S. to proceed to the payment slot until this same clerk, who was presently occupied with smoothing the apron of a colleague, chose to touch a master key against the glass" (found 2026-09-02).
+- A reader of Franz Kafka would have expected a more subtle and implicit introduction of the bureaucratic absurdity, rather than a straightforward comparison. Seen in a published essay: "seemed to differ very little from his ordinary working life, except that here the authorities had taken the trouble to paint faux-cracks upon the plaster and hide brass keys inside fake hollowed-out volumes of historical treatises" (found 2026-09-02).
+- A reader of Franz Kafka would have expected a more convoluted and uncertain sentence structure, with multiple subordinate clauses, to convey the sense of bureaucratic obstruction. Seen in a published essay: "though K. suspected that even if they managed to align every symbol correctly before the chime sounded, the door would only open into another hallway" (found 2026-09-02).
+- A reader of Franz Kafka would have expected a more vague and ominous reason for the central directorate's unavailability, rather than a mundane and specific one. Seen in a published essay: "who was currently away on business and could not be reached until Monday morning at the earliest" (found 2026-09-02).
 ## Log
 
 - 02/09/2026 - second sample added from the same Wyllie translation. Chosen as the flat exact accumulation of detail about a room, because the site asks him to describe an object and the first sample is all interiority. The oppressiveness is in the inventory, not in any adjective.
