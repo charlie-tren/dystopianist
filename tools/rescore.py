@@ -45,11 +45,28 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 import _env                        # noqa: E402
+import reads as reads_mod          # noqa: E402
 import render                      # noqa: E402
 import styles                      # noqa: E402
 import write as write_stage        # noqa: E402
 
 ESSAYS = ROOT / "data" / "essays.json"
+
+# LEAVE WELL-READ PAGES ALONE. Rewriting a score is the right thing to do to an essay
+# nobody has opened and the wrong thing to do to one people have: it changes the record
+# under a reader, and the verdict - the line beside the title - is the part most likely
+# to be why they remember it. Charlie asked for this on 02/09/2026.
+#
+# 25 is chosen against the measured traffic, not out of the air: the most-read PAGE on
+# the site is the front page at 23 views, and the most-read ESSAY has 2. So nothing trips
+# this today, which is the point of adding it today - the guard is in place before there
+# is anything to protect, and by the time an essay passes 25 it is genuinely one people
+# have read rather than one the crawler found.
+#
+# Scale migrations are exempt via --all, because a corpus half on one scale and half on
+# another makes the Rating sort meaningless for EVERY reader, which is a worse harm than
+# one popular essay's number moving. See the note above SCALE in write.py.
+PROTECT_ABOVE = 25
 
 
 def canonical() -> str:
@@ -84,8 +101,23 @@ def main() -> int:
     print(f"{len(targets)} of {len(entries)} essays to re-read "
           f"onto the {canonical()} scale\n")
 
-    changed, moved = 0, []
+    reads = reads_mod.load()
+    if reads["asof"] == "never":
+        print("  !! data/reads.json is missing - the well-read guard cannot protect\n"
+              "     anything. Run tools/reads.py where the site-stats clone is.\n",
+              file=sys.stderr)
+    else:
+        print(f"  read counts as at {reads['asof']}; "
+              f"protecting anything above {PROTECT_ABOVE} views\n")
+
+    changed, moved, protected = 0, [], 0
     for e in targets:
+        n = reads_mod.views_for(render.slug(e), reads)
+        if n > PROTECT_ABOVE and not args.all:
+            print(f"  ..  {e['thinker']:<10} {e['object'][:22]:<22} "
+                  f"{n} reads - left alone")
+            protected += 1
+            continue
         thinker = roster.get(e["thinker"])
         if not thinker:
             print(f"  ?? {e['thinker']} not in styles/, skipped")
@@ -121,7 +153,8 @@ def main() -> int:
         print(f"\nmoved by {sum(moved) / len(moved):.1f} on average, "
               f"largest {max(moved):.1f}")
     left = max(sum(stale(x) for x in entries) - (0 if args.dry else changed), 0)
-    print(f"{changed} rescored, {left} still off-scale")
+    print(f"{changed} rescored, {left} still off-scale"
+          + (f", {protected} left alone as well-read" if protected else ""))
     # A run that repairs NOTHING while a backlog exists is the failure worth knowing
     # about, and it is silent by construction: the step exits 0, the job goes green,
     # and the only trace is a line in a log nobody opens. That is how the mixed scale

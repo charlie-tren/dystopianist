@@ -259,6 +259,10 @@ jobs:
         if: ${{ !cancelled() }}
         run: python tests/test_reread.py
 
+      - name: Does the well-read guard hold
+        if: ${{ !cancelled() }}
+        run: python tests/test_protect_read.py
+
       - name: Is the score scale intact
         if: ${{ !cancelled() }}
         run: python tests/test_score_scale.py
