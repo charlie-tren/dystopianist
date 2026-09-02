@@ -796,9 +796,12 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
     gd = guess_data(entries, roster)
     if len(gd["writers"]) >= 4 and gd["qs"]:
         gdesc = "Read a passage and pick which of the writers wrote it."
+        # NO STANDFIRST. "66 essays, and none of them signed." was cut on sight,
+        # 02/09/2026. The heading names the page and the passage is directly under
+        # it; a line in between is the page explaining itself before anyone has
+        # asked. The sentence survives as the meta description, where it is the only
+        # thing a share card has to go on and nobody on the page has to read it.
         gbody = ('  <h1>Guess the Writer</h1>\n'
-                 f'  <p class="stand">{len(gd["qs"])} essays, and none of them '
-                 'signed.</p>\n'
                  '  <div id="quiz"><noscript>This one needs JavaScript. '
                  '<a href="index.html">The essays</a> do not.</noscript></div>\n'
                  '  <script type="application/json" id="quiz-data">'
