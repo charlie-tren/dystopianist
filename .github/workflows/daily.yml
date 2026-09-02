@@ -233,6 +233,10 @@ jobs:
         if: ${{ !cancelled() }}
         run: python tests/test_render.py
 
+      - name: Is the score scale intact
+        if: ${{ !cancelled() }}
+        run: python tests/test_score_scale.py
+
       - name: Are the scores one measurement
         if: ${{ !cancelled() }}
         run: python tests/test_scores.py

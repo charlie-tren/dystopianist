@@ -52,10 +52,19 @@ import write as write_stage        # noqa: E402
 ESSAYS = ROOT / "data" / "essays.json"
 
 
+def canonical() -> str:
+    """Model AND scale. Both are part of what a score means."""
+    return f"{write_stage.SCORER}/{write_stage.SCALE}"
+
+
 def stale(e: dict) -> bool:
-    """Not on the canonical scale. Absent means it predates the field, which is every
-    essay written before 27/08/2026 and so every essay of the two mixed batches."""
-    return e.get("scored_by") != write_stage.SCORER
+    """Not on the canonical scale.
+
+    Absent means it predates the field. A bare model name with no scale means it was
+    scored when the judge was asked for a decimal out of ten, which it answered on the
+    half-point grid 70% of the time - see the note above SCALE in write.py. Both are
+    stale, and both drain away without anyone resetting anything."""
+    return e.get("scored_by") != canonical()
 
 
 def main() -> int:
@@ -73,7 +82,7 @@ def main() -> int:
     if args.limit:
         targets = targets[:args.limit]
     print(f"{len(targets)} of {len(entries)} essays to re-read "
-          f"onto the {write_stage.SCORER} scale\n")
+          f"onto the {canonical()} scale\n")
 
     changed, moved = 0, []
     for e in targets:
@@ -92,7 +101,7 @@ def main() -> int:
         if score is None:
             print(f"  -- {e['thinker']}/{e['object']}: no score returned, kept")
             continue
-        if by != write_stage.SCORER:
+        if by != canonical():
             # The fallback answered. Writing this would swap one off-scale number for
             # another and mark it repaired, which is worse than leaving it alone.
             print(f"  -- {e['thinker']}/{e['object']}: scored by {by}, not {write_stage.SCORER}"

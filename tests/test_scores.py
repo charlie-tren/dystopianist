@@ -35,11 +35,12 @@ def main() -> int:
 
     problems = []
     by = collections.Counter(e.get("scored_by") or "(not recorded)" for e in entries)
-    off = sum(1 for e in entries if e.get("scored_by") != write_stage.SCORER)
+    canon = f"{write_stage.SCORER}/{write_stage.SCALE}"
+    off = sum(1 for e in entries if e.get("scored_by") != canon)
     unscored = [e for e in entries if e.get("score") is None]
 
     print(f"{len(entries)} essays; scored by {dict(by)}")
-    print(f"  canonical scale is {write_stage.SCORER!r}; {off} still off it")
+    print(f"  canonical scale is {canon!r}; {off} still off it")
 
     # The regression check: the newest essay must record who scored it.
     #

@@ -95,13 +95,16 @@ Read it and report what it actually expresses about {object}.
 {essay}
 ---
 
-Give a verdict of one to three words and a score out of ten to one decimal place.
+Give a verdict of one to three words and a score as a WHOLE NUMBER from 0 to 100,
+where 0 is total contempt and 100 is unreserved delight.
 
+- Use the whole range. 41 and 58 are ordinary answers. Do not round to a multiple
+  of five, and do not reach for 50 because the essay is hard to place.
 - Score what THIS PROSE conveys, not what you would expect this writer to think.
-- Use the ends of the scale when the essay earns them. A demolition is under 2. Real
-  pleasure is over 7.
+- Use the ends of the scale when the essay earns them. A demolition is under 20.
+  Real pleasure is over 70.
 - Use the MIDDLE when the essay sits there. An essay that observes without judging,
-  or accepts, or concedes a point to the thing while disliking it, is a 4, 5 or 6.
+  or accepts, or concedes a point to the thing while disliking it, is a 40, 50 or 60.
   Do not read contempt into flat attention, and do not read approval into politeness.
 - The verdict is printed on the page beside the title, in the writer's company, so it
   has to sound like a phrase from the essay rather than a mark on a report. Lift the
@@ -119,7 +122,21 @@ Give a verdict of one to three words and a score out of ten to one decimal place
   subject without ever taking it on - describing an operating theatre and never the
   anaesthesia - is not on topic, however good the prose is.
 
-Return JSON: {{"verdict": "...", "score": 0.0, "on_topic": true}}"""
+Return JSON: {{"verdict": "...", "score": 0, "on_topic": true}}"""
+
+
+# ASKED OUT OF 100, PRINTED OUT OF 10, and the difference is the whole point.
+# Asked for "a score out of ten to one decimal place" the judge ignored the decimal and
+# answered on the half-point grid: measured over 66 published essays, 70% landed on a .0
+# or .5, which is a 21-point scale, and 66 essays into 21 buckets collides hard - nine
+# essays at exactly 1.0, seven at 5.0, four at 8.5.
+#
+# A whole number out of 100 removes the round answer rather than arguing against it.
+# A/B over six essays, same prompt otherwise: the 0-10 form put 6 of 6 on the grid and
+# reproduced the live scores exactly; the 0-100 form put 0 of 5 on it and returned five
+# distinct values (8, 7, 48, 47, 87). The ORDER was unchanged - demolitions stayed at the
+# bottom, the liked things at the top - so this resolves finer without re-judging.
+SCALE = 100
 
 
 def build_prompt(thinker: dict, obj: str, words: str, kind=None) -> str:
@@ -173,7 +190,20 @@ def score_essay(thinker: dict, obj: str, essay: str) -> tuple[str, float | None,
                                   temperature=0.2, prefer=SCORER)
     d = llm.extract_json(raw)
     try:
-        score = round(float(d.get("score")), 1)
+        # Out of 100 from the model, out of 10 on the page.
+        #
+        # NEVER guess which scale a number is on. The obvious guard - "divide by ten
+        # only if it is over ten" - is a silent inverter: Orwell on airport lounges came
+        # back as 8, meaning 8/100, and that rule would have published it as 8.0 out of
+        # 10, turning the most contemptuous essay on the site into its warmest. The two
+        # scales genuinely overlap at the bottom and no arithmetic can separate them.
+        #
+        # So the contract is enforced instead of inferred: a WHOLE number was asked for,
+        # and anything else is a scorer that did not do as it was told. That returns None,
+        # which critic.py already treats as a failed gate, so the essay is re-rolled
+        # rather than published against a number nobody can interpret.
+        raw_score = float(d.get("score"))
+        score = round(raw_score / 10, 1) if raw_score == int(raw_score) else None
     except (TypeError, ValueError):
         score = None
     verdict = " ".join(str(d.get("verdict", "")).split()).strip(" .").lower()
@@ -181,7 +211,12 @@ def score_essay(thinker: dict, obj: str, essay: str) -> tuple[str, float | None,
     # Absent or unparseable means "do not know", and the gate should not fail an
     # essay because the scorer dropped a field.
     on_topic = True if on_topic is None else bool(on_topic)
-    return verdict, score, on_topic, scored_by
+    # The scale is part of the identity of a score, not a detail of how it was
+    # produced. "gemini" alone cannot tell a 1.0 asked out of ten from a 1.0 asked
+    # out of a hundred, and the archive now holds both. Recording "gemini/100"
+    # makes every pre-existing entry stale automatically, so tools/rescore.py
+    # drains the old scale away without anyone having to remember to reset a flag.
+    return verdict, score, on_topic, f"{scored_by}/{SCALE}"
 
 
 def write(thinker: dict, obj: str, words: str = "170-230",
