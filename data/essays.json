@@ -52,7 +52,8 @@
     "essay": "It was three in the afternoon in the quiet area, which was not quiet, only dimly lit. A sign on the frosted glass said Executive Lounge, but there were no executives, only tired men in unbuttoned shirts drinking lukewarm San Pellegrino from heavy crystal tumblers. The carpet was navy blue with faint silver grid lines, designed to disguise spills. Someone had spilled tomato juice near the espresso machine at eleven that morning. At three, the stain was still there, dark and sticky under the recessed LED lights. A woman in a camel coat was speaking into a silver earpiece about a contract in Zurich. She spoke in a flat, even tone that suggested Zurich was not a place, but merely a set of numbers that had to be moved from one ledger to another before five o'clock. Outside the glass, a line of yellow tugs moved across the tarmac in the grey rain, moving baggage from nowhere to nowhere. The room smelled of ozone and hot carpet fibers. They tell you that you are waiting for a flight to London, or Tokyo, or Frankfurt. You sit on a low leather sofa that has lost its shape and you drink the cold water and you realize that no one in this room is going anywhere.",
     "generated": "2026-08-25T20:51:41+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-02"
   },
   {
     "date": "2026-08-25",
@@ -65,7 +66,8 @@
     "essay": "I have spent four hundred dollars on neck cream because of a man named Arthur who listed his height as six foot one and turned out to be five foot eight in thick loafers. We were at the bar at Michael’s on West Fifty-Fifth Street, and he was explaining his divorce while I looked at his forehead and thought about my own lighting. That is what Hinge does. It turns you into a woman who swipes right on a thirty-four-year-old venture capitalist named Chad because he is holding a golden retriever, even though you know perfectly well the dog belongs to his sister. You sit on the sofa in your pajamas at midnight, moving your thumb half an inch to the left, rejecting men because they are wearing wraparound sunglasses or because they used the word adventure as a verb. It feels like catalog shopping, except everything on the page has already been returned once. The trouble is not that it is humiliating, though it is. The trouble is that next Tuesday, when the apartment is quiet, you will open the little yellow icon again, convincing yourself that somewhere in Manhattan there is a man who understands why you hate the sound of people eating apples, and that he is waiting.",
     "generated": "2026-08-25T20:52:14+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-02"
   },
   {
     "date": "2026-08-25",
@@ -78,7 +80,8 @@
     "essay": "I muted the five of us at nine in the morning on a Tuesday, right after Sarah sent a photo of a turnip. By noon there were forty-two messages, mostly from Jane, who lives on East End Avenue and has never once met a root vegetable she couldn't write three paragraphs about. The trouble with the group is that you cannot leave without committing a public execution. If you press leave, a small grey announcement appears on everyone else’s screen, which is precisely the same as standing up at a dinner party on 74th Street, spitting into the butter dish, and walking out into the rain without your coat. So you stay. You watch three little grey dots jump up and down like a frantic heart monitor while four grown women debate whether eight o'clock is too late for polenta. I spend two hours a day typing ha ha to things that are not funny. I do it because if I stop, they will start another group without me, the one where they talk about my neck. But mostly I do it because I am terrified that if I step out of the noise, even for an afternoon, nobody will notice I went.",
     "generated": "2026-08-25T20:52:45+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-02"
   },
   {
     "date": "2026-08-25",
@@ -872,5 +875,18 @@
     "generated": "2026-09-02T19:50:46+00:00",
     "provider": "gemini",
     "scored_by": "gemini/100"
+  },
+  {
+    "date": "2026-09-02",
+    "thinker": "orwell",
+    "name": "George Orwell",
+    "dates": "1903-1950",
+    "object": "airport security",
+    "verdict": "resigned acceptance",
+    "score": 6.2,
+    "essay": "The labour that goes into ensuring our safety as we travel by air is a remarkable thing, and yet it is something that we have grown accustomed to, so much so that we hardly notice it anymore. We shuffle along in our stockinged feet, our belts and watches removed, and our luggage scanned, all without a second thought. It is a curious thing, this willingness to submit to such scrutiny, and yet it is a small price to pay for the reassurance that we are safe from harm. But what is perhaps most interesting about this process is the way in which it has become a normal part of our lives, a routine that we undertake without complaint, and indeed without even thinking about it. We have become so civilised, so used to the idea of being protected and looked after, that we no longer question the measures that are taken to ensure our safety. And yet, it is precisely this lack of questioning that is so noteworthy, for it suggests a deep-seated trust in the authorities that oversee our travels, and a willingness to surrender our autonomy in the name of security.",
+    "generated": "2026-09-02T20:31:22+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100"
   }
 ]
