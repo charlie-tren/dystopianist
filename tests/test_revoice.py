@@ -131,9 +131,50 @@ def it_accepts_a_good_rewrite(fails):
     print("  a clean rewrite from the right model is accepted")
 
 
+def a_rewrite_whose_verdict_is_a_grade_is_re_read(fails):
+    """Rewriting the essay rewrites its verdict, so this path can put "mild praise" on
+    an essay that was fine. It gets one more reading, then the rewrite is refused."""
+    rereads = []
+
+    def stub(thinker, obj, **kw):
+        return GOOD, "mild praise", 5.0, write_stage.SCORER, True, "gemini"
+
+    def score_stub(thinker, obj, essay):
+        rereads.append(essay)
+        return "cautious observation", 5.0, True, "gemini"   # a grade again
+
+    real = write_stage.score_essay
+    write_stage.score_essay = score_stub
+    try:
+        run(stub, [entry(BAD)])
+    finally:
+        write_stage.score_essay = real
+    # Exactly one. Zero means the grade went to the page; more than one means it
+    # loops, which on a spent free tier is the expensive way to fail.
+    if len(rereads) != 1:
+        fails.append(f"the scoring pass ran {len(rereads)} times, want exactly 1")
+    print(f"  a grade-ish verdict is re-read {len(rereads)}x, then the rewrite is refused")
+
+    # And the control: a verdict that is NOT a grade must not trigger a re-read at all.
+    rereads.clear()
+
+    def clean_stub(thinker, obj, **kw):
+        return GOOD, "upholstered doom", 5.0, write_stage.SCORER, True, "gemini"
+
+    write_stage.score_essay = score_stub
+    try:
+        run(clean_stub, [entry(BAD)])
+    finally:
+        write_stage.score_essay = real
+    if rereads:
+        fails.append("a good verdict was re-read anyway, which spends a call for nothing")
+    print("  a verdict that is not a grade is left alone")
+
+
 def main() -> int:
     fails: list[str] = []
     for check in (the_fallbacks_work_is_queued_even_when_it_passes,
+                  a_rewrite_whose_verdict_is_a_grade_is_re_read,
                   only_prose_faults_put_an_essay_on_the_list,
                   a_failing_essay_is_on_the_list,
                   it_refuses_the_fallback_models_rewrite,

@@ -20,7 +20,7 @@ Charlie found it from the other end, playing the guessing game: "weaker-model es
 are close to unguessable because they have no voice at all". A gate that only protects
 the future leaves that on the page forever, and the essays are the site.
 
-THE THREE RULES THAT MAKE THIS SAFE
+THE FOUR RULES THAT MAKE THIS SAFE
 
 1. It will not accept the fallback model's work. Rewriting a voiceless essay with the
    model that wrote it is a free-tier call spent to change nothing. If the fallback
@@ -35,6 +35,12 @@ THE THREE RULES THAT MAKE THIS SAFE
    slug is date, writer and object, none of which change - so anyone who has read that
    page finds different prose at the same address. Above PROTECT_ABOVE views it is
    left alone.
+
+4. The new verdict must not read as a grade. Rewriting the essay rewrites its verdict,
+   so this path can introduce on a good essay the exact fault tools/reverdict.py exists
+   to remove - "mild praise", "cautious observation". It re-reads once, which is a
+   single scoring call rather than a regeneration, and refuses the rewrite if the
+   second reading is a grade too.
 
 The score and verdict are rewritten with the essay, and that is deliberate rather than
 churn: they describe prose that no longer exists.
@@ -57,6 +63,7 @@ import _env                        # noqa: E402
 import critic                      # noqa: E402
 import reads as reads_mod          # noqa: E402
 import render                      # noqa: E402
+import reverdict                   # noqa: E402
 import styles                      # noqa: E402
 import write as write_stage        # noqa: E402
 
@@ -182,6 +189,25 @@ def main() -> int:
                   f'rewrite still fails: {"; ".join(still) or "empty"} - kept the old one')
             refused += 1
             continue
+        # The verdict is rewritten with the essay, so this path can introduce the exact
+        # fault tools/reverdict.py exists to remove - "mild praise", "cautious
+        # observation" - on an essay that was fine before. One retry of the scoring
+        # pass only, which is a single call and not a regeneration: the prose is good
+        # by this point, it is the reading of it that came back as a report card.
+        if reverdict.is_grade(verdict):
+            print(f'  ..  {e["thinker"]:<10} {e["object"][:22]:<22} '
+                  f"verdict {verdict!r} reads as a grade, asking again")
+            try:
+                verdict, score, on_topic, by = write_stage.score_essay(
+                    thinker, e["object"], essay)
+            except Exception as exc:                 # noqa: BLE001
+                print(f"  !! re-read failed: {type(exc).__name__}"[:80])
+                break
+            if reverdict.is_grade(verdict):
+                print(f'  xx  {e["thinker"]:<10} {e["object"][:22]:<22} '
+                      f"still {verdict!r} - kept the old one, stays queued")
+                refused += 1
+                continue
         if score is None or not on_topic:
             print(f'  xx  {e["thinker"]:<10} {e["object"][:22]:<22} '
                   f"score {score!r}, on_topic {on_topic} - kept the old one")
