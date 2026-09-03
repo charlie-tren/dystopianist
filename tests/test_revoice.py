@@ -58,6 +58,22 @@ def run(monkey, entries):
     return rc
 
 
+def the_fallbacks_work_is_queued_even_when_it_passes(fails):
+    """The widening, and the reason for it. Orwell on airport security cleared every
+    gate and had him calling it "a small price to pay". Clean prose from the fallback
+    is queued; identical prose from Gemini is not, or the queue never converges."""
+    weak = entry(GOOD)
+    weak["provider"] = "cloudflare"
+    if not revoice.listed(weak, ROSTER["orwell"]):
+        fails.append("a clean essay by the fallback model was not queued")
+    if revoice.faults(weak, ROSTER["orwell"]):
+        fails.append("the fixture is not clean, so this proves nothing")
+    good = dict(weak, provider=write_stage.SCORER)
+    if revoice.listed(good, ROSTER["orwell"]):
+        fails.append("a clean essay by Gemini was queued, so the drain cannot converge")
+    print("  clean prose: queued from the fallback, not queued from Gemini")
+
+
 def only_prose_faults_put_an_essay_on_the_list(fails):
     """A missing score is a scoring fault. Rewriting the prose would not fix it, and
     an essay on this list for that reason would be rewritten every night forever."""
@@ -117,7 +133,8 @@ def it_accepts_a_good_rewrite(fails):
 
 def main() -> int:
     fails: list[str] = []
-    for check in (only_prose_faults_put_an_essay_on_the_list,
+    for check in (the_fallbacks_work_is_queued_even_when_it_passes,
+                  only_prose_faults_put_an_essay_on_the_list,
                   a_failing_essay_is_on_the_list,
                   it_refuses_the_fallback_models_rewrite,
                   it_refuses_a_rewrite_that_still_fails,

@@ -152,11 +152,12 @@ jobs:
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
         run: python tools/rescore.py --limit 8
 
-      # Rewrite the essays that today's filler gates would refuse to publish. Twelve
-      # of the sixty-six, every one of them written by the fallback model on a night
-      # Gemini's quota was spent, because the gates only ever applied to what came
-      # after them. Two a night: the cap is the free tier, and this comes after both
-      # the day's essay and the score drain so neither is starved by a repair queue.
+      # Rewrite the essays with no voice in them. The queue is everything today's
+      # filler gates reject PLUS everything the fallback model wrote, because the
+      # gates catch only twelve of its twenty-eight - the one published on 02/09
+      # cleared every gate and has Orwell calling airport security "a small price to
+      # pay". Gate failures go first. Two a night: the cap is the free tier, and this
+      # comes after both the day's essay and the score drain so neither is starved.
       #
       # It refuses the fallback's work outright rather than writing it, and it keeps
       # the original whenever the rewrite fails the same gates - so the backlog can
