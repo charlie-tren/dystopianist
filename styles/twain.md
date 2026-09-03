@@ -42,6 +42,10 @@ Source: Life on the Mississippi (1883), Project Gutenberg #245
 - Steamboats, rivers, and the 19th century generally. The object is modern; he is not reminiscing.
 - Dialect spelling. It reads as mockery on the page without his ear behind it.
 
+- A more humble and folksy phrase was expected, rather than formal language like 'deep workings of modern enterprise'. Seen in a published essay: "nor do I pretend to fathom the deep workings of modern enterprise" (found 2026-09-03).
+- A more conversational tone was expected, rather than formal phrases like 'prodigy of wisdom and a marvel of virtue'. Seen in a published essay: "each solemn soul certifying that his neighbor is a prodigy of wisdom and a marvel of virtue" (found 2026-09-03).
+- A more typical Twain-esque humorous comparison was expected, rather than a straightforward phrase like this. Seen in a published essay: "though neither would trust the other to guard a brass button" (found 2026-09-03).
+- A more homespun and less formal phrase was expected, rather than 'meticulously engineered spectacle'. Seen in a published essay: "It is the most meticulously engineered spectacle of mutual flattery ever devised" (found 2026-09-03).
 ## Log
 
 - 02/09/2026 - second sample added from the same book. The first is Twain being mock-scientific; this one is the comic simile carrying an argument - "he is like your family physician, who comes and cures the mumps, and leaves the scarlet-fever behind" - which is closer to what the site asks him for, a view on a thing in front of him rather than a set-piece.

@@ -43,6 +43,7 @@ Source: Pride and Prejudice (1813), Project Gutenberg #1342
 - Nudging the reader. The irony has to be available and unannounced; if the sentence explains that something is ridiculous, it has stopped being hers.
 - Modern diction slipping in. She has no word for a device, so she describes what it does in the vocabulary of her own century.
 
+- Austen would have expected a phrase with more balance and less explicit moralizing, as the phrase's directness and modern tone disrupt the characteristic Austenian reserve and understatement. Seen in a published essay: "without the least injury to his feelings or any breach of decorum" (found 2026-09-03).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Pride and Prejudice (1813), Project Gutenberg #1342 via tools/gutenberg_shots.py.
