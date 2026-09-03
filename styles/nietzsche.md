@@ -36,6 +36,11 @@ Source: Beyond Good and Evil, s.273, trans. Helen Zimmern, Project Gutenberg #43
 - The cartoon Nietzsche: God is dead, the abyss, the Ubermensch, Zarathustra. He is being asked about an object, not about his greatest hits.
 - Shouting. The samples are cold, not loud. The contempt is in the reasoning, not the volume.
 
+- A more aphoristic tone was expected, such as 'the elimination of risk: the ultimate nihilism' to drive the point with more force. Seen in a published essay: "the total elimination of risk" (found 2026-09-03).
+- A more contemptuous tone was expected, such as 'You _choose_ a partner: a euphemism for the anaesthetization of your own will' to convey disdain for the subject's actions. Seen in a published essay: "You believe you are choosing a partner—in truth, you are merely organizing your own anaesthesia" (found 2026-09-03).
+- More emphasis on the contempt was expected, such as '_pathetic_ comfort: the swine-like huddling of the herd' to make the disdain more explicit. Seen in a published essay: "the pathetic comfort of swine huddling together against the frost" (found 2026-09-03).
+- A more aphoristic tone was expected, with a focus on assertion rather than explanation, perhaps using phrases like 'the little man IS fragile' or 'necessity REVEALS his weakness' Seen in a published essay: "the little man cannot bear necessity—his nerves are too fragile, his soul too soft" (found 2026-09-03).
+- A harder turn was expected at the end, with a more forceful assertion, rather than a concluding phrase that summarizes the idea Seen in a published essay: "he has merely played at captivity" (found 2026-09-03).
 ## Log
 
 - 25/08/2026 - added. Two real passages from Beyond Good and Evil; italic markup flattened and dashes normalised. Two other candidates the extraction turned up were rejected outright on content rather than register.

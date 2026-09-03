@@ -117,12 +117,12 @@
     "name": "Michel de Montaigne",
     "dates": "1533-1592",
     "object": "alarm clocks",
-    "verdict": "tiny executioner",
-    "score": 3.0,
+    "verdict": "rude intruder",
+    "score": 3.1,
     "essay": "I am naturally inclined to linger in my bed, where my thoughts settle most agreeably before the demands of the day intrude; yet here is a little brass engine, devised to shatter that quietude by a sudden, violent ringing. I know not what profit a man finds in startling his own soul out of its proper rest: for if slumber be a shadow of death, to wrench ourselves from it by artifice rather than by the gentle invitation of nature seems a kind of daily violence. And yet, I must confess my own weakness; when left to my own humour, I slide so far into sloth that the morning is half spent before I have put on my doublet; so perhaps this noisy fury is a necessary whip for a mind as sluggish as mine. But what a miserable condition it is, to owe our vigilance not to reason or virtue, but to a piece of rattling iron! We mock the slave who moves at the sound of his master's bell, while we place upon our own nightstands a tiny executioner of our ease; or if not an executioner, at least a rude intruder that takes from us that sweet, uncertain borderland between dreaming and waking, where I think I am often wiser than in my full soberness.",
     "generated": "2026-08-25T20:53:50+00:00",
     "provider": "gemini",
-    "scored_by": "gemini",
+    "scored_by": "gemini/100",
     "reread": "2026-09-02"
   },
   {
@@ -131,12 +131,13 @@
     "name": "Michel de Montaigne",
     "dates": "1533-1592",
     "object": "reclining a seat on a plane",
-    "verdict": "an uneasy slope",
-    "score": 3.5,
+    "verdict": "uneasy slope",
+    "score": 3.1,
     "essay": "I have so little mastery over my own limbs when confined in narrow quarters that I am forever shifting from cheek to cheek, seeking a repose that my restless nature denies me; yet no sooner do I press that small lever to ease my spine by two inches than I feel a sudden pang of shame, knowing I have stolen that same measure of air from the knees of the unoffending gentleman behind me. And if he, in his turn, should thrust his chair back into my lap, I am presently moved to an unreasonable anger: so prompt are we to pardon in ourselves the very inclinations we condemn in others. For what is this desire to tilt one's frame but a childish refusal of our present condition? Yet I cannot wholly condemn a man for seeking a little respite from this iron stiffness; I have done it myself in moments of weariness, though I never reaped from it the peace I promised my soul. We are so built that our tiny comforts must ever be bought at the expense of our neighbour's misery; and I know not whether to blame the contrivance itself, or rather that restless infirmity of our spirits which makes us prefer an uneasy slope to an honest uprightness.",
     "generated": "2026-08-25T20:54:05+00:00",
     "provider": "gemini",
-    "scored_by": "gemini"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-03"
   },
   {
     "date": "2026-08-25",
@@ -145,11 +146,12 @@
     "dates": "1844-1900",
     "object": "dating apps",
     "verdict": "organised anaesthesia",
-    "score": 0.5,
+    "score": 0.3,
     "essay": "The modern soul demands above all things that love be rendered painless—and in doing so, it destroys the very soil out of which love grows. What is this digital market of faces if not the final triumph of the small man, who trembles at the thought of rejection, of conflict, of the violent collision of two wills? He wishes to select his destiny as one selects a sausage at the butcher: pre-inspected, guaranteed, stripped of all dangerous ambiguity. One flicks a finger, and the troubling mystery of another human being is reduced to a flickering image, a commodity to be approved or dismissed without the slightest expenditure of spirit. This is the morality of the herd made invisible: the total elimination of risk. But where there is no risk, there is no value; where there is no danger, there is only the pathetic comfort of swine huddling together against the frost. You believe you are choosing a partner—in truth, you are merely organizing your own anaesthesia. You have traded the terrible magnificence of the encounter for a machine that promises you will never again have to suffer the agony of a gaze that does not look back.",
     "generated": "2026-08-25T20:54:20+00:00",
     "provider": "gemini",
-    "scored_by": "gemini"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-03"
   },
   {
     "date": "2026-08-25",
@@ -158,11 +160,12 @@
     "dates": "1844-1900",
     "object": "escape rooms",
     "verdict": "counterfeit agony",
-    "score": 0.5,
+    "score": 0.4,
     "essay": "To seek out a lock merely for the pleasure of finding its key—that is the final, pathetic refinement of a race that has forgotten how to bleed. The modern coward demands the thrill of the dungeon, but only on the condition that the gaoler holds the clock and guarantees his supper. Observe these voluntary prisoners: they gather in small, eager herds to solve petty riddles constructed by clerks as hollow as themselves; they cheer when a false door springs open, believing they have achieved a triumph of the spirit. It is not liberation they desire, but the illusion of peril without its terrible price. True overcoming is forged only in the furnace of necessity, where failure means ruin and the walls do not part for a fee. But the little man cannot bear necessity—his nerves are too fragile, his soul too soft. He requires a crisis with an appointment: a catastrophe that expires in sixty minutes. He pays his coin for this counterfeit agony so that he may return to his comfortable numbness, persuaded that he has wrestled with fate—when he has merely played at captivity.",
     "generated": "2026-08-25T20:54:41+00:00",
     "provider": "gemini",
-    "scored_by": "gemini"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-03"
   },
   {
     "date": "2026-08-25",
@@ -171,11 +174,11 @@
     "dates": "1903-1950",
     "object": "airport lounges",
     "verdict": "a carpeted box",
-    "score": 1.0,
+    "score": 0.6,
     "essay": "The main trouble with the airport lounge is that it tries to make a man feel like a gentleman by treating him like an invalid. You pay an extra pound or two at the gate, or hold the right strip of cardboard, and at once you are ushered away from the noise of the main hall into a carpeted box where everything is muted, soft, and slightly warm. The lighting is turned down so low that you can barely read a newspaper, and soft music drips constantly from hidden speakers like water from a leaky tap. There are deep leather armchairs to sink into, but they are designed in such a way that you cannot sit up straight or look your neighbour in the eye. On a long counter sit metal dishes full of lukewarm, yellow soup and dry bread rolls wrapped in cellophane. It is all free, or seems free, which is why middle-class travellers gorge themselves on cheap gin and stale nuts while watching a television screen with the sound turned off. The whole place smells faintly of carpet cleaner and gin. It exists not to give you real comfort, but to sell the illusion that you are better than the crowd outside, when in truth you have merely paid to be penned in a quieter room.",
     "generated": "2026-08-25T20:55:05+00:00",
     "provider": "gemini",
-    "scored_by": "gemini"
+    "scored_by": "gemini/100"
   },
   {
     "date": "2026-08-25",
@@ -184,11 +187,11 @@
     "dates": "1903-1950",
     "object": "self-checkout machines",
     "verdict": "unpaid clerical work",
-    "score": 1.0,
+    "score": 0.8,
     "essay": "If you watch a man at one of these metal tills, you will see that he is doing two things at once: paying for his own bread and doing the shopkeeper's work for him. The shopkeeper saves a wage, and the customer receives nothing in return except the trouble of finding the barcode on a tin of peas. It is sold to us as a convenience, but it is obvious to anyone with eyes that it is merely a device to make the public do for free what used to be paid labour. When you bark at a glass screen because a plastic bag has not registered its proper weight, you are not saving time. You are simply performing a piece of unpaid clerical work under the watchful eye of a bored guard who has been hired to make sure you do not steal the bacon you are already packing yourself. The whole business belongs to that modern habit of pretending that less service is actually more freedom. A hundred years ago, a shopkeeper who asked his customers to weigh their own flour and drop the money into a box would have been thought mad or bankrupt. Today it is called progress, and millions of people step up to the glowing screen every evening, perfectly content to be turned into unpaid shop assistants.",
     "generated": "2026-08-25T20:55:55+00:00",
     "provider": "gemini",
-    "scored_by": "gemini"
+    "scored_by": "gemini/100"
   },
   {
     "date": "2026-08-25",
@@ -902,6 +905,19 @@
     "score": 8.1,
     "essay": "The greatest luxury of our civilised age is the ability to eavesdrop on intimacy without the tedious necessity of participating in it. Conversation was once a delicate art of mutual deception, wherein two people pretended to care for each other’s opinions; today we have perfected a far more charming arrangement, allowing complete strangers to whisper their prejudices directly into our ears. It is the ultimate triumph of solitude over society. To listen to a friend requires a certain sacrifice of patience, but to listen to a disembodied voice requires only a small plastic button and a profound desire to avoid one’s own thoughts. The world is tragically full of people who have nothing to say, and extraordinarily populated by those who insist on saying it at great length. Yet we forgive them their loquacity, precisely because we can silence them with a single touch of the finger. Nothing is so dreadful as a monologue, unless it is a monologue one can turn off at will, in which case it becomes the highest form of companionship. We consume these endless streams of chatter not to acquire wisdom, but to indulge the delightful illusion that we are present at a dinner party where no one can ask us to pass the salt.",
     "generated": "2026-09-02T23:19:27+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100"
+  },
+  {
+    "date": "2026-09-03",
+    "thinker": "dickens",
+    "name": "Charles Dickens",
+    "dates": "1812-1870",
+    "object": "the washing machine",
+    "verdict": "churning demon",
+    "score": 6.8,
+    "essay": "I have watched that great, shuddering iron box in the corner of the scullery, thrashing a dozen linen shirts with the mindless ferocity of a gale off the coast of Cornwall, and I am brought to a stand by the sheer brutality of its efficiency. Through its round glass eye, one beholds a drowning world of suds and sea-foam, wherein neckcloths and waistcoats are tossed, whirled, battered, and clouted against the ribs of the drum with a relentless, mechanical malice. It is a violent business, to be sure; it groans and thuds like a captive sea-monster straining at its bolts, threatening at the furious height of its spin to shake the very floorboards from their joists. Yet when I recall the miserable, steam-blinded washerwomen of my acquaintance—their raw, red knuckles flaked by lye, their bent backs aching over the icy copper tub through the bitterest winter dawns—I cannot find it in my heart to pity the tortured shirts. We spent centuries sacrificing human elbows and human lungs to the god of clean collars, treating the poor soul who scrubbed our dirt as though she were less valuable than the mud she removed. If this churning demon must shriek and shudder to spare a woman that agonising drudgery, then let it roar on.",
+    "generated": "2026-09-03T19:54:40+00:00",
     "provider": "gemini",
     "scored_by": "gemini/100"
   }
