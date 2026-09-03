@@ -42,6 +42,13 @@ Source: "Pleasure Spots" (1946), Fifty Orwell Essays, Project Gutenberg Australi
 - Ending on a slogan. He earns the conclusion; he does not announce it.
 - Reaching for the totalitarian register. Both samples are a man being certain about a small thing; the politics arrives underneath it, not on top.
 
+- Expected a more direct and simple phrase, such as 'it smells of carpet cleaner and gin', without the vague adverb 'faintly' Seen in a published essay: "the whole place smells faintly of carpet cleaner and gin" (found 2026-09-03).
+- Expected a more straightforward comparison, such as 'soft music plays from hidden speakers', without the elaborate simile 'like water from a leaky tap' Seen in a published essay: "soft music drips constantly from hidden speakers like water from a leaky tap" (found 2026-09-03).
+- Expected a more concise phrase, such as 'you cannot sit up straight', without the additional clause 'or look your neighbour in the eye' Seen in a published essay: "designed in such a way that you cannot sit up straight or look your neighbour in the eye" (found 2026-09-03).
+- Expected a simpler sentence structure, such as 'it does not give you real comfort, it just makes you feel better than the crowd', without the complex phrase 'sell the illusion' Seen in a published essay: "it exists not to give you real comfort, but to sell the illusion that you are better than the crowd outside, when in truth you have merely paid to be penned in a quieter room" (found 2026-09-03).
+- Expected a more direct and simple phrase, such as 'under a guard's eye', instead of the more elaborate and descriptive phrase used. Seen in a published essay: "under the watchful eye of a bored guard" (found 2026-09-03).
+- Expected a more concrete and specific phrase, such as 'the notion that less service means more freedom', instead of the more abstract and general phrase used. Seen in a published essay: "that modern habit of pretending that less service is actually more freedom" (found 2026-09-03).
+- Expected a more straightforward and declarative phrase, such as 'content to work for nothing', instead of the more elaborate and passive phrase used. Seen in a published essay: "perfectly content to be turned into unpaid shop assistants" (found 2026-09-03).
 ## Log
 
 - 25/08/2026 - migrated from config/thinkers.yaml; Avoid list seeded from the first batch.
