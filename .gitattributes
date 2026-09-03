@@ -1,0 +1,22 @@
+# LF everywhere, because this repo's files are WRITTEN with LF on purpose.
+#
+# render.py, the tools and the tests all pass newline="\n" explicitly, so a page
+# lands LF whatever machine built it - and CI, which builds the live site, is Linux.
+# On Charlie's Windows laptop `core.autocrlf` is true globally, so git expects CRLF
+# in the working tree and reports every generated page as modified the moment the
+# renderer runs. Measured 03/09/2026: 34 files "modified" with an empty `git diff`
+# and zero numstat lines. Two sessions in a row have had to work out that the churn
+# was nothing, and one of them discarded it with a `git checkout` that also took
+# real uncommitted work with it.
+#
+# Declaring it here settles it per repo rather than per machine, so a second clone
+# or a new laptop behaves the same way without anyone setting a global.
+* text=auto eol=lf
+
+# Binary, so nothing normalises them. The portraits and icons are the whole reason
+# to be explicit: a line-ending pass over a JPEG corrupts it silently.
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.ico  binary
+*.webp binary
