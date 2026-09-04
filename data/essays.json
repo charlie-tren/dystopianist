@@ -244,11 +244,11 @@
     "dates": "1775-1817",
     "object": "audiobooks",
     "verdict": "polite indolence",
-    "score": 2.0,
+    "score": 2.3,
     "essay": "The practice of receiving an entire volume through the ears, while the hands remain at liberty to trim a bonnet or the feet to wander the shrubbery, is now so generally cultivated as to render the physical opening of a book almost superfluous. It is an arrangement which commends itself singularly to those young ladies who, wishing to be thought accomplished without incurring the fatigue of application, find in an unseen narrator a companion at once indefatigable and admirably restrained from offering opinions of his own. That one may now absorb the domestic trials of a distant family while traversing a muddy lane, with no greater exertion than what is required to wear a modest headpiece, must be regarded as a most convenient refinement of polite indolence. Indeed, several young persons of my acquaintance have lately displayed a devotion to literature hitherto unsuspected in them, though it is observed that their reflection upon these works seldom survives the arrival of fresh gossip. Such a method permits the illusion of intellectual employment to coexist peacefully with complete bodily ease; and should the reader prove tedious, he suffers the singular fate of being silenced without the least injury to his feelings or any breach of decorum.",
     "generated": "2026-08-26T03:08:50+00:00",
     "provider": "gemini",
-    "scored_by": "gemini",
+    "scored_by": "gemini/100",
     "reread": "2026-09-03"
   },
   {
@@ -257,12 +257,13 @@
     "name": "Jane Austen",
     "dates": "1775-1817",
     "object": "dating apps",
-    "verdict": "exhausting suspicion",
+    "verdict": "excess of choice",
     "score": 1.8,
     "essay": "The practice of presenting oneself to the world by means of illuminated likenesses, accompanied by a brief testimonial of one’s temper and expectations, has simplified the business of courtship without rendering it notably more agreeable. A young gentleman, having surveyed a hundred countenances in the space of a quarter of an hour, feels himself fully qualified to judge the propriety of an acquaintance before a single sentence has been exchanged. Should a lady’s inclination happen to coincide with his own, a circumstance signaled by a mutual agreement of the glass, a correspondence is immediately permitted; yet this privilege, being obtained with so little exertion, is commonly held in very slight esteem. It is not unusual for a promising attachment, founded entirely upon the favorable angle of a miniature portrait, to languish into total neglect within three days, as soon as the exertion of maintaining a sensible conversation becomes necessary. The extraordinary facility with which one candidate may be dismissed in favor of another encourages a species of fastidiousness that pretends to high delicacy, whilst in truth it arises merely from an excess of choice. Thus, many a young person remains solitary, not from any lack of offered affections, but from the exhausting suspicion that a superior match must inevitably follow the next turn of the hand.",
     "generated": "2026-08-26T03:09:19+00:00",
     "provider": "gemini",
-    "scored_by": "gemini"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-04"
   },
   {
     "date": "2026-08-26",
@@ -271,11 +272,12 @@
     "dates": "1812-1870",
     "object": "audiobooks",
     "verdict": "disembodied voices",
-    "score": 4.5,
+    "score": 4.7,
     "essay": "As I stroll through the bustling streets, my ears are beset on all sides by the murmurs of voices, disembodied and detached from their owners, yet still managing to convey the full force of their emotions. It is a curious thing, this ability to convey the nuances of the human experience through the spoken word alone, without the aid of gestures or facial expressions. I find myself drawn to the sound of these voices, my attention captured by the rise and fall of their inflections, the pause and emphasis that conveys meaning beyond the mere words themselves. And yet, I am also aware of the disconnect between the speaker and the listener, the fact that the voice is not truly present, but rather a recording, a shadow of the real thing. It is a strange and disconcerting experience, one that leaves me feeling both intrigued and unsettled, like a traveller who has stumbled into a unfamiliar land, unsure of the customs or the language.",
     "generated": "2026-08-26T03:09:52+00:00",
     "provider": "cloudflare",
-    "scored_by": "gemini"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-04"
   },
   {
     "date": "2026-08-26",
@@ -288,7 +290,8 @@
     "essay": "I have walked through rain and fog, down dark turnings and over rattling cobbles, for no better reason than that my legs belonged to me and the night was wide. Yet I find my fellow-striders now transformed into self-flogging turnstiles, each carrying strapped upon his person a monstrous little clerk that counts his heel-strikes like so many halfpence into a till. It is not enough to step forth into the chilly street to clear one's head or observe a neighbour's chimney; no, the walk is ruined unless the wrist-bound bead-counter approves the tally. I saw an otherwise civilised gentleman this very morning pacing frantically about a lamp-post, for all the world like an agitated poodle on a tether, merely to force his wretched little monitor to acknowledge some arbitrary round sum of paces before his breakfast. What a miserable indignity, that the noble, wandering impulse of the human leg should be reduced to the bookkeeping of an ironmonger's clerk! We are not steam-locomotives requiring a tally of our revolutions, nor are we sheep to be driven through a narrow gate for counting; yet we willingly submit to this mechanical tyrant, measuring the very freedom of our stride by the clicking of a tiny pocket-gaoler.",
     "generated": "2026-08-26T03:10:24+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-04"
   },
   {
     "date": "2026-08-26",
@@ -297,11 +300,11 @@
     "dates": "1830-1886",
     "object": "self-checkout machines",
     "verdict": "mask of efficiency",
-    "score": 3.0,
+    "score": 3.7,
     "essay": "In the stillness of a store, a lone figure stands before a glassy screen, its fingers dancing across a keypad with a quiet urgency. The soft beep of each item scanned is a gentle reminder of the task at hand, a steady heartbeat that underscores the solitude of this interaction. A sense of detachment settles over the scene, as if the figure is merely a conduit for the flow of goods, a temporary nexus between the shelves and the bag. The machine's calm façade - its blank face a mask of efficiency - belies the intricate web of calculations and verifications that hum beneath its surface, a hidden world of codes and checks that underpin this fleeting transaction. In this brief, shining moment, the boundaries between self and machine are blurred, and the figure becomes an extension of the device, a symbiotic union of flesh and steel that dissolves as soon as the last item is scanned - and the silence that follows is a palpable thing, a physical presence that fills the space left by the absence of human connection.",
     "generated": "2026-08-26T03:10:56+00:00",
     "provider": "cloudflare",
-    "scored_by": "gemini"
+    "scored_by": "gemini/100"
   },
   {
     "date": "2026-08-26",
@@ -310,11 +313,11 @@
     "dates": "1830-1886",
     "object": "the step counter",
     "verdict": "gentle tyranny",
-    "score": 5.0,
+    "score": 4.7,
     "essay": "The step counter's gentle tyranny - it imposes a rhythm on the day, a cadence of footsteps that can be as soothing as a metronome or as jarring as a discordant note. In its presence, the body becomes a kind of instrument, each step a deliberate gesture, a physical manifestation of intention. To wear it is to be reminded of the intricate web of habits and routines that govern our lives, the hidden patterns that shape our movements and our days. The step counter's quiet persistence - a steady heartbeat of measurement and tracking - can be a source of comfort, a reassurance that even in the most mundane moments, something is being counted, something is being noted. And yet, it can also be a source of unease, a nagging sense that every step, every movement, is being watched, weighed, and measured.",
     "generated": "2026-08-26T03:11:27+00:00",
     "provider": "cloudflare",
-    "scored_by": "gemini"
+    "scored_by": "gemini/100"
   },
   {
     "date": "2026-08-26",
@@ -322,12 +325,12 @@
     "name": "Marcel Proust",
     "dates": "1871-1922",
     "object": "anaesthesia",
-    "verdict": "imperceptible beauty",
-    "score": 7.5,
+    "verdict": "a suspended landscape",
+    "score": 7.6,
     "essay": "As the sensation of numbness begins to seep into my awareness, like the gentle lapping of waves against a distant shore, I find myself drawn into the peculiar realm of anaesthesia, where the familiar contours of sensation are subtly altered, and the world, once a vibrant tapestry of feeling, is reduced to a muted palette of dulled perceptions, and yet, even as the boundaries of my awareness are thus shifted, I become aware of a strange, almost imperceptible, beauty, a quietude that pervades the space, like the stillness that follows a snowfall, and it is here, in this eerie, suspended landscape, that I begin to grasp the elusive, whispered promise of anaesthesia, a promise that beckons me deeper, into the hidden recesses of its mysterious, twilight world, where the very notion of feeling is transformed, and I, a traveler in this strange land, am left to ponder the enigmatic, whispering shadows that dance upon its walls.",
     "generated": "2026-08-26T03:11:58+00:00",
     "provider": "cloudflare",
-    "scored_by": "gemini"
+    "scored_by": "gemini/100"
   },
   {
     "date": "2026-08-26",
@@ -336,11 +339,11 @@
     "dates": "1871-1922",
     "object": "painkillers",
     "verdict": "effortless lightness",
-    "score": 8.2,
+    "score": 8.8,
     "essay": "As the small, unassuming packet lay before me, its contents waiting to be released from their tightly sealed prison, I found myself pondering the subtle yet profound influence it wielded over our daily lives, a presence as unobtrusive as the gentle hum of a clock in the hallway, yet capable of conjuring entire worlds of relief and solace, much like the soft, golden light that spills from a doorway into a darkened room, illuminating the contours of a space that had previously been shrouded in shadow, and it was this very interplay of light and darkness that seemed to reverberate through my mind, long after my initial glance at the packet had faded into the background of my awareness, and I began to wander through the labyrinthine corridors of memory, guided by the faint, shimmering thread of association that the packet had unwittingly stirred, leading me to contemplate the mysterious, almost alchemical process by which it transformed the leaden weight of suffering into a buoyant, effortless lightness, and the ways in which this transformation, in turn, rippled outward, disturbing the tranquil surface of my thoughts, like the delicate, lace-like patterns that form on the surface of a pond when a stone is cast into its still waters.",
     "generated": "2026-08-26T03:12:59+00:00",
     "provider": "cloudflare",
-    "scored_by": "gemini"
+    "scored_by": "gemini/100"
   },
   {
     "date": "2026-08-26",
@@ -348,12 +351,12 @@
     "name": "Henry David Thoreau",
     "dates": "1817-1862",
     "object": "the hot shower",
-    "verdict": "expensive bath",
-    "score": 2.3,
+    "verdict": "indoor tropical rain",
+    "score": 2.8,
     "essay": "I spent three cents this morning for six minutes of indoor tropical rain, bought from a town steam-pipe, and deemed myself scrubbed. A man pays a heavy interest in his own native vigor for the privilege of turning a brass spigot to summon August into a tiled closet. Yet who can deny the feline pleasure of that falling mist, when the hot drops beat a storm upon the shoulders, lulling the flesh into a vaporous, momentary paradise? It is an expensive bath, however cheap the bill appears. To warm twenty gallons of river water to ninety degrees demands three pounds of hard coal, mined by a stranger, and a full half-hour of a man’s own labor surrendered to satisfy the city collector. We pay for this deluge with the very stamina it washes away. The wood-frog plunges into the dark pond without a penny’s toll and emerges hardened for his leap; the townsman steps from his box, steamed to the soft consistency of a boiled turnip, having spent the morning's best hour paying to be unstrung. We pour out our vital heat into the sewer and call it clean living.",
     "generated": "2026-08-26T03:13:30+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare/100"
+    "scored_by": "gemini/100"
   },
   {
     "date": "2026-08-26",
@@ -413,12 +416,12 @@
     "name": "Walt Whitman",
     "dates": "1819-1892",
     "object": "the step counter",
-    "verdict": "a quiet witness",
-    "score": 6.8,
-    "essay": "Sidewalks thronged with people, each face intent on a small glass window, fingers brushing against it, a silent tally accumulating - the city's rhythm weaving in and out of footsteps, buses, bicycles, and the steady stream of pedestrians, all as the step counter ticks away, a quiet witness to the ebbs and flows of daily life; in offices, workers sit, eyes fixed on similar small windows, their movements tracked, monitored, a digital record of comings and goings; on streets, in parks, on trails, the step counter accompanies its wearer, a constant, unobtrusive presence, cataloging every step, every stride, every pause; in this vast, intricate tapestry, the step counter is a single, insistent thread, weaving together the disparate moments of a life, a testament to the power of small, repeated actions to shape and reflect our days.",
+    "verdict": "honest arithmetic",
+    "score": 8.2,
+    "essay": "A little machine bound to the wrist or tucked in the pocket—clipping off the tally of a man’s daily tread. I like the look of it; the small, tireless mechanic registering the heavy heel-strike on granite, the quick rustle of slippers through clover, the steady march of the drayman, the slow evening stroll of old age. Thousands of paces—a silent ledger of our endless momentum. No commentary from the thing, no moralizing or scolding, just the crisp, faithful record of legs swinging through the open air. Down the avenue at noon—past the car-drivers, the apple-vendors, the hurrying clerks—the tiny counter humming unseen against the hip. Across the river in the twilight, back and forth, every jolt saved, every stride made equal with the rest. A farmer following his plow across thirty acres; a young mother walking the floor with a restless babe; the watchman pacing his damp alleyways—all of them feeding their vigor into the same quiet tally. It binds the rough bodily effort to the glass and metal; turns the divine, careless impulse of walking into a neat sum you can carry with you. Good, honest arithmetic of the road.",
     "generated": "2026-08-26T03:16:35+00:00",
-    "provider": "cloudflare",
-    "scored_by": "gemini"
+    "provider": "gemini",
+    "scored_by": "cloudflare/100"
   },
   {
     "date": "2026-08-26",
@@ -950,6 +953,19 @@
     "score": 6.7,
     "essay": "Let us consider the tiny painted face, glowing faintly upon a glass screen; it offers itself as a surrogate for the human heart. When the burden of phrasing our affections becomes too heavy, or when the rhythm of conversation falters, we press a miniature yellow oval, and a tear of blue crystal appears upon its cheek. It is a strange, bright shorthand. We have laboured for centuries to capture in prose the precise shade of our melancholy or the exact texture of our delight, only to surrender the struggle to a symbol smaller than a postage stamp. Does this signal the poverty of our imagination, or merely our haste? It is, perhaps, neither; it is the natural instinct of a creature overwhelmed by the speed of its own thought. To send a solitary red heart across the void is not to abandon language, but to throw a small, glowing pebble into the dark. It lacks, to be sure, the grand architecture of a sentence, yet it conveys an instant warmth; it tells the recipient that somewhere, amidst the noise of the world, a mind has paused to acknowledge another. We may mourn the subtle cadence of a well-turned phrase, but we cannot entirely despise a picture that speaks so quickly when time is short.",
     "generated": "2026-09-03T23:17:02+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100"
+  },
+  {
+    "date": "2026-09-04",
+    "thinker": "montaigne",
+    "name": "Michel de Montaigne",
+    "dates": "1533-1592",
+    "object": "Shrek (2001)",
+    "verdict": "honest belch",
+    "score": 6.2,
+    "essay": "I find myself strangely drawn to that green creature whose sanctuary is a muddy swamp, for in his desire to be left entirely alone with his foul habits, I recognise something of my own nature; yet I wonder whether this light illusion, crafted with such intricate artifice of moving light and shadow, does not play a subtle trick upon my judgement. I, when I sit before this spectacle, am asked to laugh at the polished court of Duloc and its diminutive ruler, who would trim all human irregularity into straight lines and bloodless order; and yet, even as I applaud the monster for preserving his filthy solitude, I perceive that the tale merely substitutes one vanity for another. The beast remains a beast, full of flatulence and crude belches, yet I am made to deem him noble precisely for his ugliness; I know not whether this is a true liberation of our spirit or merely a comfortable deceit to make us fond of our own blemishes. By the end, when the princess reveals her own monstrous form, I am left in some doubt whether love ought to refine our nature or merely reconcile us to the mud; still, I suspect I prefer the ogre's honest belch to the courtier's hollow song.",
+    "generated": "2026-09-04T19:40:33+00:00",
     "provider": "gemini",
     "scored_by": "gemini/100"
   }

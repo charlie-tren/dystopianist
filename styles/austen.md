@@ -44,6 +44,9 @@ Source: Pride and Prejudice (1813), Project Gutenberg #1342
 - Modern diction slipping in. She has no word for a device, so she describes what it does in the vocabulary of her own century.
 
 - Austen would have expected a phrase with more balance and less explicit moralizing, as the phrase's directness and modern tone disrupt the characteristic Austenian reserve and understatement. Seen in a published essay: "without the least injury to his feelings or any breach of decorum" (found 2026-09-03).
+- A more subtle transition to the negative aspect was expected, such as 'and yet the outcome is not always more pleasing' to maintain Austen's characteristic reserve. Seen in a published essay: "without rendering it notably more agreeable" (found 2026-09-04).
+- A more formal and less direct phrase was expected, such as 'a circumstance intimated by a reciprocal glance' to better fit Austen's style. Seen in a published essay: "a circumstance signaled by a mutual agreement of the glass" (found 2026-09-04).
+- A less explicit contrast between appearance and reality was expected, such as 'fosters a fastidiousness that may be mistaken for refinement' to allow the reader to infer the irony. Seen in a published essay: "encourages a species of fastidiousness that pretends to high delicacy, whilst in truth it arises merely from an excess of choice" (found 2026-09-04).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Pride and Prejudice (1813), Project Gutenberg #1342 via tools/gutenberg_shots.py.
