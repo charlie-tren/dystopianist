@@ -43,6 +43,14 @@ Source: Poems, Three Series (1890-96), Project Gutenberg #12242
 - Dashes in every sentence. Two or three in the whole piece, each doing work a comma could not.
 - Sounding gnomic for its own sake. Every compression must still say something checkable about the object.
 
+- Expected a more concise and enigmatic phrase, not a cliched metaphor Seen in a published essay: "a steady heartbeat that underscores the solitude of this interaction" (found 2026-09-04).
+- Expected a more abstract and suggestive phrase, not a straightforward explanation Seen in a published essay: "a hidden world of codes and checks that underpin this fleeting transaction" (found 2026-09-04).
+- Expected a more ambiguous and poetic phrase, not a scientific-sounding concept Seen in a published essay: "a symbiotic union of flesh and steel that dissolves as soon as the last item is scanned" (found 2026-09-04).
+- Expected a more subtle and implicit suggestion of the silence's significance, not a explicit statement Seen in a published essay: "the silence that follows is a palpable thing, a physical presence that fills the space left by the absence of human connection" (found 2026-09-04).
+- Expected a more concise and abstract comparison, rather than a lengthy and explanatory one Seen in a published essay: "a cadence of footsteps that can be as soothing as a metronome or as jarring as a discordant note" (found 2026-09-04).
+- Expected a more ambiguous and suggestive phrase, rather than a straightforward explanation Seen in a published essay: "the hidden patterns that shape our movements and our days" (found 2026-09-04).
+- Expected a more enigmatic and condensed metaphor, rather than a clear and descriptive one Seen in a published essay: "a steady heartbeat of measurement and tracking" (found 2026-09-04).
+- Expected a more subtle and implicit suggestion, rather than a direct and explicit statement Seen in a published essay: "a nagging sense that every step, every movement, is being watched, weighed, and measured" (found 2026-09-04).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Poems, Three Series (1890-96), Project Gutenberg #12242 via tools/gutenberg_shots.py.

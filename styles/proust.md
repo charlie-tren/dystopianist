@@ -43,6 +43,8 @@ Source: Swann's Way, tr. C. K. Scott Moncrieff (1922), Project Gutenberg #7178
 - Reaching for a madeleine, tea, or a childhood bedroom. The trigger is whatever is in front of him, and it should be the object under review.
 - Ending on the point. He arrives somewhere and keeps going a half-clause past it.
 
+- Uses a stock literary cliché where Proust would deploy a precise, highly detailed metaphor drawn from art, optics, or social observation. Seen in a published essay: "a vibrant tapestry of feeling" (found 2026-09-04).
+- Relies on generic, melodramatic tropes rather than Proust's rigorous, analytical dissection of perception. Seen in a published essay: "enigmatic, whispering shadows that dance upon its walls" (found 2026-09-04).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Swann's Way, tr. C. K. Scott Moncrieff (1922), Project Gutenberg #7178 via tools/gutenberg_shots.py.
