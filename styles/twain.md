@@ -46,6 +46,9 @@ Source: Life on the Mississippi (1883), Project Gutenberg #245
 - A more conversational tone was expected, rather than formal phrases like 'prodigy of wisdom and a marvel of virtue'. Seen in a published essay: "each solemn soul certifying that his neighbor is a prodigy of wisdom and a marvel of virtue" (found 2026-09-03).
 - A more typical Twain-esque humorous comparison was expected, rather than a straightforward phrase like this. Seen in a published essay: "though neither would trust the other to guard a brass button" (found 2026-09-03).
 - A more homespun and less formal phrase was expected, rather than 'meticulously engineered spectacle'. Seen in a published essay: "It is the most meticulously engineered spectacle of mutual flattery ever devised" (found 2026-09-03).
+- A more homespun comparison was expected, rather than this formal phrase. Seen in a published essay: "a delicate balance of courtesy and personal space" (found 2026-09-05).
+- A more conversational tone was expected, rather than this formal phrase. Seen in a published essay: "a negotiation of physical and social boundaries" (found 2026-09-05).
+- A deadpan sentence with more punch was expected to conclude the essay. Seen in a published essay: "it's just a seat, after all" (found 2026-09-05).
 ## Log
 
 - 02/09/2026 - second sample added from the same book. The first is Twain being mock-scientific; this one is the comic simile carrying an argument - "he is like your family physician, who comes and cures the mumps, and leaves the scarlet-fever behind" - which is closer to what the site asks him for, a view on a thing in front of him rather than a set-piece.

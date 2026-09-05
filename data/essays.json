@@ -388,7 +388,8 @@
     "essay": "It's a curious thing, this business of leaning back in a seat while suspended in the air, surrounded by strangers who are also leaning back, or not, as the case may be. You'd think it would be a simple matter, a mere adjustment of one's position to suit their comfort, but no, it seems to be a delicate balance of courtesy and personal space. I've seen folks recline with abandon, as if they're settling into their favourite armchair, while others around them grow tense and irritated, their knees compressed into a space that's suddenly grown too small. And then there are those who ask permission, as if seeking a pardon for the indulgence, their voices low and apologetic as they inquire if it's alright to lean back, just a little. It's a strange dance, this reclining of seats, a negotiation of physical and social boundaries that can be as fraught as it is mundane, and in the end, it's just a seat, after all.",
     "generated": "2026-08-26T03:14:33+00:00",
     "provider": "cloudflare",
-    "scored_by": "gemini"
+    "scored_by": "gemini",
+    "reread": "2026-09-05"
   },
   {
     "date": "2026-08-26",
@@ -401,7 +402,8 @@
     "essay": "As you settle into the plush armchair, surrounded by the muted hum of conversation and the occasional clinking of glasses, it becomes clear that the lounge is designed to insulate you from the chaos of the terminal, to envelop you in a sense of privilege and exclusivity, which, if you're being honest with yourself, is a feeling you're not entirely sure you deserve, but are more than happy to indulge in, if only for a little while, because what's the harm, really, in pretending to be someone you're not, at least in this fleeting, liminal space, where the rules of everyday life seem to bend and warp, and you can almost convince yourself that you belong here, among the well-heeled and the frequent flyers, until, that is, you catch a glimpse of yourself in the mirror, and are reminded, once again, of the fragile, provisional nature of this little oasis, and the fact that, no matter how comfortable you get, you're still just a traveler, waiting to be somewhere else.",
     "generated": "2026-08-26T03:15:03+00:00",
     "provider": "cloudflare",
-    "scored_by": "gemini"
+    "scored_by": "gemini",
+    "reread": "2026-09-05"
   },
   {
     "date": "2026-08-26",
@@ -414,7 +416,8 @@
     "essay": "As you stand there, scanning each item with a mix of precision and apathy, it's hard not to wonder what exactly you're being sold on, besides the obvious convenience, which is really just a euphemism for a subtle reconfiguration of the labor dynamic, where you're now not only the consumer but also the workforce, tasked with the mundane duties of scanning, bagging, and paying, all while being quietly judged by the machine's disembodied voice, which seems to take a perverse pleasure in pointing out your errors, as if to remind you that, even in this ostensibly streamlined process, there's still room for human fallibility, and it's this tension, between the promise of efficiency and the reality of your own imperfect agency, that makes the experience of using these machines so strangely, and perhaps even profoundly, uncomfortable, in a way that's both deeply personal and utterly ordinary.",
     "generated": "2026-08-26T03:15:33+00:00",
     "provider": "cloudflare",
-    "scored_by": "gemini"
+    "scored_by": "gemini",
+    "reread": "2026-09-05"
   },
   {
     "date": "2026-08-26",
@@ -998,6 +1001,19 @@
     "score": 7.3,
     "essay": "To turn one's private existence into a public spectacle used to require a magnificent scandal; today it merely requires a lack of reticence and an agreeable light. We have entered an age where the highest ambition is not to possess a soul, but to simulate a charming environment. To be admired by thousands of people one has never met is the modern equivalent of being knighted, though far less demanding and considerably more lucrative. Yet there is something splendid about a human being who makes a career out of sheer visibility. They have discovered the supreme secret of modern life: that to be useful is vulgar, but to appear effortlessly captivating is an art form of the highest order. Naturally, the public forgives them everything except a bad light or an uninspired pose. The real tragedy of these delicate creatures is not that they sell their lives, for privacy has always been the refuge of the uninteresting. The tragedy is that they must constantly labour to persuade us of their sincerity. To inspire devotion without possessing a single conviction is a magnificent triumph of style over tedious substance, proving that in a civilised society, nothing succeeds so thoroughly as beautiful triviality.",
     "generated": "2026-09-05T19:05:11+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100"
+  },
+  {
+    "date": "2026-09-05",
+    "thinker": "adams",
+    "name": "Douglas Adams",
+    "dates": "1952-2001",
+    "object": "airport security",
+    "verdict": "mandatory theatre",
+    "score": 1.4,
+    "essay": "The entire architecture of modern air travel relies on a brief, mandatory theatre in which several hundred entirely innocent citizens are required to strip down to their socks, surrender their moisturiser, and walk through a grey plastic frame that emits a high-pitched beep whenever it encounters a belt buckle. This ritual is conducted with a solemnity previously reserved for royal coronations, despite being administered by staff who would clearly rather be anywhere else, and overseen by machines that are ninety-eight percent certain that a small pot of yoghurt represents an existential threat to civilised life. The genius of the arrangement lies in its psychological symmetry. By treating every passenger as an imminent catastrophe who must prove their own harmlessness by holding a small transparent bag above their head, the system creates a queue so profoundly tedious that by the time anyone actually reaches the aeroplane, they have lost all capacity for malice, along with their dignity, a bottle of water, and any remaining desire to travel. It is, in every practical sense, entirely successful, not because it catches villains, but because it ensures that everyone entering the sky is already far too exhausted to attempt anything more ambitious than sitting quietly in seat 24B and eating a tiny, dry pretzel.",
+    "generated": "2026-09-05T22:54:55+00:00",
     "provider": "gemini",
     "scored_by": "gemini/100"
   }
