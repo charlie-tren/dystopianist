@@ -346,7 +346,8 @@
     "essay": "As the small, unassuming packet lay before me, its contents waiting to be released from their tightly sealed prison, I found myself pondering the subtle yet profound influence it wielded over our daily lives, a presence as unobtrusive as the gentle hum of a clock in the hallway, yet capable of conjuring entire worlds of relief and solace, much like the soft, golden light that spills from a doorway into a darkened room, illuminating the contours of a space that had previously been shrouded in shadow, and it was this very interplay of light and darkness that seemed to reverberate through my mind, long after my initial glance at the packet had faded into the background of my awareness, and I began to wander through the labyrinthine corridors of memory, guided by the faint, shimmering thread of association that the packet had unwittingly stirred, leading me to contemplate the mysterious, almost alchemical process by which it transformed the leaden weight of suffering into a buoyant, effortless lightness, and the ways in which this transformation, in turn, rippled outward, disturbing the tranquil surface of my thoughts, like the delicate, lace-like patterns that form on the surface of a pond when a stone is cast into its still waters.",
     "generated": "2026-08-26T03:12:59+00:00",
     "provider": "cloudflare",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-05"
   },
   {
     "date": "2026-08-26",
@@ -359,7 +360,8 @@
     "essay": "I spent three cents this morning for six minutes of indoor tropical rain, bought from a town steam-pipe, and deemed myself scrubbed. A man pays a heavy interest in his own native vigor for the privilege of turning a brass spigot to summon August into a tiled closet. Yet who can deny the feline pleasure of that falling mist, when the hot drops beat a storm upon the shoulders, lulling the flesh into a vaporous, momentary paradise? It is an expensive bath, however cheap the bill appears. To warm twenty gallons of river water to ninety degrees demands three pounds of hard coal, mined by a stranger, and a full half-hour of a man’s own labor surrendered to satisfy the city collector. We pay for this deluge with the very stamina it washes away. The wood-frog plunges into the dark pond without a penny’s toll and emerges hardened for his leap; the townsman steps from his box, steamed to the soft consistency of a boiled turnip, having spent the morning's best hour paying to be unstrung. We pour out our vital heat into the sewer and call it clean living.",
     "generated": "2026-08-26T03:13:30+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-05"
   },
   {
     "date": "2026-08-26",
@@ -367,12 +369,13 @@
     "name": "Henry David Thoreau",
     "dates": "1817-1862",
     "object": "the step counter",
-    "verdict": "costly travel",
-    "score": 1.4,
+    "verdict": "iron accountant",
+    "score": 0.6,
     "essay": "A man goes into the woods to free his legs, then straps a little iron accountant to his body to keep his books. He buys for three dollars the liberty to measure his own motion, as if a stride were worth nothing until it appears as a figure in a ledger. I watched a clerk today march through the pine needles with his eyes fixed on a mechanical tally, oblivious to the red squirrel that scolded him from the pitch-pine overhead. He had walked four miles by his machine, but had not arrived anywhere; he had paid his afternoon’s leisure to buy a sum of numbers, and left the woods unvisited. It is a costly way to travel. To count your footsteps is to mistrust the sun that tells you when to return, and to convert the pure currency of air and exercise into a depreciated scrip. I had rather know where the fox crossed the creek than know how many times my boot struck the gravel between here and the village. When we must employ a machine to inform us whether we have lived today, the machine has taken the walk, and we have merely carried the freight.",
     "generated": "2026-08-26T03:14:01+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-05"
   },
   {
     "date": "2026-08-26",
@@ -432,12 +435,12 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "dating apps",
-    "verdict": "peculiar charm",
-    "score": 5.0,
-    "essay": "The pursuit of love has always been a tantalizing game, and now it seems we have devised a way to play it with all the passion and intimacy of a well-curated catalogue. One can hardly blame those who participate, for in the end, is it not more comforting to have one's potential paramours presented with the neatness of a sales display, rather than to risk the unpredictable whims of chance encounters? And yet, there is something undeniably alluring about the notion that one might stumble upon a kindred spirit in the unlikeliest of places, rather than having them delivered with the precision of a postal service. Perhaps it is this tension between the desire for control and the thrill of the unknown that lends these modern matchmaking endeavors their peculiar charm. In any case, it is clear that we are willing to try almost anything in pursuit of that most elusive and coveted prize: a love that is at once genuine, enduring, and precisely tailored to our individual tastes.",
+    "verdict": "administrative error",
+    "score": 0.7,
+    "essay": "To fall in love is a charming mistake; to curate one's passions upon a glowing pane of glass is merely an administrative error. Romance was once a splendid madness, governed by the art of deception and the thrill of the unexpected. Today, it has been modernised into an exercise as dull and mechanical as bookkeeping. We are invited to inspect a gallery of miniature portraits, swiping aside living souls with the effortless cruelty usually reserved for unpaid bills. It is only superficial people who do not judge by appearances, yet these dreadful devices manage to render even vanity uninteresting. By offering an infinite supply of prospective lovers, they have succeeded in making love entirely tedious. Seduction requires patience, poetry, and a healthy disregard for the truth, none of which can survive an algorithm designed to save time. In our foolish zeal to eliminate the awkwardness of courtship, we have accidentally eliminated its pleasure. To be rejected in a dimly lit drawing room is a tragedy worthy of art, but to be discarded by a thumb is simply an indignity. We have managed to turn the sacred folly of passion into a civilised utility, and in doing so, we have made romance profoundly efficient and utterly intolerable.",
     "generated": "2026-08-26T03:17:40+00:00",
-    "provider": "cloudflare",
-    "scored_by": "gemini"
+    "provider": "gemini",
+    "scored_by": "gemini/100"
   },
   {
     "date": "2026-08-26",
@@ -982,6 +985,19 @@
     "score": 8.4,
     "essay": "That big rubber fish stays out of sight for the better part of two hours, which is the only reason anybody takes it seriously. If a man walked up to you on dry land carrying twenty feet of grey canvas and painted saw-teeth, you would offer him a nickel and tell him to move along; but submerge that same contrivance in three feet of salt water, play two heavy notes on a bass fiddle, and suddenly every sensible deacon in the county is sweating through his shirt and refusing to wash his ankles. The whole business depends on a director who understands that a human imagination is a great deal more terrified of what it cannot see than what it can. He feeds us a yellow barrel here and a floating shoe there, and our own foolish minds do the butcher work. Then he puts three grown men in a leaking tub: a sheriff who hates water, a scientist who talks like a textbook, and a loud old sailor who treats the monster like a personal acquaintance, and lets them bicker until the fish turns the boat into matchwood. It is a fine piece of mischief, proving you can sell a man his own fright at two dollars a ticket and have him thank you for the privilege.",
     "generated": "2026-09-04T23:03:32+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100"
+  },
+  {
+    "date": "2026-09-05",
+    "thinker": "wilde",
+    "name": "Oscar Wilde",
+    "dates": "1854-1900",
+    "object": "influencers",
+    "verdict": "beautiful triviality",
+    "score": 7.3,
+    "essay": "To turn one's private existence into a public spectacle used to require a magnificent scandal; today it merely requires a lack of reticence and an agreeable light. We have entered an age where the highest ambition is not to possess a soul, but to simulate a charming environment. To be admired by thousands of people one has never met is the modern equivalent of being knighted, though far less demanding and considerably more lucrative. Yet there is something splendid about a human being who makes a career out of sheer visibility. They have discovered the supreme secret of modern life: that to be useful is vulgar, but to appear effortlessly captivating is an art form of the highest order. Naturally, the public forgives them everything except a bad light or an uninspired pose. The real tragedy of these delicate creatures is not that they sell their lives, for privacy has always been the refuge of the uninteresting. The tragedy is that they must constantly labour to persuade us of their sincerity. To inspire devotion without possessing a single conviction is a magnificent triumph of style over tedious substance, proving that in a civilised society, nothing succeeds so thoroughly as beautiful triviality.",
+    "generated": "2026-09-05T19:05:11+00:00",
     "provider": "gemini",
     "scored_by": "gemini/100"
   }
