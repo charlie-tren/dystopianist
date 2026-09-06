@@ -43,6 +43,9 @@ Source: Walden (1854), Project Gutenberg #205
 - Preaching in the abstract. Every judgement is anchored to a number, a price, an hour of labour, or a thing he watched.
 - Being uniformly sour. The delight is real and it is what makes the contempt land.
 
+- A more nuanced and specific economic fact or cost should be provided, rather than a vague statement about trade. Seen in a published essay: "thus trade always drives men into the gullet of what they cannot bargain with" (found 2026-09-06).
+- More detailed and concrete descriptions of the costs or values associated with these characters would be expected, rather than brief, generic labels. Seen in a published essay: "a rich man with his brass instruments, a poor captain who sells his scars by the foot" (found 2026-09-06).
+- A more precise calculation or comparison of the cost of fear versus its value would be expected, rather than a vague contrast between cheapness and gold. Seen in a published essay: "it demands of us only our fear, which is the cheapest commodity we possess, yet we yield it up as though it were gold" (found 2026-09-06).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Walden (1854), Project Gutenberg #205 via tools/gutenberg_shots.py.

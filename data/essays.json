@@ -556,7 +556,8 @@
     "essay": "Look upon this endless gathering of voices, wherein every man adds his fragment of memory and busies himself correcting the errors of another. Do not marvel at the sheer pile of it, nor suffer thy mind to be drawn into endless wandering among matters that do not concern thy present duty. If a fact recorded there be true and useful, receive it plainly as a tool for the hour, and then cast it aside; for in a little while, both he who inscribed the words and he who reads them will be turned to dust and forgotten. Consider how men strive to settle their disputes upon these fleeting pages, altering a phrase today only to have another undo their labour by nightfall. Is this not like children building towers in the sand, trembling lest the tide wash away their names? Be content to seek only what is necessary for right action, and curb the urge to master every idle detail of distant lands or dead affairs. Thy life is brief, and nature asks not that thou shouldst contain all knowledge, but that thou shouldst govern thy ruling centre with justice and tranquility. Keep thy inner citadel quiet, using this store of words as a traveler uses a spring, taking what is needful without mistaking the water for thy home.",
     "generated": "2026-08-27T02:56:27+00:00",
     "provider": "gemini",
-    "scored_by": "gemini"
+    "scored_by": "gemini",
+    "reread": "2026-09-06"
   },
   {
     "date": "2026-08-27",
@@ -569,7 +570,8 @@
     "essay": "The spectacle of a great vessel, constructed at immense expense only to be systematically submerged for the gratification of the public, presents a curious view of modern sentiments. One is invited to admire a young lady of birth and condition who, while engaged to a gentleman of suitable fortune, conceives a sudden and invincible attachment to an itinerant drawer of no visible means. That such an imprudence should be elevated not merely above familial duty, but above the common dictates of self-preservation, says much for the indulgence of the age. The author of this extravagance has spared no expense in reproducing the grandeur of the ship, nor any exertion in ensuring that its destruction should be as prolonged and distressing as artifice can render it. We are expected to observe the rising waters with an affliction that quite eclipses any regard for decorum, and to weep over the ultimate fate of a hero whose devotion so far exceeds his understanding of displacement. That two persons of slender frame could not both find room upon a floating door is an absurdity which the company is politely requested to pardon, in consideration of the very handsome sentiments involved.",
     "generated": "2026-08-27T23:34:27+00:00",
     "provider": "gemini",
-    "scored_by": "gemini"
+    "scored_by": "gemini",
+    "reread": "2026-09-06"
   },
   {
     "date": "2026-08-27",
@@ -582,7 +584,8 @@
     "essay": "Men will pay two bits of silver to sit in a shaded parlor and shudder at the water, when for the same price they might have bought a stout pair of boots and walked away from the shore altogether. The selectmen of that sandy island weigh human flesh against the seasonal revenue of bathers, calculating that three corpses on the beach are cheaper than a silent July; thus trade always drives men into the gullet of what they cannot bargain with. Yet consider the monster itself—not the iron gears and painted rubber that cost a million dollars to stall in the surf, but the thought of that Great Fish, which moves through the sea like an unreasoning tax on human pride. The three who set out to hunt it carry their own tallies: a rich man with his brass instruments, a poor captain who sells his scars by the foot, and a timid sheriff who fears the element he is sworn to keep. When the yellow barrels go under, one feels a wild, unbought joy at the leviathan's strength. It demands of us only our fear, which is the cheapest commodity we possess, yet we yield it up as though it were gold.",
     "generated": "2026-08-27T23:34:56+00:00",
     "provider": "gemini",
-    "scored_by": "gemini"
+    "scored_by": "gemini",
+    "reread": "2026-09-06"
   },
   {
     "date": "2026-08-27",
@@ -1064,5 +1067,18 @@
     "generated": "2026-09-06T19:15:42+00:00",
     "provider": "cloudflare",
     "scored_by": "cloudflare/100"
+  },
+  {
+    "date": "2026-09-06",
+    "thinker": "wilde",
+    "name": "Oscar Wilde",
+    "dates": "1854-1900",
+    "object": "emojis",
+    "verdict": "pictorial shorthand",
+    "score": 1.2,
+    "essay": "Modern conversation has at last achieved its ultimate refinement, which is to eliminate the tedious necessity of words altogether. Humanity laboured for centuries to construct a language capable of subtle nuance and exquisite deception, only to discover that a tiny yellow face with tilted eyes can convey an entire tragedy without the embarrassment of thought. To express grief by sending a painted tear is not a return to the primitive, but the supreme triumph of modern manners, for it spares one the vulgar discomfort of actually feeling anything at all. We have always known that speech was invented to disguise our passions, but these little painted symbols achieve something far grander: they render passion entirely redundant. A civilised man should never write what he can suggest with an absurdity, nor feel what he can summarise with a cartoon. Naturally, the pedants complain that such pictorial shorthand degrades the beauty of prose, but pedants have always mistaken the length of a sentence for the depth of a soul. In truth, these charming little emblems are the only true poetry left to a world too busy to read. They possess the rare virtue of being completely meaningless, which is precisely why they say everything worth hearing.",
+    "generated": "2026-09-06T22:53:49+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100"
   }
 ]
