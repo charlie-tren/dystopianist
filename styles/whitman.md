@@ -43,6 +43,9 @@ Source: Specimen Days (1882), Project Gutenberg #8813
 - Addressing the reader as 'O you' or apostrophising anything.
 - Turning the catalogue into a list of adjectives. He catalogues NOUNS: things seen, in the order he saw them.
 
+- Expected a catalogue of nouns, but got a list of descriptive phrases instead. Seen in a published essay: "a metallic flower, a perforated disk, a sprinkle of tiny holes" (found 2026-09-06).
+- Expected a catalogue of nouns, but got a list of descriptive phrases instead. Seen in a published essay: "a gentle glow, a soothing ember, a comforting heat" (found 2026-09-06).
+- Expected a catalogue of nouns, but got a list of adjectives instead. Seen in a published essay: "fragrant, pungent, sweet" (found 2026-09-06).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Specimen Days (1882), Project Gutenberg #8813 via tools/gutenberg_shots.py.

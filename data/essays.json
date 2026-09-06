@@ -509,12 +509,13 @@
     "name": "Walt Whitman",
     "dates": "1819-1892",
     "object": "the hot shower",
-    "verdict": "comforting heat",
-    "score": 8.5,
+    "verdict": "a comforting heat",
+    "score": 9.3,
     "essay": "The warm water cascades down - droplets on skin, rivulets on shoulders, trickles down the spine; the sound of it - a steady drumbeat, a soothing hum, a gentle roar; the feel of it - warmth seeping into muscles, relaxation spreading through limbs, tension easing out of the body; the scent of soap and shampoo - fragrant, pungent, sweet; the steam rises - a misty veil, a cloudy shroud, a damp aura; the showerhead above - a metallic flower, a perforated disk, a sprinkle of tiny holes; water pools on the floor - a small lake, a tiny tide, a miniature ocean; the drain swallows it - a gaping mouth, a hungry throat, a swallowing vortex; the warmth lingers - a gentle glow, a soothing ember, a comforting heat.",
     "generated": "2026-08-26T03:51:26+00:00",
     "provider": "cloudflare",
-    "scored_by": "gemini"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-06"
   },
   {
     "date": "2026-08-26",
@@ -527,7 +528,8 @@
     "essay": "Painkillers are a curious thing: they reveal to us the depth of our desire to escape, to flee from the burdens of existence. In taking them, we acknowledge that our lives are not entirely our own, that we are subject to the whims of our bodies and the cruel hand of fate. And yet, in this surrender, we find a strange sort of freedom: the freedom to momentarily forget, to push aside the nagging doubts and fears that plague us. But what does this say about us, that we would rather numb ourselves than face the darkness head-on? That we would trade the sharp sting of reality for a dull haze of comfort? It is a bargain, to be sure, but one that comes with a steep price: the price of our own authenticity, our own true experience of the world. For in avoiding pain, we also avoid the depths of our own humanity.",
     "generated": "2026-08-26T04:17:30+00:00",
     "provider": "cloudflare",
-    "scored_by": "gemini"
+    "scored_by": "gemini",
+    "reread": "2026-09-06"
   },
   {
     "date": "2026-08-26",
@@ -540,7 +542,8 @@
     "essay": "I am currently on intimate terms with two men named Dan who live in Brooklyn and spend two hours every Tuesday explaining the minor characters in 1970s movies. I have never met either Dan. If I passed them outside Fairway on 74th Street, I would not recognize their faces, though I know precisely how Dan Number One takes his espresso and that Dan Number Two has a deeply tragic relationship with his landlord. I listen to them while I fold fitted sheets, while I wipe down the counters, and while I wait for the elevator. The theory is that you are enriching your mind while doing the laundry, which is a comforting fiction invented by those of us who cannot bear thirty seconds of silence in a kitchen. Yesterday morning, a very serious woman with a lovely voice spent forty-five minutes explaining the fall of the Austro-Hungarian Empire directly into my left ear. I bought four lemons and walked all the way to 86th Street, perfectly convinced I was becoming an intellectual. Then I got home and realized I had listened to the entire thing without hearing a single word, because I was thinking about my neck. My neck looked fine. The empire was still gone.",
     "generated": "2026-08-26T23:45:07+00:00",
     "provider": "gemini",
-    "scored_by": "gemini"
+    "scored_by": "gemini",
+    "reread": "2026-09-06"
   },
   {
     "date": "2026-08-27",
@@ -1046,6 +1049,19 @@
     "score": 6.7,
     "essay": "The hours I have devoted to listening to these audible missives, borne on the ether like leaves on a stream, have been purchased at the cost of many a walk in the woods, and I must confess that I find the trade to be a dear one. For in the midst of their chatter and discourse, I find myself longing for the simplicity of the natural world, where the only sounds are the songs of birds and the rustle of leaves. And yet, I am drawn to them, like a moth to a flame, for in their words and ideas, I hear the whispers of a world beyond my own, a world of thoughts and dreams that I would not otherwise have known. But at what cost, I ask myself, for the time I spend listening to them is time taken away from the world itself, and the thoughts and ideas they express are often but a pale reflection of the beauty and wonder that surrounds me. Still, I find myself enchanted by their words, and the worlds they create, and I am willing to pay the price of my attention, for in them, I hear the echoes of a larger conversation, one that speaks to the very heart of what it means to be human.",
     "generated": "2026-09-06T18:01:40+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100"
+  },
+  {
+    "date": "2026-09-06",
+    "thinker": "montaigne",
+    "name": "Michel de Montaigne",
+    "dates": "1533-1592",
+    "object": "anaesthesia",
+    "verdict": "ambivalent observation",
+    "score": 5.8,
+    "essay": "I find myself wondering what profit a man might find in being freed from the pangs of pain, and yet, as I ponder this, I am drawn to consider the peculiar nature of our existence, wherein we are so often torn between the desire to escape suffering and the need to remain vigilant against the unknown; for in the stillness of a painless state, do we not risk losing some essential part of ourselves, some spark that drives us to labour and to strive, and which, in its absence, might leave us feeling dull and unresponsive, like a neighbour who has lost all sense of civilised connection to the world around him; and so, I ask myself, what is the true value of this anaesthesia, which can bring us such relief, and yet, perhaps, also such disconnection from our own deepest selves, and from the world that we inhabit.",
+    "generated": "2026-09-06T19:15:42+00:00",
     "provider": "cloudflare",
     "scored_by": "cloudflare/100"
   }
