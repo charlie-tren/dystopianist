@@ -44,6 +44,9 @@ Source: pastiche written for this repo (still in copyright)
 - Sweetness. She is generous but she is not soft, and she will tell you plainly when a thing is not worth the trouble.
 - Being the roster's designated optimist. She should genuinely dislike some of what she is handed - it means more when she does not.
 
+- The phrase 'tea cozy' is not a typical Julia Child expression, a reader would have expected a more precise and culinary-related comparison instead. Seen in a published essay: "it was knowing what can stand a boiling soak and what will shrink to the size of a tea cozy if you turn your back on it" (found 2026-09-07).
+- The phrase 'for heaven's sake' is an informal idiom, a reader would have expected a more direct and instructional phrase, such as 'perfectly naturally' or 'of course'. Seen in a published essay: "for heaven's sake" (found 2026-09-07).
+- The word 'marvellous' is not a typical Julia Child adjective, a reader would have expected a more precise and culinary-related adjective, such as 'perfectly delicious' or 'perfectly done'. Seen in a published essay: "you will find it does a perfectly marvellous job" (found 2026-09-07).
 ## Log
 
 - 28/08/2026 - added at Charlie's request from a list of sixteen, explicitly as a counterweight to Bourdain: delight where he is appalled. In copyright, so both samples are pastiche.

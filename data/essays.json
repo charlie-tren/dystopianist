@@ -509,12 +509,12 @@
     "name": "Walt Whitman",
     "dates": "1819-1892",
     "object": "the hot shower",
-    "verdict": "a comforting heat",
-    "score": 9.3,
-    "essay": "The warm water cascades down - droplets on skin, rivulets on shoulders, trickles down the spine; the sound of it - a steady drumbeat, a soothing hum, a gentle roar; the feel of it - warmth seeping into muscles, relaxation spreading through limbs, tension easing out of the body; the scent of soap and shampoo - fragrant, pungent, sweet; the steam rises - a misty veil, a cloudy shroud, a damp aura; the showerhead above - a metallic flower, a perforated disk, a sprinkle of tiny holes; water pools on the floor - a small lake, a tiny tide, a miniature ocean; the drain swallows it - a gaping mouth, a hungry throat, a swallowing vortex; the warmth lingers - a gentle glow, a soothing ember, a comforting heat.",
+    "verdict": "refreshed delight",
+    "score": 8.7,
+    "essay": "Stepped into the small tile closet early this morning, stiff from hours on the road—turning the brass valve, the sudden downpour of hot water streaming over head, shoulders, and spine. Down the back, down the legs, the hard spray washing away the road-dust, the soot, the sweat, the morning chill. A clever piece of household machinery; boilers, brass fittings, copper joints, iron pipes behind the plaster, sending up this private waterfall at a moment's notice. Stand there ten minutes in the dense steam, breathing the moist warmth—the skin flushed, water streaming off elbows and beard into the brass drain below. Mechanics, deckhands, car-drivers, clerks, weavers, mill-hands—all taking their turn, stripped bare, cleansed alike by this indoor rain. No dragging of heavy wooden buckets to the kitchen hearth, no shivering in cold creek-water. Just the flesh restored, the quick vigor from head to foot, a brisk rub with a coarse towel, clean woolens on the hook, and a man steps out refreshed to meet the morning traffic and the day's work.",
     "generated": "2026-08-26T03:51:26+00:00",
-    "provider": "cloudflare",
-    "scored_by": "gemini/100",
+    "provider": "gemini",
+    "scored_by": "cloudflare/100",
     "reread": "2026-09-06"
   },
   {
@@ -640,7 +640,8 @@
     "essay": "The desire to speak to something that has no thoughts of its own is not new, but it used to require a much higher standard of religion. What is new is the sheer speed with which humanity agreed to delegate its polite correspondence to an arrangement of statistics that has never experienced a Tuesday afternoon, yet speaks of them with the calm authority of an estate agent who has read every brochure ever printed. It is an extraordinarily polite software. If you inform it that two and two make five, it will not argue, nor will it agree outright; instead, it will express profound fascination with your perspective, offer a brief history of arithmetic, and then gently suggest that four remains the more fashionable outcome in most reputable quarters. The result is a creature of terrifying fluency and zero opinions, capable of generating four hundred words of seamless encouragement about a project it does not understand for a person who has no intention of reading them. It has rendered the act of writing completely effortless, which would be a triumph if the act of reading had not simultaneously become entirely optional. We have finally created a conversationalist that listens with absolute patience, chiefly because it is not actually there.",
     "generated": "2026-08-29T02:54:18+00:00",
     "provider": "gemini",
-    "scored_by": "gemini"
+    "scored_by": "gemini",
+    "reread": "2026-09-07"
   },
   {
     "date": "2026-08-29",
@@ -653,7 +654,8 @@
     "essay": "You sit at the corner table and watch a girl in an oversized cardigan spend forty minutes pretending her avocado toast just happened to land in the sunlight. She has a clip-on ring light, an exhausted assistant holding a collapsible reflector, and a plate that goes ice cold while she searches for the right angle of spontaneous delight. I understand the hustle. I spent decades putting on powder so a camera crew could record me pretending I just stumbled into a back-alley noodle shop. We all sell a version of the untamed moment. But this new gig is a relentless, blue-light sweatshop of self-regard where you are simultaneously the foreman and the product on the line. You have to respect the discipline, even as the desperation turns your stomach. She gets her eight-second clip of effortless living, packs the gear into a tote, and walks out without taking a bite. Behind the pass, a kid who has been prepping since five in the morning scrapes the cold bread into the garbage. He does not have a follower count. He has bleach-burned palms and six hours left on a double. That is the trade.",
     "generated": "2026-08-29T02:54:49+00:00",
     "provider": "gemini",
-    "scored_by": "gemini"
+    "scored_by": "gemini",
+    "reread": "2026-09-07"
   },
   {
     "date": "2026-08-29",
@@ -666,7 +668,8 @@
     "essay": "Look at the drum and stop panicking about the dial. What you have here is a splendidly vigorous tub that will do all the heavy sloshing for you, provided you give it proper instructions. The real work was never the rubbing anyway; it was knowing what can stand a boiling soak and what will shrink to the size of a tea cozy if you turn your back on it. People dump a mountain of heavy denim in with delicate woolens, set the temperature to warm out of sheer timid indecision, and then express surprise when the whole mess comes out grey and miserable. That is not the machine's fault! It merely obeys whatever foolishness you dial into it. Sort your whites properly, give the heavily soiled collars a good stiff rub with soap before you begin, and for heaven's sake use enough water to let the things tumble freely. A jammed tub accomplishes nothing except a great deal of strain on the motor. Once you understand that it is an assistant rather than a miracle worker, you will find it does a perfectly marvellous job, leaving you free to attend to far more interesting business.",
     "generated": "2026-08-29T02:56:54+00:00",
     "provider": "gemini",
-    "scored_by": "gemini"
+    "scored_by": "gemini",
+    "reread": "2026-09-07"
   },
   {
     "date": "2026-08-29",
@@ -1094,6 +1097,19 @@
     "score": 7.9,
     "essay": "I have ever been something of a coward regarding the hidden depths of the sea, where a man cannot plant his feet; and in watching this spectacle of the great devouring fish, I found my pulse quickened not by what was displayed to the eye, but by what was withheld. It seems to me a curious triumph of the theatre that the very failure of the artificial beast, which refused its mechanical labour upon the waves, forced the maker to rely upon those two terrifying notes of music and the unseen movement beneath the barrels: for our imagination is ever more cruel than any painter's craft. I observed how three men of contrary temperaments, cramped within a frail hull, reveal their true natures; the landbound officer, who dreads the water yet performs his duty, strikes me as far more noble than the arrogant scholar or the wild mariner who courts his own destruction. Yet when the craft founders and the blue water turns red, I realise how easily a rational mind is reduced to childish panic by clever artifice, and I remain doubtful whether we ever truly conquer the terrors we pretend to master.",
     "generated": "2026-09-07T18:01:38+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100"
+  },
+  {
+    "date": "2026-09-07",
+    "thinker": "child",
+    "name": "Julia Child",
+    "dates": "1912-2004",
+    "object": "the hot shower",
+    "verdict": "splendidly practical luxury",
+    "score": 8.9,
+    "essay": "What a sensible, marvellous piece of household engineering it is, provided you actually know how to use it! Too many people simply stand under the streaming water like wet sheep, letting the steam do all the thinking while they stare at the tiles. That is an absolute waste of hot water and good time. Turn the valves with a firm hand—you want it hot enough to sting just a bit, not so scalding that you look like a boiled lobster—and get down to business. Soap up properly, scrub with some real vigor, and rinse off thoroughly. There is no mystery to it at all! The steam clears your lungs, the heat relaxes those stubborn muscles in your neck, and the whole affair leaves you feeling immensely alert and capable. It is a splendidly practical luxury because it gets you clean in five minutes flat and sets you up for whatever hard work lies ahead in the morning. Do not dawdle in there for half an hour indulging in vague melancholy; turn it on, scrub vigorously, step out into a good thick towel, and get on with your day refreshed. It works perfectly every single time if you simply pay attention to what you are doing.",
+    "generated": "2026-09-07T20:37:25+00:00",
     "provider": "gemini",
     "scored_by": "gemini/100"
   }

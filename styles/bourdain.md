@@ -44,6 +44,9 @@ Source: pastiche written for this repo (still in copyright)
 - Anthony Bourdain the television presence. The writing is on the page, and it is harder and more careful than the affable version.
 - The bleak retrospective read. He is writing in the present about the world in front of him; nothing here should nod at how his life ended.
 
+- A more specific and concrete example from the author's own experience was expected, rather than a generic statement. Seen in a published essay: "We all sell a version of the untamed moment." (found 2026-09-07).
+- A more nuanced and detailed description of the emotional response, rather than a cliched phrase, was expected. Seen in a published essay: "the desperation turns your stomach" (found 2026-09-07).
+- More context about the kitchen, the specific work, or the brand of bleach, to ground the image in a real kitchen, was expected. Seen in a published essay: "He has bleach-burned palms and six hours left on a double." (found 2026-09-07).
 ## Log
 
 - 28/08/2026 - added at Charlie's request. In copyright, so both samples are pastiche. Died 2018, which makes him ineligible for every film currently in the config.
