@@ -44,6 +44,9 @@ Source: pastiche written for this repo (still in copyright)
 - Zaniness. He is deadpan and precise; a wacky Adams is a bad Adams.
 - Ending on a joke. His endings are usually a quiet true observation that is funnier than the joke would have been.
 
+- A more dramatic tone was expected to describe a mundane outcome, such as describing frustration as a catastrophic event. Seen in a published essay: "which can lead to a certain amount of frustration" (found 2026-09-07).
+- A more unexpected and clever comparison was expected, rather than a straightforward and generic description. Seen in a published essay: "a thing that is both mundane and occasionally troublesome" (found 2026-09-07).
+- A more elaborate and winding sentence structure was expected, with subordinate clauses and unexpected turns, rather than a simple and direct comparison. Seen in a published essay: "like a slightly faulty tap or a door that sticks in the summer" (found 2026-09-07).
 ## Log
 
 - 28/08/2026 - added at Charlie's request from a list of sixteen. In copyright, so both samples are pastiche.

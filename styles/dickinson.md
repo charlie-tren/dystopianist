@@ -51,6 +51,9 @@ Source: Poems, Three Series (1890-96), Project Gutenberg #12242
 - Expected a more ambiguous and suggestive phrase, rather than a straightforward explanation Seen in a published essay: "the hidden patterns that shape our movements and our days" (found 2026-09-04).
 - Expected a more enigmatic and condensed metaphor, rather than a clear and descriptive one Seen in a published essay: "a steady heartbeat of measurement and tracking" (found 2026-09-04).
 - Expected a more subtle and implicit suggestion, rather than a direct and explicit statement Seen in a published essay: "a nagging sense that every step, every movement, is being watched, weighed, and measured" (found 2026-09-04).
+- Expected an eccentric, compressed domestic anchor rather than a conventional and wordy essayist cliche. Seen in a published essay: "In the crowded marketplace of human expression" (found 2026-09-07).
+- Expected severe compression and elliptical dashes rather than an extended, conventional explanatory clause. Seen in a published essay: "The fingers that summon them move with a rapidity that belies the complexity of emotions they convey" (found 2026-09-07).
+- Expected the passage to stop the moment the point lands rather than closing with an explicit, explanatory summary. Seen in a published essay: "a reminder that even the most fleeting expressions can leave an indelible mark" (found 2026-09-07).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Poems, Three Series (1890-96), Project Gutenberg #12242 via tools/gutenberg_shots.py.
