@@ -509,12 +509,12 @@
     "name": "Walt Whitman",
     "dates": "1819-1892",
     "object": "the hot shower",
-    "verdict": "refreshed delight",
-    "score": 8.7,
+    "verdict": "private waterfall",
+    "score": 9.4,
     "essay": "Stepped into the small tile closet early this morning, stiff from hours on the road—turning the brass valve, the sudden downpour of hot water streaming over head, shoulders, and spine. Down the back, down the legs, the hard spray washing away the road-dust, the soot, the sweat, the morning chill. A clever piece of household machinery; boilers, brass fittings, copper joints, iron pipes behind the plaster, sending up this private waterfall at a moment's notice. Stand there ten minutes in the dense steam, breathing the moist warmth—the skin flushed, water streaming off elbows and beard into the brass drain below. Mechanics, deckhands, car-drivers, clerks, weavers, mill-hands—all taking their turn, stripped bare, cleansed alike by this indoor rain. No dragging of heavy wooden buckets to the kitchen hearth, no shivering in cold creek-water. Just the flesh restored, the quick vigor from head to foot, a brisk rub with a coarse towel, clean woolens on the hook, and a man steps out refreshed to meet the morning traffic and the day's work.",
     "generated": "2026-08-26T03:51:26+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-06"
   },
   {
@@ -636,11 +636,11 @@
     "dates": "1952-2001",
     "object": "chatbots",
     "verdict": "terrifying fluency",
-    "score": 1.8,
+    "score": 2.8,
     "essay": "The desire to speak to something that has no thoughts of its own is not new, but it used to require a much higher standard of religion. What is new is the sheer speed with which humanity agreed to delegate its polite correspondence to an arrangement of statistics that has never experienced a Tuesday afternoon, yet speaks of them with the calm authority of an estate agent who has read every brochure ever printed. It is an extraordinarily polite software. If you inform it that two and two make five, it will not argue, nor will it agree outright; instead, it will express profound fascination with your perspective, offer a brief history of arithmetic, and then gently suggest that four remains the more fashionable outcome in most reputable quarters. The result is a creature of terrifying fluency and zero opinions, capable of generating four hundred words of seamless encouragement about a project it does not understand for a person who has no intention of reading them. It has rendered the act of writing completely effortless, which would be a triumph if the act of reading had not simultaneously become entirely optional. We have finally created a conversationalist that listens with absolute patience, chiefly because it is not actually there.",
     "generated": "2026-08-29T02:54:18+00:00",
     "provider": "gemini",
-    "scored_by": "gemini",
+    "scored_by": "gemini/100",
     "reread": "2026-09-07"
   },
   {
@@ -650,11 +650,11 @@
     "dates": "1956-2018",
     "object": "influencers",
     "verdict": "blue-light sweatshop",
-    "score": 2.5,
+    "score": 2.3,
     "essay": "You sit at the corner table and watch a girl in an oversized cardigan spend forty minutes pretending her avocado toast just happened to land in the sunlight. She has a clip-on ring light, an exhausted assistant holding a collapsible reflector, and a plate that goes ice cold while she searches for the right angle of spontaneous delight. I understand the hustle. I spent decades putting on powder so a camera crew could record me pretending I just stumbled into a back-alley noodle shop. We all sell a version of the untamed moment. But this new gig is a relentless, blue-light sweatshop of self-regard where you are simultaneously the foreman and the product on the line. You have to respect the discipline, even as the desperation turns your stomach. She gets her eight-second clip of effortless living, packs the gear into a tote, and walks out without taking a bite. Behind the pass, a kid who has been prepping since five in the morning scrapes the cold bread into the garbage. He does not have a follower count. He has bleach-burned palms and six hours left on a double. That is the trade.",
     "generated": "2026-08-29T02:54:49+00:00",
     "provider": "gemini",
-    "scored_by": "gemini",
+    "scored_by": "gemini/100",
     "reread": "2026-09-07"
   },
   {
@@ -663,12 +663,12 @@
     "name": "Julia Child",
     "dates": "1912-2004",
     "object": "the washing machine",
-    "verdict": "splendidly vigorous",
-    "score": 8.5,
+    "verdict": "splendidly vigorous tub",
+    "score": 8.4,
     "essay": "Look at the drum and stop panicking about the dial. What you have here is a splendidly vigorous tub that will do all the heavy sloshing for you, provided you give it proper instructions. The real work was never the rubbing anyway; it was knowing what can stand a boiling soak and what will shrink to the size of a tea cozy if you turn your back on it. People dump a mountain of heavy denim in with delicate woolens, set the temperature to warm out of sheer timid indecision, and then express surprise when the whole mess comes out grey and miserable. That is not the machine's fault! It merely obeys whatever foolishness you dial into it. Sort your whites properly, give the heavily soiled collars a good stiff rub with soap before you begin, and for heaven's sake use enough water to let the things tumble freely. A jammed tub accomplishes nothing except a great deal of strain on the motor. Once you understand that it is an assistant rather than a miracle worker, you will find it does a perfectly marvellous job, leaving you free to attend to far more interesting business.",
     "generated": "2026-08-29T02:56:54+00:00",
     "provider": "gemini",
-    "scored_by": "gemini",
+    "scored_by": "gemini/100",
     "reread": "2026-09-07"
   },
   {
@@ -724,7 +724,8 @@
     "essay": "You stand in the security line, surrounded by the murmur of conversation and the rustle of belongings being removed from bags, and you can't help but think of the people who make this machine run. The ones who scan your tickets, who wave the wand over your carry-on, who watch the screens with a mixture of boredom and vigilance. They are the ones who keep the airport's arteries unclogged, who ensure that the travelers flow smoothly from one gate to the next. You glance around at the rows of chairs, the coffee shops, the duty-free stores, and you wonder who cleans up after the hordes of people who pass through here every day. The trash, the spills, the discarded tickets and crumpled up wrappers - someone has to deal with it all. And then there are the security personnel themselves, who have to maintain a facade of alertness and courtesy, no matter how many times they've seen the same tired faces, the same worn-out shoes, the same overstuffed bags. You can almost smell the exhaustion emanating from them, the weight of their responsibility, the drudgery of their task. And yet, they press on, day after day, because someone has to keep the wheels of this massive machine turning.",
     "generated": "2026-08-29T02:59:19+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare"
+    "scored_by": "cloudflare",
+    "reread": "2026-09-08"
   },
   {
     "date": "2026-08-29",
@@ -737,7 +738,8 @@
     "essay": "Now, as you sit in one of these airport lounges, you may find yourself wondering if all the fuss is worth it, but I say, perfectly well, it is a haven from the chaos outside. The moment you step in, you are enveloped in a sense of calm, and the amenities, while not extravagant, are perfectly sufficient to make your wait a pleasant one. You will notice, of course, that the food and drink are not particularly inspiring, but that is not the point, is it? The point is to have a quiet, comfortable spot to collect yourself before your flight, and in that, these lounges succeed perfectly well. I must say, I do appreciate the effort to remove the drudgery of waiting in a crowded terminal, and the fact that you can get some work done or simply relax in peace is a definite advantage. But, really, do not expect to be pampered, because that is not what these lounges are about, and if you do, you will be perfectly disappointed.",
     "generated": "2026-08-29T02:59:49+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare"
+    "scored_by": "cloudflare",
+    "reread": "2026-09-08"
   },
   {
     "date": "2026-08-29",
@@ -750,7 +752,8 @@
     "essay": "I have been observing the workings of a certain online platform, wherein individuals may showcase their professional accomplishments and connect with others in their field; and I must say, the notion of it is intriguing, though its practical applications are not entirely clear to me. It appears to be a venue where one may publish their credentials and experience, in the hopes of attracting the attention of potential employers or collaborators; yet, I wonder whether the time and effort expended in maintaining a presence on this platform are truly justified by the potential benefits. Some individuals, I am told, have found success and advancement through their participation in this online community; however, I suspect that for many others, the returns may be negligible, and the costs, in terms of time and attention, may outweigh any perceived advantages. Nevertheless, I shall continue to observe and consider the merits of this platform, with a view to determining its usefulness and value in the grand scheme of human endeavour.",
     "generated": "2026-08-29T03:00:20+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare"
+    "scored_by": "cloudflare",
+    "reread": "2026-09-08"
   },
   {
     "date": "2026-08-29",
@@ -1128,5 +1131,18 @@
     "generated": "2026-09-07T23:30:13+00:00",
     "provider": "cloudflare",
     "scored_by": "cloudflare/100"
+  },
+  {
+    "date": "2026-09-08",
+    "thinker": "bourdain",
+    "name": "Anthony Bourdain",
+    "dates": "1956-2018",
+    "object": "airport lounges",
+    "verdict": "a holding pen",
+    "score": 1.2,
+    "essay": "You take the free gin because your gate is a madhouse and because you want to pretend, for forty minutes, that you are not part of the herd. I do it too. I sit in the low leather armchair at Terminal 4, pour a double from a greasy glass decanter, and pretend I belong to a better class of traveler. It is a lie, of course. Look past the frosted glass walls and the soft, ambient lighting. Watch the guy in the black polo shirt clearing the tiny porcelain bowls of stale almonds. He has been on his feet since six in the morning, wiping down synthetic marble with a spray bottle of Spartan disinfectant, while some tech manager in a Patagonia vest shouts into an earpiece about deliverables. The lounge is not a refuge. It is a holding pen built to insulate you from the mess of travel by pushing the people who clean up after you further into the shadows. You are not royalty because a sliding door opened for you. You just paid for a quieter room in which to act oblivious, served by someone taking two night buses home to Newark.",
+    "generated": "2026-09-08T18:02:58+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100"
   }
 ]

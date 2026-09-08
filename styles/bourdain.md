@@ -47,6 +47,10 @@ Source: pastiche written for this repo (still in copyright)
 - A more specific and concrete example from the author's own experience was expected, rather than a generic statement. Seen in a published essay: "We all sell a version of the untamed moment." (found 2026-09-07).
 - A more nuanced and detailed description of the emotional response, rather than a cliched phrase, was expected. Seen in a published essay: "the desperation turns your stomach" (found 2026-09-07).
 - More context about the kitchen, the specific work, or the brand of bleach, to ground the image in a real kitchen, was expected. Seen in a published essay: "He has bleach-burned palms and six hours left on a double." (found 2026-09-07).
+- A more specific and concrete example from the author's own experience was expected, rather than a generic statement about standing in a security line. Seen in a published essay: "You stand in the security line, surrounded by the murmur of conversation and the rustle of belongings being removed from bags, and you can't help but think of the people who make this machine run." (found 2026-09-08).
+- A more nuanced and detailed description of the emotional response was expected, rather than a cliched phrase like 'weight of their responsibility' and 'drudgery of their task'. Seen in a published essay: "the weight of their responsibility, the drudgery of their task" (found 2026-09-08).
+- More context about the specific work or the people doing it was expected, rather than a vague statement about 'someone' dealing with it all. Seen in a published essay: "someone has to deal with it all" (found 2026-09-08).
+- A more concrete and specific description of the scene was expected, rather than a vague and cliched phrase like 'you can almost smell the exhaustion'. Seen in a published essay: "You can almost smell the exhaustion emanating from them" (found 2026-09-08).
 ## Log
 
 - 28/08/2026 - added at Charlie's request. In copyright, so both samples are pastiche. Died 2018, which makes him ineligible for every film currently in the config.

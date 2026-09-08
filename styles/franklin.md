@@ -44,6 +44,8 @@ Source: The Autobiography of Benjamin Franklin, Project Gutenberg #20203
 - Boosterish American optimism. He is sceptical and he counts the cost, and half his verdicts should be that a thing is not worth what it takes.
 - Modern plain-English flatness. The eighteenth-century joinery - the semicolons, the `publish'd` elisions - is most of what makes it him.
 
+- Expected a more direct and practical tone, without phrases like 'I must say' that sound too polite or hesitant for Franklin's voice Seen in a published essay: "I must say, the notion of it is intriguing, though its practical applications are not entirely clear to me" (found 2026-09-08).
+- Expected a more concise and straightforward conclusion, without phrases like 'in the grand scheme of human endeavour' that sound too formal or abstract for Franklin's voice Seen in a published essay: "with a view to determining its usefulness and value in the grand scheme of human endeavour" (found 2026-09-08).
 ## Log
 
 - 28/08/2026 - added at Charlie's request from a list of sixteen. Real prose, two passages from the Autobiography via `tools/gutenberg_shots.py`.
