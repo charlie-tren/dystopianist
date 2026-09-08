@@ -678,11 +678,11 @@
     "dates": "1830-1886",
     "object": "emojis",
     "verdict": "residue of feeling",
-    "score": 7.2,
+    "score": 7.3,
     "essay": "The mind assigns a fleeting life to these tiny messengers, as if their existence depended on the whims of our attention - a brief glance and they are born, another and they expire. In the crowded marketplace of human expression, they jostle for position, each one a concentrated gesture, a distillation of sentiment. Their appeal lies not in their durability, but in their ephemerality, for they can be summoned and dismissed with equal ease, leaving behind only the faintest impression of their presence. The fingers that summon them move with a rapidity that belies the complexity of emotions they convey, as if the very act of creation were a form of impermanence. And yet, despite their transience, they accumulate, a residue of feeling that clings to the digital ether, a reminder that even the most fleeting expressions can leave an indelible mark.",
     "generated": "2026-08-29T02:57:54+00:00",
     "provider": "cloudflare",
-    "scored_by": "gemini",
+    "scored_by": "gemini/100",
     "reread": "2026-09-07"
   },
   {
@@ -808,7 +808,8 @@
     "essay": "It seems to me that the people who spend their days telling others what to buy and how to live are a curious sort, rather like a travelling salesman who has forgotten what it is he's peddling. They have a way of making you feel like you're the only person in the room, even when they're speaking to thousands, and that's a mighty clever trick. Now, I'm not one to claim any great understanding of the human heart, but it does appear that folks are drawn to these individuals like moths to a flame, eager to hear their every thought and opinion, no matter how mundane. And yet, when you stop to think about it, it's a bit puzzling that we should care so deeply about the daily lives of strangers, and that they should be so willing to share every detail with us, down to what they had for breakfast. Still, I suppose it's just another one of those peculiarities of human nature, and we're all just along for the ride, watching and waiting to see what they'll do next, and somehow finding ourselves wanting to do the same.",
     "generated": "2026-08-29T03:02:33+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare"
+    "scored_by": "cloudflare",
+    "reread": "2026-09-08"
   },
   {
     "date": "2026-08-29",
@@ -821,7 +822,8 @@
     "essay": "Nothing pleases an ordinary man quite so much as discovering that his neighbour is mistaken. We are, by nature, a disputatious species, far more interested in proving our acquaintances wrong than in arriving at any useful truth ourselves. It was long assumed that such petty vanity was an obstacle to learning; one required quiet scholars in secluded libraries to preserve knowledge. Experience, however, suggests the opposite. By giving every private vanity an outlet, we have accidentally constructed the most useful compendium of fact ever assembled. A man who spends his evening correcting the date of a minor battle does not do so from a noble devotion to truth; he does it because he cannot bear the thought of an anonymous stranger remaining peacefully wrong. I have spent much of my own life succumbing to the same irresistible impulse, though usually with less useful results. The consequence of millions of these tiny, spiteful corrections is not chaos, but an astonishing degree of agreement. We expected popular authorship to produce rubbish, because we forgot that the itch to contradict is far more reliable than the desire to instruct. A man will rarely labour until midnight for the moral improvement of his fellows, but he will gladly do so to settle a trivial dispute about railway timetables.",
     "generated": "2026-08-29T22:41:38+00:00",
     "provider": "gemini",
-    "scored_by": "gemini"
+    "scored_by": "gemini",
+    "reread": "2026-09-08"
   },
   {
     "date": "2026-08-29",
@@ -834,7 +836,8 @@
     "essay": "We have constructed an engine of public self-congratulation, and we call it professional networking. On LinkedIn, every clerk announces that he is delighted to have spent his weekend compiling a memorandum no one will read. I have noticed in my own heart the same vulgar desire to display modest triumphs whenever I fear I am being forgotten, so I cannot judge the vanity of others too severely. Yet there is something singularly depressing about a place dedicated entirely to corporate solemnity. Here, no one is ever idle, no one is ever defeated, and every subscriber claims to be deeply humbled by his own astonishing promotion. We congratulate acquaintances upon acquiring titles that sound grand only because they are nonsensical. The fundamental assumption of the site is that toil is not merely a means of earning one's bread, but a noble passion worthy of daily worship. This seems to me an error of proportion. A man who must repeatedly profess his devotion to corporate administration has surrendered a vital portion of his freedom; he has lost the right to be privately bored. If we must boast, we ought to boast of our leisure. It is a strange spectacle to see rational beings competing for the reputation of being exceptionally diligent servants.",
     "generated": "2026-08-29T22:42:04+00:00",
     "provider": "gemini",
-    "scored_by": "gemini"
+    "scored_by": "gemini",
+    "reread": "2026-09-08"
   },
   {
     "date": "2026-08-29",
@@ -1160,5 +1163,18 @@
     "generated": "2026-09-08T19:57:44+00:00",
     "provider": "cloudflare",
     "scored_by": "cloudflare/100"
+  },
+  {
+    "date": "2026-09-08",
+    "thinker": "whitman",
+    "name": "Walt Whitman",
+    "dates": "1819-1892",
+    "object": "anaesthesia",
+    "verdict": "a magnificent mercy",
+    "score": 9.6,
+    "essay": "I spent an hour yesterday in the operating room watching the quiet work of the gas and mask. A young mechanic on the table—muscles relaxed, breathing steady and deep—the surgeon standing ready, the nurses swift and silent at their places. No shrieking, no iron straps, no four stout attendants holding down a thrashing body on a wooden bench. Just the turn of a nickel-plated valve, the sweet heavy vapor flowing, and the patient sliding off into an easy sleep; completely untroubled, insensible to the cold steel penetrating skin, fat, and muscle. Saw the apparatus itself—gauges, glass tubes, rubber hoses, brass stopcocks, leather straps, sponges, polished instruments laid out on white linen. What a triumph of modern skill—to sever the nerve of agony while keeping the flame of life burning bright; to lay a man out under the knife and have him wake a half-hour later, blinking at the daylight, asking when the doctor means to start! The flesh lies in absolute peace; the spirit rests in the dark parlor until summoned back to the day. A magnificent mercy, easing the suffering body in its hour of need.",
+    "generated": "2026-09-08T23:24:01+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100"
   }
 ]

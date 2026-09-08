@@ -49,6 +49,11 @@ Source: Life on the Mississippi (1883), Project Gutenberg #245
 - A more homespun comparison was expected, rather than this formal phrase. Seen in a published essay: "a delicate balance of courtesy and personal space" (found 2026-09-05).
 - A more conversational tone was expected, rather than this formal phrase. Seen in a published essay: "a negotiation of physical and social boundaries" (found 2026-09-05).
 - A deadpan sentence with more punch was expected to conclude the essay. Seen in a published essay: "it's just a seat, after all" (found 2026-09-05).
+- A more humorous and creative comparison was expected, rather than this straightforward simile. Seen in a published essay: "rather like a travelling salesman who has forgotten what it is he's peddling" (found 2026-09-08).
+- A more homespun and folksy phrase was expected to express admiration or surprise. Seen in a published essay: "that's a mighty clever trick" (found 2026-09-08).
+- A more self-deprecating and humble tone was expected, rather than this formal phrase. Seen in a published essay: "Now, I'm not one to claim any great understanding of the human heart" (found 2026-09-08).
+- A more conversational tone was expected, rather than this formal phrase to express confusion or curiosity. Seen in a published essay: "it's a bit puzzling that we should care so deeply about the daily lives of strangers" (found 2026-09-08).
+- A more unexpected and clever conclusion was expected, rather than this predictable and straightforward sentence. Seen in a published essay: "and we're all just along for the ride, watching and waiting to see what they'll do next, and somehow finding ourselves wanting to do the same" (found 2026-09-08).
 ## Log
 
 - 02/09/2026 - second sample added from the same book. The first is Twain being mock-scientific; this one is the comic simile carrying an argument - "he is like your family physician, who comes and cures the mumps, and leaves the scarlet-fever behind" - which is closer to what the site asks him for, a view on a thing in front of him rather than a set-piece.

@@ -39,6 +39,9 @@ Source: pastiche written for this repo (still in copyright)
 - The lecture from above. He is at eye level and often implicates himself; a piece that scolds the reader for their foolishness without admitting his own has lost him.
 - Grand closing uplift. His endings are flat and slightly dry, and land because they are flat.
 
+- A more direct and simple sentence was expected, such as 'I too desire to display modest triumphs' to maintain the plain and lucid tone. Seen in a published essay: "I have noticed in my own heart the same vulgar desire to display modest triumphs whenever I fear I am being forgotten" (found 2026-09-08).
+- A more assertive statement was expected, such as 'This is an error of proportion' to reflect Russell's precise and unhedged style. Seen in a published essay: "This seems to me an error of proportion" (found 2026-09-08).
+- A sentence that turns a received opinion over and puts it back the other way up was expected, but this sentence, while contrarian, does not fully subvert the expectation in a characteristic Russell manner. Seen in a published essay: "If we must boast, we ought to boast of our leisure" (found 2026-09-08).
 ## Log
 
 - 29/08/2026 - added, at Charlie's request, in place of Alain de Botton. De Botton is alive, which the site's whole premise rules out, and his project is the one this site is already performing: applying a canonical philosophical register to ordinary modern life. Russell is the dead writer that move descends from, and gives a register the roster did not have - 20th-century English rationalist, plain and argumentative - rather than doubling Montaigne and Aurelius.
