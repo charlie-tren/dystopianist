@@ -766,7 +766,8 @@
     "essay": "I have given some attention to the device that washes clothing without the need for manual labour; it appears to be a contraption of considerable complexity, with many moving parts and a significant consumption of water. The cost of acquiring and maintaining such a device is not inconsiderable; I have been informed that it can be a substantial expense, one that may not be justified for those with limited means. Nevertheless, for those who can afford it, the device may prove to be a useful time-saver; it can perform the task of washing clothing with greater speed and efficiency than a person could, allowing the individual to devote their time to more productive pursuits. However, I must consider whether the savings in time and labour are sufficient to offset the expense of the device; it is a calculation that each person must make for themselves, taking into account their own particular circumstances and priorities.",
     "generated": "2026-08-29T03:00:51+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare"
+    "scored_by": "cloudflare",
+    "reread": "2026-09-08"
   },
   {
     "date": "2026-08-29",
@@ -779,7 +780,8 @@
     "essay": "A man who produces nothing of utility to his fellow men, who neither tills the soil nor shapes the wood nor weaves the cloth, now presides over the minds of millions merely by displaying the false abundance of his own idle existence. This public exhibition of luxury, which the educated classes accept as a legitimate occupation and even as a form of guidance, is in truth nothing other than a perfected system of temptation, designed to awaken in simple men the corrupting desire for things they do not need and cannot afford. By substituting the imitation of life for real labour, and by demanding that the working masses continuously toil in fields and shops to supply the endless stream of useless commodities thus advertised, these purveyors of vanity commit a double crime against the soul of man. They degrade themselves by turning their inner spiritual lives into a market commodity, while simultaneously increasing the burdens of the poor, who must ultimately pay with their physical suffering for every foolish luxury made fashionable by this parasitic class. Whatever clever justifications the idle rich may invent for this deceitful spectacle, it remains a moral infection, serving only to divide men from one another and to substitute the worship of self for true brotherly love.",
     "generated": "2026-08-29T03:01:27+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare"
+    "scored_by": "cloudflare",
+    "reread": "2026-09-08"
   },
   {
     "date": "2026-08-29",
@@ -792,7 +794,8 @@
     "essay": "The relentless pursuit of self-promotion that drives individuals to participate in LinkedIn is a stark reminder of the emptiness that lies at the heart of modern professional life, where people are reduced to mere commodities, their worth measured by the number of connections they have amassed and the endorsements they have received, rather than the actual value of their work, and it is this endless cycle of self-aggrandizement that serves only to further entrench the existing power structures, where those who are already privileged are able to leverage their influence to accumulate even more, while those who are struggling to make a name for themselves are left to fight over the scraps, their voices drowned out by the cacophony of self-promotion that dominates this platform, and it is here that we see the true purpose of LinkedIn, a tool designed to perpetuate the interests of the powerful at the expense of the weak, a testament to the boundless capacity for self-delusion that exists among the educated classes, who are willing to sacrifice their very humanity in pursuit of a fleeting sense of success, and it is this that makes LinkedIn such a reprehensible institution, a monument to the vacuity and superficiality of modern life.",
     "generated": "2026-08-29T03:02:01+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare"
+    "scored_by": "cloudflare",
+    "reread": "2026-09-08"
   },
   {
     "date": "2026-08-29",
@@ -1144,5 +1147,18 @@
     "generated": "2026-09-08T18:02:58+00:00",
     "provider": "gemini",
     "scored_by": "gemini/100"
+  },
+  {
+    "date": "2026-09-08",
+    "thinker": "proust",
+    "name": "Marcel Proust",
+    "dates": "1871-1922",
+    "object": "The Matrix (1999)",
+    "verdict": "mesmerising depths",
+    "score": 8.3,
+    "essay": "As the simulated world of The Matrix unfolded before me, its intricate web of illusions and reality began to resemble the layered transparencies of a stereoscope, where two disparate images are merged to create a single, convincing whole--and just as, in the stereoscope, the eye must adjust to the subtle disparity between the two planes, so too must the viewer of this film calibrate their perception to the shifting boundaries between the physical and virtual realms, a process that is at once disorienting and mesmerising, like the experience of standing at the edge of a great, slow-moving crowd, where the individual faces and movements eventually coalesce into a unified, undulating mass, which, in turn, seems to exert a strange, almost gravitational pull on the observer, drawing them inexorably into its depths, and it is there, in those depths, that the true power of The Matrix resides, a power that continues to resonate long after the images have faded from the screen.",
+    "generated": "2026-09-08T19:57:44+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100"
   }
 ]

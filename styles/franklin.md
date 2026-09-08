@@ -46,6 +46,9 @@ Source: The Autobiography of Benjamin Franklin, Project Gutenberg #20203
 
 - Expected a more direct and practical tone, without phrases like 'I must say' that sound too polite or hesitant for Franklin's voice Seen in a published essay: "I must say, the notion of it is intriguing, though its practical applications are not entirely clear to me" (found 2026-09-08).
 - Expected a more concise and straightforward conclusion, without phrases like 'in the grand scheme of human endeavour' that sound too formal or abstract for Franklin's voice Seen in a published essay: "with a view to determining its usefulness and value in the grand scheme of human endeavour" (found 2026-09-08).
+- Expected a more direct statement of fact, without phrases that imply hearsay or indirect knowledge, such as 'I have been informed' Seen in a published essay: "I have been informed that it can be a substantial expense" (found 2026-09-08).
+- Expected a more concise and direct statement, without phrases like 'However' that sound too formal or hesitant for Franklin's voice Seen in a published essay: "However, I must consider whether the savings in time and labour are sufficient to offset the expense of the device" (found 2026-09-08).
+- Expected a more straightforward conclusion, without phrases that sound too formal or abstract, such as 'taking into account their own particular circumstances and priorities' Seen in a published essay: "it is a calculation that each person must make for themselves, taking into account their own particular circumstances and priorities" (found 2026-09-08).
 ## Log
 
 - 28/08/2026 - added at Charlie's request from a list of sixteen. Real prose, two passages from the Autobiography via `tools/gutenberg_shots.py`.
