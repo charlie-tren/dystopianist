@@ -50,6 +50,9 @@ Source: Pride and Prejudice (1813), Project Gutenberg #1342
 - A more subtle transition to the negative aspect was expected, such as 'and yet the outcome is not always more pleasing' to maintain Austen's characteristic reserve. Seen in a published essay: "must strike the discerning observer as an alarming precedent" (found 2026-09-09).
 - A less explicit phrase was expected, such as 'tends to foster a sense of unity' to better fit Austen's style of understatement. Seen in a published essay: "serves only to unite the household in a common fondness for their troublesome charge" (found 2026-09-09).
 - A more formal and less direct phrase was expected, such as 'introducing a degree of disorder into their domestic arrangements' to maintain Austen's characteristic reserve and formality. Seen in a published essay: "inviting chaos into the drawing-room under the guise of charity" (found 2026-09-09).
+- A more subtle transition to the negative aspect was expected, such as 'and yet this benefit is not unaccompanied by some disadvantage' to maintain Austen's characteristic reserve Seen in a published essay: "though it deprives the lower order of cottagers of their most reliable source of honest income" (found 2026-09-09).
+- A less explicit phrase was expected, such as 'without any audible expression of distress' to better fit Austen's style of understatement Seen in a published essay: "without a single sigh having been uttered in her presence" (found 2026-09-09).
+- A more formal and less direct phrase was expected, such as 'one may find it challenging to lament the disappearance of this virtue' to maintain Austen's characteristic reserve and formality Seen in a published essay: "it becomes exceedingly difficult to regret the loss of so useful a virtue" (found 2026-09-09).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Pride and Prejudice (1813), Project Gutenberg #1342 via tools/gutenberg_shots.py.

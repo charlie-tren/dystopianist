@@ -892,7 +892,8 @@
     "essay": "The grey-faced bastards in the blue polyester shirts have finally perfected the art of the pre-flight strip search. They stand under the fluorescent tubes with their rubber gloves and their little plastic bins, demanding my belt, my shoes, and my soul before I even get a whiff of jet fuel. It is a massive, mechanized humiliation engine designed by terrified middle-managers to ensure that every free citizen walks through the steel archway looking like a plucked chicken, shivering in his socks while a machine that costs more than a small country scans his liver for treason. You stand in line behind three generations of frightened tourists, shuffling forward three inches at a time while some twenty-two-year-old tyrant with a badge checks your ticket for signs of original sin. It is pure totalitarian theater. The whole brutal circus operates on the insane premise that anyone trying to catch a flight to Denver is a feral saboteur until proven innocent by a glowing blue tube. They want you naked, docile, and broken. I watched a man lose a small bottle of shampoo like it was nitroglycerin, and the crowd just nodded along like sheep. The machine eats your self-respect and vomits out permission to fly.",
     "generated": "2026-09-01T19:57:47+00:00",
     "provider": "gemini",
-    "scored_by": "gemini"
+    "scored_by": "gemini",
+    "reread": "2026-09-09"
   },
   {
     "date": "2026-09-01",
@@ -905,7 +906,8 @@
     "essay": "To relieve the female arm of its most laborious domestic duty must be regarded as an act of considerable mercy, though it deprives the lower order of cottagers of their most reliable source of honest income. That an iron cabinet, supplied with water and lather, should accomplish in an hour what formerly occupied three stout maidservants for a day, is an invention which few housewives can contemplate without secret satisfaction. The modern lady need no longer choose between the sacrifice of her skin and the neglect of her petticoats. She deposits her garments within the dark chamber, turns a modest brass dial, and leaves her linens to be churned in violent solitude, returning presently to find them restored to immaculate purity without a single sigh having been uttered in her presence. Such convenience, however, is not entirely without its moral inconvenience. In eliminating the arduous toil of the wash-tub, it has likewise removed that wholesome trial of patience which once taught young women the fortitude necessary for enduring a tedious husband. Yet when one considers the pristine brightness of the muslin thus produced, it becomes exceedingly difficult to regret the loss of so useful a virtue.",
     "generated": "2026-09-01T20:31:27+00:00",
     "provider": "gemini",
-    "scored_by": "gemini"
+    "scored_by": "gemini",
+    "reread": "2026-09-09"
   },
   {
     "date": "2026-09-01",
@@ -918,7 +920,8 @@
     "essay": "I was seized from the outset by the monstrous, unrelenting insistence of the furniture. It is not enough that the colossal iron hull should break its back in the shrieking midnight; it is not enough that hundreds of poor wretches should be flung into the freezing ocean like so much discarded trash; no, we are compelled to watch mahogany sideboards, gilded mirrors, and silver soup tureens slide with a hideous, deliberate elegance into the dark. I watched this spectacle of upholstered doom with a mixture of horror and cold amazement. The work demands of its audience a most peculiar species of sympathy: we must mourn the lovers, to be sure, but we are also invited to wring our handkerchiefs over the ruined velvet and the spoiled carpets. A grand piano glides across the saloon floor with the grave composure of an elderly gentleman taking the air, before pitching headlong into the abyss, and we are expected to gasp at the calamity of the polish. There is a fierce, calculating genius in how this catastrophe is wrought, reducing the giant vanity of an empire to a single, frozen door upon which two romantic phantoms struggle for leverage against the sea.",
     "generated": "2026-09-01T23:18:55+00:00",
     "provider": "gemini",
-    "scored_by": "gemini"
+    "scored_by": "gemini",
+    "reread": "2026-09-09"
   },
   {
     "date": "2026-09-02",
@@ -1191,6 +1194,19 @@
     "essay": "The labour of compiling knowledge into a vast, accessible repository is a task that has consumed the energies of many a diligent soul, and yet, in the end, it is not the accumulation of facts that lends wisdom, but rather the discerning eye that knows what to do with them. We are inclined to believe that the more we know, the more civilised we become, but I fear that is a misconception - for civilisation is not a matter of knowing everything, but of knowing what to ignore. And so, as we navigate the labyrinthine corridors of this great digital library, we must be mindful of the distinction between knowledge and wisdom, lest we become so enamoured with the former that we forget the value of the latter. To be well-informed is one thing, but to be well-educated is quite another, and it is the latter that truly sets us free.",
     "generated": "2026-09-09T19:49:39+00:00",
     "provider": "cloudflare",
+    "scored_by": "gemini/100"
+  },
+  {
+    "date": "2026-09-09",
+    "thinker": "montaigne",
+    "name": "Michel de Montaigne",
+    "dates": "1533-1592",
+    "object": "painkillers",
+    "verdict": "a strange artifice",
+    "score": 5.7,
+    "essay": "I have spent much of my life contending with the sharp visitations of the stone, an agony so imperious that it shatters all philosophy in an instant; yet whenever I am offered a tiny morsel that promises to banish the torment without delay, I accept it with a speed that ill becomes my supposed stoicism. I find myself wondering what real profit a man finds in thus silencing the alarms of his own flesh, for pain is perhaps the only monitor that reminds us of our frail, perishable nature; yet to praise suffering while one is whole is the cheapest form of valour. When the spasm takes me by the throat, I abandon all noble reflections and crave only the stupor that allows my mind to float free from its bodily prison. It is a strange artifice that can sever the nerve from its grief so neatly, leaving the mind in a tranquil harbour while the storm rages unheeded below; I suspect I am wiser when I yield to this quiet relief than when I attempt to debate with a colic. And yet, I know not if by dulling our aches so easily, we do not also soften our spirit, rendering ourselves ill-prepared for that final trial which no draught can forestall.",
+    "generated": "2026-09-09T23:15:31+00:00",
+    "provider": "gemini",
     "scored_by": "gemini/100"
   }
 ]
