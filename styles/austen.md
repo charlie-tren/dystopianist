@@ -47,6 +47,9 @@ Source: Pride and Prejudice (1813), Project Gutenberg #1342
 - A more subtle transition to the negative aspect was expected, such as 'and yet the outcome is not always more pleasing' to maintain Austen's characteristic reserve. Seen in a published essay: "without rendering it notably more agreeable" (found 2026-09-04).
 - A more formal and less direct phrase was expected, such as 'a circumstance intimated by a reciprocal glance' to better fit Austen's style. Seen in a published essay: "a circumstance signaled by a mutual agreement of the glass" (found 2026-09-04).
 - A less explicit contrast between appearance and reality was expected, such as 'fosters a fastidiousness that may be mistaken for refinement' to allow the reader to infer the irony. Seen in a published essay: "encourages a species of fastidiousness that pretends to high delicacy, whilst in truth it arises merely from an excess of choice" (found 2026-09-04).
+- A more subtle transition to the negative aspect was expected, such as 'and yet the outcome is not always more pleasing' to maintain Austen's characteristic reserve. Seen in a published essay: "must strike the discerning observer as an alarming precedent" (found 2026-09-09).
+- A less explicit phrase was expected, such as 'tends to foster a sense of unity' to better fit Austen's style of understatement. Seen in a published essay: "serves only to unite the household in a common fondness for their troublesome charge" (found 2026-09-09).
+- A more formal and less direct phrase was expected, such as 'introducing a degree of disorder into their domestic arrangements' to maintain Austen's characteristic reserve and formality. Seen in a published essay: "inviting chaos into the drawing-room under the guise of charity" (found 2026-09-09).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Pride and Prejudice (1813), Project Gutenberg #1342 via tools/gutenberg_shots.py.

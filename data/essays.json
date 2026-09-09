@@ -850,7 +850,8 @@
     "essay": "It is a remarkable comfort to live in an age where a man no longer needs to carry a heavy burden of ignorance around in his own head, when he can so easily borrow the ignorance of several million complete strangers. If a fellow wishes to know the exact weight of a whale or the year a bad king caught the measles, he needs only consult that great communal inkwell where every passerby is invited to stir the soup. A tailor in Ohio may correct a bishop in London on a matter of divinity, and if the tailor has more time on his hands, his version of God will naturally carry the day. There is something profoundly noble about a system that treats the opinion of a scholar and the notion of a gentleman who has just lost an argument as precise equivalents. It rests upon the charming assumption that if you gather enough people who do not know a thing, their collective guesswork will eventually settle into holy writ. Whenever two men disagree on a fact, a third man, who was not present and knows less than either, settles the matter by writing it down. It has made truth so remarkably accessible that any citizen can possess a fresh version of it before breakfast, provided he does not mind it being thoroughly refuted by tea-time.",
     "generated": "2026-08-29T22:42:44+00:00",
     "provider": "gemini",
-    "scored_by": "gemini"
+    "scored_by": "gemini",
+    "reread": "2026-09-09"
   },
   {
     "date": "2026-08-30",
@@ -863,7 +864,8 @@
     "essay": "Walking was once the last refuge of the man who wished to think about nothing at all. Now it has been converted into an audited task. One straps a tiny accountant to one's wrist and sets off, not to admire the scenery, but to satisfy a digital master. I find myself pacing around my own study late at night, not because I have a thought to pursue, but because I am four hundred strides short of an arbitrary figure set by some distant manufacturer. This is an entirely ridiculous way to spend an evening; yet I do it, and feel a foolish satisfaction when the wristband vibrates to signal my compliance. We have grown so terrified of unmeasured leisure that we cannot take a turn in the garden without demanding a balance sheet. The tragedy is not that the body requires exercise, but that we can only persuade ourselves to walk if we pretend we are conducting a piece of arithmetic. A stroll that produces no tally is felt to be wasted effort. If a man cannot enjoy an hour of aimless wandering without requiring a machine to congratulate him at the end, he has lost the art of idleness; and a man who cannot be idle is at the mercy of every silly ambition that presents itself.",
     "generated": "2026-08-30T22:50:35+00:00",
     "provider": "gemini",
-    "scored_by": "gemini"
+    "scored_by": "gemini",
+    "reread": "2026-09-09"
   },
   {
     "date": "2026-08-31",
@@ -876,7 +878,8 @@
     "essay": "The readiness with which Mr. Brown surrenders the tranquil governance of his household to a creature of the South American wilderness speaks less of extraordinary benevolence than of that weakness of mind which cannot withstand a persistent display of vulnerability. One must admire the fortitude of Mrs. Brown, who discovers in the total destruction of her bathroom not an occasion for censure, but a compelling proof of the stranger's sweetness of disposition. The animal itself, though possessing a degree of politeness rarely observed in beasts of prey, exhibits a constant conflict between a desire for civilised decorum and an unfortunate attachment to marmalade. That a family of such respectable standing should subject their domestic peace, their furniture, and their very safety to the perils of an uninvited ursine guest must strike the discerning observer as an alarming precedent; yet the spectator is expected to regard this surrender of common sense as the highest form of virtue. Even the villainy of the museum curator, whose zeal for taxidermy is pursued with an unwearied, if misplaced, singularity of purpose, serves only to unite the household in a common fondness for their troublesome charge. Domestic harmony, it appears, is most effectively restored not by prudence or frugality, but by inviting chaos into the drawing-room under the guise of charity.",
     "generated": "2026-08-31T22:14:15+00:00",
     "provider": "gemini",
-    "scored_by": "gemini"
+    "scored_by": "gemini",
+    "reread": "2026-09-09"
   },
   {
     "date": "2026-09-01",
@@ -1175,6 +1178,19 @@
     "essay": "I spent an hour yesterday in the operating room watching the quiet work of the gas and mask. A young mechanic on the table—muscles relaxed, breathing steady and deep—the surgeon standing ready, the nurses swift and silent at their places. No shrieking, no iron straps, no four stout attendants holding down a thrashing body on a wooden bench. Just the turn of a nickel-plated valve, the sweet heavy vapor flowing, and the patient sliding off into an easy sleep; completely untroubled, insensible to the cold steel penetrating skin, fat, and muscle. Saw the apparatus itself—gauges, glass tubes, rubber hoses, brass stopcocks, leather straps, sponges, polished instruments laid out on white linen. What a triumph of modern skill—to sever the nerve of agony while keeping the flame of life burning bright; to lay a man out under the knife and have him wake a half-hour later, blinking at the daylight, asking when the doctor means to start! The flesh lies in absolute peace; the spirit rests in the dark parlor until summoned back to the day. A magnificent mercy, easing the suffering body in its hour of need.",
     "generated": "2026-09-08T23:24:01+00:00",
     "provider": "gemini",
+    "scored_by": "gemini/100"
+  },
+  {
+    "date": "2026-09-09",
+    "thinker": "wilde",
+    "name": "Oscar Wilde",
+    "dates": "1854-1900",
+    "object": "Wikipedia",
+    "verdict": "great digital library",
+    "score": 4.2,
+    "essay": "The labour of compiling knowledge into a vast, accessible repository is a task that has consumed the energies of many a diligent soul, and yet, in the end, it is not the accumulation of facts that lends wisdom, but rather the discerning eye that knows what to do with them. We are inclined to believe that the more we know, the more civilised we become, but I fear that is a misconception - for civilisation is not a matter of knowing everything, but of knowing what to ignore. And so, as we navigate the labyrinthine corridors of this great digital library, we must be mindful of the distinction between knowledge and wisdom, lest we become so enamoured with the former that we forget the value of the latter. To be well-informed is one thing, but to be well-educated is quite another, and it is the latter that truly sets us free.",
+    "generated": "2026-09-09T19:49:39+00:00",
+    "provider": "cloudflare",
     "scored_by": "gemini/100"
   }
 ]
