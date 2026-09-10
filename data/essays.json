@@ -1018,7 +1018,8 @@
     "essay": "I find myself strangely drawn to that green creature whose sanctuary is a muddy swamp, for in his desire to be left entirely alone with his foul habits, I recognise something of my own nature; yet I wonder whether this light illusion, crafted with such intricate artifice of moving light and shadow, does not play a subtle trick upon my judgement. I, when I sit before this spectacle, am asked to laugh at the polished court of Duloc and its diminutive ruler, who would trim all human irregularity into straight lines and bloodless order; and yet, even as I applaud the monster for preserving his filthy solitude, I perceive that the tale merely substitutes one vanity for another. The beast remains a beast, full of flatulence and crude belches, yet I am made to deem him noble precisely for his ugliness; I know not whether this is a true liberation of our spirit or merely a comfortable deceit to make us fond of our own blemishes. By the end, when the princess reveals her own monstrous form, I am left in some doubt whether love ought to refine our nature or merely reconcile us to the mud; still, I suspect I prefer the ogre's honest belch to the courtier's hollow song.",
     "generated": "2026-09-04T19:40:33+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-10"
   },
   {
     "date": "2026-09-04",
@@ -1031,7 +1032,8 @@
     "essay": "That big rubber fish stays out of sight for the better part of two hours, which is the only reason anybody takes it seriously. If a man walked up to you on dry land carrying twenty feet of grey canvas and painted saw-teeth, you would offer him a nickel and tell him to move along; but submerge that same contrivance in three feet of salt water, play two heavy notes on a bass fiddle, and suddenly every sensible deacon in the county is sweating through his shirt and refusing to wash his ankles. The whole business depends on a director who understands that a human imagination is a great deal more terrified of what it cannot see than what it can. He feeds us a yellow barrel here and a floating shoe there, and our own foolish minds do the butcher work. Then he puts three grown men in a leaking tub: a sheriff who hates water, a scientist who talks like a textbook, and a loud old sailor who treats the monster like a personal acquaintance, and lets them bicker until the fish turns the boat into matchwood. It is a fine piece of mischief, proving you can sell a man his own fright at two dollars a ticket and have him thank you for the privilege.",
     "generated": "2026-09-04T23:03:32+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-10"
   },
   {
     "date": "2026-09-05",
@@ -1044,7 +1046,8 @@
     "essay": "To turn one's private existence into a public spectacle used to require a magnificent scandal; today it merely requires a lack of reticence and an agreeable light. We have entered an age where the highest ambition is not to possess a soul, but to simulate a charming environment. To be admired by thousands of people one has never met is the modern equivalent of being knighted, though far less demanding and considerably more lucrative. Yet there is something splendid about a human being who makes a career out of sheer visibility. They have discovered the supreme secret of modern life: that to be useful is vulgar, but to appear effortlessly captivating is an art form of the highest order. Naturally, the public forgives them everything except a bad light or an uninspired pose. The real tragedy of these delicate creatures is not that they sell their lives, for privacy has always been the refuge of the uninteresting. The tragedy is that they must constantly labour to persuade us of their sincerity. To inspire devotion without possessing a single conviction is a magnificent triumph of style over tedious substance, proving that in a civilised society, nothing succeeds so thoroughly as beautiful triviality.",
     "generated": "2026-09-05T19:05:11+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-10"
   },
   {
     "date": "2026-09-05",
@@ -1238,6 +1241,19 @@
     "score": 8.9,
     "essay": "Let us step into the scullery where the wet linen used to hang like heavy clouds above the copper boiler. Monday was always a grey day, steeped in the scent of harsh soap and steam that coated the windowpanes; one could never quite separate the washerwoman’s spirit from the sodden flannel she wrung. Yet inside this white enamel cabinet, humming softly in the corner, that ancient tyranny of the tub has been enclosed and quieted. The linen tumbles behind a circle of glass, driven by an unseen tide that heaves without complaint. What becomes, one wonders, of the spirit salvaged from such fierce physical labour? We might suppose that the mind, freed from the rhythmic bruising of the washboard, would immediately turn its attention to philosophy or grand design. But human nature is a modest creature; rather than conquering new kingdoms, it prefers to inhabit the stillness. As the soapy water drains away through hidden pipes, carrying off the soil of daily life, we realise that the true marvel of the machine is not the whiteness of a collar, but the uncounted hours it restores to the afternoon.",
     "generated": "2026-09-10T19:45:56+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100"
+  },
+  {
+    "date": "2026-09-10",
+    "thinker": "franklin",
+    "name": "Benjamin Franklin",
+    "dates": "1706-1790",
+    "object": "the step counter",
+    "verdict": "anxious vanity",
+    "score": 1.3,
+    "essay": "I procur'd one of these small counting engines to try whether the precise tally of my daily paces might encourage a more regular habit of walking; but after carrying it several weeks, I found the benefit far less than the inconvenience. A man who requires a dial to inform him whether he has taken sufficient exercise has already surrendered his own judgment to a mechanical spring; and I observ'd that several of my acquaintance, who formerly walked only when business or health requir'd it, now pace their chambers at midnight merely to satisfy the machine's appetite for numbers. This seemed to me a foolish misapplication of industry, wherein the tally itself becomes the sole object of the labour. The true purpose of walking is either to convey the body to some useful place, or to refresh the spirits by a change of air; neither of which is promoted by staring perpetually at a tiny index. Though it may occasionally prick a sluggard into motion, it substitutes an anxious vanity for a natural virtue, and makes a taskmaster of an instrument that produces nothing. I concluded the machine was not worth the care it demands, and returned to trusting my own fatigue.",
+    "generated": "2026-09-10T23:12:25+00:00",
     "provider": "gemini",
     "scored_by": "gemini/100"
   }
