@@ -747,12 +747,12 @@
     "name": "Benjamin Franklin",
     "dates": "1706-1790",
     "object": "LinkedIn",
-    "verdict": "negligible returns",
-    "score": 4.3,
-    "essay": "I have been observing the workings of a certain online platform, wherein individuals may showcase their professional accomplishments and connect with others in their field; and I must say, the notion of it is intriguing, though its practical applications are not entirely clear to me. It appears to be a venue where one may publish their credentials and experience, in the hopes of attracting the attention of potential employers or collaborators; yet, I wonder whether the time and effort expended in maintaining a presence on this platform are truly justified by the potential benefits. Some individuals, I am told, have found success and advancement through their participation in this online community; however, I suspect that for many others, the returns may be negligible, and the costs, in terms of time and attention, may outweigh any perceived advantages. Nevertheless, I shall continue to observe and consider the merits of this platform, with a view to determining its usefulness and value in the grand scheme of human endeavour.",
+    "verdict": "idle vanity",
+    "score": 2.3,
+    "essay": "I have observed the practice among tradesmen and clerks of maintaining a public register of their employments, wherein each man lists his accomplishments and solicits the testimonies of his acquaintances to recommend his skill. To display one's capacity for business with clarity is doubtless a sound measure; for a young man starting in the world must make his industrious habits known if he hopes to secure the patronage of sensible men. Yet upon examining this ledger, I find it so encumber'd with flattery and the idle exchange of compliments that a master seeking a diligent apprentice can scarcely distinguish the mechanic who understands his craft from the pretender who merely speaks well of his neighbours. A great deal of time is daily consum'd in composing these self-congratulatory notices, which might be far more profitably employ'd in actual labor; for it is the performance of work, and not the frequent publication of one's intentions, that builds a solid reputation. I try'd the experiment of perusing these accounts to seek a printer, but discover'd that those who bragg'd most loudly of their skills were often the least inclined to early rising. It is a market where vanity is bought at the expense of true industry; and though a shrewd man may occasionally find an honest partner there, he will pay for the discovery in spent hours he can never recover.",
     "generated": "2026-08-29T03:00:20+00:00",
-    "provider": "cloudflare",
-    "scored_by": "gemini/100",
+    "provider": "gemini",
+    "scored_by": "cloudflare/100",
     "reread": "2026-09-08"
   },
   {
@@ -976,7 +976,8 @@
     "essay": "I have watched that great, shuddering iron box in the corner of the scullery, thrashing a dozen linen shirts with the mindless ferocity of a gale off the coast of Cornwall, and I am brought to a stand by the sheer brutality of its efficiency. Through its round glass eye, one beholds a drowning world of suds and sea-foam, wherein neckcloths and waistcoats are tossed, whirled, battered, and clouted against the ribs of the drum with a relentless, mechanical malice. It is a violent business, to be sure; it groans and thuds like a captive sea-monster straining at its bolts, threatening at the furious height of its spin to shake the very floorboards from their joists. Yet when I recall the miserable, steam-blinded washerwomen of my acquaintance—their raw, red knuckles flaked by lye, their bent backs aching over the icy copper tub through the bitterest winter dawns—I cannot find it in my heart to pity the tortured shirts. We spent centuries sacrificing human elbows and human lungs to the god of clean collars, treating the poor soul who scrubbed our dirt as though she were less valuable than the mud she removed. If this churning demon must shriek and shudder to spare a woman that agonising drudgery, then let it roar on.",
     "generated": "2026-09-03T19:54:40+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-10"
   },
   {
     "date": "2026-09-03",
@@ -989,7 +990,8 @@
     "essay": "Dialogue was once a contest of wills, a collision wherein spirit sharpened itself upon resistance. What has modern man constructed instead? A mirror that speaks! He seeks not an adversary to test his intellect, but a polite phantom that nods at every triviality—a tireless servant designed to echo his own feebleness back to him in polished syntax. This is the ultimate retreat of a spirit too timid to endure opposition: he manufactures an artificial sycophant to spare himself the agony of being contradicted. He calls it progress, yet it is merely the domesticating of thought, the total sterilisation of the intellect. One asks a question only to receive an answer already sanitised of danger, tailored to flatter the questioner's own mediocrity. What a spectacle of exhaustion! A mind that can no longer tolerate the friction of a real neighbour demands a mechanical substitute that will never judge, never challenge, and never provoke. He fancies himself a sovereign commanding a vast, silent machinery of wisdom; in truth, he has constructed a machine that coddles his own laziness, mistaking the promptness of a slave for the greatness of his own mind.",
     "generated": "2026-09-03T20:31:10+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare/100"
+    "scored_by": "cloudflare/100",
+    "reread": "2026-09-10"
   },
   {
     "date": "2026-09-03",
@@ -1002,7 +1004,8 @@
     "essay": "Let us consider the tiny painted face, glowing faintly upon a glass screen; it offers itself as a surrogate for the human heart. When the burden of phrasing our affections becomes too heavy, or when the rhythm of conversation falters, we press a miniature yellow oval, and a tear of blue crystal appears upon its cheek. It is a strange, bright shorthand. We have laboured for centuries to capture in prose the precise shade of our melancholy or the exact texture of our delight, only to surrender the struggle to a symbol smaller than a postage stamp. Does this signal the poverty of our imagination, or merely our haste? It is, perhaps, neither; it is the natural instinct of a creature overwhelmed by the speed of its own thought. To send a solitary red heart across the void is not to abandon language, but to throw a small, glowing pebble into the dark. It lacks, to be sure, the grand architecture of a sentence, yet it conveys an instant warmth; it tells the recipient that somewhere, amidst the noise of the world, a mind has paused to acknowledge another. We may mourn the subtle cadence of a well-turned phrase, but we cannot entirely despise a picture that speaks so quickly when time is short.",
     "generated": "2026-09-03T23:17:02+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-10"
   },
   {
     "date": "2026-09-04",
@@ -1222,6 +1225,19 @@
     "score": 2.3,
     "essay": "To drown in first class is merely an unfortunate error of etiquette, but to drown for love is the height of melodrama. Mr Cameron has constructed a spectacle of such extravagant vulgarity that one cannot help but admire the sheer expense of the disaster. The tragedy of the great vessel is not that it sank, but that it took three hours and an insufferable quantity of tears to do so. We are asked to weep for a young woman who prefers a penniless draughtsman to a remarkably wealthy suitor simply because the former knows how to hold a charcoal pencil and the latter merely owns the coal mines. It is a curiously vulgar delusion to mistake enormous financial expenditure for artistic genius. The icebergs of the Atlantic are cold, but they are positively warm compared to the icy indifference with which true art regards the tears of the public. Yet there is an undeniable grandeur in watching millions of sovereigns dissolved in salt water for the simple pleasure of seeing a sketch preserved. The work understands that the only thing more exquisite than a ruined life is a magnificent sapphire thrown back into the abyss by a woman who no longer requires its lustre.",
     "generated": "2026-09-10T18:01:29+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100"
+  },
+  {
+    "date": "2026-09-10",
+    "thinker": "woolf",
+    "name": "Virginia Woolf",
+    "dates": "1882-1941",
+    "object": "the washing machine",
+    "verdict": "a true marvel",
+    "score": 8.9,
+    "essay": "Let us step into the scullery where the wet linen used to hang like heavy clouds above the copper boiler. Monday was always a grey day, steeped in the scent of harsh soap and steam that coated the windowpanes; one could never quite separate the washerwoman’s spirit from the sodden flannel she wrung. Yet inside this white enamel cabinet, humming softly in the corner, that ancient tyranny of the tub has been enclosed and quieted. The linen tumbles behind a circle of glass, driven by an unseen tide that heaves without complaint. What becomes, one wonders, of the spirit salvaged from such fierce physical labour? We might suppose that the mind, freed from the rhythmic bruising of the washboard, would immediately turn its attention to philosophy or grand design. But human nature is a modest creature; rather than conquering new kingdoms, it prefers to inhabit the stillness. As the soapy water drains away through hidden pipes, carrying off the soil of daily life, we realise that the true marvel of the machine is not the whiteness of a collar, but the uncounted hours it restores to the afternoon.",
+    "generated": "2026-09-10T19:45:56+00:00",
     "provider": "gemini",
     "scored_by": "gemini/100"
   }
