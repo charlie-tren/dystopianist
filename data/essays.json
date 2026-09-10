@@ -677,11 +677,11 @@
     "name": "Emily Dickinson",
     "dates": "1830-1886",
     "object": "emojis",
-    "verdict": "residue of feeling",
-    "score": 7.3,
-    "essay": "The mind assigns a fleeting life to these tiny messengers, as if their existence depended on the whims of our attention - a brief glance and they are born, another and they expire. In the crowded marketplace of human expression, they jostle for position, each one a concentrated gesture, a distillation of sentiment. Their appeal lies not in their durability, but in their ephemerality, for they can be summoned and dismissed with equal ease, leaving behind only the faintest impression of their presence. The fingers that summon them move with a rapidity that belies the complexity of emotions they convey, as if the very act of creation were a form of impermanence. And yet, despite their transience, they accumulate, a residue of feeling that clings to the digital ether, a reminder that even the most fleeting expressions can leave an indelible mark.",
+    "verdict": "painted tokens",
+    "score": 3.4,
+    "essay": "A yellow cheek no larger than a currant contains the entire grief of an afternoon. We throw these small visages—a tear stuck like a pin, a smile lacquered upon a disc—to do the heavy errands of the heart. To speak of agony requires an inventory of vowels, but a miniature face spares the trouble of breath. It is a strange frugality. Joy is stripped of its bonnet; sorrow is denied its dark veil, reduced instead to a bright bead that rolls between two thumbs. I have seen a red heart, small as a raspberry seed, handed over to convey a devotion that would otherwise break a sentence. Language is a bulky wardrobe—we tire of its heavy wools and seek an easier garment. Yet there is a peril in such brevity. When a pang is rendered in gilt and enamel, the depth of the wound is easily mistaken for a toy. A drop of red paint cannot bleed, nor can a tiny grimace suffer the long night. We exchange these painted tokens as children trade buttons, believing we have spoken, when we have only pointed to a picture on a garden gate.",
     "generated": "2026-08-29T02:57:54+00:00",
-    "provider": "cloudflare",
+    "provider": "gemini",
     "scored_by": "gemini/100",
     "reread": "2026-09-07"
   },
@@ -691,12 +691,12 @@
     "name": "Charles Dickens",
     "dates": "1812-1870",
     "object": "Paddington (2014)",
-    "verdict": "slyly subversive",
-    "score": 8.2,
-    "essay": "As I walked away from the tale of Paddington, I found myself struck by the manner in which the filmmakers had woven a narrative that was at once both fantastical and mundane, a curious blend of the ordinary and the extraordinary. The attention to detail in the creation of this world was striking, with each frame meticulously crafted to transport the viewer to a London that was both familiar and yet, utterly unique. And yet, what lingered in my mind was not the cleverness of the special effects or the charm of the titular character, but rather the quiet desperation of the Brown family, their lives a testament to the struggles of the everyday, their treatment by the authorities a stark reminder of the callousness that often lies just beneath the surface of our society. The film, it seemed to me, was not merely a delightful diversion, but a commentary on the human condition, a slyly subversive exploration of what it means to be an outsider in a world that often seems determined to exclude.",
+    "verdict": "unreserved delight",
+    "score": 9.8,
+    "essay": "I have seen a small, dripping stranger in a blue coat reduce an otherwise respectable London residence to a roaring, soap-sudded cataract in the space of three minutes, and I declare myself unreservedly on his side. What stirred my blood to a fevered boil was not the ruin of the wallpaper, nor the catastrophic upheaval of the porcelain, but the cold, calculating villainy that looked upon this polite, marmalade-encrusted soul and saw only a specimen to be eviscerated and mounted upon a wooden plinth. To survey a creature who tips his hat to every passing constable, who harbours no greater ambition than a slice of sweetened toast, and to instantly hunger for his taxidermied hide—this is the true, unvarnished wickedness of our civilised age! We are surrounded by men and women who would freeze the very marrow of human kindness for the sake of a neatly labelled display cabinet. Yet when that absurd, damp little figure glides down a stair-rail upon a pair of vacuum cleaners, he does more to scour the soot from our dismal city hearts than a thousand solemn societies for moral improvement. Let the starch-collared tyrants rage; I shall take my stand with the bearer of the battered suitcase every hour of the day.",
     "generated": "2026-08-29T02:58:17+00:00",
-    "provider": "cloudflare",
-    "scored_by": "gemini",
+    "provider": "gemini",
+    "scored_by": "cloudflare/100",
     "reread": "2026-09-07"
   },
   {
@@ -705,12 +705,12 @@
     "name": "Douglas Adams",
     "dates": "1952-2001",
     "object": "self-checkout machines",
-    "verdict": "mild frustration",
-    "score": 5.4,
+    "verdict": "occasionally troublesome",
+    "score": 3.8,
     "essay": "In the ordinary course of events, a person will encounter a self-checkout machine and attempt to use it, which is to say they will try to complete a transaction without the assistance of another human being, a goal that is not always achieved. The machine, having been designed to perform a specific set of tasks, will often perform those tasks, but not always in a way that is useful to the person trying to use it, which can lead to a certain amount of frustration. It is interesting to note that the machine's ability to function correctly is not necessarily related to the person's ability to use it, a discrepancy that has been observed and documented, but not necessarily resolved. As a result, the self-checkout machine has become a familiar part of modern life, a thing that is both mundane and occasionally troublesome, like a slightly faulty tap or a door that sticks in the summer.",
     "generated": "2026-08-29T02:58:48+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare",
+    "scored_by": "gemini/100",
     "reread": "2026-09-07"
   },
   {
@@ -719,12 +719,12 @@
     "name": "Anthony Bourdain",
     "dates": "1956-2018",
     "object": "airport security",
-    "verdict": "tired courtesy",
-    "score": 5.4,
+    "verdict": "boredom and vigilance",
+    "score": 4.3,
     "essay": "You stand in the security line, surrounded by the murmur of conversation and the rustle of belongings being removed from bags, and you can't help but think of the people who make this machine run. The ones who scan your tickets, who wave the wand over your carry-on, who watch the screens with a mixture of boredom and vigilance. They are the ones who keep the airport's arteries unclogged, who ensure that the travelers flow smoothly from one gate to the next. You glance around at the rows of chairs, the coffee shops, the duty-free stores, and you wonder who cleans up after the hordes of people who pass through here every day. The trash, the spills, the discarded tickets and crumpled up wrappers - someone has to deal with it all. And then there are the security personnel themselves, who have to maintain a facade of alertness and courtesy, no matter how many times they've seen the same tired faces, the same worn-out shoes, the same overstuffed bags. You can almost smell the exhaustion emanating from them, the weight of their responsibility, the drudgery of their task. And yet, they press on, day after day, because someone has to keep the wheels of this massive machine turning.",
     "generated": "2026-08-29T02:59:19+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare",
+    "scored_by": "gemini/100",
     "reread": "2026-09-08"
   },
   {
@@ -733,12 +733,12 @@
     "name": "Julia Child",
     "dates": "1912-2004",
     "object": "airport lounges",
-    "verdict": "mild haven",
-    "score": 5.4,
+    "verdict": "a haven",
+    "score": 6.7,
     "essay": "Now, as you sit in one of these airport lounges, you may find yourself wondering if all the fuss is worth it, but I say, perfectly well, it is a haven from the chaos outside. The moment you step in, you are enveloped in a sense of calm, and the amenities, while not extravagant, are perfectly sufficient to make your wait a pleasant one. You will notice, of course, that the food and drink are not particularly inspiring, but that is not the point, is it? The point is to have a quiet, comfortable spot to collect yourself before your flight, and in that, these lounges succeed perfectly well. I must say, I do appreciate the effort to remove the drudgery of waiting in a crowded terminal, and the fact that you can get some work done or simply relax in peace is a definite advantage. But, really, do not expect to be pampered, because that is not what these lounges are about, and if you do, you will be perfectly disappointed.",
     "generated": "2026-08-29T02:59:49+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare",
+    "scored_by": "gemini/100",
     "reread": "2026-09-08"
   },
   {
@@ -747,12 +747,12 @@
     "name": "Benjamin Franklin",
     "dates": "1706-1790",
     "object": "LinkedIn",
-    "verdict": "cautious observation",
-    "score": 5.0,
+    "verdict": "negligible returns",
+    "score": 4.3,
     "essay": "I have been observing the workings of a certain online platform, wherein individuals may showcase their professional accomplishments and connect with others in their field; and I must say, the notion of it is intriguing, though its practical applications are not entirely clear to me. It appears to be a venue where one may publish their credentials and experience, in the hopes of attracting the attention of potential employers or collaborators; yet, I wonder whether the time and effort expended in maintaining a presence on this platform are truly justified by the potential benefits. Some individuals, I am told, have found success and advancement through their participation in this online community; however, I suspect that for many others, the returns may be negligible, and the costs, in terms of time and attention, may outweigh any perceived advantages. Nevertheless, I shall continue to observe and consider the merits of this platform, with a view to determining its usefulness and value in the grand scheme of human endeavour.",
     "generated": "2026-08-29T03:00:20+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare",
+    "scored_by": "gemini/100",
     "reread": "2026-09-08"
   },
   {
@@ -761,12 +761,12 @@
     "name": "Benjamin Franklin",
     "dates": "1706-1790",
     "object": "the washing machine",
-    "verdict": "cautious consideration",
-    "score": 5.4,
+    "verdict": "useful time-saver",
+    "score": 5.3,
     "essay": "I have given some attention to the device that washes clothing without the need for manual labour; it appears to be a contraption of considerable complexity, with many moving parts and a significant consumption of water. The cost of acquiring and maintaining such a device is not inconsiderable; I have been informed that it can be a substantial expense, one that may not be justified for those with limited means. Nevertheless, for those who can afford it, the device may prove to be a useful time-saver; it can perform the task of washing clothing with greater speed and efficiency than a person could, allowing the individual to devote their time to more productive pursuits. However, I must consider whether the savings in time and labour are sufficient to offset the expense of the device; it is a calculation that each person must make for themselves, taking into account their own particular circumstances and priorities.",
     "generated": "2026-08-29T03:00:51+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare",
+    "scored_by": "gemini/100",
     "reread": "2026-09-08"
   },
   {
@@ -776,11 +776,11 @@
     "dates": "1828-1910",
     "object": "influencers",
     "verdict": "moral infection",
-    "score": 1.0,
+    "score": 0.4,
     "essay": "A man who produces nothing of utility to his fellow men, who neither tills the soil nor shapes the wood nor weaves the cloth, now presides over the minds of millions merely by displaying the false abundance of his own idle existence. This public exhibition of luxury, which the educated classes accept as a legitimate occupation and even as a form of guidance, is in truth nothing other than a perfected system of temptation, designed to awaken in simple men the corrupting desire for things they do not need and cannot afford. By substituting the imitation of life for real labour, and by demanding that the working masses continuously toil in fields and shops to supply the endless stream of useless commodities thus advertised, these purveyors of vanity commit a double crime against the soul of man. They degrade themselves by turning their inner spiritual lives into a market commodity, while simultaneously increasing the burdens of the poor, who must ultimately pay with their physical suffering for every foolish luxury made fashionable by this parasitic class. Whatever clever justifications the idle rich may invent for this deceitful spectacle, it remains a moral infection, serving only to divide men from one another and to substitute the worship of self for true brotherly love.",
     "generated": "2026-08-29T03:01:27+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare",
+    "scored_by": "gemini/100",
     "reread": "2026-09-08"
   },
   {
@@ -789,12 +789,12 @@
     "name": "Leo Tolstoy",
     "dates": "1828-1910",
     "object": "LinkedIn",
-    "verdict": "vacuity and superficiality",
-    "score": 1.0,
+    "verdict": "reprehensible institution",
+    "score": 0.3,
     "essay": "The relentless pursuit of self-promotion that drives individuals to participate in LinkedIn is a stark reminder of the emptiness that lies at the heart of modern professional life, where people are reduced to mere commodities, their worth measured by the number of connections they have amassed and the endorsements they have received, rather than the actual value of their work, and it is this endless cycle of self-aggrandizement that serves only to further entrench the existing power structures, where those who are already privileged are able to leverage their influence to accumulate even more, while those who are struggling to make a name for themselves are left to fight over the scraps, their voices drowned out by the cacophony of self-promotion that dominates this platform, and it is here that we see the true purpose of LinkedIn, a tool designed to perpetuate the interests of the powerful at the expense of the weak, a testament to the boundless capacity for self-delusion that exists among the educated classes, who are willing to sacrifice their very humanity in pursuit of a fleeting sense of success, and it is this that makes LinkedIn such a reprehensible institution, a monument to the vacuity and superficiality of modern life.",
     "generated": "2026-08-29T03:02:01+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare",
+    "scored_by": "gemini/100",
     "reread": "2026-09-08"
   },
   {
@@ -934,7 +934,8 @@
     "essay": "My skin has ever been a fickle recorder of temperature, rejecting both the harsh discipline of ice and the stifling embrace of dry heat; yet when this torrent of steaming rain falls upon my stooping shoulders, I feel my customary irresolution melt into a most delicious stupor. I have observed in myself a strange contradiction: whilst I profess to admire the stern fortitude of those ancient soldiers who washed in freezing rivers, I nevertheless linger beneath this artificial cataract until my fingers wrinkle like dried fruit; for the mind, lulled by the constant drumming of warm water, forgets its anxieties and surrenders its capacity for serious thought. Is it a virtue to seek such easy solace, or does this gentle deluge merely wash away our vigour along with the grime of the day? I cannot easily decide; my physician would perhaps warn me against softening the humours, yet I find that after ten minutes in this vapour, my naturally restless nature grows so pacified that I am unfit for any hard labour, which pleases me well enough. We imagine we master nature by commanding hot water to rain at our pleasure, but it is rather the water that masters us, turning men of action into idle philosophers dripping upon the floor.",
     "generated": "2026-09-02T19:50:46+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-10"
   },
   {
     "date": "2026-09-02",
@@ -947,7 +948,8 @@
     "essay": "The labour that goes into ensuring our safety as we travel by air is a remarkable thing, and yet it is something that we have grown accustomed to, so much so that we hardly notice it anymore. We shuffle along in our stockinged feet, our belts and watches removed, and our luggage scanned, all without a second thought. It is a curious thing, this willingness to submit to such scrutiny, and yet it is a small price to pay for the reassurance that we are safe from harm. But what is perhaps most interesting about this process is the way in which it has become a normal part of our lives, a routine that we undertake without complaint, and indeed without even thinking about it. We have become so civilised, so used to the idea of being protected and looked after, that we no longer question the measures that are taken to ensure our safety. And yet, it is precisely this lack of questioning that is so noteworthy, for it suggests a deep-seated trust in the authorities that oversee our travels, and a willingness to surrender our autonomy in the name of security.",
     "generated": "2026-09-02T20:31:22+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100"
+    "scored_by": "cloudflare/100",
+    "reread": "2026-09-10"
   },
   {
     "date": "2026-09-02",
@@ -960,7 +962,8 @@
     "essay": "The greatest luxury of our civilised age is the ability to eavesdrop on intimacy without the tedious necessity of participating in it. Conversation was once a delicate art of mutual deception, wherein two people pretended to care for each other’s opinions; today we have perfected a far more charming arrangement, allowing complete strangers to whisper their prejudices directly into our ears. It is the ultimate triumph of solitude over society. To listen to a friend requires a certain sacrifice of patience, but to listen to a disembodied voice requires only a small plastic button and a profound desire to avoid one’s own thoughts. The world is tragically full of people who have nothing to say, and extraordinarily populated by those who insist on saying it at great length. Yet we forgive them their loquacity, precisely because we can silence them with a single touch of the finger. Nothing is so dreadful as a monologue, unless it is a monologue one can turn off at will, in which case it becomes the highest form of companionship. We consume these endless streams of chatter not to acquire wisdom, but to indulge the delightful illusion that we are present at a dinner party where no one can ask us to pass the salt.",
     "generated": "2026-09-02T23:19:27+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-10"
   },
   {
     "date": "2026-09-03",
@@ -1206,6 +1209,19 @@
     "score": 5.7,
     "essay": "I have spent much of my life contending with the sharp visitations of the stone, an agony so imperious that it shatters all philosophy in an instant; yet whenever I am offered a tiny morsel that promises to banish the torment without delay, I accept it with a speed that ill becomes my supposed stoicism. I find myself wondering what real profit a man finds in thus silencing the alarms of his own flesh, for pain is perhaps the only monitor that reminds us of our frail, perishable nature; yet to praise suffering while one is whole is the cheapest form of valour. When the spasm takes me by the throat, I abandon all noble reflections and crave only the stupor that allows my mind to float free from its bodily prison. It is a strange artifice that can sever the nerve from its grief so neatly, leaving the mind in a tranquil harbour while the storm rages unheeded below; I suspect I am wiser when I yield to this quiet relief than when I attempt to debate with a colic. And yet, I know not if by dulling our aches so easily, we do not also soften our spirit, rendering ourselves ill-prepared for that final trial which no draught can forestall.",
     "generated": "2026-09-09T23:15:31+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100"
+  },
+  {
+    "date": "2026-09-10",
+    "thinker": "wilde",
+    "name": "Oscar Wilde",
+    "dates": "1854-1900",
+    "object": "Titanic (1997)",
+    "verdict": "extravagant vulgarity",
+    "score": 2.3,
+    "essay": "To drown in first class is merely an unfortunate error of etiquette, but to drown for love is the height of melodrama. Mr Cameron has constructed a spectacle of such extravagant vulgarity that one cannot help but admire the sheer expense of the disaster. The tragedy of the great vessel is not that it sank, but that it took three hours and an insufferable quantity of tears to do so. We are asked to weep for a young woman who prefers a penniless draughtsman to a remarkably wealthy suitor simply because the former knows how to hold a charcoal pencil and the latter merely owns the coal mines. It is a curiously vulgar delusion to mistake enormous financial expenditure for artistic genius. The icebergs of the Atlantic are cold, but they are positively warm compared to the icy indifference with which true art regards the tears of the public. Yet there is an undeniable grandeur in watching millions of sovereigns dissolved in salt water for the simple pleasure of seeing a sketch preserved. The work understands that the only thing more exquisite than a ruined life is a magnificent sapphire thrown back into the abyss by a woman who no longer requires its lustre.",
+    "generated": "2026-09-10T18:01:29+00:00",
     "provider": "gemini",
     "scored_by": "gemini/100"
   }

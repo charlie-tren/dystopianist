@@ -41,6 +41,7 @@ Source: Essays, trans. Charles Cotton, Project Gutenberg #3600
 - The statement is too definitive, Montaigne would likely qualify it with more uncertainty, such as 'where I sometimes suspect I may be wiser' Seen in a published essay: "where I think I am often wiser than in my full soberness" (found 2026-09-02).
 - A reader of Michel de Montaigne would have expected 'I' instead of 'we' to start the sentence, allowing for later generalization. Seen in a published essay: "so prompt are we to pardon in ourselves the very inclinations we condemn in others" (found 2026-09-03).
 - A reader of Michel de Montaigne would have expected 'I' instead of 'we' to start the sentence, allowing for later generalization. Seen in a published essay: "We are so built that our tiny comforts must ever be bought at the expense of our neighbour's misery" (found 2026-09-03).
+- A reader of Michel de Montaigne would have expected 'I' instead of 'we' to start the sentence, allowing for later generalization. Seen in a published essay: "We imagine we master nature by commanding hot water to rain at our pleasure" (found 2026-09-10).
 ## Log
 
 - 25/08/2026 - added. Two real passages from the Cotton translation.
