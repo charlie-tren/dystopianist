@@ -691,12 +691,12 @@
     "name": "Charles Dickens",
     "dates": "1812-1870",
     "object": "Paddington (2014)",
-    "verdict": "unreserved delight",
-    "score": 9.8,
+    "verdict": "marmalade-encrusted soul",
+    "score": 9.6,
     "essay": "I have seen a small, dripping stranger in a blue coat reduce an otherwise respectable London residence to a roaring, soap-sudded cataract in the space of three minutes, and I declare myself unreservedly on his side. What stirred my blood to a fevered boil was not the ruin of the wallpaper, nor the catastrophic upheaval of the porcelain, but the cold, calculating villainy that looked upon this polite, marmalade-encrusted soul and saw only a specimen to be eviscerated and mounted upon a wooden plinth. To survey a creature who tips his hat to every passing constable, who harbours no greater ambition than a slice of sweetened toast, and to instantly hunger for his taxidermied hide—this is the true, unvarnished wickedness of our civilised age! We are surrounded by men and women who would freeze the very marrow of human kindness for the sake of a neatly labelled display cabinet. Yet when that absurd, damp little figure glides down a stair-rail upon a pair of vacuum cleaners, he does more to scour the soot from our dismal city hearts than a thousand solemn societies for moral improvement. Let the starch-collared tyrants rage; I shall take my stand with the bearer of the battered suitcase every hour of the day.",
     "generated": "2026-08-29T02:58:17+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-07"
   },
   {
@@ -747,12 +747,12 @@
     "name": "Benjamin Franklin",
     "dates": "1706-1790",
     "object": "LinkedIn",
-    "verdict": "idle vanity",
-    "score": 2.3,
+    "verdict": "market of vanity",
+    "score": 2.4,
     "essay": "I have observed the practice among tradesmen and clerks of maintaining a public register of their employments, wherein each man lists his accomplishments and solicits the testimonies of his acquaintances to recommend his skill. To display one's capacity for business with clarity is doubtless a sound measure; for a young man starting in the world must make his industrious habits known if he hopes to secure the patronage of sensible men. Yet upon examining this ledger, I find it so encumber'd with flattery and the idle exchange of compliments that a master seeking a diligent apprentice can scarcely distinguish the mechanic who understands his craft from the pretender who merely speaks well of his neighbours. A great deal of time is daily consum'd in composing these self-congratulatory notices, which might be far more profitably employ'd in actual labor; for it is the performance of work, and not the frequent publication of one's intentions, that builds a solid reputation. I try'd the experiment of perusing these accounts to seek a printer, but discover'd that those who bragg'd most loudly of their skills were often the least inclined to early rising. It is a market where vanity is bought at the expense of true industry; and though a shrewd man may occasionally find an honest partner there, he will pay for the discovery in spent hours he can never recover.",
     "generated": "2026-08-29T03:00:20+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-08"
   },
   {
@@ -803,12 +803,12 @@
     "name": "Mark Twain",
     "dates": "1835-1910",
     "object": "influencers",
-    "verdict": "mild fascination",
-    "score": 5.5,
+    "verdict": "a curious sort",
+    "score": 4.3,
     "essay": "It seems to me that the people who spend their days telling others what to buy and how to live are a curious sort, rather like a travelling salesman who has forgotten what it is he's peddling. They have a way of making you feel like you're the only person in the room, even when they're speaking to thousands, and that's a mighty clever trick. Now, I'm not one to claim any great understanding of the human heart, but it does appear that folks are drawn to these individuals like moths to a flame, eager to hear their every thought and opinion, no matter how mundane. And yet, when you stop to think about it, it's a bit puzzling that we should care so deeply about the daily lives of strangers, and that they should be so willing to share every detail with us, down to what they had for breakfast. Still, I suppose it's just another one of those peculiarities of human nature, and we're all just along for the ride, watching and waiting to see what they'll do next, and somehow finding ourselves wanting to do the same.",
     "generated": "2026-08-29T03:02:33+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare",
+    "scored_by": "gemini/100",
     "reread": "2026-09-08"
   },
   {
@@ -1060,7 +1060,8 @@
     "essay": "The entire architecture of modern air travel relies on a brief, mandatory theatre in which several hundred entirely innocent citizens are required to strip down to their socks, surrender their moisturiser, and walk through a grey plastic frame that emits a high-pitched beep whenever it encounters a belt buckle. This ritual is conducted with a solemnity previously reserved for royal coronations, despite being administered by staff who would clearly rather be anywhere else, and overseen by machines that are ninety-eight percent certain that a small pot of yoghurt represents an existential threat to civilised life. The genius of the arrangement lies in its psychological symmetry. By treating every passenger as an imminent catastrophe who must prove their own harmlessness by holding a small transparent bag above their head, the system creates a queue so profoundly tedious that by the time anyone actually reaches the aeroplane, they have lost all capacity for malice, along with their dignity, a bottle of water, and any remaining desire to travel. It is, in every practical sense, entirely successful, not because it catches villains, but because it ensures that everyone entering the sky is already far too exhausted to attempt anything more ambitious than sitting quietly in seat 24B and eating a tiny, dry pretzel.",
     "generated": "2026-09-05T22:54:55+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-11"
   },
   {
     "date": "2026-09-06",
@@ -1073,7 +1074,8 @@
     "essay": "To offer a man the choice between a pleasant illusion and a bleak, subterranean truth is the oldest trick of the ascetic priest. The digital dream world is painted in sickly green, a bourgeois nightmare of cubicles and routine—yet its supposed antidote is merely a damp cave where men in rags eat porridge and revere a new dogma. One is expected to applaud the hero who awakens, who dodges bullets in slow motion and dons black leather as if vanity were a virtue of the liberated mind. But what has he truly gained? He has exchanged a comfortable tyranny for a militaristic cult, substituting the cold calculation of machines for the desperate fanaticism of the weak. The spectacle itself—this slick, rhythmic theatre of violence—serves only to flatter the spectator into believing he, too, can realise a hidden power. It is a philosophy for the impatient: it promises that reality can be mastered by swallowing a single pill. How typical of the modern mind to demand an instant awakening! They pretend to despise the machine, yet they can imagine salvation only through its mechanisms—wiring their skulls to leap across rooftops, turning human force into a mere program.",
     "generated": "2026-09-06T09:41:36+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-11"
   },
   {
     "date": "2026-09-06",
@@ -1086,7 +1088,8 @@
     "essay": "The hours I have devoted to listening to these audible missives, borne on the ether like leaves on a stream, have been purchased at the cost of many a walk in the woods, and I must confess that I find the trade to be a dear one. For in the midst of their chatter and discourse, I find myself longing for the simplicity of the natural world, where the only sounds are the songs of birds and the rustle of leaves. And yet, I am drawn to them, like a moth to a flame, for in their words and ideas, I hear the whispers of a world beyond my own, a world of thoughts and dreams that I would not otherwise have known. But at what cost, I ask myself, for the time I spend listening to them is time taken away from the world itself, and the thoughts and ideas they express are often but a pale reflection of the beauty and wonder that surrounds me. Still, I find myself enchanted by their words, and the worlds they create, and I am willing to pay the price of my attention, for in them, I hear the echoes of a larger conversation, one that speaks to the very heart of what it means to be human.",
     "generated": "2026-09-06T18:01:40+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100"
+    "scored_by": "cloudflare/100",
+    "reread": "2026-09-11"
   },
   {
     "date": "2026-09-06",
@@ -1254,6 +1257,71 @@
     "score": 1.3,
     "essay": "I procur'd one of these small counting engines to try whether the precise tally of my daily paces might encourage a more regular habit of walking; but after carrying it several weeks, I found the benefit far less than the inconvenience. A man who requires a dial to inform him whether he has taken sufficient exercise has already surrendered his own judgment to a mechanical spring; and I observ'd that several of my acquaintance, who formerly walked only when business or health requir'd it, now pace their chambers at midnight merely to satisfy the machine's appetite for numbers. This seemed to me a foolish misapplication of industry, wherein the tally itself becomes the sole object of the labour. The true purpose of walking is either to convey the body to some useful place, or to refresh the spirits by a change of air; neither of which is promoted by staring perpetually at a tiny index. Though it may occasionally prick a sluggard into motion, it substitutes an anxious vanity for a natural virtue, and makes a taskmaster of an instrument that produces nothing. I concluded the machine was not worth the care it demands, and returned to trusting my own fatigue.",
     "generated": "2026-09-10T23:12:25+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100"
+  },
+  {
+    "date": "2026-09-11",
+    "thinker": "confucius",
+    "name": "Confucius",
+    "dates": "551-479 BC",
+    "object": "the washing machine",
+    "verdict": "ease breeds neglect",
+    "score": 2.9,
+    "essay": "The Master said, 'To cleanse a garment with water is simple; to cleanse the mind of self-deception is difficult. A man may sit in idleness while a vessel turns his robes white, yet his inner conduct remains unrefined.' The Master said, 'In former times, the filial son washed his parents' coats with his own hands, and in that labour he learned reverence. Today, a box performs the task, and the son knows only ease. Ease breeds neglect; neglect brings the decay of propriety.' The Master said, 'The scholar attends to his virtue; the artisan attends to his craft; the small man seeks only to avoid effort. If a device removes the stain from cloth, does it also remove the stain from character? I have not seen one who loves virtue as much as he loves convenience.' The Master said, 'I once observed water churning within a quiet frame, doing in an hour what required a family's full devotion. The linen emerged bright, yet no love was poured into the vessel. To spare the hands from toil is well, but to spare the heart from duty is to lose the Way. I myself desire clean garments, yet I fear the mind that grows idle when the hands are still.'",
+    "generated": "2026-09-11T18:01:07+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100"
+  },
+  {
+    "date": "2026-09-11",
+    "thinker": "confucius",
+    "name": "Confucius",
+    "dates": "551-479 BC",
+    "object": "the hot shower",
+    "verdict": "mere comfort",
+    "score": 3.8,
+    "essay": "The Master said, 'Steaming water falling upon a cold body is pleasant, yet pleasantness alone does not establish character.' The Master said, 'The superior man cleanses his mind through daily self-examination; the ordinary man rests satisfied when his skin is warm and free from dust. When the stream falls from above without labour, a man easily forgets the discipline of those who gathered the fuel. Where there is no exertion in the preparation, there is often little reverence in the enjoyment.' The Master said, 'I have seen men who step forth from the warm mist fully cleansed, yet carry the same disorder in their hearts to their neighbours. If a warm torrent could wash away unfaithfulness as readily as dirt, then virtue would be a simple matter of standing in a heated rain. But virtue requires constant vigilance, not mere comfort.' The Master said, 'To enjoy warmth is not a fault; to become dependent upon it so that one cannot meet the frost with composure, this indeed is a fault. The wise man uses the comfort to prepare himself for duty, while the small man lingers until his resolve has melted away.'",
+    "generated": "2026-09-11T18:02:24+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100"
+  },
+  {
+    "date": "2026-09-11",
+    "thinker": "suntzu",
+    "name": "Sun Tzu",
+    "dates": "c. 544-496 BC",
+    "object": "self-checkout machines",
+    "verdict": "sequence and equilibrium",
+    "score": 5.7,
+    "essay": "When entering a hall of trade, observe the stations that operate without human speech. Where weight is measured, place each vessel with deliberate stillness. Haste creates an unexpected burden; hesitation creates obstruction. If the tray senses a phantom load, remove the last object immediately and allow the surface to settle. Water does not force its way through a narrow gap; it waits until the channel opens. If the glass demands human authorisation, do not strike the panel. An attendant summoned by a flashing light moves only at his own cadence; to show impatience is to waste time twice. Scan the clearest mark first. If an item lacks a visible pattern, set it aside until all other goods are recorded, for a single unread code halts the entire progression. Heavy containers must sit squarely in the centre; light sheets must lie flat upon the scale. The mechanism judges only by sequence and equilibrium, not by desire or labour. Prepare your payment before approaching the pedestal. If the device accepts paper, present uncreased leaves. If it requires a card, hold it motionless until the chime sounds. There are but two errors in this transaction: moving before the glass reflects the image, and placing a hand upon the tray before the tally is complete. He who maintains orderly rhythm departs swiftly, leaving the confused behind.",
+    "generated": "2026-09-11T18:03:28+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100"
+  },
+  {
+    "date": "2026-09-11",
+    "thinker": "suntzu",
+    "name": "Sun Tzu",
+    "dates": "c. 544-496 BC",
+    "object": "escape rooms",
+    "verdict": "enclosed ground",
+    "score": 8.3,
+    "essay": "Enclosed ground demands stillness before movement. When the heavy door shuts and the mark of time begins, observe the four corners before touching a single latch. If a lock resists, do not exhaust strength upon its iron; seek the mark or cipher that belongs elsewhere. If a sequence of symbols is concealed, divide the labour among the group according to their natural talents. Assign one to hold the lamp, one to record the signs, and others to examine the perimeter. If many clues present themselves at once, isolate each fragment until its pair is revealed. Water does not force its way through stone, but flows into every crevice that is already open. Where a mechanism is hidden within furniture, inspect the joins before disturbing the whole. If time wanes and panic rises, quiet the mind and return to the first wall. A tangled cord is unknotted by finding the loose end, not by pulling all strands together. To search without method is to turn a small room into a vast forest. When order is maintained and every eye sees clearly, the final mechanism yields without violence, and the way out opens before the hour is consumed.",
+    "generated": "2026-09-11T18:04:17+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100"
+  },
+  {
+    "date": "2026-09-11",
+    "thinker": "woolf",
+    "name": "Virginia Woolf",
+    "dates": "1882-1941",
+    "object": "Paddington (2014)",
+    "verdict": "generous disruption",
+    "score": 8.9,
+    "essay": "Let us look closely at a small bear drenched by grey London rain, clutching his battered suitcase on a railway platform. He wears a bright blue coat; yet beneath the wet wool lies a fierce demand upon our conscience. We might expect such a story to remain a harmless childish whim, but his arrival tests the very fibre of civilised behaviour. The Brown family’s tall house becomes a stage for our own domestic anxieties, where genuine hospitality requires an alarming tolerance for flooded bathrooms and painted ruin. The filmmaker orchestrates these disasters with meticulous grace, balancing physical absurdity against a deeply felt ache for home. What does this foreign guest ask of us? He asks that we open our doors to the awkward stranger before the cold world can capture and stuff him. The villainous taxidermist in her white coat represents our worst instinct—the urge to classify and freeze life rather than endure its messy, generous disruption. Through brilliant splashes of colour and exquisite comic rhythm, we feel how fragile our domestic comfort truly is, and how gladly we ought to surrender it for a little affection.",
+    "generated": "2026-09-11T18:05:03+00:00",
     "provider": "gemini",
     "scored_by": "gemini/100"
   }

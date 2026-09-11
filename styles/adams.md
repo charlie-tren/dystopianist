@@ -47,6 +47,9 @@ Source: pastiche written for this repo (still in copyright)
 - A more dramatic tone was expected to describe a mundane outcome, such as describing frustration as a catastrophic event. Seen in a published essay: "which can lead to a certain amount of frustration" (found 2026-09-07).
 - A more unexpected and clever comparison was expected, rather than a straightforward and generic description. Seen in a published essay: "a thing that is both mundane and occasionally troublesome" (found 2026-09-07).
 - A more elaborate and winding sentence structure was expected, with subordinate clauses and unexpected turns, rather than a simple and direct comparison. Seen in a published essay: "like a slightly faulty tap or a door that sticks in the summer" (found 2026-09-07).
+- A more subtle and clever description of the staff's attitude was expected, rather than a straightforward and generic phrase. Seen in a published essay: "despite being administered by staff who would clearly rather be anywhere else" (found 2026-09-11).
+- A more elaborate and winding sentence structure was expected, with subordinate clauses and unexpected turns, rather than a relatively simple cause-and-effect statement. Seen in a published essay: "the system creates a queue so profoundly tedious that by the time anyone actually reaches the aeroplane" (found 2026-09-11).
+- A more unexpected and clever comparison or listing of consequences was expected, rather than a straightforward and generic enumeration of losses. Seen in a published essay: "they have lost all capacity for malice, along with their dignity, a bottle of water, and any remaining desire to travel" (found 2026-09-11).
 ## Log
 
 - 28/08/2026 - added at Charlie's request from a list of sixteen. In copyright, so both samples are pastiche.
