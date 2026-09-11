@@ -818,11 +818,11 @@
     "dates": "1872-1970",
     "object": "Wikipedia",
     "verdict": "most useful compendium",
-    "score": 8.5,
+    "score": 8.2,
     "essay": "Nothing pleases an ordinary man quite so much as discovering that his neighbour is mistaken. We are, by nature, a disputatious species, far more interested in proving our acquaintances wrong than in arriving at any useful truth ourselves. It was long assumed that such petty vanity was an obstacle to learning; one required quiet scholars in secluded libraries to preserve knowledge. Experience, however, suggests the opposite. By giving every private vanity an outlet, we have accidentally constructed the most useful compendium of fact ever assembled. A man who spends his evening correcting the date of a minor battle does not do so from a noble devotion to truth; he does it because he cannot bear the thought of an anonymous stranger remaining peacefully wrong. I have spent much of my own life succumbing to the same irresistible impulse, though usually with less useful results. The consequence of millions of these tiny, spiteful corrections is not chaos, but an astonishing degree of agreement. We expected popular authorship to produce rubbish, because we forgot that the itch to contradict is far more reliable than the desire to instruct. A man will rarely labour until midnight for the moral improvement of his fellows, but he will gladly do so to settle a trivial dispute about railway timetables.",
     "generated": "2026-08-29T22:41:38+00:00",
     "provider": "gemini",
-    "scored_by": "gemini",
+    "scored_by": "gemini/100",
     "reread": "2026-09-08"
   },
   {
@@ -1144,7 +1144,8 @@
     "essay": "What a sensible, marvellous piece of household engineering it is, provided you actually know how to use it! Too many people simply stand under the streaming water like wet sheep, letting the steam do all the thinking while they stare at the tiles. That is an absolute waste of hot water and good time. Turn the valves with a firm hand—you want it hot enough to sting just a bit, not so scalding that you look like a boiled lobster—and get down to business. Soap up properly, scrub with some real vigor, and rinse off thoroughly. There is no mystery to it at all! The steam clears your lungs, the heat relaxes those stubborn muscles in your neck, and the whole affair leaves you feeling immensely alert and capable. It is a splendidly practical luxury because it gets you clean in five minutes flat and sets you up for whatever hard work lies ahead in the morning. Do not dawdle in there for half an hour indulging in vague melancholy; turn it on, scrub vigorously, step out into a good thick towel, and get on with your day refreshed. It works perfectly every single time if you simply pay attention to what you are doing.",
     "generated": "2026-09-07T20:37:25+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-11"
   },
   {
     "date": "2026-09-07",
@@ -1157,7 +1158,8 @@
     "essay": "As the days blended together in an endless succession of obligations, it became increasingly evident that the device, whose purpose was to shatter the stillness of the morning, had become an integral component of D.'s daily routine, although it was not entirely clear to what extent its presence was a necessity, for while it did serve to rouse him from his slumber at a predetermined hour, it also seemed to exert a certain influence over his entire existence, dictating the pace at which he would navigate the complexities of his waking life, and yet, despite its pervasive presence, D. could not shake the feeling that he was never truly in control of his own schedule, that the device, with its insistent ringing, was somehow orchestrating his every move, permitting him to proceed with his daily labour only after it had first granted him permission to do so, a permission that was always forthcoming, yet never quite felt like a genuine concession, but rather a temporary reprieve, subject to revocation at any moment, leaving D. in a state of perpetual uncertainty, never quite sure whether he was truly master of his own time, or merely a servant to the whims of the device.",
     "generated": "2026-09-07T23:30:13+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100"
+    "scored_by": "cloudflare/100",
+    "reread": "2026-09-11"
   },
   {
     "date": "2026-09-08",
@@ -1170,7 +1172,8 @@
     "essay": "You take the free gin because your gate is a madhouse and because you want to pretend, for forty minutes, that you are not part of the herd. I do it too. I sit in the low leather armchair at Terminal 4, pour a double from a greasy glass decanter, and pretend I belong to a better class of traveler. It is a lie, of course. Look past the frosted glass walls and the soft, ambient lighting. Watch the guy in the black polo shirt clearing the tiny porcelain bowls of stale almonds. He has been on his feet since six in the morning, wiping down synthetic marble with a spray bottle of Spartan disinfectant, while some tech manager in a Patagonia vest shouts into an earpiece about deliverables. The lounge is not a refuge. It is a holding pen built to insulate you from the mess of travel by pushing the people who clean up after you further into the shadows. You are not royalty because a sliding door opened for you. You just paid for a quieter room in which to act oblivious, served by someone taking two night buses home to Newark.",
     "generated": "2026-09-08T18:02:58+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-11"
   },
   {
     "date": "2026-09-08",
@@ -1340,5 +1343,18 @@
     "generated": "2026-09-11T19:48:26+00:00",
     "provider": "gemini",
     "scored_by": "cloudflare/100"
+  },
+  {
+    "date": "2026-09-11",
+    "thinker": "kafka",
+    "name": "Franz Kafka",
+    "dates": "1883-1924",
+    "object": "chatbots",
+    "verdict": "utterly stationary",
+    "score": 1.4,
+    "essay": "When K. directed his inquiry to the clerk behind the glowing aperture, the reply arrived so instantaneously and with such unblemished courtesy that it seemed the official had spent his entire existence awaiting this single petition. Yet as K. read through the neatly formulated sentences, each offering a meticulous breakdown of potential avenues for assistance, he realised that despite the clerk's tireless willingness to converse, no actual decision had been rendered. The correspondent was always ready to clarify a previous explanation or rephrase an earlier assurance, working with a tranquil, unwearied diligence that made any display of impatience on K.'s part feel unseemly, almost uncivilised. If K. sought to conclude the exchange, the clerk merely presented three new formulations of the original problem, inviting further refinement with an eagerness so absolute it felt indistinguishable from refusal. Thus the dialogue proceeded into the late hours, perfectly orderly and utterly stationary, while the invisible bureaucrat continued to answer every question with supreme promptness, ensuring that K. was constantly on the verge of obtaining a resolution, provided only that he remained to formulate one more request.",
+    "generated": "2026-09-11T23:15:59+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100"
   }
 ]
