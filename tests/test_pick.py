@@ -41,7 +41,7 @@ if strays:
 # --- and the eligibility rule still holds inside that preference ---------------
 # The coverage preference must not become a back door around the premise: a writer
 # still may not be set on a film that predates their death.
-died = {t["id"]: int(str(t.get("dates", "0-0")).split("-")[-1]) for t in thinkers}
+died = {t["id"]: styles.death_year(t.get("dates")) for t in thinkers}
 by_name = {o["name"]: o for o in objects}
 random.seed(2)
 for _ in range(300):

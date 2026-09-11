@@ -40,9 +40,13 @@ def load(name):
 
 
 def died(thinker) -> int:
-    """The year on the right of `dates:`. Every writer here died AD and none of the
-    ranges carry a BC, so the plain int is enough."""
-    return int(str(thinker.get("dates", "0-0")).split("-")[-1])
+    """The year the writer died, signed, from styles.death_year - NOT parsed here.
+
+    This used to be `int(dates.split("-")[-1])` with a comment promising that every
+    writer on the roster died AD. Sun Tzu and Confucius arrived on 11/09/2026 and it
+    raised ValueError on "479 BC", which would have killed the nightly run inside the
+    eligibility check below. The parse now lives in one place for all three callers."""
+    return styles.death_year(thinker.get("dates"))
 
 
 def eligible(thinker, obj) -> bool:

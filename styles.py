@@ -29,6 +29,31 @@ ROOT = Path(__file__).resolve().parent
 STYLES = ROOT / "styles"
 
 
+def death_year(dates) -> int:
+    """The year a writer died, signed. BC is negative, and "c." is ignored.
+
+    ONE implementation, because there were three and every one of them broke on
+    11/09/2026 when Sun Tzu and Confucius became the first writers on the roster to
+    die before the year nought. `int(str(dates).split("-")[-1])` raises ValueError on
+    "479 BC", and the copy in run.py gates which writer may be set on which object -
+    so the nightly essay would have died on an exception in a one-line helper whose
+    own docstring asserted that every writer here died AD.
+
+    BC must come out NEGATIVE rather than merely small. The caller asks
+    `died < object_year`, and a Confucius recorded as +479 passes that test for any
+    modern object, which is right by accident, while failing it for anything dated
+    earlier - a guard that is correct only because the data has not reached it yet.
+
+    Handles "121-180", "1799-1850", "551-479 BC" and "c. 544-496 BC".
+    """
+    text = str(dates or "").strip()
+    bc = bool(re.search(r"\bB\.?C\.?\b", text, re.I))
+    years = re.findall(r"\d+", text)
+    if not years:
+        return 0
+    return -int(years[-1]) if bc else int(years[-1])
+
+
 def _section(body: str, name: str) -> str:
     m = re.search(rf"^##\s+{name}\s*$(.*?)(?=^##\s|\Z)", body, re.M | re.S)
     return m.group(1).strip() if m else ""

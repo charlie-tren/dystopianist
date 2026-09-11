@@ -65,6 +65,132 @@ BOOKS = {
 # life + 70 rather than a US publication date. Orwell cleared there in 2021.
 AU = {"orwell": ("http://gutenberg.net.au/ebooks03/0300011h.html", "Fifty Orwell Essays")}
 
+# --- aphorists -----------------------------------------------------------------
+# THE 55-130 WORD PARAGRAPH FILTER CANNOT SEE THESE WRITERS. Sun Tzu and Confucius
+# write numbered aphorisms of ten to forty words, so `paragraphs()` rejects nearly
+# every line either of them ever wrote, and the handful it keeps are the longest and
+# least characteristic. The unit of imitation for an aphorist is a RUN of consecutive
+# aphorisms, because the rhythm between them is the voice.
+#
+# Both editions also carry a second voice that must be kept out, which is the
+# Parkman-inside-Twain trap in a new costume and worse, because here it is plausible:
+#   - Giles wraps Sun Tzu in his own bracketed commentary, often longer than the text.
+#   - A third of the Analects is spoken by DISCIPLES - "The philosopher Yu said",
+#     "Tsang said" - so a passage can be genuine Legge, genuinely in the book, and
+#     not Confucius.
+# Hence a speaker test per writer rather than a shared spread.
+APHORISTS = {
+    "suntzu": {
+        "book": (132, "The Art of War, tr. Lionel Giles"),
+        # Giles' commentary, in square brackets, and his section marks.
+        "drop": [re.compile(r"\[[^\]]*\]", re.S), re.compile(r"§\s*\d+")],
+        "split": r"(?=\b\d+(?:\s*,\s*\d+)*\.\s+[A-Z])",
+        "item": re.compile(r"^(\d+(?:\s*,\s*\d+)*)\.\s+(.*)", re.S),
+        "speaker": None,          # everything left after `drop` is Sun Tzu
+    },
+    "confucius": {
+        "book": (3330, "The Analects, tr. James Legge"),
+        "drop": [],
+        # "CHAP. III. The Master said, '...'" and "CHAPTER I. 1. The Master said"
+        "split": r"(?=CHAP(?:TER)?\.?\s+[IVXLC]+\.)",
+        "item": re.compile(r"^CHAP(?:TER)?\.?\s+([IVXLC]+)\.\s*(?:\d+\.)?\s*(.*)",
+                           re.I | re.S),
+        # The Master, and nobody else. A disciple's saying is not his voice.
+        "speaker": re.compile(r"^The Master (?:said|replied)", re.I),
+    },
+}
+
+
+#: Giles' footnotes are NUMBERED paragraphs outside his brackets, so the bracket
+#: filter does not catch them and they arrive looking exactly like Sun Tzu. Their
+#: tell is scholarly apparatus: a cited work, a roman-numeral locus, a date in a
+#: chronicle. The first candidate this extractor ever produced was one of them -
+#: "See Mencius III. 1. iii. 13-20. When Wu first appears in the Ch'un Ch'iu in 584"
+#: - which is the Parkman-inside-Twain fault again, and on this page it would have
+#: published a Victorian sinologist's footnote as the words of Sun Tzu.
+APPARATUS = re.compile(
+    r"\b(See|Cf\.|ibid|op\. cit|Mencius|Ch.un Ch.iu|Tso Chuan|Shih Chi|"
+    r"Chapter|commentator|text reads|literally|Giles|Ts.ao Kung|Tu Mu|Li Ch.uan)\b"
+    r"|\b[IVXLC]{2,}\.\s*\d"
+    r"|\b\d{3}\s*(B\.?C\.?|A\.?D\.?)\b", re.I)
+
+
+ROMAN = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100}
+
+
+def _num(head: str, fallback: int) -> int:
+    """An item's own number, arabic ("5, 6." takes the 5) or roman ("XVII").
+
+    Needed because continuity is what makes a run readable, and the two editions
+    number differently: Sun Tzu by verse, Legge by chapter in roman numerals.
+    """
+    head = (head or "").strip()
+    if not head:
+        return fallback
+    first = re.split(r"\s*,\s*", head)[0]
+    if first.isdigit():
+        return int(first)
+    total, prev = 0, 0
+    for ch in reversed(first.upper()):
+        v = ROMAN.get(ch)
+        if v is None:
+            return fallback
+        total += v if v >= prev else -v
+        prev = max(prev, v)
+    return total or fallback
+
+
+def aphorisms(text: str, spec: dict):
+    """Runs of CONSECUTIVELY NUMBERED aphorisms, 55-130 words.
+
+    Consecutive matters. Gluing whatever survived the filters produced runs that
+    jumped a chapter mid-sentence and read as a shuffled deck - the rhythm between
+    aphorisms IS the voice here, and a run assembled out of order misrepresents it
+    while looking perfectly quotable.
+    """
+    for pat in spec["drop"]:
+        text = pat.sub(" ", text)
+    text = text.replace("_", "")
+    items: list[tuple[int, str]] = []
+    # SPLIT ON THE MARKER, NOT ON BLANK LINES. Legge's Analects is double-spaced per
+    # line, so splitting on whitespace cut every chapter at its first wrap and
+    # produced 498 ten-word fragments, each ending mid-clause and each looking like
+    # a quotable aphorism. Sun Tzu's edition happens to be paragraph-spaced, but the
+    # marker works for both, so there is one rule rather than a per-file guess.
+    flat = " ".join(text.split())
+    pieces = re.split(spec["split"], flat)
+    for raw in pieces:
+        line = raw.strip()
+        m = spec["item"].match(line)
+        if not m:
+            continue
+        said = m.groups()[-1].strip()
+        if len(said.split()) < 6:
+            continue
+        if spec["speaker"] and not spec["speaker"].match(said):
+            continue
+        if APPARATUS.search(said):
+            continue
+        # The item's own number, so a run can be checked for continuity. Sun Tzu's
+        # "5, 6." covers two verses at once; take the first.
+        head = m.group(1) if spec["item"].groups > 1 else ""
+        num = _num(head, len(items) + 1)
+        items.append((num, said))
+
+    for i in range(len(items)):
+        buf, n, last = [], 0, None
+        for num, said in items[i:i + 6]:
+            if last is not None and num != last + 1:
+                break                     # a gap: the run is not continuous prose
+            buf.append(said)
+            last = num
+            n = len(re.findall(r"[A-Za-z']+", " ".join(buf)))
+            if n >= 55:
+                break
+        if 55 <= n <= 130 and len(buf) > 1:
+            yield n, " ".join(buf)
+
+
 START = re.compile(r"\*\*\*\s*START OF (?:THE|THIS) PROJECT GUTENBERG.*?\*\*\*", re.S)
 END = re.compile(r"\*\*\*\s*END OF (?:THE|THIS) PROJECT GUTENBERG", re.S)
 
@@ -117,6 +243,20 @@ def main(only=None) -> int:
         print(f"\n{'=' * 78}\n{who} - {title} (PG Australia) - {len(paras)} candidates\n{'=' * 78}")
         for i in range(4):
             n, p = paras[int(len(paras) * (0.25 + 0.15 * i))]
+            print(f"\n[{i}] {n} words\n{p}")
+
+    for who, spec in APHORISTS.items():
+        if only and who != only:
+            continue
+        book_id, title = spec["book"]
+        r = S.get(f"https://www.gutenberg.org/cache/epub/{book_id}/pg{book_id}.txt",
+                  timeout=60)
+        r.encoding = r.encoding or "utf-8"
+        runs = list(aphorisms(body(r.text), spec))
+        print(f"\n{'=' * 78}\n{who} - {title} (Gutenberg #{book_id}) - "
+              f"{len(runs)} candidate runs\n{'=' * 78}")
+        for i in range(6):
+            n, p = runs[int(len(runs) * (0.08 + 0.16 * i))]
             print(f"\n[{i}] {n} words\n{p}")
 
     for who, (book_id, title) in BOOKS.items():

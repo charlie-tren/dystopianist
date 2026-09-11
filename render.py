@@ -370,13 +370,23 @@ def clip(passage: str) -> str:
 
 
 def guess_data(entries: list[dict], roster: list[dict] | None) -> dict:
-    """Everything the game needs, in one blob: the roster it draws options from, and
-    one passage per published essay.
+    """Everything the game needs, in one blob: the options it draws from, and one
+    passage per published essay.
 
-    Every writer in the roster is an option, including any with nothing published yet.
-    A writer who could never be the answer would be learnable as one to rule out,
-    which is a way of scoring that has nothing to do with reading the prose."""
-    ids = [t["id"] for t in (roster or [])] or sorted({e["thinker"] for e in entries})
+    A WRITER IS ONLY AN OPTION ONCE THEY CAN BE THE ANSWER. The principle is that no
+    option should be eliminable without reading the prose, and until 11/09/2026 this
+    function broke it while claiming to serve it: it offered the whole roster
+    "including any with nothing published yet", which is precisely a free elimination
+    for anyone who pays attention. tests/test_guess.py asserted the opposite from the
+    same commit, and the two only agreed by accident, because every writer on the
+    roster happened to have published something. Sun Tzu and Confucius arrived with
+    nothing and the contradiction surfaced.
+
+    Resolved in favour of the shared principle rather than either mechanism: the
+    option list is the answerable set, in roster order, and a new writer joins the
+    game with their first essay."""
+    answerable = {e["thinker"] for e in entries}
+    ids = [t["id"] for t in (roster or []) if t["id"] in answerable] or sorted(answerable)
     names = {e["thinker"]: e["name"] for e in entries}
     names.update({t["id"]: t["name"] for t in (roster or [])})
     idx = {tid: i for i, tid in enumerate(ids)}

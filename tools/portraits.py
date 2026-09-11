@@ -108,6 +108,8 @@ LOOK = {
     "twain":    "an older man with a full white walrus moustache and wild white hair, white suit",
     "wilde":    "a heavyset Victorian dandy with a soft jowly face, mid-length wavy hair parted in the centre and falling to the collar, heavy-lidded eyes, fur-collared overcoat",
     "aurelius": "a bearded Roman emperor in a plain toga, curly hair and beard, weary",
+    "suntzu":   "an ancient Chinese general in his fifties, long thin beard and moustache, hair bound under a dark cloth headwrap, layered scholar-official robes with a high collar, calm appraising eyes, no armour",
+    "confucius": "an elderly Chinese teacher with a long wispy grey beard, high domed forehead, hair gathered under a flat scholar's cap, plain dark layered robes with wide sleeves, hands folded, mild and attentive",
     "kafka":    "a thin young man in a dark suit and stiff collar, black hair swept straight back, a narrow face and large dark intense eyes",
     "thompson": "a bald man in aviator sunglasses with a cigarette holder clenched in his teeth, bucket hat",
     "nietzsche": "a stern 19th-century German man whose hair is cropped close and plastered flat to the skull with no volume and no waves, a heavy walrus moustache that hangs straight DOWN over the mouth with its ends drooping below the corners of the lips, never waxed, never curled, never turned up at the ends, the chin and cheeks clean-shaven so there is a moustache and no beard at all, deep-set eyes under heavy brows, buttoned dark coat",

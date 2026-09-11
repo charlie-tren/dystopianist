@@ -60,7 +60,7 @@ if len({t.get("sort") for t in roster}) != len(roster):
 
 # --- objects.yaml shortlists -------------------------------------------------
 objs = yaml.safe_load((ROOT / "config" / "objects.yaml").read_text(encoding="utf-8"))
-died = {t["id"]: int(str(t.get("dates", "0-0")).split("-")[-1]) for t in roster}
+died = {t["id"]: styles.death_year(t.get("dates")) for t in roster}
 for o in objs["objects"]:
     unknown = [w for w in (o.get("writers") or []) if w not in ids]
     if unknown:
