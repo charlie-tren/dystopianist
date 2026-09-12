@@ -45,6 +45,8 @@ Source: Swann's Way, tr. C. K. Scott Moncrieff (1922), Project Gutenberg #7178
 
 - Uses a stock literary cliché where Proust would deploy a precise, highly detailed metaphor drawn from art, optics, or social observation. Seen in a published essay: "a vibrant tapestry of feeling" (found 2026-09-04).
 - Relies on generic, melodramatic tropes rather than Proust's rigorous, analytical dissection of perception. Seen in a published essay: "enigmatic, whispering shadows that dance upon its walls" (found 2026-09-04).
+- A generic, melodramatic trope is used, whereas Proust would have deployed a precise, highly detailed metaphor drawn from art, optics, or social observation. Seen in a published essay: "a process that is at once disorienting and mesmerising" (found 2026-09-12).
+- A stock literary cliché is used, whereas Proust would have used a more unique and detailed comparison. Seen in a published essay: "a strange, almost gravitational pull" (found 2026-09-12).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Swann's Way, tr. C. K. Scott Moncrieff (1922), Project Gutenberg #7178 via tools/gutenberg_shots.py.

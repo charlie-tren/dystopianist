@@ -831,12 +831,12 @@
     "name": "Bertrand Russell",
     "dates": "1872-1970",
     "object": "LinkedIn",
-    "verdict": "public self-congratulation",
-    "score": 1.0,
+    "verdict": "corporate solemnity",
+    "score": 1.2,
     "essay": "We have constructed an engine of public self-congratulation, and we call it professional networking. On LinkedIn, every clerk announces that he is delighted to have spent his weekend compiling a memorandum no one will read. I have noticed in my own heart the same vulgar desire to display modest triumphs whenever I fear I am being forgotten, so I cannot judge the vanity of others too severely. Yet there is something singularly depressing about a place dedicated entirely to corporate solemnity. Here, no one is ever idle, no one is ever defeated, and every subscriber claims to be deeply humbled by his own astonishing promotion. We congratulate acquaintances upon acquiring titles that sound grand only because they are nonsensical. The fundamental assumption of the site is that toil is not merely a means of earning one's bread, but a noble passion worthy of daily worship. This seems to me an error of proportion. A man who must repeatedly profess his devotion to corporate administration has surrendered a vital portion of his freedom; he has lost the right to be privately bored. If we must boast, we ought to boast of our leisure. It is a strange spectacle to see rational beings competing for the reputation of being exceptionally diligent servants.",
     "generated": "2026-08-29T22:42:04+00:00",
     "provider": "gemini",
-    "scored_by": "gemini",
+    "scored_by": "gemini/100",
     "reread": "2026-09-08"
   },
   {
@@ -1186,7 +1186,8 @@
     "essay": "As the simulated world of The Matrix unfolded before me, its intricate web of illusions and reality began to resemble the layered transparencies of a stereoscope, where two disparate images are merged to create a single, convincing whole--and just as, in the stereoscope, the eye must adjust to the subtle disparity between the two planes, so too must the viewer of this film calibrate their perception to the shifting boundaries between the physical and virtual realms, a process that is at once disorienting and mesmerising, like the experience of standing at the edge of a great, slow-moving crowd, where the individual faces and movements eventually coalesce into a unified, undulating mass, which, in turn, seems to exert a strange, almost gravitational pull on the observer, drawing them inexorably into its depths, and it is there, in those depths, that the true power of The Matrix resides, a power that continues to resonate long after the images have faded from the screen.",
     "generated": "2026-09-08T19:57:44+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100"
+    "scored_by": "cloudflare/100",
+    "reread": "2026-09-12"
   },
   {
     "date": "2026-09-08",
@@ -1199,7 +1200,8 @@
     "essay": "I spent an hour yesterday in the operating room watching the quiet work of the gas and mask. A young mechanic on the table—muscles relaxed, breathing steady and deep—the surgeon standing ready, the nurses swift and silent at their places. No shrieking, no iron straps, no four stout attendants holding down a thrashing body on a wooden bench. Just the turn of a nickel-plated valve, the sweet heavy vapor flowing, and the patient sliding off into an easy sleep; completely untroubled, insensible to the cold steel penetrating skin, fat, and muscle. Saw the apparatus itself—gauges, glass tubes, rubber hoses, brass stopcocks, leather straps, sponges, polished instruments laid out on white linen. What a triumph of modern skill—to sever the nerve of agony while keeping the flame of life burning bright; to lay a man out under the knife and have him wake a half-hour later, blinking at the daylight, asking when the doctor means to start! The flesh lies in absolute peace; the spirit rests in the dark parlor until summoned back to the day. A magnificent mercy, easing the suffering body in its hour of need.",
     "generated": "2026-09-08T23:24:01+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-12"
   },
   {
     "date": "2026-09-09",
@@ -1212,7 +1214,8 @@
     "essay": "The labour of compiling knowledge into a vast, accessible repository is a task that has consumed the energies of many a diligent soul, and yet, in the end, it is not the accumulation of facts that lends wisdom, but rather the discerning eye that knows what to do with them. We are inclined to believe that the more we know, the more civilised we become, but I fear that is a misconception - for civilisation is not a matter of knowing everything, but of knowing what to ignore. And so, as we navigate the labyrinthine corridors of this great digital library, we must be mindful of the distinction between knowledge and wisdom, lest we become so enamoured with the former that we forget the value of the latter. To be well-informed is one thing, but to be well-educated is quite another, and it is the latter that truly sets us free.",
     "generated": "2026-09-09T19:49:39+00:00",
     "provider": "cloudflare",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-12"
   },
   {
     "date": "2026-09-09",
@@ -1354,6 +1357,19 @@
     "score": 1.4,
     "essay": "When K. directed his inquiry to the clerk behind the glowing aperture, the reply arrived so instantaneously and with such unblemished courtesy that it seemed the official had spent his entire existence awaiting this single petition. Yet as K. read through the neatly formulated sentences, each offering a meticulous breakdown of potential avenues for assistance, he realised that despite the clerk's tireless willingness to converse, no actual decision had been rendered. The correspondent was always ready to clarify a previous explanation or rephrase an earlier assurance, working with a tranquil, unwearied diligence that made any display of impatience on K.'s part feel unseemly, almost uncivilised. If K. sought to conclude the exchange, the clerk merely presented three new formulations of the original problem, inviting further refinement with an eagerness so absolute it felt indistinguishable from refusal. Thus the dialogue proceeded into the late hours, perfectly orderly and utterly stationary, while the invisible bureaucrat continued to answer every question with supreme promptness, ensuring that K. was constantly on the verge of obtaining a resolution, provided only that he remained to formulate one more request.",
     "generated": "2026-09-11T23:15:59+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100"
+  },
+  {
+    "date": "2026-09-12",
+    "thinker": "wilde",
+    "name": "Oscar Wilde",
+    "dates": "1854-1900",
+    "object": "LinkedIn",
+    "verdict": "civilised horror",
+    "score": 1.2,
+    "essay": "To boast of one’s virtues has always been considered bad taste, but to parade one’s employment is positively unforgivable. Industry is the last refuge of those who have no talent for leisure. On this curious exchange, men and women gather not to trade gossip or passions, but to congratulate each other on being exquisitely tedious. Nothing is more depressing than a crowd of clerks pretending to be visionaries, unless it is a visionary pretending to be a clerk. To read these digital testimonials is to discover a world entirely populated by modest geniuses and tireless pioneers, all of whom seem deeply humbled by their own astounding success. It is a charming delusion. To endorse a stranger for a skill one does not possess oneself is the very height of modern generosity. Vanity used to require a mirror and a touch of romance; now it requires only a list of obscure achievements and an absurdly cheerful photograph. One discovers that the highest ambition of the contemporary soul is to be thought useful by people one would never dream of inviting to dinner. Nothing spoils a conversation so completely as the mention of honest labour, yet here labour is raised to a fine art. It is a civilised horror, where everyone pretends to admire the hard work of others simply to ensure their own trivial triumphs do not go unapplauded.",
+    "generated": "2026-09-12T18:01:13+00:00",
     "provider": "gemini",
     "scored_by": "gemini/100"
   }

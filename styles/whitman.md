@@ -46,6 +46,10 @@ Source: Specimen Days (1882), Project Gutenberg #8813
 - Expected a catalogue of nouns, but got a list of descriptive phrases instead. Seen in a published essay: "a metallic flower, a perforated disk, a sprinkle of tiny holes" (found 2026-09-06).
 - Expected a catalogue of nouns, but got a list of descriptive phrases instead. Seen in a published essay: "a gentle glow, a soothing ember, a comforting heat" (found 2026-09-06).
 - Expected a catalogue of nouns, but got a list of adjectives instead. Seen in a published essay: "fragrant, pungent, sweet" (found 2026-09-06).
+- Expected a catalogue of nouns, but got a descriptive phrase instead, such as 'cold steel' which should be 'scalpels, forceps, steel' Seen in a published essay: "completely untroubled, insensible to the cold steel penetrating skin, fat, and muscle" (found 2026-09-12).
+- Expected a concrete noun, but got a metaphorical phrase instead, such as 'heart, lungs, blood' Seen in a published essay: "the flame of life burning bright" (found 2026-09-12).
+- Expected a real, tangible location, but got a metaphorical place instead, such as 'hospital room, recovery ward, bed' Seen in a published essay: "the dark parlor" (found 2026-09-12).
+- Expected a concrete thing, but got an abstract concept instead, such as 'bandages, medicines, nurses' Seen in a published essay: "a magnificent mercy" (found 2026-09-12).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Specimen Days (1882), Project Gutenberg #8813 via tools/gutenberg_shots.py.
