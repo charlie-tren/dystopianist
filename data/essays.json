@@ -846,11 +846,11 @@
     "dates": "1835-1910",
     "object": "Wikipedia",
     "verdict": "collective guesswork",
-    "score": 1.0,
+    "score": 1.1,
     "essay": "It is a remarkable comfort to live in an age where a man no longer needs to carry a heavy burden of ignorance around in his own head, when he can so easily borrow the ignorance of several million complete strangers. If a fellow wishes to know the exact weight of a whale or the year a bad king caught the measles, he needs only consult that great communal inkwell where every passerby is invited to stir the soup. A tailor in Ohio may correct a bishop in London on a matter of divinity, and if the tailor has more time on his hands, his version of God will naturally carry the day. There is something profoundly noble about a system that treats the opinion of a scholar and the notion of a gentleman who has just lost an argument as precise equivalents. It rests upon the charming assumption that if you gather enough people who do not know a thing, their collective guesswork will eventually settle into holy writ. Whenever two men disagree on a fact, a third man, who was not present and knows less than either, settles the matter by writing it down. It has made truth so remarkably accessible that any citizen can possess a fresh version of it before breakfast, provided he does not mind it being thoroughly refuted by tea-time.",
     "generated": "2026-08-29T22:42:44+00:00",
     "provider": "gemini",
-    "scored_by": "gemini",
+    "scored_by": "gemini/100",
     "reread": "2026-09-09"
   },
   {
@@ -1228,7 +1228,8 @@
     "essay": "I have spent much of my life contending with the sharp visitations of the stone, an agony so imperious that it shatters all philosophy in an instant; yet whenever I am offered a tiny morsel that promises to banish the torment without delay, I accept it with a speed that ill becomes my supposed stoicism. I find myself wondering what real profit a man finds in thus silencing the alarms of his own flesh, for pain is perhaps the only monitor that reminds us of our frail, perishable nature; yet to praise suffering while one is whole is the cheapest form of valour. When the spasm takes me by the throat, I abandon all noble reflections and crave only the stupor that allows my mind to float free from its bodily prison. It is a strange artifice that can sever the nerve from its grief so neatly, leaving the mind in a tranquil harbour while the storm rages unheeded below; I suspect I am wiser when I yield to this quiet relief than when I attempt to debate with a colic. And yet, I know not if by dulling our aches so easily, we do not also soften our spirit, rendering ourselves ill-prepared for that final trial which no draught can forestall.",
     "generated": "2026-09-09T23:15:31+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-12"
   },
   {
     "date": "2026-09-10",
@@ -1241,7 +1242,8 @@
     "essay": "To drown in first class is merely an unfortunate error of etiquette, but to drown for love is the height of melodrama. Mr Cameron has constructed a spectacle of such extravagant vulgarity that one cannot help but admire the sheer expense of the disaster. The tragedy of the great vessel is not that it sank, but that it took three hours and an insufferable quantity of tears to do so. We are asked to weep for a young woman who prefers a penniless draughtsman to a remarkably wealthy suitor simply because the former knows how to hold a charcoal pencil and the latter merely owns the coal mines. It is a curiously vulgar delusion to mistake enormous financial expenditure for artistic genius. The icebergs of the Atlantic are cold, but they are positively warm compared to the icy indifference with which true art regards the tears of the public. Yet there is an undeniable grandeur in watching millions of sovereigns dissolved in salt water for the simple pleasure of seeing a sketch preserved. The work understands that the only thing more exquisite than a ruined life is a magnificent sapphire thrown back into the abyss by a woman who no longer requires its lustre.",
     "generated": "2026-09-10T18:01:29+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-12"
   },
   {
     "date": "2026-09-10",
@@ -1254,7 +1256,8 @@
     "essay": "Let us step into the scullery where the wet linen used to hang like heavy clouds above the copper boiler. Monday was always a grey day, steeped in the scent of harsh soap and steam that coated the windowpanes; one could never quite separate the washerwoman’s spirit from the sodden flannel she wrung. Yet inside this white enamel cabinet, humming softly in the corner, that ancient tyranny of the tub has been enclosed and quieted. The linen tumbles behind a circle of glass, driven by an unseen tide that heaves without complaint. What becomes, one wonders, of the spirit salvaged from such fierce physical labour? We might suppose that the mind, freed from the rhythmic bruising of the washboard, would immediately turn its attention to philosophy or grand design. But human nature is a modest creature; rather than conquering new kingdoms, it prefers to inhabit the stillness. As the soapy water drains away through hidden pipes, carrying off the soil of daily life, we realise that the true marvel of the machine is not the whiteness of a collar, but the uncounted hours it restores to the afternoon.",
     "generated": "2026-09-10T19:45:56+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-12"
   },
   {
     "date": "2026-09-10",
@@ -1370,6 +1373,19 @@
     "score": 1.2,
     "essay": "To boast of one’s virtues has always been considered bad taste, but to parade one’s employment is positively unforgivable. Industry is the last refuge of those who have no talent for leisure. On this curious exchange, men and women gather not to trade gossip or passions, but to congratulate each other on being exquisitely tedious. Nothing is more depressing than a crowd of clerks pretending to be visionaries, unless it is a visionary pretending to be a clerk. To read these digital testimonials is to discover a world entirely populated by modest geniuses and tireless pioneers, all of whom seem deeply humbled by their own astounding success. It is a charming delusion. To endorse a stranger for a skill one does not possess oneself is the very height of modern generosity. Vanity used to require a mirror and a touch of romance; now it requires only a list of obscure achievements and an absurdly cheerful photograph. One discovers that the highest ambition of the contemporary soul is to be thought useful by people one would never dream of inviting to dinner. Nothing spoils a conversation so completely as the mention of honest labour, yet here labour is raised to a fine art. It is a civilised horror, where everyone pretends to admire the hard work of others simply to ensure their own trivial triumphs do not go unapplauded.",
     "generated": "2026-09-12T18:01:13+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100"
+  },
+  {
+    "date": "2026-09-12",
+    "thinker": "nietzsche",
+    "name": "Friedrich Nietzsche",
+    "dates": "1844-1900",
+    "object": "influencers",
+    "verdict": "profound nullity",
+    "score": 0.4,
+    "essay": "To lead requires a solitude that today's public performers cannot endure. Look at these creatures who parade their lives before the eyes of thousands: they imagine themselves masters of attention, yet they are the most obedient slaves of the crowd. Every posture, every smile, every meal is offered up as a daily sacrifice to the appetite of the nameless many. The actor who demands constant spectators does not command; he begs. He has surrendered the quiet dignity of an inner life for the cheap currency of visible approval—a currency that vanishes the moment the public looks away. The herd does not follow such a figure because he is strong. Rather, the herd recognises in him its own superficial vanity, elevated to a theatre of self-congratulation. He reflects their shallowest longings back to them, neatly packaged, shorn of all genuine struggle and danger. True elevation separates a spirit from the multitude; this modern mime exists only by merging himself entirely with their vulgar instincts. He fears nothing so much as silence, for in silence he would be forced to confront his own profound nullity. He must be observed to exist at all. Take away the gaze of the spectators, and the idol collapses into nothingness.",
+    "generated": "2026-09-12T19:25:35+00:00",
     "provider": "gemini",
     "scored_by": "gemini/100"
   }
