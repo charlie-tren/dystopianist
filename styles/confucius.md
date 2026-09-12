@@ -65,6 +65,12 @@ exists - a guess about a failure is worth much less than a quotation of it.
   "but I am not equal to it". The self-exemption is part of the register and must not
   be smoothed into authority.
 
+- A reader of Confucius would have expected a more nuanced and less direct statement, such as a comparison or a metaphor, rather than a straightforward declaration. Seen in a published essay: "Today, a box performs the task, and the son knows only ease." (found 2026-09-12).
+- A reader of Confucius would have expected a more implicit and suggestive question, rather than a direct and rhetorical one. Seen in a published essay: "If a device removes the stain from cloth, does it also remove the stain from character?" (found 2026-09-12).
+- A reader of Confucius would have expected a statement that measures himself against a standard, rather than a personal desire or fear. Seen in a published essay: "I myself desire clean garments, yet I fear the mind that grows idle when the hands are still." (found 2026-09-12).
+- The language is too elaborate and figurative, a reader of Confucius would have expected a more straightforward and simple comparison. Seen in a published essay: "If a warm torrent could wash away unfaithfulness as readily as dirt, then virtue would be a simple matter of standing in a heated rain." (found 2026-09-12).
+- The phrase 'not mere comfort' is too absolute, a reader of Confucius would have expected a more nuanced and graded expression, such as 'more than comfort' or 'beyond comfort'. Seen in a published essay: "But virtue requires constant vigilance, not mere comfort." (found 2026-09-12).
+- The contrast between 'wise man' and 'small man' is too binary, a reader of Confucius would have expected a more subtle distinction, such as 'the wise, the virtuous, and the bold'. Seen in a published essay: "The wise man uses the comfort to prepare himself for duty, while the small man lingers until his resolve has melted away." (found 2026-09-12).
 ## Log
 
 - 11/09/2026 - added at Charlie's request alongside Sun Tzu. Two real samples from
