@@ -50,6 +50,8 @@ Source: The Common Reader (1925), Project Gutenberg #64457
 - A reader of Virginia Woolf would have expected a more tangible, concrete object to begin with, rather than an abstract entity. Seen in a published essay: "we find ourselves confronting a vast and ever-shifting entity" (found 2026-09-06).
 - A semicolon would have been expected to turn the thought, but here it seems to extend the list of opposing concepts instead. Seen in a published essay: "a simultaneous pursuit of precision and fragmentation, of comprehensiveness and dispersal" (found 2026-09-06).
 - A reader of Virginia Woolf would have expected a more nuanced, introspective exploration of the human experience, rather than a straightforward statement of it. Seen in a published essay: "a microcosm of our own struggles to make sense of the world, to impose order upon chaos, and to reconcile the disparate threads of human experience" (found 2026-09-06).
+- The phrase adopts the tone of modern film criticism; a reader of Virginia Woolf would expect an impressionistic focus on the visual scene rather than technical commentary on directorial skill. Seen in a published essay: "The filmmaker orchestrates these disasters with meticulous grace" (found 2026-09-13).
+- Reducing a character to what they 'represent' is direct allegorical analysis; a reader of Virginia Woolf would expect an exploratory inquiry into the feeling of the presence from within. Seen in a published essay: "The villainous taxidermist in her white coat represents our worst instinct" (found 2026-09-13).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from The Common Reader (1925), Project Gutenberg #64457 via tools/gutenberg_shots.py.

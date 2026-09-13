@@ -65,6 +65,8 @@ exists - a guess about a failure is worth much less than a quotation of it.
 - **First person.** The text says "Sun Tzu said" and then instructs. He is not
   reporting an experience he had.
 
+- The text is written as continuous prose rather than using numbered precepts for each complete instruction. Seen in a published essay: "When entering a hall of trade, observe the stations that operate without human speech." (found 2026-09-13).
+- Expected the text to be organized as numbered precepts rather than unnumbered running prose. Seen in a published essay: "Enclosed ground demands stillness before movement." (found 2026-09-13).
 ## Log
 
 - 11/09/2026 - added at Charlie's request alongside Confucius. Two real samples off
