@@ -51,6 +51,8 @@ Source: Beyond Good and Evil, s.273, trans. Helen Zimmern, Project Gutenberg #43
 - A harder, more contemptuous tone was expected, such as 'reality is not a pill to be swallowed: a _pathetic_ simplification' to convey disdain for the subject's actions. Seen in a published essay: "It is a philosophy for the impatient: it promises that reality can be mastered by swallowing a single pill." (found 2026-09-11).
 - A more forceful assertion was expected, such as 'the modern mind DEMANDS instant gratification: a confession of its own weakness' to end on a hard turn rather than a summary. Seen in a published essay: "How typical of the modern mind to demand an instant awakening!" (found 2026-09-11).
 - A more aphoristic tone was expected, such as 'salvation through machines: the ultimate _contradiction_' to drive the point with more force. Seen in a published essay: "They pretend to despise the machine, yet they can imagine salvation only through its mechanisms—wiring their skulls to leap across rooftops, turning human force into a mere program." (found 2026-09-11).
+- Expected dashes and colons with emphatic italics rather than explanatory subordinate clauses. Seen in a published essay: "He fears nothing so much as silence, for in silence he would be forced to confront his own profound nullity." (found 2026-09-13).
+- Expected a hard turn rather than a concluding summary. Seen in a published essay: "Take away the gaze of the spectators, and the idol collapses into nothingness." (found 2026-09-13).
 ## Log
 
 - 25/08/2026 - added. Two real passages from Beyond Good and Evil; italic markup flattened and dashes normalised. Two other candidates the extraction turned up were rejected outright on content rather than register.

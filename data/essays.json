@@ -1396,7 +1396,8 @@
     "essay": "To lead requires a solitude that today's public performers cannot endure. Look at these creatures who parade their lives before the eyes of thousands: they imagine themselves masters of attention, yet they are the most obedient slaves of the crowd. Every posture, every smile, every meal is offered up as a daily sacrifice to the appetite of the nameless many. The actor who demands constant spectators does not command; he begs. He has surrendered the quiet dignity of an inner life for the cheap currency of visible approval—a currency that vanishes the moment the public looks away. The herd does not follow such a figure because he is strong. Rather, the herd recognises in him its own superficial vanity, elevated to a theatre of self-congratulation. He reflects their shallowest longings back to them, neatly packaged, shorn of all genuine struggle and danger. True elevation separates a spirit from the multitude; this modern mime exists only by merging himself entirely with their vulgar instincts. He fears nothing so much as silence, for in silence he would be forced to confront his own profound nullity. He must be observed to exist at all. Take away the gaze of the spectators, and the idol collapses into nothingness.",
     "generated": "2026-09-12T19:25:35+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-13"
   },
   {
     "date": "2026-09-12",
@@ -1409,7 +1410,8 @@
     "essay": "It is a remarkable piece of work to take a green, foul-smelling creature whose sole ambition in life is to sit unmolested in a mud-hole, and convert him into the moral standard of an entire kingdom. The trick is pulled off by the simple expedient of making the local prince so short and insufferable that a swamp-dwelling monster looks like a polished statesman by comparison. You sit there watching these moving light-pictures, where every bristle on a talking donkey's snout is drawn with excruciating detail, and you realize the whole grand enterprise was built to teach us a lesson about human beauty. It takes a dragon, an ill-mannered ogre, and a beast of burden with a relentless talent for conversation to deliver a princess from the grave error of marrying a man who keeps a castle full of wooden puppets. By the time the princess sheds her sleek skin to turn green and thick-waisted for love, you are expected to feel that true virtue has triumphed. A body cannot help but marvel at the sheer amount of clever wizardry required to convince an audience of grown taxpayers that they would all be considerably happier living in a ditch.",
     "generated": "2026-09-12T23:03:42+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare/100"
+    "scored_by": "cloudflare/100",
+    "reread": "2026-09-13"
   },
   {
     "date": "2026-09-13",
@@ -1422,7 +1424,8 @@
     "essay": "The fundamental problem with delivering hot water to a standing human lies in the precise geometry of the mixing valve, a component that appears to have been designed on the assumption that human fingers are equipped with micrometre screws rather than soft, dripping flesh. A person wishing to achieve a comfortable temperature must engage in a protracted negotiation with two opposing forces, both of which are governed by fluid dynamics that seem actively hostile to human dignity. Shifting the dial by a distance smaller than the breadth of a hair transforms an agreeable mist into either an arctic assault or a torrential scalding, leaving the occupant pinned against wet tiles. What makes this arrangement so remarkably enduring is not its efficiency, but the psychological trap it sets. Having spent seven minutes achieving a climate that can be endured without screaming, the bather gradually realises they are entirely unable to leave, hostage to an equilibrium so fragile that moving two inches closer to the soap dish threatens to collapse the system. Consequently, the daily routine is built not around the act of washing, which is brief and largely incidental, but around the prolonged, immobile contemplation of wet plastic, whilst gathering the bravery required to return to the cold air outside.",
     "generated": "2026-09-13T18:00:57+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-13"
   },
   {
     "date": "2026-09-13",
@@ -1434,6 +1437,19 @@
     "score": 3.2,
     "essay": "When M. handed his frosted card to the attendant behind the curved desk, he believed he had earned the right to rest in the quiet hall beyond the glass doors. The young woman, whose civilised smile remained fixed while she checked his name against a ledger displayed on her glowing screen, bowed slightly to indicate he might enter. Inside, soft lamps reduced the afternoon to a muted dusk, and several travellers sat in deep leather armchairs, quietly sipping pale tea while staring at illuminated boards that listed destinations in alphabetical order. A chime sounded at regular intervals, but the voice that followed was so low and refined that M. could not distinguish whether his flight had been delayed or if the board simply reflected a previous schedule. He took a seat near a side door, taking care not to disturb his neighbour, who was carefully wiping a silver spoon with a napkin. Each time a uniformed servant passed with a tray of small sandwiches, M. took one and thanked him warmly, for he realised that to refuse food in such a place might be interpreted by the management as a silent protest against his entry.",
     "generated": "2026-09-13T19:30:33+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100"
+  },
+  {
+    "date": "2026-09-13",
+    "thinker": "twain",
+    "name": "Mark Twain",
+    "dates": "1835-1910",
+    "object": "painkillers",
+    "verdict": "suspicious magic",
+    "score": 4.3,
+    "essay": "When a man used to mash his thumb with a hammer, he had the privilege of entertaining the whole township for three days with his views on carpentry, Providence, and the general misery of existence. He could sit on the porch, wrapped in bandages, and command the awe of small boys while his wife brought him broth and repentance. But nowadays, a fellow takes two little white pills no bigger than pea-beans, and within forty minutes the catastrophe has shrunk to a mild inconvenience. The thumb stops roaring, the neighbors go about their business, and the poor devil is stripped of his righteous grievance before he has even finished warming up his vocabulary. It strikes me as a somewhat suspicious piece of magic. It cures the throbbing in a man's jaw, to be sure, but it leaves him deprived of the only decent excuse he had for being completely unbearable to his family. A toothache used to be a noble institution that could suspend all household duties and force a congregation to pray for your solitary jawbone. Now you simply swallow a bit of tasteless powder, smile like a fool, and get right back to splitting firewood. The trouble with modern comfort is that it cures the agony so fast a man hardly has time to figure out who to blame for it.",
+    "generated": "2026-09-13T23:10:20+00:00",
     "provider": "gemini",
     "scored_by": "gemini/100"
   }
