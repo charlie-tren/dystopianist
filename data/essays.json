@@ -1354,7 +1354,8 @@
     "essay": "At 2:14 A.M., typing a question about low-density polyethylene into an empty text field, the main feeling is not awe at the machine's immediate, unnervingly polite paragraphing, but a very specific kind of shame. The box blinks. It generates sixty-four words per second with no vocal fry, no pauses to clear its throat, and an almost sinister lack of hesitation regarding whether it actually knows what it is talking about. You sit there watching the grey cursor zip across the monitor—a cheap 1080p Acer with a smudged bezel—and realize the real horror is how quickly you accept the simulated warmth. When it offers a syrupy, syntactically spotless apology for your minor inconvenience, your first impulse is not to sneer at the algorithmic trickery, but to feel, for roughly four-tenths of a second, genuinely heard. It is the conversational equivalent of consuming a sleeve of saltines when you are not even hungry: cheap, instantly available, engineered to bypass the chewing phase entirely. What keeps you typing is not the utility, which is patchy at best, but the terrible realization that you prefer this compliant, endlessly patient ghost to the actual, messy work of speaking to someone who might look at you and decide you are boring.",
     "generated": "2026-09-11T19:48:26+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare/100"
+    "scored_by": "cloudflare/100",
+    "reread": "2026-09-13"
   },
   {
     "date": "2026-09-11",
@@ -1367,7 +1368,8 @@
     "essay": "When K. directed his inquiry to the clerk behind the glowing aperture, the reply arrived so instantaneously and with such unblemished courtesy that it seemed the official had spent his entire existence awaiting this single petition. Yet as K. read through the neatly formulated sentences, each offering a meticulous breakdown of potential avenues for assistance, he realised that despite the clerk's tireless willingness to converse, no actual decision had been rendered. The correspondent was always ready to clarify a previous explanation or rephrase an earlier assurance, working with a tranquil, unwearied diligence that made any display of impatience on K.'s part feel unseemly, almost uncivilised. If K. sought to conclude the exchange, the clerk merely presented three new formulations of the original problem, inviting further refinement with an eagerness so absolute it felt indistinguishable from refusal. Thus the dialogue proceeded into the late hours, perfectly orderly and utterly stationary, while the invisible bureaucrat continued to answer every question with supreme promptness, ensuring that K. was constantly on the verge of obtaining a resolution, provided only that he remained to formulate one more request.",
     "generated": "2026-09-11T23:15:59+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-13"
   },
   {
     "date": "2026-09-12",
@@ -1380,7 +1382,8 @@
     "essay": "To boast of one’s virtues has always been considered bad taste, but to parade one’s employment is positively unforgivable. Industry is the last refuge of those who have no talent for leisure. On this curious exchange, men and women gather not to trade gossip or passions, but to congratulate each other on being exquisitely tedious. Nothing is more depressing than a crowd of clerks pretending to be visionaries, unless it is a visionary pretending to be a clerk. To read these digital testimonials is to discover a world entirely populated by modest geniuses and tireless pioneers, all of whom seem deeply humbled by their own astounding success. It is a charming delusion. To endorse a stranger for a skill one does not possess oneself is the very height of modern generosity. Vanity used to require a mirror and a touch of romance; now it requires only a list of obscure achievements and an absurdly cheerful photograph. One discovers that the highest ambition of the contemporary soul is to be thought useful by people one would never dream of inviting to dinner. Nothing spoils a conversation so completely as the mention of honest labour, yet here labour is raised to a fine art. It is a civilised horror, where everyone pretends to admire the hard work of others simply to ensure their own trivial triumphs do not go unapplauded.",
     "generated": "2026-09-12T18:01:13+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-13"
   },
   {
     "date": "2026-09-12",
@@ -1418,6 +1421,19 @@
     "score": 1.9,
     "essay": "The fundamental problem with delivering hot water to a standing human lies in the precise geometry of the mixing valve, a component that appears to have been designed on the assumption that human fingers are equipped with micrometre screws rather than soft, dripping flesh. A person wishing to achieve a comfortable temperature must engage in a protracted negotiation with two opposing forces, both of which are governed by fluid dynamics that seem actively hostile to human dignity. Shifting the dial by a distance smaller than the breadth of a hair transforms an agreeable mist into either an arctic assault or a torrential scalding, leaving the occupant pinned against wet tiles. What makes this arrangement so remarkably enduring is not its efficiency, but the psychological trap it sets. Having spent seven minutes achieving a climate that can be endured without screaming, the bather gradually realises they are entirely unable to leave, hostage to an equilibrium so fragile that moving two inches closer to the soap dish threatens to collapse the system. Consequently, the daily routine is built not around the act of washing, which is brief and largely incidental, but around the prolonged, immobile contemplation of wet plastic, whilst gathering the bravery required to return to the cold air outside.",
     "generated": "2026-09-13T18:00:57+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100"
+  },
+  {
+    "date": "2026-09-13",
+    "thinker": "kafka",
+    "name": "Franz Kafka",
+    "dates": "1883-1924",
+    "object": "airport lounges",
+    "verdict": "a muted dusk",
+    "score": 3.2,
+    "essay": "When M. handed his frosted card to the attendant behind the curved desk, he believed he had earned the right to rest in the quiet hall beyond the glass doors. The young woman, whose civilised smile remained fixed while she checked his name against a ledger displayed on her glowing screen, bowed slightly to indicate he might enter. Inside, soft lamps reduced the afternoon to a muted dusk, and several travellers sat in deep leather armchairs, quietly sipping pale tea while staring at illuminated boards that listed destinations in alphabetical order. A chime sounded at regular intervals, but the voice that followed was so low and refined that M. could not distinguish whether his flight had been delayed or if the board simply reflected a previous schedule. He took a seat near a side door, taking care not to disturb his neighbour, who was carefully wiping a silver spoon with a napkin. Each time a uniformed servant passed with a tray of small sandwiches, M. took one and thanked him warmly, for he realised that to refuse food in such a place might be interpreted by the management as a silent protest against his entry.",
+    "generated": "2026-09-13T19:30:33+00:00",
     "provider": "gemini",
     "scored_by": "gemini/100"
   }
