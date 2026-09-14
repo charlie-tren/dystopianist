@@ -19,11 +19,11 @@
     "name": "Marcus Aurelius",
     "dates": "121-180",
     "object": "escape rooms",
-    "verdict": "trivial hurdles",
-    "score": 3.2,
-    "essay": "As I find myself confined in a room with contrived obstacles, I am reminded that true freedom lies not in the physical realm, but in the mind. The artificial challenges that surround me are but a pale reflection of the real struggles that beset us all. And yet, I must acknowledge the fleeting pleasure that comes from overcoming these trivial hurdles. But let us not be deceived, for in the grand tapestry of existence, such diversions are but a minor thread. The hours we spend in such pursuits are lost forever, and the triumphs we achieve are hollow and short-lived. Still, I shall play along, for even in the most frivolous of activities, there lies a lesson to be learned about the human condition, and the fragility of our existence. In the end, it is not the escape that matters, but the journey, and the opportunity to confront our own mortality, and the impermanence of all things.",
+    "verdict": "childish games",
+    "score": 0.4,
+    "essay": "Thou playest at captivity, paying men to lock thee within a false chamber. Thou runnest to and fro, searching for keys to doors that hold no real peril. Thou art eager to solve artificial riddles before an hour expires. Yet thy soul remains imprisoned every day by its own passions. Thou art in no haste to set it free. Thou dost fret over locks made of iron and brass. Meanwhile, thy mind is bound by anger, vanity, and fear. Real life provides thee with obstacles enough for the exercise of thy reason. Thou hast no need of invented walls to practise a virtue thou hast not yet mastered. To turn constraint into a game is the conduct of a foolish child. The world demands thy continuous labour and right action now. Do not waste thy remaining span upon contrived puzzles. Break the genuine chains that bind thy judgement. Leave these childish games to those who have time to squander. Focus thy mind upon thy present duty. Govern thy desires. Cease thy vanity and realise what is required of thee.",
     "generated": "2026-08-25T03:38:59+00:00",
-    "provider": "cloudflare",
+    "provider": "gemini",
     "scored_by": "gemini/100",
     "reread": "2026-09-02"
   },
@@ -789,11 +789,11 @@
     "name": "Leo Tolstoy",
     "dates": "1828-1910",
     "object": "LinkedIn",
-    "verdict": "reprehensible institution",
+    "verdict": "system of deception",
     "score": 0.3,
-    "essay": "The relentless pursuit of self-promotion that drives individuals to participate in LinkedIn is a stark reminder of the emptiness that lies at the heart of modern professional life, where people are reduced to mere commodities, their worth measured by the number of connections they have amassed and the endorsements they have received, rather than the actual value of their work, and it is this endless cycle of self-aggrandizement that serves only to further entrench the existing power structures, where those who are already privileged are able to leverage their influence to accumulate even more, while those who are struggling to make a name for themselves are left to fight over the scraps, their voices drowned out by the cacophony of self-promotion that dominates this platform, and it is here that we see the true purpose of LinkedIn, a tool designed to perpetuate the interests of the powerful at the expense of the weak, a testament to the boundless capacity for self-delusion that exists among the educated classes, who are willing to sacrifice their very humanity in pursuit of a fleeting sense of success, and it is this that makes LinkedIn such a reprehensible institution, a monument to the vacuity and superficiality of modern life.",
+    "essay": "Men who refuse to perform honest physical labour inevitably seek to justify their existence by inventing artificial occupations, and then by publicly boasting of these occupations to other idle men. They gather in a market of self-praise where each man lists his titles, his promotions, and his supposed services to society, expecting his neighbours to validate these pretensions in exchange for similar praise. This public display of vanity is called professional achievement, yet it contains not a single element of true, useful work. Useful work produces bread, clothing, or shelter for those in need; this activity produces only falsehood, flattery, and mutual deceit among the privileged classes who live upon the toil of the working poor. The labourer who ploughs the field understands that his exertion sustains life, whereas the men who participate in this exchange of false reputations seek only to increase their income without increasing their exertion. By constantly asserting their own importance and measuring their worth by the approval of other idle men, they corrupt their moral nature and make themselves incapable of genuine human fellowship. It is a system of deception, designed solely to make men proud of their idleness and to hide from them the simple truth that they live dishonestly at the expense of others.",
     "generated": "2026-08-29T03:02:01+00:00",
-    "provider": "cloudflare",
+    "provider": "gemini",
     "scored_by": "gemini/100",
     "reread": "2026-09-08"
   },
@@ -1154,11 +1154,11 @@
     "dates": "1883-1924",
     "object": "alarm clocks",
     "verdict": "perpetual uncertainty",
-    "score": 6.7,
+    "score": 1.4,
     "essay": "As the days blended together in an endless succession of obligations, it became increasingly evident that the device, whose purpose was to shatter the stillness of the morning, had become an integral component of D.'s daily routine, although it was not entirely clear to what extent its presence was a necessity, for while it did serve to rouse him from his slumber at a predetermined hour, it also seemed to exert a certain influence over his entire existence, dictating the pace at which he would navigate the complexities of his waking life, and yet, despite its pervasive presence, D. could not shake the feeling that he was never truly in control of his own schedule, that the device, with its insistent ringing, was somehow orchestrating his every move, permitting him to proceed with his daily labour only after it had first granted him permission to do so, a permission that was always forthcoming, yet never quite felt like a genuine concession, but rather a temporary reprieve, subject to revocation at any moment, leaving D. in a state of perpetual uncertainty, never quite sure whether he was truly master of his own time, or merely a servant to the whims of the device.",
     "generated": "2026-09-07T23:30:13+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-11"
   },
   {
@@ -1181,12 +1181,12 @@
     "name": "Marcel Proust",
     "dates": "1871-1922",
     "object": "The Matrix (1999)",
-    "verdict": "mesmerising depths",
-    "score": 8.3,
+    "verdict": "disorienting and mesmerising",
+    "score": 8.7,
     "essay": "As the simulated world of The Matrix unfolded before me, its intricate web of illusions and reality began to resemble the layered transparencies of a stereoscope, where two disparate images are merged to create a single, convincing whole--and just as, in the stereoscope, the eye must adjust to the subtle disparity between the two planes, so too must the viewer of this film calibrate their perception to the shifting boundaries between the physical and virtual realms, a process that is at once disorienting and mesmerising, like the experience of standing at the edge of a great, slow-moving crowd, where the individual faces and movements eventually coalesce into a unified, undulating mass, which, in turn, seems to exert a strange, almost gravitational pull on the observer, drawing them inexorably into its depths, and it is there, in those depths, that the true power of The Matrix resides, a power that continues to resonate long after the images have faded from the screen.",
     "generated": "2026-09-08T19:57:44+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-12"
   },
   {
@@ -1438,7 +1438,8 @@
     "essay": "When M. handed his frosted card to the attendant behind the curved desk, he believed he had earned the right to rest in the quiet hall beyond the glass doors. The young woman, whose civilised smile remained fixed while she checked his name against a ledger displayed on her glowing screen, bowed slightly to indicate he might enter. Inside, soft lamps reduced the afternoon to a muted dusk, and several travellers sat in deep leather armchairs, quietly sipping pale tea while staring at illuminated boards that listed destinations in alphabetical order. A chime sounded at regular intervals, but the voice that followed was so low and refined that M. could not distinguish whether his flight had been delayed or if the board simply reflected a previous schedule. He took a seat near a side door, taking care not to disturb his neighbour, who was carefully wiping a silver spoon with a napkin. Each time a uniformed servant passed with a tray of small sandwiches, M. took one and thanked him warmly, for he realised that to refuse food in such a place might be interpreted by the management as a silent protest against his entry.",
     "generated": "2026-09-13T19:30:33+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-14"
   },
   {
     "date": "2026-09-13",
@@ -1451,6 +1452,21 @@
     "essay": "When a man used to mash his thumb with a hammer, he had the privilege of entertaining the whole township for three days with his views on carpentry, Providence, and the general misery of existence. He could sit on the porch, wrapped in bandages, and command the awe of small boys while his wife brought him broth and repentance. But nowadays, a fellow takes two little white pills no bigger than pea-beans, and within forty minutes the catastrophe has shrunk to a mild inconvenience. The thumb stops roaring, the neighbors go about their business, and the poor devil is stripped of his righteous grievance before he has even finished warming up his vocabulary. It strikes me as a somewhat suspicious piece of magic. It cures the throbbing in a man's jaw, to be sure, but it leaves him deprived of the only decent excuse he had for being completely unbearable to his family. A toothache used to be a noble institution that could suspend all household duties and force a congregation to pray for your solitary jawbone. Now you simply swallow a bit of tasteless powder, smile like a fool, and get right back to splitting firewood. The trouble with modern comfort is that it cures the agony so fast a man hardly has time to figure out who to blame for it.",
     "generated": "2026-09-13T23:10:20+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100"
+    "scored_by": "gemini/100",
+    "reread": "2026-09-14"
+  },
+  {
+    "date": "2026-09-14",
+    "thinker": "child",
+    "name": "Julia Child",
+    "dates": "1912-2004",
+    "object": "anaesthesia",
+    "verdict": "intelligent management",
+    "score": 8.9,
+    "essay": "There is no sense at all in enduring agony simply to prove you can take it. Pain during a necessary procedure is not character-building; it is an impediment, and any sensible person should be delighted to bypass it entirely. What it does, you see, is clear the workspace. It removes the screaming and the thrashing so the surgeon can concentrate on the delicate work at hand with calm, exacting precision. That is a perfectly sound piece of practical wisdom. But do not think for a moment that it requires no skill of its own. Turning off a human conscious state is not a matter of sloshing chemicals around until someone drops off; it demands absolute attention to dosage, timing, and delicate control. You must have a specialist at the helm who understands precisely how much to give, how to monitor the breathing, and when to bring you safely back round. When you place yourself in competent hands, there is no need to panic or carry on. You simply step aside, let the experts perform their crucial task without interference, and wake up when the heavy work is neatly finished. That is not weakness; that is simply intelligent management.",
+    "generated": "2026-09-14T18:00:51+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100",
+    "reread": "2026-09-14"
   }
 ]
