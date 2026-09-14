@@ -1468,5 +1468,19 @@
     "provider": "gemini",
     "scored_by": "gemini/100",
     "reread": "2026-09-14"
+  },
+  {
+    "date": "2026-09-14",
+    "thinker": "dickens",
+    "name": "Charles Dickens",
+    "dates": "1812-1870",
+    "object": "LinkedIn",
+    "verdict": "grotesque spectacle",
+    "score": 0.3,
+    "essay": "I have lately observed a most extraordinary exchange wherein every clerk, attorney, and aspiring under-secretary in the kingdom congregates to perform the solemn duty of endlessly kissing his own hand in public. It is a monstrous parade of sycophancy, where no man merely holds a job, but rather finds himself perpetually thrilled, deeply honoured, and profoundly humbled to announce that he has been permitted to scrape the tallow from another man's boots. He posts his own glowing testimonial, writes a laudatory eulogy for his own modest diligence, and then waits with a panting chest while five hundred strangers applaud his remarkable humility. What a grotesque spectacle it is, this polite assembly of self-appointed heralds! One cannot walk two paces without tripping over some eager fellow loudly thanking his taskmasters for the glorious privilege of having worked through the night without supper. Is a man promoted? He is thrilled! Has he been dismissed? He is grateful for the journey! Has he uttered some miserable platitude about industry? He is instantly hailed as a philosopher of the highest order! I protest against this hideous servitude of the soul, where honest labour is reduced to a frantic, grinning dance for the favour of unseen overseers, and where self-respect is systematically bartered away for a handful of nodding approval from a crowd of equally terrified beggars.",
+    "generated": "2026-09-14T20:58:28+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100",
+    "reread": "2026-09-14"
   }
 ]
