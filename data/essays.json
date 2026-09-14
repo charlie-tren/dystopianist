@@ -1482,5 +1482,19 @@
     "provider": "gemini",
     "scored_by": "gemini/100",
     "reread": "2026-09-14"
+  },
+  {
+    "date": "2026-09-14",
+    "thinker": "bourdain",
+    "name": "Anthony Bourdain",
+    "dates": "1956-2018",
+    "object": "the step counter",
+    "verdict": "human labour",
+    "score": 6.7,
+    "essay": "You clip the step counter to your belt, a tiny taskmaster that tallies every step, every move, and you can't help but think of the people who make this data meaningful, the ones who sit at desks and stare at spreadsheets all day, trying to make sense of it all. Somebody has to code the thing, to calibrate its measurements, to test its accuracy, and that somebody is probably a faceless drone in a cubicle, fueled by bad coffee and stale air. The step counter itself is just a thing, a tool, but the work that goes into making it useful, that's where the real story is. You walk and it counts, but who counts the steps of the people who make it possible, who clean up after you, who keep the machines running? The data it spits out is just numbers, but the arithmetic of human labor, that's what really matters. Eat your fitness goals anyway, just know who's really doing the heavy lifting.",
+    "generated": "2026-09-14T23:52:56+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-09-14"
   }
 ]
