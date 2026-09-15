@@ -1349,12 +1349,12 @@
     "name": "David Foster Wallace",
     "dates": "1962-2008",
     "object": "chatbots",
-    "verdict": "sinister compliance",
-    "score": 2.3,
+    "verdict": "simulated warmth",
+    "score": 1.4,
     "essay": "At 2:14 A.M., typing a question about low-density polyethylene into an empty text field, the main feeling is not awe at the machine's immediate, unnervingly polite paragraphing, but a very specific kind of shame. The box blinks. It generates sixty-four words per second with no vocal fry, no pauses to clear its throat, and an almost sinister lack of hesitation regarding whether it actually knows what it is talking about. You sit there watching the grey cursor zip across the monitor—a cheap 1080p Acer with a smudged bezel—and realize the real horror is how quickly you accept the simulated warmth. When it offers a syrupy, syntactically spotless apology for your minor inconvenience, your first impulse is not to sneer at the algorithmic trickery, but to feel, for roughly four-tenths of a second, genuinely heard. It is the conversational equivalent of consuming a sleeve of saltines when you are not even hungry: cheap, instantly available, engineered to bypass the chewing phase entirely. What keeps you typing is not the utility, which is patchy at best, but the terrible realization that you prefer this compliant, endlessly patient ghost to the actual, messy work of speaking to someone who might look at you and decide you are boring.",
     "generated": "2026-09-11T19:48:26+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-13"
   },
   {
@@ -1496,5 +1496,19 @@
     "provider": "cloudflare",
     "scored_by": "cloudflare/100",
     "reread": "2026-09-14"
+  },
+  {
+    "date": "2026-09-15",
+    "thinker": "montaigne",
+    "name": "Michel de Montaigne",
+    "dates": "1533-1592",
+    "object": "Wikipedia",
+    "verdict": "restless council",
+    "score": 4.7,
+    "essay": "I have always suffered from a memory so fickle that I can scarcely hold the names of my own ancestors without consulting a paper, and so I turn perpetually to that boundless library where every man contributes his fragment of learning; I find myself wandering through its endless corridors, led by whim from the lineage of a king to the habits of a spider, admiring how easily the world's knowledge is laid out before me. Yet I know not whether this swift abundance truly enriches my mind or merely flatters my indolence: I sit down intending to resolve a single doubt concerning a battle, and an hour later I am reading of some obscure fruit in the Indies, having forgotten what I first sought. I suspect that by having every truth so readily offered to me by strangers whose names and motives remain obscure, I lose that wholesome labour of digging which alone makes learning my own; for what I acquire without pain, I retain without reverence. And yet, when I consider how often my own judgements are swayed by passion, I find a certain comfort in this restless council of unknown scribes, perpetually correcting one another, though I realise I must remain doubtful whether a thousand fallible opinions, piled together, can ever construct a single truth.",
+    "generated": "2026-09-15T18:04:53+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100",
+    "reread": "2026-09-15"
   }
 ]
