@@ -299,11 +299,11 @@
     "name": "Emily Dickinson",
     "dates": "1830-1886",
     "object": "self-checkout machines",
-    "verdict": "mask of efficiency",
-    "score": 3.7,
-    "essay": "In the stillness of a store, a lone figure stands before a glassy screen, its fingers dancing across a keypad with a quiet urgency. The soft beep of each item scanned is a gentle reminder of the task at hand, a steady heartbeat that underscores the solitude of this interaction. A sense of detachment settles over the scene, as if the figure is merely a conduit for the flow of goods, a temporary nexus between the shelves and the bag. The machine's calm façade - its blank face a mask of efficiency - belies the intricate web of calculations and verifications that hum beneath its surface, a hidden world of codes and checks that underpin this fleeting transaction. In this brief, shining moment, the boundaries between self and machine are blurred, and the figure becomes an extension of the device, a symbiotic union of flesh and steel that dissolves as soon as the last item is scanned - and the silence that follows is a palpable thing, a physical presence that fills the space left by the absence of human connection.",
+    "verdict": "cold clerk",
+    "score": 2.4,
+    "essay": "The glass eye accepts the loaf without a blessing. One trades with a cabinet now—an unblinking deacon that weighs the salt and counts the pence without asking after the fever of the day. To present a cabbage or a tin of lard to a shadow requires a peculiar stoicism. Where once a neighbor exchanged a word upon the weather, there is only a narrow crimson beam—dividing the item from the greeting. The bag receives its burden by weight alone; if the shelf misjudges by a crumb, a voice stored in iron admonishes the shopper for an error never intended. Solitude is usually a private garment, tailored in the parlour or worn among the pine, but here it is dispensed in the open shop alongside the tea. We slide our silver across a polished sill to a judge that knows neither mercy nor malice, only the arithmetic of the counter. It hands back no grace with the receipt. We gather our flour, step out into the wind, and leave the cold clerk standing in its light, watching the next buyer approach with empty hands.",
     "generated": "2026-08-26T03:10:56+00:00",
-    "provider": "cloudflare",
+    "provider": "gemini",
     "scored_by": "gemini/100",
     "reread": "2026-09-04"
   },
@@ -1523,6 +1523,20 @@
     "generated": "2026-09-15T20:17:21+00:00",
     "provider": "gemini",
     "scored_by": "gemini/100",
+    "reread": "2026-09-15"
+  },
+  {
+    "date": "2026-09-15",
+    "thinker": "thompson",
+    "name": "Hunter S Thompson",
+    "dates": "1937-2005",
+    "object": "group chats",
+    "verdict": "total cultural rot",
+    "score": 1.2,
+    "essay": "The pocket glass erupted at three in the morning, buzzing across the nightstand like a rabid copperhead while six distinct lunatics pounded out frantic, overlapping manifestos about a dinner bill from last Tuesday. That is the supreme horror of this setup: it allows a roomful of sniveling neurotics to sit in their underpants across three time zones and relentlessly torture each other with high-speed malice, passive-aggressive thumbs-up icons, and endless shrieking debates over nothing at all. I lay there in the dark, watching the screen flash with cold electronic venom, listening to the steady, psychotic pinging of grown men collapsing into a collective brain-rot over whether to meet at noon or twelve-fifteen. It was a terrifying glimpse into the complete bankruptcy of human courage. We have finally built a device that turns everyday conversation into a permanent mob trial, a frantic twenty-four-hour digital panopticon where every participant acts as both the hysterical prosecutor and the snitch. By five in the morning, two hundred messages had piled up like toxic waste in a ditch, each one a grim little monument to our total cultural rot. I stared at the glowing rectangle, realized with brutal clarity that we have devolved into mindless beasts, and dropped the whole filthy apparatus into a pitcher of ice water.",
+    "generated": "2026-09-15T23:32:04+00:00",
+    "provider": "gemini",
+    "scored_by": "cloudflare/100",
     "reread": "2026-09-15"
   }
 ]

@@ -40,6 +40,8 @@ Source: pastiche written for this repo (still in copyright)
 - A more sarcastic and humorous tone was expected instead of a straightforward statement to convey the paranoid and funny voice. Seen in a published essay: "It was a terrifying glimpse into the future of American leisure" (found 2026-09-03).
 - A more elaborate and exaggerated phrase was expected to emphasize the moral certainty and outrage in the midst of chaos. Seen in a published essay: "People were paying top dollar to simulate their own execution" (found 2026-09-03).
 - A more elaborate and exaggerated phrase was expected to emphasize the moral certainty and outrage, such as 'We have finally devolved into the very beasts we've been conditioned to become'. Seen in a published essay: "We are monsters now." (found 2026-09-03).
+- A more sarcastic and humorous tone was expected instead of a straightforward statement to convey the paranoid and funny voice, such as 'a glimpse into the abyss of our collective stupidity'. Seen in a published essay: "It was a terrifying glimpse into the complete bankruptcy of human courage." (found 2026-09-15).
+- A more elaborate and exaggerated phrase was expected to emphasize the moral certainty and outrage, such as 'We have finally devolved into the very beasts we've been conditioned to become'. Seen in a published essay: "we have devolved into mindless beasts" (found 2026-09-15).
 ## Log
 
 - 25/08/2026 - migrated from config/thinkers.yaml; Avoid list seeded from the first batch.
