@@ -271,12 +271,12 @@
     "name": "Charles Dickens",
     "dates": "1812-1870",
     "object": "audiobooks",
-    "verdict": "disembodied voices",
-    "score": 4.7,
-    "essay": "As I stroll through the bustling streets, my ears are beset on all sides by the murmurs of voices, disembodied and detached from their owners, yet still managing to convey the full force of their emotions. It is a curious thing, this ability to convey the nuances of the human experience through the spoken word alone, without the aid of gestures or facial expressions. I find myself drawn to the sound of these voices, my attention captured by the rise and fall of their inflections, the pause and emphasis that conveys meaning beyond the mere words themselves. And yet, I am also aware of the disconnect between the speaker and the listener, the fact that the voice is not truly present, but rather a recording, a shadow of the real thing. It is a strange and disconcerting experience, one that leaves me feeling both intrigued and unsettled, like a traveller who has stumbled into a unfamiliar land, unsure of the customs or the language.",
+    "verdict": "unpardonable tyranny",
+    "score": 2.3,
+    "essay": "I walked the pavement yesterday behind a stout gentleman who appeared, to any uninitiated bystander, to be engaged in a desperate, silent wrestling match with his own neckcloth. Upon closer inspection, however, I perceived that he was merely having an entire three-act melodrama poured directly into his left earhole by a ghostly actor whom he could neither see, touch, nor offer a glass of ale. What extraordinary madness is this, that a citizen cannot cross the Strand without carrying a phantom declaimer pinned like a leech to his tympanum! I watched him dodge a hansom cab while an unseen performer shrieked of murder and lost inheritances directly into his brain, his countenance remaining as blank and unbothered as a boiled turnip. We used to demand of an orator that he stand before us in honest flesh and bone, where we might throw an egg at him if his cadences displeased us. Now, every clerk and shopman walks about encircled by invisible troubadours, nodding at invisible jokes, weeping over unseen tragedy, completely deaf to the real, roaring, magnificent clamour of the world knocking against his elbows. It is an unpardonable tyranny of the vocal organs, forcing a poor fellow to harbour an entire theatre company inside his hat.",
     "generated": "2026-08-26T03:09:52+00:00",
-    "provider": "cloudflare",
-    "scored_by": "gemini/100",
+    "provider": "gemini",
+    "scored_by": "cloudflare/100",
     "reread": "2026-09-04"
   },
   {
@@ -1507,6 +1507,20 @@
     "score": 4.7,
     "essay": "I have always suffered from a memory so fickle that I can scarcely hold the names of my own ancestors without consulting a paper, and so I turn perpetually to that boundless library where every man contributes his fragment of learning; I find myself wandering through its endless corridors, led by whim from the lineage of a king to the habits of a spider, admiring how easily the world's knowledge is laid out before me. Yet I know not whether this swift abundance truly enriches my mind or merely flatters my indolence: I sit down intending to resolve a single doubt concerning a battle, and an hour later I am reading of some obscure fruit in the Indies, having forgotten what I first sought. I suspect that by having every truth so readily offered to me by strangers whose names and motives remain obscure, I lose that wholesome labour of digging which alone makes learning my own; for what I acquire without pain, I retain without reverence. And yet, when I consider how often my own judgements are swayed by passion, I find a certain comfort in this restless council of unknown scribes, perpetually correcting one another, though I realise I must remain doubtful whether a thousand fallible opinions, piled together, can ever construct a single truth.",
     "generated": "2026-09-15T18:04:53+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100",
+    "reread": "2026-09-15"
+  },
+  {
+    "date": "2026-09-15",
+    "thinker": "wallace",
+    "name": "David Foster Wallace",
+    "dates": "1962-2008",
+    "object": "Paddington (2014)",
+    "verdict": "commitment to kindness",
+    "score": 8.8,
+    "essay": "It is alarming how quickly you forgive the digital rendering of the fur. The bear himself is, mathematically speaking, a triumph of subsurface scattering—the light hits his wet snout with the precise luminance of actual mucin—but what the film actually wants from you is something much more embarrassing than aesthetic surrender. It wants you to accept that a small, hyper-polite Peruvian immigrant wearing a dead man's blue duffle coat can dismantle an entire household's psychological defense mechanisms simply by being completely without guile. Hugh Bonneville plays the father as a man whose entire personality is an ongoing risk-assessment calculation, calculating the precise probability of domestic catastrophe in five-minute increments. We are supposed to laugh at his clipboard, but standing in the dark theater, I found myself recognizing the clipboard. I recognized the desperate, bureaucratic desire to convert chaotic love into manageable metrics. And then Nicole Kidman appears in high-heeled taxidermy boots, essentially playing a severe Freudian nightmare, and the movie should collapse under its own tonal dissonance. It does not collapse. It holds together through a sheer, aggressive commitment to kindness that feels almost weaponized. You leave the theater feeling slightly caught out, as if a very expensive computer program had just gently diagnosed your own chronic incapacity for trust.",
+    "generated": "2026-09-15T20:17:21+00:00",
     "provider": "gemini",
     "scored_by": "gemini/100",
     "reread": "2026-09-15"
