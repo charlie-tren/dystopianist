@@ -272,11 +272,11 @@
     "dates": "1812-1870",
     "object": "audiobooks",
     "verdict": "unpardonable tyranny",
-    "score": 2.3,
+    "score": 1.4,
     "essay": "I walked the pavement yesterday behind a stout gentleman who appeared, to any uninitiated bystander, to be engaged in a desperate, silent wrestling match with his own neckcloth. Upon closer inspection, however, I perceived that he was merely having an entire three-act melodrama poured directly into his left earhole by a ghostly actor whom he could neither see, touch, nor offer a glass of ale. What extraordinary madness is this, that a citizen cannot cross the Strand without carrying a phantom declaimer pinned like a leech to his tympanum! I watched him dodge a hansom cab while an unseen performer shrieked of murder and lost inheritances directly into his brain, his countenance remaining as blank and unbothered as a boiled turnip. We used to demand of an orator that he stand before us in honest flesh and bone, where we might throw an egg at him if his cadences displeased us. Now, every clerk and shopman walks about encircled by invisible troubadours, nodding at invisible jokes, weeping over unseen tragedy, completely deaf to the real, roaring, magnificent clamour of the world knocking against his elbows. It is an unpardonable tyranny of the vocal organs, forcing a poor fellow to harbour an entire theatre company inside his hat.",
     "generated": "2026-08-26T03:09:52+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-04"
   },
   {
@@ -313,12 +313,12 @@
     "name": "Emily Dickinson",
     "dates": "1830-1886",
     "object": "the step counter",
-    "verdict": "gentle tyranny",
-    "score": 4.7,
-    "essay": "The step counter's gentle tyranny - it imposes a rhythm on the day, a cadence of footsteps that can be as soothing as a metronome or as jarring as a discordant note. In its presence, the body becomes a kind of instrument, each step a deliberate gesture, a physical manifestation of intention. To wear it is to be reminded of the intricate web of habits and routines that govern our lives, the hidden patterns that shape our movements and our days. The step counter's quiet persistence - a steady heartbeat of measurement and tracking - can be a source of comfort, a reassurance that even in the most mundane moments, something is being counted, something is being noted. And yet, it can also be a source of unease, a nagging sense that every step, every movement, is being watched, weighed, and measured.",
+    "verdict": "strange thrift",
+    "score": 2.3,
+    "essay": "To go as far as the Gate was once an Errand between the Soul and the Clover. One did not consult the Slate to learn if the Journey was earned. Yet now a tiny Arithmetic hitches itself to the Ankle, keeping score of what was merely Living. It turns the Meadow into a Ledger and the solemn solitude of a Stroll into a Sum to be audited at Dusk. We used to measure Distance by the darkening of the Leaf or the tire of the Heel, but this small Overseer demands a Reckoning in thousands — as if the Earth were a Merchant that refused to yield its Air without a Receipt. There is a curious Insolence in telling a Foot how many times it has touched the Dust. The Boot knows its own Weariness without an Inscription on the Wrist. I have seen the creature tick its little Triumph when a threshold is crossed, yet it knows nothing of the Thrill that made the Pace quicken toward the Lilacs. It measures the Motion, but misses the Arrival. To reduce a Walk to a Tally is to treat the Pilgrimage as an Inventory — a strange Thrift that counts the Steps but bankrupts the Horizon.",
     "generated": "2026-08-26T03:11:27+00:00",
-    "provider": "cloudflare",
-    "scored_by": "gemini/100",
+    "provider": "gemini",
+    "scored_by": "cloudflare/100",
     "reread": "2026-09-04"
   },
   {
@@ -1405,12 +1405,12 @@
     "name": "Mark Twain",
     "dates": "1835-1910",
     "object": "Shrek (2001)",
-    "verdict": "clever mockery",
-    "score": 3.2,
+    "verdict": "clever wizardry",
+    "score": 6.2,
     "essay": "It is a remarkable piece of work to take a green, foul-smelling creature whose sole ambition in life is to sit unmolested in a mud-hole, and convert him into the moral standard of an entire kingdom. The trick is pulled off by the simple expedient of making the local prince so short and insufferable that a swamp-dwelling monster looks like a polished statesman by comparison. You sit there watching these moving light-pictures, where every bristle on a talking donkey's snout is drawn with excruciating detail, and you realize the whole grand enterprise was built to teach us a lesson about human beauty. It takes a dragon, an ill-mannered ogre, and a beast of burden with a relentless talent for conversation to deliver a princess from the grave error of marrying a man who keeps a castle full of wooden puppets. By the time the princess sheds her sleek skin to turn green and thick-waisted for love, you are expected to feel that true virtue has triumphed. A body cannot help but marvel at the sheer amount of clever wizardry required to convince an audience of grown taxpayers that they would all be considerably happier living in a ditch.",
     "generated": "2026-09-12T23:03:42+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-13"
   },
   {
@@ -1489,12 +1489,12 @@
     "name": "Anthony Bourdain",
     "dates": "1956-2018",
     "object": "the step counter",
-    "verdict": "human labour",
-    "score": 6.7,
+    "verdict": "tiny taskmaster",
+    "score": 3.1,
     "essay": "You clip the step counter to your belt, a tiny taskmaster that tallies every step, every move, and you can't help but think of the people who make this data meaningful, the ones who sit at desks and stare at spreadsheets all day, trying to make sense of it all. Somebody has to code the thing, to calibrate its measurements, to test its accuracy, and that somebody is probably a faceless drone in a cubicle, fueled by bad coffee and stale air. The step counter itself is just a thing, a tool, but the work that goes into making it useful, that's where the real story is. You walk and it counts, but who counts the steps of the people who make it possible, who clean up after you, who keep the machines running? The data it spits out is just numbers, but the arithmetic of human labor, that's what really matters. Eat your fitness goals anyway, just know who's really doing the heavy lifting.",
     "generated": "2026-09-14T23:52:56+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-14"
   },
   {
@@ -1531,12 +1531,26 @@
     "name": "Hunter S Thompson",
     "dates": "1937-2005",
     "object": "group chats",
-    "verdict": "total cultural rot",
-    "score": 1.2,
+    "verdict": "permanent mob trial",
+    "score": 0.3,
     "essay": "The pocket glass erupted at three in the morning, buzzing across the nightstand like a rabid copperhead while six distinct lunatics pounded out frantic, overlapping manifestos about a dinner bill from last Tuesday. That is the supreme horror of this setup: it allows a roomful of sniveling neurotics to sit in their underpants across three time zones and relentlessly torture each other with high-speed malice, passive-aggressive thumbs-up icons, and endless shrieking debates over nothing at all. I lay there in the dark, watching the screen flash with cold electronic venom, listening to the steady, psychotic pinging of grown men collapsing into a collective brain-rot over whether to meet at noon or twelve-fifteen. It was a terrifying glimpse into the complete bankruptcy of human courage. We have finally built a device that turns everyday conversation into a permanent mob trial, a frantic twenty-four-hour digital panopticon where every participant acts as both the hysterical prosecutor and the snitch. By five in the morning, two hundred messages had piled up like toxic waste in a ditch, each one a grim little monument to our total cultural rot. I stared at the glowing rectangle, realized with brutal clarity that we have devolved into mindless beasts, and dropped the whole filthy apparatus into a pitcher of ice water.",
     "generated": "2026-09-15T23:32:04+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-15"
+  },
+  {
+    "date": "2026-09-16",
+    "thinker": "wilde",
+    "name": "Oscar Wilde",
+    "dates": "1854-1900",
+    "object": "self-checkout machines",
+    "verdict": "a mere spectre",
+    "score": 2.8,
+    "essay": "It is a curious fact that the most laborious of tasks can be transformed into an exercise of unencumbered ease, and yet, in the process, we find ourselves bereft of the very thing that once made the endeavour worthwhile. The self-checkout machine, that most modern of conveniences, has reduced the intricate dance of human interaction to a mere spectre of its former self, leaving us to ponder the true value of efficiency. We can tolerate the presence of these machines, I suppose, as long as we do not delude ourselves into believing that they have somehow elevated the mundane act of purchasing goods into an art form. And yet, it is in the quiet moments, as we scan our items with all the passion of a somnambulist, that we are forced to confront the possibility that our quest for speed and convenience has come at the cost of something far more precious: the gentle art of conversation, the soft murmur of neighbourly chatter, the civilised pleasure of human connection.",
+    "generated": "2026-09-16T18:02:27+00:00",
+    "provider": "cloudflare",
+    "scored_by": "gemini/100",
+    "reread": "2026-09-16"
   }
 ]
