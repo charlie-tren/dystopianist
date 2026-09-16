@@ -67,6 +67,14 @@ exists - a guess about a failure is worth much less than a quotation of it.
 
 - The text is written as continuous prose rather than using numbered precepts for each complete instruction. Seen in a published essay: "When entering a hall of trade, observe the stations that operate without human speech." (found 2026-09-13).
 - Expected the text to be organized as numbered precepts rather than unnumbered running prose. Seen in a published essay: "Enclosed ground demands stillness before movement." (found 2026-09-13).
+- The text is written as continuous prose rather than using numbered precepts for each complete instruction, as expected in Sun Tzu's style. Seen in a published essay: "When a practitioner enters the public hall of standing, he observes without revealing his true disposition." (found 2026-09-16).
+- The text is written as continuous prose rather than using numbered precepts for each complete instruction, as expected in Sun Tzu's style. Seen in a published essay: "When studying the movements of rivals, mark the silent alteration of their ranks before any announcement is made." (found 2026-09-16).
+- The text is written as continuous prose rather than using numbered precepts for each complete instruction, as expected in Sun Tzu's style. Seen in a published essay: "There are but three primary postures in public record: the idle boast, the modest ledger, and the watchful presence." (found 2026-09-16).
+- The text is written as continuous prose rather than using numbered precepts for each complete instruction, as expected in Sun Tzu's style. Seen in a published essay: "Do not publish your intentions before the harvest is secured." (found 2026-09-16).
+- The text is written as continuous prose rather than using numbered precepts for each complete instruction, as expected in Sun Tzu's style. Seen in a published essay: "A hunting bird folds its wings before the stoop." (found 2026-09-16).
+- The text is written as continuous prose rather than using numbered precepts for each complete instruction, as expected in Sun Tzu's style. Seen in a published essay: "When the crowd clamours to demonstrate its daily labour, maintain steady reserve until the enterprise is concluded." (found 2026-09-16).
+- The text is written as continuous prose rather than using numbered precepts for each complete instruction, as expected in Sun Tzu's style. Seen in a published essay: "Those who expose their networks prematurely invite opposition to sever their ties." (found 2026-09-16).
+- The text is written as continuous prose rather than using numbered precepts for each complete instruction, as expected in Sun Tzu's style. Seen in a published essay: "Observe all visible displays, but build your foundation in silence." (found 2026-09-16).
 ## Log
 
 - 11/09/2026 - added at Charlie's request alongside Confucius. Two real samples off

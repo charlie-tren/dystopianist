@@ -313,12 +313,12 @@
     "name": "Emily Dickinson",
     "dates": "1830-1886",
     "object": "the step counter",
-    "verdict": "strange thrift",
-    "score": 2.3,
+    "verdict": "curious insolence",
+    "score": 1.4,
     "essay": "To go as far as the Gate was once an Errand between the Soul and the Clover. One did not consult the Slate to learn if the Journey was earned. Yet now a tiny Arithmetic hitches itself to the Ankle, keeping score of what was merely Living. It turns the Meadow into a Ledger and the solemn solitude of a Stroll into a Sum to be audited at Dusk. We used to measure Distance by the darkening of the Leaf or the tire of the Heel, but this small Overseer demands a Reckoning in thousands — as if the Earth were a Merchant that refused to yield its Air without a Receipt. There is a curious Insolence in telling a Foot how many times it has touched the Dust. The Boot knows its own Weariness without an Inscription on the Wrist. I have seen the creature tick its little Triumph when a threshold is crossed, yet it knows nothing of the Thrill that made the Pace quicken toward the Lilacs. It measures the Motion, but misses the Arrival. To reduce a Walk to a Tally is to treat the Pilgrimage as an Inventory — a strange Thrift that counts the Steps but bankrupts the Horizon.",
     "generated": "2026-08-26T03:11:27+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-04"
   },
   {
@@ -1563,6 +1563,20 @@
     "score": 1.4,
     "essay": "There is something deeply sinister about a digital beast that moves through a meticulously painted West London with the ruthless, weaponized manners of a high-ranking diplomat. I watched this terrifyingly sleek piece of British propaganda while braced against the sheer emotional violence of its charm, a ninety-minute assault where a naive talking bear floods a bathroom, gets targeted by a crazed taxidermist in leather boots descending from the ceiling of a natural history museum, and somehow convinces a household of terrified suburbanites that marmalade is a viable substitute for law and order. The studio bosses spent millions perfecting every wet hair on that creature’s head, and they used it to trap the audience in a state of helpless, gibbering submission, forcing us to applaud a bizarre fantasy of imperial hospitality while Nicole Kidman stalks the frame with the ice-cold malice of a corporate liquidator. It is a masterpiece of psychological warfare. You sit there in the dark, battered by pastel aesthetics and relentless slapstick, watching a stuffed animal dismantle a house with lethal precision until you realize the entire film is an elaborate trap designed to break your spirit and make you love the institution that caged you.",
     "generated": "2026-09-16T20:12:23+00:00",
+    "provider": "gemini",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-09-16"
+  },
+  {
+    "date": "2026-09-16",
+    "thinker": "suntzu",
+    "name": "Sun Tzu",
+    "dates": "c. 544-496 BC",
+    "object": "LinkedIn",
+    "verdict": "watchful presence",
+    "score": 7.3,
+    "essay": "When a practitioner enters the public hall of standing, he observes without revealing his true disposition. If an officer displays many titles, his true authority is meagre. If a merchant broadcasts every small transaction, his storehouse is empty. Water fills the hollow places without sound; the prudent man occupies quiet positions while others compete for notice. When studying the movements of rivals, mark the silent alteration of their ranks before any announcement is made. A sudden revision of past service indicates preparation for departure. If a man lavishly praises every associate, he seeks immediate favour. If he praises no one, he lacks defenders. There are but three primary postures in public record: the idle boast, the modest ledger, and the watchful presence. Yet in combination they reveal every intention of the court. Do not publish your intentions before the harvest is secured. A hunting bird folds its wings before the stoop. When the crowd clamours to demonstrate its daily labour, maintain steady reserve until the enterprise is concluded. Those who expose their networks prematurely invite opposition to sever their ties. Observe all visible displays, but build your foundation in silence.",
+    "generated": "2026-09-16T23:39:59+00:00",
     "provider": "gemini",
     "scored_by": "cloudflare/100",
     "reread": "2026-09-16"
