@@ -1552,5 +1552,19 @@
     "provider": "cloudflare",
     "scored_by": "gemini/100",
     "reread": "2026-09-16"
+  },
+  {
+    "date": "2026-09-16",
+    "thinker": "thompson",
+    "name": "Hunter S Thompson",
+    "dates": "1937-2005",
+    "object": "Paddington (2014)",
+    "verdict": "sinister propaganda",
+    "score": 1.4,
+    "essay": "There is something deeply sinister about a digital beast that moves through a meticulously painted West London with the ruthless, weaponized manners of a high-ranking diplomat. I watched this terrifyingly sleek piece of British propaganda while braced against the sheer emotional violence of its charm, a ninety-minute assault where a naive talking bear floods a bathroom, gets targeted by a crazed taxidermist in leather boots descending from the ceiling of a natural history museum, and somehow convinces a household of terrified suburbanites that marmalade is a viable substitute for law and order. The studio bosses spent millions perfecting every wet hair on that creature’s head, and they used it to trap the audience in a state of helpless, gibbering submission, forcing us to applaud a bizarre fantasy of imperial hospitality while Nicole Kidman stalks the frame with the ice-cold malice of a corporate liquidator. It is a masterpiece of psychological warfare. You sit there in the dark, battered by pastel aesthetics and relentless slapstick, watching a stuffed animal dismantle a house with lethal precision until you realize the entire film is an elaborate trap designed to break your spirit and make you love the institution that caged you.",
+    "generated": "2026-09-16T20:12:23+00:00",
+    "provider": "gemini",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-09-16"
   }
 ]
