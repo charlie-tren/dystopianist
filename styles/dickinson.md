@@ -54,6 +54,10 @@ Source: Poems, Three Series (1890-96), Project Gutenberg #12242
 - Expected an eccentric, compressed domestic anchor rather than a conventional and wordy essayist cliche. Seen in a published essay: "In the crowded marketplace of human expression" (found 2026-09-07).
 - Expected severe compression and elliptical dashes rather than an extended, conventional explanatory clause. Seen in a published essay: "The fingers that summon them move with a rapidity that belies the complexity of emotions they convey" (found 2026-09-07).
 - Expected the passage to stop the moment the point lands rather than closing with an explicit, explanatory summary. Seen in a published essay: "a reminder that even the most fleeting expressions can leave an indelible mark" (found 2026-09-07).
+- Expected a more enigmatic comparison, rather than a straightforward and explanatory one Seen in a published essay: "a small, blue garment holding more weight than the rain" (found 2026-09-17).
+- Expected a more subtle and implicit suggestion of the transformation, rather than an explicit and descriptive one Seen in a published essay: "a domestic Eden where even a flooded bath becomes a river navigated by courage" (found 2026-09-17).
+- Expected a more abstract and suggestive phrase, rather than a straightforward explanation of the collector's motivation Seen in a published essay: "the collector’s needle, sharp with the cold ambition to stuff and label what it cannot understand" (found 2026-09-17).
+- Expected a more concise and ambiguous conclusion, rather than an explicit and explanatory one Seen in a published essay: "the habit of the saucer left on the porch—that we measure a home not by its locks, but by the room it yields to the small, damp stranger at the threshold" (found 2026-09-17).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Poems, Three Series (1890-96), Project Gutenberg #12242 via tools/gutenberg_shots.py.

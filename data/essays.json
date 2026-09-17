@@ -383,12 +383,12 @@
     "name": "Mark Twain",
     "dates": "1835-1910",
     "object": "reclining a seat on a plane",
-    "verdict": "a strange dance",
-    "score": 4.8,
-    "essay": "It's a curious thing, this business of leaning back in a seat while suspended in the air, surrounded by strangers who are also leaning back, or not, as the case may be. You'd think it would be a simple matter, a mere adjustment of one's position to suit their comfort, but no, it seems to be a delicate balance of courtesy and personal space. I've seen folks recline with abandon, as if they're settling into their favourite armchair, while others around them grow tense and irritated, their knees compressed into a space that's suddenly grown too small. And then there are those who ask permission, as if seeking a pardon for the indulgence, their voices low and apologetic as they inquire if it's alright to lean back, just a little. It's a strange dance, this reclining of seats, a negotiation of physical and social boundaries that can be as fraught as it is mundane, and in the end, it's just a seat, after all.",
+    "verdict": "moral satisfaction",
+    "score": 8.2,
+    "essay": "Pressing that little metal button on the armrest to drop your chair-back two inches into another man's dinner tray is a grand study in neighborly affection. You do not have to look him in the eye; you simply lean back, hear his coffee cup overturn, and feel a deep moral satisfaction in having secured your own comfort. The whole scheme works by the splendid rule that if a person cannot see the victim he is squashing, no actual injury has taken place. The fellow behind you may be folded up like an accordion, with his knees wedged solid against your shoulder blades, yet he will sit there in grim silence for three hours rather than speak up and risk appearing uncultivated. He will not utter a peep, because to complain would mean admitting he lacks the stamina of a salted herring. So you lie back, suspended in the air, resting peacefully on his crushed limbs, feeling like a prince who has annexed six inches of foreign territory without having to fire a shot. It is the only transaction left where a man can rob his neighbor of his legs, hand him the bill, and be thanked for the accommodation.",
     "generated": "2026-08-26T03:14:33+00:00",
-    "provider": "cloudflare",
-    "scored_by": "gemini/100",
+    "provider": "gemini",
+    "scored_by": "cloudflare/100",
     "reread": "2026-09-05"
   },
   {
@@ -1601,12 +1601,26 @@
     "name": "Mark Twain",
     "dates": "1835-1910",
     "object": "podcasts",
-    "verdict": "mild scepticism",
-    "score": 6.2,
+    "verdict": "snake oil",
+    "score": 3.3,
     "essay": "I reckon there's something peculiar about these podcasts, the way they can spin a yarn and make you feel like you're sitting on the porch with the fella who's talking. It's a mighty strange thing, how they can make you laugh or cry or get all riled up, just like a conversation with your neighbor, except instead of being able to interrupt and give your two cents, you're just sitting there listening. Now, I'm not saying I understand how it all works, but it seems to me that these podcasters are like a bunch of traveling salesmen, except instead of selling you a bill of goods, they're selling you their thoughts and ideas. And just like you might buy a bottle of snake oil from a salesman, thinking it'll cure what ails you, you might listen to one of these podcasts and think you're getting the straight truth, when really you're just getting someone's opinion. But I suppose that's just the way of it, and we're all just a bunch of rubes, listening in and wondering what they'll say next, like a crowd gathered around a street performer, waiting to see him pull a rabbit out of his hat. And when it's all said and done, you're left feeling like you've been had, but you can't quite put your finger on how.",
     "generated": "2026-09-17T20:22:42+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
+    "reread": "2026-09-17"
+  },
+  {
+    "date": "2026-09-17",
+    "thinker": "dickinson",
+    "name": "Emily Dickinson",
+    "dates": "1830-1886",
+    "object": "Paddington (2014)",
+    "verdict": "domestic eden",
+    "score": 9.2,
+    "essay": "To wear a printed tag that asks for shelter is to carry one’s solitude outside the coat—a small, blue garment holding more weight than the rain. The furred creature from Peru enters London not as a beggar, but as a guest who forgot his luggage and kept only his manners. The picture builds a house with a blossom tree painted up the stairs—a domestic Eden where even a flooded bath becomes a river navigated by courage. Against this light stands the collector’s needle, sharp with the cold ambition to stuff and label what it cannot understand. Yet the film insists upon the power of the smaller virtue. A marmalade sandwich tucked beneath a hat proves sturdier than museum steel, and a family opens its door not from convenience, but because shutting it leaves the soul outside in the damp. It asks no grander conversion from its audience than the habit of the saucer left on the porch—that we measure a home not by its locks, but by the room it yields to the small, damp stranger at the threshold.",
+    "generated": "2026-09-17T23:33:42+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100",
     "reread": "2026-09-17"
   }
 ]
