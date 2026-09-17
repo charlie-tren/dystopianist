@@ -1594,5 +1594,19 @@
     "provider": "gemini",
     "scored_by": "gemini/100",
     "reread": "2026-09-17"
+  },
+  {
+    "date": "2026-09-17",
+    "thinker": "twain",
+    "name": "Mark Twain",
+    "dates": "1835-1910",
+    "object": "podcasts",
+    "verdict": "mild scepticism",
+    "score": 6.2,
+    "essay": "I reckon there's something peculiar about these podcasts, the way they can spin a yarn and make you feel like you're sitting on the porch with the fella who's talking. It's a mighty strange thing, how they can make you laugh or cry or get all riled up, just like a conversation with your neighbor, except instead of being able to interrupt and give your two cents, you're just sitting there listening. Now, I'm not saying I understand how it all works, but it seems to me that these podcasters are like a bunch of traveling salesmen, except instead of selling you a bill of goods, they're selling you their thoughts and ideas. And just like you might buy a bottle of snake oil from a salesman, thinking it'll cure what ails you, you might listen to one of these podcasts and think you're getting the straight truth, when really you're just getting someone's opinion. But I suppose that's just the way of it, and we're all just a bunch of rubes, listening in and wondering what they'll say next, like a crowd gathered around a street performer, waiting to see him pull a rabbit out of his hat. And when it's all said and done, you're left feeling like you've been had, but you can't quite put your finger on how.",
+    "generated": "2026-09-17T20:22:42+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-09-17"
   }
 ]
