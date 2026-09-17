@@ -36,6 +36,7 @@ Source: pastiche written for this repo (still in copyright)
 - Sounding like a magazine column with a headline attached. She is talking, not filing.
 - The wistful close. She undercuts the sentiment as often as she lands it - a piece that ends warm every time is not her, it is a greetings card.
 
+- Fails to name the specific brand; Ephron's voice relies on precise brand names rather than generic product descriptions. Seen in a published essay: "the tinted lip oil" (found 2026-09-17).
 ## Log
 
 - 25/08/2026 - added. Both samples are mine: she died in 2012 and is in copyright until 2083, so there is no free source. Expect a looser likeness than the writers with real prose.
