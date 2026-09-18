@@ -50,6 +50,11 @@ Source: Specimen Days (1882), Project Gutenberg #8813
 - Expected a concrete noun, but got a metaphorical phrase instead, such as 'heart, lungs, blood' Seen in a published essay: "the flame of life burning bright" (found 2026-09-12).
 - Expected a real, tangible location, but got a metaphorical place instead, such as 'hospital room, recovery ward, bed' Seen in a published essay: "the dark parlor" (found 2026-09-12).
 - Expected a concrete thing, but got an abstract concept instead, such as 'bandages, medicines, nurses' Seen in a published essay: "a magnificent mercy" (found 2026-09-12).
+- Expected a catalogue of nouns, but got a descriptive phrase instead, such as 'servers, monitors, machinery' Seen in a published essay: "a symphony of sounds that underscore their operation" (found 2026-09-18).
+- Expected a catalogue of nouns, but got a descriptive phrase instead, such as 'faces, fingers, voices' Seen in a published essay: "a tableau of human connection in the digital realm" (found 2026-09-18).
+- Expected a catalogue of nouns, but got a metaphorical phrase instead, such as 'digital landscapes, virtual spaces, cyber realms' Seen in a published essay: "a vast, uncharted territory that stretches out before us like an endless frontier" (found 2026-09-18).
+- Expected a catalogue of nouns without descriptive phrases, such as 'code, algorithms, data streams' Seen in a published essay: "snippets of code, the algorithms, and data streams that flow through them like lifeblood - pulsating, ever-changing, and adapting to our interactions" (found 2026-09-18).
+- Expected a catalogue of concrete nouns, but got abstract or metaphorical places instead, such as 'servers, databases, networks' Seen in a published essay: "the digital landscapes they inhabit, the virtual spaces they populate, the cyber realms they navigate" (found 2026-09-18).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Specimen Days (1882), Project Gutenberg #8813 via tools/gutenberg_shots.py.
