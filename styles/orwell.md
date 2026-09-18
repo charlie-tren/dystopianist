@@ -53,6 +53,10 @@ Source: "Pleasure Spots" (1946), Fifty Orwell Essays, Project Gutenberg Australi
 - Expected a more concrete phrase, such as 'we pay to be safe', without the abstract phrase 'the reassurance that we are safe from harm' Seen in a published essay: "a small price to pay for the reassurance that we are safe from harm" (found 2026-09-10).
 - Expected a simpler sentence structure, such as 'we are used to being protected and do not question it', without the complex phrase 'so used to the idea of being protected and looked after' Seen in a published essay: "we have become so civilised, so used to the idea of being protected and looked after, that we no longer question the measures that are taken to ensure our safety" (found 2026-09-10).
 - Expected a more direct phrase, such as 'we trust the authorities and give up our freedom', without the elaborate phrase 'a deep-seated trust in the authorities that oversee our travels, and a willingness to surrender our autonomy in the name of security' Seen in a published essay: "a deep-seated trust in the authorities that oversee our travels, and a willingness to surrender our autonomy in the name of security" (found 2026-09-10).
+- Expected simple Anglo-Saxon words such as 'has spread everywhere' instead of abstract Latinate jargon. Seen in a published essay: "has become a ubiquitous phenomenon" (found 2026-09-18).
+- Expected plain, concrete language rather than abstract Latinate terms. Seen in a published essay: "a trend towards brevity and superficiality" (found 2026-09-18).
+- Expected simple, direct words rather than abstract Latinate phrasing. Seen in a published essay: "reduce the nuances of human feeling" (found 2026-09-18).
+- Expected a direct, active statement such as 'we ought to distrust it' instead of an abstract passive construction. Seen in a published essay: "a development that should be viewed with suspicion" (found 2026-09-18).
 ## Log
 
 - 25/08/2026 - migrated from config/thinkers.yaml; Avoid list seeded from the first batch.
