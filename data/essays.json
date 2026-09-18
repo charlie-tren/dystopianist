@@ -1650,5 +1650,19 @@
     "provider": "cloudflare",
     "scored_by": "cloudflare/100",
     "reread": "2026-09-18"
+  },
+  {
+    "date": "2026-09-18",
+    "thinker": "woolf",
+    "name": "Virginia Woolf",
+    "dates": "1882-1941",
+    "object": "Jaws (1975)",
+    "verdict": "dark fascination",
+    "score": 8.3,
+    "essay": "The sun strikes flat upon the salt water, and for a moment the summer visitor believes that the sea is merely a floor for swimming, a blue lawn laid out for harmless sport. Yet beneath that shimmering ceiling, where yellow barrels bob and the wooden hull sits heavy, something vast and ravenous glides through the grey weed; it is no ordinary beast, but a pure appetite that strips away our civilised pretences. What does this strange spectacle demand of us as we sit together in the dark theatre? It asks that we abandon our comfortable faith in the solid world, exchanging the quiet authority of the mayor and the safety of the shore for two deep, relentless notes that throb like a panicked heart. We watch three men squeezed into a frail vessel, nursing their scars and their pride, while the hidden shadow circles them in the bay. The true terror resides not in the mechanical teeth that gape and snap, but in the awful calm of the blue water after the swimmer vanishes; we realise then how fragile our sense of mastery remains when the depths decide to speak.",
+    "generated": "2026-09-18T23:18:45+00:00",
+    "provider": "gemini",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-09-18"
   }
 ]
