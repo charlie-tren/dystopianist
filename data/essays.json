@@ -1678,5 +1678,19 @@
     "provider": "gemini",
     "scored_by": "gemini/100",
     "reread": "2026-09-19"
+  },
+  {
+    "date": "2026-09-19",
+    "thinker": "thoreau",
+    "name": "Henry David Thoreau",
+    "dates": "1817-1862",
+    "object": "group chats",
+    "verdict": "vulgar distraction",
+    "score": 1.4,
+    "essay": "A man who spends twelve minutes watching a red squirrel bury a walnut receives a full dividend of wildness, whereas fifty neighbors gathered in a digital parlor pay three hours of daylight to exchange four hundred notes on the price of hay they never mowed. They have compounded their voices into a single ledger, yet not one has declared a solvent thought. I see them twitch at every phantom chime, like river frogs startled by a thrown pebble, mistaking the ripples in the mud for genuine news. To be summoned seven times in an hour merely to endorse another man's lunch or tally his petty grievances is to let one's capital be discounted by vulgar fractions. We sell our afternoon solitude—which costs nothing to keep, yet requires five miles of firm walking to reclaim—for the privilege of shouting into a crowded cellar where all speak together and none hears. The squirrel buries his store without consulting a committee of sixty, content to let his winter interest accumulate in silence beneath the pine needles, while men barter away their daylight for the empty echo of an endless caucus.",
+    "generated": "2026-09-19T19:21:36+00:00",
+    "provider": "gemini",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-09-19"
   }
 ]
