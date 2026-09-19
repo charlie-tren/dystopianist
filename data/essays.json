@@ -1692,5 +1692,19 @@
     "provider": "gemini",
     "scored_by": "cloudflare/100",
     "reread": "2026-09-19"
+  },
+  {
+    "date": "2026-09-19",
+    "thinker": "russell",
+    "name": "Bertrand Russell",
+    "dates": "1872-1970",
+    "object": "The Matrix (1999)",
+    "verdict": "machinery of deceit",
+    "score": 2.7,
+    "essay": "We are accustomed to think that truth is always desirable and illusion a misfortune. The makers of this film appear to believe the same, yet they present us with a reality so thoroughly disagreeable that any sane person would prefer the dream. The protagonist is offered a choice between a comfortable, if artificial, existence in a civilised city and a wretched life in a subterranean cavern where the food resembles wallpaper paste. Having chosen enlightenment, his principal duty becomes the shooting of guards in dark glasses; this is a peculiar reward for curiosity. The illusion itself is rendered in a soothing green shade, whereas the truth is grey, noisy, and constantly exploding. The film demands that we admire the courage of those who wake up, yet it entices us purely through the slick visual mechanics of the sleep state. We are asked to reject the machinery of deceit while spending two hours thoroughly enjoying its acrobatic display. I have observed in myself a similar inconsistency whenever I praise the simple life while remaining in a warm room. If the real world offers nothing better than tin porridge and endless warfare against machines, I see no reason to congratulate ourselves on our awakening.",
+    "generated": "2026-09-19T23:04:31+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100",
+    "reread": "2026-09-19"
   }
 ]
