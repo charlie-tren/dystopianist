@@ -1629,12 +1629,12 @@
     "name": "George Orwell",
     "dates": "1903-1950",
     "object": "emojis",
-    "verdict": "suspicious trend",
-    "score": 2.3,
+    "verdict": "simplistic icons",
+    "score": 1.4,
     "essay": "The use of emojis in our daily communication has become a ubiquitous phenomenon, a shorthand for emotions and ideas that is at once convenient and simplistic. You see them everywhere, appended to the end of texts and emails like a reflex, a way of conveying tone and sentiment without actually having to express it in words. It is a curious thing, this reliance on tiny images to convey meaning, and it speaks to a broader trend in our culture, a trend towards brevity and superficiality. We are content to use emojis to express complex emotions, to reduce the nuances of human feeling to a set of simplistic icons, and in doing so, we risk losing the ability to express ourselves in a meaningful way. The emoji has become a substitute for real language, a way of avoiding the labour of actual communication, and it is a development that should be viewed with suspicion.",
     "generated": "2026-09-18T18:01:09+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-18"
   },
   {
@@ -1664,5 +1664,19 @@
     "provider": "gemini",
     "scored_by": "cloudflare/100",
     "reread": "2026-09-18"
+  },
+  {
+    "date": "2026-09-19",
+    "thinker": "twain",
+    "name": "Mark Twain",
+    "dates": "1835-1910",
+    "object": "the hot shower",
+    "verdict": "mindless contentment",
+    "score": 4.3,
+    "essay": "A man will start out in the morning with the noblest intentions, full of Christian charity and ready to face any hardship the world can throw at him, until he steps under an indoor cloud of scalding water and stays there for twenty minutes. That brass nozzle hanging over his head works a curious kind of deception on his character. It turns the most hard-headed citizen into a dripping, mindless lump of contentment who believes that rain was invented solely for his personal comfort and at precisely ninety-eight degrees. He stands there in the steam, feeling as wise and virtuous as a bishop, convinced he has somehow earned the right to have a hot tropical storm delivered directly into his own quarters. The trouble with this sort of luxury is that it steals a man's courage without him ever noticing the theft. By the time he shuts off the valve, he finds that ten minutes of warm vapor have utterly ruined his capacity to endure the ordinary temperature of the room. He steps out onto the rug a distinctly softer creature, shivering like a skinned eel and entirely unfit for honest labor.",
+    "generated": "2026-09-19T18:01:00+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100",
+    "reread": "2026-09-19"
   }
 ]
