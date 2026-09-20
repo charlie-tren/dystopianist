@@ -1720,5 +1720,19 @@
     "provider": "gemini",
     "scored_by": "gemini/100",
     "reread": "2026-09-20"
+  },
+  {
+    "date": "2026-09-20",
+    "thinker": "adams",
+    "name": "Douglas Adams",
+    "dates": "1952-2001",
+    "object": "the step counter",
+    "verdict": "mild disdain",
+    "score": 3.8,
+    "essay": "The step counter, a device whose purpose is to meticulously record the user's every ambulation, has become an ubiquitous presence in the daily lives of many, its influence extending far beyond the mere tracking of footsteps to subtly shape the rhythms and habits of those who wear it, often in ways that are only tangentially related to the act of walking itself, and yet, despite this profound impact, it remains a curiously passive entity, content to simply accumulate data with all the passion and charisma of a slightly overzealous accountant, never once pausing to consider the broader implications of its findings, or indeed, whether anybody is actually paying attention to them, beyond the fleeting thrill of watching a numerical total slowly increment, a phenomenon that has been observed to exert a strange, almost hypnotic fascination over its users, drawing them into a world of arcane competition and self-surveillance, from which they emerge, blinking, into a reality that is barely distinguishable from the one they left behind, except that they are now slightly more aware of the distance between their front door and the nearest bus stop.",
+    "generated": "2026-09-20T19:31:54+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-09-20"
   }
 ]
