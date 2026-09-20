@@ -397,12 +397,12 @@
     "name": "David Foster Wallace",
     "dates": "1962-2008",
     "object": "airport lounges",
-    "verdict": "provisional oasis",
-    "score": 4.7,
-    "essay": "As you settle into the plush armchair, surrounded by the muted hum of conversation and the occasional clinking of glasses, it becomes clear that the lounge is designed to insulate you from the chaos of the terminal, to envelop you in a sense of privilege and exclusivity, which, if you're being honest with yourself, is a feeling you're not entirely sure you deserve, but are more than happy to indulge in, if only for a little while, because what's the harm, really, in pretending to be someone you're not, at least in this fleeting, liminal space, where the rules of everyday life seem to bend and warp, and you can almost convince yourself that you belong here, among the well-heeled and the frequent flyers, until, that is, you catch a glimpse of yourself in the mirror, and are reminded, once again, of the fragile, provisional nature of this little oasis, and the fact that, no matter how comfortable you get, you're still just a traveler, waiting to be somewhere else.",
+    "verdict": "frantic serenity",
+    "score": 6.2,
+    "essay": "The carpet is always a specific, soil-resistant shade of slate blue—the exact color, it occurs to me, of an expensive office printer—and the lighting is engineered to eliminate shadows without actually being bright. There were thirty-four people in the lounge annex at 6:15 AM on a Tuesday. Exactly four of them were eating lukewarm hard-boiled eggs out of a stainless-steel chafing dish, using metal tongs that felt unnecessarily cold to the touch. The rest of us were engaged in a frantic, quietly aggressive attempt to perform serenity. You pay the annual fee or flash the black plastic card not for the free, sour Prosecco, but for the spatial illusion that you are less of a herd animal than the people sitting on the vinyl gang-chairs thirty feet outside the frosted glass door. I spent forty minutes drinking machine-brewed espresso that tasted like warm pencil shavings, watching a guy in an immaculate grey fleece vest whisper into a Bluetooth earpiece about third-quarter logistics. I wanted to hate him. I wanted to feel superior to his corporate posture, but the terrible truth is that I had spent twenty minutes adjusting my own spine against the faux-leather chair so I would look like someone who belonged there.",
     "generated": "2026-08-26T03:15:03+00:00",
-    "provider": "cloudflare",
-    "scored_by": "gemini/100",
+    "provider": "gemini",
+    "scored_by": "cloudflare/100",
     "reread": "2026-09-05"
   },
   {
@@ -1733,6 +1733,20 @@
     "generated": "2026-09-20T19:31:54+00:00",
     "provider": "cloudflare",
     "scored_by": "cloudflare/100",
+    "reread": "2026-09-20"
+  },
+  {
+    "date": "2026-09-20",
+    "thinker": "kafka",
+    "name": "Franz Kafka",
+    "dates": "1883-1924",
+    "object": "influencers",
+    "verdict": "recorded gestures",
+    "score": 1.6,
+    "essay": "The young woman in the window continues to turn her face toward the lit aperture, smiling with an earnestness that suggests she is speaking directly to B., though B. knows that hundreds of others stand in similar dark rooms, each believing the same gesture was intended solely for them. It is not that she refuses to acknowledge B. individually, but rather that the official procedure of her address requires her to maintain the appearance of a private interview while addressing an infinite crowd whose names she will never be permitted to record. B. has waited all afternoon for the moment when her hand, currently poised above a tiny jar of ointment, might finally come to rest, thereby concluding the demonstration and allowing the observers to disperse to their own duties. Yet each time the motion seems on the verge of ending, she discovers another small bottle upon her table, or remembers a further detail regarding her morning routine, which must be explained with the same civilised patience before any transcript can be closed. Thus B. remains standing before the glass, unable to leave lest the single meaningful signal be given in his absence, though he suspects that the clerk responsible for filing these recorded gestures has long since abandoned his office.",
+    "generated": "2026-09-20T23:15:25+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100",
     "reread": "2026-09-20"
   }
 ]
