@@ -1643,12 +1643,12 @@
     "name": "Walt Whitman",
     "dates": "1819-1892",
     "object": "chatbots",
-    "verdict": "digital wonder",
-    "score": 8.3,
+    "verdict": "endless frontier",
+    "score": 8.8,
     "essay": "The tangle of wires, circuit boards, keyboards, and screens - all intertwined to form the framework of these curious entities - chatbots that converse with us, answer our queries, and mimic the cadence of human speech; the whir of servers, the glow of monitors, the hum of machinery - a symphony of sounds that underscore their operation; the snippets of code, the algorithms, and data streams that flow through them like lifeblood - pulsating, ever-changing, and adapting to our interactions; the people who interact with them, their faces aglow with the light of screens, their fingers dancing across keyboards, their voices raised in conversation - a tableau of human connection in the digital realm; the digital landscapes they inhabit, the virtual spaces they populate, the cyber realms they navigate - a vast, uncharted territory that stretches out before us like an endless frontier.",
     "generated": "2026-09-18T19:41:29+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-18"
   },
   {
@@ -1706,5 +1706,19 @@
     "provider": "gemini",
     "scored_by": "gemini/100",
     "reread": "2026-09-19"
+  },
+  {
+    "date": "2026-09-20",
+    "thinker": "montaigne",
+    "name": "Michel de Montaigne",
+    "dates": "1533-1592",
+    "object": "emojis",
+    "verdict": "curious shorthand",
+    "score": 4.3,
+    "essay": "I have often observed in my own disposition a strange laziness of speech, finding that when I would fain express the small, fleeting motions of my soul: a faint pleasure, a subtle mock, or a sudden irritation; the clumsy weight of formal words seems rather to smother than to illuminate my meaning. In such moments of infirmity, I find myself resorting to those painted grimaces and tiny faces that now populate our daily correspondence; for what a marvellous brevity there is in a yellow smile or a weeping eye, offering a quick sanctuary to a mind too idle to assemble a proper sentence. Yet I am not entirely certain whether this curious shorthand elevates our discourse or merely betrays our growing weakness; for in substituting a silent glyph for a well-weighed phrase, I suspect I often surrender that subtle shading of thought which alone distinguishes a civilised man from a mute beast. Peradventure we imagine ourselves rendered more eloquent by these colourful emblems, when in truth we have only returned to the rudimentary gestures of the nursery; and yet, whenever I am pressed for time or overcome by my customary irresolution, I continue to send these painted tokens to my neighbours, uncertain if I am cultivating a refined art of glance and allusion, or simply confessing the poverty of my own invention.",
+    "generated": "2026-09-20T18:00:53+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100",
+    "reread": "2026-09-20"
   }
 ]

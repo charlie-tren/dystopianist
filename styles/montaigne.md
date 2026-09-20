@@ -46,6 +46,7 @@ Source: Essays, trans. Charles Cotton, Project Gutenberg #3600
 - A reader of Michel de Montaigne would have expected 'I' instead of 'we' to start the sentence, allowing for later generalization. Seen in a published essay: "I remain doubtful whether we ever truly conquer the terrors we pretend to master." (found 2026-09-11).
 - A reader of Michel de Montaigne would have expected a more tentative and exploratory tone, such as 'I find myself wondering if praising suffering while one is whole might be the cheapest form of valour' Seen in a published essay: "yet to praise suffering while one is whole is the cheapest form of valour" (found 2026-09-12).
 - A reader of Michel de Montaigne would have expected 'I' instead of 'we' to start the sentence, allowing for later generalization, such as 'And yet, I know not if by dulling my aches so easily, I do not also soften my spirit' Seen in a published essay: "And yet, I know not if by dulling our aches so easily, we do not also soften our spirit" (found 2026-09-12).
+- The assertion is too definitive; a reader of Montaigne would expect a more tentative qualification, such as 'or whether we have merely returned'. Seen in a published essay: "when in truth we have only returned to the rudimentary gestures of the nursery" (found 2026-09-20).
 ## Log
 
 - 25/08/2026 - added. Two real passages from the Cotton translation.
