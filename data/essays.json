@@ -397,12 +397,12 @@
     "name": "David Foster Wallace",
     "dates": "1962-2008",
     "object": "airport lounges",
-    "verdict": "frantic serenity",
-    "score": 6.2,
+    "verdict": "spatial illusion",
+    "score": 1.6,
     "essay": "The carpet is always a specific, soil-resistant shade of slate blue—the exact color, it occurs to me, of an expensive office printer—and the lighting is engineered to eliminate shadows without actually being bright. There were thirty-four people in the lounge annex at 6:15 AM on a Tuesday. Exactly four of them were eating lukewarm hard-boiled eggs out of a stainless-steel chafing dish, using metal tongs that felt unnecessarily cold to the touch. The rest of us were engaged in a frantic, quietly aggressive attempt to perform serenity. You pay the annual fee or flash the black plastic card not for the free, sour Prosecco, but for the spatial illusion that you are less of a herd animal than the people sitting on the vinyl gang-chairs thirty feet outside the frosted glass door. I spent forty minutes drinking machine-brewed espresso that tasted like warm pencil shavings, watching a guy in an immaculate grey fleece vest whisper into a Bluetooth earpiece about third-quarter logistics. I wanted to hate him. I wanted to feel superior to his corporate posture, but the terrible truth is that I had spent twenty minutes adjusting my own spine against the faux-leather chair so I would look like someone who belonged there.",
     "generated": "2026-08-26T03:15:03+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-05"
   },
   {
@@ -1748,5 +1748,19 @@
     "provider": "gemini",
     "scored_by": "gemini/100",
     "reread": "2026-09-20"
+  },
+  {
+    "date": "2026-09-21",
+    "thinker": "adams",
+    "name": "Douglas Adams",
+    "dates": "1952-2001",
+    "object": "reclining a seat on a plane",
+    "verdict": "grand illusion",
+    "score": 7.3,
+    "essay": "The tiny, recessed plastic button set into an armrest represents a remarkably sophisticated attempt to solve a problem by transferring it entirely onto somebody else. By pressing it, a passenger who has paid a considerable sum to sit upright in an aluminium tube can unilaterally repossess three inches of air from the knee of the stranger behind them, an act that is legally sanctioned, structurally supported, and almost universally regarded as a declaration of war. The mechanism itself is predicated on a grand illusion: the belief that by tilting the human spine backward by a distance roughly equivalent to the thickness of a hardback dictionary, one can instantly realise the luxurious comfort of a private suite. In practice, the transition is rarely gentle; it occurs with a sudden, hydraulic shudder that reliably capsizes any hot beverage resting on the adjacent tray table. What makes the system so extraordinarily durable is that both participants, despite being locked in a state of profound physical discomfort, will spend the remainder of the flight pretending that nothing has happened, largely because civilised society has provided no protocol for arguing with a human head that is now hovering five inches above one's lap.",
+    "generated": "2026-09-21T18:01:24+00:00",
+    "provider": "gemini",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-09-21"
   }
 ]
