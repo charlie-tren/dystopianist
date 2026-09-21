@@ -1762,5 +1762,19 @@
     "provider": "gemini",
     "scored_by": "cloudflare/100",
     "reread": "2026-09-21"
+  },
+  {
+    "date": "2026-09-21",
+    "thinker": "confucius",
+    "name": "Confucius",
+    "dates": "551-479 BC",
+    "object": "audiobooks",
+    "verdict": "measured approval",
+    "score": 7.3,
+    "essay": "The Master said, 'When one listens to the spoken word, without the labour of reading, then we know how the mind may be free to ponder, yet also prone to wander.' The Master said, 'The wise are mindful of their attention; the virtuous of their understanding; and the bold of their retention.' The Master said, 'To hear a story or a lesson, and not to reflect on it,-- this, indeed, should be pronounced as not having heard.' The Master said, 'I have walked and listened, and found my thoughts clarified, but only when I also took the time to consider and to remember.' The Master said, 'The object of the superior man is to cultivate his mind, and to realise the value of what he hears, that he may become a more civilised and neighbourly person.'",
+    "generated": "2026-09-21T21:08:04+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-09-21"
   }
 ]
