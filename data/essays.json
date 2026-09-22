@@ -1804,5 +1804,19 @@
     "provider": "cloudflare",
     "scored_by": "cloudflare/100",
     "reread": "2026-09-22"
+  },
+  {
+    "date": "2026-09-22",
+    "thinker": "montaigne",
+    "name": "Michel de Montaigne",
+    "dates": "1533-1592",
+    "object": "dating apps",
+    "verdict": "curious paradox",
+    "score": 6.7,
+    "essay": "I find myself pondering the nature of these curious tools, where individuals present themselves to one another in a flurry of images and brief descriptions; and I wonder, do they truly reveal the essence of a person, or merely a carefully crafted facade: a persona that may or may not align with the reality of their being. As I consider this, I am reminded of my own tendencies to present myself in a certain light, to don a mask of civility and refinement, even when my true thoughts and feelings may be far more tumultuous; and I ask myself, are these individuals on these dating apps not doing the same, putting forth a version of themselves that they believe will be most appealing to others, rather than their authentic selves. I am uncertain, however, whether this is a prudent approach, for in the end, it is not the polished exterior that forms the basis of a meaningful connection, but rather the unvarnished truth of one's character; and yet, I also suspect that it is precisely this veneer of polish and refinement that often serves as the initial spark, the catalyst that sets the wheels of attraction in motion: a curious paradox, indeed, and one that I fear may ultimately lead to a profound disillusionment, as the reality of a person's nature inevitably asserts itself, and the carefully constructed facade begins to crumble.",
+    "generated": "2026-09-22T20:13:39+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-09-22"
   }
 ]
