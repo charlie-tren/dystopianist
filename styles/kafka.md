@@ -50,6 +50,7 @@ Source: The Trial, tr. David Wyllie, Project Gutenberg #7849
 - A reader of Franz Kafka would have expected a more subtle and implicit introduction of the idea, rather than a straightforward phrase like 'it became increasingly evident'. Seen in a published essay: "it became increasingly evident" (found 2026-09-11).
 - A reader of Franz Kafka would have expected a more convoluted and uncertain sentence structure, with multiple subordinate clauses, to convey the sense of ambiguity. Seen in a published essay: "although it was not entirely clear to what extent its presence was a necessity" (found 2026-09-11).
 - A reader of Franz Kafka would have expected a more vague and ominous description of the state, rather than a straightforward phrase like 'perpetual uncertainty'. Seen in a published essay: "leaving D. in a state of perpetual uncertainty" (found 2026-09-11).
+- A reader of Franz Kafka would have expected a more convoluted and indirect phrase, such as 'it became apparent that the cessation of H.'s efforts at this juncture would necessitate a reevaluation of the afternoon's endeavour by the tally office' Seen in a published essay: "he realised that stopping now would render the entire afternoon's labour invalid in the eyes of the tally office" (found 2026-09-22).
 ## Log
 
 - 02/09/2026 - second sample added from the same Wyllie translation. Chosen as the flat exact accumulation of detail about a room, because the site asks him to describe an object and the first sample is all interiority. The oppressiveness is in the inventory, not in any adjective.
