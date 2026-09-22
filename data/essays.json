@@ -1790,5 +1790,19 @@
     "provider": "gemini",
     "scored_by": "gemini/100",
     "reread": "2026-09-22"
+  },
+  {
+    "date": "2026-09-22",
+    "thinker": "russell",
+    "name": "Bertrand Russell",
+    "dates": "1872-1970",
+    "object": "the washing machine",
+    "verdict": "increased drudgery",
+    "score": 2.3,
+    "essay": "I have noticed that the possession of a washing machine often leads people to generate more dirty laundry, as if the ease of cleaning has somehow increased the necessity of doing so. This is not a comment on the machine itself, but on our own labour habits; we seem to believe that the more we can do, the more we must do. The washing machine, in this sense, has become a tool not of liberation, but of increased drudgery. We are no longer content to wear our clothes for more than a day without washing them, and so we spend more time doing laundry than we ever did before. It is a curious thing, this desire to fill our time with unnecessary labour; one would think that the goal of civilised life would be to reduce the amount of time spent on such mundane tasks, not increase it.",
+    "generated": "2026-09-22T18:02:01+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-09-22"
   }
 ]
