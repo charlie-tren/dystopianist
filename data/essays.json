@@ -1818,5 +1818,19 @@
     "provider": "cloudflare",
     "scored_by": "cloudflare/100",
     "reread": "2026-09-22"
+  },
+  {
+    "date": "2026-09-22",
+    "thinker": "wallace",
+    "name": "David Foster Wallace",
+    "dates": "1962-2008",
+    "object": "dating apps",
+    "verdict": "casual commodification",
+    "score": 2.3,
+    "essay": "My left thumb has developed a tiny, almost imperceptible callous from the specific lateral motion of evaluating thirty-two women during a single commercial break. The interface presents a sequence of heavily compressed JPEG portraits, each accompanied by a brief text box where someone named Jessica or Megan attempts to project an unbothered, fun-loving ethos through curated references to hot sauce or local dive bars. The algorithm operates on a proximity metric of four point eight miles, suggesting that these people are physically near enough to hear you cough, yet the mechanism feels as emotionally remote as selecting a bathmat from a digital catalog. You find yourself making instantaneous, utterly ruthless aesthetic adjudications based on lighting, posture, and whether a golden retriever looks adequately cared for. But the real humiliation is not this casual commodification of strangers, which is familiar enough. It is the sudden, cold realization that while sitting on the edge of an unmade mattress in grey sweatpants dismissing these women, I have spent forty-five minutes obsessively tweaking my own profile—selecting the one picture where I appear mysteriously thoughtful—to market a fictional version of myself, desperately hoping to fool some equally lonely stranger into mistaking my performance for warmth.",
+    "generated": "2026-09-22T23:36:46+00:00",
+    "provider": "gemini",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-09-22"
   }
 ]
