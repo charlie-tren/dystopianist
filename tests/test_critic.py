@@ -78,6 +78,39 @@ def main() -> int:
             fails.append(f"{label}: expected {'a rejection' if want else 'clean'}, "
                          f"got {filler_problems(text, t) or 'clean'}")
 
+    # --- the verdict is the site's voice, not a machine's --------------------
+    # 22/09/2026: Kafka on the step counter published as "invalid labour", which
+    # is lifted from the prose and still reads as a form rejecting an entry.
+    # The list has to catch that and leave the bureaucratic English alone - half
+    # the corpus is about offices, and "permission denied" is a fine verdict.
+    plain = ("The counter demanded a particular quality of stride, and at "
+             "midnight the ledger cleared itself before his effort had been "
+             "acknowledged, so he began the march anew in the damp air.")
+    for verdict, want_reject in (("invalid labour", True),
+                                 ("a null reading", True),
+                                 ("timeout", True),
+                                 ("the ledger clears", False),
+                                 ("permission denied", False),
+                                 ("solemn humbug", False)):
+        got = [p for p in critic.check(plain, t, {}, verdict, 5.0)
+               if "status line" in p]
+        if bool(got) != want_reject:
+            fails.append(f"verdict {verdict!r}: expected "
+                         f"{'a rejection' if want_reject else 'clean'}, "
+                         f"got {got or 'clean'}")
+    print("  ok  status-word verdicts rejected, bureaucratic English kept")
+
+    # ...and the repair tool reads the same list, so it cannot drift from the gate.
+    import importlib.util
+    spec = importlib.util.spec_from_file_location(
+        "reverdict", ROOT / "tools" / "reverdict.py")
+    reverdict = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(reverdict)
+    if not reverdict.is_grade("invalid labour"):
+        fails.append("tools/reverdict.py would not pick up a status-word verdict")
+    if reverdict.is_grade("the ledger clears"):
+        fails.append("tools/reverdict.py would re-read a perfectly good verdict")
+
     # --- no control bytes anywhere in the source ----------------------------
     # 0x07 bell, 0x08 backspace, 0x0b vertical tab, 0x0c form feed. None of these
     # belong in Python source, and each is invisible in every diff and editor.

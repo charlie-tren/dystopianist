@@ -64,6 +64,33 @@ def us_spellings(text: str) -> list[tuple[str, str]]:
             out.append((m.group(1), US_SPELLING[w]))
     return out
 
+#: Words that read as a machine's status line rather than a judgement, banned in
+#: the VERDICT only - the essay may use any of them freely, and Kafka's tally
+#: office is exactly the subject that will.
+#:
+#: 22/09/2026, Charlie on the Kafka step-counter verdict "invalid labour": "sounds
+#: off for kafka on ghostwriters". The verdict prints in a column beside sixty-odd
+#: others, and the column is the SITE speaking - the same reason that column is
+#: Australian English whoever the essay is by. A form-validation word in it reads
+#: as a bug in the page rather than a reading of the essay.
+#:
+#: The prompt could not have caught this one, and did not: it asks for a phrase
+#: lifted from the prose over a grade, and "invalid labour" IS lifted, from "render
+#: the entire afternoon's labour invalid". It passed every rule that existed.
+#:
+#: "invalid" also carries the noun, and the noun is a sick person, so "invalid
+#: labour" first parses as work done by an invalid. A two-word verdict has no room
+#: to disambiguate itself; a word with two registers is a word with the wrong one.
+#:
+#: Keep this list to words whose ONLY plain-English register is a system or a
+#: form. "denied", "rejected", "expired", "void" all belong to bureaucracy as well
+#: as to software, and bureaucracy is half of what this site is about - they are
+#: deliberately absent.
+STATUS_WORDS = {
+    "invalid", "error", "errors", "null", "undefined", "timeout", "unsupported",
+    "exception", "n/a",
+}
+
 # Phrases that give away the pastiche as pastiche, or that are the model talking
 # about the task instead of doing it.
 TELLS = [
@@ -97,6 +124,10 @@ def check(essay: str, thinker: dict, shots: dict[str, str],
     # American: catalog, organized, anesthesia, mechanized, theater.
     for found, au in us_spellings(verdict):
         problems.append(f"verdict spells {found!r}, want {au!r}")
+    for word in re.findall(r"[a-z/]+", verdict.lower()):
+        if word in STATUS_WORDS:
+            problems.append(f"verdict says {word!r}, which reads as a status "
+                            f"line and not a judgement")
     if re.search(r"\d(?:\.\d)?\s*(?:/|out of)\s*(?:10|ten)|\bten out of ten\b",
                  essay, re.I):
         problems.append("states a score in the essay")

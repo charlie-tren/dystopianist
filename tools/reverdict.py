@@ -29,6 +29,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
+import critic                      # noqa: E402
 import render                      # noqa: E402
 import styles                      # noqa: E402
 import write as write_stage        # noqa: E402
@@ -50,6 +51,13 @@ GRADEY = {
 def is_grade(verdict: str) -> bool:
     v = (verdict or "").lower()
     if not v.strip():
+        return True
+    # critic.STATUS_WORDS is the second way a verdict comes out in the wrong
+    # voice, added 22/09/2026: not a grade for the essay but a status line for a
+    # machine. "invalid labour" for Kafka on the step counter. One list, read
+    # from the module that enforces it on new essays, so this tool and the gate
+    # cannot drift apart.
+    if any(w in v.split() for w in critic.STATUS_WORDS):
         return True
     return any(w in v.split() or w in v for w in GRADEY)
 

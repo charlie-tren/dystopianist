@@ -116,6 +116,11 @@ where 0 is total contempt and 100 is unreserved delight.
   theatre not theater, anaesthesia not anesthesia, catalogue not catalog. The verdict
   prints in a column beside sixty-five others, so it is the site's spelling and not
   the essay's.
+- Lifting the words is not enough on its own: the phrase still has to read as a
+  judgement out loud, on its own, with nothing around it. "invalid labour" was
+  lifted faithfully from an essay about a step counter and reads as a form
+  rejecting an entry. No status words - invalid, error, null, timeout - and no word
+  that carries a second meaning a two-word phrase cannot settle.
 - Judge the STANCE, not the surface vocabulary. Calm, level or affectless prose
   about something the writer plainly finds ominous is not approval. Kafka writing
   that a device waits "quietly, patiently" for the moment to strike is describing
