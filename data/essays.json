@@ -1832,5 +1832,19 @@
     "provider": "gemini",
     "scored_by": "cloudflare/100",
     "reread": "2026-09-22"
+  },
+  {
+    "date": "2026-09-23",
+    "thinker": "austen",
+    "name": "Jane Austen",
+    "dates": "1775-1817",
+    "object": "Wikipedia",
+    "verdict": "uneven terrain",
+    "score": 3.8,
+    "essay": "The propensity of individuals to contribute to a communal repository of knowledge, wherein the labours of many are compiled and presented as a cohesive whole, is a circumstance that invites reflection. The ease with which one may access and peruse the accumulated wisdom of countless minds is a privilege that few would deny, and yet the outcome is not always more pleasing. For in the midst of such unbridled expression, a certain lack of discernment may prevail, whereby the judicious and the frivolous are afforded equal prominence, and the unwary reader is left to discern the merits of each contribution without the benefit of guiding authority. And thus, whilst the endeavour itself may be deemed laudable, the consequence of such untrammelled liberty is a landscape of uneven terrain, wherein the diligent seeker of knowledge must navigate a vast and varied expanse, beset on all sides by the conflicting opinions and assertions of others, without any certain guarantee of encountering wisdom or truth.",
+    "generated": "2026-09-23T18:04:22+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-09-23"
   }
 ]
