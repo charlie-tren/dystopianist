@@ -1860,5 +1860,19 @@
     "provider": "gemini",
     "scored_by": "gemini/100",
     "reread": "2026-09-23"
+  },
+  {
+    "date": "2026-09-23",
+    "thinker": "thompson",
+    "name": "Hunter S Thompson",
+    "dates": "1937-2005",
+    "object": "the step counter",
+    "verdict": "digital extortion",
+    "score": 1.2,
+    "essay": "The cheap plastic parasite strapped to my wrist started buzzing at four in the morning, vibrating with the synthetic authority of a federal marshal and demanding that I perform eight hundred additional paces before sunrise or face the quiet, cold wrath of an algorithm written by sedentary bean-counters in Palo Alto. It was a vicious piece of digital extortion. I spent two frantic hours pacing the grease-stained hallway of a motel in Reno, listening to the tiny invisible warden register each desperate stride, tracking my pulse, measuring my sweat, and silently reporting my coordinates to a shadowy consortium of health insurance executives who want nothing more than to deny my claims when my heart inevitably explodes from the sheer stress of living under constant surveillance. The terrifying truth is not the glowing numbers on the screen, but the realization that millions of supposedly free citizens are voluntarily chaining themselves to these snitching wrist-monsters, marching in frantic circles through suburban parking lots just to earn a digital pat on the head from an electronic warden that cares less about human dignity than a slaughterhouse foreman. We are marching to our own enslavement. The machine counts every twitch, feeds on your desperation, and demands total submission until you collapse on the carpet.",
+    "generated": "2026-09-23T23:43:18+00:00",
+    "provider": "gemini",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-09-23"
   }
 ]
