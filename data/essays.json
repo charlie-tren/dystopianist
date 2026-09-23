@@ -1846,5 +1846,19 @@
     "provider": "cloudflare",
     "scored_by": "cloudflare/100",
     "reread": "2026-09-23"
+  },
+  {
+    "date": "2026-09-23",
+    "thinker": "ephron",
+    "name": "Nora Ephron",
+    "dates": "1941-2012",
+    "object": "reclining a seat on a plane",
+    "verdict": "tiny, pointless territory",
+    "score": 2.4,
+    "essay": "I pushed the button on the armrest of Delta Flight 1422 from JFK to LAX before we even hit ten thousand feet. I knew it was wrong. I knew that the man behind me eating a Le Pain Quotidien turkey sandwich was about to have his knees crushed, and yet I pressed it. Two inches. That is all it gives you, two miserable inches of tilt, but in row 24, two inches feels like the difference between misery and sovereignty. I settled into my Tumi neck pillow, pulled down my Bose headphones, and pretended to read Vogue while he jammed his knuckles into my lumbar support in silent retaliation. We do this because we believe, against all evidence, that those two inches will turn an economy row into the Carlyle. They will not. Your neck still hurts, your Kirkland almonds still taste like salt and dust, and you are still trapped with two hundred strangers who despise you. But you will do it again on the return leg. We spend our lives fighting for tiny, pointless bits of territory, mostly just to prove we can take them.",
+    "generated": "2026-09-23T20:27:24+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100",
+    "reread": "2026-09-23"
   }
 ]
