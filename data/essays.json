@@ -1902,5 +1902,19 @@
     "provider": "cloudflare",
     "scored_by": "cloudflare/100",
     "reread": "2026-09-24"
+  },
+  {
+    "date": "2026-09-24",
+    "thinker": "twain",
+    "name": "Mark Twain",
+    "dates": "1835-1910",
+    "object": "anaesthesia",
+    "verdict": "mighty useful thing",
+    "score": 7.3,
+    "essay": "I reckon it's a curious thing, this business of anaesthesia, where a fella can just lie down and let someone poke and prod at him without so much as a whimper. It's a bit like trying to catch a cat in a sack, I suppose - you gotta be gentle, or the whole thing'll come unraveled. Now, I'm not one to pretend I know the first thing about how it all works, but it seems to me that these anaesthesia folks are like a bunch of skilled horse whisperers, able to calm the most skittish of nerves and get you to swallow just about anything. And yet, for all their fancy tricks and potions, I've seen folks come out of it looking like they've been put through a wringer - a bit dazed, a bit confused, and wondering what in tarnation just happened. Still, I reckon it's a mighty useful thing to have around, even if it does leave you feeling like you've been slept on by an elephant.",
+    "generated": "2026-09-24T23:53:26+00:00",
+    "provider": "cloudflare",
+    "scored_by": "gemini/100",
+    "reread": "2026-09-24"
   }
 ]
