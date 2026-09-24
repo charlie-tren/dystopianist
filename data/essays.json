@@ -1874,5 +1874,19 @@
     "provider": "gemini",
     "scored_by": "cloudflare/100",
     "reread": "2026-09-23"
+  },
+  {
+    "date": "2026-09-24",
+    "thinker": "orwell",
+    "name": "George Orwell",
+    "dates": "1903-1950",
+    "object": "the step counter",
+    "verdict": "symbol of obsession",
+    "score": 2.3,
+    "essay": "The step counter has become a constant companion to many people, silently tracking their every move and presenting them with a tally of their daily activity. You can see people glancing at these devices on the street, on the bus, and in the office, their faces a picture of quiet satisfaction or mild disappointment. It is a small thing, but it reveals a good deal about our attitude to labour and leisure. We are drawn to the idea of monitoring our own activity, of turning our lives into a kind of accounts ledger where every step is a credit and every period of inactivity a debit. This habit of mind is not unique to the step counter, but it is nowhere more clearly seen. We have grown accustomed to the notion that our lives must be productive, that every moment must be used to some purpose, and the step counter is a symbol of this obsession. It does not occur to us that we might simply walk for pleasure, without needing to measure the distance or count the calories burned. The step counter is a reminder that, for many of us, even our leisure time has become a kind of labour, something to be managed and optimised rather than simply enjoyed.",
+    "generated": "2026-09-24T18:00:53+00:00",
+    "provider": "cloudflare",
+    "scored_by": "gemini/100",
+    "reread": "2026-09-24"
   }
 ]
