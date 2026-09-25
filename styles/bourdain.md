@@ -54,6 +54,9 @@ Source: pastiche written for this repo (still in copyright)
 - A more specific and concrete example from the author's own experience was expected, rather than a generic statement about a faceless drone in a cubicle Seen in a published essay: "Somebody has to code the thing, to calibrate its measurements, to test its accuracy, and that somebody is probably a faceless drone in a cubicle, fueled by bad coffee and stale air" (found 2026-09-14).
 - More context about the specific work or the people doing it was expected, rather than a vague statement about cleaning up after you or keeping machines running Seen in a published essay: "who clean up after you, who keep the machines running" (found 2026-09-14).
 - A more nuanced and detailed description of the emotional response was expected, rather than a cliched phrase like 'that's what really matters' Seen in a published essay: "The data it spits out is just numbers, but the arithmetic of human labor, that's what really matters" (found 2026-09-14).
+- Expected sharp, concrete details of real work rather than vague, generic hand-waving. Seen in a published essay: "whatever it is you do" (found 2026-09-25).
+- Expected a specific brand name or gritty physical detail rather than stock, polite phrasing. Seen in a published essay: "courtesy of a buzzing alarm clock" (found 2026-09-25).
+- Expected cynical, raw, or visceral prose rather than a generic sentimental cliché. Seen in a published essay: "in the warm embrace of your bed" (found 2026-09-25).
 ## Log
 
 - 28/08/2026 - added at Charlie's request. In copyright, so both samples are pastiche. Died 2018, which makes him ineligible for every film currently in the config.

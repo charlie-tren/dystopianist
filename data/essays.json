@@ -1944,5 +1944,19 @@
     "provider": "cloudflare",
     "scored_by": "cloudflare/100",
     "reread": "2026-09-25"
+  },
+  {
+    "date": "2026-09-25",
+    "thinker": "bourdain",
+    "name": "Anthony Bourdain",
+    "dates": "1956-2018",
+    "object": "alarm clocks",
+    "verdict": "relentless reminder",
+    "score": 2.3,
+    "essay": "You wake up to the sound of it, the jolt of its ringing a harsh reminder that the day has begun, whether you like it or not. Somebody designed this thing, engineered it to be just annoying enough to get you out of bed, but not so annoying that you'd actually throw it across the room. Probably some faceless team of people, fueled by coffee and deadlines, who had to test its effectiveness, calibrate its tone, and decide exactly how much of your sleep-deprived sanity to strip away. And then there are the ones who assemble it, who pack it into boxes, who ship it to stores, and who ultimately sell it to you, all so you can be woken up at the crack of dawn to start another day of whatever it is you do. I've been on the receiving end of my fair share of early morning wake-up calls, courtesy of a buzzing alarm clock, and I can tell you that it's not just the device itself that's the problem, it's the entire system that supports it, the one that values punctuality and productivity over a good night's sleep. You hit the snooze button, and for a brief moment, you're back in the warm embrace of your bed, but the alarm clock just keeps on coming, a relentless reminder that the day is waiting, and somebody, somewhere, is expecting you to show up.",
+    "generated": "2026-09-25T23:57:33+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-09-25"
   }
 ]
