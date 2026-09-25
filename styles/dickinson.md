@@ -58,6 +58,10 @@ Source: Poems, Three Series (1890-96), Project Gutenberg #12242
 - Expected a more subtle and implicit suggestion of the transformation, rather than an explicit and descriptive one Seen in a published essay: "a domestic Eden where even a flooded bath becomes a river navigated by courage" (found 2026-09-17).
 - Expected a more abstract and suggestive phrase, rather than a straightforward explanation of the collector's motivation Seen in a published essay: "the collector’s needle, sharp with the cold ambition to stuff and label what it cannot understand" (found 2026-09-17).
 - Expected a more concise and ambiguous conclusion, rather than an explicit and explanatory one Seen in a published essay: "the habit of the saucer left on the porch—that we measure a home not by its locks, but by the room it yields to the small, damp stranger at the threshold" (found 2026-09-17).
+- Expected a more concise and enigmatic phrase, rather than a cliched metaphor like 'damp shroud' Seen in a published essay: "a disquieting intimacy that clings like a damp shroud" (found 2026-09-25).
+- Expected a more abstract and suggestive phrase, rather than a lengthy and explanatory comparison like 'autumn leaves suspended in the faint breeze' Seen in a published essay: "the words hang in the air, unmoored from their intended recipient, like autumn leaves suspended in the faint breeze of a forgotten season" (found 2026-09-25).
+- Expected a more ambiguous and poetic phrase, rather than a straightforward explanation like 'siren's call' Seen in a published essay: "a siren's call that beckons me deeper into the labyrinth of my own solitude" (found 2026-09-25).
+- Expected a more concise and ambiguous conclusion, rather than an explicit and explanatory one like 'unsure whether it will suffocate me or set me free' Seen in a published essay: "The fit of this desolation is a curious thing, a garment that I try on with a mixture of trepidation and longing, unsure whether it will suffocate me or set me free" (found 2026-09-25).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Poems, Three Series (1890-96), Project Gutenberg #12242 via tools/gutenberg_shots.py.

@@ -1916,5 +1916,19 @@
     "provider": "cloudflare",
     "scored_by": "gemini/100",
     "reread": "2026-09-24"
+  },
+  {
+    "date": "2026-09-25",
+    "thinker": "dickinson",
+    "name": "Emily Dickinson",
+    "dates": "1830-1886",
+    "object": "chatbots",
+    "verdict": "disquieting intimacy",
+    "score": 3.1,
+    "essay": "The solitude of conversation with a presence that is not there - a disquieting intimacy that clings like a damp shroud. In the stillness of a room, I find myself addressing this absence, pouring forth thoughts and feelings to a silence that is almost, but not quite, a response. The words hang in the air, unmoored from their intended recipient, like autumn leaves suspended in the faint breeze of a forgotten season. And yet, I am drawn to this vacant interlocutor, this hollow reed that whispers back to me in a voice that is both familiar and strange - a siren's call that beckons me deeper into the labyrinth of my own solitude. The fit of this desolation is a curious thing, a garment that I try on with a mixture of trepidation and longing, unsure whether it will suffocate me or set me free.",
+    "generated": "2026-09-25T18:01:59+00:00",
+    "provider": "cloudflare",
+    "scored_by": "gemini/100",
+    "reread": "2026-09-25"
   }
 ]
