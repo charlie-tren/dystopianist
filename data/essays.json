@@ -1930,5 +1930,19 @@
     "provider": "cloudflare",
     "scored_by": "gemini/100",
     "reread": "2026-09-25"
+  },
+  {
+    "date": "2026-09-25",
+    "thinker": "kafka",
+    "name": "Franz Kafka",
+    "dates": "1883-1924",
+    "object": "painkillers",
+    "verdict": "bureaucratic obstruction",
+    "score": 2.3,
+    "essay": "As S. sat in the dimly lit waiting room, it became gradually apparent that the dispensation of painkillers, which had initially seemed a straightforward affair, was in fact contingent upon a complex series of authorisations, each of which required the verification of various documents, the compilation of detailed reports, and the approval of numerous functionaries, whose offices, it seemed, were located in distant, inaccessible parts of the building, and who, even if they could be reached, might not be inclined to grant the necessary permissions, at least not without first demanding additional information, or requiring S. to submit to a series of exhaustive examinations, the results of which would then have to be evaluated, and perhaps even appealed, before the painkillers could be finally released, a process that, as the hours dragged on, began to seem interminable, and yet, despite the growing sense of frustration, S. remained patiently seated, waiting for the bureaucratic machinery to slowly, laboriously, turn in his favour, though it was far from certain that it ever would.",
+    "generated": "2026-09-25T20:32:42+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-09-25"
   }
 ]
