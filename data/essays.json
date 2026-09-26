@@ -1986,5 +1986,19 @@
     "provider": "cloudflare",
     "scored_by": "cloudflare/100",
     "reread": "2026-09-26"
+  },
+  {
+    "date": "2026-09-26",
+    "thinker": "proust",
+    "name": "Marcel Proust",
+    "dates": "1871-1922",
+    "object": "Paddington (2014)",
+    "verdict": "civilised gentleness",
+    "score": 9.4,
+    "essay": "The delicate, uncanny rendering of the young bear’s fur—which, under the damp, diffuse light of the railway platform, captures a golden luminescence not unlike the glazes applied by Dutch masters to render the pelt of a fallen hare—demands of the spectator an immediate surrender to a nostalgia for a London that exists solely as an architectural miniature, where every domestic interior presents itself with the luminous legibility of an illuminated manuscript. When the camera glides through the sliced façade of the Windsor Gardens residence, revealing its spiral staircase and painted blossom tree as though it were an elaborate Victorian dollhouse constructed to soothe the nerves of an invalid child, one perceives that the film's true power resides in its obsessive effort to realise a civilised gentleness, a warmth so fragile that the sudden intrusion of the villainous taxidermist—whose obsidian coat and clinical ruthlessness recall the terrifying elegance of an opera singer playing a demon—functions less as a conventional threat than as the painful intrusion of reality upon a dream of perfect welcome, leaving us at last to marvel at how easily a spoonful of orange preserve can temporarily reconcile us to the harsh mechanics of a world that so rarely forgives the outsider.",
+    "generated": "2026-09-26T23:38:27+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100",
+    "reread": "2026-09-26"
   }
 ]
