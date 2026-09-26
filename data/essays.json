@@ -1972,5 +1972,19 @@
     "provider": "cloudflare",
     "scored_by": "cloudflare/100",
     "reread": "2026-09-26"
+  },
+  {
+    "date": "2026-09-26",
+    "thinker": "thompson",
+    "name": "Hunter S Thompson",
+    "dates": "1937-2005",
+    "object": "influencers",
+    "verdict": "digital abyss",
+    "score": 1.2,
+    "essay": "We were careening through the digital wasteland when I stumbled upon these insidious creatures, and I knew at once that they were the spawn of a marketing behemoth that had never once been held accountable for its actions, a beast that had been feeding on our insecurities and vulnerabilities, growing stronger with each passing day, its tentacles wrapping tighter around our collective psyche, until it was clear that these influencers were not just peddling their wares, but were in fact the vanguard of a psychological warfare campaign designed to reduce us to a state of numb, compliant consumerism, and I thought to myself, this is the end, we're staring into the abyss of our own making, and the abyss is staring back, with a perfectly contoured face and a hashtag. It was a terrifying glimpse into the complete surrender of our free will.",
+    "generated": "2026-09-26T19:55:08+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-09-26"
   }
 ]
