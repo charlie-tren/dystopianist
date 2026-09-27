@@ -411,12 +411,12 @@
     "name": "David Foster Wallace",
     "dates": "1962-2008",
     "object": "self-checkout machines",
-    "verdict": "profoundly uncomfortable",
-    "score": 2.3,
-    "essay": "As you stand there, scanning each item with a mix of precision and apathy, it's hard not to wonder what exactly you're being sold on, besides the obvious convenience, which is really just a euphemism for a subtle reconfiguration of the labor dynamic, where you're now not only the consumer but also the workforce, tasked with the mundane duties of scanning, bagging, and paying, all while being quietly judged by the machine's disembodied voice, which seems to take a perverse pleasure in pointing out your errors, as if to remind you that, even in this ostensibly streamlined process, there's still room for human fallibility, and it's this tension, between the promise of efficiency and the reality of your own imperfect agency, that makes the experience of using these machines so strangely, and perhaps even profoundly, uncomfortable, in a way that's both deeply personal and utterly ordinary.",
+    "verdict": "supreme spiritual detachment",
+    "score": 6.2,
+    "essay": "The scanner at the Stop & Shop on Route 9 cannot read the smudge on a 16-ounce tub of Breakstone’s cottage cheese, and so a synthetic female voice of alarming warmth announces to the entire produce aisle that help is on the way. It uses an internal load-cell scale calibrated to fractions of a gram, which means that placing your key ring on the metal shelf while searching for cash triggers a system-wide lockup that only a nineteen-year-old named Tyler, wearing a faded blue apron and an expression of supreme spiritual detachment, can clear with his master keycard. Tyler does not look at me. He swipes, taps a red button marked Override, and vanishes. The psychological trap is that you are suddenly performing a mid-tier clerical task under the surveillance of three overhead wide-angle mirrors and four other shoppers waiting behind a yellow tape line, all while attempting to prove to an optic sensor that you possess the basic motor control of an adult mammal. I stood there for three full minutes attempting to enter the four-digit PLU code for a single crisp Granny Smith apple, paralyzed by the realization that I preferred the humiliation of the machine’s automated rebuke to the quiet, devastating eye contact of an actual cashier.",
     "generated": "2026-08-26T03:15:33+00:00",
-    "provider": "cloudflare",
-    "scored_by": "gemini/100",
+    "provider": "gemini",
+    "scored_by": "cloudflare/100",
     "reread": "2026-09-05"
   },
   {
@@ -1755,12 +1755,12 @@
     "name": "Douglas Adams",
     "dates": "1952-2001",
     "object": "reclining a seat on a plane",
-    "verdict": "grand illusion",
-    "score": 7.3,
+    "verdict": "declaration of war",
+    "score": 1.2,
     "essay": "The tiny, recessed plastic button set into an armrest represents a remarkably sophisticated attempt to solve a problem by transferring it entirely onto somebody else. By pressing it, a passenger who has paid a considerable sum to sit upright in an aluminium tube can unilaterally repossess three inches of air from the knee of the stranger behind them, an act that is legally sanctioned, structurally supported, and almost universally regarded as a declaration of war. The mechanism itself is predicated on a grand illusion: the belief that by tilting the human spine backward by a distance roughly equivalent to the thickness of a hardback dictionary, one can instantly realise the luxurious comfort of a private suite. In practice, the transition is rarely gentle; it occurs with a sudden, hydraulic shudder that reliably capsizes any hot beverage resting on the adjacent tray table. What makes the system so extraordinarily durable is that both participants, despite being locked in a state of profound physical discomfort, will spend the remainder of the flight pretending that nothing has happened, largely because civilised society has provided no protocol for arguing with a human head that is now hovering five inches above one's lap.",
     "generated": "2026-09-21T18:01:24+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-21"
   },
   {
@@ -2000,5 +2000,19 @@
     "provider": "gemini",
     "scored_by": "gemini/100",
     "reread": "2026-09-26"
+  },
+  {
+    "date": "2026-09-27",
+    "thinker": "suntzu",
+    "name": "Sun Tzu",
+    "dates": "c. 544-496 BC",
+    "object": "Shrek (2001)",
+    "verdict": "shared imperfection",
+    "score": 5.3,
+    "essay": "1. When a craft seeks to subvert ancient tales, it does not invent new forms; it distorts the familiar. 2. If noble traditions rely upon smooth grace, depict the hero as coarse, mud-bound, and contented in isolation. 3. There are but three primary methods to dismantle an established fable: mock its pageantry, introduce vulgar song, and compel the maiden to reveal a beastly secret. 4. If the lord of the court is diminutively built, place him in a towering fortress of rigid symmetry to expose his inflated pride. 5. Digital animation relies upon light and texture; where earlier drawn pictures rendered idealised grace, this craft depicts mud, rust, and physical imperfection to force immediate belief. 6. If the formal court music demands reverence, substitute the familiar rhythms of popular street songs to collapse solemnity into laughter. 7. When the princess chooses the ogre over the ruler, the audience is made to realise that true favour rests in shared imperfection rather than civilised appearance. 8. He who dismantles a legend by turning its sacred figures into objects of mockery captures the audience completely without establishing any new moral ground.",
+    "generated": "2026-09-27T18:01:13+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100",
+    "reread": "2026-09-27"
   }
 ]
