@@ -65,6 +65,11 @@ Source: Poems, Three Series (1890-96), Project Gutenberg #12242
 - Expected a more concise and enigmatic phrase, rather than a lengthy and explanatory comparison, such as a simple, suggestive image like 'a shadow on the mind' Seen in a published essay: "a cloak that wraps around the mind, muffling the sharp edges of pain, yet leaving the heart to beat with a quiet, muffled terror" (found 2026-09-26).
 - Expected a more ambiguous and poetic phrase, rather than a straightforward explanation, such as a cryptic, condensed metaphor like 'consciousness unraveling' Seen in a published essay: "as if the very fabric of consciousness had been woven with a thread of oblivion" (found 2026-09-26).
 - Expected a more concise and ambiguous conclusion, rather than an explicit and explanatory one, such as a simple, suggestive phrase like 'winter's dawn, and I am lost' Seen in a published essay: "like a winter's dawn, leaving me to wonder if I had ever truly been asleep - or merely suspended, like a drop of dew on a spider's web, waiting for the warmth of awareness to set me free" (found 2026-09-26).
+- Expected a more concise and enigmatic phrase, rather than a cliched metaphor like 'worn like a cloak' Seen in a published essay: "it can be worn like a cloak, tried on for size, and discarded at whim" (found 2026-09-27).
+- Expected a more abstract and suggestive phrase, rather than a straightforward explanation of the voice's effect Seen in a published essay: "a whispered promise of connection in the void" (found 2026-09-27).
+- Expected a more subtle and implicit suggestion of the transformation, rather than an explicit and descriptive one Seen in a published essay: "a sense of intimacy, a feeling that the speaker is addressing you, and you alone" (found 2026-09-27).
+- Expected a more concise and ambiguous conclusion, rather than an explicit and explanatory one Seen in a published essay: "a sense of being enveloped in a private world, where the boundaries between self and other are blurred" (found 2026-09-27).
+- Expected a more enigmatic comparison, rather than a straightforward and explanatory one Seen in a published essay: "guided by the voice, which is both a companion and a catalyst" (found 2026-09-27).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Poems, Three Series (1890-96), Project Gutenberg #12242 via tools/gutenberg_shots.py.

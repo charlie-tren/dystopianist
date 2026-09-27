@@ -411,12 +411,12 @@
     "name": "David Foster Wallace",
     "dates": "1962-2008",
     "object": "self-checkout machines",
-    "verdict": "supreme spiritual detachment",
-    "score": 6.2,
+    "verdict": "psychological trap",
+    "score": 1.8,
     "essay": "The scanner at the Stop & Shop on Route 9 cannot read the smudge on a 16-ounce tub of Breakstone’s cottage cheese, and so a synthetic female voice of alarming warmth announces to the entire produce aisle that help is on the way. It uses an internal load-cell scale calibrated to fractions of a gram, which means that placing your key ring on the metal shelf while searching for cash triggers a system-wide lockup that only a nineteen-year-old named Tyler, wearing a faded blue apron and an expression of supreme spiritual detachment, can clear with his master keycard. Tyler does not look at me. He swipes, taps a red button marked Override, and vanishes. The psychological trap is that you are suddenly performing a mid-tier clerical task under the surveillance of three overhead wide-angle mirrors and four other shoppers waiting behind a yellow tape line, all while attempting to prove to an optic sensor that you possess the basic motor control of an adult mammal. I stood there for three full minutes attempting to enter the four-digit PLU code for a single crisp Granny Smith apple, paralyzed by the realization that I preferred the humiliation of the machine’s automated rebuke to the quiet, devastating eye contact of an actual cashier.",
     "generated": "2026-08-26T03:15:33+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-05"
   },
   {
@@ -2013,6 +2013,20 @@
     "generated": "2026-09-27T18:01:13+00:00",
     "provider": "gemini",
     "scored_by": "gemini/100",
+    "reread": "2026-09-27"
+  },
+  {
+    "date": "2026-09-27",
+    "thinker": "dickinson",
+    "name": "Emily Dickinson",
+    "dates": "1830-1886",
+    "object": "podcasts",
+    "verdict": "whispered promise",
+    "score": 8.2,
+    "essay": "The solitude of a voice in the darkness - it can be worn like a cloak, tried on for size, and discarded at whim. A presence that fills the space, yet remains elusive, a whispered promise of connection in the void. The words, like delicate fingers, weave a tapestry of thought and emotion, a fragile thing that can be torn asunder by the slightest disturbance. And yet, in the stillness, it is possible to find a sense of intimacy, a feeling that the speaker is addressing you, and you alone - a sense of being enveloped in a private world, where the boundaries between self and other are blurred. The voice, a gentle breeze that stirs the mind, awakening thoughts and feelings that had lain dormant, like a seed waiting for the warmth of spring to germinate. In this quiet, inner space, the listener is free to roam, to explore the contours of their own heart and mind, guided by the voice, which is both a companion and a catalyst.",
+    "generated": "2026-09-27T20:12:56+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
     "reread": "2026-09-27"
   }
 ]
