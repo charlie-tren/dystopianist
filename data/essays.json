@@ -1769,12 +1769,12 @@
     "name": "Confucius",
     "dates": "551-479 BC",
     "object": "audiobooks",
-    "verdict": "measured approval",
-    "score": 7.3,
+    "verdict": "free to ponder",
+    "score": 6.3,
     "essay": "The Master said, 'When one listens to the spoken word, without the labour of reading, then we know how the mind may be free to ponder, yet also prone to wander.' The Master said, 'The wise are mindful of their attention; the virtuous of their understanding; and the bold of their retention.' The Master said, 'To hear a story or a lesson, and not to reflect on it,-- this, indeed, should be pronounced as not having heard.' The Master said, 'I have walked and listened, and found my thoughts clarified, but only when I also took the time to consider and to remember.' The Master said, 'The object of the superior man is to cultivate his mind, and to realise the value of what he hears, that he may become a more civilised and neighbourly person.'",
     "generated": "2026-09-21T21:08:04+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-21"
   },
   {
@@ -1798,11 +1798,11 @@
     "dates": "1872-1970",
     "object": "the washing machine",
     "verdict": "increased drudgery",
-    "score": 2.3,
+    "score": 2.9,
     "essay": "I have noticed that the possession of a washing machine often leads people to generate more dirty laundry, as if the ease of cleaning has somehow increased the necessity of doing so. This is not a comment on the machine itself, but on our own labour habits; we seem to believe that the more we can do, the more we must do. The washing machine, in this sense, has become a tool not of liberation, but of increased drudgery. We are no longer content to wear our clothes for more than a day without washing them, and so we spend more time doing laundry than we ever did before. It is a curious thing, this desire to fill our time with unnecessary labour; one would think that the goal of civilised life would be to reduce the amount of time spent on such mundane tasks, not increase it.",
     "generated": "2026-09-22T18:02:01+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-22"
   },
   {
@@ -1811,12 +1811,12 @@
     "name": "Michel de Montaigne",
     "dates": "1533-1592",
     "object": "dating apps",
-    "verdict": "curious paradox",
-    "score": 6.7,
+    "verdict": "a curious paradox",
+    "score": 3.8,
     "essay": "I find myself pondering the nature of these curious tools, where individuals present themselves to one another in a flurry of images and brief descriptions; and I wonder, do they truly reveal the essence of a person, or merely a carefully crafted facade: a persona that may or may not align with the reality of their being. As I consider this, I am reminded of my own tendencies to present myself in a certain light, to don a mask of civility and refinement, even when my true thoughts and feelings may be far more tumultuous; and I ask myself, are these individuals on these dating apps not doing the same, putting forth a version of themselves that they believe will be most appealing to others, rather than their authentic selves. I am uncertain, however, whether this is a prudent approach, for in the end, it is not the polished exterior that forms the basis of a meaningful connection, but rather the unvarnished truth of one's character; and yet, I also suspect that it is precisely this veneer of polish and refinement that often serves as the initial spark, the catalyst that sets the wheels of attraction in motion: a curious paradox, indeed, and one that I fear may ultimately lead to a profound disillusionment, as the reality of a person's nature inevitably asserts itself, and the carefully constructed facade begins to crumble.",
     "generated": "2026-09-22T20:13:39+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-22"
   },
   {
@@ -1826,11 +1826,11 @@
     "dates": "1962-2008",
     "object": "dating apps",
     "verdict": "casual commodification",
-    "score": 2.3,
+    "score": 1.2,
     "essay": "My left thumb has developed a tiny, almost imperceptible callous from the specific lateral motion of evaluating thirty-two women during a single commercial break. The interface presents a sequence of heavily compressed JPEG portraits, each accompanied by a brief text box where someone named Jessica or Megan attempts to project an unbothered, fun-loving ethos through curated references to hot sauce or local dive bars. The algorithm operates on a proximity metric of four point eight miles, suggesting that these people are physically near enough to hear you cough, yet the mechanism feels as emotionally remote as selecting a bathmat from a digital catalog. You find yourself making instantaneous, utterly ruthless aesthetic adjudications based on lighting, posture, and whether a golden retriever looks adequately cared for. But the real humiliation is not this casual commodification of strangers, which is familiar enough. It is the sudden, cold realization that while sitting on the edge of an unmade mattress in grey sweatpants dismissing these women, I have spent forty-five minutes obsessively tweaking my own profile—selecting the one picture where I appear mysteriously thoughtful—to market a fictional version of myself, desperately hoping to fool some equally lonely stranger into mistaking my performance for warmth.",
     "generated": "2026-09-22T23:36:46+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-22"
   },
   {
@@ -2042,5 +2042,19 @@
     "provider": "gemini",
     "scored_by": "cloudflare/100",
     "reread": "2026-09-27"
+  },
+  {
+    "date": "2026-09-28",
+    "thinker": "dickinson",
+    "name": "Emily Dickinson",
+    "dates": "1830-1886",
+    "object": "dating apps",
+    "verdict": "fragile intimacy",
+    "score": 6.7,
+    "essay": "In the quiet hours, a certain solitude is courted, a deliberate invitation to the unknown, through the fragile portal of a screen. The face, a fleeting visitation, a whispered promise of connection, is tried on, like a garment, for size, for fit, for the semblance of intimacy. The words, a tentative caress, a probing of the depths, are exchanged, with the diffidence of one who fears to be seen, yet longs to be revealed. The trying on of selves, the donning of personas, is a delicate dance, a negotiation of the boundaries between the inner and the outer, the self and the other. And when the encounter is ended, the screen gone dark, the silence that follows is a palpable thing, a stillness that enfolds, like a shroud, the fragile, flickering flame of hope.",
+    "generated": "2026-09-28T18:01:27+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-09-28"
   }
 ]
