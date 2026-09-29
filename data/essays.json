@@ -1840,11 +1840,11 @@
     "dates": "1775-1817",
     "object": "Wikipedia",
     "verdict": "uneven terrain",
-    "score": 3.8,
+    "score": 3.9,
     "essay": "The propensity of individuals to contribute to a communal repository of knowledge, wherein the labours of many are compiled and presented as a cohesive whole, is a circumstance that invites reflection. The ease with which one may access and peruse the accumulated wisdom of countless minds is a privilege that few would deny, and yet the outcome is not always more pleasing. For in the midst of such unbridled expression, a certain lack of discernment may prevail, whereby the judicious and the frivolous are afforded equal prominence, and the unwary reader is left to discern the merits of each contribution without the benefit of guiding authority. And thus, whilst the endeavour itself may be deemed laudable, the consequence of such untrammelled liberty is a landscape of uneven terrain, wherein the diligent seeker of knowledge must navigate a vast and varied expanse, beset on all sides by the conflicting opinions and assertions of others, without any certain guarantee of encountering wisdom or truth.",
     "generated": "2026-09-23T18:04:22+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-23"
   },
   {
@@ -2083,6 +2083,20 @@
     "generated": "2026-09-29T18:02:12+00:00",
     "provider": "cloudflare",
     "scored_by": "gemini/100",
+    "reread": "2026-09-29"
+  },
+  {
+    "date": "2026-09-29",
+    "thinker": "wilde",
+    "name": "Oscar Wilde",
+    "dates": "1854-1900",
+    "object": "airport security",
+    "verdict": "ritualistic scrutiny",
+    "score": 2.3,
+    "essay": "Theatre of vigilance, where the masses assemble to surrender their liberty in exchange for the promise of safety, and yet, in this grand spectacle, one cannot help but notice the absurdity of it all, for in the act of protecting ourselves from the unknown, we willingly submit to a regime of ritualistic scrutiny, as if the removal of our shoes and the surrender of our toiletries might somehow assuage the gods of chaos, and so we stand, patiently, in queues that stretch and twist like some serpentine creature, our eyes cast downward, our dignity quietly slipping away, all in the name of a freedom that is, in truth, nothing more than the freedom to be herded, to be directed, and to be, ultimately, confined.",
+    "generated": "2026-09-29T21:26:33+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
     "reread": "2026-09-29"
   }
 ]
