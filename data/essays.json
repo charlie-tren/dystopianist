@@ -2056,5 +2056,19 @@
     "provider": "cloudflare",
     "scored_by": "cloudflare/100",
     "reread": "2026-09-28"
+  },
+  {
+    "date": "2026-09-29",
+    "thinker": "thompson",
+    "name": "Hunter S Thompson",
+    "dates": "1937-2005",
+    "object": "LinkedIn",
+    "verdict": "electronic livestock show",
+    "score": 1.2,
+    "essay": "I was watching a senior vice president celebrate his twenty-fifth year of corporate servitude when I realized the true genius of the machinery. Here was a vast, blue-and-white electronic livestock show where millions of ambitious, wing-tipped ladder-climbers spent their evenings polishing their own digital collars, bragging about seventy-hour work weeks, and writing tearful, thousand-word essays about the profound business lessons they learned while getting laid off in an airport terminal. It was pure, unadulterated madness. Every morning, a new battalion of grinning middle managers logs in to applaud each other for achieving synergy, trading artificial compliments like inmates exchanging loosies in an exercise yard, each one desperately terrified that a single moment of quiet reflection will brand them as unmotivated and doom them to executive oblivion. I saw a man in a polyester suit post a solemn tribute to a stranger who had perfected the art of firing people over email, and within three hours four thousand middle-tier grifters had endorsed him for strategic vision. The entire racket was built by cold-eyed HR consultants who realized you don't even need to beat the slaves if you convince them to auction themselves off every afternoon. The machine feeds on fear. I turned the screen off and poured a drink.",
+    "generated": "2026-09-29T00:59:53+00:00",
+    "provider": "gemini",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-09-29"
   }
 ]
