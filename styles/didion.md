@@ -38,6 +38,8 @@ Source: pastiche written for this repo (still in copyright)
 
 - The use of the word 'violence' to describe the situation is too explicit, a reader of Joan Didion would have expected a more subtle implication of the tension. Seen in a published essay: "You do not leave the room because leaving is an act of violence. Staying is also an act of violence, but it is a quiet one." (found 2026-09-02).
 - The direct statement of the point being made is too on-the-nose, a reader of Joan Didion would have expected the implication to be left unstated, allowing the reader to infer the meaning. Seen in a published essay: "Nothing was ever an emergency. That was the point." (found 2026-09-02).
+- A reader of Joan Didion would have expected more subtlety in implying the monotony and desperation, rather than stating it so directly. Seen in a published essay: "You walked around the dining room table. You walked through the parking garage after the lights went down." (found 2026-09-30).
+- A reader of Joan Didion would have expected the mystery of the number to be left unaddressed, rather than explicitly stating the lack of knowledge about its origin. Seen in a published essay: "No one in the terminal could say who had chosen ten thousand, only that it was the number." (found 2026-09-30).
 ## Log
 
 - 25/08/2026 - migrated from config/thinkers.yaml; Avoid list seeded from the first batch.

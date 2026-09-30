@@ -467,12 +467,12 @@
     "name": "Virginia Woolf",
     "dates": "1882-1941",
     "object": "audiobooks",
-    "verdict": "deeply felt experience",
-    "score": 7.8,
-    "essay": "As we settle into the quiet of our daily commute, the sounds of the city giving way to the gentle hum of a narrator's voice, we find ourselves in the presence of a curious thing: a story that unfolds without the rustle of pages or the weight of a book in our hands. The words, carefully chosen and spoken with conviction, weave a tale that is at once intimate and distant, a private world that we inhabit alongside the narrator. We may wonder, as we listen, how this experience differs from the act of reading itself; does the absence of physical pages, the lack of tactile engagement with the text, alter the way we receive the story? And yet, as we become absorbed in the narrative, such questions recede, and we find ourselves simply present, immersed in the world of the story, with all its complexities and nuances. In this state, the boundaries between listener, narrator, and story begin to blur, and we are left to ponder the nature of our engagement with this ephemeral, yet deeply felt, experience.",
+    "verdict": "civilised warmth",
+    "score": 7.3,
+    "essay": "Let us step onto the pavement beside a man who walks briskly through the twilight, seemingly solitary, yet harbouring an unseen companion in his ear. He does not turn the paper leaf or pause beneath the lamp to catch the print; a hired voice is speaking to him, modulating its cadence to the pace of his stride. It is an agreeable intrusion, perhaps, this invasion of another intellect into our daily wanderings; yet one wonders what becomes of that private territory where the quiet eye once wandered at its own caprice. In the old silence of the armchair, we were free to linger over a phrase, to let it sink into the rug or dissolve into the dusk; the spoken phrase permits no such indolence. It marches on with the steady rhythm of the stage, compelling us to keep pace with another breath. What do we forfeit in this exchange? We surrender the liberty to daydream in the margins, to be sure; but we gain a civilised warmth, the comfort of sitting near a hearth while a neighbour tells a tale. The reader is drawn out from his isolation, caught pleasantly in an invisible, shared theatre of sound.",
     "generated": "2026-08-26T03:18:40+00:00",
-    "provider": "cloudflare",
-    "scored_by": "gemini/100",
+    "provider": "gemini",
+    "scored_by": "cloudflare/100",
     "reread": "2026-09-06"
   },
   {
@@ -2098,5 +2098,19 @@
     "provider": "cloudflare",
     "scored_by": "cloudflare/100",
     "reread": "2026-09-29"
+  },
+  {
+    "date": "2026-09-30",
+    "thinker": "didion",
+    "name": "Joan Didion",
+    "dates": "1934-2021",
+    "object": "the step counter",
+    "verdict": "tiny mechanical pulse",
+    "score": 2.9,
+    "essay": "At 11:42 p.m. the hallway was dark. It was forty-two paces from the hallway mirror to the kitchen sink and back, if you walked straight. On the small glass face at the wrist, the illuminated figures read nine thousand four hundred and twelve. At midnight the day would close and the figures would return to zero. I watched a woman in a gray cardigan walk in small, deliberate circles near Gate 14 in the Denver airport. It was raining outside and the flight to Chicago had been canceled. She was watching her wrist. When the wrist hummed, she stopped. It was a tiny, mechanical pulse against the bone. Ten thousand was the number. No one in the terminal could say who had chosen ten thousand, only that it was the number. You walked around the dining room table. You walked through the parking garage after the lights went down. You walked until the small glass face registered the ten thousand, and then you sat down in the quiet. At midnight the tally cleared itself anyway. By 12:01 a.m. there was nothing left on the glass except the time.",
+    "generated": "2026-09-30T00:27:30+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100",
+    "reread": "2026-09-30"
   }
 ]
