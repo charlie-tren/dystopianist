@@ -2112,5 +2112,19 @@
     "provider": "gemini",
     "scored_by": "gemini/100",
     "reread": "2026-09-30"
+  },
+  {
+    "date": "2026-09-30",
+    "thinker": "thompson",
+    "name": "Hunter S Thompson",
+    "dates": "1937-2005",
+    "object": "emojis",
+    "verdict": "diabolical racket",
+    "score": 0.3,
+    "essay": "Some corporate demon in Silicon Valley decided that human rage, grief, and terror were simply too expensive to process on their server farms, so they boiled our entire vocabulary down into a swarm of twitching, yellow-faced ghoul-heads designed to make us smile while they bleed us dry. You try to send a frantic message to your lawyer about a fraudulent foreclosure, and before you can even finish the thought, a twitchy little algorithm pops up a bright yellow cartoon turd or a pair of dancing bunnies to remind you that your ruin is just a hilarious joke to the men running the switchboard. It is a diabolical racket. The executives realized you can strip a citizen of his savings, his dignity, and his constitutional rights without a whisper of protest, provided you let him respond to his own eviction notice with a tiny yellow thumb or a cartoon tear. They turned us into passive idiots. You sit there in the dark, tapping on glowing glass, trapped in a manic kindergarten fever dream where nobody can scream because the keyboard only offers a row of simpering yellow faces. The language is dead.",
+    "generated": "2026-09-30T21:27:02+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100",
+    "reread": "2026-09-30"
   }
 ]
