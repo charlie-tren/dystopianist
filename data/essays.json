@@ -2126,5 +2126,19 @@
     "provider": "gemini",
     "scored_by": "gemini/100",
     "reread": "2026-09-30"
+  },
+  {
+    "date": "2026-10-01",
+    "thinker": "aurelius",
+    "name": "Marcus Aurelius",
+    "dates": "121-180",
+    "object": "the step counter",
+    "verdict": "petty reckoning",
+    "score": 0.8,
+    "essay": "Thou dost measure the trivial count of thy strides as though the number itself contained virtue. The leg moves because it is the nature of the limb to walk. To tally each impression of the heel upon the earth adds nothing to the quality of the act. Thou art drawn into a petty reckoning of figures. Such record does not render the body stronger, nor the mind more civilised. It is the purpose of the walk that demands thy attention, not the accumulation of marks. The rational soul ought not to bind its peace to a mechanical ledger. The beast walks without demanding a sum of its labour. Yet thou, possessing reason, must gaze upon a display to verify thy passage. This is a distraction from present duty. Realise that ten thousand paces taken in folly remain folly still. No digits upon an instrument can grant nobility to a path chosen without wisdom. Direct thy mind to the task before thee. Let thy footfall serve its natural end, and cease to measure what requires no accounting. Return to thy proper work without seeking praise from an unfeeling tally.",
+    "generated": "2026-10-01T00:33:37+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100",
+    "reread": "2026-10-01"
   }
 ]
