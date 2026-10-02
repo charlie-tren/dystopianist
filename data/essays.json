@@ -467,12 +467,12 @@
     "name": "Virginia Woolf",
     "dates": "1882-1941",
     "object": "audiobooks",
-    "verdict": "civilised warmth",
-    "score": 7.3,
+    "verdict": "agreeable intrusion",
+    "score": 6.4,
     "essay": "Let us step onto the pavement beside a man who walks briskly through the twilight, seemingly solitary, yet harbouring an unseen companion in his ear. He does not turn the paper leaf or pause beneath the lamp to catch the print; a hired voice is speaking to him, modulating its cadence to the pace of his stride. It is an agreeable intrusion, perhaps, this invasion of another intellect into our daily wanderings; yet one wonders what becomes of that private territory where the quiet eye once wandered at its own caprice. In the old silence of the armchair, we were free to linger over a phrase, to let it sink into the rug or dissolve into the dusk; the spoken phrase permits no such indolence. It marches on with the steady rhythm of the stage, compelling us to keep pace with another breath. What do we forfeit in this exchange? We surrender the liberty to daydream in the margins, to be sure; but we gain a civilised warmth, the comfort of sitting near a hearth while a neighbour tells a tale. The reader is drawn out from his isolation, caught pleasantly in an invisible, shared theatre of sound.",
     "generated": "2026-08-26T03:18:40+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-06"
   },
   {
@@ -2154,5 +2154,19 @@
     "provider": "gemini",
     "scored_by": "cloudflare/100",
     "reread": "2026-10-01"
+  },
+  {
+    "date": "2026-10-02",
+    "thinker": "confucius",
+    "name": "Confucius",
+    "dates": "551-479 BC",
+    "object": "LinkedIn",
+    "verdict": "empty display",
+    "score": 2.3,
+    "essay": "The Master said, 'A man should not be anxious that he has no official position; he should be anxious about the means by which he may become fit for one. To broadcast one's accomplishments in the market before any real service has been rendered is to put the shadow before the substance.' The Master said, 'The virtuous rely upon their conduct to acquire office; the wise rely upon their learning; the bold rely upon their deeds. But those who spend their days displaying their titles to every passer-by rely only upon the estimation of strangers.' The Master said, 'I have observed how men gather hundreds of acquaintances upon a public register, yet when difficulty arises, they find few who will share in their labour.' The Master said, 'To commend a neighbour's diligence merely so that he may commend one's own in return is not true propriety; it is a trade of words, and from such trade no civilised order can arise.' The Master said, 'I spent a full morning recording my past duties to make them known to the court. It was of no profit. A man who wishes to realise virtue must first attend to his present task.'",
+    "generated": "2026-10-02T00:48:19+00:00",
+    "provider": "gemini",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-10-02"
   }
 ]
