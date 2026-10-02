@@ -2168,5 +2168,19 @@
     "provider": "gemini",
     "scored_by": "cloudflare/100",
     "reread": "2026-10-02"
+  },
+  {
+    "date": "2026-10-02",
+    "thinker": "thompson",
+    "name": "Hunter S Thompson",
+    "dates": "1937-2005",
+    "object": "alarm clocks",
+    "verdict": "diabolical weapon",
+    "score": 0.2,
+    "essay": "The plastic demon on my nightstand detonated at dawn with the shriek of a dying band saw, and before the ringing in my ears had even settled, I understood that I was staring directly into a diabolical weapon of industrial terrorism, crafted by sniveling corporate sadists who realized you do not need cattle prods or armed guards to subjugate a populace when you can systematically pulverize their nervous systems at five in the morning. It was a brutal triumph of bureaucratic hostility. It squatted on the wood glowing with radioactive malice, screaming its frantic mechanical siren into the cold bedroom until my heart pounded against my ribs like a trapped beast and I lay there shivering under the blankets, contemplating the total surrender of the human spirit to a cheap box of screaming gears designed solely to kick working stiffs out of bed and drive them toward the machinery of state capitalism before they have time to remember they are free citizens. The cold-eyed executives who foisted this evil upon us spent millions perfecting a frequency that triggers pure mammalian dread, and now millions of terrified victims voluntarily buy these monsters to torture themselves every dawn. The trap is sprung.",
+    "generated": "2026-10-02T18:03:28+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100",
+    "reread": "2026-10-02"
   }
 ]
