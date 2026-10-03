@@ -523,12 +523,12 @@
     "name": "Friedrich Nietzsche",
     "dates": "1844-1900",
     "object": "painkillers",
-    "verdict": "a dull haze",
-    "score": 2.8,
-    "essay": "Painkillers are a curious thing: they reveal to us the depth of our desire to escape, to flee from the burdens of existence. In taking them, we acknowledge that our lives are not entirely our own, that we are subject to the whims of our bodies and the cruel hand of fate. And yet, in this surrender, we find a strange sort of freedom: the freedom to momentarily forget, to push aside the nagging doubts and fears that plague us. But what does this say about us, that we would rather numb ourselves than face the darkness head-on? That we would trade the sharp sting of reality for a dull haze of comfort? It is a bargain, to be sure, but one that comes with a steep price: the price of our own authenticity, our own true experience of the world. For in avoiding pain, we also avoid the depths of our own humanity.",
+    "verdict": "confession of frailty",
+    "score": 1.4,
+    "essay": "To eliminate suffering is to amputate the very organ of creation: suffering remains the supreme measure of value, testing the resistance of the world against the force of a soul. The tiny chemical remedy offered to silence this conflict is not a triumph of reason, but a confession of frailty. Pain is no mere error in the biological machinery to be corrected by a chemist; it is the friction through which a man discovers whether he possesses weight or merely volume. The modern creature reaches instantly for quietude, unable to endure even an hour of his own physical reality without trembling. He demands an artificially smooth passage through existence, forgetting that every noble stature was forged solely through endurance. By silencing the signal, he does not cure the vessel: he merely severs the nerve that reports the fire. Such a creature achieves only a bloodless peace, a tranquillity fit for cattle in a shadowless field. He believes he has conquered discomfort: in truth, he has rendered himself too delicate to be touched by destiny. The ultimate victory of this convenient silence is the absolute triumph of the numbed flesh.",
     "generated": "2026-08-26T04:17:30+00:00",
-    "provider": "cloudflare",
-    "scored_by": "gemini/100",
+    "provider": "gemini",
+    "scored_by": "cloudflare/100",
     "reread": "2026-09-06"
   },
   {
@@ -2235,6 +2235,20 @@
     "score": 2.8,
     "essay": "I find it curious that we spend so much time engaged in group chats, often discussing matters of little consequence. This is not to say that conversation is unimportant; on the contrary, it is a vital part of human interaction. However, when we gather in these online groups, we often forget that our words are not necessarily adding to the sum of human knowledge or understanding. We are, instead, frequently concerned with displaying our own cleverness or wit; I too have been guilty of this desire to shine in the eyes of my neighbours. The tragedy is not that we enjoy these conversations, but that we so often use them as a substitute for more meaningful engagement with the world around us. We would do well to remember that true civilised life is not measured by the number of messages we send, but by the depth of our thoughts and the kindness of our actions.",
     "generated": "2026-10-03T19:58:07+00:00",
+    "provider": "cloudflare",
+    "scored_by": "gemini/100",
+    "reread": "2026-10-03"
+  },
+  {
+    "date": "2026-10-03",
+    "thinker": "austen",
+    "name": "Jane Austen",
+    "dates": "1775-1817",
+    "object": "the step counter",
+    "verdict": "unyielding taskmaster",
+    "score": 3.4,
+    "essay": "The daily routine of many a respectable person is now accompanied by a diligent reckoning of their physical exertions, a circumstance signaled by a mutual agreement to monitor their every step. This practice, undertaken with the utmost seriousness, fosters a fastidiousness that may be mistaken for refinement, whilst in truth it arises merely from an excess of choice in their daily pursuits. The individual, thus attentive to their own movements, must strike the discerning observer as being deeply invested in their personal well-being, and yet the outcome is not always more pleasing, for in their zeal to accumulate a satisfactory number of steps, they often invite chaos into their daily arrangements, prioritising the dictates of this silent companion over the demands of their social obligations. Without rendering it notably more agreeable, this strict adherence to a self-imposed regimen tends to unite the household in a common fondness for their troublesome charge, as they collectively strive to meet the expectations of this unyielding taskmaster. And so, one may find it challenging to lament the disappearance of this virtue, for though it deprives the individual of their most reliable source of leisurely enjoyment, it becomes exceedingly difficult to regret the loss of so useful a virtue, when its presence has been so thoroughly ingrained in their daily lives.",
+    "generated": "2026-10-03T23:47:19+00:00",
     "provider": "cloudflare",
     "scored_by": "gemini/100",
     "reread": "2026-10-03"
