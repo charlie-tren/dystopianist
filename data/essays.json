@@ -2224,5 +2224,19 @@
     "provider": "cloudflare",
     "scored_by": "cloudflare/100",
     "reread": "2026-10-03"
+  },
+  {
+    "date": "2026-10-03",
+    "thinker": "russell",
+    "name": "Bertrand Russell",
+    "dates": "1872-1970",
+    "object": "group chats",
+    "verdict": "little consequence",
+    "score": 2.8,
+    "essay": "I find it curious that we spend so much time engaged in group chats, often discussing matters of little consequence. This is not to say that conversation is unimportant; on the contrary, it is a vital part of human interaction. However, when we gather in these online groups, we often forget that our words are not necessarily adding to the sum of human knowledge or understanding. We are, instead, frequently concerned with displaying our own cleverness or wit; I too have been guilty of this desire to shine in the eyes of my neighbours. The tragedy is not that we enjoy these conversations, but that we so often use them as a substitute for more meaningful engagement with the world around us. We would do well to remember that true civilised life is not measured by the number of messages we send, but by the depth of our thoughts and the kindness of our actions.",
+    "generated": "2026-10-03T19:58:07+00:00",
+    "provider": "cloudflare",
+    "scored_by": "gemini/100",
+    "reread": "2026-10-03"
   }
 ]
