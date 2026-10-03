@@ -37,6 +37,8 @@ Source: pastiche written for this repo (still in copyright)
 - The wistful close. She undercuts the sentiment as often as she lands it - a piece that ends warm every time is not her, it is a greetings card.
 
 - Fails to name the specific brand; Ephron's voice relies on precise brand names rather than generic product descriptions. Seen in a published essay: "the tinted lip oil" (found 2026-09-17).
+- While Barneys is a specific brand, the phrase 'a stained coat' is not specific enough, a reader of Nora Ephron would have expected a more detailed description, such as the type of coat or the specific Barneys product. Seen in a published essay: "a stained coat from Barneys" (found 2026-10-03).
+- A reader of Nora Ephron would have expected a more conversational and humorous tone, perhaps with a specific example or anecdote, instead of a generic phrase. Seen in a published essay: "a paid stranger" (found 2026-10-03).
 ## Log
 
 - 25/08/2026 - added. Both samples are mine: she died in 2012 and is in copyright until 2083, so there is no free source. Expect a looser likeness than the writers with real prose.

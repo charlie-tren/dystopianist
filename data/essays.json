@@ -481,12 +481,12 @@
     "name": "Virginia Woolf",
     "dates": "1882-1941",
     "object": "Wikipedia",
-    "verdict": "precision and fragmentation",
-    "score": 5.7,
-    "essay": "As we navigate the labyrinthine corridors of knowledge, we find ourselves confronting a vast and ever-shifting entity, one that embodies the collective efforts of countless individuals. It is an entity that defies traditional notions of authorship and authority, instead embracing a fluid, collaborative ethos. We see in it a reflection of our own desires for connection and understanding, a desire to transcend the limitations of individual perspective and tap into the wisdom of the crowd. And yet, as we delve deeper into its depths, we begin to discern the outlines of a more complex, even contradictory, nature: a simultaneous pursuit of precision and fragmentation, of comprehensiveness and dispersal. In this entity, we find a microcosm of our own struggles to make sense of the world, to impose order upon chaos, and to reconcile the disparate threads of human experience.",
+    "verdict": "wild generosity",
+    "score": 8.3,
+    "essay": "Let us follow the small blue word nestling inside a sentence concerning the manufacture of Venetian glass. A single touch dissolves the page; we are instantly delivered into the history of soda ash, then to a maritime republic, and presently to the exact weight of a doge's ring. In the older libraries, knowledge was a stern uncle who kept the keys to the cabinet locked in his waistcoat pocket. Here, the doors are thrown open by invisible hands; any passer-by may alter a date, polish a phrase, or sweep away an ancient error before breakfast. Who then oversees this boundless, humming hive? It is not a solemn academy of bearded professors, but a vast and quiet assembly of neighbours. A clerk in Leeds corrects a botanical name at midnight; a schoolmistress in Melbourne supplies the missing date of a siege before her tea is brewed. Knowledge loses its grand, immovable posture and becomes a living, restless river, constantly washing its own banks. We might regret the vanished authority of the leather octavo, yet there is a wild generosity in this communal labour. Nothing is ever quite finished, and in that eternal incompletion lies the very pulse of human curiosity.",
     "generated": "2026-08-26T03:19:09+00:00",
-    "provider": "cloudflare",
-    "scored_by": "gemini/100",
+    "provider": "gemini",
+    "scored_by": "cloudflare/100",
     "reread": "2026-09-06"
   },
   {
@@ -1867,12 +1867,12 @@
     "name": "Hunter S Thompson",
     "dates": "1937-2005",
     "object": "the step counter",
-    "verdict": "digital extortion",
-    "score": 1.2,
+    "verdict": "cheap plastic parasite",
+    "score": 0.3,
     "essay": "The cheap plastic parasite strapped to my wrist started buzzing at four in the morning, vibrating with the synthetic authority of a federal marshal and demanding that I perform eight hundred additional paces before sunrise or face the quiet, cold wrath of an algorithm written by sedentary bean-counters in Palo Alto. It was a vicious piece of digital extortion. I spent two frantic hours pacing the grease-stained hallway of a motel in Reno, listening to the tiny invisible warden register each desperate stride, tracking my pulse, measuring my sweat, and silently reporting my coordinates to a shadowy consortium of health insurance executives who want nothing more than to deny my claims when my heart inevitably explodes from the sheer stress of living under constant surveillance. The terrifying truth is not the glowing numbers on the screen, but the realization that millions of supposedly free citizens are voluntarily chaining themselves to these snitching wrist-monsters, marching in frantic circles through suburban parking lots just to earn a digital pat on the head from an electronic warden that cares less about human dignity than a slaughterhouse foreman. We are marching to our own enslavement. The machine counts every twitch, feeds on your desperation, and demands total submission until you collapse on the carpet.",
     "generated": "2026-09-23T23:43:18+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-23"
   },
   {
@@ -2196,5 +2196,19 @@
     "provider": "cloudflare",
     "scored_by": "cloudflare/100",
     "reread": "2026-10-02"
+  },
+  {
+    "date": "2026-10-03",
+    "thinker": "ephron",
+    "name": "Nora Ephron",
+    "dates": "1941-2012",
+    "object": "chatbots",
+    "verdict": "paid stranger",
+    "score": 3.8,
+    "essay": "At two in the morning, when I should have been sleeping or at least staring at the ceiling like a civilized person, I asked ChatGPT to write an apology to my sister. I told it to make me sound remorseful but not pathetic, firm about the reservation at Cafe Luxembourg, and slightly injured. It took three seconds. It was perfect. It was so completely, flawlessly polite that I immediately felt like a sociopath for sending it. That is the trouble with the thing. You start by asking it to rewrite an email to your dry cleaner because you do not want to sound unreasonable about a stained coat from Barneys, and three weeks later you are letting a cursor write your condolences. I spent twenty minutes yesterday asking Claude to tone down my hostility toward a landlord who deserves every syllable of it. The machine has no pride, no shame, and no memory of the time it made a fool of itself at dinner. It is infinitely polite, which is why I use it. We do not actually want intelligence; we want a paid stranger to do the cowardice for us.",
+    "generated": "2026-10-03T00:30:19+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100",
+    "reread": "2026-10-03"
   }
 ]
