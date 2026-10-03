@@ -482,11 +482,11 @@
     "dates": "1882-1941",
     "object": "Wikipedia",
     "verdict": "wild generosity",
-    "score": 8.3,
+    "score": 8.7,
     "essay": "Let us follow the small blue word nestling inside a sentence concerning the manufacture of Venetian glass. A single touch dissolves the page; we are instantly delivered into the history of soda ash, then to a maritime republic, and presently to the exact weight of a doge's ring. In the older libraries, knowledge was a stern uncle who kept the keys to the cabinet locked in his waistcoat pocket. Here, the doors are thrown open by invisible hands; any passer-by may alter a date, polish a phrase, or sweep away an ancient error before breakfast. Who then oversees this boundless, humming hive? It is not a solemn academy of bearded professors, but a vast and quiet assembly of neighbours. A clerk in Leeds corrects a botanical name at midnight; a schoolmistress in Melbourne supplies the missing date of a siege before her tea is brewed. Knowledge loses its grand, immovable posture and becomes a living, restless river, constantly washing its own banks. We might regret the vanished authority of the leather octavo, yet there is a wild generosity in this communal labour. Nothing is ever quite finished, and in that eternal incompletion lies the very pulse of human curiosity.",
     "generated": "2026-08-26T03:19:09+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-06"
   },
   {
@@ -1895,12 +1895,12 @@
     "name": "Bertrand Russell",
     "dates": "1872-1970",
     "object": "Paddington (2014)",
-    "verdict": "modest delight",
-    "score": 7.3,
+    "verdict": "modest triumphs",
+    "score": 7.8,
     "essay": "The film Paddington is a curious thing; it presents a world where a bear from Peru can find a sense of belonging in London, and yet this belonging is rooted in the most mundane of tasks, such as making marmalade. This is no reason to scorn the simple pleasures in life; on the contrary, it is a reminder that our desires are often modest, and it is in these modest desires that we find happiness. The Browns, who take Paddington in, are a family who value kindness and compassion, and it is through their actions that we see the importance of treating others with dignity. I too desire to display modest triumphs, such as a well-made marmalade, and it is in these small achievements that we find a sense of purpose. The tragedy is not that we need a bear from Peru to remind us of the importance of kindness, but that we so often forget it in our daily lives.",
     "generated": "2026-09-24T20:32:48+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-24"
   },
   {
@@ -1937,12 +1937,12 @@
     "name": "Franz Kafka",
     "dates": "1883-1924",
     "object": "painkillers",
-    "verdict": "bureaucratic obstruction",
-    "score": 2.3,
+    "verdict": "bureaucratic machinery",
+    "score": 1.9,
     "essay": "As S. sat in the dimly lit waiting room, it became gradually apparent that the dispensation of painkillers, which had initially seemed a straightforward affair, was in fact contingent upon a complex series of authorisations, each of which required the verification of various documents, the compilation of detailed reports, and the approval of numerous functionaries, whose offices, it seemed, were located in distant, inaccessible parts of the building, and who, even if they could be reached, might not be inclined to grant the necessary permissions, at least not without first demanding additional information, or requiring S. to submit to a series of exhaustive examinations, the results of which would then have to be evaluated, and perhaps even appealed, before the painkillers could be finally released, a process that, as the hours dragged on, began to seem interminable, and yet, despite the growing sense of frustration, S. remained patiently seated, waiting for the bureaucratic machinery to slowly, laboriously, turn in his favour, though it was far from certain that it ever would.",
     "generated": "2026-09-25T20:32:42+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-25"
   },
   {
@@ -1952,11 +1952,11 @@
     "dates": "1956-2018",
     "object": "alarm clocks",
     "verdict": "relentless reminder",
-    "score": 2.3,
+    "score": 1.2,
     "essay": "You wake up to the sound of it, the jolt of its ringing a harsh reminder that the day has begun, whether you like it or not. Somebody designed this thing, engineered it to be just annoying enough to get you out of bed, but not so annoying that you'd actually throw it across the room. Probably some faceless team of people, fueled by coffee and deadlines, who had to test its effectiveness, calibrate its tone, and decide exactly how much of your sleep-deprived sanity to strip away. And then there are the ones who assemble it, who pack it into boxes, who ship it to stores, and who ultimately sell it to you, all so you can be woken up at the crack of dawn to start another day of whatever it is you do. I've been on the receiving end of my fair share of early morning wake-up calls, courtesy of a buzzing alarm clock, and I can tell you that it's not just the device itself that's the problem, it's the entire system that supports it, the one that values punctuality and productivity over a good night's sleep. You hit the snooze button, and for a brief moment, you're back in the warm embrace of your bed, but the alarm clock just keeps on coming, a relentless reminder that the day is waiting, and somebody, somewhere, is expecting you to show up.",
     "generated": "2026-09-25T23:57:33+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-25"
   },
   {
@@ -2209,6 +2209,20 @@
     "generated": "2026-10-03T00:30:19+00:00",
     "provider": "gemini",
     "scored_by": "gemini/100",
+    "reread": "2026-10-03"
+  },
+  {
+    "date": "2026-10-03",
+    "thinker": "aurelius",
+    "name": "Marcus Aurelius",
+    "dates": "121-180",
+    "object": "Titanic (1997)",
+    "verdict": "stern caution",
+    "score": 3.8,
+    "essay": "Thou dost indulge in sentimental fancies, beholding the tragic love of two strangers amidst a catastrophe. Thy emotions are stirred by the grandeur of the ship and the desperation of its passengers. Thou shouldst not be swayed by such romantic notions, for they distract thee from the realities of fate. Thy heart is moved by the calamity, yet thou shouldst remain steadfast, unmoved by the whims of fortune. Thou art drawn into the tale of love and loss, but thou shouldst not forget the impermanence of all things. Thou shouldst not be enchanted by the spectacle, lest thou forget thy own mortality. Thou shouldst attend to thy own character, rather than be swayed by the passions of others. Thou shouldst not be distracted from present duty.",
+    "generated": "2026-10-03T18:03:17+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
     "reread": "2026-10-03"
   }
 ]
