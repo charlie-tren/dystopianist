@@ -2252,5 +2252,19 @@
     "provider": "cloudflare",
     "scored_by": "gemini/100",
     "reread": "2026-10-03"
+  },
+  {
+    "date": "2026-10-04",
+    "thinker": "russell",
+    "name": "Bertrand Russell",
+    "dates": "1872-1970",
+    "object": "Shrek (2001)",
+    "verdict": "honest vulgarity",
+    "score": 8.3,
+    "essay": "The modern appetite for mocking ancient fairy tales rests on a misconception. We flatter ourselves that we have outgrown the absurdities of chivalry, yet we have merely replaced the dragon with the bureaucrat and the castle with an immaculate theme park. In Shrek, Lord Farquaad represents this modern perfectionism, neat, precise, and utterly intolerable; the ogre, by contrast, offers the comfort of honest vulgarity. I have always found a certain relief in swampy isolation, though I lack the physical stature to enforce it against unwanted trespassers. The film's charm lies not in its jokes about bodily functions, which are cheerful enough, but in its flat refusal to allow beauty to cure ugliness. When the princess remains an ogre at the end, the story performs a rare act of intellectual honesty. We expect romance to elevate us into something elegant and refined; Shrek reminds us that love is often just a mutual agreement to abandon our manners. A civilised society requires a few rules of polite conduct, but true companionship begins only when we can afford to discard them.",
+    "generated": "2026-10-04T18:01:47+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100",
+    "reread": "2026-10-04"
   }
 ]
