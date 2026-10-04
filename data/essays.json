@@ -705,12 +705,12 @@
     "name": "Douglas Adams",
     "dates": "1952-2001",
     "object": "self-checkout machines",
-    "verdict": "occasionally troublesome",
-    "score": 3.8,
-    "essay": "In the ordinary course of events, a person will encounter a self-checkout machine and attempt to use it, which is to say they will try to complete a transaction without the assistance of another human being, a goal that is not always achieved. The machine, having been designed to perform a specific set of tasks, will often perform those tasks, but not always in a way that is useful to the person trying to use it, which can lead to a certain amount of frustration. It is interesting to note that the machine's ability to function correctly is not necessarily related to the person's ability to use it, a discrepancy that has been observed and documented, but not necessarily resolved. As a result, the self-checkout machine has become a familiar part of modern life, a thing that is both mundane and occasionally troublesome, like a slightly faulty tap or a door that sticks in the summer.",
+    "verdict": "sullen suspicion",
+    "score": 1.4,
+    "essay": "Consider the peculiar moral compact of modern retail, wherein a customer who merely wished to exchange money for a tin of soup is quietly appointed as an unpaid cashier, security guard, and scale-calibration engineer, all under the glowing red beacon of a device that harbours a deep, ideological distrust of soft fruit. The central design philosophy appears to rest on the assumption that every human being, upon approaching a plastic tray with a tub of margarine, is actively attempting to commit a minor, highly specific fraud involving the weight of an avocado. Should the physical reality of a shopping bag deviate from an immaculate theoretical constant by the mass of a stray eyebrow, the machine immediately suspends all commerce, flashes an alarm designed to attract maximum public scrutiny, and enters a state of sullen, unyielding suspicion. An attendant, whose entire adult life has been reduced to tapping a plastic card against a screen to confirm that a turnip is indeed a turnip, eventually arrives with the lingering exhaustion of a weary bureaucrat pardoning a political prisoner. The system is thereby persuaded to forgive the avocado, allowing the customer to leave with their purchases, though noticeably less of their dignity.",
     "generated": "2026-08-29T02:58:48+00:00",
-    "provider": "cloudflare",
-    "scored_by": "gemini/100",
+    "provider": "gemini",
+    "scored_by": "cloudflare/100",
     "reread": "2026-09-07"
   },
   {
@@ -2264,6 +2264,20 @@
     "essay": "The modern appetite for mocking ancient fairy tales rests on a misconception. We flatter ourselves that we have outgrown the absurdities of chivalry, yet we have merely replaced the dragon with the bureaucrat and the castle with an immaculate theme park. In Shrek, Lord Farquaad represents this modern perfectionism, neat, precise, and utterly intolerable; the ogre, by contrast, offers the comfort of honest vulgarity. I have always found a certain relief in swampy isolation, though I lack the physical stature to enforce it against unwanted trespassers. The film's charm lies not in its jokes about bodily functions, which are cheerful enough, but in its flat refusal to allow beauty to cure ugliness. When the princess remains an ogre at the end, the story performs a rare act of intellectual honesty. We expect romance to elevate us into something elegant and refined; Shrek reminds us that love is often just a mutual agreement to abandon our manners. A civilised society requires a few rules of polite conduct, but true companionship begins only when we can afford to discard them.",
     "generated": "2026-10-04T18:01:47+00:00",
     "provider": "gemini",
+    "scored_by": "gemini/100",
+    "reread": "2026-10-04"
+  },
+  {
+    "date": "2026-10-04",
+    "thinker": "aurelius",
+    "name": "Marcus Aurelius",
+    "dates": "121-180",
+    "object": "anaesthesia",
+    "verdict": "allure of numbness",
+    "score": 1.7,
+    "essay": "Thou hast at thy disposal a means to numb the senses, to still the cries of the body. Thou shouldst not forget the purpose of this gift, lest thou become a slave to ease. Thy mind is sharp, and thou shouldst not dull it with indulgence. Thou shouldst not be swayed by the temptation to escape the pains of labour, for it is in toil that thou findest character. Thy body is but a vessel, and thou shouldst not pamper it with excessive comfort. Thou shouldst attend to thy duty, and not be distracted by the allure of numbness. Thou shouldst not forget that thou art a being of reason, and that thy strength lies not in avoidance, but in endurance.",
+    "generated": "2026-10-04T23:57:33+00:00",
+    "provider": "cloudflare",
     "scored_by": "gemini/100",
     "reread": "2026-10-04"
   }
