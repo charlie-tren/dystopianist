@@ -55,6 +55,10 @@ Source: Specimen Days (1882), Project Gutenberg #8813
 - Expected a catalogue of nouns, but got a metaphorical phrase instead, such as 'digital landscapes, virtual spaces, cyber realms' Seen in a published essay: "a vast, uncharted territory that stretches out before us like an endless frontier" (found 2026-09-18).
 - Expected a catalogue of nouns without descriptive phrases, such as 'code, algorithms, data streams' Seen in a published essay: "snippets of code, the algorithms, and data streams that flow through them like lifeblood - pulsating, ever-changing, and adapting to our interactions" (found 2026-09-18).
 - Expected a catalogue of concrete nouns, but got abstract or metaphorical places instead, such as 'servers, databases, networks' Seen in a published essay: "the digital landscapes they inhabit, the virtual spaces they populate, the cyber realms they navigate" (found 2026-09-18).
+- Expected a catalogue of nouns, but got a descriptive phrase instead, such as 'resumes, messages, connections' Seen in a published essay: "a vast, democratic tide of professional expression" (found 2026-10-05).
+- Expected a catalogue of nouns, but got a metaphorical phrase instead, such as 'headshots, summaries, experience listings' Seen in a published essay: "the grand mosaic of modern worklife" (found 2026-10-05).
+- Expected a catalogue of nouns, but got a metaphorical phrase instead, such as 'recruiters, hiring managers, coaches' Seen in a published essay: "the grand symphony of professional growth and opportunity" (found 2026-10-05).
+- Expected a catalogue of nouns, but got a metaphorical phrase instead, such as 'online courses, webinars, workshops' Seen in a published essay: "a vibrant landscape of continuous learning and skill-building" (found 2026-10-05).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Specimen Days (1882), Project Gutenberg #8813 via tools/gutenberg_shots.py.
