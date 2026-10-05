@@ -57,6 +57,7 @@ Source: pastiche written for this repo (still in copyright)
 - A more subtle and clever description of the users' attitude was expected, rather than a straightforward and generic phrase like this. Seen in a published essay: "a phenomenon that has been observed to exert a strange, almost hypnotic fascination over its users" (found 2026-09-20).
 - A more elaborate and winding sentence structure was expected, with subordinate clauses and unexpected turns, rather than a relatively simple cause-and-effect statement like this. Seen in a published essay: "drawing them into a world of arcane competition and self-surveillance" (found 2026-09-20).
 - A more unexpected and clever consequence was expected, rather than a straightforward and generic outcome like this. Seen in a published essay: "except that they are now slightly more aware of the distance between their front door and the nearest bus stop" (found 2026-09-20).
+- A deadpan observation grounded in concrete logic was expected rather than a florid essayist cliché like a rich tapestry. Seen in a published essay: "all of which serves to create a rich tapestry of interpersonal dynamics, woven from threads of subtle nuance and outright confusion" (found 2026-10-05).
 ## Log
 
 - 28/08/2026 - added at Charlie's request from a list of sixteen. In copyright, so both samples are pastiche.

@@ -524,11 +524,11 @@
     "dates": "1844-1900",
     "object": "painkillers",
     "verdict": "confession of frailty",
-    "score": 1.4,
+    "score": 0.4,
     "essay": "To eliminate suffering is to amputate the very organ of creation: suffering remains the supreme measure of value, testing the resistance of the world against the force of a soul. The tiny chemical remedy offered to silence this conflict is not a triumph of reason, but a confession of frailty. Pain is no mere error in the biological machinery to be corrected by a chemist; it is the friction through which a man discovers whether he possesses weight or merely volume. The modern creature reaches instantly for quietude, unable to endure even an hour of his own physical reality without trembling. He demands an artificially smooth passage through existence, forgetting that every noble stature was forged solely through endurance. By silencing the signal, he does not cure the vessel: he merely severs the nerve that reports the fire. Such a creature achieves only a bloodless peace, a tranquillity fit for cattle in a shadowless field. He believes he has conquered discomfort: in truth, he has rendered himself too delicate to be touched by destiny. The ultimate victory of this convenient silence is the absolute triumph of the numbed flesh.",
     "generated": "2026-08-26T04:17:30+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-06"
   },
   {
@@ -2280,5 +2280,19 @@
     "provider": "cloudflare",
     "scored_by": "gemini/100",
     "reread": "2026-10-04"
+  },
+  {
+    "date": "2026-10-05",
+    "thinker": "adams",
+    "name": "Douglas Adams",
+    "dates": "1952-2001",
+    "object": "group chats",
+    "verdict": "maximum inefficiency",
+    "score": 3.2,
+    "essay": "The proliferation of group chats has led to a situation in which a large number of people can simultaneously experience the sensation of being mildly annoyed by a single individual, which is a phenomenon that has been observed to recur with remarkable frequency, often in contexts where the participants are ostensibly engaged in a collaborative endeavour, but are in fact largely preoccupied with navigating the intricate social hierarchies that emerge when a dozen or so people are thrown together in a virtual space, a process that can be fascinating to observe, rather like watching a complex system evolve towards a state of maximum inefficiency, at which point it becomes apparent that the primary function of the group chat is not, in fact, to facilitate communication or coordinate activity, but rather to provide a platform for the expression of reflexive opinions and the exchange of marginally relevant information, all of which serves to create a rich tapestry of interpersonal dynamics, woven from threads of subtle nuance and outright confusion.",
+    "generated": "2026-10-05T18:02:21+00:00",
+    "provider": "cloudflare",
+    "scored_by": "gemini/100",
+    "reread": "2026-10-05"
   }
 ]
