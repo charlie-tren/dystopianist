@@ -2308,5 +2308,19 @@
     "provider": "cloudflare",
     "scored_by": "cloudflare/100",
     "reread": "2026-10-05"
+  },
+  {
+    "date": "2026-10-06",
+    "thinker": "woolf",
+    "name": "Virginia Woolf",
+    "dates": "1882-1941",
+    "object": "painkillers",
+    "verdict": "strange freedom",
+    "score": 7.3,
+    "essay": "Let us consider the presence of painkillers in our lives, those small, unassuming tablets that can so profoundly alter our experience of the world. The smooth surface of a painkiller, cool to the touch, belies the complex landscape of relief and numbness it can induce; as we hold it, we are reminded of the intricate balance between our physical and emotional selves. We might ask, what is the nature of the pain that these tiny objects can soothe, and how do they change our relationship to our own bodies? As we ponder this, the contours of our daily lives, with all their attendant aches and discomforts, begin to shift; the familiar rhythms of labour and leisure, of neighbourly interactions and civilised pursuits, are subtly rearranged by the presence of these small, potent objects. In this rearrangement, we find a strange kind of freedom, a liberation from the tyranny of pain that allows us to move more freely, to think more clearly, and to engage more fully with the world around us.",
+    "generated": "2026-10-06T18:03:11+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-10-06"
   }
 ]
