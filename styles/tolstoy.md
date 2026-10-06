@@ -50,6 +50,7 @@ Source: What Is Art? (1897, Maude translation), Project Gutenberg #64908
 - The phrase is too flowery and uses a metaphor, a reader of Leo Tolstoy would have expected a more straightforward and literal condemnation. Seen in a published essay: "a testament to the boundless capacity for self-delusion that exists among the educated classes" (found 2026-09-08).
 - The phrase is too vague and uses a metaphor, a reader of Leo Tolstoy would have expected a more direct and literal description of the issue. Seen in a published essay: "a fleeting sense of success" (found 2026-09-08).
 - The phrase is too rhetorical and uses a metaphor, a reader of Leo Tolstoy would have expected a more direct and literal statement of fact. Seen in a published essay: "a monument to the vacuity and superficiality of modern life" (found 2026-09-08).
+- A reader of Leo Tolstoy would have expected a more literal and direct condemnation, such as 'to keep them in a state of servitude to their own desires' Seen in a published essay: "to make them laugh and forget, to keep them in a state of ignorance and indifference" (found 2026-10-06).
 ## Log
 
 - 28/08/2026 - added at Charlie's request from a list of sixteen. Real prose, two passages from What Is Art? via `tools/gutenberg_shots.py`. Italic markup stripped from the quoted text.

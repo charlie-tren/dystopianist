@@ -2322,5 +2322,19 @@
     "provider": "cloudflare",
     "scored_by": "cloudflare/100",
     "reread": "2026-10-06"
+  },
+  {
+    "date": "2026-10-06",
+    "thinker": "tolstoy",
+    "name": "Leo Tolstoy",
+    "dates": "1828-1910",
+    "object": "Shrek (2001)",
+    "verdict": "counterfeit deception",
+    "score": 1.4,
+    "essay": "The film Shrek, a product of the labour of many people, serves only to distract and deceive its audience, to turn their attention away from the real conditions of their lives and the lives of those around them. It is a work that has been made, not to bring people together, not to evoke feelings of joy and spiritual union, but to separate them, to make them laugh and forget, to keep them in a state of ignorance and indifference. The money that has been spent on its production, the time and effort that have been devoted to it, all this has been taken from the labouring poor, from those who toil and struggle to make ends meet, and it has been used to create a work that is empty, meaningless, and false. And so, the film Shrek is not a work of art, but a counterfeit, a deception, a means of keeping people in a state of bondage to their own selfish desires and ignorant of the true nature of the world around them. It is a system of temptation, a way of leading people astray, of turning them away from the path of truth and righteousness.",
+    "generated": "2026-10-06T21:41:34+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-10-06"
   }
 ]
