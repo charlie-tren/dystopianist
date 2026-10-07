@@ -705,12 +705,12 @@
     "name": "Douglas Adams",
     "dates": "1952-2001",
     "object": "self-checkout machines",
-    "verdict": "sullen suspicion",
-    "score": 1.4,
+    "verdict": "unyielding suspicion",
+    "score": 0.7,
     "essay": "Consider the peculiar moral compact of modern retail, wherein a customer who merely wished to exchange money for a tin of soup is quietly appointed as an unpaid cashier, security guard, and scale-calibration engineer, all under the glowing red beacon of a device that harbours a deep, ideological distrust of soft fruit. The central design philosophy appears to rest on the assumption that every human being, upon approaching a plastic tray with a tub of margarine, is actively attempting to commit a minor, highly specific fraud involving the weight of an avocado. Should the physical reality of a shopping bag deviate from an immaculate theoretical constant by the mass of a stray eyebrow, the machine immediately suspends all commerce, flashes an alarm designed to attract maximum public scrutiny, and enters a state of sullen, unyielding suspicion. An attendant, whose entire adult life has been reduced to tapping a plastic card against a screen to confirm that a turnip is indeed a turnip, eventually arrives with the lingering exhaustion of a weary bureaucrat pardoning a political prisoner. The system is thereby persuaded to forgive the avocado, allowing the customer to leave with their purchases, though noticeably less of their dignity.",
     "generated": "2026-08-29T02:58:48+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-07"
   },
   {
@@ -1965,12 +1965,12 @@
     "name": "Emily Dickinson",
     "dates": "1830-1886",
     "object": "anaesthesia",
-    "verdict": "muffled terror",
-    "score": 7.3,
+    "verdict": "quiet, muffled terror",
+    "score": 3.2,
     "essay": "The darkness that descends with anaesthesia is a garment I can almost imagine wearing - a cloak that wraps around the mind, muffling the sharp edges of pain, yet leaving the heart to beat with a quiet, muffled terror. In the stillness of its presence, I find a strange, unsettling calm, as if the very fabric of consciousness had been woven with a thread of oblivion. The thought of it is a weight that presses upon me, a physical force that I can feel, like the gentle pressure of a summer breeze on a leaf. And when it lifts, the world returns, sharp and unforgiving, like a winter's dawn, leaving me to wonder if I had ever truly been asleep - or merely suspended, like a drop of dew on a spider's web, waiting for the warmth of awareness to set me free.",
     "generated": "2026-09-26T18:02:42+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-26"
   },
   {
@@ -1979,12 +1979,12 @@
     "name": "Hunter S Thompson",
     "dates": "1937-2005",
     "object": "influencers",
-    "verdict": "digital abyss",
-    "score": 1.2,
+    "verdict": "insidious creatures",
+    "score": 0.3,
     "essay": "We were careening through the digital wasteland when I stumbled upon these insidious creatures, and I knew at once that they were the spawn of a marketing behemoth that had never once been held accountable for its actions, a beast that had been feeding on our insecurities and vulnerabilities, growing stronger with each passing day, its tentacles wrapping tighter around our collective psyche, until it was clear that these influencers were not just peddling their wares, but were in fact the vanguard of a psychological warfare campaign designed to reduce us to a state of numb, compliant consumerism, and I thought to myself, this is the end, we're staring into the abyss of our own making, and the abyss is staring back, with a perfectly contoured face and a hashtag. It was a terrifying glimpse into the complete surrender of our free will.",
     "generated": "2026-09-26T19:55:08+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-26"
   },
   {
@@ -2021,12 +2021,12 @@
     "name": "Emily Dickinson",
     "dates": "1830-1886",
     "object": "podcasts",
-    "verdict": "whispered promise",
-    "score": 8.2,
+    "verdict": "companion and catalyst",
+    "score": 8.3,
     "essay": "The solitude of a voice in the darkness - it can be worn like a cloak, tried on for size, and discarded at whim. A presence that fills the space, yet remains elusive, a whispered promise of connection in the void. The words, like delicate fingers, weave a tapestry of thought and emotion, a fragile thing that can be torn asunder by the slightest disturbance. And yet, in the stillness, it is possible to find a sense of intimacy, a feeling that the speaker is addressing you, and you alone - a sense of being enveloped in a private world, where the boundaries between self and other are blurred. The voice, a gentle breeze that stirs the mind, awakening thoughts and feelings that had lain dormant, like a seed waiting for the warmth of spring to germinate. In this quiet, inner space, the listener is free to roam, to explore the contours of their own heart and mind, guided by the voice, which is both a companion and a catalyst.",
     "generated": "2026-09-27T20:12:56+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-27"
   },
   {
@@ -2349,6 +2349,20 @@
     "generated": "2026-10-07T00:43:03+00:00",
     "provider": "gemini",
     "scored_by": "gemini/100",
+    "reread": "2026-10-07"
+  },
+  {
+    "date": "2026-10-07",
+    "thinker": "suntzu",
+    "name": "Sun Tzu",
+    "dates": "c. 544-496 BC",
+    "object": "the step counter",
+    "verdict": "measured endeavour",
+    "score": 8.2,
+    "essay": "If the step counter is worn with diligence, its user will be aware of their daily labour. If the user is driven by competition, they will compare their steps to those of their neighbour. If the neighbour's steps are numerous, the user will strive to exceed them. When the user's steps are consistent, they will realise their progress over time. If their progress is slow, they will adjust their routine to increase their steps. The step counter is like a river flowing to its destination, its daily total a reflection of the user's overall endeavour. If the user's goal is to walk a certain distance, the step counter will guide them, like a farmer guiding his oxen to cultivate the land. When the user's steps are measured, they will understand the value of perseverance, for a journey of a thousand miles begins with a single step.",
+    "generated": "2026-10-07T18:03:04+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
     "reread": "2026-10-07"
   }
 ]
