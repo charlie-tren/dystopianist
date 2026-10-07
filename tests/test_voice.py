@@ -61,6 +61,15 @@ def main() -> int:
     worst, pair = voice.divergence(ready)
     print(f"{len(ready)} thinkers compared; closest pair {pair[0]} / {pair[1]} "
           f"at {worst:.2f} (floor {FLOOR}, warn {WARN})")
+    # Written down for site-stats, whose Project Health table reads `closest` and
+    # lights it under the floor. Since 07/10/2026 this check no longer stops the
+    # day's commit - see the Commit step in daily.yml - so the number has to be
+    # somewhere a person looks, or a real collapse would pass in silence.
+    if "--no-write" not in sys.argv:
+        (ROOT / "data" / "voice.json").write_text(json.dumps({
+            "closest": round(worst, 3), "pair": list(pair),
+            "floor": FLOOR, "warn": WARN, "thinkers": len(ready),
+        }, indent=1) + "\n", encoding="utf-8")
 
     # The runners-up. One pair on the floor is a pairing; three pairs bunched under
     # the warning line is the corpus compacting, and the report should tell those

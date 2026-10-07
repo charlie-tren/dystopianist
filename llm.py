@@ -83,7 +83,10 @@ def extract_json(raw):
     except Exception:
         m = re.search(r'"essay"\s*:\s*"(.*?)"\s*[},]', raw, re.S)
         if m:
-            return {"essay": json.loads('"' + m.group(1) + '"')}
+            try:
+                return {"essay": json.loads('"' + m.group(1) + '"')}
+            except json.JSONDecodeError:
+                pass   # fall through to the plain-prose reading below
         body = re.sub(r"^```(?:json)?|```$", "", raw.strip(), flags=re.M).strip()
         body = re.sub(r'^\s*\{?\s*"?essay"?\s*:?\s*"?', "", body).strip().rstrip('"}').strip()
         if len(body.split()) > 60:

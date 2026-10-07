@@ -1,0 +1,10 @@
+{
+ "closest": 0.506,
+ "pair": [
+  "dickinson",
+  "woolf"
+ ],
+ "floor": 0.45,
+ "warn": 0.55,
+ "thinkers": 26
+}

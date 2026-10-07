@@ -37,6 +37,17 @@ def extract_json(raw: str):
         return json.loads(text)
     except json.JSONDecodeError:
         pass
+    # The FIRST complete value, ignoring whatever follows it. The fallback model
+    # sometimes writes its JSON and then keeps going, and the span from the first {
+    # to the last } then holds two values: "Extra data", and on 01/10/2026 a run
+    # that died in the Write step without a single gate being checked.
+    for a in ("{", "["):
+        i = text.find(a)
+        if i >= 0:
+            try:
+                return json.JSONDecoder().raw_decode(text[i:])[0]
+            except json.JSONDecodeError:
+                pass
     for a, b in (("{", "}"), ("[", "]")):
         i, j = text.find(a), text.rfind(b)
         if 0 <= i < j:

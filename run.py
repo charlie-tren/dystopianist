@@ -34,6 +34,36 @@ ROOT = Path(__file__).resolve().parent
 ARCHIVE = ROOT / "data" / "essays.json"
 ATTEMPTS = 3
 
+#: What the next draft is asked for after a draft fails on length. The fallback model
+#: asked for 170-230 writes a median 165 and sometimes under the 120 floor, so after a
+#: short draft it is asked for more, and after a long one for less.
+LONGER, SHORTER = "230-280", "150-200"
+
+
+def retry_brief(problems: list[str], thinker: dict, words: str) -> tuple[dict, str]:
+    """(thinker, words) for the next attempt, given why the last one failed.
+
+    WHY. Each failed Write step in the four weeks to 07/10/2026 was the fallback model
+    making the SAME mistake three times: 95, 102 and 97 words against a 120 floor, or
+    'a testament to' in all three drafts. The retry only raised the temperature, and
+    the same prompt at a little more heat reproduces the same phrase. So the specific
+    failure goes into the per-writer avoid list the prompt already carries - no new
+    slot in the prompt, and nothing the next writer pays for, because the thinker is
+    copied rather than changed."""
+    extra: list[str] = []
+    for p in problems:
+        if p.startswith("stock phrase:"):
+            extra.append("use the phrase " + p.split(":", 1)[1].strip()
+                         + " or any stock phrase like it")
+        elif p.startswith("hedged "):
+            extra.append("hedge. Take a position in the first paragraph and hold it")
+        elif p.startswith("length "):
+            n = int(p.split()[1])
+            words = LONGER if n < critic.MIN_WORDS else SHORTER
+    if extra:
+        thinker = {**thinker, "avoid": list(thinker.get("avoid") or []) + extra}
+    return thinker, words
+
 
 def load(name):
     return yaml.safe_load(io.open(ROOT / "config" / name, encoding="utf-8"))
@@ -211,9 +241,12 @@ def one(only, thinkers, objects, by_id, shots, past, dry) -> int:
     # tends to reproduce the same mistake.
     essay, problems = "", ["not attempted"]
     verdict, score = "", None
+    brief, words = thinker, "170-230"
     for i in range(ATTEMPTS):
+        if i:
+            brief, words = retry_brief(problems, brief, words)
         essay, verdict, score, provider, on_topic, scored_by = write_stage.write(
-            thinker, obj, temperature=0.9 + 0.05 * i, kind=kind)
+            brief, obj, words=words, temperature=0.9 + 0.05 * i, kind=kind)
         problems = critic.check(essay, thinker, shots, verdict, score, on_topic)
         status = "ok" if not problems else "; ".join(problems)
         print(f"  attempt {i + 1}: {len(essay.split())} words via {provider} "
