@@ -190,7 +190,7 @@ HEAD = """<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title}</title>
-<meta name="description" content="{desc}">
+<meta name="description" content="{meta_desc}">
 <meta property="og:type" content="website">
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{desc}">
@@ -645,7 +645,7 @@ GUESS_JS = """
 SITE = "https://charlietrenorden.com/ghostwriters/"
 
 
-def page(title, desc, body, up, here, footer, canon=""):
+def page(title, desc, body, up, here, footer, canon="", meta_desc=None):
     """`body` carries its own <h1>; the nav is injected straight after it, so the
     heading comes first and the three ways in sit under it.
 
@@ -661,8 +661,10 @@ def page(title, desc, body, up, here, footer, canon=""):
         tail = SORT_JS + tail
     if 'id="quiz"' in body:
         tail = GUESS_JS + tail
+    # meta_desc is for search and AI answer engines only, never shown to a reader
+    # (07/10/2026); og:description and any visible line keep `desc`.
     return (HEAD.format(title=html.escape(title), desc=html.escape(desc), css=CSS, up=up,
-                        SITE=SITE, canon=canon)
+                        SITE=SITE, canon=canon, meta_desc=html.escape(meta_desc or desc))
             + body + tail)
 
 
@@ -753,6 +755,11 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
     # --- the three top-level views ------------------------------------------
     desc = ("We asked dead writers what they make of the modern world. "
             "They were not kind.")
+    # The joke above stays the visible standfirst and the share line. The tag
+    # search and AI engines read answers the question people actually type.
+    meta_desc = ("What would Kafka make of self-checkouts, or Jane Austen of dating apps? "
+                 "AI-written pastiche essays by dead writers on things they never lived to "
+                 "see, one a day, each rated 0 for contempt to 10 for delight.")
     listing = f'  <ul class="list" id="all">\n{essay_rows(entries)}\n  </ul>\n' if entries else ""
     # Sorting is the only interactive thing on this page, so it is two buttons and
     # no framework. The default is the published order, newest first, which is what
@@ -766,7 +773,7 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
            f'  <p class="stand">{html.escape(desc)}</p>\n' + sortbar + listing)
     (DOCS / "index.html").write_text(
         page("Ghostwriters", desc, idx, "", "index",
-             ""),
+             "", meta_desc=meta_desc),
         encoding="utf-8", newline="\n")
 
     # The whole roster, not only the writers who happen to have published. A name
