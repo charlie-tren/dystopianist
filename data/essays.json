@@ -2336,5 +2336,19 @@
     "provider": "cloudflare",
     "scored_by": "cloudflare/100",
     "reread": "2026-10-06"
+  },
+  {
+    "date": "2026-10-07",
+    "thinker": "adams",
+    "name": "Douglas Adams",
+    "dates": "1952-2001",
+    "object": "the washing machine",
+    "verdict": "passive anxiety",
+    "score": 1.3,
+    "essay": "The underlying principle of the household washing machine relies on a fundamental misunderstanding of the relationship between time and mathematics. Engineered to spare human beings the indignity of manual labour against flat stones in a cold river, the device achieves this by introducing a cycle timer that operates under its own entirely private system of arithmetic. A display indicating that seven minutes remain in the spin cycle will, after eleven actual minutes have passed in the physical world, confidently revise its estimate to nine minutes, a phenomenon that engineers refer to as calibration and everyone else experiences as an erosion of faith. This would be entirely tolerable if the machine did not also demand that its operator remain in close proximity throughout the process, standing in a small utility room to monitor a spinning glass porthole in the quiet hope that a runaway sock might not cause the entire assembly to march purposefully across the linoleum and out into the garden. By automating a chore that used to take two hours of physical effort once a week, the appliance has successfully converted it into forty-five minutes of passive anxiety conducted three times a day, which is generally considered progress.",
+    "generated": "2026-10-07T00:43:03+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100",
+    "reread": "2026-10-07"
   }
 ]
