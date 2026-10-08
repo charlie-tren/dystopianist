@@ -2392,5 +2392,19 @@
     "provider": "cloudflare",
     "scored_by": "cloudflare/100",
     "reread": "2026-10-08"
+  },
+  {
+    "date": "2026-10-08",
+    "thinker": "didion",
+    "name": "Joan Didion",
+    "dates": "1934-2021",
+    "object": "reclining a seat on a plane",
+    "verdict": "altered landscape",
+    "score": 6.7,
+    "essay": "The woman in front of me leaned back in her seat, the movement barely perceptible, a subtle shift in the configuration of the space between us. I recall the sound of the mechanism, a low hum, a faint click, the kind of noise that signals a change, however small. The air around us remained the same, the temperature steady, the scent of recycled air and faintly sweet disinfectant hanging unchanged. Her head came to rest against the cushion, her eyes fixed on some point beyond the seatback in front of her, and I was left to consider the altered landscape of our small, shared compartment. The seat, once a fixed and unyielding presence, had become something else, a variable in the equation of our proximity, a reminder that even in this confined and carefully controlled environment, there were still choices to be made, and consequences to be borne.",
+    "generated": "2026-10-08T22:09:28+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-10-08"
   }
 ]

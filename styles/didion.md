@@ -40,6 +40,7 @@ Source: pastiche written for this repo (still in copyright)
 - The direct statement of the point being made is too on-the-nose, a reader of Joan Didion would have expected the implication to be left unstated, allowing the reader to infer the meaning. Seen in a published essay: "Nothing was ever an emergency. That was the point." (found 2026-09-02).
 - A reader of Joan Didion would have expected more subtlety in implying the monotony and desperation, rather than stating it so directly. Seen in a published essay: "You walked around the dining room table. You walked through the parking garage after the lights went down." (found 2026-09-30).
 - A reader of Joan Didion would have expected the mystery of the number to be left unaddressed, rather than explicitly stating the lack of knowledge about its origin. Seen in a published essay: "No one in the terminal could say who had chosen ten thousand, only that it was the number." (found 2026-09-30).
+- A reader of Joan Didion would have expected the implication of choices and consequences to be left unstated, rather than explicitly stated. Seen in a published essay: "a reminder that even in this confined and carefully controlled environment, there were still choices to be made, and consequences to be borne" (found 2026-10-08).
 ## Log
 
 - 25/08/2026 - migrated from config/thinkers.yaml; Avoid list seeded from the first batch.
