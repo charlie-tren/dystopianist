@@ -2420,5 +2420,19 @@
     "provider": "cloudflare",
     "scored_by": "cloudflare/100",
     "reread": "2026-10-09"
+  },
+  {
+    "date": "2026-10-09",
+    "thinker": "wilde",
+    "name": "Oscar Wilde",
+    "dates": "1854-1900",
+    "object": "audiobooks",
+    "verdict": "gentle tyrant",
+    "score": 7.3,
+    "essay": "The labour of listening, once a burdensome chore, has been transformed into an act of effortless indulgence, as the spoken word is conveyed to our eager ears with all the intimacy of a whispered confidence. And yet, it is in this very intimacy that we find a curious sort of isolation, a sense of being enveloped in a private world of sound that is at once both captivating and suffocating. We are free to roam, unencumbered by the physical presence of a book, and yet, we are simultaneously bound to the whims of the narrator, forced to submit to their pace, their tone, their interpretation. It is a peculiar sort of surrender, one that is both liberating and enslaving, and it is in this paradox that we find the true fascination of the audiobook. For in its ability to conjure entire worlds from the ether, to transport us to realms both familiar and unknown, the audiobook proves itself to be a masterpiece of subtle manipulation, a gentle tyrant that rules over our imagination with an iron fist, swathed in velvet.",
+    "generated": "2026-10-09T18:02:23+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-10-09"
   }
 ]
