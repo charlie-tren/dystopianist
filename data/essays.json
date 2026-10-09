@@ -2434,5 +2434,19 @@
     "provider": "cloudflare",
     "scored_by": "cloudflare/100",
     "reread": "2026-10-09"
+  },
+  {
+    "date": "2026-10-09",
+    "thinker": "dickens",
+    "name": "Charles Dickens",
+    "dates": "1812-1870",
+    "object": "group chats",
+    "verdict": "unholy cabal",
+    "score": 0.6,
+    "essay": "I had not walked three paces along the thoroughfare when my pocket began to buzz with the ferocious insistence of a hornet trapped in a pillbox, signalling that fifteen distant acquaintances had simultaneously determined to express an opinion upon a sandwich. There is no escape from this unseen parlour, where every member of the company talks at once, none listens, and all demand that I acknowledge their breathless drivel with an immediate nod of the thumb. It will be argued, no doubt: firstly, that this ceaseless babble unites us; secondly, that it is a marvel of modern convenience; thirdly, that a man ought to be grateful to know, at four o'clock in the afternoon, that a gentleman three miles off has misplaced his umbrella. I declare it to be nothing short of a tyranny. It is an unholy cabal of chatterboxes, wherein a quiet soul cannot contemplate his own boots without three dozen invisible spectres chiming in to discuss the weather, nominate a meeting place, and exchange miniature portraits of their dinner. To be subjected to such relentless, monstrous badgering by one’s own civilised acquaintances, while standing entirely alone in the fog, is a refinement of domestic cruelty that would drive the most patient hermit into the wilderness.",
+    "generated": "2026-10-09T21:44:11+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100",
+    "reread": "2026-10-09"
   }
 ]
