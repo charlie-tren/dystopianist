@@ -2448,5 +2448,19 @@
     "provider": "gemini",
     "scored_by": "gemini/100",
     "reread": "2026-10-09"
+  },
+  {
+    "date": "2026-10-10",
+    "thinker": "ephron",
+    "name": "Nora Ephron",
+    "dates": "1941-2012",
+    "object": "the step counter",
+    "verdict": "ridiculous obsession",
+    "score": 6.7,
+    "essay": "I bought a Fitbit at the Apple store on Fifth Avenue, and now I'm one of those people who walks around the block to get to ten thousand steps. My friend Karen has one too, and we have a system where we compete with each other, which is just a nice way of saying we're obsessed. I've started taking the stairs at my apartment building, which is a nightmare, because the stairs are narrow and smell like last night's Chinese food. But I do it anyway, because I have to get to ten thousand steps, and I'm not going to let Karen beat me. Sometimes I'll be walking down the street, and I'll realize I'm almost at my goal, so I'll just start walking in circles on the corner of 23rd and Broadway, which is probably why people think I'm crazy. And then I'll get home, and I'll sync my Fitbit with my iPhone, and I'll feel this sense of accomplishment, which is just ridiculous, because what have I really accomplished, except walking around in circles like a lunatic.",
+    "generated": "2026-10-10T00:51:27+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-10-10"
   }
 ]
