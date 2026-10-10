@@ -70,6 +70,9 @@ Source: Poems, Three Series (1890-96), Project Gutenberg #12242
 - Expected a more subtle and implicit suggestion of the transformation, rather than an explicit and descriptive one Seen in a published essay: "a sense of intimacy, a feeling that the speaker is addressing you, and you alone" (found 2026-09-27).
 - Expected a more concise and ambiguous conclusion, rather than an explicit and explanatory one Seen in a published essay: "a sense of being enveloped in a private world, where the boundaries between self and other are blurred" (found 2026-09-27).
 - Expected a more enigmatic comparison, rather than a straightforward and explanatory one Seen in a published essay: "guided by the voice, which is both a companion and a catalyst" (found 2026-09-27).
+- A more concise and ambiguous phrase was expected, such as 'innocence weighs' instead of a straightforward explanation Seen in a published essay: "Innocence feels curiously heavy when it must be proved" (found 2026-10-10).
+- A more enigmatic comparison was expected, rather than a clear and descriptive one, such as 'soul in a fold' Seen in a published essay: "How small the soul becomes when packed into a plastic trough" (found 2026-10-10).
+- A more subtle and implicit suggestion of the trade-off was expected, rather than an explicit and explanatory one, such as 'sky for dust' Seen in a published essay: "Security buys us a sky, but takes the privacy of our dust as deposit" (found 2026-10-10).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Poems, Three Series (1890-96), Project Gutenberg #12242 via tools/gutenberg_shots.py.

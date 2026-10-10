@@ -719,12 +719,12 @@
     "name": "Anthony Bourdain",
     "dates": "1956-2018",
     "object": "airport security",
-    "verdict": "boredom and vigilance",
-    "score": 4.3,
-    "essay": "You stand in the security line, surrounded by the murmur of conversation and the rustle of belongings being removed from bags, and you can't help but think of the people who make this machine run. The ones who scan your tickets, who wave the wand over your carry-on, who watch the screens with a mixture of boredom and vigilance. They are the ones who keep the airport's arteries unclogged, who ensure that the travelers flow smoothly from one gate to the next. You glance around at the rows of chairs, the coffee shops, the duty-free stores, and you wonder who cleans up after the hordes of people who pass through here every day. The trash, the spills, the discarded tickets and crumpled up wrappers - someone has to deal with it all. And then there are the security personnel themselves, who have to maintain a facade of alertness and courtesy, no matter how many times they've seen the same tired faces, the same worn-out shoes, the same overstuffed bags. You can almost smell the exhaustion emanating from them, the weight of their responsibility, the drudgery of their task. And yet, they press on, day after day, because someone has to keep the wheels of this massive machine turning.",
+    "verdict": "a grind",
+    "score": 6.2,
+    "essay": "You strip off your belt, unlace your boots, and dump your laptop into a gray plastic tub that five thousand sweaty hands touched before yours. You are annoyed because your flight to Frankfurt leaves in forty minutes and some guy in a blue uniform is taking four seconds too long to look at a tube of toothpaste. I do it too. I stand there huffing into my jacket, resentful of the delay, entirely blind to the theater of it. But look at the person holding the wand. They are standing on polished terrazzo in orthopedic shoes for eight hours straight, inhaling the stale air of Terminal 4, getting barked at by hedge-fund managers who cannot bear to part with their lotion. It is a grind, pure and simple. Not security, really, but endurance. A dish pit with rubber gloves and x-ray screens instead of scrub pads. Nobody thanks them when the scanner stays quiet. Nobody asks how their knees feel at four in the afternoon. We just want to pack our gear, slide our feet back into our loafers, and walk away feeling like we survived an inconvenience, while they stay behind to clear the next hundred angry strangers.",
     "generated": "2026-08-29T02:59:19+00:00",
-    "provider": "cloudflare",
-    "scored_by": "gemini/100",
+    "provider": "gemini",
+    "scored_by": "cloudflare/100",
     "reread": "2026-09-08"
   },
   {
@@ -2473,6 +2473,20 @@
     "score": 2.3,
     "essay": "When the glowing rectangle on the writing-desk illuminates with that frantic, intermittent cadence of interrupted messages—resembling nothing so much as those intricate mechanical clockwork theatres in which miniature figures emerge from separate gilded doors to strike their chimes before instantly vanishing—I am struck less by the triviality of the remarks than by the subtle optical distortion they inflict upon our solitude. Each brief notification, arriving out of sequence like a remark overheard across a dimly lit conservatory from a guest who has already stepped into the garden, compels us to reconstruct an entire evening of intimacy from a series of disjointed fragments. We find ourselves suspended in the peculiar atmosphere of a salon whose guests are forever entering and leaving through revolving doors, where the sudden, collective laughter of distant friends erupts without context, so that our own private reflections, continually interrupted by these silent tremors, are gradually displaced by the lingering, phantom presence of a society that demands our constant attendance without ever granting us the peace of true communion, leaving us to decipher the shifting alliances of a room we cannot see.",
     "generated": "2026-10-10T18:01:46+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100",
+    "reread": "2026-10-10"
+  },
+  {
+    "date": "2026-10-10",
+    "thinker": "dickinson",
+    "name": "Emily Dickinson",
+    "dates": "1830-1886",
+    "object": "airport security",
+    "verdict": "unexpected humility",
+    "score": 2.9,
+    "essay": "To surrender the shoe is an unexpected humility, as though the porch required our ankles before the parlor would allow our name. We line our small possessions in a grey dish—the key that knows no locks here, the coin that cannot buy a bird—and offer them to an eye that does not wink. It is a strange parish where every stranger is suspected of carrying thunder in his sleeve. One stands with uplifted hands, motionless as a wooden post, while an invisible frost sweeps over the ribs to see if the heart is hidden or merely quiet. Innocence feels curiously heavy when it must be proved. The traveler yields his coat, his pocket, his quietest folded linen—not to a neighbor's curiosity, which has at least a human blush, but to an absolute slate that reads without affection. How small the soul becomes when packed into a plastic trough! We pass through the narrow portal, lighter by our keys yet heavier by our doubt, and retrieve our boots like borrowed goods. Security buys us a sky, but takes the privacy of our dust as deposit.",
+    "generated": "2026-10-10T20:35:25+00:00",
     "provider": "gemini",
     "scored_by": "gemini/100",
     "reread": "2026-10-10"
