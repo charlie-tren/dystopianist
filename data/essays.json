@@ -2462,5 +2462,19 @@
     "provider": "cloudflare",
     "scored_by": "cloudflare/100",
     "reread": "2026-10-10"
+  },
+  {
+    "date": "2026-10-10",
+    "thinker": "proust",
+    "name": "Marcel Proust",
+    "dates": "1871-1922",
+    "object": "group chats",
+    "verdict": "phantom presence",
+    "score": 2.3,
+    "essay": "When the glowing rectangle on the writing-desk illuminates with that frantic, intermittent cadence of interrupted messages—resembling nothing so much as those intricate mechanical clockwork theatres in which miniature figures emerge from separate gilded doors to strike their chimes before instantly vanishing—I am struck less by the triviality of the remarks than by the subtle optical distortion they inflict upon our solitude. Each brief notification, arriving out of sequence like a remark overheard across a dimly lit conservatory from a guest who has already stepped into the garden, compels us to reconstruct an entire evening of intimacy from a series of disjointed fragments. We find ourselves suspended in the peculiar atmosphere of a salon whose guests are forever entering and leaving through revolving doors, where the sudden, collective laughter of distant friends erupts without context, so that our own private reflections, continually interrupted by these silent tremors, are gradually displaced by the lingering, phantom presence of a society that demands our constant attendance without ever granting us the peace of true communion, leaving us to decipher the shifting alliances of a room we cannot see.",
+    "generated": "2026-10-10T18:01:46+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100",
+    "reread": "2026-10-10"
   }
 ]
