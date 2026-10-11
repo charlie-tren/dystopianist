@@ -2490,5 +2490,19 @@
     "provider": "gemini",
     "scored_by": "gemini/100",
     "reread": "2026-10-10"
+  },
+  {
+    "date": "2026-10-11",
+    "thinker": "orwell",
+    "name": "George Orwell",
+    "dates": "1903-1950",
+    "object": "group chats",
+    "verdict": "distant observation",
+    "score": 6.2,
+    "essay": "People use group chats to talk to each other, and it is a curious thing that they can be so much like a crowd in a theatre, all shouting at once and none of them listening. You can scroll back through the messages and see what was said, but it is hard to make sense of it all, like trying to follow a conversation in a noisy room. It seems to me that group chats are a way for people to feel like they are part of a group, without actually having to be with the other people. They can just send a message and then forget about it, without having to think about what the others might be thinking. It is a strange kind of conversation, where nobody is really talking to anybody else, but just sending out words into the air.",
+    "generated": "2026-10-11T00:14:45+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-10-11"
   }
 ]

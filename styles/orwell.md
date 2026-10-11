@@ -63,6 +63,10 @@ Source: "Pleasure Spots" (1946), Fifty Orwell Essays, Project Gutenberg Australi
 - Expected a more straightforward sentence, such as 'we do not walk for fun' instead of the complex phrase 'it does not occur to us' Seen in a published essay: "It does not occur to us that we might simply walk for pleasure, without needing to measure the distance or count the calories burned" (found 2026-09-24).
 - Expected a more direct phrase, such as 'it shows our obsession' instead of the abstract word 'symbol' Seen in a published essay: "a symbol of this obsession" (found 2026-09-24).
 - Expected a simpler sentence structure, such as 'we see this with step counters' instead of the complex phrase 'nowhere more clearly seen' Seen in a published essay: "this habit of mind is not unique to the step counter, but it is nowhere more clearly seen" (found 2026-09-24).
+- Expected a more straightforward comparison, such as 'it is hard to make sense of it' without the elaborate simile 'like trying to follow a conversation in a noisy room' Seen in a published essay: "it is hard to make sense of it all, like trying to follow a conversation in a noisy room" (found 2026-10-11).
+- Expected a more direct phrase, such as 'without being with others' instead of the more elaborate phrase used Seen in a published essay: "without actually having to be with the other people" (found 2026-10-11).
+- Expected a more concise phrase, such as 'without thinking of others' instead of the more complex phrase used Seen in a published essay: "without having to think about what the others might be thinking" (found 2026-10-11).
+- Expected a more direct phrase, such as 'but just sending words' instead of the more elaborate phrase used Seen in a published essay: "but just sending out words into the air" (found 2026-10-11).
 ## Log
 
 - 25/08/2026 - migrated from config/thinkers.yaml; Avoid list seeded from the first batch.
