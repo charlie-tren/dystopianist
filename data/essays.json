@@ -2064,11 +2064,11 @@
     "dates": "1937-2005",
     "object": "LinkedIn",
     "verdict": "electronic livestock show",
-    "score": 1.2,
+    "score": 0.4,
     "essay": "I was watching a senior vice president celebrate his twenty-fifth year of corporate servitude when I realized the true genius of the machinery. Here was a vast, blue-and-white electronic livestock show where millions of ambitious, wing-tipped ladder-climbers spent their evenings polishing their own digital collars, bragging about seventy-hour work weeks, and writing tearful, thousand-word essays about the profound business lessons they learned while getting laid off in an airport terminal. It was pure, unadulterated madness. Every morning, a new battalion of grinning middle managers logs in to applaud each other for achieving synergy, trading artificial compliments like inmates exchanging loosies in an exercise yard, each one desperately terrified that a single moment of quiet reflection will brand them as unmotivated and doom them to executive oblivion. I saw a man in a polyester suit post a solemn tribute to a stranger who had perfected the art of firing people over email, and within three hours four thousand middle-tier grifters had endorsed him for strategic vision. The entire racket was built by cold-eyed HR consultants who realized you don't even need to beat the slaves if you convince them to auction themselves off every afternoon. The machine feeds on fear. I turned the screen off and poured a drink.",
     "generated": "2026-09-29T00:59:53+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-29"
   },
   {
@@ -2517,6 +2517,20 @@
     "generated": "2026-10-11T18:01:37+00:00",
     "provider": "gemini",
     "scored_by": "gemini/100",
+    "reread": "2026-10-11"
+  },
+  {
+    "date": "2026-10-11",
+    "thinker": "wallace",
+    "name": "David Foster Wallace",
+    "dates": "1962-2008",
+    "object": "anaesthesia",
+    "verdict": "faintly medical glow",
+    "score": 7.3,
+    "essay": "The induction room's fluorescent lights hum at a pitch that's almost, but not quite, audible, casting a faintly medical glow over the proceedings, which is to say the proceedings of rendering you insensible, a process that's both deeply personal and utterly impersonal, rather like the sensation of being disconnected from your own body, which I've heard described as a kind of floating, though I've never actually experienced it myself, or at least not that I can recall, which is of course the point, the idea being that you won't recall anything, or at least not anything that happens after the anaesthesiologist says the words that always sound vaguely reassuring, even though you know they're not really meant to be, and the mask is placed over your nose and mouth, and you breathe in the sweet, chemical smell of oblivion, and then, well, then nothing, or at least not anything that you'll ever be able to tell me about, which is what makes it all so fascinating, I think, the way it erases not just your memories, but your very sense of self, leaving you a blank slate, a tabula rasa, when you wake up, which is to say, when you're restored to yourself, though whether that self is really the same one that went under, I'm not so sure, and that's what I find myself wondering, as I sit here, waiting for someone to come out of recovery, and tell me that everything is okay.",
+    "generated": "2026-10-11T20:59:16+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
     "reread": "2026-10-11"
   }
 ]
