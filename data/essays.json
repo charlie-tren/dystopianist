@@ -719,12 +719,12 @@
     "name": "Anthony Bourdain",
     "dates": "1956-2018",
     "object": "airport security",
-    "verdict": "a grind",
-    "score": 6.2,
+    "verdict": "theatre of endurance",
+    "score": 2.3,
     "essay": "You strip off your belt, unlace your boots, and dump your laptop into a gray plastic tub that five thousand sweaty hands touched before yours. You are annoyed because your flight to Frankfurt leaves in forty minutes and some guy in a blue uniform is taking four seconds too long to look at a tube of toothpaste. I do it too. I stand there huffing into my jacket, resentful of the delay, entirely blind to the theater of it. But look at the person holding the wand. They are standing on polished terrazzo in orthopedic shoes for eight hours straight, inhaling the stale air of Terminal 4, getting barked at by hedge-fund managers who cannot bear to part with their lotion. It is a grind, pure and simple. Not security, really, but endurance. A dish pit with rubber gloves and x-ray screens instead of scrub pads. Nobody thanks them when the scanner stays quiet. Nobody asks how their knees feel at four in the afternoon. We just want to pack our gear, slide our feet back into our loafers, and walk away feeling like we survived an inconvenience, while they stay behind to clear the next hundred angry strangers.",
     "generated": "2026-08-29T02:59:19+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-08"
   },
   {
@@ -2035,12 +2035,12 @@
     "name": "Michel de Montaigne",
     "dates": "1533-1592",
     "object": "Titanic (1997)",
-    "verdict": "ambivalent observation",
-    "score": 6.2,
+    "verdict": "extravagant spectacle",
+    "score": 4.8,
     "essay": "I find myself strangely divided whenever I consider that great moving spectacle of the ill-fated liner, where immense wealth and mechanical pride are brought down in a single night of ice and panic. I sat through all three hours of its grandeur, marvelling at how artfully the maker has constructed this illusion of metal, ocean, and human distress; yet I wonder whether my tears were drawn by true tragedy or merely by a cunning assault upon my senses. That penniless painter and the gilded lady who love amidst such inevitable ruin seem less like living creatures than like vivid emblems designed to stir an easy pity. Indeed, I suspect my heart was played upon as an instrument, for the drowning of a great iron vessel, wrought with such costly artifice and meticulous labour, fills the spectator with a horror that reason cannot quite govern. I know not whether it is noble or foolish to feel such pangs for phantom lovers whose fates were sealed before the drama even commenced; perhaps I am merely susceptible to the grand theatre of disaster, where every groaning beam invites one to ponder his own frail estate. In truth, I remain doubtful whether I have seen a profound portrait of human folly or simply an extravagant spectacle designed to extort my tears.",
     "generated": "2026-09-27T23:49:03+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-27"
   },
   {
@@ -2049,12 +2049,12 @@
     "name": "Emily Dickinson",
     "dates": "1830-1886",
     "object": "dating apps",
-    "verdict": "fragile intimacy",
-    "score": 6.7,
+    "verdict": "semblance of intimacy",
+    "score": 3.4,
     "essay": "In the quiet hours, a certain solitude is courted, a deliberate invitation to the unknown, through the fragile portal of a screen. The face, a fleeting visitation, a whispered promise of connection, is tried on, like a garment, for size, for fit, for the semblance of intimacy. The words, a tentative caress, a probing of the depths, are exchanged, with the diffidence of one who fears to be seen, yet longs to be revealed. The trying on of selves, the donning of personas, is a delicate dance, a negotiation of the boundaries between the inner and the outer, the self and the other. And when the encounter is ended, the screen gone dark, the silence that follows is a palpable thing, a stillness that enfolds, like a shroud, the fragile, flickering flame of hope.",
     "generated": "2026-09-28T18:01:27+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-28"
   },
   {
@@ -2503,6 +2503,20 @@
     "generated": "2026-10-11T00:14:45+00:00",
     "provider": "cloudflare",
     "scored_by": "cloudflare/100",
+    "reread": "2026-10-11"
+  },
+  {
+    "date": "2026-10-11",
+    "thinker": "confucius",
+    "name": "Confucius",
+    "dates": "551-479 BC",
+    "object": "alarm clocks",
+    "verdict": "a sharp command",
+    "score": 2.4,
+    "essay": "The Master said, 'To be summoned to duty before one's own resolve has awakened is like putting on a winter garment while the frost is still forming upon the ground. In morning duties, some attend because they are startled by an abrupt ringing, some because they wish to preserve their standing among neighbours, and some because their inward rhythm demands that they realise the daylight. Those who move from inward rhythm are constant; those who move from concern for standing are diligent when observed; those who move only when startled are ever lagging behind their own intentions.' The Master said, 'I have spent morning after morning waiting for the light to settle before setting out to labour, yet I cannot say that I have mastered the governance of my own slumber. If a man relies upon a mechanical device to rouse his limbs, he may indeed reach the courtyard in time for civilised service, yet his mind remains asleep in the chamber.' The Master said, 'The wise align their habits with the seasons; the virtuous move without requiring a sharp command; the bold accept the day's labour before the dawn arrives.'",
+    "generated": "2026-10-11T18:01:37+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100",
     "reread": "2026-10-11"
   }
 ]
