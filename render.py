@@ -24,15 +24,16 @@ body{margin:0;background:var(--ground);color:var(--ink);font:400 18px/1.68 var(-
 a{color:inherit}
 :focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 .wrap{max-width:660px;margin:0 auto;padding:2.2rem 1.4rem 5rem}
-.bar{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-bottom:2.2rem}
-.home{order:2;font:500 13px/1 var(--sans);letter-spacing:.1em;text-transform:uppercase;
+.bar{display:flex;align-items:center;justify-content:flex-end;gap:1rem;margin-bottom:2.2rem}
+.home{font:500 13px/1 var(--sans);letter-spacing:.1em;text-transform:uppercase;
   color:var(--dim);text-decoration:none;display:inline-flex;align-items:center;gap:0}
 .home:hover{color:var(--accent)}
-.home .back{color:var(--accent);font-size:14px;position:relative;top:-1px}
-.tog{order:1;appearance:none;cursor:pointer;background:transparent;color:var(--dim);
-  border:1px solid var(--rule);border-radius:999px;padding:.42rem .8rem;
-  font:500 12px/1 var(--sans);letter-spacing:.04em}
-.tog:hover{color:var(--ink);border-color:var(--accent)}
+.home .back{font-size:14px;position:relative;top:-1px}
+.theme-toggle{appearance:none;cursor:pointer;display:inline-flex;align-items:center;gap:.45rem;
+  padding:.42rem .82rem;border:1px solid var(--rule);border-radius:999px;background:transparent;
+  color:var(--dim);font:500 12.5px/1 var(--sans);letter-spacing:.02em;text-transform:none}
+.theme-toggle .dot{width:8px;height:8px;border-radius:50%;background:var(--accent)}
+.theme-toggle:hover{color:var(--ink);border-color:var(--accent)}
 h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0 .5rem;
   letter-spacing:-.01em;text-wrap:balance}
 .stand{color:var(--dim);font-size:1.08rem;margin:0 0 2.6rem;max-width:46ch}
@@ -228,8 +229,8 @@ HEAD = """<!DOCTYPE html>
 <body>
 <div class="wrap">
   <div class="bar">
+    <button class="theme-toggle" id="tog" type="button" aria-label="Switch to light theme"><span class="dot" aria-hidden="true"></span><span class="lbl">Light</span></button>
     <a class="home" href="https://charlietrenorden.com/"><span class="back">&larr;</span>&nbsp;Other projects</a>
-    <button class="tog" id="tog" type="button">Light</button>
   </div>
 """
 
@@ -239,7 +240,8 @@ TAIL = """
 <script>
   (function(){
     var r=document.documentElement,b=document.getElementById("tog");
-    function sync(){b.textContent=r.getAttribute("data-theme")==="dark"?"Light":"Dark";}
+    function sync(){var t=r.getAttribute("data-theme")==="dark"?"Light":"Dark";
+      b.querySelector(".lbl").textContent=t;b.setAttribute("aria-label","Switch to "+t.toLowerCase()+" theme");}
     sync();
     b.addEventListener("click",function(){
       var light=r.getAttribute("data-theme")!=="light";
@@ -645,6 +647,13 @@ GUESS_JS = """
 SITE = "https://charlietrenorden.com/ghostwriters/"
 
 
+def cap(s: str) -> str:
+    """Capital first letter for a tab title, leaving a brand like "iPhone" alone."""
+    if s[:1].islower() and not s[1:2].isupper():
+        return s[0].upper() + s[1:]
+    return s
+
+
 def page(title, desc, body, up, here, footer, canon="", meta_desc=None):
     """`body` carries its own <h1>; the nav is injected straight after it, so the
     heading comes first and the three ways in sit under it.
@@ -722,7 +731,7 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
                 f'{html.escape(e["object"])}</a></span></h1>\n'
                 f'  <div class="essay">\n    {paragraphs(e["essay"])}\n  </div>\n'
                 + also)
-        p = page(f'{e["name"]} on {e["object"]}',
+        p = page(f'{e["name"]} on {e["object"]} - Ghostwriters',
                  f'A pastiche essay in the style of {e["name"]} about {e["object"]}, '
                  'which they never saw.',
                  body, "../", "", "", canon=f"e/{slug(e)}.html")
@@ -747,7 +756,7 @@ def build(entries: list[dict], roster: list[dict] | None = None) -> None:
         # The rows are the front page's rows verbatim - name, object, verdict, score.
         body = (f'  <h1>{html.escape(obj)}</h1>\n'
                 f'  <ul class="list">\n{essay_rows(es, "../")}\n  </ul>\n')
-        p = page(f"{obj} - Ghostwriters",
+        p = page(f"{cap(obj)} - Ghostwriters",
                  f"{who} on {obj}, in pastiche.", body, "../", "objects", "",
                  canon=f"on/{obj_slug(obj)}.html")
         (DOCS / "on" / f"{obj_slug(obj)}.html").write_text(p, encoding="utf-8", newline="\n")
