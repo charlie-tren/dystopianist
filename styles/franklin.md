@@ -49,6 +49,9 @@ Source: The Autobiography of Benjamin Franklin, Project Gutenberg #20203
 - Expected a more direct statement of fact, without phrases that imply hearsay or indirect knowledge, such as 'I have been informed' Seen in a published essay: "I have been informed that it can be a substantial expense" (found 2026-09-08).
 - Expected a more concise and direct statement, without phrases like 'However' that sound too formal or hesitant for Franklin's voice Seen in a published essay: "However, I must consider whether the savings in time and labour are sufficient to offset the expense of the device" (found 2026-09-08).
 - Expected a more straightforward conclusion, without phrases that sound too formal or abstract, such as 'taking into account their own particular circumstances and priorities' Seen in a published essay: "it is a calculation that each person must make for themselves, taking into account their own particular circumstances and priorities" (found 2026-09-08).
+- The phrase 'I must consider' is too hesitant, a more direct statement was expected, such as 'I considered its utility' Seen in a published essay: "I must consider its utility in my own life" (found 2026-10-12).
+- The phrase 'I must weigh' is too hesitant, a more direct statement was expected, such as 'I weighed it against the potential benefits' Seen in a published essay: "I must weigh it against the potential benefits of rising at a consistent hour" (found 2026-10-12).
+- The phrase 'I would hope' is too hesitant, a more direct statement was expected, such as 'By using it in this way, I would save time and increase my productivity' Seen in a published essay: "By using it in this way, I would hope to save time and increase my productivity, which would be a significant benefit" (found 2026-10-12).
 ## Log
 
 - 28/08/2026 - added at Charlie's request from a list of sixteen. Real prose, two passages from the Autobiography via `tools/gutenberg_shots.py`.
