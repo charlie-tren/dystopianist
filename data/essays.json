@@ -2532,5 +2532,19 @@
     "provider": "cloudflare",
     "scored_by": "cloudflare/100",
     "reread": "2026-10-11"
+  },
+  {
+    "date": "2026-10-12",
+    "thinker": "montaigne",
+    "name": "Michel de Montaigne",
+    "dates": "1533-1592",
+    "object": "self-checkout machines",
+    "verdict": "anxious dread",
+    "score": 3.8,
+    "essay": "I have always been clumsy in the marketplace, yet I found myself today standing before that glowing glass pedestal, attempting to act as my own tradesman. I must confess my fingers proved singularly unfit for the task; for no sooner had I mislaid a small loaf upon the designated platform than an unyielding metallic voice declared my error to the entire room. I find myself wondering if I prefer the old, weary civility of a neighbour across the counter, or this swift, solitary transaction; for while I am spared the tedious pleasantries of a stranger, I am made to perform the clerk's labour under the suspicion of an unseen governor. I realise how readily I adjust my posture to appease an unreasoning cabinet of glass and light, lingering in anxious dread lest a signal flash to broadcast my ineptitude. And yet, I know not whether this curious independence truly lightens our daily burden, or if I am merely flattering my vanity by pretending that I have mastered an art which, in truth, leaves me feeling remarkably foolish.",
+    "generated": "2026-10-12T00:32:33+00:00",
+    "provider": "gemini",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-10-12"
   }
 ]
