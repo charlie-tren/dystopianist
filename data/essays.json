@@ -2546,5 +2546,19 @@
     "provider": "gemini",
     "scored_by": "cloudflare/100",
     "reread": "2026-10-12"
+  },
+  {
+    "date": "2026-10-12",
+    "thinker": "austen",
+    "name": "Jane Austen",
+    "dates": "1775-1817",
+    "object": "the hot shower",
+    "verdict": "tempered appreciation",
+    "score": 6.7,
+    "essay": "The daily routine of many a gentleman and lady is now frequently interrupted by a most singular indulgence, one that serves to cleanse the body whilst also soothing the mind. The warmth and comfort it provides are undoubtedly a balm to the weary soul, and many are the individuals who have grown accustomed to its gentle ministrations. And yet, the outcome is not always more pleasing, for in the midst of this luxury, a certain languor can take hold, rendering the individual less inclined to exert themselves in the pursuit of more vigorous activities. The tendency to linger overlong in this state of relaxation can, in some instances, invite a degree of indolence into the daily routine, which may ultimately prove detrimental to the overall well-being of the individual. Nevertheless, the allure of this indulgence remains strong, and many continue to avail themselves of its comforts, often without rendering their daily lives notably more agreeable.",
+    "generated": "2026-10-12T18:01:53+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-10-12"
   }
 ]
