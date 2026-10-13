@@ -54,6 +54,12 @@ Source: What Is Art? (1897, Maude translation), Project Gutenberg #64908
 - A reader of Leo Tolstoy would have expected a more direct and literal statement of fact, such as 'modern life is superficial'. Seen in a published essay: "a clear indication of the superficiality of modern life" (found 2026-10-08).
 - A reader of Leo Tolstoy would have expected a more literal and direct condemnation, such as 'it alienates people and keeps them in ignorance'. Seen in a published essay: "serving only to further alienate people from the world and from each other, and to keep them in a state of ignorance and subjugation" (found 2026-10-08).
 - A reader of Leo Tolstoy would have expected a more straightforward and literal description of the issue, such as 'a cycle of distraction and indulgence' without the metaphor 'never-ending'. Seen in a published essay: "a never-ending cycle of distraction and indulgence" (found 2026-10-08).
+- A reader of Leo Tolstoy would have expected a more literal and direct condemnation, such as 'it keeps people in ignorance' Seen in a published essay: "a cycle of avoidance and ignorance" (found 2026-10-13).
+- A reader of Leo Tolstoy would have expected a more direct and literal statement of fact, such as 'the wealthy use it to maintain power' Seen in a published essay: "a means by which the wealthy and privileged can maintain their grip on power" (found 2026-10-13).
+- A reader of Leo Tolstoy would have expected a more straightforward and literal description of the issue, such as 'they do not know they are exploited' Seen in a published essay: "unable to fully comprehend the extent of their own exploitation" (found 2026-10-13).
+- A reader of Leo Tolstoy would have expected a more contemptuous tone, without the word 'manifestation', which implies a degree of abstraction or distance Seen in a published essay: "a manifestation of the selfishness and decadence of the educated classes" (found 2026-10-13).
+- A reader of Leo Tolstoy would have expected a more literal and direct condemnation, such as 'it corrupts them' Seen in a published essay: "corrupting and degrading those who use it" (found 2026-10-13).
+- A reader of Leo Tolstoy would have expected a more direct and literal statement of fact, such as 'it perpetuates inequality' Seen in a published essay: "perpetuating a system of inequality and injustice" (found 2026-10-13).
 ## Log
 
 - 28/08/2026 - added at Charlie's request from a list of sixteen. Real prose, two passages from What Is Art? via `tools/gutenberg_shots.py`. Italic markup stripped from the quoted text.
