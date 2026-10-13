@@ -49,6 +49,9 @@ Source: Swann's Way, tr. C. K. Scott Moncrieff (1922), Project Gutenberg #7178
 - A stock literary cliché is used, whereas Proust would have used a more unique and detailed comparison. Seen in a published essay: "a strange, almost gravitational pull" (found 2026-09-12).
 - A more detailed and analytical description of the perception was expected, rather than a phrase that implies a generic emotional response. Seen in a published essay: "demands of the spectator an immediate surrender to a nostalgia" (found 2026-09-26).
 - A more rigorous and detailed exploration of the sensation was expected, rather than a phrase that resolves the sentiment too neatly. Seen in a published essay: "leaving us at last to marvel at how easily a spoonful of orange preserve can temporarily reconcile us" (found 2026-09-26).
+- A generic, melodramatic trope is used, whereas Proust would have deployed a precise, highly detailed metaphor drawn from art, optics, or social observation. Seen in a published essay: "a dazzling, kaleidoscopic dance" (found 2026-10-13).
+- A stock literary cliché is used, whereas Proust would have used a more unique and detailed comparison. Seen in a published essay: "an impenetrable, greyish veil" (found 2026-10-13).
+- A generic, melodramatic trope is used, whereas Proust would have deployed a precise, highly detailed metaphor drawn from art, optics, or social observation. Seen in a published essay: "eerie, otherworldly radiance" (found 2026-10-13).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Swann's Way, tr. C. K. Scott Moncrieff (1922), Project Gutenberg #7178 via tools/gutenberg_shots.py.
