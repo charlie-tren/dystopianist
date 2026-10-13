@@ -60,6 +60,8 @@ Source: pastiche written for this repo (still in copyright)
 - A reader of Julia Child would have expected a more instructional phrase, such as 'perfectly naturally, it demands great skill' or 'of course, it requires expertise' Seen in a published essay: "But do not think for a moment that it requires no skill of its own" (found 2026-09-14).
 - A reader of Julia Child would have expected a more precise phrase, such as 'you need someone who knows exactly the right dosage and timing' or 'a skilled professional is essential to administer it correctly' Seen in a published essay: "You must have a specialist at the helm who understands precisely how much to give, how to monitor the breathing, and when to bring you safely back round" (found 2026-09-14).
 - A reader of Julia Child would have expected a more direct phrase, such as 'of course, it is prudent' or 'naturally, it is the sensible thing to do' Seen in a published essay: "That is not weakness; that is simply intelligent management" (found 2026-09-14).
+- A reader of Julia Child would have expected a more direct phrase, such as 'of course' or 'naturally', without the word 'perfectly' in this context Seen in a published essay: "perfectly naturally, that is not the point" (found 2026-10-13).
+- A reader of Julia Child would have expected a more precise phrase, such as 'I highly recommend it' or 'it is well worth trying' Seen in a published essay: "I am perfectly happy to recommend it" (found 2026-10-13).
 ## Log
 
 - 28/08/2026 - added at Charlie's request from a list of sixteen, explicitly as a counterweight to Bourdain: delight where he is appalled. In copyright, so both samples are pastiche.
