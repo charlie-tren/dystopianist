@@ -79,6 +79,7 @@ exists - a guess about a failure is worth much less than a quotation of it.
 - A reader of Confucius would have expected a more subtle distinction, such as 'the wise, the virtuous, and the bold', rather than a binary statement Seen in a published essay: "To commend a neighbour's diligence merely so that he may commend one's own in return is not true propriety" (found 2026-10-02).
 - A reader of Confucius would have expected a more straightforward and simple comparison, rather than an elaborate and figurative expression Seen in a published essay: "it is a trade of words, and from such trade no civilised order can arise" (found 2026-10-02).
 - A reader of Confucius would have expected a more nuanced and less direct statement, such as a comparison or a metaphor, rather than a straightforward declaration Seen in a published essay: "A man who wishes to realise virtue must first attend to his present task" (found 2026-10-02).
+- A reader of Confucius would have expected a more straightforward and simple comparison, rather than an elaborate and figurative expression Seen in a published essay: "like a tree that is nourished by the sun, but also battered by the wind" (found 2026-10-14).
 ## Log
 
 - 11/09/2026 - added at Charlie's request alongside Sun Tzu. Two real samples from

@@ -2616,5 +2616,19 @@
     "provider": "cloudflare",
     "scored_by": "cloudflare/100",
     "reread": "2026-10-13"
+  },
+  {
+    "date": "2026-10-14",
+    "thinker": "confucius",
+    "name": "Confucius",
+    "dates": "551-479 BC",
+    "object": "airport lounges",
+    "verdict": "gentle insight",
+    "score": 7.3,
+    "essay": "The Master said, \"In a place where many people wait, we may see how some use their time to prepare for what is to come, while others use it to indulge in what is readily available.\" The Master said, \"The wise traveller is mindful of his journey, and uses the waiting time to collect his thoughts; the virtuous traveller is considerate of his fellow passengers, and uses the waiting time to show kindness; and the bold traveller is undaunted by the uncertainty of his journey, and uses the waiting time to plan his next steps.\" The Master said, \"I myself have waited in such places, and have found that the mind can be free to ponder, yet also prone to wander, like a tree that is nourished by the sun, but also battered by the wind.",
+    "generated": "2026-10-14T00:18:30+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-10-14"
   }
 ]
