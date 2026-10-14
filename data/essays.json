@@ -2658,5 +2658,19 @@
     "provider": "cloudflare",
     "scored_by": "cloudflare/100",
     "reread": "2026-10-14"
+  },
+  {
+    "date": "2026-10-14",
+    "thinker": "russell",
+    "name": "Bertrand Russell",
+    "dates": "1872-1970",
+    "object": "alarm clocks",
+    "verdict": "reluctant enslavement",
+    "score": 2.3,
+    "essay": "I have noticed that people who rely on alarm clocks to wake them are often the same ones who complain about the drudgery of their daily routines; it is as if they are trapped in a cycle of monotony, and the alarm clock is the constant reminder of their enslavement to it. We use these devices to jolt ourselves out of bed, to shock ourselves into a state of wakefulness, and yet we rarely stop to consider why we need such a drastic measure in the first place. This is not to say that sleep is not a pleasant thing, but rather that our lives have become so unfulfilling that we require a loud noise to rouse us from our slumber. The alarm clock is a symbol of our reluctance to face the day, and our inability to find joy in the simple act of waking up; it is a poor substitute for a life of purpose and meaning.",
+    "generated": "2026-10-14T23:55:36+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-10-14"
   }
 ]
