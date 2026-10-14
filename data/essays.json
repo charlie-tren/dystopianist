@@ -2644,5 +2644,19 @@
     "provider": "cloudflare",
     "scored_by": "cloudflare/100",
     "reread": "2026-10-14"
+  },
+  {
+    "date": "2026-10-14",
+    "thinker": "orwell",
+    "name": "George Orwell",
+    "dates": "1903-1950",
+    "object": "LinkedIn",
+    "verdict": "play-acting",
+    "score": 2.3,
+    "essay": "People put their working lives on show for all to see, like a shopkeeper displaying his wares in the window. They write about what they do and who they know, and they collect endorsements from their acquaintances, as if these were valuable coins to be stored away. It is a strange thing, this need to prove oneself to the world, to demonstrate one's usefulness and importance, not just to one's employer or colleagues, but to anyone who cares to look. And yet, it is a compulsion that many people seem to feel, this urge to present a polished and impressive face to the world, even if it means exaggerating or distorting the truth. You see it in the way they describe their jobs, using grandiose language to make themselves sound more important than they really are. It is a kind of play-acting, a pretence that they are something more than they actually are.",
+    "generated": "2026-10-14T20:44:48+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-10-14"
   }
 ]

@@ -67,6 +67,12 @@ Source: "Pleasure Spots" (1946), Fifty Orwell Essays, Project Gutenberg Australi
 - Expected a more direct phrase, such as 'without being with others' instead of the more elaborate phrase used Seen in a published essay: "without actually having to be with the other people" (found 2026-10-11).
 - Expected a more concise phrase, such as 'without thinking of others' instead of the more complex phrase used Seen in a published essay: "without having to think about what the others might be thinking" (found 2026-10-11).
 - Expected a more direct phrase, such as 'but just sending words' instead of the more elaborate phrase used Seen in a published essay: "but just sending out words into the air" (found 2026-10-11).
+- Expected a more straightforward comparison, such as 'they show off their work' instead of the elaborate simile Seen in a published essay: "like a shopkeeper displaying his wares in the window" (found 2026-10-14).
+- Expected a more direct phrase, such as 'they collect endorsements' instead of the elaborate metaphor Seen in a published essay: "as if these were valuable coins to be stored away" (found 2026-10-14).
+- Expected a more concrete phrase, such as 'they want to look good' instead of the abstract words 'urge' and 'polished and impressive face' Seen in a published essay: "this urge to present a polished and impressive face to the world" (found 2026-10-14).
+- Expected a more direct phrase, such as 'they lie about what they do' instead of the more elaborate and indirect phrase Seen in a published essay: "even if it means exaggerating or distorting the truth" (found 2026-10-14).
+- Expected a more straightforward phrase, such as 'they use big words' instead of the more elaborate and abstract phrase Seen in a published essay: "using grandiose language to make themselves sound more important than they really are" (found 2026-10-14).
+- Expected a more direct phrase, such as 'they pretend to be something they are not' instead of the more elaborate and abstract phrase Seen in a published essay: "a kind of play-acting, a pretence that they are something more than they actually are" (found 2026-10-14).
 ## Log
 
 - 25/08/2026 - migrated from config/thinkers.yaml; Avoid list seeded from the first batch.
