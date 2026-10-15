@@ -73,6 +73,11 @@ Source: Poems, Three Series (1890-96), Project Gutenberg #12242
 - A more concise and ambiguous phrase was expected, such as 'innocence weighs' instead of a straightforward explanation Seen in a published essay: "Innocence feels curiously heavy when it must be proved" (found 2026-10-10).
 - A more enigmatic comparison was expected, rather than a clear and descriptive one, such as 'soul in a fold' Seen in a published essay: "How small the soul becomes when packed into a plastic trough" (found 2026-10-10).
 - A more subtle and implicit suggestion of the trade-off was expected, rather than an explicit and explanatory one, such as 'sky for dust' Seen in a published essay: "Security buys us a sky, but takes the privacy of our dust as deposit" (found 2026-10-10).
+- A more subtle and implicit suggestion of the silence's significance was expected, rather than an explicit statement like this Seen in a published essay: "a physical presence that weighs upon the heart" (found 2026-10-15).
+- A more concise and ambiguous phrase was expected, such as 'innocence weighs' instead of this straightforward explanation Seen in a published essay: "like innocence that feels curiously heavy when it must be proved" (found 2026-10-15).
+- A more enigmatic comparison was expected, rather than this clear and descriptive one Seen in a published essay: "a beauty that belies the terror that lies beneath" (found 2026-10-15).
+- A more subtle and implicit suggestion of the trade-off was expected, rather than this explicit and explanatory one, such as 'sky for dust' Seen in a published essay: "like a sky that buys security, but takes the privacy of our dust as deposit" (found 2026-10-15).
+- A more abstract and suggestive phrase was expected, rather than this straightforward explanation of the voice's effect Seen in a published essay: "The film's beauty is a cruel thing" (found 2026-10-15).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Poems, Three Series (1890-96), Project Gutenberg #12242 via tools/gutenberg_shots.py.

@@ -2686,5 +2686,19 @@
     "provider": "cloudflare",
     "scored_by": "cloudflare/100",
     "reread": "2026-10-15"
+  },
+  {
+    "date": "2026-10-15",
+    "thinker": "dickinson",
+    "name": "Emily Dickinson",
+    "dates": "1830-1886",
+    "object": "Titanic (1997)",
+    "verdict": "warms and devours",
+    "score": 8.6,
+    "essay": "The sorrow that clings to Titanic is a garment that can be worn, its folds heavy with the weight of lives lost, and the desperation that comes with loving in the face of doom - a love that tries on the utmost, and finds it terribler than any existence could bear. In its grandeur, the ship is a domestic anchor, a hearth that warms and devours, leaving only the bitter taste of what could never be. The director's hand is a gentle one, guiding the viewer through the labyrinth of the ship's corridors, and the twisted passages of the human heart - a soul in a fold, trying to find its way. The film's beauty is a cruel thing, a beauty that belies the terror that lies beneath, like a sky that buys security, but takes the privacy of our dust as deposit. And when it ends, the silence that follows is a thing that can be felt, a physical presence that weighs upon the heart, like innocence that feels curiously heavy when it must be proved.",
+    "generated": "2026-10-15T23:41:29+00:00",
+    "provider": "cloudflare",
+    "scored_by": "gemini/100",
+    "reread": "2026-10-15"
   }
 ]
