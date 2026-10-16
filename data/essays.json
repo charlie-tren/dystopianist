@@ -2091,12 +2091,12 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "airport security",
-    "verdict": "ritualistic scrutiny",
-    "score": 2.3,
+    "verdict": "theatre of vigilance",
+    "score": 0.9,
     "essay": "Theatre of vigilance, where the masses assemble to surrender their liberty in exchange for the promise of safety, and yet, in this grand spectacle, one cannot help but notice the absurdity of it all, for in the act of protecting ourselves from the unknown, we willingly submit to a regime of ritualistic scrutiny, as if the removal of our shoes and the surrender of our toiletries might somehow assuage the gods of chaos, and so we stand, patiently, in queues that stretch and twist like some serpentine creature, our eyes cast downward, our dignity quietly slipping away, all in the name of a freedom that is, in truth, nothing more than the freedom to be herded, to be directed, and to be, ultimately, confined.",
     "generated": "2026-09-29T21:26:33+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-09-29"
   },
   {
@@ -2726,6 +2726,20 @@
     "essay": "As the minutes ticked by, it seemed that the procedure to administer anaesthesia was nearing its culmination, although it was not entirely clear to what extent the presence of the attendant was a necessity, given that the equipment itself appeared to be functioning in a satisfactory manner, and yet, it became apparent that the progression of the treatment was contingent upon the verification of certain documents, which, owing to a miscommunication regarding the filing system, were not readily available, thus necessitating a brief, though indefinite, postponement, during which time the patient, who had been prepared for the procedure, was obliged to wait, his state of readiness suspended in a condition of limbo, as the hours, which had previously seemed to be passing with a certain degree of rapidity, now began to drag on with a slowness that was, in itself, a source of considerable unease.",
     "generated": "2026-10-16T19:59:28+00:00",
     "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-10-16"
+  },
+  {
+    "date": "2026-10-16",
+    "thinker": "wilde",
+    "name": "Oscar Wilde",
+    "dates": "1854-1900",
+    "object": "Paddington (2014)",
+    "verdict": "immaculate decorum",
+    "score": 8.7,
+    "essay": "Good manners are far too serious a matter to be entrusted to the English, who have always confused cold civility with true kindness; it takes a bear from Peru to instruct London in the art of hospitality. The film presents us with a metropolitan world painted in the most charming pastel hues, turning a dreary terrace house into a perfectly functioning dollhouse of human eccentricity. One must admire a creature who understands that a neatly tailored duffle coat and a jar of marmalade are far more essential to civilisation than all the gloomy archives of the Geographers' Guild. The true villain of the piece is not cruelty, but bad taste—specifically, the taxidermist's hideous ambition to reduce living grace into a stuffed trophy. Paddington's ruinous politeness, which demolishes bathrooms and terrifies commuters, proves that catastrophe is entirely forgivable so long as one remembers to raise one's hat. It is a splendidly frivolous spectacle that demands nothing of its audience except that they abandon their tedious cynicism in favour of immaculate decorum. In an age so hopelessly devoted to practicality, there is something magnificently heroic about a foreigner who conquers London armed with nothing more than flawless manners and an appetite for tea.",
+    "generated": "2026-10-16T23:35:26+00:00",
+    "provider": "gemini",
     "scored_by": "cloudflare/100",
     "reread": "2026-10-16"
   }
