@@ -2714,5 +2714,19 @@
     "provider": "cloudflare",
     "scored_by": "gemini/100",
     "reread": "2026-10-16"
+  },
+  {
+    "date": "2026-10-16",
+    "thinker": "kafka",
+    "name": "Franz Kafka",
+    "dates": "1883-1924",
+    "object": "anaesthesia",
+    "verdict": "unease and limbo",
+    "score": 6.7,
+    "essay": "As the minutes ticked by, it seemed that the procedure to administer anaesthesia was nearing its culmination, although it was not entirely clear to what extent the presence of the attendant was a necessity, given that the equipment itself appeared to be functioning in a satisfactory manner, and yet, it became apparent that the progression of the treatment was contingent upon the verification of certain documents, which, owing to a miscommunication regarding the filing system, were not readily available, thus necessitating a brief, though indefinite, postponement, during which time the patient, who had been prepared for the procedure, was obliged to wait, his state of readiness suspended in a condition of limbo, as the hours, which had previously seemed to be passing with a certain degree of rapidity, now began to drag on with a slowness that was, in itself, a source of considerable unease.",
+    "generated": "2026-10-16T19:59:28+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-10-16"
   }
 ]
