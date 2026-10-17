@@ -73,6 +73,11 @@ Source: "Pleasure Spots" (1946), Fifty Orwell Essays, Project Gutenberg Australi
 - Expected a more direct phrase, such as 'they lie about what they do' instead of the more elaborate and indirect phrase Seen in a published essay: "even if it means exaggerating or distorting the truth" (found 2026-10-14).
 - Expected a more straightforward phrase, such as 'they use big words' instead of the more elaborate and abstract phrase Seen in a published essay: "using grandiose language to make themselves sound more important than they really are" (found 2026-10-14).
 - Expected a more direct phrase, such as 'they pretend to be something they are not' instead of the more elaborate and abstract phrase Seen in a published essay: "a kind of play-acting, a pretence that they are something more than they actually are" (found 2026-10-14).
+- Expected a more direct phrase, such as 'a short description' instead of the elaborate metaphor 'a kind of verbal thumbnail' Seen in a published essay: "a kind of verbal thumbnail" (found 2026-10-17).
+- Expected a more direct phrase, such as 'we want to be liked' instead of the abstract phrase 'it speaks to a deep-seated desire' Seen in a published essay: "it speaks to a deep-seated desire" (found 2026-10-17).
+- Expected a more straightforward comparison, such as 'like products for sale' instead of the elaborate simile 'like goods on a shelf waiting to be chosen' Seen in a published essay: "like goods on a shelf waiting to be chosen" (found 2026-10-17).
+- Expected a more direct phrase, such as 'it is strange' instead of the abstract phrase 'a strange and unsettling phenomenon' Seen in a published essay: "a strange and unsettling phenomenon" (found 2026-10-17).
+- Expected a more concrete phrase, such as 'shows our fears' instead of the abstract phrase 'reveals a good deal about the anxieties and insecurities of modern life' Seen in a published essay: "reveals a good deal about the anxieties and insecurities of modern life" (found 2026-10-17).
 ## Log
 
 - 25/08/2026 - migrated from config/thinkers.yaml; Avoid list seeded from the first batch.

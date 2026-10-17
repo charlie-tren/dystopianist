@@ -2756,5 +2756,19 @@
     "provider": "gemini",
     "scored_by": "gemini/100",
     "reread": "2026-10-17"
+  },
+  {
+    "date": "2026-10-17",
+    "thinker": "orwell",
+    "name": "George Orwell",
+    "dates": "1903-1950",
+    "object": "dating apps",
+    "verdict": "unsettling phenomenon",
+    "score": 3.8,
+    "essay": "The habit of presenting oneself to strangers in the most favourable light has become a commonplace of modern life, and nowhere is this more evident than in the curated profiles that populate dating apps. A person's entire character is reduced to a handful of photographs and a brief description, a kind of verbal thumbnail that is meant to entice and persuade. It is a curious thing, this attempt to capture the essence of oneself in a few well-chosen words and images, and it speaks to a deep-seated desire to be liked and accepted by others. But what does it say about us, that we feel the need to package and present ourselves in this way, like goods on a shelf waiting to be chosen? It is a strange and unsettling phenomenon, and one that reveals a good deal about the anxieties and insecurities of modern life.",
+    "generated": "2026-10-17T19:27:42+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-10-17"
   }
 ]
