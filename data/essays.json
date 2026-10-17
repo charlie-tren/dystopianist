@@ -733,11 +733,11 @@
     "name": "Julia Child",
     "dates": "1912-2004",
     "object": "airport lounges",
-    "verdict": "a haven",
-    "score": 6.7,
-    "essay": "Now, as you sit in one of these airport lounges, you may find yourself wondering if all the fuss is worth it, but I say, perfectly well, it is a haven from the chaos outside. The moment you step in, you are enveloped in a sense of calm, and the amenities, while not extravagant, are perfectly sufficient to make your wait a pleasant one. You will notice, of course, that the food and drink are not particularly inspiring, but that is not the point, is it? The point is to have a quiet, comfortable spot to collect yourself before your flight, and in that, these lounges succeed perfectly well. I must say, I do appreciate the effort to remove the drudgery of waiting in a crowded terminal, and the fact that you can get some work done or simply relax in peace is a definite advantage. But, really, do not expect to be pampered, because that is not what these lounges are about, and if you do, you will be perfectly disappointed.",
+    "verdict": "a quiet refuge",
+    "score": 4.2,
+    "essay": "You are paying for peace and a quiet place to sit down, so take the armchair and enjoy the stillness. But do look very carefully at that long buffet counter before you go loading up your plate. Half of what sits under those shining heat lamps has been congealing there since breakfast, turning into a sad, lukewarm paste while travellers in dark suits pretend it is luxury. Do not touch those soggy little sandwiches! They are a foolish waste of good bread, and anyone can see what happens to mayonnaise left standing in a warm room. If there is a bottle of cold white wine or a pot of fresh coffee, help yourself, step away from the steam trays, and find a corner with a bright lamp where you can read in peace. That is what this room is actually good for. It is a refuge from the dreadful racket of the concourse, nothing more. Do not be seduced by the polished counters or the pretense of high living. Eat a decent apple, keep your eye on the departure clock, and walk to your gate calm, refreshed, and ready for whatever comes next.",
     "generated": "2026-08-29T02:59:49+00:00",
-    "provider": "cloudflare",
+    "provider": "gemini",
     "scored_by": "gemini/100",
     "reread": "2026-09-08"
   },
@@ -2147,12 +2147,12 @@
     "name": "Michel de Montaigne",
     "dates": "1533-1592",
     "object": "group chats",
-    "verdict": "curious conversation",
-    "score": 6.7,
+    "verdict": "invisible assemblies",
+    "score": 4.4,
     "essay": "I have often noticed in my own disposition an inclination to retreat from loud parlours where many men speak at once, yet I find myself perpetually drawn toward those invisible assemblies where a dozen friends toss their stray thoughts into a common pot at all hours. It seems to me a curious sort of conversation, if indeed it deserves the name; for one man drops a jest concerning his dinner, another replies to a query raised three hours prior, and a third inserts a foolish image, so that all order of discourse is utterly overturned. I know not whether this constant hum of distant company cures our solitude or merely renders us incapable of enduring it: for while I am comforted to see my neighbours' idle banter flicker across my screen, I suspect I grow less capable of that quiet, deliberate thought which requires a man to sit alone with his own mind. Sometimes I am moved to silence by the sheer volume of this light chatter, feeling myself an intruder among those who reply with such swift brevity; yet no sooner do I resolve to leave the circle than a sudden desire to be remembered draws me back to leave some trifling remark of my own.",
     "generated": "2026-10-01T21:51:46+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-10-01"
   },
   {
@@ -2161,12 +2161,12 @@
     "name": "Confucius",
     "dates": "551-479 BC",
     "object": "LinkedIn",
-    "verdict": "empty display",
-    "score": 2.3,
+    "verdict": "trade of words",
+    "score": 1.2,
     "essay": "The Master said, 'A man should not be anxious that he has no official position; he should be anxious about the means by which he may become fit for one. To broadcast one's accomplishments in the market before any real service has been rendered is to put the shadow before the substance.' The Master said, 'The virtuous rely upon their conduct to acquire office; the wise rely upon their learning; the bold rely upon their deeds. But those who spend their days displaying their titles to every passer-by rely only upon the estimation of strangers.' The Master said, 'I have observed how men gather hundreds of acquaintances upon a public register, yet when difficulty arises, they find few who will share in their labour.' The Master said, 'To commend a neighbour's diligence merely so that he may commend one's own in return is not true propriety; it is a trade of words, and from such trade no civilised order can arise.' The Master said, 'I spent a full morning recording my past duties to make them known to the court. It was of no profit. A man who wishes to realise virtue must first attend to his present task.'",
     "generated": "2026-10-02T00:48:19+00:00",
     "provider": "gemini",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-10-02"
   },
   {
@@ -2189,12 +2189,12 @@
     "name": "Friedrich Nietzsche",
     "dates": "1844-1900",
     "object": "airport lounges",
-    "verdict": "sterile refuge",
-    "score": 1.4,
+    "verdict": "prison of comfort",
+    "score": 0.4,
     "essay": "The refuge of the airport lounge: a sanctuary for the weary traveller, a bastion of comfort in a sea of chaos. But what does this sanctuary reveal about those who seek it? That they are incapable of enduring the turbulence of life, that they require a cushion of luxury to shield them from the harsh realities of the world. The airport lounge is a confession of weakness, a surrender to the forces of convenience and indolence. And what is the reward for this surrender? A sterile environment, devoid of character or depth, where the soul is anaesthetized by the mundane comforts of food and drink. The traveller who seeks refuge in the airport lounge has gained nothing, but has lost the opportunity to confront the unknown, to challenge himself, and to discover the hidden strengths that lie within. He has merely constructed his own prison, a prison of comfort and conformity, where the mind is numbed and the spirit is crushed.",
     "generated": "2026-10-02T21:22:23+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-10-02"
   },
   {
@@ -2742,5 +2742,19 @@
     "provider": "gemini",
     "scored_by": "cloudflare/100",
     "reread": "2026-10-16"
+  },
+  {
+    "date": "2026-10-17",
+    "thinker": "nietzsche",
+    "name": "Friedrich Nietzsche",
+    "dates": "1844-1900",
+    "object": "Jaws (1975)",
+    "verdict": "psychological dread",
+    "score": 7.7,
+    "essay": "The town council of Amity offers the eternal spectacle of bourgeois cowardice: it would rather sacrifice its own children to an unseen sea-monster than forfeit a single week of summer profit. This film understands that fear is far more potent when hidden than when revealed—a mechanical failure forced the director to delay the beast's appearance, and in doing so, he elevated a simple spectacle into an exercise in psychological dread. What the spectator genuinely desires is not the monster itself, but the thrill of his own fragility made manifest. Notice how the terror is built through two simple musical notes: a primitive rhythm that announces the arrival of pure, indifferent appetite. Against this primordial force, modern civilised society sends three ill-assorted men on a frail wooden vessel: the anxious lawman who dreads the water, the wealthy man of science, and the brutal hunter. The hunter understands the beast because he belongs to an older, harsher discipline—yet he is devoured by the very terror he pretends to master. In the end, the civilised man survives not through nobility, but through a frantic, explosive accident. The audience leaves the theatre believing it has witnessed a triumph over nature—in truth, it has merely paid to celebrate its own trembling weakness.",
+    "generated": "2026-10-17T18:00:49+00:00",
+    "provider": "gemini",
+    "scored_by": "gemini/100",
+    "reread": "2026-10-17"
   }
 ]
