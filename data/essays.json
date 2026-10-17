@@ -2217,12 +2217,12 @@
     "name": "Marcus Aurelius",
     "dates": "121-180",
     "object": "Titanic (1997)",
-    "verdict": "stern caution",
-    "score": 3.8,
+    "verdict": "sentimental fancies",
+    "score": 2.8,
     "essay": "Thou dost indulge in sentimental fancies, beholding the tragic love of two strangers amidst a catastrophe. Thy emotions are stirred by the grandeur of the ship and the desperation of its passengers. Thou shouldst not be swayed by such romantic notions, for they distract thee from the realities of fate. Thy heart is moved by the calamity, yet thou shouldst remain steadfast, unmoved by the whims of fortune. Thou art drawn into the tale of love and loss, but thou shouldst not forget the impermanence of all things. Thou shouldst not be enchanted by the spectacle, lest thou forget thy own mortality. Thou shouldst attend to thy own character, rather than be swayed by the passions of others. Thou shouldst not be distracted from present duty.",
     "generated": "2026-10-03T18:03:17+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100",
+    "scored_by": "gemini/100",
     "reread": "2026-10-03"
   },
   {
@@ -2767,6 +2767,20 @@
     "score": 3.8,
     "essay": "The habit of presenting oneself to strangers in the most favourable light has become a commonplace of modern life, and nowhere is this more evident than in the curated profiles that populate dating apps. A person's entire character is reduced to a handful of photographs and a brief description, a kind of verbal thumbnail that is meant to entice and persuade. It is a curious thing, this attempt to capture the essence of oneself in a few well-chosen words and images, and it speaks to a deep-seated desire to be liked and accepted by others. But what does it say about us, that we feel the need to package and present ourselves in this way, like goods on a shelf waiting to be chosen? It is a strange and unsettling phenomenon, and one that reveals a good deal about the anxieties and insecurities of modern life.",
     "generated": "2026-10-17T19:27:42+00:00",
+    "provider": "cloudflare",
+    "scored_by": "cloudflare/100",
+    "reread": "2026-10-17"
+  },
+  {
+    "date": "2026-10-17",
+    "thinker": "austen",
+    "name": "Jane Austen",
+    "dates": "1775-1817",
+    "object": "podcasts",
+    "verdict": "gentle disdain",
+    "score": 3.8,
+    "essay": "The indulgence in these auditory entertainments has become a prevalent aspect of many a person's daily routine, affording them a convenient means of acquainting themselves with a wide range of subjects and ideas, often without necessitating a considerable expenditure of mental effort. Whilst this ease of access to information may be seen as a desirable circumstance, it is not uncommon for the listener to find their attention wandering, as the mind, unaccustomed to such a surfeit of idle speculation, begins to rebel against the constant barrage of thoughts and opinions. And yet, the comfort of being able to while away a tedious hour in this manner can be a significant allure, often without rendering their daily lives notably more agreeable, for in the midst of this luxury, a certain languor can take hold, rendering the individual less inclined to exert themselves in the pursuit of more vigorous activities. The gentle voice of the speaker, the soothing melody of the accompanying music, all serve to create an atmosphere of relaxed contemplation, which, though it may be pleasing to the senses, can ultimately prove detrimental to the overall well-being of the individual, by fostering a species of indolence that may be mistaken for refinement.",
+    "generated": "2026-10-17T23:07:54+00:00",
     "provider": "cloudflare",
     "scored_by": "cloudflare/100",
     "reread": "2026-10-17"
