@@ -11,7 +11,6 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 import anthropic  # noqa: E402
-import httpx2  # noqa: E402
 
 import claude  # noqa: E402
 import gemini  # noqa: E402
@@ -25,6 +24,14 @@ def _msg(text='{"essay": "x"}', stop="end_turn"):
         content=[SimpleNamespace(type="thinking", thinking=""),
                  SimpleNamespace(type="text", text=text)],
         usage=SimpleNamespace(input_tokens=1000, output_tokens=2000))
+
+
+def _api_error(cls, message):
+    """An SDK error without a live response, whatever HTTP library it uses."""
+    exc = cls.__new__(cls)
+    Exception.__init__(exc, message)
+    exc.message = message
+    return exc
 
 
 class Fake:
@@ -86,9 +93,7 @@ def main() -> int:
         check("and turns claude off for the run", bool(claude._off))
 
         fake = _reset()
-        req = httpx2.Request("POST", "https://api.anthropic.com/v1/messages")
-        fake.raises = anthropic.InternalServerError(
-            "overloaded", response=httpx2.Response(529, request=req), body=None)
+        fake.raises = _api_error(anthropic.InternalServerError, "overloaded")
         raw, by = llm.generate("p")
         check("an outage falls back to gemini", by == "gemini")
         llm.generate("p")
