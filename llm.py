@@ -1,4 +1,4 @@
-"""Where the text comes from. Two free providers, tried in order.
+"""Where the text comes from. Claude (paid), then two free providers, in order.
 
 Gemini's free tier is generous per minute and stingy per DAY - one bad gate that
 retries three times can spend the day's quota, which is exactly what happened on
@@ -8,6 +8,7 @@ free tier: if Gemini refuses, Cloudflare Workers AI takes the run.
 Both are free and neither needs a card. Cloudflare's credentials are already on this
 machine for The Aftertimes' illustrations, so it costs nothing new to reach.
 
+    ANTHROPIC_API_KEY              Anthropic API
     GEMINI_API_KEY                 Google AI Studio, free tier
     CF_ACCOUNT_ID, CF_API_TOKEN    Cloudflare Workers AI, free neurons/day
 """
@@ -19,6 +20,7 @@ import re
 
 import requests
 
+import claude
 import gemini
 
 CF_MODEL = "@cf/meta/llama-3.3-70b-instruct-fp8-fast"
@@ -54,16 +56,20 @@ def _cloudflare(prompt: str, temperature: float) -> str:
     return out
 
 
-def generate(prompt: str, temperature: float = 0.95, prefer: str | None = None) -> tuple[str, str]:
+def generate(prompt: str, temperature: float = 0.95, prefer: str | None = None,
+             tier: str = "write") -> tuple[str, str]:
     """Returns (raw text, which provider produced it). The caller records the
     provider on the essay, so a batch that reads differently can be traced to the
-    model that wrote it rather than guessed at."""
-    order = ["gemini", "cloudflare"]
+    model that wrote it rather than guessed at. `tier` picks Claude's model:
+    "write" for essays, "judge" for scoring and re-reading."""
+    order = ["claude", "gemini", "cloudflare"]
     if prefer:
         order = [prefer] + [p for p in order if p != prefer]
     problems = []
     for name in order:
         try:
+            if name == "claude":
+                return claude.generate(prompt, tier), "claude"
             if name == "gemini":
                 return gemini.generate(prompt, temperature=temperature), "gemini"
             return _cloudflare(prompt, temperature), "cloudflare"

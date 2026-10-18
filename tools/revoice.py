@@ -111,11 +111,11 @@ def listed(entry: dict, thinker: dict) -> list[str]:
     0.21 against 0.83, and after the prompt reorder 0.40 against 1.20. The field is
     already on every entry and needs no heuristic at all.
 
-    It converges by construction: a rewrite is only accepted from Gemini, so a
+    It converges by construction: a rewrite is only accepted from a primary writer, so a
     rewritten essay leaves this list on the way out.
     """
     why = faults(entry, thinker)
-    if entry.get("provider") and entry["provider"] != write_stage.SCORER:
+    if entry.get("provider") and entry["provider"] not in write_stage.PRIMARY_WRITERS:
         why.append(f'written by {entry["provider"]}, the fallback model')
     return why
 
@@ -177,9 +177,10 @@ def main() -> int:
             break
         # RULE 1. The fallback wrote the original; letting it write the replacement
         # spends a call to produce the same genre again.
-        if provider != write_stage.SCORER:
+        if provider not in write_stage.PRIMARY_WRITERS:
             print(f'  -- {e["thinker"]}/{e["object"]}: written by {provider}, not '
-                  f"{write_stage.SCORER} - left alone, stopping for today")
+                  f"{'/'.join(write_stage.PRIMARY_WRITERS)} - left alone, "
+                  f"stopping for today")
             break
         # RULE 2. The replacement must clear the gates that rejected the original.
         new = dict(e, essay=essay, verdict=verdict, score=score)

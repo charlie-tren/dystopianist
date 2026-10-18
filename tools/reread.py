@@ -157,7 +157,8 @@ def main() -> int:
                                avoid_block=avoid_block, essay=e["essay"])
         try:
             raw, _by = llm.generate(prompt, temperature=0.2,
-                                    prefer=write_stage.SCORER)
+                                    prefer=write_stage.SCORER,
+                                    tier="judge")
             data = llm.extract_json(raw)
         except Exception as exc:                     # noqa: BLE001
             print(f"  !! {e['thinker']}/{e['object']}: {type(exc).__name__}: {exc}"[:110])

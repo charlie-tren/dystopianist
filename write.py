@@ -196,7 +196,13 @@ def build_score_prompt(thinker: dict, obj: str, essay: str) -> str:
 # gate and a spent quota would mean no essay at all; but the fallback is RECORDED, and
 # tools/rescore.py re-reads anything not scored by the canonical model once quota
 # returns. Publish now, converge later.
-SCORER = "gemini"
+# Claude from 18/10/2026: tools/rescore.py re-reads the Gemini-scored archive onto
+# Claude's scale, eight a day, popular essays exempt.
+SCORER = "claude"
+
+#: Writers whose essays are not queued for a rewrite. Gemini wrote most of the
+#: archive before Claude took over; only the Cloudflare fallback is revoiced.
+PRIMARY_WRITERS = ("claude", "gemini")
 
 
 def score_essay(thinker: dict, obj: str, essay: str) -> tuple[str, float | None, bool, str]:
@@ -211,7 +217,8 @@ def score_essay(thinker: dict, obj: str, essay: str) -> tuple[str, float | None,
     published, and the scorer's honest verdict for it was "no mention" - which then
     printed on the site as though it were the writer's opinion."""
     raw, scored_by = llm.generate(build_score_prompt(thinker, obj, essay),
-                                  temperature=0.2, prefer=SCORER)
+                                  temperature=0.2, prefer=SCORER,
+                                  tier="judge")
     d = llm.extract_json(raw)
     try:
         # Out of 100 from the model, out of 10 on the page.
