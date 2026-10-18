@@ -60,6 +60,9 @@ Source: What Is Art? (1897, Maude translation), Project Gutenberg #64908
 - A reader of Leo Tolstoy would have expected a more contemptuous tone, without the word 'manifestation', which implies a degree of abstraction or distance Seen in a published essay: "a manifestation of the selfishness and decadence of the educated classes" (found 2026-10-13).
 - A reader of Leo Tolstoy would have expected a more literal and direct condemnation, such as 'it corrupts them' Seen in a published essay: "corrupting and degrading those who use it" (found 2026-10-13).
 - A reader of Leo Tolstoy would have expected a more direct and literal statement of fact, such as 'it perpetuates inequality' Seen in a published essay: "perpetuating a system of inequality and injustice" (found 2026-10-13).
+- The coin metaphor and the ironic 'calls himself rich' soften the charge; Tolstoy would state it literally, e.g. 'each gives the other nothing and each believes he has received something.' Seen in a published essay: "each pays the other with the same empty coin and each calls himself rich" (found 2026-10-18).
+- The wry, domestic jab is the lightness the voice excludes; Tolstoy would state the fact flatly, e.g. 'Forty people, most of whom he has no wish to see.' Seen in a published essay: "Forty people, most of whom he would not cross the road to visit" (found 2026-10-18).
+- The balanced epigram is a witty turn; Tolstoy would deliver the verdict plainly, e.g. 'The idle live at the cost of the toiling and gain nothing from it.' Seen in a published essay: "The idle are thus amused at the cost of the toiling, and are amused by nothing." (found 2026-10-18).
 ## Log
 
 - 28/08/2026 - added at Charlie's request from a list of sixteen. Real prose, two passages from What Is Art? via `tools/gutenberg_shots.py`. Italic markup stripped from the quoted text.
