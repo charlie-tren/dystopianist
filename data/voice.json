@@ -1,8 +1,8 @@
 {
- "closest": 0.501,
+ "closest": 0.435,
  "pair": [
   "dickinson",
-  "woolf"
+  "orwell"
  ],
  "floor": 0.45,
  "warn": 0.55,

@@ -118,11 +118,11 @@
     "dates": "1533-1592",
     "object": "alarm clocks",
     "verdict": "rude intruder",
-    "score": 3.1,
+    "score": 2.4,
     "essay": "I am naturally inclined to linger in my bed, where my thoughts settle most agreeably before the demands of the day intrude; yet here is a little brass engine, devised to shatter that quietude by a sudden, violent ringing. I know not what profit a man finds in startling his own soul out of its proper rest: for if slumber be a shadow of death, to wrench ourselves from it by artifice rather than by the gentle invitation of nature seems a kind of daily violence. And yet, I must confess my own weakness; when left to my own humour, I slide so far into sloth that the morning is half spent before I have put on my doublet; so perhaps this noisy fury is a necessary whip for a mind as sluggish as mine. But what a miserable condition it is, to owe our vigilance not to reason or virtue, but to a piece of rattling iron! We mock the slave who moves at the sound of his master's bell, while we place upon our own nightstands a tiny executioner of our ease; or if not an executioner, at least a rude intruder that takes from us that sweet, uncertain borderland between dreaming and waking, where I think I am often wiser than in my full soberness.",
     "generated": "2026-08-25T20:53:50+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-02"
   },
   {
@@ -131,12 +131,12 @@
     "name": "Michel de Montaigne",
     "dates": "1533-1592",
     "object": "reclining a seat on a plane",
-    "verdict": "uneasy slope",
-    "score": 3.1,
+    "verdict": "childish refusal",
+    "score": 3.4,
     "essay": "I have so little mastery over my own limbs when confined in narrow quarters that I am forever shifting from cheek to cheek, seeking a repose that my restless nature denies me; yet no sooner do I press that small lever to ease my spine by two inches than I feel a sudden pang of shame, knowing I have stolen that same measure of air from the knees of the unoffending gentleman behind me. And if he, in his turn, should thrust his chair back into my lap, I am presently moved to an unreasonable anger: so prompt are we to pardon in ourselves the very inclinations we condemn in others. For what is this desire to tilt one's frame but a childish refusal of our present condition? Yet I cannot wholly condemn a man for seeking a little respite from this iron stiffness; I have done it myself in moments of weariness, though I never reaped from it the peace I promised my soul. We are so built that our tiny comforts must ever be bought at the expense of our neighbour's misery; and I know not whether to blame the contrivance itself, or rather that restless infirmity of our spirits which makes us prefer an uneasy slope to an honest uprightness.",
     "generated": "2026-08-25T20:54:05+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-03"
   },
   {
@@ -145,12 +145,12 @@
     "name": "Friedrich Nietzsche",
     "dates": "1844-1900",
     "object": "dating apps",
-    "verdict": "organised anaesthesia",
-    "score": 0.3,
+    "verdict": "pathetic comfort",
+    "score": 0.7,
     "essay": "The modern soul demands above all things that love be rendered painless—and in doing so, it destroys the very soil out of which love grows. What is this digital market of faces if not the final triumph of the small man, who trembles at the thought of rejection, of conflict, of the violent collision of two wills? He wishes to select his destiny as one selects a sausage at the butcher: pre-inspected, guaranteed, stripped of all dangerous ambiguity. One flicks a finger, and the troubling mystery of another human being is reduced to a flickering image, a commodity to be approved or dismissed without the slightest expenditure of spirit. This is the morality of the herd made invisible: the total elimination of risk. But where there is no risk, there is no value; where there is no danger, there is only the pathetic comfort of swine huddling together against the frost. You believe you are choosing a partner—in truth, you are merely organizing your own anaesthesia. You have traded the terrible magnificence of the encounter for a machine that promises you will never again have to suffer the agony of a gaze that does not look back.",
     "generated": "2026-08-25T20:54:20+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-03"
   },
   {
@@ -160,11 +160,11 @@
     "dates": "1844-1900",
     "object": "escape rooms",
     "verdict": "counterfeit agony",
-    "score": 0.4,
+    "score": 0.8,
     "essay": "To seek out a lock merely for the pleasure of finding its key—that is the final, pathetic refinement of a race that has forgotten how to bleed. The modern coward demands the thrill of the dungeon, but only on the condition that the gaoler holds the clock and guarantees his supper. Observe these voluntary prisoners: they gather in small, eager herds to solve petty riddles constructed by clerks as hollow as themselves; they cheer when a false door springs open, believing they have achieved a triumph of the spirit. It is not liberation they desire, but the illusion of peril without its terrible price. True overcoming is forged only in the furnace of necessity, where failure means ruin and the walls do not part for a fee. But the little man cannot bear necessity—his nerves are too fragile, his soul too soft. He requires a crisis with an appointment: a catastrophe that expires in sixty minutes. He pays his coin for this counterfeit agony so that he may return to his comfortable numbness, persuaded that he has wrestled with fate—when he has merely played at captivity.",
     "generated": "2026-08-25T20:54:41+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-03"
   },
   {
@@ -173,12 +173,12 @@
     "name": "George Orwell",
     "dates": "1903-1950",
     "object": "airport lounges",
-    "verdict": "a carpeted box",
-    "score": 0.6,
+    "verdict": "penned, not comforted",
+    "score": 0.9,
     "essay": "The main trouble with the airport lounge is that it tries to make a man feel like a gentleman by treating him like an invalid. You pay an extra pound or two at the gate, or hold the right strip of cardboard, and at once you are ushered away from the noise of the main hall into a carpeted box where everything is muted, soft, and slightly warm. The lighting is turned down so low that you can barely read a newspaper, and soft music drips constantly from hidden speakers like water from a leaky tap. There are deep leather armchairs to sink into, but they are designed in such a way that you cannot sit up straight or look your neighbour in the eye. On a long counter sit metal dishes full of lukewarm, yellow soup and dry bread rolls wrapped in cellophane. It is all free, or seems free, which is why middle-class travellers gorge themselves on cheap gin and stale nuts while watching a television screen with the sound turned off. The whole place smells faintly of carpet cleaner and gin. It exists not to give you real comfort, but to sell the illusion that you are better than the crowd outside, when in truth you have merely paid to be penned in a quieter room.",
     "generated": "2026-08-25T20:55:05+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-03"
   },
   {
@@ -192,7 +192,7 @@
     "essay": "If you watch a man at one of these metal tills, you will see that he is doing two things at once: paying for his own bread and doing the shopkeeper's work for him. The shopkeeper saves a wage, and the customer receives nothing in return except the trouble of finding the barcode on a tin of peas. It is sold to us as a convenience, but it is obvious to anyone with eyes that it is merely a device to make the public do for free what used to be paid labour. When you bark at a glass screen because a plastic bag has not registered its proper weight, you are not saving time. You are simply performing a piece of unpaid clerical work under the watchful eye of a bored guard who has been hired to make sure you do not steal the bacon you are already packing yourself. The whole business belongs to that modern habit of pretending that less service is actually more freedom. A hundred years ago, a shopkeeper who asked his customers to weigh their own flour and drop the money into a box would have been thought mad or bankrupt. Today it is called progress, and millions of people step up to the glowing screen every evening, perfectly content to be turned into unpaid shop assistants.",
     "generated": "2026-08-25T20:55:55+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-03"
   },
   {
@@ -202,11 +202,11 @@
     "dates": "1937-2005",
     "object": "escape rooms",
     "verdict": "simulated execution",
-    "score": 0.3,
+    "score": 0.8,
     "essay": "The manager was nineteen years old, possessed the flat, dead eyes of a turnpike toll-collector, and he took forty-five of my dollars before slamming a bolted oak door in my face with the hideous, practiced glee of a small-town hanging judge. There were six of us trapped in that velvet-lined dungeon under the strip mall, surrounded by fake books and brass padlocks that smelled faintly of cheap disinfectant and absolute defeat, while a digital clock on the wall shrieked red numbers down toward zero like a missile launch countdown managed by accountants. I knew instantly that the whole enterprise was a sick psychological experiment funded by the chamber of commerce to train the middle class for permanent incarceration. We were supposed to find a key hidden inside a hollow skull, but my fingers were locking up because some unseen bastard in a back room was watching us through a fish-eye lens and broadcasting recorded thunder through a tinny speaker whenever we touched the wrong lamp. It was a terrifying glimpse into the future of American leisure. People were paying top dollar to simulate their own execution. I kicked the door until my boots cracked, but the lock held firm, and the manager just laughed through the intercom like a hyena on the corporate payroll.",
     "generated": "2026-08-25T20:56:20+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-03"
   },
   {
@@ -215,12 +215,12 @@
     "name": "Hunter S Thompson",
     "dates": "1937-2005",
     "object": "reclining a seat on a plane",
-    "verdict": "passive-aggressive warfare",
-    "score": 0.3,
+    "verdict": "terrible mechanism",
+    "score": 0.6,
     "essay": "Thirty thousand feet above the Oklahoma panhandle, the bastard in 14B unleashed a calculated act of violence against my kneecaps. There was a sickening hydraulic hiss, a sharp metallic click, and suddenly two hundred pounds of sweaty synthetic polyester leaned back into my personal airspace with the quiet, unyielding authority of an armored division taking a border town. It is a terrible mechanism, engineered by sadists in corporate boardrooms who realized they could sell six extra inches of legroom back to us if they first turned the economy cabin into a crawling pit of human agony. I stared at the back of his greasy head, mere centimeters from my chin, feeling the raw panic of a trapped animal as my plastic tray table jammed directly into my solar plexus. He didn't even look back. That is the genius of the machine: it converts ordinary middle-management cowardice into a weapon of quiet, passive-aggressive warfare, allowing a man to crush another human being's femur without ever having to look him in the eye. I hit my own button in pure self-defense, plunging the poor doomed soul behind me into the same cramped hell, compounding the misery down the line like a row of falling dominoes in a high-altitude prison ward. We are monsters now.",
     "generated": "2026-08-25T20:57:07+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-03"
   },
   {
@@ -943,12 +943,12 @@
     "name": "George Orwell",
     "dates": "1903-1950",
     "object": "airport security",
-    "verdict": "surrender of autonomy",
-    "score": 4.3,
-    "essay": "The labour that goes into ensuring our safety as we travel by air is a remarkable thing, and yet it is something that we have grown accustomed to, so much so that we hardly notice it anymore. We shuffle along in our stockinged feet, our belts and watches removed, and our luggage scanned, all without a second thought. It is a curious thing, this willingness to submit to such scrutiny, and yet it is a small price to pay for the reassurance that we are safe from harm. But what is perhaps most interesting about this process is the way in which it has become a normal part of our lives, a routine that we undertake without complaint, and indeed without even thinking about it. We have become so civilised, so used to the idea of being protected and looked after, that we no longer question the measures that are taken to ensure our safety. And yet, it is precisely this lack of questioning that is so noteworthy, for it suggests a deep-seated trust in the authorities that oversee our travels, and a willingness to surrender our autonomy in the name of security.",
+    "verdict": "obedience by trifles",
+    "score": 2.4,
+    "essay": "The thing that struck me, standing in my socks on a cold grey floor with my belt in one hand and my trousers in the other, was how quickly everyone had learned to do it. Nobody grumbled. A man in a good suit took off his shoes as meekly as a child at a doctor's, and placed them in a plastic tray beside a stranger's umbrella. I did the same. It would not have occurred to me to ask why. The liquids are the best example. You may carry a hundred millilitres of shampoo, provided it is in a clear bag, but not a hundred and one, and not in a bag that is merely clever. Nobody can say what a hundred and one would do. The rule is there because a rule must be there, and because somebody once had to be seen to act. Meanwhile the guard who enforces it has been on his feet since five, is paid little, and does not believe in it either; you can see that in the way he says \"Any liquids, sir?\" without looking up. I do not say the whole business is foolish. Some of it may even work. But a habit of obedience is not a small thing to teach a hundred million people, and it is taught most easily by trifles. A man who has surrendered his bottle of water will surrender a good deal more, and call it being sensible.",
     "generated": "2026-09-02T20:31:22+00:00",
-    "provider": "cloudflare",
-    "scored_by": "gemini/100",
+    "provider": "claude",
+    "scored_by": "claude/100",
     "reread": "2026-09-10"
   },
   {
@@ -1083,12 +1083,12 @@
     "name": "Henry David Thoreau",
     "dates": "1817-1862",
     "object": "podcasts",
-    "verdict": "audible missives",
-    "score": 5.6,
-    "essay": "The hours I have devoted to listening to these audible missives, borne on the ether like leaves on a stream, have been purchased at the cost of many a walk in the woods, and I must confess that I find the trade to be a dear one. For in the midst of their chatter and discourse, I find myself longing for the simplicity of the natural world, where the only sounds are the songs of birds and the rustle of leaves. And yet, I am drawn to them, like a moth to a flame, for in their words and ideas, I hear the whispers of a world beyond my own, a world of thoughts and dreams that I would not otherwise have known. But at what cost, I ask myself, for the time I spend listening to them is time taken away from the world itself, and the thoughts and ideas they express are often but a pale reflection of the beauty and wonder that surrounds me. Still, I find myself enchanted by their words, and the worlds they create, and I am willing to pay the price of my attention, for in them, I hear the echoes of a larger conversation, one that speaks to the very heart of what it means to be human.",
+    "verdict": "a wagon-load of chat",
+    "score": 1.7,
+    "essay": "I counted it on the Concord road yesterday: a man walking toward the village with two small white buds in his ears, and in the ditch beside him, not ten feet off, a hylodes piping as if the whole spring depended on it. He heard neither. He was, I judged, listening to two gentlemen discuss a third, at a length of ninety minutes, which at three miles an hour is four and a half miles of road, and he passed every foot of it unacquainted. I have walked that mile and found a fox's track, a dead shrike on a thorn, and the first willow catkins; this is what ninety minutes will buy where nothing is for sale. I do not deny the voices are pleasant. A good talker is a rare bird, and I have sat up past ten to hear one. But these are hired by the season, forty-odd hours of them to a month, and the listener pays not in coin, which is nothing, but in the only currency that is not minted twice. He takes the whole of a wagon-load of chat to learn what a single sentence of the woods would have taught him, and then calls it being informed. Let the frog be heard first. If after that a man has an hour left, let him lend it where he likes.",
     "generated": "2026-09-06T18:01:40+00:00",
-    "provider": "cloudflare",
-    "scored_by": "gemini/100",
+    "provider": "claude",
+    "scored_by": "claude/100",
     "reread": "2026-09-11"
   },
   {
@@ -2795,6 +2795,20 @@
     "score": 2.4,
     "essay": "The water was hot, and that was the first difficulty, since a warmth so freely given seemed to require some form of acknowledgement, and I could not discover to whom it should be addressed. The pipes ran into the wall behind the tiles, the wall belonged to the house, the house belonged to a man who lived, so I was told, on the other side of the river and who had never been seen by anyone I knew to turn a tap. I stood beneath it with my eyes closed. It would have been easy to say that I was washing, but the washing had been finished some minutes before, and what continued, with the same patience and at the same temperature, was something else, a kind of permission I had not asked for and could not decline without appearing ungrateful to the pipes. I reached for the tap. It is only fair to say that it turned. But the turning, which I had imagined as an ending, proved to be a slight alteration of the water's opinion, and for a while it ran on more quietly, as though it had merely been asked to lower its voice. Outside the curtain the towel hung where I had left it, nearly within reach, and I understood that I was nearly finished, which is the only condition in which anyone is ever found.",
     "generated": "2026-10-18T18:00:36+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-10-18"
+  },
+  {
+    "date": "2026-10-18",
+    "thinker": "orwell",
+    "name": "George Orwell",
+    "dates": "1903-1950",
+    "object": "Paddington (2014)",
+    "verdict": "scolded very gently",
+    "score": 7.8,
+    "essay": "The curious thing about Paddington is that it asks for nothing but good manners, and gets it. A bear arrives from Peru with a label round his neck and a hat on his head, and the whole film turns on whether anyone will trouble to be civil to him. Most are not. The crowd at the station walks past. The Browns take him in largely by accident, and Mr Brown, who spends his days weighing up risks for an insurance firm, does so against his better judgement. That is the shrewdest touch in the picture. Kindness here is not a virtue that comes naturally to the sensible, and the film knows it. The house in Windsor Gardens is far too large and tidy for the family that lives in it, and nobody on the screen seems to work much, but I do not think this matters. The film is a fairy tale and does not pretend otherwise. What I noticed was the villain: a taxidermist who wants to stuff the bear and put him in a glass case. She is the only person in the story who wants to keep a foreigner as a specimen, and she is played, rather pointedly, as a lady with a museum pass. The jokes are slight and the marmalade sandwich is a sound one. I left feeling that I had been scolded very gently, and had enjoyed it.",
+    "generated": "2026-10-18T19:27:38+00:00",
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-10-18"

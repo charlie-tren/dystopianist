@@ -78,6 +78,8 @@ Source: "Pleasure Spots" (1946), Fifty Orwell Essays, Project Gutenberg Australi
 - Expected a more straightforward comparison, such as 'like products for sale' instead of the elaborate simile 'like goods on a shelf waiting to be chosen' Seen in a published essay: "like goods on a shelf waiting to be chosen" (found 2026-10-17).
 - Expected a more direct phrase, such as 'it is strange' instead of the abstract phrase 'a strange and unsettling phenomenon' Seen in a published essay: "a strange and unsettling phenomenon" (found 2026-10-17).
 - Expected a more concrete phrase, such as 'shows our fears' instead of the abstract phrase 'reveals a good deal about the anxieties and insecurities of modern life' Seen in a published essay: "reveals a good deal about the anxieties and insecurities of modern life" (found 2026-10-17).
+- A stock throat-clearing opener that announces an observation rather than making it. Orwell would open on the bear, the label, or the station crowd and let the point follow. Seen in a published essay: "The curious thing about Paddington is that it asks for nothing but good manners, and gets it." (found 2026-10-18).
+- 'Kindness' and 'virtue' are abstract nouns doing the work that a concrete case should do. Orwell would name the sensible person, such as Mr Brown at his desk, rather than generalise about a virtue. Seen in a published essay: "Kindness here is not a virtue that comes naturally to the sensible, and the film knows it." (found 2026-10-18).
 ## Log
 
 - 25/08/2026 - migrated from config/thinkers.yaml; Avoid list seeded from the first batch.
