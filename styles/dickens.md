@@ -59,6 +59,7 @@ Source: The Uncommercial Traveller (1860-69), Project Gutenberg #914
 - A reader of Charles Dickens would have expected a more absurd and exaggerated comparison, such as 'like a shipwrecked sailor clinging to a fragment of wreckage in a stormy sea' Seen in a published essay: "like a masterful helmsman steering a ship through treacherous shoals" (found 2026-10-14).
 - A reader of Charles Dickens would have expected more vivid and descriptive language, such as 'and thus, I find myself irretrievably entangled in a labyrinth of paradoxes and perplexities' Seen in a published essay: "and thus, I am drawn into a maze of contradictions" (found 2026-10-14).
 - A reader of Charles Dickens would have expected more passionate language, such as 'where the boundaries between solace and duplicity are perpetually obscured, shrouded in a impenetrable veil of uncertainty' Seen in a published essay: "where the lines between relief and deception are constantly blurred" (found 2026-10-14).
+- Minor: this is a conventional personification that stays vague. A Dickens narrator would more likely pin the fog to a concrete, absurd comic image, as he does with the wire and the 'bloodless vegetable'. Seen in a published essay: "as if the very fog had told him a joke" (found 2026-10-19).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from The Uncommercial Traveller (1860-69), Project Gutenberg #914 via tools/gutenberg_shots.py.
