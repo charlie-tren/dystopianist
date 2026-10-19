@@ -342,11 +342,11 @@
     "dates": "1871-1922",
     "object": "painkillers",
     "verdict": "agreeable betrayal",
-    "score": 4.8,
+    "score": 3.1,
     "essay": "To swallow that small, powdery tablet is to invite into the private theatre of one's suffering a quiet, indifferent restorer, who—much like those meticulous artisans in the galleries of Venice who paint over the hairline fissures of a damaged altar-piece with an opaque varnish so that the spectator no longer perceives the agony beneath the gesso—gently draws a soft curtain between the conscious mind and the raw, throbbing nerve, altering not the hidden decay of the tissue itself, but merely our perception of its violent demands. In this sudden, artificial truce, as the sharp pain recedes into a muffled, distant echo—resembling those carriage wheels whose frantic clatter on the cobblestones outside a sickroom window is abruptly softened when a heavy winter snowfall covers the street in a uniform, silent down—one discovers a strange, almost scandalous luxury, realising that the body's most urgent truth can be so effortlessly postponed by a simple chemical artifice, which leaves us floating in an immaculate, painless solitude that feels less like true restoration than like an agreeable betrayal of our own mortal memory, continuing its tranquil work long after the body has forgotten why it ought to have grieved.",
     "generated": "2026-08-26T03:12:59+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-05"
   },
   {
@@ -355,12 +355,12 @@
     "name": "Henry David Thoreau",
     "dates": "1817-1862",
     "object": "the hot shower",
-    "verdict": "indoor tropical rain",
-    "score": 2.8,
+    "verdict": "expensive bath",
+    "score": 2.4,
     "essay": "I spent three cents this morning for six minutes of indoor tropical rain, bought from a town steam-pipe, and deemed myself scrubbed. A man pays a heavy interest in his own native vigor for the privilege of turning a brass spigot to summon August into a tiled closet. Yet who can deny the feline pleasure of that falling mist, when the hot drops beat a storm upon the shoulders, lulling the flesh into a vaporous, momentary paradise? It is an expensive bath, however cheap the bill appears. To warm twenty gallons of river water to ninety degrees demands three pounds of hard coal, mined by a stranger, and a full half-hour of a man’s own labor surrendered to satisfy the city collector. We pay for this deluge with the very stamina it washes away. The wood-frog plunges into the dark pond without a penny’s toll and emerges hardened for his leap; the townsman steps from his box, steamed to the soft consistency of a boiled turnip, having spent the morning's best hour paying to be unstrung. We pour out our vital heat into the sewer and call it clean living.",
     "generated": "2026-08-26T03:13:30+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-05"
   },
   {
@@ -369,12 +369,12 @@
     "name": "Henry David Thoreau",
     "dates": "1817-1862",
     "object": "the step counter",
-    "verdict": "iron accountant",
-    "score": 0.6,
+    "verdict": "depreciated scrip",
+    "score": 1.4,
     "essay": "A man goes into the woods to free his legs, then straps a little iron accountant to his body to keep his books. He buys for three dollars the liberty to measure his own motion, as if a stride were worth nothing until it appears as a figure in a ledger. I watched a clerk today march through the pine needles with his eyes fixed on a mechanical tally, oblivious to the red squirrel that scolded him from the pitch-pine overhead. He had walked four miles by his machine, but had not arrived anywhere; he had paid his afternoon’s leisure to buy a sum of numbers, and left the woods unvisited. It is a costly way to travel. To count your footsteps is to mistrust the sun that tells you when to return, and to convert the pure currency of air and exercise into a depreciated scrip. I had rather know where the fox crossed the creek than know how many times my boot struck the gravel between here and the village. When we must employ a machine to inform us whether we have lived today, the machine has taken the walk, and we have merely carried the freight.",
     "generated": "2026-08-26T03:14:01+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-05"
   },
   {
@@ -383,12 +383,12 @@
     "name": "Mark Twain",
     "dates": "1835-1910",
     "object": "reclining a seat on a plane",
-    "verdict": "neighbourly affection",
-    "score": 1.1,
+    "verdict": "robbing his neighbour",
+    "score": 0.9,
     "essay": "Pressing that little metal button on the armrest to drop your chair-back two inches into another man's dinner tray is a grand study in neighborly affection. You do not have to look him in the eye; you simply lean back, hear his coffee cup overturn, and feel a deep moral satisfaction in having secured your own comfort. The whole scheme works by the splendid rule that if a person cannot see the victim he is squashing, no actual injury has taken place. The fellow behind you may be folded up like an accordion, with his knees wedged solid against your shoulder blades, yet he will sit there in grim silence for three hours rather than speak up and risk appearing uncultivated. He will not utter a peep, because to complain would mean admitting he lacks the stamina of a salted herring. So you lie back, suspended in the air, resting peacefully on his crushed limbs, feeling like a prince who has annexed six inches of foreign territory without having to fire a shot. It is the only transaction left where a man can rob his neighbor of his legs, hand him the bill, and be thanked for the accommodation.",
     "generated": "2026-08-26T03:14:33+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-05"
   },
   {
@@ -397,12 +397,12 @@
     "name": "David Foster Wallace",
     "dates": "1962-2008",
     "object": "airport lounges",
-    "verdict": "spatial illusion",
-    "score": 1.6,
+    "verdict": "performed serenity",
+    "score": 2.7,
     "essay": "The carpet is always a specific, soil-resistant shade of slate blue—the exact color, it occurs to me, of an expensive office printer—and the lighting is engineered to eliminate shadows without actually being bright. There were thirty-four people in the lounge annex at 6:15 AM on a Tuesday. Exactly four of them were eating lukewarm hard-boiled eggs out of a stainless-steel chafing dish, using metal tongs that felt unnecessarily cold to the touch. The rest of us were engaged in a frantic, quietly aggressive attempt to perform serenity. You pay the annual fee or flash the black plastic card not for the free, sour Prosecco, but for the spatial illusion that you are less of a herd animal than the people sitting on the vinyl gang-chairs thirty feet outside the frosted glass door. I spent forty minutes drinking machine-brewed espresso that tasted like warm pencil shavings, watching a guy in an immaculate grey fleece vest whisper into a Bluetooth earpiece about third-quarter logistics. I wanted to hate him. I wanted to feel superior to his corporate posture, but the terrible truth is that I had spent twenty minutes adjusting my own spine against the faux-leather chair so I would look like someone who belonged there.",
     "generated": "2026-08-26T03:15:03+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-05"
   },
   {
@@ -411,12 +411,12 @@
     "name": "David Foster Wallace",
     "dates": "1962-2008",
     "object": "self-checkout machines",
-    "verdict": "psychological trap",
-    "score": 1.8,
+    "verdict": "a psychological trap",
+    "score": 1.5,
     "essay": "The scanner at the Stop & Shop on Route 9 cannot read the smudge on a 16-ounce tub of Breakstone’s cottage cheese, and so a synthetic female voice of alarming warmth announces to the entire produce aisle that help is on the way. It uses an internal load-cell scale calibrated to fractions of a gram, which means that placing your key ring on the metal shelf while searching for cash triggers a system-wide lockup that only a nineteen-year-old named Tyler, wearing a faded blue apron and an expression of supreme spiritual detachment, can clear with his master keycard. Tyler does not look at me. He swipes, taps a red button marked Override, and vanishes. The psychological trap is that you are suddenly performing a mid-tier clerical task under the surveillance of three overhead wide-angle mirrors and four other shoppers waiting behind a yellow tape line, all while attempting to prove to an optic sensor that you possess the basic motor control of an adult mammal. I stood there for three full minutes attempting to enter the four-digit PLU code for a single crisp Granny Smith apple, paralyzed by the realization that I preferred the humiliation of the machine’s automated rebuke to the quiet, devastating eye contact of an actual cashier.",
     "generated": "2026-08-26T03:15:33+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-05"
   },
   {
@@ -426,11 +426,11 @@
     "dates": "1819-1892",
     "object": "the step counter",
     "verdict": "good, honest arithmetic",
-    "score": 8.8,
+    "score": 8.4,
     "essay": "A little machine bound to the wrist or tucked in the pocket—clipping off the tally of a man’s daily tread. I like the look of it; the small, tireless mechanic registering the heavy heel-strike on granite, the quick rustle of slippers through clover, the steady march of the drayman, the slow evening stroll of old age. Thousands of paces—a silent ledger of our endless momentum. No commentary from the thing, no moralizing or scolding, just the crisp, faithful record of legs swinging through the open air. Down the avenue at noon—past the car-drivers, the apple-vendors, the hurrying clerks—the tiny counter humming unseen against the hip. Across the river in the twilight, back and forth, every jolt saved, every stride made equal with the rest. A farmer following his plow across thirty acres; a young mother walking the floor with a restless babe; the watchman pacing his damp alleyways—all of them feeding their vigor into the same quiet tally. It binds the rough bodily effort to the glass and metal; turns the divine, careless impulse of walking into a neat sum you can carry with you. Good, honest arithmetic of the road.",
     "generated": "2026-08-26T03:16:35+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-06"
   },
   {
@@ -439,12 +439,12 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "dating apps",
-    "verdict": "administrative error",
-    "score": 0.7,
+    "verdict": "dreadful devices",
+    "score": 0.9,
     "essay": "To fall in love is a charming mistake; to curate one's passions upon a glowing pane of glass is merely an administrative error. Romance was once a splendid madness, governed by the art of deception and the thrill of the unexpected. Today, it has been modernised into an exercise as dull and mechanical as bookkeeping. We are invited to inspect a gallery of miniature portraits, swiping aside living souls with the effortless cruelty usually reserved for unpaid bills. It is only superficial people who do not judge by appearances, yet these dreadful devices manage to render even vanity uninteresting. By offering an infinite supply of prospective lovers, they have succeeded in making love entirely tedious. Seduction requires patience, poetry, and a healthy disregard for the truth, none of which can survive an algorithm designed to save time. In our foolish zeal to eliminate the awkwardness of courtship, we have accidentally eliminated its pleasure. To be rejected in a dimly lit drawing room is a tragedy worthy of art, but to be discarded by a thumb is simply an indignity. We have managed to turn the sacred folly of passion into a civilised utility, and in doing so, we have made romance profoundly efficient and utterly intolerable.",
     "generated": "2026-08-26T03:17:40+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-06"
   },
   {
@@ -1181,12 +1181,12 @@
     "name": "Marcel Proust",
     "dates": "1871-1922",
     "object": "The Matrix (1999)",
-    "verdict": "disorienting and mesmerising",
-    "score": 8.7,
-    "essay": "As the simulated world of The Matrix unfolded before me, its intricate web of illusions and reality began to resemble the layered transparencies of a stereoscope, where two disparate images are merged to create a single, convincing whole--and just as, in the stereoscope, the eye must adjust to the subtle disparity between the two planes, so too must the viewer of this film calibrate their perception to the shifting boundaries between the physical and virtual realms, a process that is at once disorienting and mesmerising, like the experience of standing at the edge of a great, slow-moving crowd, where the individual faces and movements eventually coalesce into a unified, undulating mass, which, in turn, seems to exert a strange, almost gravitational pull on the observer, drawing them inexorably into its depths, and it is there, in those depths, that the true power of The Matrix resides, a power that continues to resonate long after the images have faded from the screen.",
+    "verdict": "a small invention",
+    "score": 6.8,
+    "essay": "What struck me, on leaving the cinema, was not the corridor of falling green characters, nor the slow suspension of the young man in mid-air while the camera, like a portraitist who has been permitted at last to walk round his sitter, passed behind him and revealed that the bullets, so long believed to be hurrying, had been waiting, in a manner almost courteous, for his attention; it was the telephone, the old telephone with its cord, from which the heroes are obliged to escape, and which I found myself regarding in the lobby, a few minutes afterwards, with the suspicion one extends to a servant who has been overheard speaking well of one in a house where one had thought oneself disliked. For the film's whole contention, that the world which receives our visits and our fatigues might be a courtesy extended to us by something that does not love us, is not new to anyone who has watched a hostess arrange the room in which her guests will mistake their pleasure for her friendship. I admired it, with reservations about the leather coats, which seem to me the costume of people who have never been bored. Yet the invention that persuades me is a small one: that one may be awake and still be deceived, since habit, that excellent decorator, has long ago taught us exactly this, and goes on teaching it after the credits.",
     "generated": "2026-09-08T19:57:44+00:00",
-    "provider": "cloudflare",
-    "scored_by": "gemini/100",
+    "provider": "claude",
+    "scored_by": "claude/100",
     "reread": "2026-09-12"
   },
   {
@@ -1209,12 +1209,12 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "Wikipedia",
-    "verdict": "great digital library",
-    "score": 4.2,
-    "essay": "The labour of compiling knowledge into a vast, accessible repository is a task that has consumed the energies of many a diligent soul, and yet, in the end, it is not the accumulation of facts that lends wisdom, but rather the discerning eye that knows what to do with them. We are inclined to believe that the more we know, the more civilised we become, but I fear that is a misconception - for civilisation is not a matter of knowing everything, but of knowing what to ignore. And so, as we navigate the labyrinthine corridors of this great digital library, we must be mindful of the distinction between knowledge and wisdom, lest we become so enamoured with the former that we forget the value of the latter. To be well-informed is one thing, but to be well-educated is quite another, and it is the latter that truly sets us free.",
+    "verdict": "the peculiar genius",
+    "score": 7.6,
+    "essay": "I went in search of one fact this morning and returned, three hours later, in possession of forty, none of which I had asked for and all of which I shall now be obliged to forget. This is the peculiar genius of Wikipedia: it cannot answer a question without suggesting a dozen more, rather as a good hostess cannot introduce you to one person without condemning you to the whole room. It is, I am told, written by anybody. I find this the most reassuring thing about it. Authority has always been the last refuge of those who have not checked their sources, and a work compiled by the anonymous, the idle and the passionately pedantic at least has the merit of being wrong in public. The old encyclopaedias were wrong in private, bound in calf, and quite unassailable. There is, naturally, the little blue number beside each sentence, which assures me that somebody else once said so. That is all that civilisation has ever meant by truth. I am merely surprised to see it confessed. I notice that the article on any great man is longer than the article on any great idea, and the article on any minor scandal longer than either. Posterity, it seems, has my own taste. I forgive it everything, except that it has made gossip respectable by giving it footnotes.",
     "generated": "2026-09-09T19:49:39+00:00",
-    "provider": "cloudflare",
-    "scored_by": "gemini/100",
+    "provider": "claude",
+    "scored_by": "claude/100",
     "reread": "2026-09-12"
   },
   {
@@ -2826,5 +2826,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-10-18"
+  },
+  {
+    "date": "2026-10-19",
+    "thinker": "child",
+    "name": "Julia Child",
+    "dates": "1912-2004",
+    "object": "reclining a seat on a plane",
+    "verdict": "worse manners",
+    "score": 4.4,
+    "essay": "Look behind you before you do it. That is the whole of the method, and I am astonished at how many people skip it. A reclined seat is a lid coming down on a pot, and the person in the seat behind is the pot. If you have not noticed whether there is a laptop open, or a cup of coffee balanced on the tray, or a pair of knees already pressed against the plastic, you have no business pushing the button. I do not say you must never recline. I am not a Puritan, and an inch or two of angle in the small hours of a long flight is a genuine mercy to the spine. But there is a right way. Ease it back slowly, as you would fold egg whites, not slam it down as if the seat had insulted you. Give the person behind a moment to rescue their dinner. Then settle. And I have no patience for the person who reclines fully, immediately after takeoff, in the middle of a meal service. It is bad technique and worse manners. The airline has sold you the lever, certainly, but it has not sold you the other fellow's four inches of breathing room. Use the thing with attention, or leave it alone.",
+    "generated": "2026-10-19T18:01:02+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-10-19"
   }
 ]
