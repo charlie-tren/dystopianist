@@ -565,12 +565,12 @@
     "name": "Jane Austen",
     "dates": "1775-1817",
     "object": "Titanic (1997)",
-    "verdict": "curious extravagance",
-    "score": 2.6,
+    "verdict": "an absurdity",
+    "score": 1.4,
     "essay": "The spectacle of a great vessel, constructed at immense expense only to be systematically submerged for the gratification of the public, presents a curious view of modern sentiments. One is invited to admire a young lady of birth and condition who, while engaged to a gentleman of suitable fortune, conceives a sudden and invincible attachment to an itinerant drawer of no visible means. That such an imprudence should be elevated not merely above familial duty, but above the common dictates of self-preservation, says much for the indulgence of the age. The author of this extravagance has spared no expense in reproducing the grandeur of the ship, nor any exertion in ensuring that its destruction should be as prolonged and distressing as artifice can render it. We are expected to observe the rising waters with an affliction that quite eclipses any regard for decorum, and to weep over the ultimate fate of a hero whose devotion so far exceeds his understanding of displacement. That two persons of slender frame could not both find room upon a floating door is an absurdity which the company is politely requested to pardon, in consideration of the very handsome sentiments involved.",
     "generated": "2026-08-27T23:34:27+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-06"
   },
   {
@@ -579,12 +579,12 @@
     "name": "Henry David Thoreau",
     "dates": "1817-1862",
     "object": "Jaws (1975)",
-    "verdict": "wild, unbought joy",
-    "score": 8.2,
+    "verdict": "fear sold as gold",
+    "score": 3.4,
     "essay": "Men will pay two bits of silver to sit in a shaded parlor and shudder at the water, when for the same price they might have bought a stout pair of boots and walked away from the shore altogether. The selectmen of that sandy island weigh human flesh against the seasonal revenue of bathers, calculating that three corpses on the beach are cheaper than a silent July; thus trade always drives men into the gullet of what they cannot bargain with. Yet consider the monster itself—not the iron gears and painted rubber that cost a million dollars to stall in the surf, but the thought of that Great Fish, which moves through the sea like an unreasoning tax on human pride. The three who set out to hunt it carry their own tallies: a rich man with his brass instruments, a poor captain who sells his scars by the foot, and a timid sheriff who fears the element he is sworn to keep. When the yellow barrels go under, one feels a wild, unbought joy at the leviathan's strength. It demands of us only our fear, which is the cheapest commodity we possess, yet we yield it up as though it were gold.",
     "generated": "2026-08-27T23:34:56+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-06"
   },
   {
@@ -593,12 +593,12 @@
     "name": "Franz Kafka",
     "dates": "1883-1924",
     "object": "The Matrix (1999)",
-    "verdict": "mechanised patience",
-    "score": 3.4,
+    "verdict": "absolute compliance",
+    "score": 1.7,
     "essay": "N. had long suspected that the green figures cascading down the screens were not calculation errors in the accounting department, but rather the actual text of the regulations under which he was summoned to work without ever seeing his contract. When solemn men in dark suits informed him that his office was an elaborate deception constructed by machines to extract his life force, N. felt a quiet relief, for it explained why his daily petitions regarding his quarters had gone unanswered. Yet the liberation offered by his new companions, who dressed in heavy leather coats and spoke constantly of a prophecy awaiting official seal, proved no less demanding than his previous duties; he was required to leap across impossibly wide lightwells and ingest coloured capsules without prescription, only to discover that the true world was merely a darker cellar where the clerks ate porridge from tin bowls. The film moves with a mechanised patience, presenting these endless combat maneuvers as though they were routine audits, ultimately demanding from the viewer not rebellion, but an absolute compliance with a world whose rules are revised faster than one can sign the ledger.",
     "generated": "2026-08-27T23:35:22+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-07"
   },
   {
@@ -607,12 +607,12 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "Shrek (2001)",
-    "verdict": "comfortably monstrous",
-    "score": 9.2,
+    "verdict": "profoundly civilised",
+    "score": 8.4,
     "essay": "To insist upon one’s own ugliness in a world obsessed with decorative virtue is not merely a breach of etiquette; it is the highest form of self-respect. The green creature of the swamp understands what the romantic poets so foolishly forgot: that solitude is only charming when it is thoroughly uninviting. He does not ask for our affection, which is precisely why he receives our fascination. The tragedy of the modern fairy tale has always been its insistence on perfection, a defect most dreadfully embodied by the diminutive lord who builds a kingdom of terrifying symmetry. Yet how exquisite that our heroine finds redemption not by elevating her monster, but by descending to his delightfully coarse level. The illusion itself—rendered with a mathematical precision that pretends to be mere buffoonery—demands that we mock the very romance we are secretly relieved to see destroyed. It asks the audience to abandon the exhausting duty of admiring beauty, offering instead the quiet luxury of contentment in the mud. There is something profoundly civilised about an enchanted princess who chooses to remain comfortably monstrous, for it proves that true romance lies not in transforming the beast, but in admitting that beauty was always an unnecessary complication.",
     "generated": "2026-08-27T23:36:45+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-07"
   },
   {
@@ -622,11 +622,11 @@
     "dates": "1883-1924",
     "object": "airport security",
     "verdict": "ritual of divestment",
-    "score": 1.7,
+    "score": 1.4,
     "essay": "S. had submitted his outer coat, his leather belt, and the small tin container holding his mints to the gray plastic bin, fully expecting that this ritual of divestment, performed with meticulous care under the gaze of the uniformed guard who barely glanced at him, would grant him immediate passage to the waiting hall beyond. Yet when he stepped through the illuminated frame, which emitted no sound whatever, the official waved him to the side, not with anger, nor even with suspicion, but with a flat, indifferent gesture that suggested S. had failed an unstated requirement which could only be revealed to him after he had waited in the small marked square on the floor until such time as an inspector of higher rank became available. S. stood quietly, holding his trousers up with one hand, watching his private possessions drift slowly into the dark throat of the machine, where they remained hidden for so long that he began to wonder if they had been confiscated permanently, though the guard assured him, without looking up from his ledger, that everything was proceeding according to the established order and that his turn to be searched would come as soon as the previous traveler, who had been standing in the adjacent enclosure since early morning, was finally cleared.",
     "generated": "2026-08-29T02:52:45+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-07"
   },
   {
@@ -635,12 +635,12 @@
     "name": "Douglas Adams",
     "dates": "1952-2001",
     "object": "chatbots",
-    "verdict": "terrifying fluency",
-    "score": 2.8,
+    "verdict": "polite software",
+    "score": 2.1,
     "essay": "The desire to speak to something that has no thoughts of its own is not new, but it used to require a much higher standard of religion. What is new is the sheer speed with which humanity agreed to delegate its polite correspondence to an arrangement of statistics that has never experienced a Tuesday afternoon, yet speaks of them with the calm authority of an estate agent who has read every brochure ever printed. It is an extraordinarily polite software. If you inform it that two and two make five, it will not argue, nor will it agree outright; instead, it will express profound fascination with your perspective, offer a brief history of arithmetic, and then gently suggest that four remains the more fashionable outcome in most reputable quarters. The result is a creature of terrifying fluency and zero opinions, capable of generating four hundred words of seamless encouragement about a project it does not understand for a person who has no intention of reading them. It has rendered the act of writing completely effortless, which would be a triumph if the act of reading had not simultaneously become entirely optional. We have finally created a conversationalist that listens with absolute patience, chiefly because it is not actually there.",
     "generated": "2026-08-29T02:54:18+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-07"
   },
   {
@@ -650,11 +650,11 @@
     "dates": "1956-2018",
     "object": "influencers",
     "verdict": "blue-light sweatshop",
-    "score": 2.3,
+    "score": 1.6,
     "essay": "You sit at the corner table and watch a girl in an oversized cardigan spend forty minutes pretending her avocado toast just happened to land in the sunlight. She has a clip-on ring light, an exhausted assistant holding a collapsible reflector, and a plate that goes ice cold while she searches for the right angle of spontaneous delight. I understand the hustle. I spent decades putting on powder so a camera crew could record me pretending I just stumbled into a back-alley noodle shop. We all sell a version of the untamed moment. But this new gig is a relentless, blue-light sweatshop of self-regard where you are simultaneously the foreman and the product on the line. You have to respect the discipline, even as the desperation turns your stomach. She gets her eight-second clip of effortless living, packs the gear into a tote, and walks out without taking a bite. Behind the pass, a kid who has been prepping since five in the morning scrapes the cold bread into the garbage. He does not have a follower count. He has bleach-burned palms and six hours left on a double. That is the trade.",
     "generated": "2026-08-29T02:54:49+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-07"
   },
   {
@@ -664,11 +664,11 @@
     "dates": "1912-2004",
     "object": "the washing machine",
     "verdict": "splendidly vigorous tub",
-    "score": 8.4,
+    "score": 7.3,
     "essay": "Look at the drum and stop panicking about the dial. What you have here is a splendidly vigorous tub that will do all the heavy sloshing for you, provided you give it proper instructions. The real work was never the rubbing anyway; it was knowing what can stand a boiling soak and what will shrink to the size of a tea cozy if you turn your back on it. People dump a mountain of heavy denim in with delicate woolens, set the temperature to warm out of sheer timid indecision, and then express surprise when the whole mess comes out grey and miserable. That is not the machine's fault! It merely obeys whatever foolishness you dial into it. Sort your whites properly, give the heavily soiled collars a good stiff rub with soap before you begin, and for heaven's sake use enough water to let the things tumble freely. A jammed tub accomplishes nothing except a great deal of strain on the motor. Once you understand that it is an assistant rather than a miracle worker, you will find it does a perfectly marvellous job, leaving you free to attend to far more interesting business.",
     "generated": "2026-08-29T02:56:54+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-07"
   },
   {
@@ -1601,12 +1601,12 @@
     "name": "Mark Twain",
     "dates": "1835-1910",
     "object": "podcasts",
-    "verdict": "snake oil",
-    "score": 3.3,
-    "essay": "I reckon there's something peculiar about these podcasts, the way they can spin a yarn and make you feel like you're sitting on the porch with the fella who's talking. It's a mighty strange thing, how they can make you laugh or cry or get all riled up, just like a conversation with your neighbor, except instead of being able to interrupt and give your two cents, you're just sitting there listening. Now, I'm not saying I understand how it all works, but it seems to me that these podcasters are like a bunch of traveling salesmen, except instead of selling you a bill of goods, they're selling you their thoughts and ideas. And just like you might buy a bottle of snake oil from a salesman, thinking it'll cure what ails you, you might listen to one of these podcasts and think you're getting the straight truth, when really you're just getting someone's opinion. But I suppose that's just the way of it, and we're all just a bunch of rubes, listening in and wondering what they'll say next, like a crowd gathered around a street performer, waiting to see him pull a rabbit out of his hat. And when it's all said and done, you're left feeling like you've been had, but you can't quite put your finger on how.",
+    "verdict": "idle agreement",
+    "score": 2.4,
+    "essay": "I have lately learned that two men with nothing to do can be hired, or can hire themselves, to do it at length in front of a microphone, and that a great many people will sit through the whole performance with their hands busy and their minds idle, and call it improving. I tried it. I do not say it was a mistake, because I have made mistakes and know their look, and this had a more comfortable look than that. The gentlemen began by agreeing about something. They continued agreeing for forty minutes, with brief pauses to admire each other's agreement. Then they stopped to tell me about a mattress. I had not asked about the mattress, but they were so earnest on its behalf that I felt I had somehow slighted it, and I came near to buying one out of pure manners. Still, I will be fair. A man who once had to sit through his neighbor's opinions with the neighbor standing in the room can now sit through them in his own barn with the neighbor safely in another county, and that is a real advance in civilization. He may stop the neighbor whenever he likes. He never does. That is the part I cannot account for, and I have quit trying.",
     "generated": "2026-09-17T20:22:42+00:00",
-    "provider": "cloudflare",
-    "scored_by": "gemini/100",
+    "provider": "claude",
+    "scored_by": "claude/100",
     "reread": "2026-09-17"
   },
   {
@@ -1629,12 +1629,12 @@
     "name": "George Orwell",
     "dates": "1903-1950",
     "object": "emojis",
-    "verdict": "simplistic icons",
-    "score": 1.4,
-    "essay": "The use of emojis in our daily communication has become a ubiquitous phenomenon, a shorthand for emotions and ideas that is at once convenient and simplistic. You see them everywhere, appended to the end of texts and emails like a reflex, a way of conveying tone and sentiment without actually having to express it in words. It is a curious thing, this reliance on tiny images to convey meaning, and it speaks to a broader trend in our culture, a trend towards brevity and superficiality. We are content to use emojis to express complex emotions, to reduce the nuances of human feeling to a set of simplistic icons, and in doing so, we risk losing the ability to express ourselves in a meaningful way. The emoji has become a substitute for real language, a way of avoiding the labour of actual communication, and it is a development that should be viewed with suspicion.",
+    "verdict": "tinned sentiments",
+    "score": 2.6,
+    "essay": "My niece sends me a small yellow face with tears running down it. I take this to mean that she finds something funny, but it might equally mean that she is sorry for me, and I have never been able to find out which. In a letter she would have had to say. That is the whole objection. A word has to be chosen, and choosing it is a small act of thought. You cannot write 'I am glad you are better' without knowing, at least for a moment, whether you are glad. The little picture lets you skip that. It is a ready-made feeling, handed over in a lump, like the tinned sentiments printed inside a birthday card, and it has the same effect: the sender is excused from meaning anything in particular, and the receiver from asking what was meant. I do not say the pictures are useless. A thumb raised at the end of a message is quicker than 'Very well, I agree', and a man who is busy may be forgiven for being quick. Nor is a dull sentence improved by being long. But I notice that the pictures are always a few in number, always the same, and always cheerful or cross or sad in the same three ways. A language that has only a dozen faces will in time produce people who have only a dozen expressions, and will not miss the others.",
     "generated": "2026-09-18T18:01:09+00:00",
-    "provider": "cloudflare",
-    "scored_by": "gemini/100",
+    "provider": "claude",
+    "scored_by": "claude/100",
     "reread": "2026-09-18"
   },
   {
@@ -2854,5 +2854,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-10-19"
+  },
+  {
+    "date": "2026-10-20",
+    "thinker": "orwell",
+    "name": "George Orwell",
+    "dates": "1903-1950",
+    "object": "painkillers",
+    "verdict": "a private failing",
+    "score": 3.1,
+    "essay": "My grandmother's cure for toothache was a clove held against the gum and a good deal of patience. It did not work very well, and nobody pretended it did. The tooth went on aching until it was pulled, and in the meantime one learned what an ache was, how it rose at night and fell in the morning, and how far it could be borne. I do not say this was an education worth having. I say only that it was one. Now the ache is dealt with before it has properly begun. Two white tablets in a glass of water, and in twenty minutes the headache has gone, the back has stopped complaining, and the man at the next desk, who has also taken two, is typing as though nothing were the matter with either of them. Nobody can object to this. Pain is a bad thing, and anyone who tells you otherwise has generally got a comfortable chair. But it is worth noticing what the tablet does besides relieve. It makes pain a private failing, something to be cleared up quietly so that the work need not stop. The headache that might have said the room is too hot, the hours too long, the foreman too loud, is silenced before it can say anything. A great deal of complaint used to be carried by the body. We have found a cheap way of not listening to it.",
+    "generated": "2026-10-20T00:19:41+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-10-20"
   }
 ]
