@@ -61,6 +61,8 @@ Source: pastiche written for this repo (still in copyright)
 - A more unexpected and clever comparison was expected instead of a straightforward and generic phrase like this. Seen in a published essay: "a distinction that may seem subtle, but is nevertheless one that has a profound impact" (found 2026-10-09).
 - A more subtle and clever description of the transformation was expected, rather than a phrase that relies on generic contrasting adjectives like 'soft' and 'harsh'. Seen in a published essay: "the peculiar alchemy by which it manages to convert the soft, golden light of dawn into a harsh and unforgiving imperative" (found 2026-10-09).
 - A more elaborate and winding sentence structure was expected, with subordinate clauses and unexpected turns, rather than a relatively simple cause-and-effect statement like this. Seen in a published essay: "a process that is all the more remarkable for being entirely involuntary, and yet, somehow, strangely effective" (found 2026-10-09).
+- The voice is specified as third person, but "I suspect" puts a first-person narrator into the essay, breaking the impersonal mock-encyclopaedic register. Seen in a published essay: "The real function of the place, I suspect, is to reassure" (found 2026-10-21).
+- This is a tidy verbal zinger that depends on wordplay; Adams's comedy would sit in the logic of the situation, such as the free sandwich being eaten because it was included in the price, rather than in a closing aphorism. Seen in a published essay: "Nobody in the history of commerce has been so thoroughly persuaded by a sandwich." (found 2026-10-21).
 ## Log
 
 - 28/08/2026 - added at Charlie's request from a list of sixteen. In copyright, so both samples are pastiche.

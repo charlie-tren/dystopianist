@@ -1060,7 +1060,7 @@
     "essay": "The entire architecture of modern air travel relies on a brief, mandatory theatre in which several hundred entirely innocent citizens are required to strip down to their socks, surrender their moisturiser, and walk through a grey plastic frame that emits a high-pitched beep whenever it encounters a belt buckle. This ritual is conducted with a solemnity previously reserved for royal coronations, despite being administered by staff who would clearly rather be anywhere else, and overseen by machines that are ninety-eight percent certain that a small pot of yoghurt represents an existential threat to civilised life. The genius of the arrangement lies in its psychological symmetry. By treating every passenger as an imminent catastrophe who must prove their own harmlessness by holding a small transparent bag above their head, the system creates a queue so profoundly tedious that by the time anyone actually reaches the aeroplane, they have lost all capacity for malice, along with their dignity, a bottle of water, and any remaining desire to travel. It is, in every practical sense, entirely successful, not because it catches villains, but because it ensures that everyone entering the sky is already far too exhausted to attempt anything more ambitious than sitting quietly in seat 24B and eating a tiny, dry pretzel.",
     "generated": "2026-09-05T22:54:55+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-11"
   },
   {
@@ -1069,12 +1069,12 @@
     "name": "Friedrich Nietzsche",
     "dates": "1844-1900",
     "object": "The Matrix (1999)",
-    "verdict": "a bourgeois nightmare",
-    "score": 1.2,
+    "verdict": "flattering spectacle",
+    "score": 0.9,
     "essay": "To offer a man the choice between a pleasant illusion and a bleak, subterranean truth is the oldest trick of the ascetic priest. The digital dream world is painted in sickly green, a bourgeois nightmare of cubicles and routine—yet its supposed antidote is merely a damp cave where men in rags eat porridge and revere a new dogma. One is expected to applaud the hero who awakens, who dodges bullets in slow motion and dons black leather as if vanity were a virtue of the liberated mind. But what has he truly gained? He has exchanged a comfortable tyranny for a militaristic cult, substituting the cold calculation of machines for the desperate fanaticism of the weak. The spectacle itself—this slick, rhythmic theatre of violence—serves only to flatter the spectator into believing he, too, can realise a hidden power. It is a philosophy for the impatient: it promises that reality can be mastered by swallowing a single pill. How typical of the modern mind to demand an instant awakening! They pretend to despise the machine, yet they can imagine salvation only through its mechanisms—wiring their skulls to leap across rooftops, turning human force into a mere program.",
     "generated": "2026-09-06T09:41:36+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-11"
   },
   {
@@ -1111,12 +1111,12 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "emojis",
-    "verdict": "pictorial shorthand",
-    "score": 1.2,
+    "verdict": "passion rendered redundant",
+    "score": 0.9,
     "essay": "Modern conversation has at last achieved its ultimate refinement, which is to eliminate the tedious necessity of words altogether. Humanity laboured for centuries to construct a language capable of subtle nuance and exquisite deception, only to discover that a tiny yellow face with tilted eyes can convey an entire tragedy without the embarrassment of thought. To express grief by sending a painted tear is not a return to the primitive, but the supreme triumph of modern manners, for it spares one the vulgar discomfort of actually feeling anything at all. We have always known that speech was invented to disguise our passions, but these little painted symbols achieve something far grander: they render passion entirely redundant. A civilised man should never write what he can suggest with an absurdity, nor feel what he can summarise with a cartoon. Naturally, the pedants complain that such pictorial shorthand degrades the beauty of prose, but pedants have always mistaken the length of a sentence for the depth of a soul. In truth, these charming little emblems are the only true poetry left to a world too busy to read. They possess the rare virtue of being completely meaningless, which is precisely why they say everything worth hearing.",
     "generated": "2026-09-06T22:53:49+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-11"
   },
   {
@@ -1126,11 +1126,11 @@
     "dates": "1533-1592",
     "object": "Jaws (1975)",
     "verdict": "curious triumph",
-    "score": 7.9,
+    "score": 7.2,
     "essay": "I have ever been something of a coward regarding the hidden depths of the sea, where a man cannot plant his feet; and in watching this spectacle of the great devouring fish, I found my pulse quickened not by what was displayed to the eye, but by what was withheld. It seems to me a curious triumph of the theatre that the very failure of the artificial beast, which refused its mechanical labour upon the waves, forced the maker to rely upon those two terrifying notes of music and the unseen movement beneath the barrels: for our imagination is ever more cruel than any painter's craft. I observed how three men of contrary temperaments, cramped within a frail hull, reveal their true natures; the landbound officer, who dreads the water yet performs his duty, strikes me as far more noble than the arrogant scholar or the wild mariner who courts his own destruction. Yet when the craft founders and the blue water turns red, I realise how easily a rational mind is reduced to childish panic by clever artifice, and I remain doubtful whether we ever truly conquer the terrors we pretend to master.",
     "generated": "2026-09-07T18:01:38+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-11"
   },
   {
@@ -1140,11 +1140,11 @@
     "dates": "1912-2004",
     "object": "the hot shower",
     "verdict": "splendidly practical luxury",
-    "score": 8.9,
+    "score": 8.6,
     "essay": "What a sensible, marvellous piece of household engineering it is, provided you actually know how to use it! Too many people simply stand under the streaming water like wet sheep, letting the steam do all the thinking while they stare at the tiles. That is an absolute waste of hot water and good time. Turn the valves with a firm hand—you want it hot enough to sting just a bit, not so scalding that you look like a boiled lobster—and get down to business. Soap up properly, scrub with some real vigor, and rinse off thoroughly. There is no mystery to it at all! The steam clears your lungs, the heat relaxes those stubborn muscles in your neck, and the whole affair leaves you feeling immensely alert and capable. It is a splendidly practical luxury because it gets you clean in five minutes flat and sets you up for whatever hard work lies ahead in the morning. Do not dawdle in there for half an hour indulging in vague melancholy; turn it on, scrub vigorously, step out into a good thick towel, and get on with your day refreshed. It works perfectly every single time if you simply pay attention to what you are doing.",
     "generated": "2026-09-07T20:37:25+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-11"
   },
   {
@@ -1168,11 +1168,11 @@
     "dates": "1956-2018",
     "object": "airport lounges",
     "verdict": "a holding pen",
-    "score": 1.2,
+    "score": 1.4,
     "essay": "You take the free gin because your gate is a madhouse and because you want to pretend, for forty minutes, that you are not part of the herd. I do it too. I sit in the low leather armchair at Terminal 4, pour a double from a greasy glass decanter, and pretend I belong to a better class of traveler. It is a lie, of course. Look past the frosted glass walls and the soft, ambient lighting. Watch the guy in the black polo shirt clearing the tiny porcelain bowls of stale almonds. He has been on his feet since six in the morning, wiping down synthetic marble with a spray bottle of Spartan disinfectant, while some tech manager in a Patagonia vest shouts into an earpiece about deliverables. The lounge is not a refuge. It is a holding pen built to insulate you from the mess of travel by pushing the people who clean up after you further into the shadows. You are not royalty because a sliding door opened for you. You just paid for a quieter room in which to act oblivious, served by someone taking two night buses home to Newark.",
     "generated": "2026-09-08T18:02:58+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-11"
   },
   {
@@ -1196,11 +1196,11 @@
     "dates": "1819-1892",
     "object": "anaesthesia",
     "verdict": "a magnificent mercy",
-    "score": 9.6,
+    "score": 8.7,
     "essay": "I spent an hour yesterday in the operating room watching the quiet work of the gas and mask. A young mechanic on the table—muscles relaxed, breathing steady and deep—the surgeon standing ready, the nurses swift and silent at their places. No shrieking, no iron straps, no four stout attendants holding down a thrashing body on a wooden bench. Just the turn of a nickel-plated valve, the sweet heavy vapor flowing, and the patient sliding off into an easy sleep; completely untroubled, insensible to the cold steel penetrating skin, fat, and muscle. Saw the apparatus itself—gauges, glass tubes, rubber hoses, brass stopcocks, leather straps, sponges, polished instruments laid out on white linen. What a triumph of modern skill—to sever the nerve of agony while keeping the flame of life burning bright; to lay a man out under the knife and have him wake a half-hour later, blinking at the daylight, asking when the doctor means to start! The flesh lies in absolute peace; the spirit rests in the dark parlor until summoned back to the day. A magnificent mercy, easing the suffering body in its hour of need.",
     "generated": "2026-09-08T23:24:01+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-12"
   },
   {
@@ -1224,11 +1224,11 @@
     "dates": "1533-1592",
     "object": "painkillers",
     "verdict": "a strange artifice",
-    "score": 5.7,
+    "score": 4.8,
     "essay": "I have spent much of my life contending with the sharp visitations of the stone, an agony so imperious that it shatters all philosophy in an instant; yet whenever I am offered a tiny morsel that promises to banish the torment without delay, I accept it with a speed that ill becomes my supposed stoicism. I find myself wondering what real profit a man finds in thus silencing the alarms of his own flesh, for pain is perhaps the only monitor that reminds us of our frail, perishable nature; yet to praise suffering while one is whole is the cheapest form of valour. When the spasm takes me by the throat, I abandon all noble reflections and crave only the stupor that allows my mind to float free from its bodily prison. It is a strange artifice that can sever the nerve from its grief so neatly, leaving the mind in a tranquil harbour while the storm rages unheeded below; I suspect I am wiser when I yield to this quiet relief than when I attempt to debate with a colic. And yet, I know not if by dulling our aches so easily, we do not also soften our spirit, rendering ourselves ill-prepared for that final trial which no draught can forestall.",
     "generated": "2026-09-09T23:15:31+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-12"
   },
   {
@@ -1881,12 +1881,12 @@
     "name": "George Orwell",
     "dates": "1903-1950",
     "object": "the step counter",
-    "verdict": "symbol of obsession",
-    "score": 2.3,
-    "essay": "The step counter has become a constant companion to many people, silently tracking their every move and presenting them with a tally of their daily activity. You can see people glancing at these devices on the street, on the bus, and in the office, their faces a picture of quiet satisfaction or mild disappointment. It is a small thing, but it reveals a good deal about our attitude to labour and leisure. We are drawn to the idea of monitoring our own activity, of turning our lives into a kind of accounts ledger where every step is a credit and every period of inactivity a debit. This habit of mind is not unique to the step counter, but it is nowhere more clearly seen. We have grown accustomed to the notion that our lives must be productive, that every moment must be used to some purpose, and the step counter is a symbol of this obsession. It does not occur to us that we might simply walk for pleasure, without needing to measure the distance or count the calories burned. The step counter is a reminder that, for many of us, even our leisure time has become a kind of labour, something to be managed and optimised rather than simply enjoyed.",
+    "verdict": "trusting a tally",
+    "score": 1.8,
+    "essay": "A man I know walks up and down his landing at eleven at night because the thing on his wrist says he is four hundred steps short. He is not tired and he does not want the air. He wants the wrist to stop reproaching him. I do not laugh at him, because I have done the same myself. The odd part is that he did walk that day. He went to the shop, he carried the coal, he stood two hours in a queue at the post office. None of it counted for much, because the wrist was not on the arm that held the shopping, or the shopping was too heavy to swing the arm. A walk is now something that has to be proved, and a walk that cannot be proved has not happened. I notice too that nobody asks where he went. They ask how many. A man might tramp to the next village to see a hedge in flower and be told he had done a poor day's work, while another who paces his kitchen gets a small cheer. The machine cannot tell a pleasure from a chore, so it treats them alike, and after a while so do we. That is the real cost. It is not the vanity, which is old, but the habit of trusting a tally over our own legs.",
     "generated": "2026-09-24T18:00:53+00:00",
-    "provider": "cloudflare",
-    "scored_by": "gemini/100",
+    "provider": "claude",
+    "scored_by": "claude/100",
     "reread": "2026-09-24"
   },
   {
@@ -1895,12 +1895,12 @@
     "name": "Bertrand Russell",
     "dates": "1872-1970",
     "object": "Paddington (2014)",
-    "verdict": "modest triumphs",
-    "score": 7.8,
-    "essay": "The film Paddington is a curious thing; it presents a world where a bear from Peru can find a sense of belonging in London, and yet this belonging is rooted in the most mundane of tasks, such as making marmalade. This is no reason to scorn the simple pleasures in life; on the contrary, it is a reminder that our desires are often modest, and it is in these modest desires that we find happiness. The Browns, who take Paddington in, are a family who value kindness and compassion, and it is through their actions that we see the importance of treating others with dignity. I too desire to display modest triumphs, such as a well-made marmalade, and it is in these small achievements that we find a sense of purpose. The tragedy is not that we need a bear from Peru to remind us of the importance of kindness, but that we so often forget it in our daily lives.",
+    "verdict": "a more interesting house",
+    "score": 7.1,
+    "essay": "The Browns take in a bear because he is standing in a railway station with a label round his neck, and the station is not a place where anyone has time to ask whether he ought to be there. Mr Brown, who assesses risk for a living, is the last to consent and the first to be ashamed of his caution. I found this more instructive than I expected. We suppose that suspicion is the sensible habit and kindness the luxury of people who have never been robbed. The film puts the matter the other way up. Nobody in it is made safer by distrust; the taxidermist, who trusts nothing but her own appetite, is the one person who comes to harm. The Browns, who begin by locking the door, end by having a more interesting house. I do not pretend that this is a discovery. It is the sort of thing that every grandmother knows and every newspaper denies. But I notice that I accepted it from a bear in a duffel coat more readily than I would have from a bishop, and that is a fact about me rather than about bears. Marmalade, I am told, was kept under the hat for emergencies. I approve of the arrangement.",
     "generated": "2026-09-24T20:32:48+00:00",
-    "provider": "cloudflare",
-    "scored_by": "gemini/100",
+    "provider": "claude",
+    "scored_by": "claude/100",
     "reread": "2026-09-24"
   },
   {
@@ -2910,5 +2910,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-10-20"
+  },
+  {
+    "date": "2026-10-21",
+    "thinker": "adams",
+    "name": "Douglas Adams",
+    "dates": "1952-2001",
+    "object": "airport lounges",
+    "verdict": "indulgence for waiting",
+    "score": 2.7,
+    "essay": "The airport lounge works on a principle that would be familiar to anyone who has studied the medieval sale of indulgences: you pay a considerable sum so that you may wait in a better place for the thing you are already waiting for. The thing does not arrive any sooner. It is simply that, while it fails to arrive, you are permitted to sit in a chair that was chosen by someone who had once read about chairs. The lounge is defined chiefly by what it is not, and what it is not is the terminal, which stands a few feet away on the other side of a door that has been fitted with a very serious receptionist. Behind her, everything is the same as outside, only quieter and free, and it is the free that does the work. A person who would not dream of eating a lukewarm sandwich at eleven in the morning will eat three of them, standing up, because they have been included in the price. Nobody in the history of commerce has been so thoroughly persuaded by a sandwich. The real function of the place, I suspect, is to reassure the traveller that the delay is happening to someone of standing. The departures board says the same thing in the lounge as it does everywhere else, but it says it on a better screen, and this is felt, quite sincerely, to be a form of progress.",
+    "generated": "2026-10-21T18:00:35+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-10-21"
   }
 ]
