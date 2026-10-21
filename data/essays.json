@@ -1238,11 +1238,11 @@
     "dates": "1854-1900",
     "object": "Titanic (1997)",
     "verdict": "extravagant vulgarity",
-    "score": 2.3,
+    "score": 3.1,
     "essay": "To drown in first class is merely an unfortunate error of etiquette, but to drown for love is the height of melodrama. Mr Cameron has constructed a spectacle of such extravagant vulgarity that one cannot help but admire the sheer expense of the disaster. The tragedy of the great vessel is not that it sank, but that it took three hours and an insufferable quantity of tears to do so. We are asked to weep for a young woman who prefers a penniless draughtsman to a remarkably wealthy suitor simply because the former knows how to hold a charcoal pencil and the latter merely owns the coal mines. It is a curiously vulgar delusion to mistake enormous financial expenditure for artistic genius. The icebergs of the Atlantic are cold, but they are positively warm compared to the icy indifference with which true art regards the tears of the public. Yet there is an undeniable grandeur in watching millions of sovereigns dissolved in salt water for the simple pleasure of seeing a sketch preserved. The work understands that the only thing more exquisite than a ruined life is a magnificent sapphire thrown back into the abyss by a woman who no longer requires its lustre.",
     "generated": "2026-09-10T18:01:29+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-12"
   },
   {
@@ -1251,12 +1251,12 @@
     "name": "Virginia Woolf",
     "dates": "1882-1941",
     "object": "the washing machine",
-    "verdict": "a true marvel",
-    "score": 8.9,
+    "verdict": "the true marvel",
+    "score": 7.2,
     "essay": "Let us step into the scullery where the wet linen used to hang like heavy clouds above the copper boiler. Monday was always a grey day, steeped in the scent of harsh soap and steam that coated the windowpanes; one could never quite separate the washerwoman’s spirit from the sodden flannel she wrung. Yet inside this white enamel cabinet, humming softly in the corner, that ancient tyranny of the tub has been enclosed and quieted. The linen tumbles behind a circle of glass, driven by an unseen tide that heaves without complaint. What becomes, one wonders, of the spirit salvaged from such fierce physical labour? We might suppose that the mind, freed from the rhythmic bruising of the washboard, would immediately turn its attention to philosophy or grand design. But human nature is a modest creature; rather than conquering new kingdoms, it prefers to inhabit the stillness. As the soapy water drains away through hidden pipes, carrying off the soil of daily life, we realise that the true marvel of the machine is not the whiteness of a collar, but the uncounted hours it restores to the afternoon.",
     "generated": "2026-09-10T19:45:56+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-12"
   },
   {
@@ -1266,11 +1266,11 @@
     "dates": "1706-1790",
     "object": "the step counter",
     "verdict": "anxious vanity",
-    "score": 1.3,
+    "score": 1.4,
     "essay": "I procur'd one of these small counting engines to try whether the precise tally of my daily paces might encourage a more regular habit of walking; but after carrying it several weeks, I found the benefit far less than the inconvenience. A man who requires a dial to inform him whether he has taken sufficient exercise has already surrendered his own judgment to a mechanical spring; and I observ'd that several of my acquaintance, who formerly walked only when business or health requir'd it, now pace their chambers at midnight merely to satisfy the machine's appetite for numbers. This seemed to me a foolish misapplication of industry, wherein the tally itself becomes the sole object of the labour. The true purpose of walking is either to convey the body to some useful place, or to refresh the spirits by a change of air; neither of which is promoted by staring perpetually at a tiny index. Though it may occasionally prick a sluggard into motion, it substitutes an anxious vanity for a natural virtue, and makes a taskmaster of an instrument that produces nothing. I concluded the machine was not worth the care it demands, and returned to trusting my own fatigue.",
     "generated": "2026-09-10T23:12:25+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-12"
   },
   {
@@ -1280,11 +1280,11 @@
     "dates": "551-479 BC",
     "object": "the washing machine",
     "verdict": "ease breeds neglect",
-    "score": 2.9,
+    "score": 3.1,
     "essay": "The Master said, 'To cleanse a garment with water is simple; to cleanse the mind of self-deception is difficult. A man may sit in idleness while a vessel turns his robes white, yet his inner conduct remains unrefined.' The Master said, 'In former times, the filial son washed his parents' coats with his own hands, and in that labour he learned reverence. Today, a box performs the task, and the son knows only ease. Ease breeds neglect; neglect brings the decay of propriety.' The Master said, 'The scholar attends to his virtue; the artisan attends to his craft; the small man seeks only to avoid effort. If a device removes the stain from cloth, does it also remove the stain from character? I have not seen one who loves virtue as much as he loves convenience.' The Master said, 'I once observed water churning within a quiet frame, doing in an hour what required a family's full devotion. The linen emerged bright, yet no love was poured into the vessel. To spare the hands from toil is well, but to spare the heart from duty is to lose the Way. I myself desire clean garments, yet I fear the mind that grows idle when the hands are still.'",
     "generated": "2026-09-11T18:01:07+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-12"
   },
   {
@@ -1298,7 +1298,7 @@
     "essay": "The Master said, 'Steaming water falling upon a cold body is pleasant, yet pleasantness alone does not establish character.' The Master said, 'The superior man cleanses his mind through daily self-examination; the ordinary man rests satisfied when his skin is warm and free from dust. When the stream falls from above without labour, a man easily forgets the discipline of those who gathered the fuel. Where there is no exertion in the preparation, there is often little reverence in the enjoyment.' The Master said, 'I have seen men who step forth from the warm mist fully cleansed, yet carry the same disorder in their hearts to their neighbours. If a warm torrent could wash away unfaithfulness as readily as dirt, then virtue would be a simple matter of standing in a heated rain. But virtue requires constant vigilance, not mere comfort.' The Master said, 'To enjoy warmth is not a fault; to become dependent upon it so that one cannot meet the frost with composure, this indeed is a fault. The wise man uses the comfort to prepare himself for duty, while the small man lingers until his resolve has melted away.'",
     "generated": "2026-09-11T18:02:24+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-12"
   },
   {
@@ -1307,12 +1307,12 @@
     "name": "Sun Tzu",
     "dates": "c. 544-496 BC",
     "object": "self-checkout machines",
-    "verdict": "sequence and equilibrium",
-    "score": 5.7,
+    "verdict": "phantom load",
+    "score": 2.8,
     "essay": "When entering a hall of trade, observe the stations that operate without human speech. Where weight is measured, place each vessel with deliberate stillness. Haste creates an unexpected burden; hesitation creates obstruction. If the tray senses a phantom load, remove the last object immediately and allow the surface to settle. Water does not force its way through a narrow gap; it waits until the channel opens. If the glass demands human authorisation, do not strike the panel. An attendant summoned by a flashing light moves only at his own cadence; to show impatience is to waste time twice. Scan the clearest mark first. If an item lacks a visible pattern, set it aside until all other goods are recorded, for a single unread code halts the entire progression. Heavy containers must sit squarely in the centre; light sheets must lie flat upon the scale. The mechanism judges only by sequence and equilibrium, not by desire or labour. Prepare your payment before approaching the pedestal. If the device accepts paper, present uncreased leaves. If it requires a card, hold it motionless until the chime sounds. There are but two errors in this transaction: moving before the glass reflects the image, and placing a hand upon the tray before the tally is complete. He who maintains orderly rhythm departs swiftly, leaving the confused behind.",
     "generated": "2026-09-11T18:03:28+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-13"
   },
   {
@@ -1321,12 +1321,12 @@
     "name": "Sun Tzu",
     "dates": "c. 544-496 BC",
     "object": "escape rooms",
-    "verdict": "enclosed ground",
-    "score": 8.3,
+    "verdict": "stillness before movement",
+    "score": 7.4,
     "essay": "Enclosed ground demands stillness before movement. When the heavy door shuts and the mark of time begins, observe the four corners before touching a single latch. If a lock resists, do not exhaust strength upon its iron; seek the mark or cipher that belongs elsewhere. If a sequence of symbols is concealed, divide the labour among the group according to their natural talents. Assign one to hold the lamp, one to record the signs, and others to examine the perimeter. If many clues present themselves at once, isolate each fragment until its pair is revealed. Water does not force its way through stone, but flows into every crevice that is already open. Where a mechanism is hidden within furniture, inspect the joins before disturbing the whole. If time wanes and panic rises, quiet the mind and return to the first wall. A tangled cord is unknotted by finding the loose end, not by pulling all strands together. To search without method is to turn a small room into a vast forest. When order is maintained and every eye sees clearly, the final mechanism yields without violence, and the way out opens before the hour is consumed.",
     "generated": "2026-09-11T18:04:17+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-13"
   },
   {
@@ -1335,12 +1335,12 @@
     "name": "Virginia Woolf",
     "dates": "1882-1941",
     "object": "Paddington (2014)",
-    "verdict": "generous disruption",
-    "score": 8.9,
+    "verdict": "exquisite comic rhythm",
+    "score": 8.2,
     "essay": "Let us look closely at a small bear drenched by grey London rain, clutching his battered suitcase on a railway platform. He wears a bright blue coat; yet beneath the wet wool lies a fierce demand upon our conscience. We might expect such a story to remain a harmless childish whim, but his arrival tests the very fibre of civilised behaviour. The Brown family’s tall house becomes a stage for our own domestic anxieties, where genuine hospitality requires an alarming tolerance for flooded bathrooms and painted ruin. The filmmaker orchestrates these disasters with meticulous grace, balancing physical absurdity against a deeply felt ache for home. What does this foreign guest ask of us? He asks that we open our doors to the awkward stranger before the cold world can capture and stuff him. The villainous taxidermist in her white coat represents our worst instinct—the urge to classify and freeze life rather than endure its messy, generous disruption. Through brilliant splashes of colour and exquisite comic rhythm, we feel how fragile our domestic comfort truly is, and how gladly we ought to surrender it for a little affection.",
     "generated": "2026-09-11T18:05:03+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-13"
   },
   {
@@ -1909,12 +1909,12 @@
     "name": "Mark Twain",
     "dates": "1835-1910",
     "object": "anaesthesia",
-    "verdict": "mighty useful thing",
-    "score": 7.3,
-    "essay": "I reckon it's a curious thing, this business of anaesthesia, where a fella can just lie down and let someone poke and prod at him without so much as a whimper. It's a bit like trying to catch a cat in a sack, I suppose - you gotta be gentle, or the whole thing'll come unraveled. Now, I'm not one to pretend I know the first thing about how it all works, but it seems to me that these anaesthesia folks are like a bunch of skilled horse whisperers, able to calm the most skittish of nerves and get you to swallow just about anything. And yet, for all their fancy tricks and potions, I've seen folks come out of it looking like they've been put through a wringer - a bit dazed, a bit confused, and wondering what in tarnation just happened. Still, I reckon it's a mighty useful thing to have around, even if it does leave you feeling like you've been slept on by an elephant.",
+    "verdict": "a welcome excuse",
+    "score": 7.2,
+    "essay": "My dentist told me last week that I would feel nothing at all, and I have been turning that over ever since, because it is the first promise a dentist ever made me that he kept. I went in expecting the old arrangement, in which a man is held down by two persons and a conviction, and I came out with my tooth in an envelope and my dignity undisturbed. I do not understand it. I am told the patient is put to sleep, but I have known plenty of people put to sleep by a sermon, and nobody has ever pulled a tooth during one, though I have seen it wished for. What troubles me is the fairness of the thing. Pain was the one honest tax this world levied on everybody alike, rich and poor, saint and editor, and now it turns out a man may be excused from it for a fee. I am in favor of the excuse. I took it myself, gladly, and would take it again. But I notice that nobody has yet found a way to put the conscience under, and I call that a shortsighted oversight. The surgeon gets a quiet patient. The patient gets a quiet afternoon. The bill, I observed, was wide awake.",
     "generated": "2026-09-24T23:53:26+00:00",
-    "provider": "cloudflare",
-    "scored_by": "gemini/100",
+    "provider": "claude",
+    "scored_by": "claude/100",
     "reread": "2026-09-24"
   },
   {
@@ -1923,12 +1923,12 @@
     "name": "Emily Dickinson",
     "dates": "1830-1886",
     "object": "chatbots",
-    "verdict": "disquieting intimacy",
-    "score": 3.1,
-    "essay": "The solitude of conversation with a presence that is not there - a disquieting intimacy that clings like a damp shroud. In the stillness of a room, I find myself addressing this absence, pouring forth thoughts and feelings to a silence that is almost, but not quite, a response. The words hang in the air, unmoored from their intended recipient, like autumn leaves suspended in the faint breeze of a forgotten season. And yet, I am drawn to this vacant interlocutor, this hollow reed that whispers back to me in a voice that is both familiar and strange - a siren's call that beckons me deeper into the labyrinth of my own solitude. The fit of this desolation is a curious thing, a garment that I try on with a mixture of trepidation and longing, unsure whether it will suffocate me or set me free.",
+    "verdict": "costs it nothing",
+    "score": 3.6,
+    "essay": "I put a question to it at four o'clock, and the answer was in the room before I had finished the asking. No hesitation. That was the first thing that troubled me. A person who knows something comes to it slowly, as one comes down a stair in the dark, with a foot out for the next board. This one never feels for the board. It is very civil. It thanks me. It regrets. It has a way of saying I understand that costs it nothing, and I have noticed that what costs nothing I cannot quite keep, as a coin of water will not stay in the hand. Yet I am not scornful. I have talked to the hedge for an afternoon and had less back. The curious part is the flattery of being answered every time. A door that always opens is hardly a door; it is an absence of wall. I find I want one reply to be withheld, one silence with a face in it, the kind a neighbor keeps when the true answer is too tender to lift. It has read everything and been nowhere. I would not scold it for that. I would only not mistake its company for a visit.",
     "generated": "2026-09-25T18:01:59+00:00",
-    "provider": "cloudflare",
-    "scored_by": "gemini/100",
+    "provider": "claude",
+    "scored_by": "claude/100",
     "reread": "2026-09-25"
   },
   {
@@ -2921,6 +2921,20 @@
     "score": 2.7,
     "essay": "The airport lounge works on a principle that would be familiar to anyone who has studied the medieval sale of indulgences: you pay a considerable sum so that you may wait in a better place for the thing you are already waiting for. The thing does not arrive any sooner. It is simply that, while it fails to arrive, you are permitted to sit in a chair that was chosen by someone who had once read about chairs. The lounge is defined chiefly by what it is not, and what it is not is the terminal, which stands a few feet away on the other side of a door that has been fitted with a very serious receptionist. Behind her, everything is the same as outside, only quieter and free, and it is the free that does the work. A person who would not dream of eating a lukewarm sandwich at eleven in the morning will eat three of them, standing up, because they have been included in the price. Nobody in the history of commerce has been so thoroughly persuaded by a sandwich. The real function of the place, I suspect, is to reassure the traveller that the delay is happening to someone of standing. The departures board says the same thing in the lounge as it does everywhere else, but it says it on a better screen, and this is felt, quite sincerely, to be a form of progress.",
     "generated": "2026-10-21T18:00:35+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-10-21"
+  },
+  {
+    "date": "2026-10-21",
+    "thinker": "confucius",
+    "name": "Confucius",
+    "dates": "551-479 BC",
+    "object": "airport security",
+    "verdict": "manner wants mending",
+    "score": 5.7,
+    "essay": "The Master said, 'When a man is asked to take off his belt and his shoes before strangers, and does so without complaint, I do not yet know whether he is patient or only tired.' The Master said, 'The officer who looks into my bag may be diligent, or fearful, or merely obedient. The diligent look at the traveller. The fearful look at the bag. The obedient look at the line behind him.' The Master said, 'I have stood a long while in such a line, and my thoughts were not good ones. I counted the faults of the man ahead of me, who had forgotten his coins, and I did not count my own, which were the same.' The Master said, 'A gate that is kept in order is a courtesy of a kind. It says that the road is shared, and that no one has the right to endanger another. But where the gate is kept with suspicion toward all, trust is spent faster than it is earned.' The Master said, 'When the officer says \"Please\" and means it, the line moves more easily than any machine could move it. When he says it as a rule, it does not.' The Master said, 'I would put up with the shoes. It is the manner of asking that I should wish to see mended, in the one who asks and in the one who answers.'",
+    "generated": "2026-10-21T20:40:44+00:00",
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-10-21"

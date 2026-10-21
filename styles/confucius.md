@@ -80,6 +80,8 @@ exists - a guess about a failure is worth much less than a quotation of it.
 - A reader of Confucius would have expected a more straightforward and simple comparison, rather than an elaborate and figurative expression Seen in a published essay: "it is a trade of words, and from such trade no civilised order can arise" (found 2026-10-02).
 - A reader of Confucius would have expected a more nuanced and less direct statement, such as a comparison or a metaphor, rather than a straightforward declaration Seen in a published essay: "A man who wishes to realise virtue must first attend to his present task" (found 2026-10-02).
 - A reader of Confucius would have expected a more straightforward and simple comparison, rather than an elaborate and figurative expression Seen in a published essay: "like a tree that is nourished by the sun, but also battered by the wind" (found 2026-10-14).
+- The machine comparison is a modern referent outside the ordinary and seasonal imagery the voice calls for; a reader of Confucius would expect the grading to rest on the conduct of the officer, or on something from daily human life. Seen in a published essay: "the line moves more easily than any machine could move it" (found 2026-10-21).
+- The spent/earned banking idiom is a commercial metaphor, and a reader of Confucius would expect the degree to be graded through conduct and character rather than through the language of exchange. Seen in a published essay: "trust is spent faster than it is earned" (found 2026-10-21).
 ## Log
 
 - 11/09/2026 - added at Charlie's request alongside Sun Tzu. Two real samples from
