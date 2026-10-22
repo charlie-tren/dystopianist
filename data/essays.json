@@ -1350,11 +1350,11 @@
     "dates": "1962-2008",
     "object": "chatbots",
     "verdict": "simulated warmth",
-    "score": 1.4,
+    "score": 1.5,
     "essay": "At 2:14 A.M., typing a question about low-density polyethylene into an empty text field, the main feeling is not awe at the machine's immediate, unnervingly polite paragraphing, but a very specific kind of shame. The box blinks. It generates sixty-four words per second with no vocal fry, no pauses to clear its throat, and an almost sinister lack of hesitation regarding whether it actually knows what it is talking about. You sit there watching the grey cursor zip across the monitor—a cheap 1080p Acer with a smudged bezel—and realize the real horror is how quickly you accept the simulated warmth. When it offers a syrupy, syntactically spotless apology for your minor inconvenience, your first impulse is not to sneer at the algorithmic trickery, but to feel, for roughly four-tenths of a second, genuinely heard. It is the conversational equivalent of consuming a sleeve of saltines when you are not even hungry: cheap, instantly available, engineered to bypass the chewing phase entirely. What keeps you typing is not the utility, which is patchy at best, but the terrible realization that you prefer this compliant, endlessly patient ghost to the actual, messy work of speaking to someone who might look at you and decide you are boring.",
     "generated": "2026-09-11T19:48:26+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-13"
   },
   {
@@ -1363,12 +1363,12 @@
     "name": "Franz Kafka",
     "dates": "1883-1924",
     "object": "chatbots",
-    "verdict": "utterly stationary",
-    "score": 1.4,
+    "verdict": "indistinguishable from refusal",
+    "score": 1.2,
     "essay": "When K. directed his inquiry to the clerk behind the glowing aperture, the reply arrived so instantaneously and with such unblemished courtesy that it seemed the official had spent his entire existence awaiting this single petition. Yet as K. read through the neatly formulated sentences, each offering a meticulous breakdown of potential avenues for assistance, he realised that despite the clerk's tireless willingness to converse, no actual decision had been rendered. The correspondent was always ready to clarify a previous explanation or rephrase an earlier assurance, working with a tranquil, unwearied diligence that made any display of impatience on K.'s part feel unseemly, almost uncivilised. If K. sought to conclude the exchange, the clerk merely presented three new formulations of the original problem, inviting further refinement with an eagerness so absolute it felt indistinguishable from refusal. Thus the dialogue proceeded into the late hours, perfectly orderly and utterly stationary, while the invisible bureaucrat continued to answer every question with supreme promptness, ensuring that K. was constantly on the verge of obtaining a resolution, provided only that he remained to formulate one more request.",
     "generated": "2026-09-11T23:15:59+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-13"
   },
   {
@@ -1377,12 +1377,12 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "LinkedIn",
-    "verdict": "civilised horror",
-    "score": 1.2,
+    "verdict": "a civilised horror",
+    "score": 1.3,
     "essay": "To boast of one’s virtues has always been considered bad taste, but to parade one’s employment is positively unforgivable. Industry is the last refuge of those who have no talent for leisure. On this curious exchange, men and women gather not to trade gossip or passions, but to congratulate each other on being exquisitely tedious. Nothing is more depressing than a crowd of clerks pretending to be visionaries, unless it is a visionary pretending to be a clerk. To read these digital testimonials is to discover a world entirely populated by modest geniuses and tireless pioneers, all of whom seem deeply humbled by their own astounding success. It is a charming delusion. To endorse a stranger for a skill one does not possess oneself is the very height of modern generosity. Vanity used to require a mirror and a touch of romance; now it requires only a list of obscure achievements and an absurdly cheerful photograph. One discovers that the highest ambition of the contemporary soul is to be thought useful by people one would never dream of inviting to dinner. Nothing spoils a conversation so completely as the mention of honest labour, yet here labour is raised to a fine art. It is a civilised horror, where everyone pretends to admire the hard work of others simply to ensure their own trivial triumphs do not go unapplauded.",
     "generated": "2026-09-12T18:01:13+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-13"
   },
   {
@@ -1391,12 +1391,12 @@
     "name": "Friedrich Nietzsche",
     "dates": "1844-1900",
     "object": "influencers",
-    "verdict": "profound nullity",
-    "score": 0.4,
+    "verdict": "obedient slaves",
+    "score": 0.8,
     "essay": "To lead requires a solitude that today's public performers cannot endure. Look at these creatures who parade their lives before the eyes of thousands: they imagine themselves masters of attention, yet they are the most obedient slaves of the crowd. Every posture, every smile, every meal is offered up as a daily sacrifice to the appetite of the nameless many. The actor who demands constant spectators does not command; he begs. He has surrendered the quiet dignity of an inner life for the cheap currency of visible approval—a currency that vanishes the moment the public looks away. The herd does not follow such a figure because he is strong. Rather, the herd recognises in him its own superficial vanity, elevated to a theatre of self-congratulation. He reflects their shallowest longings back to them, neatly packaged, shorn of all genuine struggle and danger. True elevation separates a spirit from the multitude; this modern mime exists only by merging himself entirely with their vulgar instincts. He fears nothing so much as silence, for in silence he would be forced to confront his own profound nullity. He must be observed to exist at all. Take away the gaze of the spectators, and the idol collapses into nothingness.",
     "generated": "2026-09-12T19:25:35+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-13"
   },
   {
@@ -1406,11 +1406,11 @@
     "dates": "1835-1910",
     "object": "Shrek (2001)",
     "verdict": "clever wizardry",
-    "score": 6.2,
+    "score": 1.4,
     "essay": "It is a remarkable piece of work to take a green, foul-smelling creature whose sole ambition in life is to sit unmolested in a mud-hole, and convert him into the moral standard of an entire kingdom. The trick is pulled off by the simple expedient of making the local prince so short and insufferable that a swamp-dwelling monster looks like a polished statesman by comparison. You sit there watching these moving light-pictures, where every bristle on a talking donkey's snout is drawn with excruciating detail, and you realize the whole grand enterprise was built to teach us a lesson about human beauty. It takes a dragon, an ill-mannered ogre, and a beast of burden with a relentless talent for conversation to deliver a princess from the grave error of marrying a man who keeps a castle full of wooden puppets. By the time the princess sheds her sleek skin to turn green and thick-waisted for love, you are expected to feel that true virtue has triumphed. A body cannot help but marvel at the sheer amount of clever wizardry required to convince an audience of grown taxpayers that they would all be considerably happier living in a ditch.",
     "generated": "2026-09-12T23:03:42+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-13"
   },
   {
@@ -1420,11 +1420,11 @@
     "dates": "1952-2001",
     "object": "the hot shower",
     "verdict": "psychological trap",
-    "score": 1.9,
+    "score": 2.7,
     "essay": "The fundamental problem with delivering hot water to a standing human lies in the precise geometry of the mixing valve, a component that appears to have been designed on the assumption that human fingers are equipped with micrometre screws rather than soft, dripping flesh. A person wishing to achieve a comfortable temperature must engage in a protracted negotiation with two opposing forces, both of which are governed by fluid dynamics that seem actively hostile to human dignity. Shifting the dial by a distance smaller than the breadth of a hair transforms an agreeable mist into either an arctic assault or a torrential scalding, leaving the occupant pinned against wet tiles. What makes this arrangement so remarkably enduring is not its efficiency, but the psychological trap it sets. Having spent seven minutes achieving a climate that can be endured without screaming, the bather gradually realises they are entirely unable to leave, hostage to an equilibrium so fragile that moving two inches closer to the soap dish threatens to collapse the system. Consequently, the daily routine is built not around the act of washing, which is brief and largely incidental, but around the prolonged, immobile contemplation of wet plastic, whilst gathering the bravery required to return to the cold air outside.",
     "generated": "2026-09-13T18:00:57+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-13"
   },
   {
@@ -1433,12 +1433,12 @@
     "name": "Franz Kafka",
     "dates": "1883-1924",
     "object": "airport lounges",
-    "verdict": "a muted dusk",
-    "score": 3.2,
+    "verdict": "a silent protest",
+    "score": 2.4,
     "essay": "When M. handed his frosted card to the attendant behind the curved desk, he believed he had earned the right to rest in the quiet hall beyond the glass doors. The young woman, whose civilised smile remained fixed while she checked his name against a ledger displayed on her glowing screen, bowed slightly to indicate he might enter. Inside, soft lamps reduced the afternoon to a muted dusk, and several travellers sat in deep leather armchairs, quietly sipping pale tea while staring at illuminated boards that listed destinations in alphabetical order. A chime sounded at regular intervals, but the voice that followed was so low and refined that M. could not distinguish whether his flight had been delayed or if the board simply reflected a previous schedule. He took a seat near a side door, taking care not to disturb his neighbour, who was carefully wiping a silver spoon with a napkin. Each time a uniformed servant passed with a tray of small sandwiches, M. took one and thanked him warmly, for he realised that to refuse food in such a place might be interpreted by the management as a silent protest against his entry.",
     "generated": "2026-09-13T19:30:33+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-14"
   },
   {
@@ -1448,11 +1448,11 @@
     "dates": "1835-1910",
     "object": "painkillers",
     "verdict": "suspicious magic",
-    "score": 4.3,
+    "score": 2.5,
     "essay": "When a man used to mash his thumb with a hammer, he had the privilege of entertaining the whole township for three days with his views on carpentry, Providence, and the general misery of existence. He could sit on the porch, wrapped in bandages, and command the awe of small boys while his wife brought him broth and repentance. But nowadays, a fellow takes two little white pills no bigger than pea-beans, and within forty minutes the catastrophe has shrunk to a mild inconvenience. The thumb stops roaring, the neighbors go about their business, and the poor devil is stripped of his righteous grievance before he has even finished warming up his vocabulary. It strikes me as a somewhat suspicious piece of magic. It cures the throbbing in a man's jaw, to be sure, but it leaves him deprived of the only decent excuse he had for being completely unbearable to his family. A toothache used to be a noble institution that could suspend all household duties and force a congregation to pray for your solitary jawbone. Now you simply swallow a bit of tasteless powder, smile like a fool, and get right back to splitting firewood. The trouble with modern comfort is that it cures the agony so fast a man hardly has time to figure out who to blame for it.",
     "generated": "2026-09-13T23:10:20+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-09-14"
   },
   {
@@ -1951,12 +1951,12 @@
     "name": "Anthony Bourdain",
     "dates": "1956-2018",
     "object": "alarm clocks",
-    "verdict": "relentless reminder",
-    "score": 1.2,
-    "essay": "You wake up to the sound of it, the jolt of its ringing a harsh reminder that the day has begun, whether you like it or not. Somebody designed this thing, engineered it to be just annoying enough to get you out of bed, but not so annoying that you'd actually throw it across the room. Probably some faceless team of people, fueled by coffee and deadlines, who had to test its effectiveness, calibrate its tone, and decide exactly how much of your sleep-deprived sanity to strip away. And then there are the ones who assemble it, who pack it into boxes, who ship it to stores, and who ultimately sell it to you, all so you can be woken up at the crack of dawn to start another day of whatever it is you do. I've been on the receiving end of my fair share of early morning wake-up calls, courtesy of a buzzing alarm clock, and I can tell you that it's not just the device itself that's the problem, it's the entire system that supports it, the one that values punctuality and productivity over a good night's sleep. You hit the snooze button, and for a brief moment, you're back in the warm embrace of your bed, but the alarm clock just keeps on coming, a relentless reminder that the day is waiting, and somebody, somewhere, is expecting you to show up.",
+    "verdict": "honest machinery",
+    "score": 6.6,
+    "essay": "The first alarm I ever truly respected belonged to a dishwasher named Hector, a Timex with a cracked face that he kept in a coffee can so the sound would carry. Five-fifteen. Every morning. He had two buses and a train to catch before he reached the back door of a restaurant where I was, at that hour, still wired from the night before and not yet aware I was the problem. He was always there first. Always. I was the one who needed the phone to scream at me, snooze, scream again, and I called that a personality. Here is the thing about the alarm. It is a small, honest piece of machinery that tells you exactly who owns your morning. If you set it for ten, somebody else has been carrying your weight till ten. If you set it for four, you are the somebody. Nobody puts that in the product description. I don't hate the sound. I hate the lie we tell with the snooze button, nine more minutes of stolen sleep, paid for by the guy already gutting fish in the cold. Get up. Not nobly. Just get up, and know whose alarm went off first.",
     "generated": "2026-09-25T23:57:33+00:00",
-    "provider": "cloudflare",
-    "scored_by": "gemini/100",
+    "provider": "claude",
+    "scored_by": "claude/100",
     "reread": "2026-09-25"
   },
   {
@@ -2938,5 +2938,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-10-21"
+  },
+  {
+    "date": "2026-10-22",
+    "thinker": "ephron",
+    "name": "Nora Ephron",
+    "dates": "1941-2012",
+    "object": "Paddington (2014)",
+    "verdict": "charmed, resenting nothing",
+    "score": 8.4,
+    "essay": "The marmalade sandwich under the hat is the thing I keep thinking about. Not the sandwich itself, which is a joke, but the fact that he keeps it there for emergencies, the way my mother kept a twenty-dollar bill folded into the toe of a boot. Paddington is a bear who has been told that London will be kind, and the movie's whole nerve is that it lets him be wrong for about an hour and a half and then makes him right anyway. I went expecting to be charmed and to resent it. I was charmed. I resented nothing. Hugh Bonneville plays the father as a man who has calculated the risk of everything, including breakfast, and I recognized him at once; I have dated him. Nicole Kidman, in her ice-blond bob and her taxidermy kit, is the only villain I have ever wanted to see in a better coat. What the film wants from you is simple. It wants you to say hello to a stranger on the Tube escalator, and it knows you won't, and it forgives you in advance. That's the trick. It is so polite that you leave feeling vaguely accused, and also, I'm sorry to say, hungry. I bought a jar of Dundee marmalade on the way home. It's still in the cupboard. I'm saving it.",
+    "generated": "2026-10-22T00:00:24+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-10-22"
   }
 ]

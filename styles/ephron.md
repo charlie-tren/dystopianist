@@ -39,6 +39,8 @@ Source: pastiche written for this repo (still in copyright)
 - Fails to name the specific brand; Ephron's voice relies on precise brand names rather than generic product descriptions. Seen in a published essay: "the tinted lip oil" (found 2026-09-17).
 - While Barneys is a specific brand, the phrase 'a stained coat' is not specific enough, a reader of Nora Ephron would have expected a more detailed description, such as the type of coat or the specific Barneys product. Seen in a published essay: "a stained coat from Barneys" (found 2026-10-03).
 - A reader of Nora Ephron would have expected a more conversational and humorous tone, perhaps with a specific example or anecdote, instead of a generic phrase. Seen in a published essay: "a paid stranger" (found 2026-10-03).
+- "Dundee marmalade" names a style, not a product; Ephron would name the actual jar, such as a specific maker's marmalade, as she does with real brands. Seen in a published essay: "I bought a jar of Dundee marmalade on the way home." (found 2026-10-22).
+- "the Tube escalator" is generic; Ephron would pin it to a named station or street, the way she names real places and brands. Seen in a published essay: "It wants you to say hello to a stranger on the Tube escalator" (found 2026-10-22).
 ## Log
 
 - 25/08/2026 - added. Both samples are mine: she died in 2012 and is in copyright until 2083, so there is no free source. Expect a looser likeness than the writers with real prose.
