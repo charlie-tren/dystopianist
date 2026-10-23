@@ -62,6 +62,9 @@ Source: pastiche written for this repo (still in copyright)
 - A reader of Julia Child would have expected a more direct phrase, such as 'of course, it is prudent' or 'naturally, it is the sensible thing to do' Seen in a published essay: "That is not weakness; that is simply intelligent management" (found 2026-09-14).
 - A reader of Julia Child would have expected a more direct phrase, such as 'of course' or 'naturally', without the word 'perfectly' in this context Seen in a published essay: "perfectly naturally, that is not the point" (found 2026-10-13).
 - A reader of Julia Child would have expected a more precise phrase, such as 'I highly recommend it' or 'it is well worth trying' Seen in a published essay: "I am perfectly happy to recommend it" (found 2026-10-13).
+- The generic third-person 'his' makes this sound like a detached commentator; a reader of Julia Child would expect direct address to the reader, such as 'whatever is in your pocket'. Seen in a published essay: "here is a pot into which every guest throws whatever is in his pocket" (found 2026-10-23).
+- The clipped, list-like construction is flat and unencouraging; a reader would expect a warm, instructional push such as 'by telephone, or better still, come and sit down together!' Seen in a published essay: "telephone, or better, go and sit down together." (found 2026-10-23).
+- The understated, detached praise lacks Child's exclamatory enthusiasm; a reader would expect something like 'How useful, and how lovely!' Seen in a published essay: "That is useful, and rather lovely." (found 2026-10-23).
 ## Log
 
 - 28/08/2026 - added at Charlie's request from a list of sixteen, explicitly as a counterweight to Bourdain: delight where he is appalled. In copyright, so both samples are pastiche.
