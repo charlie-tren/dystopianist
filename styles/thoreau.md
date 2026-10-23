@@ -55,6 +55,9 @@ Source: Walden (1854), Project Gutenberg #205
 - A more specific and nuanced economic fact or cost was expected, rather than a vague statement about hours of life. Seen in a published essay: "a price that is not always reckoned in terms of dollars and cents, but in the very hours of our lives that we surrender to the pursuit of comfort" (found 2026-09-29).
 - A more precise calculation or comparison of the cost of comfort versus its value was expected, rather than a vague reference to worth. Seen in a published essay: "what is the worth of the hours, the days, the years that we devote to the pursuit of ephemeral comfort" (found 2026-09-29).
 - A more detailed and concrete description of the costs or values associated with painkillers was expected, rather than a brief, generic label like 'steep price'. Seen in a published essay: "It seems to me that we pay a steep price for these fleeting moments of relief" (found 2026-09-29).
+- The trade is named but never priced. A Thoreau reader would expect the exchange weighed in concrete terms, such as the days of digging or walking the quest takes against the hours of quiet it costs. Seen in a published essay: "The bargain is this: he is to fetch a princess in exchange for his own quiet." (found 2026-10-23).
+- The lord is a brief, generic label. Thoreau would give the castle's upkeep or the labour that built it, not just a height and a possession. Seen in a published essay: "a lord who is, I take it, five feet tall and owns a castle" (found 2026-10-23).
+- The clerk comparison gestures at cost but gives no figure. Thoreau would count the words, or the price per word, so the waste can be reckoned. Seen in a published essay: "The donkey talks as fast as a clerk paid by the word." (found 2026-10-23).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Walden (1854), Project Gutenberg #205 via tools/gutenberg_shots.py.
