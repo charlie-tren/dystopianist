@@ -61,6 +61,7 @@ Source: Pride and Prejudice (1813), Project Gutenberg #1342
 - A more subtle phrase was expected, such as 'and yet their daily lives are not always more pleasing' to maintain Austen's characteristic reserve and understatement Seen in a published essay: "often without rendering their daily lives notably more agreeable" (found 2026-10-12).
 - A less explicit phrase was expected, such as 'tends to have an unfavorable effect on one's constitution' to maintain Austen's characteristic reserve and understatement Seen in a published essay: "which, though it may be pleasing to the senses, can ultimately prove detrimental to the overall well-being of the individual" (found 2026-10-17).
 - A less explicit contrast between appearance and reality was expected, such as 'fosters a fastidiousness that may be mistaken for refinement' to allow the reader to infer the irony Seen in a published essay: "by fostering a species of indolence that may be mistaken for refinement" (found 2026-10-17).
+- The sting is stated outright in a main clause, with 'Yet I observe' flagging the point. Austen would have tucked the absurdity into a subordinate clause and let the reader find it, rather than announcing the ironic conclusion. Seen in a published essay: "Yet I observe that those who are most obliged to it are generally the least grateful" (found 2026-10-24).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Pride and Prejudice (1813), Project Gutenberg #1342 via tools/gutenberg_shots.py.

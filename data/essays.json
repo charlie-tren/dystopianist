@@ -2287,11 +2287,11 @@
     "name": "Douglas Adams",
     "dates": "1952-2001",
     "object": "group chats",
-    "verdict": "maximum inefficiency",
-    "score": 2.7,
-    "essay": "The proliferation of group chats has led to a situation in which a large number of people can simultaneously experience the sensation of being mildly annoyed by a single individual, which is a phenomenon that has been observed to recur with remarkable frequency, often in contexts where the participants are ostensibly engaged in a collaborative endeavour, but are in fact largely preoccupied with navigating the intricate social hierarchies that emerge when a dozen or so people are thrown together in a virtual space, a process that can be fascinating to observe, rather like watching a complex system evolve towards a state of maximum inefficiency, at which point it becomes apparent that the primary function of the group chat is not, in fact, to facilitate communication or coordinate activity, but rather to provide a platform for the expression of reflexive opinions and the exchange of marginally relevant information, all of which serves to create a rich tapestry of interpersonal dynamics, woven from threads of subtle nuance and outright confusion.",
+    "verdict": "a room accumulating",
+    "score": 5.8,
+    "essay": "The group chat was originally established to settle one question, which was whether anyone was free on the Saturday. This was resolved in four minutes. The chat has now been running for six years, and nobody has been able to find the point at which it would have been polite to leave. Leaving is technically possible. The button exists, and is quite clearly labelled, in the manner of a fire exit in a theatre where the play is still going on. Pressing it produces a small grey announcement, visible to everyone, that a person has gone, and the remaining members read this the way a household reads a note left on the kitchen table. Consequently almost nobody leaves. They mute it instead, which is the practice of remaining in a room while arranging never to hear it, and which has the great advantage that the room goes on accumulating things on your behalf. The result is that every member returns to the conversation at a different hour and answers whatever was said at the hour they left it. A question about Saturday is answered on Wednesday by someone who is, in a sense, perfectly correct, and who is received with the mild embarrassment normally reserved for people who applaud between movements. Meanwhile the photograph of a dog that appeared at 2 a.m. has been liked by eleven people, none of whom knows whose dog it is, and all of whom are glad to have been told.",
     "generated": "2026-10-05T18:02:21+00:00",
-    "provider": "cloudflare",
+    "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-10-05"
   },
@@ -2301,11 +2301,11 @@
     "name": "Walt Whitman",
     "dates": "1819-1892",
     "object": "LinkedIn",
-    "verdict": "vast democratic tide",
-    "score": 8.0,
-    "essay": "The profiles, the resumes, the messages, the connections - all flowing together in a vast, democratic tide of professional expression. Headshots, summaries, experience listings, skills endorsements - each one a small but vital part of the grand mosaic of modern worklife. I see the entrepreneurs, the freelancers, the remote workers, the consultants - all gathering, networking, collaborating, and forging new paths in the digital realm. Company pages, job postings, industry news, and discussion groups - the tools and resources of a new era of career development and advancement. The recruiters, the hiring managers, the coaches, and the mentors - all playing their parts in the grand symphony of professional growth and opportunity. The online courses, the webinars, the workshops, and the conferences - all contributing to a vibrant landscape of continuous learning and skill-building.",
+    "verdict": "hands are gone",
+    "score": 4.2,
+    "essay": "Sat up late one night with the thing open before me--a stranger's face, smiling, necktie, a lake behind him that he had never, I'd bet, swum in. Under it: Thrilled to announce. Then the congratulations, forty, fifty, a hundred, each with its thumb and its small word, Well deserved, Congrats, Onward. Scrolled on. Surveyors, dental hygienists, a baker from Leeds, a ferry captain, welders, a woman who sells grain elevators in Nebraska, nurses off the night shift, clerks, teachers, a man who drives a truck and says so plainly. All of them standing in the doorway of the same long hall, hat in hand, saying: here is what I can do. I do not sneer at it. The hall is crowded, and the wish behind it is old and decent--to be hired, to be wanted, to have the work known. I have stood at ferry-landings and watched men size each other up by the hands and the boots; this is the same sizing, only the hands are gone, and a paragraph stands in for them. Still I miss the hands. Give me the callus, the sawdust on the sleeve, the voice. Yet the faces keep coming, thousands of them, and I find I cannot look away.",
     "generated": "2026-10-05T23:11:30+00:00",
-    "provider": "cloudflare",
+    "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-10-05"
   },
@@ -2427,12 +2427,12 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "audiobooks",
-    "verdict": "gentle tyrant",
-    "score": 7.3,
+    "verdict": "a gentle tyrant",
+    "score": 3.4,
     "essay": "The labour of listening, once a burdensome chore, has been transformed into an act of effortless indulgence, as the spoken word is conveyed to our eager ears with all the intimacy of a whispered confidence. And yet, it is in this very intimacy that we find a curious sort of isolation, a sense of being enveloped in a private world of sound that is at once both captivating and suffocating. We are free to roam, unencumbered by the physical presence of a book, and yet, we are simultaneously bound to the whims of the narrator, forced to submit to their pace, their tone, their interpretation. It is a peculiar sort of surrender, one that is both liberating and enslaving, and it is in this paradox that we find the true fascination of the audiobook. For in its ability to conjure entire worlds from the ether, to transport us to realms both familiar and unknown, the audiobook proves itself to be a masterpiece of subtle manipulation, a gentle tyrant that rules over our imagination with an iron fist, swathed in velvet.",
     "generated": "2026-10-09T18:02:23+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100",
+    "scored_by": "claude/100",
     "reread": "2026-10-09"
   },
   {
@@ -2446,7 +2446,7 @@
     "essay": "I had not walked three paces along the thoroughfare when my pocket began to buzz with the ferocious insistence of a hornet trapped in a pillbox, signalling that fifteen distant acquaintances had simultaneously determined to express an opinion upon a sandwich. There is no escape from this unseen parlour, where every member of the company talks at once, none listens, and all demand that I acknowledge their breathless drivel with an immediate nod of the thumb. It will be argued, no doubt: firstly, that this ceaseless babble unites us; secondly, that it is a marvel of modern convenience; thirdly, that a man ought to be grateful to know, at four o'clock in the afternoon, that a gentleman three miles off has misplaced his umbrella. I declare it to be nothing short of a tyranny. It is an unholy cabal of chatterboxes, wherein a quiet soul cannot contemplate his own boots without three dozen invisible spectres chiming in to discuss the weather, nominate a meeting place, and exchange miniature portraits of their dinner. To be subjected to such relentless, monstrous badgering by one’s own civilised acquaintances, while standing entirely alone in the fog, is a refinement of domestic cruelty that would drive the most patient hermit into the wilderness.",
     "generated": "2026-10-09T21:44:11+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-10-09"
   },
   {
@@ -2455,12 +2455,12 @@
     "name": "Nora Ephron",
     "dates": "1941-2012",
     "object": "the step counter",
-    "verdict": "ridiculous obsession",
-    "score": 6.7,
+    "verdict": "just ridiculous",
+    "score": 3.1,
     "essay": "I bought a Fitbit at the Apple store on Fifth Avenue, and now I'm one of those people who walks around the block to get to ten thousand steps. My friend Karen has one too, and we have a system where we compete with each other, which is just a nice way of saying we're obsessed. I've started taking the stairs at my apartment building, which is a nightmare, because the stairs are narrow and smell like last night's Chinese food. But I do it anyway, because I have to get to ten thousand steps, and I'm not going to let Karen beat me. Sometimes I'll be walking down the street, and I'll realize I'm almost at my goal, so I'll just start walking in circles on the corner of 23rd and Broadway, which is probably why people think I'm crazy. And then I'll get home, and I'll sync my Fitbit with my iPhone, and I'll feel this sense of accomplishment, which is just ridiculous, because what have I really accomplished, except walking around in circles like a lunatic.",
     "generated": "2026-10-10T00:51:27+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100",
+    "scored_by": "claude/100",
     "reread": "2026-10-10"
   },
   {
@@ -2469,12 +2469,12 @@
     "name": "Marcel Proust",
     "dates": "1871-1922",
     "object": "group chats",
-    "verdict": "phantom presence",
-    "score": 2.3,
+    "verdict": "phantom society",
+    "score": 2.4,
     "essay": "When the glowing rectangle on the writing-desk illuminates with that frantic, intermittent cadence of interrupted messages—resembling nothing so much as those intricate mechanical clockwork theatres in which miniature figures emerge from separate gilded doors to strike their chimes before instantly vanishing—I am struck less by the triviality of the remarks than by the subtle optical distortion they inflict upon our solitude. Each brief notification, arriving out of sequence like a remark overheard across a dimly lit conservatory from a guest who has already stepped into the garden, compels us to reconstruct an entire evening of intimacy from a series of disjointed fragments. We find ourselves suspended in the peculiar atmosphere of a salon whose guests are forever entering and leaving through revolving doors, where the sudden, collective laughter of distant friends erupts without context, so that our own private reflections, continually interrupted by these silent tremors, are gradually displaced by the lingering, phantom presence of a society that demands our constant attendance without ever granting us the peace of true communion, leaving us to decipher the shifting alliances of a room we cannot see.",
     "generated": "2026-10-10T18:01:46+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-10-10"
   },
   {
@@ -2483,12 +2483,12 @@
     "name": "Emily Dickinson",
     "dates": "1830-1886",
     "object": "airport security",
-    "verdict": "unexpected humility",
-    "score": 2.9,
+    "verdict": "innocence curiously heavy",
+    "score": 1.6,
     "essay": "To surrender the shoe is an unexpected humility, as though the porch required our ankles before the parlor would allow our name. We line our small possessions in a grey dish—the key that knows no locks here, the coin that cannot buy a bird—and offer them to an eye that does not wink. It is a strange parish where every stranger is suspected of carrying thunder in his sleeve. One stands with uplifted hands, motionless as a wooden post, while an invisible frost sweeps over the ribs to see if the heart is hidden or merely quiet. Innocence feels curiously heavy when it must be proved. The traveler yields his coat, his pocket, his quietest folded linen—not to a neighbor's curiosity, which has at least a human blush, but to an absolute slate that reads without affection. How small the soul becomes when packed into a plastic trough! We pass through the narrow portal, lighter by our keys yet heavier by our doubt, and retrieve our boots like borrowed goods. Security buys us a sky, but takes the privacy of our dust as deposit.",
     "generated": "2026-10-10T20:35:25+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-10-10"
   },
   {
@@ -2497,12 +2497,12 @@
     "name": "George Orwell",
     "dates": "1903-1950",
     "object": "group chats",
-    "verdict": "distant observation",
-    "score": 6.2,
+    "verdict": "a noisy room",
+    "score": 2.4,
     "essay": "People use group chats to talk to each other, and it is a curious thing that they can be so much like a crowd in a theatre, all shouting at once and none of them listening. You can scroll back through the messages and see what was said, but it is hard to make sense of it all, like trying to follow a conversation in a noisy room. It seems to me that group chats are a way for people to feel like they are part of a group, without actually having to be with the other people. They can just send a message and then forget about it, without having to think about what the others might be thinking. It is a strange kind of conversation, where nobody is really talking to anybody else, but just sending out words into the air.",
     "generated": "2026-10-11T00:14:45+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100",
+    "scored_by": "claude/100",
     "reread": "2026-10-11"
   },
   {
@@ -2511,12 +2511,12 @@
     "name": "Confucius",
     "dates": "551-479 BC",
     "object": "alarm clocks",
-    "verdict": "a sharp command",
-    "score": 2.4,
+    "verdict": "mind still asleep",
+    "score": 3.2,
     "essay": "The Master said, 'To be summoned to duty before one's own resolve has awakened is like putting on a winter garment while the frost is still forming upon the ground. In morning duties, some attend because they are startled by an abrupt ringing, some because they wish to preserve their standing among neighbours, and some because their inward rhythm demands that they realise the daylight. Those who move from inward rhythm are constant; those who move from concern for standing are diligent when observed; those who move only when startled are ever lagging behind their own intentions.' The Master said, 'I have spent morning after morning waiting for the light to settle before setting out to labour, yet I cannot say that I have mastered the governance of my own slumber. If a man relies upon a mechanical device to rouse his limbs, he may indeed reach the courtyard in time for civilised service, yet his mind remains asleep in the chamber.' The Master said, 'The wise align their habits with the seasons; the virtuous move without requiring a sharp command; the bold accept the day's labour before the dawn arrives.'",
     "generated": "2026-10-11T18:01:37+00:00",
     "provider": "gemini",
-    "scored_by": "gemini/100",
+    "scored_by": "claude/100",
     "reread": "2026-10-11"
   },
   {
@@ -2525,12 +2525,12 @@
     "name": "David Foster Wallace",
     "dates": "1962-2008",
     "object": "anaesthesia",
-    "verdict": "faintly medical glow",
-    "score": 7.3,
+    "verdict": "sweet chemical oblivion",
+    "score": 3.7,
     "essay": "The induction room's fluorescent lights hum at a pitch that's almost, but not quite, audible, casting a faintly medical glow over the proceedings, which is to say the proceedings of rendering you insensible, a process that's both deeply personal and utterly impersonal, rather like the sensation of being disconnected from your own body, which I've heard described as a kind of floating, though I've never actually experienced it myself, or at least not that I can recall, which is of course the point, the idea being that you won't recall anything, or at least not anything that happens after the anaesthesiologist says the words that always sound vaguely reassuring, even though you know they're not really meant to be, and the mask is placed over your nose and mouth, and you breathe in the sweet, chemical smell of oblivion, and then, well, then nothing, or at least not anything that you'll ever be able to tell me about, which is what makes it all so fascinating, I think, the way it erases not just your memories, but your very sense of self, leaving you a blank slate, a tabula rasa, when you wake up, which is to say, when you're restored to yourself, though whether that self is really the same one that went under, I'm not so sure, and that's what I find myself wondering, as I sit here, waiting for someone to come out of recovery, and tell me that everything is okay.",
     "generated": "2026-10-11T20:59:16+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100",
+    "scored_by": "claude/100",
     "reread": "2026-10-11"
   },
   {
@@ -3036,5 +3036,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-10-23"
+  },
+  {
+    "date": "2026-10-24",
+    "thinker": "austen",
+    "name": "Jane Austen",
+    "dates": "1775-1817",
+    "object": "alarm clocks",
+    "verdict": "respectable, uncomplimentary monitor",
+    "score": 5.6,
+    "essay": "There is a particular species of household in which the hour of rising has always been a matter of the most delicate negotiation, and it is to such families that the little bell upon the washstand must be thought a peculiar blessing, or a peculiar affront, according to the temper of the person it addresses. Formerly, a young woman who wished to be early had only her conscience to rely upon, a servant who might or might not be disposed to knock, and the kindness of the sun; and as the first was seldom consulted before ten, the second was generally occupied elsewhere, and the third had no authority in November, her good intentions were commonly overtaken by her breakfast. The new contrivance admits of no such indulgence. It speaks at the appointed minute, without regard to the lateness of the previous evening or the merit of the dream it interrupts, and it speaks again, with rather less patience, a few minutes after. I confess there is something to be respected in a monitor so entirely free of compliment. Yet I observe that those who are most obliged to it are generally the least grateful, and that the hand which silences it in the morning is the same which, in the evening, has taken such pains to set it.",
+    "generated": "2026-10-24T18:00:34+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-10-24"
   }
 ]
