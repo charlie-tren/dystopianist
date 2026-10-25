@@ -2385,11 +2385,11 @@
     "name": "Leo Tolstoy",
     "dates": "1828-1910",
     "object": "audiobooks",
-    "verdict": "mere distraction",
-    "score": 0.7,
-    "essay": "The existence of audiobooks serves only to further distract people from the realities of their own lives, to keep them in a state of servitude to their own desires, and to prevent them from engaging in meaningful thought and labour. The fact that people can now listen to books while engaging in other activities, rather than having to dedicate their full attention to reading, is a clear indication of the superficiality of modern life, where people are more concerned with being entertained than with genuinely understanding and engaging with the world around them. The labour of those who produce these audiobooks, the authors and narrators, is exploited for the benefit of the wealthy and idle, who are able to indulge in this luxury without having to exert any real effort or engage in any meaningful way. And so, the production and consumption of audiobooks continues, a never-ending cycle of distraction and indulgence, serving only to further alienate people from the world and from each other, and to keep them in a state of ignorance and subjugation.",
+    "verdict": "a voice, not a book",
+    "score": 0.6,
+    "essay": "A man who is read to while he scrubs a floor, drives to his office, or walks from one place to another has not been given a book; he has been given a voice to fill the hours in which he might have been obliged to think. That is what is wrong with it, and nothing in its convenience alters this. Reading is labour. The eye must move, the mind must hold the sentence that has gone and wait for the sentence that is coming, and the reader must stop, put the page down, and ask whether what he has read is true and what he must do about it. The recorded voice does not stop. It goes on at its own pace, it asks nothing, and by the time a question has formed it is already three paragraphs further. The listener believes he has read forty books in a year; he has had forty books pass through his ears, as water passes through a pipe, and he is not changed by them. Consider also who pays. Someone must be hired to read for ten or twelve hours, and the work is sold to people who are too occupied with their amusements and their careers to sit still with a page. Those who toil at the machine and the field have no such hours to fill with a voice; they have no hours at all. The invention serves the idle, and the idle have no need of it. What they need is to read less and to do more, and this the audiobook teaches them not to do.",
     "generated": "2026-10-08T18:03:51+00:00",
-    "provider": "cloudflare",
+    "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-10-08"
   },
@@ -2399,11 +2399,11 @@
     "name": "Joan Didion",
     "dates": "1934-2021",
     "object": "reclining a seat on a plane",
-    "verdict": "choices and consequences",
-    "score": 4.2,
-    "essay": "The woman in front of me leaned back in her seat, the movement barely perceptible, a subtle shift in the configuration of the space between us. I recall the sound of the mechanism, a low hum, a faint click, the kind of noise that signals a change, however small. The air around us remained the same, the temperature steady, the scent of recycled air and faintly sweet disinfectant hanging unchanged. Her head came to rest against the cushion, her eyes fixed on some point beyond the seatback in front of her, and I was left to consider the altered landscape of our small, shared compartment. The seat, once a fixed and unyielding presence, had become something else, a variable in the equation of our proximity, a reminder that even in this confined and carefully controlled environment, there were still choices to be made, and consequences to be borne.",
+    "verdict": "space it moves into",
+    "score": 3.0,
+    "essay": "The button is on the armrest, and the seat goes back four inches, perhaps five. It is a measured thing. Somewhere there is a drawing with the angle on it. Over Nebraska, a little after the cart has passed, the man in 23C presses it, and I feel the table come toward my sternum with a small plastic click. I had been writing. I had a glass of ginger ale on the tray, the can beside it, the ice moving. Now the glass is tilted and I hold it. I do not say anything. Neither does the woman across the aisle, who has watched this happen to other people and who looks at her screen, where a map shows our plane as a white shape over a state with no names in it. He has not looked back. This is what I notice. People say they do not look back because they do not know, but he knows, the way one knows a stair is there in the dark. His hair is gray at the crown and his collar is turned under. He sleeps, or arranges himself to appear to. The seat is mine for the length of the flight, and so, I am told, is the space it moves into. The cabin is sixty-eight degrees. I lower my own seat one inch.",
     "generated": "2026-10-08T22:09:28+00:00",
-    "provider": "cloudflare",
+    "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-10-08"
   },
@@ -2764,11 +2764,11 @@
     "dates": "1903-1950",
     "object": "dating apps",
     "verdict": "unsettling phenomenon",
-    "score": 3.8,
+    "score": 2.8,
     "essay": "The habit of presenting oneself to strangers in the most favourable light has become a commonplace of modern life, and nowhere is this more evident than in the curated profiles that populate dating apps. A person's entire character is reduced to a handful of photographs and a brief description, a kind of verbal thumbnail that is meant to entice and persuade. It is a curious thing, this attempt to capture the essence of oneself in a few well-chosen words and images, and it speaks to a deep-seated desire to be liked and accepted by others. But what does it say about us, that we feel the need to package and present ourselves in this way, like goods on a shelf waiting to be chosen? It is a strange and unsettling phenomenon, and one that reveals a good deal about the anxieties and insecurities of modern life.",
     "generated": "2026-10-17T19:27:42+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100",
+    "scored_by": "claude/100",
     "reread": "2026-10-17"
   },
   {
@@ -2777,12 +2777,12 @@
     "name": "Jane Austen",
     "dates": "1775-1817",
     "object": "podcasts",
-    "verdict": "gentle disdain",
-    "score": 3.8,
+    "verdict": "idle speculation",
+    "score": 2.2,
     "essay": "The indulgence in these auditory entertainments has become a prevalent aspect of many a person's daily routine, affording them a convenient means of acquainting themselves with a wide range of subjects and ideas, often without necessitating a considerable expenditure of mental effort. Whilst this ease of access to information may be seen as a desirable circumstance, it is not uncommon for the listener to find their attention wandering, as the mind, unaccustomed to such a surfeit of idle speculation, begins to rebel against the constant barrage of thoughts and opinions. And yet, the comfort of being able to while away a tedious hour in this manner can be a significant allure, often without rendering their daily lives notably more agreeable, for in the midst of this luxury, a certain languor can take hold, rendering the individual less inclined to exert themselves in the pursuit of more vigorous activities. The gentle voice of the speaker, the soothing melody of the accompanying music, all serve to create an atmosphere of relaxed contemplation, which, though it may be pleasing to the senses, can ultimately prove detrimental to the overall well-being of the individual, by fostering a species of indolence that may be mistaken for refinement.",
     "generated": "2026-10-17T23:07:54+00:00",
     "provider": "cloudflare",
-    "scored_by": "cloudflare/100",
+    "scored_by": "claude/100",
     "reread": "2026-10-17"
   },
   {
@@ -3078,5 +3078,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-10-24"
+  },
+  {
+    "date": "2026-10-25",
+    "thinker": "confucius",
+    "name": "Confucius",
+    "dates": "551-479 BC",
+    "object": "influencers",
+    "verdict": "faces before worth",
+    "score": 2.3,
+    "essay": "The Master said, 'When a man is praised by the whole village, I do not yet know whether he is good. When he is praised by the good in the village and disliked by the bad, then I begin to know.' Of those who are followed by many thousands and are known to none of them, what shall be said? The Master said, 'There are those who are looked at, those who are heard, and those who are trusted. The first is easily had, the second with some labour, the third only after a long time.' Tsze-kung asked whether a man who is much followed must be worthy. The Master said, 'A crowd gathers at a fire for the warmth, and it does not ask who cut the wood.' The Master said, 'The ancient wished to be known, but only after he had made himself worth knowing. Now men show their faces first and hope the worth will come after, as one might set the table before there is any grain.' The Master said, 'I have watched a man speak well of a meal he has not eaten, and I have been that man in small matters. To speak of the way is easy. To walk it where no one is looking is the difficulty.'",
+    "generated": "2026-10-25T18:00:34+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-10-25"
   }
 ]
