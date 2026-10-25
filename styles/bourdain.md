@@ -57,6 +57,8 @@ Source: pastiche written for this repo (still in copyright)
 - Expected sharp, concrete details of real work rather than vague, generic hand-waving. Seen in a published essay: "whatever it is you do" (found 2026-09-25).
 - Expected a specific brand name or gritty physical detail rather than stock, polite phrasing. Seen in a published essay: "courtesy of a buzzing alarm clock" (found 2026-09-25).
 - Expected cynical, raw, or visceral prose rather than a generic sentimental cliché. Seen in a published essay: "in the warm embrace of your bed" (found 2026-09-25).
+- The voice is built on specific brands and real objects, but the detergent and the podcast are unnamed. Bourdain would name the pod brand and the show, or the specific machine he uses at home. Seen in a published essay: "Pods, cold cycle, a podcast in my ears." (found 2026-10-25).
+- This is stock phrasing where the spec wants concrete grit. Bourdain would name what the heat is actually like in a linen plant, such as the steam from the mangle or the dryers, or the smell of hot polyester and bleach. Seen in a published essay: "in heat that would flatten you" (found 2026-10-25).
 ## Log
 
 - 28/08/2026 - added at Charlie's request. In copyright, so both samples are pastiche. Died 2018, which makes him ineligible for every film currently in the config.
