@@ -2567,11 +2567,11 @@
     "name": "Benjamin Franklin",
     "dates": "1706-1790",
     "object": "alarm clocks",
-    "verdict": "a useful tool",
-    "score": 5.6,
-    "essay": "I have given some thought to the device that awakens people at a set hour, and I must consider its utility in my own life; I find that, were I to rely on it, I would need to be diligent in setting it correctly, lest I oversleep and fail to attend to my duties. The cost of acquiring such a device is not insignificant, and I must weigh it against the potential benefits of rising at a consistent hour; I have found, in my own experience, that a regular routine can be a powerful tool for productivity, and that the early morning hours can be a time of great quiet and focus. However, I am not convinced that this device would be a worthwhile investment for everyone, as some people may find that they are able to wake themselves at the desired hour without its aid; for myself, I believe it could be a useful tool, but only if I were to use it consistently and make it a part of my daily routine. By using it in this way, I would hope to save time and increase my productivity, which would be a significant benefit.",
+    "verdict": "a little contemptible",
+    "score": 2.7,
+    "essay": "I have long held that the hour of rising is a bargain struck between a man and his bed, and that the bargain is kept only so far as the penalty for breaking it exceeds the pleasure of the breach. The alarm clock is a contrivance for fixing that penalty at the moment it is wanted, and for charging it to a machine, so that the sleeper may afterwards quarrel with brass and not with himself. In this I think it ingenious, and a little contemptible. It is ingenious because it relieves the memory of nothing, yet relieves the will of a great deal; the man who sets it at night has done all the virtuous part of the work, and needs only to be wakeful enough at dawn to silence it. It is contemptible because the silencing is so easily done. I have known a bell that was wound with great resolution at ten o'clock, and struck dumb with great address at six; and the sleeper, having twice defeated his own design, rose at eight with the air of a man wrongfully disturbed. What it saves is the wages of a watchman, or the patience of a wife. What it costs is the habit of waking by oneself, which a man may acquire in a month and lose in a week. I would sooner buy the habit; it wants no winding, and never wants mending.",
     "generated": "2026-10-12T23:39:14+00:00",
-    "provider": "cloudflare",
+    "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-10-12"
   },
@@ -2581,11 +2581,11 @@
     "name": "Julia Child",
     "dates": "1912-2004",
     "object": "escape rooms",
-    "verdict": "diverting, not impressive",
-    "score": 5.5,
-    "essay": "Now let us consider the escape room, and I must say, I am not entirely convinced of its merits. You are, after all, paying to be locked in a room and given a series of puzzles to solve, and I think it is perfectly reasonable to ask what the point of it all is. Is it merely to test your abilities, or is it to have a pleasant time with friends? If it is the former, then I suppose it can be a useful exercise, but if it is the latter, then I think you would be better off doing something else entirely. You must, of course, be willing to put in the effort to solve the puzzles, and not simply stand around waiting for someone else to do it for you. But if you are willing to put in the work, then I suppose an escape room can be a diverting way to spend an hour or two. Just do not expect me to be impressed by your abilities simply because you managed to escape from a room, perfectly naturally, that is not the point. The point is to have fun, and to learn something, and if an escape room can provide that, then I am perfectly happy to recommend it.",
+    "verdict": "fussy business",
+    "score": 3.8,
+    "essay": "Eight people locked in a cellar with a padlock and a riddle, and not one of them has thought to read the instructions. I watched this happen to my own imagination, and I tell you it is exactly how most kitchens run on a Saturday night. Somebody holds the clue, somebody else is shouting, and the soup is burning while the real answer sits in plain view on the shelf. Now, I do like the notion of a team that must actually work together. Nothing sorts out a crowd faster than a deadline and a closed door. A good kitchen is one, after all, and I have seen perfectly grown men reduced to sense by a collapsing soufflé. But I have no patience for the fussy business of it: the fake dungeon, the hushed voice on a loudspeaker, the hints doled out like a stingy host with the wine. If you want a puzzle, set a hollandaise in front of me. It will tell you the truth in ninety seconds, and nobody has to pretend there is a pharaoh. Still, if you go, do it properly. Choose one person to keep track of what has been found, one to look at the whole room, and everyone else to stop talking and use their eyes. Then you will get out, and you will have earned your dinner!",
     "generated": "2026-10-13T02:34:57+00:00",
-    "provider": "cloudflare",
+    "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-10-13"
   },
@@ -3120,5 +3120,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-10-25"
+  },
+  {
+    "date": "2026-10-26",
+    "thinker": "aurelius",
+    "name": "Marcus Aurelius",
+    "dates": "121-180",
+    "object": "audiobooks",
+    "verdict": "idle, however full",
+    "score": 3.6,
+    "essay": "Thou hast a voice in thy ear all day. Ask who is doing the thinking. Another man has read the book. Another man has chosen the pace, the pauses, the weight on each word. Thou hast only to sit still and be carried. This is pleasant. Call it what it is. The hands are busy with the pot or the plough. The mind is told to follow a stranger. Neither task is done with the whole of thee. Thou art in two places and in neither. A book read with the eye lets thee stop. Thou canst return to a sentence and weigh it. The voice moves on whether thou hast weighed it or not. Much passes through thee that never stays. Do not count the hours listened. Count what thou hast changed in thyself because of them. If the number is nothing, the hours were idle, however full they felt. There is a use for it. The road is long and the work is dull, and a good sentence is better company than thy own complaints. Take it then, as thou takest bread. Bread feeds the body only when it is eaten, and a sentence feeds the mind only when it is questioned. Switch it off sometimes. Sit with the silence, and answer thyself.",
+    "generated": "2026-10-26T21:39:29+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-10-26"
   }
 ]
