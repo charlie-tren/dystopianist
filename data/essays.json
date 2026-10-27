@@ -2595,11 +2595,11 @@
     "name": "Marcel Proust",
     "dates": "1871-1922",
     "object": "Wikipedia",
-    "verdict": "eerie, otherworldly radiance",
-    "score": 3.8,
-    "essay": "As I gaze upon the vast, luminous expanse of Wikipedia, its entries unfolding before me like a procession of diligent, faceless scribes, each one painstakingly inscribing the minutest details of human knowledge upon the digital parchment, I am struck by the way its very architecture seems to echo the labyrinthine corridors of my own mind, where memories and ideas intertwine in a similarly Byzantine fashion, and just as the faint, gilded light of a summer afternoon might filter through the stained glass windows of a medieval chapel, illuminating the dusty, forgotten recesses of a long-abandoned ritual, so too does the soft, ethereal glow of the screen cast an eerie, otherworldly radiance upon the innermost sanctum of my thoughts, where the most seemingly disparate concepts and recollections converge in a dazzling, kaleidoscopic dance, and the boundaries between the self and the external world begin to blur and dissolve, like the delicate, lacelike patterns of a winter's mist that rises from the earth to shroud the landscape in an impenetrable, greyish veil.",
+    "verdict": "a salon of strangers",
+    "score": 6.3,
+    "essay": "I had gone to it that morning merely to learn the year in which a certain duchess had married, and I came away, an hour later, having read the lineage of a Hanoverian cavalry regiment, the etymology of a sauce, and the whole obscure quarrel of two bishops, as though the little blue word on which my eye had rested, and which promised only a date, had been one of those doors in a large house which you open expecting a cupboard and which gives instead upon a corridor, and the corridor upon a gallery, and the gallery, lit by some window you had never suspected from the street, upon a room where strangers, with no thought of you, are going on with a conversation begun before you were born. What strikes me is not the knowledge, which any dull encyclopaedia held in its sleeping rows, but the faint handwriting of the many: each paragraph bears, like a wall that has been repainted by successive tenants, the ghost of an earlier opinion showing through the latest coat, so that I seem to hear, beneath the level voice of the article, a dozen quarrelling servants whom the master of the house has trained to speak in unison before company. I admire it as one admires a salon whose hostess nobody has ever seen; and I distrust it, too, a little, for the same reason, and go on reading, and forget the duchess altogether.",
     "generated": "2026-10-13T18:04:16+00:00",
-    "provider": "cloudflare",
+    "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-10-13"
   },
@@ -2609,11 +2609,11 @@
     "name": "Leo Tolstoy",
     "dates": "1828-1910",
     "object": "anaesthesia",
-    "verdict": "tool of oppression",
-    "score": 0.7,
-    "essay": "Anaesthesia is a device that serves to further disconnect people from the reality of their own suffering, allowing them to avoid the discomfort and pain that is a natural part of life, and in doing so, it perpetuates a cycle of avoidance and ignorance. By numbing the senses, anaesthesia enables individuals to escape the consequences of their own actions, and to ignore the labour and toil of others that has gone into creating the comforts and luxuries they enjoy. It is a means by which the wealthy and privileged can maintain their grip on power, by keeping the poor and vulnerable in a state of subjugation, unable to fully comprehend the extent of their own exploitation. Anaesthesia is a tool of oppression, used to keep people in a state of servitude to their own desires, and to prevent them from realising the true nature of their existence. It is a manifestation of the selfishness and decadence of the educated classes, who are more concerned with their own comfort and pleasure than with the well-being of others. In its effects, anaesthesia is a poison, corrupting and degrading those who use it, and perpetuating a system of inequality and injustice.",
+    "verdict": "the easy thing",
+    "score": 1.4,
+    "essay": "A man lies on a table, his body is opened, and he feels nothing; this is announced as the greatest mercy ever given to mankind, and the educated classes repeat it to one another until no one thinks to ask what it is a mercy for. Pain is the oldest signal that something in a man's life is wrong. It tells him that the hand is in the fire, that the body has been abused, that a wrong has been done to him or by him. To remove the signal is easy; to remove the cause is difficult; and men have always chosen the easy thing. I do not deny that the surgeon, who cuts more freely because his patient is silent, is spared the sight of suffering. But the sight of suffering is precisely what ought not to be spared him. Who gains most by this invention? Not the peasant, who dies of the work that ruined his back, and who will never lie in a clean room beside a physician. It is the rich, who have first claim upon every comfort and who now learn to bear their own bodies without ever learning to bear anything. They live in excess, fall ill from excess, and are cut open and put to sleep so that they may rise and live in excess again. A people that cannot endure pain will not endure conscience, which is also a pain, and which they will soon wish to put to sleep as well.",
     "generated": "2026-10-13T21:53:09+00:00",
-    "provider": "cloudflare",
+    "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-10-13"
   },
@@ -3134,5 +3134,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-10-26"
+  },
+  {
+    "date": "2026-10-27",
+    "thinker": "dickens",
+    "name": "Charles Dickens",
+    "dates": "1812-1870",
+    "object": "Jaws (1975)",
+    "verdict": "shabby cunning",
+    "score": 2.7,
+    "essay": "I came out of that picture-house with my hat in my hand, and I have no recollection of taking it off. Let the reader who has seen the thing say whether he, too, did not walk home along the dry middle of the road, at a respectful distance from every gutter, kerb, and puddle in the parish. What I resent, and shall go on resenting until I am in my grave, is the shabby cunning of it. For the better part of an hour the monster is not shown at all. We are given a yellow barrel bobbing upon the water; we are given a pair of legs kicking in the green dusk, as helpless as a pair of tongs; we are given two notes of music, only two, repeated like a clerk's cough in a counting-house, and by these we are driven like sheep. Is it honest to frighten a man with a cello? Is it fair to tickle the dread out of him with a fiddle-string, and then, when he is quite undone, to present him with a rubber fish the length of a omnibus? And yet I confess it did its work, and I screamed, sir, I screamed. The true villains, to my eye, are the Corporation gentlemen, who keep the bathing open for the sake of the summer trade, and will count the bodies later. Their ledger-minded cowardice frightened me more than any teeth.",
+    "generated": "2026-10-27T00:25:52+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-10-27"
   }
 ]
