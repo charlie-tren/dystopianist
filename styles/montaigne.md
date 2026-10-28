@@ -48,6 +48,7 @@ Source: Essays, trans. Charles Cotton, Project Gutenberg #3600
 - A reader of Michel de Montaigne would have expected 'I' instead of 'we' to start the sentence, allowing for later generalization, such as 'And yet, I know not if by dulling my aches so easily, I do not also soften my spirit' Seen in a published essay: "And yet, I know not if by dulling our aches so easily, we do not also soften our spirit" (found 2026-09-12).
 - The assertion is too definitive; a reader of Montaigne would expect a more tentative qualification, such as 'or whether we have merely returned'. Seen in a published essay: "when in truth we have only returned to the rudimentary gestures of the nursery" (found 2026-09-20).
 - A reader of Michel de Montaigne would have expected a more tentative and exploratory tone, such as 'or whether I might be flattering my vanity' Seen in a published essay: "or if I am merely flattering my vanity by pretending that I have mastered an art which, in truth, leaves me feeling remarkably foolish" (found 2026-10-12).
+- The comparison is delivered as a flat moral verdict; Montaigne would more likely hedge it (e.g. 'or so I suspect') and leave it open, as he does with 'I suspect not' earlier in the piece. Seen in a published essay: "as a man who has left off beating his servant is not therefore gentle" (found 2026-10-28).
 ## Log
 
 - 25/08/2026 - added. Two real passages from the Cotton translation.
