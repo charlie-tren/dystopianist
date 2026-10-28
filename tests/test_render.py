@@ -124,7 +124,7 @@ def no_paragraph_begins_mid_sentence(fails):
     # implementation against itself.
     bad = re.compile(r"(?:\b(?:Mr|Mrs|Ms|Dr|St|Prof|Rev|Sr|Jr|Hon|Capt|Gen|Col"
                      r"|Sgt|Lt|Ave|No|vs|etc|cf|Fig|Vol|pp|al|Co|Ltd|Inc)"
-                     r"|(?:^|[\s(\"'])[A-Z])\.$")
+                     r"|(?:^|[\s(\"'])[A-HJ-Z])\.$")  # not I: "than I." ends a sentence
     n = 0
     for e in ARCHIVE:
         for para in re.findall(r"<p>(.*?)</p>", render.paragraphs(e["essay"]), re.S):

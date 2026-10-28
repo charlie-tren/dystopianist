@@ -324,7 +324,7 @@ def paragraphs(essay: str) -> str:
     return "\n    ".join(f"<p>{html.escape(p)}</p>" for p in out)
 
 
-def extract(essay: str, target: int = 55, cap: int = 5) -> str:
+def extract(essay: str, target: int = 55, cap: int = 5, floor: int = 40) -> str:
     """The passage the guessing game shows: whole sentences from the top, until it
     has enough words to have a voice in it.
 
@@ -339,7 +339,9 @@ def extract(essay: str, target: int = 55, cap: int = 5) -> str:
     for s in voice.sentences(essay):
         out.append(s)
         n += len(s.split())
-        if n >= target or len(out) >= cap:
+        # The sentence cap waits for the floor: five of Marcus Aurelius's sentences
+        # came to 30 words on anaesthesia (28/10/2026).
+        if n >= target or (len(out) >= cap and n >= floor):
             break
     return clip(" ".join(out))
 
