@@ -2679,11 +2679,11 @@
     "name": "Mark Twain",
     "dates": "1835-1910",
     "object": "Titanic (1997)",
-    "verdict": "a ship of fools",
-    "score": 3.3,
-    "essay": "I reckon the folks who made Titanic were trying to spin a yarn that'd get us all teary-eyed and invested in the tale of those poor souls on the ship. They went to great lengths to recreate the whole shebang, from the fancy dresses to the sinking of the vessel itself, and I'll be darned if it didn't look like the real deal. But what gets me is how they managed to make us care about a couple of young'uns we'd never met before, and get all worked up over their romance and whatnot. It's a mighty strange thing, how they can make you laugh or cry or get all riled up, just like a conversation with your neighbor, except instead of being able to interrupt and give your two cents, you're just sitting there watching the whole mess unfold. And when it's all said and done, you're left feeling like you've been taken for a ride on a ship of fools.",
+    "verdict": "first-class swindle",
+    "score": 1.4,
+    "essay": "I went to see the Titanic picture, and I want it understood that I knew how it would end. So did the man beside me, and the woman behind him, and I suspect the usher. The ship goes down. It went down in the newspapers, in the history books, and in every Sunday sermon on pride that ever needed a handy iceberg. Yet three hours of my life went into it, and I came out wet in the eyes and ashamed of myself, which is the surest sign of a first-class swindle. The method is simple. Mr. Cameron takes two young persons who never existed, makes one poor and cheerful and the other rich and miserable, and sets them to falling in love at a rate no sensible couple could afford. Then he asks you to worry about their welfare while fifteen hundred real people drown in the background. I worried. I admit it. I fretted over a door-sized piece of floating furniture as if I held a mortgage on it. There was room on that board, and I will go to my grave saying so. But I notice the picture cost more than the ship, and it floated a good deal better.",
     "generated": "2026-10-15T18:01:46+00:00",
-    "provider": "cloudflare",
+    "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-10-15"
   },
@@ -2693,11 +2693,11 @@
     "name": "Emily Dickinson",
     "dates": "1830-1886",
     "object": "Titanic (1997)",
-    "verdict": "a cruel beauty",
-    "score": 6.4,
-    "essay": "The sorrow that clings to Titanic is a garment that can be worn, its folds heavy with the weight of lives lost, and the desperation that comes with loving in the face of doom - a love that tries on the utmost, and finds it terribler than any existence could bear. In its grandeur, the ship is a domestic anchor, a hearth that warms and devours, leaving only the bitter taste of what could never be. The director's hand is a gentle one, guiding the viewer through the labyrinth of the ship's corridors, and the twisted passages of the human heart - a soul in a fold, trying to find its way. The film's beauty is a cruel thing, a beauty that belies the terror that lies beneath, like a sky that buys security, but takes the privacy of our dust as deposit. And when it ends, the silence that follows is a thing that can be felt, a physical presence that weighs upon the heart, like innocence that feels curiously heavy when it must be proved.",
+    "verdict": "grief on credit",
+    "score": 3.4,
+    "essay": "Everyone knows the ending, and that is the whole cruelty of the afternoon. We sit down already grieving. The ship is built before our eyes, the brass rubbed, the stairs polished for a descent, and I cannot admire a banister without counting what it will hold when the floor tilts. Two young people run at the bow with their arms out. I have seen girls do as much on a gate, in March, believing the wind had been sent for them. Here the wind is real and the water behind it is already cold. Nobody in the dark theatre says so. We let them fly. Three hours is a long time to hold a breath, and the picture knows it. It spends the first part as a person spends a purse, carelessly, to be rich before the sum is called. Then the sea is called, and it is very plain, very black, and very patient with the violins. A door left half open on a drowned stair troubled me more than all the ocean. The thing is made of plenty and it ends on a plank. I came home and set a cup of tea on the sill. It was warm. I thought that nearly an insult, and drank it.",
     "generated": "2026-10-15T23:41:29+00:00",
-    "provider": "cloudflare",
+    "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-10-15"
   },
@@ -3176,5 +3176,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-10-27"
+  },
+  {
+    "date": "2026-10-28",
+    "thinker": "dickinson",
+    "name": "Emily Dickinson",
+    "dates": "1830-1886",
+    "object": "The Matrix (1999)",
+    "verdict": "admirably managed",
+    "score": 6.8,
+    "essay": "The pill is the smallest thing in it, and the film knows this. Two fingers, one red, one blue, a chair with a mirror waiting behind the offer. I think more of the spoon that does not bend. A boy says there is no spoon, and the metal curls over like a wet leaf, and nobody in the theatre believes it for longer than the scene. That is the film's whole wager, and it loses it honestly. The rooms are green. Everything made of code is tinted like old pond water, while the real world, the ship, the gruel, the hammock of cables, is the colour of a cold stove. So the picture tells you which is the dream by making the dream more comfortable to look at. I resent being managed so, and I admire the management. Neo is slow. He is told he is the One by people who keep waiting for his face to agree. I like him best asleep, before anyone has wanted anything of him. The fights are lovely, the coats are lovely, the bullets pause in the air like guests who have forgotten their errand. What it asks is that you doubt the Tuesday you are in. I did, a little, on the stair afterward. The stair held.",
+    "generated": "2026-10-28T00:31:16+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-10-28"
   }
 ]

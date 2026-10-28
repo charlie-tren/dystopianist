@@ -78,6 +78,10 @@ Source: Poems, Three Series (1890-96), Project Gutenberg #12242
 - A more enigmatic comparison was expected, rather than this clear and descriptive one Seen in a published essay: "a beauty that belies the terror that lies beneath" (found 2026-10-15).
 - A more subtle and implicit suggestion of the trade-off was expected, rather than this explicit and explanatory one, such as 'sky for dust' Seen in a published essay: "like a sky that buys security, but takes the privacy of our dust as deposit" (found 2026-10-15).
 - A more abstract and suggestive phrase was expected, rather than this straightforward explanation of the voice's effect Seen in a published essay: "The film's beauty is a cruel thing" (found 2026-10-15).
+- This spells out the mechanism in a full explanatory sentence; a Dickinson reader would expect the point compressed into a concrete image that stops the moment it lands. Seen in a published essay: "So the picture tells you which is the dream by making the dream more comfortable to look at." (found 2026-10-28).
+- The point lands at "wet leaf", but the sentence runs on with an explanatory tail; Dickinson would stop there rather than add a clause. Seen in a published essay: "and nobody in the theatre believes it for longer than the scene" (found 2026-10-28).
+- The abstract noun "management" is only discussed, not handled as a physical object to be worn, tried on, or put down, which is the signature move the voice requires. Seen in a published essay: "I resent being managed so, and I admire the management." (found 2026-10-28).
+- The sentence explains the point with a comma-joined clause where a dash should do the compressing work; the essay uses no dash at all, so the characteristic break never appears. Seen in a published essay: "That is the film's whole wager, and it loses it honestly." (found 2026-10-28).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Poems, Three Series (1890-96), Project Gutenberg #12242 via tools/gutenberg_shots.py.
