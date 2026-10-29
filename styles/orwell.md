@@ -83,6 +83,8 @@ Source: "Pleasure Spots" (1946), Fifty Orwell Essays, Project Gutenberg Australi
 - This is a signpost that announces the point instead of making it; Orwell would simply say what the tablet does, e.g. 'But look at what the tablet does besides relieve.' Seen in a published essay: "But it is worth noticing what the tablet does besides relieve." (found 2026-10-20).
 - "Inhabitants" is a Latinate abstraction where Orwell would write the plain word "people". Seen in a published essay: "A film that tells you the world is false has also told you that its inhabitants do not count." (found 2026-10-24).
 - "The sort of person who would" is vague, trailing off without a concrete case, where Orwell would name the sort of person, such as the ticket-buyer who thinks he would have taken the red pill. Seen in a published essay: "It is asked to feel that it is already the sort of person who would, which is a flattering thing to be told by a company selling tickets." (found 2026-10-24).
+- This is the same signpost opener the known list flags ("But it is worth noticing what the tablet does..."); Orwell would show the afternoon going to the standard of cleanliness without announcing that he is about to show it. Seen in a published essay: "But notice what happened to the afternoon." (found 2026-10-29).
+- The creditor simile is a writerly flourish of the same financial-metaphor kind as the known ledger image; Orwell would stay literal and let the plain fact of the drum turning carry the point. Seen in a published essay: "the drum turns in the corner of the kitchen like a small, patient creditor" (found 2026-10-29).
 ## Log
 
 - 25/08/2026 - migrated from config/thinkers.yaml; Avoid list seeded from the first batch.

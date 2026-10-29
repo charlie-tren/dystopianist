@@ -3218,5 +3218,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-10-28"
+  },
+  {
+    "date": "2026-10-29",
+    "thinker": "orwell",
+    "name": "George Orwell",
+    "dates": "1903-1950",
+    "object": "the washing machine",
+    "verdict": "a patient creditor",
+    "score": 5.7,
+    "essay": "My mother's generation did the washing on Monday, and everyone knew it was Monday because the whole street smelt of wet wool and soap. The copper was lit before breakfast. The sheets were boiled, pushed about with a stick, wrung through a mangle by someone with strong forearms, and hung out in a yard where the soot of the neighbouring chimneys had a fair chance of getting to them first. It was a day's labour, and it was nearly always a woman's. The machine has abolished most of that, and I do not intend to pretend otherwise. Anyone who sighs for the mangle has never turned one. A woman who can put in a load at eight, go to her job, and come home to clean sheets has been given something no politician ever gave her, which is an afternoon. But notice what happened to the afternoon. It was not handed back. The standard of cleanliness went up to fill the space, so that a shirt worn twice is now thought a little shabby, and towels are changed as if they were bandages. The machine saved the work and then the work grew to fit it. The same women who once did one wash a week now do one a day, and the drum turns in the corner of the kitchen like a small, patient creditor. Still, I would not send it back.",
+    "generated": "2026-10-29T00:55:56+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-10-29"
   }
 ]
