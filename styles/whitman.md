@@ -59,6 +59,8 @@ Source: Specimen Days (1882), Project Gutenberg #8813
 - Expected a catalogue of nouns, but got a metaphorical phrase instead, such as 'headshots, summaries, experience listings' Seen in a published essay: "the grand mosaic of modern worklife" (found 2026-10-05).
 - Expected a catalogue of nouns, but got a metaphorical phrase instead, such as 'recruiters, hiring managers, coaches' Seen in a published essay: "the grand symphony of professional growth and opportunity" (found 2026-10-05).
 - Expected a catalogue of nouns, but got a metaphorical phrase instead, such as 'online courses, webinars, workshops' Seen in a published essay: "a vibrant landscape of continuous learning and skill-building" (found 2026-10-05).
+- Article error (should be "an insult"); a reader of Whitman expects loose, jotted syntax, not a slip that breaks the catalogue's rhythm. Seen in a published essay: "a insult to a sleeper" (found 2026-10-29).
+- The catalogue has been broken by a descriptive clause; Whitman would name the noun ("a tin case, a dial") and let the sight stand without the qualifying phrase. Seen in a published essay: "a tin case with a dial that glows a little green" (found 2026-10-29).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Specimen Days (1882), Project Gutenberg #8813 via tools/gutenberg_shots.py.
