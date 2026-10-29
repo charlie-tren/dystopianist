@@ -3246,5 +3246,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-10-29"
+  },
+  {
+    "date": "2026-10-29",
+    "thinker": "dickens",
+    "name": "Charles Dickens",
+    "dates": "1812-1870",
+    "object": "chatbots",
+    "verdict": "the circumlocution office",
+    "score": 0.9,
+    "essay": "I was kept waiting, one wet forenoon, upon the threshold of a certain shipping company, by a small oblong window in the corner of a screen, which informed me that Clarissa was typing. Clarissa was not typing. Clarissa had never possessed a finger, a thumb, a corn, or a chilblain; yet three little dots rose and fell beneath her name, like the breathing of a gentleman feigning sleep in a railway carriage, for the sole purpose of persuading me that a Person was labouring on my behalf. I object to the dots. I object to them as I would object to a butler painted upon the front door, with a painted candle, and a painted bow. Let the machine answer me, if it must; it answers fluently, tirelessly, with the bland and boundless courtesy of a hotel-keeper who has never once been obliged to pay the baker. But let it not sit down at my table in the borrowed coat of a human hesitation. And what, pray, is the end of my question? Why, I am thanked for my patience, assured of my importance, and handed back, with a flourish, to the very spot from which I set out. Sixty minutes, sir; sixty minutes of apology, and not one grain of remedy. The Circumlocution Office has learned to type, and has acquired a pleasing manner.",
+    "generated": "2026-10-29T21:50:32+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-10-29"
   }
 ]
