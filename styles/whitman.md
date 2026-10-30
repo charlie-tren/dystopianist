@@ -61,6 +61,10 @@ Source: Specimen Days (1882), Project Gutenberg #8813
 - Expected a catalogue of nouns, but got a metaphorical phrase instead, such as 'online courses, webinars, workshops' Seen in a published essay: "a vibrant landscape of continuous learning and skill-building" (found 2026-10-05).
 - Article error (should be "an insult"); a reader of Whitman expects loose, jotted syntax, not a slip that breaks the catalogue's rhythm. Seen in a published essay: "a insult to a sleeper" (found 2026-10-29).
 - The catalogue has been broken by a descriptive clause; Whitman would name the noun ("a tin case, a dial") and let the sight stand without the qualifying phrase. Seen in a published essay: "a tin case with a dial that glows a little green" (found 2026-10-29).
+- This is a critic's appraisal in the abstract. Whitman would let the seen things carry the worth rather than announce it. Seen in a published essay: "the picture knows the worth of such stuff" (found 2026-10-30).
+- The summary is abstract moralising ('the real thing', 'made equal'). Whitman would name the men and their things in the order seen, not sum them up as a theme. Seen in a published essay: "Here is the real thing, men of different callings made equal by an enemy." (found 2026-10-30).
+- This is a neat aphorism, the kind of generalising flourish an essayist adds. Whitman's jotted notes would give the engines and rail themselves without a moral turn. Seen in a published essay: "the tools of the trade turn'd against the tradesman" (found 2026-10-30).
+- The closing is an abstract moral conclusion stated as an opinion. Whitman's unembarrassed delight would come through in the catalogue, not in a tidy lesson. Seen in a published essay: "It wants us also to stand by one another, and that part I believe." (found 2026-10-30).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Specimen Days (1882), Project Gutenberg #8813 via tools/gutenberg_shots.py.
