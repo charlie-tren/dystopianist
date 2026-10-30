@@ -3260,5 +3260,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-10-29"
+  },
+  {
+    "date": "2026-10-30",
+    "thinker": "nietzsche",
+    "name": "Friedrich Nietzsche",
+    "dates": "1844-1900",
+    "object": "Paddington (2014)",
+    "verdict": "exquisite flattery",
+    "score": 2.1,
+    "essay": "A bear arrives from darkest Peru with a label round his neck: please look after this bear. That is the whole of the film's morality, and it is a morality of the label. Observe what the bear brings: no hunger, no claim, no will to power - only marmalade, manners, and a hat. He is the foreigner as the comfortable wish to receive him: a guest who apologises for every disaster, who floods the bathroom and begs pardon in the same breath. The city of London, meanwhile, is drawn like a doll's house, lacquered in reds and yellows, so that nothing in it could wound anyone. Only the taxidermist stands outside this warmth, a woman who wishes to stuff what she cannot own - and she is made absurd at once, because the film cannot allow a desire that is serious. Her hunger is a pantomime; the family's kindness is treated as a law of nature. I do not deny the craftsmanship. The paper-cut dollhouse sections, the little rhymes of gesture, the Tube escalator and its rule about carrying dogs: all this is made with a joiner's care. But care is not courage. The film wants one thing from us: that we leave the cinema believing ourselves already good. It flatters, and the flattery is exquisite - for it asks nothing, not even a stranger's name.",
+    "generated": "2026-10-30T00:58:45+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-10-30"
   }
 ]
