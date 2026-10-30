@@ -3274,5 +3274,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-10-30"
+  },
+  {
+    "date": "2026-10-30",
+    "thinker": "austen",
+    "name": "Jane Austen",
+    "dates": "1775-1817",
+    "object": "anaesthesia",
+    "verdict": "most agreeable discovery",
+    "score": 8.0,
+    "essay": "My brother Henry's acquaintance in the medical line informs me that a gentleman of his profession is accounted skilful in proportion to his despatch, and that the surgeon who can remove a limb in the time it takes a family to rise from table is thought to have shown the greater tenderness. The patient is held, the room is cleared of such ladies as might be overcome, and the whole affair is concluded with so much regularity that those who attend it are generally agreed it was borne remarkably well. I have known a lady praised for her fortitude on an occasion when she had no choice in the matter, and a gentleman for his composure when he had been strapped to a chair. It is natural to wish that so much courage were less often required, and I confess that were any preparation known by which a person might be spared the sensation, while the operation proceeded as usual, I should think it the most agreeable discovery of the age. One can hardly suppose it would be refused. The patient would be relieved; the surgeon, no longer obliged to be quick, might be permitted to be careful; and the friends in the next room would be at liberty to attend to their tea instead of listening for the end of it, though I do not doubt some of them would feel the want of occupation.",
+    "generated": "2026-10-30T18:00:33+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-10-30"
   }
 ]
