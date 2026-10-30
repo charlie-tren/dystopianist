@@ -332,7 +332,8 @@ jobs:
       # the next run's different essay. Blocking today's essay cannot fix a drift
       # that is the whole archive's. So the step still exits 1 under the floor and
       # still prints which pair, and writes data/voice.json, which site-stats reads
-      # into Project Health and lights red under 0.45. tools/revoice.py is the fix.
+      # into Project Health and lights red under 0.45. The fix is the pair's samples
+      # in styles/; tools/revoice.py only rewrites gate failures.
       - name: Are the voices still distinct
         id: voice
         if: ${{ !cancelled() }}

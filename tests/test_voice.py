@@ -91,7 +91,7 @@ def main() -> int:
     if worst < WARN:
         print(f"\nWARNING: {pair[0]} and {pair[1]} are at {worst:.2f} - inside the "
               f"warning band ({WARN}) and only {worst - FLOOR:.2f} clear of the floor. "
-              "Not a failure. Run tools/revoice.py on the pairs above before it is one.")
+              "Not a failure. Pull the pair's samples in styles/ apart before it is one.")
         return 0
     print("\nvoices are still distinct")
     return 0

@@ -27,19 +27,24 @@ Compression to the point of strain. An abstract noun treated as a physical objec
 
 ### 1
 
-Source: Poems, Three Series (1890-96), Project Gutenberg #12242
+Source: Letter to T. W. Higginson, July 1862, in Higginson, Carlyle's Laugh, and Other Surprises (1909), Project Gutenberg #68129
 
-> While I was fearing it, it came, But came with less of fear, Because that fearing it so long Had almost made it dear. There is a fitting a dismay, A fitting a despair. 'Tis harder knowing it is due, Than knowing it is here. The trying on the utmost, The morning it is new, Is terribler than wearing it A whole existence through.
+> Could you believe me without? I had no portrait, now, but am small, like the wren; and my hair is bold like the chestnut bur; and my eyes, like the sherry in the glass, that the guest leaves. Would this do just as well? It often alarms father. He says death might occur and he has moulds of all the rest, but has no mould of me; but I noticed the quick wore off those things, in a few days, and forestall the dishonor. You will think no caprice of me.
 
 ### 2
 
-Source: Poems, Three Series (1890-96), Project Gutenberg #12242
+Source: Letter to T. W. Higginson, April 1862, in Higginson, Carlyle's Laugh, and Other Surprises (1909), Project Gutenberg #68129
 
-> Pigmy seraphs gone astray, Velvet people from Vevay, Belles from some lost summer day, Bees' exclusive coterie. Paris could not lay the fold Belted down with emerald; Venice could not show a cheek Of a tint so lustrous meek. Never such an ambuscade As of brier and leaf displayed For my little damask maid. I had rather wear her grace Than an earl's distinguished face; I had rather dwell like her Than be Duke of Exeter Royalty enough for me To subdue the bumble-bee!
+> You ask of my companions. Hills, sir, and the sundown, and a dog large as myself, that my father bought me. They are better than beings because they know, but do not tell; and the noise in the pool at noon excels my piano. I have a brother and sister; my mother does not care for thought, and father, too busy with his briefs to notice what we do. He buys me many books, but begs me not to read them, because he fears they joggle the mind.
+
+### 3
+
+Source: Letter to T. W. Higginson, August 1862, in Higginson, Carlyle's Laugh, and Other Surprises (1909), Project Gutenberg #68129
+
+> I had no monarch in my life, and cannot rule myself; and when I try to organize, my little force explodes and leaves me bare and charred. I think you called me "wayward." Will you help me improve? You say I confess the little mistake, and omit the large. Because I can see orthography; but the ignorance out of sight is my preceptor's charge. All men say "What" to me, but I thought it a fashion.
 
 ## Avoid
 
-- VERSE. The samples are poems because no prose of hers is in the public domain, but the essay must be continuous prose: no line breaks, no capitalised line openings, no rhyme, no metre.
 - Dashes in every sentence. Two or three in the whole piece, each doing work a comma could not.
 - Sounding gnomic for its own sake. Every compression must still say something checkable about the object.
 
@@ -86,3 +91,4 @@ Source: Poems, Three Series (1890-96), Project Gutenberg #12242
 
 - 26/08/2026 - added. Samples pulled verbatim from Poems, Three Series (1890-96), Project Gutenberg #12242 via tools/gutenberg_shots.py.
 - 26/08/2026 - her samples are VERSE, the only public-domain Dickinson there is. The Avoid list carries the prose rule; watch the first outputs.
+- 30/10/2026 - verse samples replaced with her letters to Higginson (Gutenberg #68129). Her essays had drifted to 0.31 from Orwell's, under the 0.45 floor; the letters sit 2.8 from his samples, the verse 1.2.

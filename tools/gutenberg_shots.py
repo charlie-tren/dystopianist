@@ -42,7 +42,7 @@ BOOKS = {
     "whitman":   (8813, "Specimen Days"),
     "austen":    (1342, "Pride and Prejudice"),
     "woolf":     (64457, "The Common Reader"),
-    "dickinson": (12242, "Poems, Three Series"),
+    "dickinson": (68129, "Carlyle's Laugh (her letters to Higginson)"),
     "dickens":   (914, "The Uncommercial Traveller"),
     "thoreau":   (205, "Walden"),
     # Added 28/08/2026. Franklin's Autobiography is him explaining a practical scheme
