@@ -3302,5 +3302,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-10-30"
+  },
+  {
+    "date": "2026-10-31",
+    "thinker": "dickinson",
+    "name": "Emily Dickinson",
+    "dates": "1830-1886",
+    "object": "audiobooks",
+    "verdict": "kindly, unwanted company",
+    "score": 4.2,
+    "essay": "Someone has hired a voice to carry the book for me, and I find I have let it. The dishes are done in its company. The road behind the house has been walked twice, and I cannot say which chapter I was on at the gate. A page waits. It will not hurry you, and it lets you stop at a sentence as at a window until the sentence has finished with you. The voice cannot wait. It has the whole afternoon to get through and goes on, kind, even, a little like a neighbor who will walk you home whether or not you wished to go. I notice, too, that the reader has a throat. Every villain in the book has the same warm throat, and I cannot make him colder than that. Reading, I had always given the characters my own voice, which was small, and they bore it. Now they have been given better ones, and I am the guest in my own house of them. Yet I would not send it off. There are those whose eyes have shut on the print, and to them it is bread through a door. A voice is a lamp, and the lamp is not at fault that I preferred the dark.",
+    "generated": "2026-10-31T00:47:25+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-10-31"
   }
 ]
