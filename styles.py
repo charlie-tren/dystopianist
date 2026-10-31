@@ -84,6 +84,8 @@ def parse(path: Path) -> dict:
                             "source": "" if "pastiche" in source.lower() else source})
     if not samples:
         raise ValueError(f"{path.name}: no samples")
+    if meta.get("model") not in (None, "claude", "gemini"):
+        raise ValueError(f"{path.name}: unknown model {meta['model']!r}")
 
     return {**meta,
             "note": " ".join(_section(body, "Register").split()),

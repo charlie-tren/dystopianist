@@ -15,6 +15,7 @@ name: Oscar Wilde
 sort: Wilde
 dates: 1854-1900
 public_domain: True
+model: gemini
 ---
 
 # Oscar Wilde

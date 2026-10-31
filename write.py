@@ -259,8 +259,10 @@ def write(thinker: dict, obj: str, words: str = "170-230",
     to the model that wrote it, and a score that will not compare with its neighbours
     is traced to the model that scored it. They are usually the same model and were
     not on 26/08/2026, which is the whole reason both are kept."""
+    # `model:` in a writer's styles file. Claude's essays sit closer together than
+    # Gemini's (31/10/2026), so the writers it flattened most are written by Gemini.
     raw, provider = llm.generate(build_prompt(thinker, obj, words, kind),
-                                 temperature=temperature)
+                                 temperature=temperature, prefer=thinker.get("model"))
     d = llm.extract_json(raw)
     # Markdown emphasis leaks in whenever a sample carries italics - one Nietzsche
     # attempt came back with a dozen _underscored_ words, which the page would print

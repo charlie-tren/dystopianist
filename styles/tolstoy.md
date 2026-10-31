@@ -15,6 +15,7 @@ name: Leo Tolstoy
 sort: Tolstoy
 dates: 1828-1910
 public_domain: True
+model: gemini
 ---
 
 # Leo Tolstoy
