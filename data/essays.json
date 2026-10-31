@@ -3316,5 +3316,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-10-31"
+  },
+  {
+    "date": "2026-10-31",
+    "thinker": "aurelius",
+    "name": "Marcus Aurelius",
+    "dates": "121-180",
+    "object": "the hot shower",
+    "verdict": "a poor master",
+    "score": 2.7,
+    "essay": "Thou standest under the water until the body is warm. Then thou wishest to stay. This wish is not thine. It belongs to the skin. The heat asks for nothing. It gives, and thou takest. Mark how quickly the taking becomes a claim. Yesterday it was a pleasure. Today thou art owed it. The body is a poor master. It wants warmth and it wants more warmth. Give it what is needed. Give it no more. Water was once fetched. It was carried and heated over a fire, and a man knew its price. Thou knowest no price now. Whatever costs thee nothing thou wilt waste. There is a morning duty waiting beyond the door. It does not care whether the water was hot. It asks only whether thou art awake. Observe how the mind loosens here. Thoughts come easily in the steam. Some of them are good. Write those down and leave the rest to the drain. The cold tap is within reach. Turn to it sometimes. Let the body learn that it can bear what it fears. A man who cannot rise from warm water is not free. Rise when the work calls. Dry thyself and go out to it.",
+    "generated": "2026-10-31T20:28:24+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-10-31"
   }
 ]
