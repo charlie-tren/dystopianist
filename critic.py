@@ -143,9 +143,12 @@ def check(essay: str, thinker: dict, shots: dict[str, str],
     if not (MIN_WORDS <= len(words) <= MAX_WORDS):
         problems.append(f"length {len(words)} words, want {MIN_WORDS}-{MAX_WORDS}")
 
-    surname = thinker["name"].split()[-1].lower()
-    if surname in essay.lower():
-        problems.append(f"names the author ({surname})")
+    # Capitalised and whole, give or take an -ian or -esque: a substring test failed
+    # Wilde on "wilderness" and would fail Julia Child on every "children".
+    surname = thinker["name"].split()[-1]
+    if (thinker["name"].lower() in essay.lower()
+            or re.search(rf"\b{re.escape(surname)}(?:ian|esque|ean)?\b", essay)):
+        problems.append(f"names the author ({surname.lower()})")
     if re.search(r"\b(1[6-9]\d{2}|20\d{2})\b", essay):
         problems.append("mentions a year")
     for t in TELLS:

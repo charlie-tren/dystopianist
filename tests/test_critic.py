@@ -111,6 +111,19 @@ def main() -> int:
     if reverdict.is_grade("the ledger clears"):
         fails.append("tools/reverdict.py would re-read a perfectly good verdict")
 
+    # --- the author gate reads names, not letters --------------------------
+    for wid, text, want in (("wilde", "Out in the wilderness the lilies grow.", False),
+                            ("child", "The children ate the omelette cold.", False),
+                            ("child", "As Julia Child said, butter.", True),
+                            ("wilde", "As Wilde said, the lilies grow.", True),
+                            ("orwell", "It was all very Orwellian.", True),
+                            ("suntzu", "Sun Tzu was right about the walls.", True)):
+        got = any("names the author" in p
+                  for p in critic.check(text, who[wid], {}, "a verdict", 5.0))
+        if got != want:
+            fails.append(f"author gate on {wid}: {text!r} gave {got}, want {want}")
+    print("  ok  the author gate reads names, not letters")
+
     # --- no control bytes anywhere in the source ----------------------------
     # 0x07 bell, 0x08 backspace, 0x0b vertical tab, 0x0c form feed. None of these
     # belong in Python source, and each is invisible in every diff and editor.
