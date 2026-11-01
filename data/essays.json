@@ -3344,5 +3344,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-01"
+  },
+  {
+    "date": "2026-11-01",
+    "thinker": "woolf",
+    "name": "Virginia Woolf",
+    "dates": "1882-1941",
+    "object": "the step counter",
+    "verdict": "reduced to arithmetic",
+    "score": 3.1,
+    "essay": "A silver clip upon the waistband, or a dark band upon the wrist, sits measuring our progress through the London dusk. We set out to watch the light settle over the park, to see the lamps lit along the Embankment, yet our ankles now move under a quiet surveillance. How strange that a walk, once the most lawless of our domestic liberties, should be reduced to arithmetic. We used to measure a stroll by the quality of leaves falling or the turn of a neighbour's voice; now a silent tally ticks against the ribs, demanding its daily toll before the night is declared well spent. It transforms the aimless wanderer into an accountant of her own boots. Yet if we glance down at the small screen glowing in the shadows, there is a curious solace in its quiet precision. The mind may drift into melancholy, unanchored and chaotic; the little machine insists that five thousand paces have indeed occurred, that ground was struck, that the solid earth held firm. We stop by the park railings, touch the cold glass on the wrist, and watch a red bus rumble past through the fog.",
+    "generated": "2026-11-01T21:13:45+00:00",
+    "provider": "gemini",
+    "scored_by": "claude/100",
+    "reread": "2026-11-01"
   }
 ]
