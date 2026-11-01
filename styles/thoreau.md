@@ -58,6 +58,7 @@ Source: Walden (1854), Project Gutenberg #205
 - The trade is named but never priced. A Thoreau reader would expect the exchange weighed in concrete terms, such as the days of digging or walking the quest takes against the hours of quiet it costs. Seen in a published essay: "The bargain is this: he is to fetch a princess in exchange for his own quiet." (found 2026-10-23).
 - The lord is a brief, generic label. Thoreau would give the castle's upkeep or the labour that built it, not just a height and a possession. Seen in a published essay: "a lord who is, I take it, five feet tall and owns a castle" (found 2026-10-23).
 - The clerk comparison gestures at cost but gives no figure. Thoreau would count the words, or the price per word, so the waste can be reckoned. Seen in a published essay: "The donkey talks as fast as a clerk paid by the word." (found 2026-10-23).
+- The central cost is named but never weighed: a Thoreau reader would expect the lost looking priced in concrete terms, such as the eleven mornings on the ice set against the minutes the machine takes, not an unquantified 'other coin'. Seen in a published essay: "What is got for nothing is commonly paid for in some other coin; here, I suspect, in the habit of asking, which grows while the habit of looking shrinks, like a muscle in a sling." (found 2026-11-01).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Walden (1854), Project Gutenberg #205 via tools/gutenberg_shots.py.

@@ -3330,5 +3330,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-10-31"
+  },
+  {
+    "date": "2026-11-01",
+    "thinker": "thoreau",
+    "name": "Henry David Thoreau",
+    "dates": "1817-1862",
+    "object": "chatbots",
+    "verdict": "nobody's words",
+    "score": 3.2,
+    "essay": "I asked the machine last evening how long it takes a pond to freeze, and it answered in four seconds, in nine hundred words, with a courtesy I have never received from a neighbor. I confess I was pleased. It is something to be answered at all. But the pond lies a mile and a quarter from my door, and I have known it to take a man eleven winter mornings of lying on his belly on the black ice, with his cheek to the cold and his breath fogging the glass, to learn what those nine hundred words only repeat. The words were correct. They were also, I think, nobody's. Observe the economy of it. A farmer's boy will carry a pail of water a quarter mile for a penny and know to the cupful what he has carried. This engine carries a whole well to you for nothing, and you drink without once feeling the handle in your palm. What is got for nothing is commonly paid for in some other coin; here, I suspect, in the habit of asking, which grows while the habit of looking shrinks, like a muscle in a sling. Still, when it hesitated, and said it could not be certain, I heard in that confession something nearer honesty than most sermons offer. Let it say so oftener, and let me go see the ice.",
+    "generated": "2026-11-01T18:00:34+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-01"
   }
 ]
