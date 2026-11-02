@@ -3358,5 +3358,19 @@
     "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-11-01"
+  },
+  {
+    "date": "2026-11-02",
+    "thinker": "child",
+    "name": "Julia Child",
+    "dates": "1912-2004",
+    "object": "audiobooks",
+    "verdict": "a real gift",
+    "score": 6.8,
+    "essay": "Somebody will tell you that listening to a book is not reading it, and somebody else will tell you it is exactly the same, and both of them are wrong in ways worth looking at. I came to it by way of the sink. A great heap of dishes, a pot with something burnt onto the bottom, and a voice in the room reading me a novel: the dishes went faster, and I scarcely noticed the scrubbing. That is a real gift, and I am entirely for it. Drudgery is not improved by being silent. But mind what you are doing. A page lets you stop, go back, and look again at the sentence that puzzled you; a voice marches on whether you are ready or not. And the reader matters enormously! A good one is like a good butcher, who gives you the thing cut properly and then gets out of the way. A bad one, all swooping and sighing and performing every character, is the cook who cannot leave the sauce alone, and he will ruin the book for you quite as surely. So choose your reader as carefully as your knife. Use the book for the dishes, the driving, the long walk. For anything that needs real thought, sit down, open it, and pay attention.",
+    "generated": "2026-11-02T00:44:20+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-02"
   }
 ]

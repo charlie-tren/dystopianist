@@ -65,6 +65,9 @@ Source: pastiche written for this repo (still in copyright)
 - The generic third-person 'his' makes this sound like a detached commentator; a reader of Julia Child would expect direct address to the reader, such as 'whatever is in your pocket'. Seen in a published essay: "here is a pot into which every guest throws whatever is in his pocket" (found 2026-10-23).
 - The clipped, list-like construction is flat and unencouraging; a reader would expect a warm, instructional push such as 'by telephone, or better still, come and sit down together!' Seen in a published essay: "telephone, or better, go and sit down together." (found 2026-10-23).
 - The understated, detached praise lacks Child's exclamatory enthusiasm; a reader would expect something like 'How useful, and how lovely!' Seen in a published essay: "That is useful, and rather lovely." (found 2026-10-23).
+- The generic third-person 'he' distances the reader and reads as a detached commentator; Child would address the reader directly, e.g. 'and you will ruin the book for yourself quite as surely'. Seen in a published essay: "and he will ruin the book for you quite as surely" (found 2026-11-02).
+- The opening's impersonal 'somebody' keeps the reader at arm's length; Child would speak to the reader directly, e.g. 'You will be told that listening is not reading...'. Seen in a published essay: "Somebody will tell you that listening to a book is not reading it, and somebody else will tell you it is exactly the same" (found 2026-11-02).
+- The flat, understated praise lacks Child's exclamatory enthusiasm; a reader would expect something like 'What a gift, and I am entirely for it!' Seen in a published essay: "That is a real gift, and I am entirely for it." (found 2026-11-02).
 ## Log
 
 - 28/08/2026 - added at Charlie's request from a list of sixteen, explicitly as a counterweight to Bourdain: delight where he is appalled. In copyright, so both samples are pastiche.
