@@ -3386,5 +3386,19 @@
     "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-11-02"
+  },
+  {
+    "date": "2026-11-02",
+    "thinker": "kafka",
+    "name": "Franz Kafka",
+    "dates": "1883-1924",
+    "object": "LinkedIn",
+    "verdict": "endorsed for nothing",
+    "score": 1.4,
+    "essay": "For some weeks I had meant to withdraw my name, and on the evening I finally sat down to do it I found that the page offering this was reached only through a page about my career, which in turn could be entered only after I had confirmed that the career in question was mine. I confirmed it. A small notice thanked me for my commitment and asked whether I wished to tell them why I was leaving, and since the question seemed to be part of the procedure and not an invitation, I chose from the reasons provided the one that was least untrue, namely that I had received too many messages. The next morning there were eleven more. Three congratulated me on a position I had not taken up, though I could not rule out that it had been taken up on my behalf, and one, from a man whose name I did not know, hoped that I was well and wished to add me to his network, which he described as modest. I did not answer, having learned that an answer is entered somewhere and read by someone, while silence is entered as well, only less carefully. My request, I was told, was being processed. It remains so. In the meantime I am endorsed, each week, for a skill I have never claimed.",
+    "generated": "2026-11-02T23:54:21+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-02"
   }
 ]
