@@ -3372,5 +3372,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-02"
+  },
+  {
+    "date": "2026-11-02",
+    "thinker": "nietzsche",
+    "name": "Friedrich Nietzsche",
+    "dates": "1844-1900",
+    "object": "reclining a seat on a plane",
+    "verdict": "silent, cowardly aggression",
+    "score": 0.9,
+    "essay": "The modern traveller demands his microscopic sovereignty: two inches of stolen territory gained by pressing a mechanical button. Here is the true measure of contemporary courage—a silent, cowardly aggression masked as the pursuit of ease! To tilt oneself backward is to inflict a petty injury upon the neighbour behind, yet one performs this conquest without ever looking him in the eye. It is the conquest of the weak: an unseen, frictionless hostility carried out in total passivity. One does not fight for space; one merely leans back and lets a concealed piston execute the tyranny. How exquisite, this modern desire to rule over another man’s knees without ever confronting his gaze! The victim himself, cramped in his narrow quarters, accepts the encroachment as an unalterable act of nature rather than an act of human will—he suffers the pressure against his shins in grim, silent submission. Thus two cowards face one another above the clouds: one who exerts his malice through a spring, and one who lacks the spirit to push back. They call this civilised comfort—it is merely the domestic drama of slaves who have forgotten how to quarrel openly.",
+    "generated": "2026-11-02T18:00:50+00:00",
+    "provider": "gemini",
+    "scored_by": "claude/100",
+    "reread": "2026-11-02"
   }
 ]
