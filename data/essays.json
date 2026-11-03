@@ -3414,5 +3414,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-03"
+  },
+  {
+    "date": "2026-11-03",
+    "thinker": "austen",
+    "name": "Jane Austen",
+    "dates": "1775-1817",
+    "object": "group chats",
+    "verdict": "a perpetual conversation",
+    "score": 1.4,
+    "essay": "A family of my acquaintance, consisting of three sisters, a brother, and a mother who is thought to be above the weaknesses of her children, have lately established among themselves a perpetual conversation, to which each is summoned at every hour by the little instrument she carries, and from which none can decently withdraw without being supposed to have taken offence. It is a most convenient arrangement for the dissemination of intelligence. Whatever the eldest has heard at breakfast is known to the youngest before the tea is cold, and an engagement may be proposed, debated, abandoned, and proposed again, without any one of the party having been obliged to leave her chair, or to look at another. The mother, I am told, replies to everything, and generally to the wrong remark. The brother replies to nothing, but is understood to be gratified by all. The second sister, who has an opinion of her own wit, writes a great deal in the evening, and is rewarded by a small mark of approval from whoever happens to be passing. Nobody quarrels, for to quarrel would require an audience of fewer than five; and so a coolness, when it comes, is conducted by silence, and discovered only by the company's remarking how very quiet the morning has been.",
+    "generated": "2026-11-03T18:00:50+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-03"
   }
 ]
