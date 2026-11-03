@@ -3400,5 +3400,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-02"
+  },
+  {
+    "date": "2026-11-03",
+    "thinker": "franklin",
+    "name": "Benjamin Franklin",
+    "dates": "1706-1790",
+    "object": "anaesthesia",
+    "verdict": "a mercy",
+    "score": 8.8,
+    "essay": "I have seen a man's leg taken off above the knee, and I confess the operation was the lesser part of the horror; the greater was the waiting, the straps, and the surgeon's boast that he finish'd in under a minute, as if the patient were to be grateful for the speed of his torment. Speed was then the whole of the art, there being no other mercy to be had; a surgeon was valued by his quickness and his strong assistants, and not at all by his tenderness. If it be true that a vapour can now be breath'd which takes away the sense of the knife, and that the sufferer wakes without remembering it, I count this among the few discoveries that are worth more than they cost, and the cost, I understand, is small. I will own it has a use beyond the patient's ease. A surgeon who need not hurry may take care; he may search for the cause, and not merely cut at the symptom; and many an operation judg'd too cruel to attempt must now be reckon'd possible. Whether men will be wiser for it I doubt, since they commonly spend a new liberty as fast as they receive it. But a mercy is not to be refus'd because it may be abus'd; and I would rather be a fool who felt nothing than a philosopher who felt everything.",
+    "generated": "2026-11-03T02:55:16+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-03"
   }
 ]

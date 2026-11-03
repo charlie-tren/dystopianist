@@ -52,6 +52,7 @@ Source: The Autobiography of Benjamin Franklin, Project Gutenberg #20203
 - The phrase 'I must consider' is too hesitant, a more direct statement was expected, such as 'I considered its utility' Seen in a published essay: "I must consider its utility in my own life" (found 2026-10-12).
 - The phrase 'I must weigh' is too hesitant, a more direct statement was expected, such as 'I weighed it against the potential benefits' Seen in a published essay: "I must weigh it against the potential benefits of rising at a consistent hour" (found 2026-10-12).
 - The phrase 'I would hope' is too hesitant, a more direct statement was expected, such as 'By using it in this way, I would save time and increase my productivity' Seen in a published essay: "By using it in this way, I would hope to save time and increase my productivity, which would be a significant benefit" (found 2026-10-12).
+- "I understand" signals second-hand report, which Franklin would not use for a cost he is grading; he would state the price directly, ideally with a figure. Seen in a published essay: "the cost, I understand, is small" (found 2026-11-03).
 ## Log
 
 - 28/08/2026 - added at Charlie's request from a list of sixteen. Real prose, two passages from the Autobiography via `tools/gutenberg_shots.py`.
