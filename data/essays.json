@@ -3456,5 +3456,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-04"
+  },
+  {
+    "date": "2026-11-04",
+    "thinker": "aurelius",
+    "name": "Marcus Aurelius",
+    "dates": "121-180",
+    "object": "airport lounges",
+    "verdict": "a false distinction",
+    "score": 3.3,
+    "essay": "Thou art sitting in a quiet room with a free drink. Thou hast been told this is a reward. What hast thou done to earn it? Thou hast paid. Nothing more. The chairs are softer here than at the gate. The crowd is thinner. Mark this, and mark also what thou dost feel about the crowd. Thou dost feel thyself above it. That feeling is false. The same flight carries thee and them. The same hour of arrival waits for all. A door and a card have not made thee different. Thou wilt eat more than thou needest. The food is free, and the hunger is not real. Eat what the body asks for. Leave the rest. Thou wilt look at the screen again and again. The flight will leave when it leaves. Looking changes nothing. Thou wilt watch the man who is let in behind thee. Thou wilt think he has not the right. That thought is not thy business. A man needs rest. Take it plainly, as a man takes water. Do not call it a distinction. When the call comes, rise at once. Leave the cushion without regret. Thou hast somewhere to be, and the room was never it. Go to the gate.",
+    "generated": "2026-11-04T18:01:42+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-04"
   }
 ]
