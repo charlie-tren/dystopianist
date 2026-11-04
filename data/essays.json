@@ -3470,5 +3470,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-04"
+  },
+  {
+    "date": "2026-11-04",
+    "thinker": "twain",
+    "name": "Mark Twain",
+    "dates": "1835-1910",
+    "object": "Paddington (2014)",
+    "verdict": "a better bargain",
+    "score": 8.4,
+    "essay": "I went to this picture expecting to be sold a bear, and I was sold one, but the bargain was a good deal better than the goods advertised. The bear is polite. That is the whole of his equipment, and the film has the nerve to build an entire London on it. Everybody else in the town is rude in the ordinary, comfortable way, and he is polite in the way of a creature who was told once, by an aunt, that it would be needed, and has gone on believing her. I found this a more reckless piece of philosophy than most sermons I have sat through, and a good deal more likely to be tried. The villain is a lady who stuffs animals, which I take to be the film's opinion of people who admire a thing chiefly when it holds still. The family are Londoners of the nervous kind, who keep a risk assessment the way other households keep a cat. They are cured, and the cure is a marmalade sandwich kept under a hat. The picture asks only that you be a little kinder for ninety minutes. I was, and I resent how easy it was. I came out and held a door for a stranger, who did not thank me, and I found I did not mind. The bear would have understood.",
+    "generated": "2026-11-04T22:39:43+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-04"
   }
 ]
