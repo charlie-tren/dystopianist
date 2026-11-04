@@ -56,6 +56,7 @@ Source: Swann's Way, tr. C. K. Scott Moncrieff (1922), Project Gutenberg #7178
 - This aphorism closes the sentiment neatly, where Proust would have pursued the sensation of being flattered by need through the specific social behaviour that produces it. Seen in a published essay: "that peculiar tenderness we reserve for people who flatter us by needing us" (found 2026-10-22).
 - "Social map" is a generic abstraction; Proust would have given a precise, visual image of the duchess's disapproval, such as how her glance places a guest in a particular room or seating arrangement. Seen in a published essay: "fixes them in a definite place on the social map" (found 2026-10-24).
 - This is a stock travel comparison; Proust would have drawn the gratitude from a more exact social or optical observation of the attendant's manner and the particular relief it brings. Seen in a published essay: "as one is grateful to the first familiar face on a foreign platform" (found 2026-10-24).
+- The essay asserts an effect on the reader instead of dissecting it. Proust would have pursued the disquiet through a precise optical detail of Fiona's face, such as how the light sits on the skin or where the expression fails to settle. Seen in a published essay: "Fiona's, in her moment of ordinary happiness, is more disquieting than any of the monsters." (found 2026-11-04).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Swann's Way, tr. C. K. Scott Moncrieff (1922), Project Gutenberg #7178 via tools/gutenberg_shots.py.

@@ -3442,5 +3442,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-03"
+  },
+  {
+    "date": "2026-11-04",
+    "thinker": "proust",
+    "name": "Marcel Proust",
+    "dates": "1871-1922",
+    "object": "Shrek (2001)",
+    "verdict": "a modest consolation",
+    "score": 3.4,
+    "essay": "What first struck me, in the swamp where the ogre bathes in mud and polishes his teeth with a slug, was not the vulgarity, which one expects, but the extraordinary care with which the mud had been rendered, so that the film, having announced that it despised the fairy tale, immediately lavished upon a puddle the tenderness that the old illustrators kept for a princess's hair. And I understood that the whole enterprise rests upon this quarrel conducted in the manner of a lover: as a woman who loudly mocks the provincial society in which she was brought up will nevertheless, at the first indiscretion, reproduce its intonations, its little cadences of the voice, so Shrek mocks the book of tales while borrowing from it every tower, every dragon, every tiresome pledge of a kiss. The animated faces, whose skin has that faintly waxen translucence of a hand held before a candle, never quite persuade me of flesh, and Fiona's, in her moment of ordinary happiness, is more disquieting than any of the monsters. Yet the film asks of us only a kind of complicity, the pleasure of being let into a joke already half known to us, and it grants in return a modest consolation: that the ugly may be loved without being altered, a doctrine it proclaims at the very instant it quietly, and rather cravenly, ceases to apply it.",
+    "generated": "2026-11-04T01:19:59+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-04"
   }
 ]
