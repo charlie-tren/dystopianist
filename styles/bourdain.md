@@ -59,6 +59,9 @@ Source: pastiche written for this repo (still in copyright)
 - Expected cynical, raw, or visceral prose rather than a generic sentimental cliché. Seen in a published essay: "in the warm embrace of your bed" (found 2026-09-25).
 - The voice is built on specific brands and real objects, but the detergent and the podcast are unnamed. Bourdain would name the pod brand and the show, or the specific machine he uses at home. Seen in a published essay: "Pods, cold cycle, a podcast in my ears." (found 2026-10-25).
 - This is stock phrasing where the spec wants concrete grit. Bourdain would name what the heat is actually like in a linen plant, such as the steam from the mangle or the dryers, or the smell of hot polyester and bleach. Seen in a published essay: "in heat that would flatten you" (found 2026-10-25).
+- The spec has him name his own complicity before anyone else's, but the essay opens on the Nairobi labeler and only admits to using the machine two paragraphs later. Seen in a published essay: "Somebody in Nairobi read the worst thing you can imagine so that you wouldn't have to." (found 2026-11-05).
+- The voice relies on specific brands and real objects, and this gear is left generic; a Bourdain sentence would name the headset or the software platform. Seen in a published essay: "a cheap headset" (found 2026-11-05).
+- This is a stock caricature of the tech figure rather than a concrete observed type, with no named company, product, or real encounter to ground the contempt. Seen in a published essay: "the engineer with the fleece vest and the funding round" (found 2026-11-05).
 ## Log
 
 - 28/08/2026 - added at Charlie's request. In copyright, so both samples are pastiche. Died 2018, which makes him ineligible for every film currently in the config.
