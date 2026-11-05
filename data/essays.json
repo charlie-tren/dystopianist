@@ -3512,5 +3512,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-05"
+  },
+  {
+    "date": "2026-11-05",
+    "thinker": "wallace",
+    "name": "David Foster Wallace",
+    "dates": "1962-2008",
+    "object": "podcasts",
+    "verdict": "the invoice removed",
+    "score": 3.6,
+    "essay": "Last Tuesday I spent forty-one minutes of a fifty-minute drive to Bloomington listening to two men I have never met discuss a third man I have also never met, and I can report that I retained nothing, and that I was happy. This needs examining. The two men were named, I think, Kyle and Dan, or possibly Kyle and Ben. Kyle laughed before Dan finished his jokes, a courtesy that in a room would be a kind of love and on a recording is a kind of weather. By minute twenty I had begun answering them. Not aloud. Well, once aloud, at a Toyota. Here is what I believe is going on, and I hold the belief loosely, since the person holding it is the same one who nodded at a Toyota. The thing is built so that nobody has to be looked at. Conversation without the labor of a face. You get the warm sound of being included, the cadence of people who have time, and you owe nothing: no follow-up question, no arranged expression, no remembering the dog's name. It is company with the invoice removed. Which would be fine, wonderful even, if I were not also the man who told his sister he was too busy to call. Dan, or Ben, is at least on a schedule. He turns up Thursdays.",
+    "generated": "2026-11-05T22:41:20+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-05"
   }
 ]

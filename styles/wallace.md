@@ -59,6 +59,8 @@ Source: pastiche written for this repo (still in copyright)
 - A reader of David Foster Wallace would have expected the essay to end with a more nuanced and self-reflective tone, rather than a simplistic and reassuring phrase. Seen in a published essay: "and tell me that everything is okay" (found 2026-10-11).
 - The closing line is a polished chiasmus that resolves the essay into a tidy epigram. A reader of Wallace would expect the self-indictment to be messier and more self-doubting, with the sincerity left unpolished rather than wrapped in wit. Seen in a published essay: "a grown man who cannot bear to be unambiguous and cannot bear to be ambiguous on purpose either." (found 2026-10-27).
 - The clipped, symmetrical couplet is a glib aphorism rather than the recursive self-interruption of a mind watching itself; Wallace would qualify or spiral on this self-characterisation instead of landing it cleanly. Seen in a published essay: "Sending, I am a poet. Receiving, a forensic accountant." (found 2026-10-27).
+- Stock phrasing that could describe any podcast or background conversation; Wallace would name the specific sound, cadence, or overheard detail rather than an abstraction. Seen in a published essay: "You get the warm sound of being included, the cadence of people who have time, and you owe nothing" (found 2026-11-05).
+- A tidy, self-contained epigram that closes the paragraph neatly; Wallace would let the observation spiral or qualify itself rather than land it as a polished line. Seen in a published essay: "It is company with the invoice removed." (found 2026-11-05).
 ## Log
 
 - 25/08/2026 - migrated from config/thinkers.yaml; Avoid list seeded from the first batch.
