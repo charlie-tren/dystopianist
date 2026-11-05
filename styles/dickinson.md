@@ -91,6 +91,8 @@ Source: Letter to T. W. Higginson, August 1862, in Higginson, Carlyle's Laugh, a
 - The relative clause explains the point in a comma-joined sentence where a dash should compress it into a sharper, shorter break. Seen in a published essay: "Reading, I had always given the characters my own voice, which was small, and they bore it." (found 2026-10-31).
 - The image is stretched into an elaborate, discursive clause; the voice expects a tighter figure that lands and stops, not one that unfolds. Seen in a published essay: "it lets you stop at a sentence as at a window until the sentence has finished with you" (found 2026-10-31).
 - The closing sentence draws out a moral in an explanatory clause; a Dickinson reader expects the point to stop at a concrete image like 'lamp' or 'dark' without the justifying tail. Seen in a published essay: "A voice is a lamp, and the lamp is not at fault that I preferred the dark." (found 2026-10-31).
+- The clause 'which surprised me' explains the speaker's reaction after the image has already landed; Dickinson would let the unsorry note stand and stop. Seen in a published essay: "I was not sorry for it, which surprised me." (found 2026-11-05).
+- The opening 'hands are a sort of speech' states the essay's thesis outright and then runs on in a comma-joined clause, where the voice would compress the point into a shorter, sharper break. Seen in a published essay: "Yet hands are a sort of speech, and Mother's, wrung red, said what no bureau drawer of folded linen says now." (found 2026-11-05).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Poems, Three Series (1890-96), Project Gutenberg #12242 via tools/gutenberg_shots.py.

@@ -3484,5 +3484,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-04"
+  },
+  {
+    "date": "2026-11-05",
+    "thinker": "dickinson",
+    "name": "Emily Dickinson",
+    "dates": "1830-1886",
+    "object": "the washing machine",
+    "verdict": "hands made idle",
+    "score": 2.8,
+    "essay": "It keeps a Tuesday inside it. Mother's Tuesday, I mean, with the copper boiling and the lye reddening her wrists, and the whole house made to hold its breath until the sheets were hung. Now a door is shut upon the matter, and the matter is private. I stood before it as before a small, white deacon. It hummed one note and meant it. Through the glass my own apron went round and round, a pale thing drowning without complaint, and I was not sorry for it, which surprised me. The soap is put in. The sorrows, if any, are not mentioned. It takes the stain and the name of the stain together, and returns the cloth with no memory of the berry. I am told it saves the hands. It does. Yet hands are a sort of speech, and Mother's, wrung red, said what no bureau drawer of folded linen says now. The linen is whiter. The hands are idle, and are learning what idle is, a garment that fits no one at first. It stops. A click, like a latch. Nothing is asked of me but to open, and I stand there, damp and unemployed.",
+    "generated": "2026-11-05T01:27:47+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-05"
   }
 ]
