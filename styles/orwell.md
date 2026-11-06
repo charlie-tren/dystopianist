@@ -15,6 +15,7 @@ name: George Orwell
 sort: Orwell
 dates: 1903-1950
 public_domain: True
+model: gemini
 ---
 
 # George Orwell
