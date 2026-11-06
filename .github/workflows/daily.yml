@@ -82,6 +82,14 @@ env:
   # site whose index IS the list of subjects.
   MIN_PER_WRITER: "2"
 
+# One writer at a time, shared with portraits.yml. Two overlapping runs each commit
+# their own copy of data/essays.json, and the Commit step's replay keeps its own
+# copy over the other's, so the race drops an essay rather than failing (15/10/2026
+# published two, and one run failed after three lost pushes).
+concurrency:
+  group: ghostwriters-writes
+  cancel-in-progress: false
+
 jobs:
   write:
     runs-on: ubuntu-latest

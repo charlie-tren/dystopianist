@@ -16,6 +16,11 @@ on:
     - cron: "41 23 * * *"
   workflow_dispatch:
 
+# Shared with daily.yml: both commit to master.
+concurrency:
+  group: ghostwriters-writes
+  cancel-in-progress: false
+
 jobs:
   draw:
     runs-on: ubuntu-latest
