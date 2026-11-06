@@ -142,7 +142,12 @@ def main() -> int:
     # Worst first: an essay that fails a gate is a defect on the page today, where one
     # that merely came from the fallback is a quality ceiling. On a night that gets two
     # calls, the defects should have them.
-    backlog.sort(key=lambda e: not faults(e, roster[e["thinker"]]))
+    # Then the closest pair in data/voice.json: its writers' essays hold the spread down.
+    try:
+        pair = set(json.loads((ROOT / "data" / "voice.json").read_text(encoding="utf-8"))["pair"])
+    except (OSError, KeyError, ValueError):
+        pair = set()
+    backlog.sort(key=lambda e: (not faults(e, roster[e["thinker"]]), e["thinker"] not in pair))
     gated = sum(1 for e in backlog if faults(e, roster[e["thinker"]]))
     print(f"{len(backlog)} of {len(entries)} published essays queued: "
           f"{gated} failing a gate, {len(backlog) - gated} for who wrote them")
