@@ -3526,5 +3526,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-05"
+  },
+  {
+    "date": "2026-11-06",
+    "thinker": "kafka",
+    "name": "Franz Kafka",
+    "dates": "1883-1924",
+    "object": "the washing machine",
+    "verdict": "a further interval",
+    "score": 2.4,
+    "essay": "The drum had stopped turning some while before I understood that I was not permitted to open it. The door, which a quarter of an hour earlier had been merely closed, was now locked, and a small lamp beside it, which I took to be a form of explanation, showed a symbol I had not seen on any previous occasion and which resembled, if anything, a key that had been crossed out by someone in a hurry. I stood in the passage with the basket against my hip, since to set it down would have meant admitting that the matter might take longer, and I had no wish to admit this to the machine, still less to the neighbour, whose own washing, I now noticed, hung already on the line in the courtyard, dry, as it had been, I think, every Tuesday. I do not complain of the water, which was drawn in and let out with great regularity, nor of the sound, which at least had the decency to vary. What I could not determine was whether the lock released itself at the end of the programme or only at the end of a further interval that belonged to no programme and was not shown. The booklet I consulted gave several numbers to telephone, all of them for faults I did not have. After a time the lamp went out, and I took this to be the first step, and waited for the second.",
+    "generated": "2026-11-06T01:32:07+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-06"
   }
 ]

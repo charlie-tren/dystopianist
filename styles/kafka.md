@@ -66,6 +66,9 @@ Source: The Trial, tr. David Wyllie, Project Gutenberg #7849
 - This balanced aphoristic antithesis states a general principle with a witty turn, where Kafka would stay with the particular case and describe the silence's registration literally. Seen in a published essay: "while silence is entered as well, only less carefully" (found 2026-11-02).
 - The sly ironic aside about the man's network is an essayist's wink; Kafka's narrator would report the man's description without editorial irony. Seen in a published essay: "which he described as modest" (found 2026-11-02).
 - The neat ironic punchline closes the piece on a quip, where Kafka's narrator would end flatly, still bound to the ongoing procedure rather than resolving it with wit. Seen in a published essay: "In the meantime I am endorsed, each week, for a skill I have never claimed." (found 2026-11-02).
+- The personified sound and its ironic 'decency' are a witty turn; a Kafka narrator would state the fact flatly, e.g. 'nor of the sound, which varied.' Seen in a published essay: "nor of the sound, which at least had the decency to vary" (found 2026-11-06).
+- This neat ironic punchline closes the paragraph on a quip; Kafka would let the futile procedure carry the dread and leave the booklet's numbers reported without a clever closing line. Seen in a published essay: "all of them for faults I did not have" (found 2026-11-06).
+- The epigrammatic reversal of 'explanation' is an essayist's wit; a Kafka narrator would describe the lamp's symbol literally without a clever gloss. Seen in a published essay: "which I took to be a form of explanation" (found 2026-11-06).
 ## Log
 
 - 02/09/2026 - second sample added from the same Wyllie translation. Chosen as the flat exact accumulation of detail about a room, because the site asks him to describe an object and the first sample is all interiority. The oppressiveness is in the inventory, not in any adjective.
