@@ -31,12 +31,14 @@ sys.modules["revoice"] = revoice
 spec.loader.exec_module(revoice)
 
 ROSTER = {t["id"]: t for t in styles.load()}
+# A voice with no `model:` line, so the fixtures test the fallback rules alone.
+T = "adams"
 GOOD = ("The machine hums in the corner of the scullery and eats an afternoon that "
         "used to belong to three women with red arms. " * 6)
 BAD = ("It is a testament to the relentless pursuit of convenience. " * 12)
 
 
-def entry(essay, thinker="orwell"):
+def entry(essay, thinker=T):
     return {"date": "2026-01-01", "thinker": thinker, "name": ROSTER[thinker]["name"],
             "dates": "1903-1950", "object": "the washing machine", "essay": essay,
             "verdict": "a carpeted box", "score": 4.0, "provider": "cloudflare",
@@ -64,12 +66,12 @@ def the_fallbacks_work_is_queued_even_when_it_passes(fails):
     is queued; identical prose from Gemini is not, or the queue never converges."""
     weak = entry(GOOD)
     weak["provider"] = "cloudflare"
-    if not revoice.listed(weak, ROSTER["orwell"]):
+    if not revoice.listed(weak, ROSTER[T]):
         fails.append("a clean essay by the fallback model was not queued")
-    if revoice.faults(weak, ROSTER["orwell"]):
+    if revoice.faults(weak, ROSTER[T]):
         fails.append("the fixture is not clean, so this proves nothing")
     good = dict(weak, provider=write_stage.SCORER)
-    if revoice.listed(good, ROSTER["orwell"]):
+    if revoice.listed(good, ROSTER[T]):
         fails.append("a clean essay by Gemini was queued, so the drain cannot converge")
     print("  clean prose: queued from the fallback, not queued from Gemini")
 
@@ -79,7 +81,7 @@ def only_prose_faults_put_an_essay_on_the_list(fails):
     an essay on this list for that reason would be rewritten every night forever."""
     e = entry(GOOD)
     e["score"] = None
-    got = revoice.faults(e, ROSTER["orwell"])
+    got = revoice.faults(e, ROSTER[T])
     if any(p.startswith(("score ", "verdict ")) for p in got):
         fails.append(f"a scoring fault reached the rewrite list: {got}")
     if got:
@@ -89,7 +91,7 @@ def only_prose_faults_put_an_essay_on_the_list(fails):
 
 def a_failing_essay_is_on_the_list(fails):
     """The control. Without this the check above passes on a gate that never fires."""
-    got = revoice.faults(entry(BAD), ROSTER["orwell"])
+    got = revoice.faults(entry(BAD), ROSTER[T])
     if not got:
         fails.append("an essay full of stock phrases was not listed")
     print(f"  stock-phrase prose is listed: {got[0]}")
@@ -171,9 +173,61 @@ def a_rewrite_whose_verdict_is_a_grade_is_re_read(fails):
     print("  a verdict that is not a grade is left alone")
 
 
+def an_essay_by_the_wrong_primary_is_queued(fails):
+    """A styles `model:` line names who writes that voice. Claude's essay for a
+    Gemini voice is queued; the same essay by Gemini is not, and a voice with no
+    model line queues neither."""
+    pinned = dict(ROSTER[T], model="gemini")
+    unpinned = {k: v for k, v in ROSTER[T].items() if k != "model"}
+    by_claude = dict(entry(GOOD), provider="claude")
+    by_gemini = dict(entry(GOOD), provider="gemini")
+    if not revoice.listed(by_claude, pinned):
+        fails.append("Claude's essay for a Gemini-pinned voice was not queued")
+    if revoice.listed(by_gemini, pinned):
+        fails.append("Gemini's essay for a Gemini-pinned voice was queued")
+    if revoice.listed(by_claude, unpinned):
+        fails.append("Claude's essay for an unpinned voice was queued")
+    print("  wrong primary for a pinned voice: queued; right one or unpinned: not")
+
+
+def it_refuses_the_other_primarys_rewrite(fails):
+    """If the pinned model does not answer and the other primary does, nothing is
+    accepted: that rewrite would put the essay straight back on the list."""
+    accepted = {}
+    real = dict(ROSTER[T])
+    ROSTER[T]["model"] = "gemini"
+    revoice_roster = revoice.styles.load
+
+    def stub(thinker, obj, **kw):
+        return GOOD, "a clean verdict", 5.0, "claude", True, "claude"
+
+    def roster():
+        return [dict(t, model="gemini") if t["id"] == T else t for t in revoice_roster()]
+
+    revoice.styles.load = roster
+    try:
+        # BAD, so it is queued by a gate too: the refusal is then tested on its own.
+        e = dict(entry(BAD), provider="claude")
+        import io
+        import contextlib
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            run(stub, [e])
+        if "->" in buf.getvalue():
+            accepted["yes"] = True
+    finally:
+        revoice.styles.load = revoice_roster
+        ROSTER[T].clear(); ROSTER[T].update(real)
+    if accepted:
+        fails.append("Claude's rewrite was accepted for a Gemini-pinned voice")
+    print("  the other primary's rewrite is refused for a pinned voice")
+
+
 def main() -> int:
     fails: list[str] = []
-    for check in (the_fallbacks_work_is_queued_even_when_it_passes,
+    for check in (an_essay_by_the_wrong_primary_is_queued,
+                  it_refuses_the_other_primarys_rewrite,
+                  the_fallbacks_work_is_queued_even_when_it_passes,
                   a_rewrite_whose_verdict_is_a_grade_is_re_read,
                   only_prose_faults_put_an_essay_on_the_list,
                   a_failing_essay_is_on_the_list,

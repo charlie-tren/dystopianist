@@ -117,6 +117,13 @@ def listed(entry: dict, thinker: dict) -> list[str]:
     why = faults(entry, thinker)
     if entry.get("provider") and entry["provider"] not in write_stage.PRIMARY_WRITERS:
         why.append(f'written by {entry["provider"]}, the fallback model')
+    # A `model:` line in a styles file names who writes that voice (06/11/2026). Six
+    # writers carry `model: gemini` because Claude's essays converged on each other;
+    # their Claude-written back catalogue held the voice spread at 0.37 against a 0.45
+    # floor, and dropping those 34 essays from the measure gave 0.46.
+    pref = thinker.get("model")
+    if pref and entry.get("provider") in write_stage.PRIMARY_WRITERS and entry["provider"] != pref:
+        why.append(f'written by {entry["provider"]}; {pref} writes this voice')
     return why
 
 
@@ -138,7 +145,7 @@ def main() -> int:
     backlog.sort(key=lambda e: not faults(e, roster[e["thinker"]]))
     gated = sum(1 for e in backlog if faults(e, roster[e["thinker"]]))
     print(f"{len(backlog)} of {len(entries)} published essays queued: "
-          f"{gated} failing a gate, {len(backlog) - gated} written by the fallback")
+          f"{gated} failing a gate, {len(backlog) - gated} for who wrote them")
     for e in backlog:
         print(f'  {(e.get("provider") or "?"):<11}{e["thinker"]:<11}'
               f'{e["object"][:24]:<25} {"; ".join(listed(e, roster[e["thinker"]]))}')
@@ -181,6 +188,12 @@ def main() -> int:
             print(f'  -- {e["thinker"]}/{e["object"]}: written by {provider}, not '
                   f"{'/'.join(write_stage.PRIMARY_WRITERS)} - left alone, "
                   f"stopping for today")
+            break
+        # RULE 1b. Where the styles file names the writer, only that model's rewrite
+        # counts; anything else means it did not answer (spent quota, dead key).
+        if thinker.get("model") and provider != thinker["model"]:
+            print(f'  -- {e["thinker"]}/{e["object"]}: written by {provider}, not '
+                  f'{thinker["model"]} - left alone, stopping for today')
             break
         # RULE 2. The replacement must clear the gates that rejected the original.
         new = dict(e, essay=essay, verdict=verdict, score=score)
