@@ -83,6 +83,7 @@ exists - a guess about a failure is worth much less than a quotation of it.
 - The machine comparison is a modern referent outside the ordinary and seasonal imagery the voice calls for; a reader of Confucius would expect the grading to rest on the conduct of the officer, or on something from daily human life. Seen in a published essay: "the line moves more easily than any machine could move it" (found 2026-10-21).
 - The spent/earned banking idiom is a commercial metaphor, and a reader of Confucius would expect the degree to be graded through conduct and character rather than through the language of exchange. Seen in a published essay: "trust is spent faster than it is earned" (found 2026-10-21).
 - This is an unattributed narrator's question, not reported speech. The voice should always arrive as "The Master said" with the words in quotation marks, so the question should be framed as a saying or dropped. Seen in a published essay: "Of those who are followed by many thousands and are known to none of them, what shall be said?" (found 2026-10-25).
+- The absolute 'wholly good' and 'wholly cold' declare people good or bad outright, where the voice should grade them by degree in parallel clauses. Seen in a published essay: "Where the good are wholly good and the unworthy wholly cold, there is little for the viewer to weigh." (found 2026-11-06).
 ## Log
 
 - 11/09/2026 - added at Charlie's request alongside Sun Tzu. Two real samples from
