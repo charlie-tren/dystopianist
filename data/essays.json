@@ -1965,11 +1965,11 @@
     "name": "Emily Dickinson",
     "dates": "1830-1886",
     "object": "anaesthesia",
-    "verdict": "kindly stolen hour",
-    "score": 4.2,
-    "essay": "They tell me a man may now be taken out of his own afternoon and returned to it, with the middle removed, and not know the seam. I have thought about the seam. A tooth is drawn, a limb parted from its owner, and the owner sits by, so to speak, in another room with the door shut and the lamp out. Nobody was there. That is the whole of the report, and I find it the stranger for being so plain. Pain, I had supposed, was the one guest who could not be refused. It came without a card and stayed past tea. Now it is told the house is closed, and it goes, and I am not sure the house is better. What was suffered unwitnessed was perhaps not suffered, and what was not suffered was perhaps not lived, and the surgeon, kind man, has taken an hour from the sum of a life as gently as a clerk takes a coin. Still I would not refuse it, if the knife were mine to bear. Courage is a fine garment, but it does not fit every shoulder, and I have seen it worn thin. Let the hour go. Only let them give back the one who left.",
+    "verdict": "a small theft in such comfort",
+    "score": 3.6,
+    "essay": "To step outside one’s own bone while the carpenter works upon the house—that is an audacious thrift. Pain was always a punctual neighbor; it knocked and stayed until the tea grew cold. This other visitor arrives with a sweet, heavy napkin, takes the candle from the bedside, and leaves the latch loose while strangers turn the floorboard. I tried the stupor once in a thought. It is like folding your frock upon a chair and walking out into the orchard without a shape. The knife comes, they tell me, but it finds only abandoned linen. When the mind steps back into its shoes, the stitch is already old, and the blood has forgotten where it intended to spill. Yet there is a small theft in such comfort. To miss the agony is to lose the arithmetic of the hour—God gave us anguish to mark the clock, lest we mistake eternity for a common meadow. I prefer to know when the timber cracks, though if the steel be too sharp for mortal bearing, I would not scold the bottle that lulls the house until the work is done.",
     "generated": "2026-09-26T18:02:42+00:00",
-    "provider": "claude",
+    "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-09-26"
   },
@@ -3568,5 +3568,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-06"
+  },
+  {
+    "date": "2026-11-07",
+    "thinker": "woolf",
+    "name": "Virginia Woolf",
+    "dates": "1882-1941",
+    "object": "influencers",
+    "verdict": "a shining commodity",
+    "score": 2.4,
+    "essay": "A slice of buttered toast, two pale figs, and a silver spoon sit upon a linen cloth, arranged not to satisfy an appetite, but to catch the morning light. A young woman tilts her face toward an invisible audience, holding her teacup at a precise angle before she takes a sip. We are accustomed to actors upon a stage, where greasepaint and footlights mark a clear boundary between illusion and the street; here, the domestic room itself has become the theatre, and every private gesture is polished into a shining commodity. She offers us her favourite cream, her morning thoughts, the very texture of her bedsheets, with the generous intimacy of a neighbour. Yet this warmth is a rigorous labour. To live inside such a spectacle is to turn one’s own existence into an ongoing exhibition, where even weariness must find a flattering frame. We gaze through the glass at this lit parlour, amused and perhaps envious of such tidy order. But as she smiles into the glass, one asks what remains of a person when the lamp is extinguished. It is the unrecorded shadow, surely, that keeps the mind whole.",
+    "generated": "2026-11-07T00:56:52+00:00",
+    "provider": "gemini",
+    "scored_by": "claude/100",
+    "reread": "2026-11-07"
   }
 ]
