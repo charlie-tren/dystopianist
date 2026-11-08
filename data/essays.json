@@ -2021,11 +2021,11 @@
     "name": "Emily Dickinson",
     "dates": "1830-1886",
     "object": "podcasts",
-    "verdict": "a curious thing",
-    "score": 4.2,
-    "essay": "Someone is always talking in the kitchen now, and no one has come in. The dishes know it. I have watched a woman dry one plate for the length of a stranger's whole opinion on bread, and nod. She was not unkind to the voice. She was only unable to be rid of it, and did not wish to be. The old arrangement was that a voice required a body, and a body required a chair, and the chair required that you rise and offer it tea. This has been dispensed with. The voice asks nothing. It does not notice the hour you wept, or the hour you stopped listening and merely let it run, as one leaves a door ajar for a cat that is dead. I do not call it company. Company can be disappointed in you. But I will say it is a mercy for the long errands, the stairs, the sleepless ceiling, and I will say too that two people agreeing for an hour, pleasantly, to be overheard, is a curious thing to have built. We were always eavesdroppers. We have only made the wall thinner on purpose, and paid it for being so.",
+    "verdict": "barter our stillness",
+    "score": 2.7,
+    "essay": "A stranger in the apron pocket is a silent guest until touched. He speaks directly to the bone behind the ear, requiring neither tea nor saucer for his stay. I can carry a sermon or a scandal past the well-sweep while the clover is wet, yet never look the speaker in the face. It is a prompt visit—the guest enters without knocking and departs without a bonnet. In the parlor, a neighbor expects a reply; this traveler asks only an ear, then vanishes when the latch turns. We used to store solitude in a drawer—like silver, to be taken out on cold afternoons. Now we fill the hallway with chatter from towns we never saw, uttered by folks who would pass us on the road without a nod. A voice without a body is a light thing to carry, yet it crowds the room like furniture. I listened while mending a tear and found the house suddenly occupied by distant griefs. The thread went through—but the quiet had left the linen. We barter our own stillness for the talk of a ghost who never waits to hear if we agreed.",
     "generated": "2026-09-27T20:12:56+00:00",
-    "provider": "claude",
+    "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-09-27"
   },
@@ -2049,11 +2049,11 @@
     "name": "Emily Dickinson",
     "dates": "1830-1886",
     "object": "dating apps",
-    "verdict": "the whole difficulty",
-    "score": 3.2,
-    "essay": "A face arrives at breakfast, and is dismissed before the egg is cold. I have known gentlemen who took a whole winter to decide on a bow. Here the verdict is a thumb's width, and the thumb is not even sorry. What strikes me is the abundance. A garden of one rose teaches the gardener everything; a field of ten thousand teaches him only to walk. Each person is held up like a coin to the light, tested, and put back in the dish, and the dish never empties, which I take to be the whole difficulty. Nothing is scarce enough to be believed. The little lines they write beneath themselves, fond of hiking, fond of dogs, are the shy things. They are the nearest to a letter. But a letter was a thing one waited for until the waiting became its own acquaintance, and this arrives answered before it is asked. Yet I will not scold. The wish beneath it is old and decent, to be chosen, and it has only changed its dress. I would say, though, that to be chosen quickly is a smaller thing than to be chosen slowly. A door that opens to every knock has not been much of a door.",
+    "verdict": "a terrible convenience",
+    "score": 1.4,
+    "essay": "To turn a suitor away by the thumb requires less effort than to sweep the hearth, yet the parlor fills with their shadows just the same. We take the face upon the glass as we take a swatch of calico from the peddler, holding it to the light to see if the pattern will wash, and throwing it to the floor if the thread is thin. I have seen whole parishes of men discarded before the kettle could boil - a speed that would astonish the robin, who takes an hour to choose a straw. It is an economy of affection that makes the heart a merchant. We buy the smile without the voice, and when the voice arrives, it is often a stranger to the face. The glass promises an infinity of neighbors, yet the room remains empty as a thimble. We sit with our small tray of portraits, sorting the living like dried herbs, while outside, the sun goes down without any assistance from our choice. One rejects a life between two winks of the eye. It is a terrible convenience - to lock the door against a man who never walked up the steps.",
     "generated": "2026-09-28T18:01:27+00:00",
-    "provider": "claude",
+    "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-09-28"
   },
@@ -3610,5 +3610,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-07"
+  },
+  {
+    "date": "2026-11-08",
+    "thinker": "dickinson",
+    "name": "Emily Dickinson",
+    "dates": "1830-1886",
+    "object": "LinkedIn",
+    "verdict": "a curious thrift",
+    "score": 1.5,
+    "essay": "To pin one's name upon a gate, and solicit the passerby for a penny of esteem, is an errand I had thought left to the hawker. Yet here is a parlor where every guest arrives bearing a slate of his own virtues, freshly chalked and offered for inspection. A neighbor shows his ledger of industrious mornings, and another counters with a certificate of diligence—as if the soul were an apprentice to be hired by the hour. I tried on such esteem once—it fitted like a coat of iron, heavy at the hem and cold to the collar. It is a curious thrift that buys acquaintance with testimonials. One collects gentlemen as another collects pewter spoons, counting the row to see if he is wealthy in eyes. They speak of prospects as if the Future were a mill to be driven by their own small wheel. But a name exposed too long in the sun turns yellow, like linen left upon the grass past dusk. I prefer my own small dark, where nobody asks my occupation—and the cricket gives no reference.",
+    "generated": "2026-11-08T00:35:36+00:00",
+    "provider": "gemini",
+    "scored_by": "claude/100",
+    "reread": "2026-11-08"
   }
 ]
