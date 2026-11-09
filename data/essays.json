@@ -3666,5 +3666,19 @@
     "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-11-09"
+  },
+  {
+    "date": "2026-11-09",
+    "thinker": "woolf",
+    "name": "Virginia Woolf",
+    "dates": "1882-1941",
+    "object": "LinkedIn",
+    "verdict": "glass shopfronts",
+    "score": 1.3,
+    "essay": "Let us step for a moment into this immaculate drawing room where no one ever sits down, but each person stands stiffly by the window holding out a crisp, white card. On it is written, in the neatest black ink, every dinner he has ever attended, every compliment paid to him by a magistrate, and the precise sum of his virtues. We watch him add another line with a gold pen, smiling at his neighbour, who is busy writing an equally glowing account of his own industrious habits. How extraordinary, we say, that anyone should wish to live in a house made entirely of glass shopfronts; yet here they all are, dusting their own busts, adjusting the light to catch their best profile. To admit to a failure of energy, or a Tuesday spent gazing out at the rain, would be to shatter the glass altogether. The air smells faint of varnish and freshly printed paper. One turns away from these radiant portraits of success and feels, against the palm, the cold, comforting handle of a wooden door leading out into the dark garden, where a cabbage leaf sways silently in the damp wind.",
+    "generated": "2026-11-09T18:01:12+00:00",
+    "provider": "gemini",
+    "scored_by": "claude/100",
+    "reread": "2026-11-09"
   }
 ]

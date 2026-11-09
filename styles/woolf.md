@@ -67,6 +67,8 @@ Source: The Common Reader (1925), Project Gutenberg #64457
 - The abstraction 'rigorous labour' delivers a verdict on the scene; Woolf would hold the warmth and the strain side by side in a concrete sensation, not conclude with a tidy judgment. Seen in a published essay: "Yet this warmth is a rigorous labour." (found 2026-11-07).
 - Feelings are labelled ('amused', 'envious') and 'tidy order' is abstract, where Woolf would convey the watching mood through a felt bodily or visual detail. Seen in a published essay: "amused and perhaps envious of such tidy order" (found 2026-11-07).
 - The question is asked and immediately answered rather than circled and explored; the answer 'surely' and 'keeps the mind whole' is an abstract conclusion, where Woolf would keep the question open and close on an image. Seen in a published essay: "one asks what remains of a person when the lamp is extinguished. It is the unrecorded shadow, surely, that keeps the mind whole." (found 2026-11-07).
+- This states a moral consequence (what confession would do to social standing) rather than rendering from inside how the pressure of keeping up feels, as a Woolf essay would through a bodily or sensory detail. Seen in a published essay: "To admit to a failure of energy, or a Tuesday spent gazing out at the rain, would be to shatter the glass altogether." (found 2026-11-09).
+- 'Sum of his virtues' is an abstract accounting metaphor that argues a point about value, where Woolf would convey the card's contents through a concrete, felt detail. Seen in a published essay: "the precise sum of his virtues" (found 2026-11-09).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from The Common Reader (1925), Project Gutenberg #64457 via tools/gutenberg_shots.py.
