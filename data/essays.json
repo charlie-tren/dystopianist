@@ -3722,5 +3722,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-10"
+  },
+  {
+    "date": "2026-11-10",
+    "thinker": "whitman",
+    "name": "Walt Whitman",
+    "dates": "1819-1892",
+    "object": "Shrek (2001)",
+    "verdict": "the joke lands",
+    "score": 7.2,
+    "essay": "Went last evening to see the green ogre, and came out into the street a good deal cheer'd. Swamp, outhouse, onion, mud-bath, a pot of something boiling; then the castle, the lava, the drawbridge, the dragon chain'd up in her cellar of bones. All of it made out of numbers, I am told, by hundreds of young men and women at their desks, and yet the mud looks like mud, the ear-wax like ear-wax, the donkey's hide takes the light as a real hide does. The fairy people of the old books are turn'd out of their houses and driven into his bog--Pinocchio, three pigs, a gingerbread man, the wolf in the grandmother's nightcap, Robin Hood and his Merry Men doing Chinese kicks. I enjoy the roll-call; I enjoy the crowd. Songs of the juke-box, not of the cathedral: Smash Mouth, a Monkees tune, a Leonard Cohen thing sung low over a montage. The lord of the castle is a small man in a tall house--the joke is plain and it lands. The ogre himself, a big plain fellow, wants his privacy and gets a donkey, a princess, a wedding, a belch. The picture winks at its audience incessantly; sometimes too much, I think. But the swamp stays with me, and the donkey's talk, and the last green face in the lamplight.",
+    "generated": "2026-11-10T22:24:34+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-10"
   }
 ]

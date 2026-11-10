@@ -65,6 +65,9 @@ Source: Specimen Days (1882), Project Gutenberg #8813
 - The summary is abstract moralising ('the real thing', 'made equal'). Whitman would name the men and their things in the order seen, not sum them up as a theme. Seen in a published essay: "Here is the real thing, men of different callings made equal by an enemy." (found 2026-10-30).
 - This is a neat aphorism, the kind of generalising flourish an essayist adds. Whitman's jotted notes would give the engines and rail themselves without a moral turn. Seen in a published essay: "the tools of the trade turn'd against the tradesman" (found 2026-10-30).
 - The closing is an abstract moral conclusion stated as an opinion. Whitman's unembarrassed delight would come through in the catalogue, not in a tidy lesson. Seen in a published essay: "It wants us also to stand by one another, and that part I believe." (found 2026-10-30).
+- This is a generalising antithesis, a tidy essayist's flourish; Whitman would name the songs seen (Smash Mouth, a Monkees tune, a Leonard Cohen thing) and let them stand without a contrast. Seen in a published essay: "Songs of the juke-box, not of the cathedral" (found 2026-11-10).
+- This is a critic's verdict on the work's effect; Whitman would show the joke in the things seen (the small man in the tall house) rather than appraise it. Seen in a published essay: "the joke is plain and it lands" (found 2026-11-10).
+- This is an evaluative judgment stated as opinion with a hedge; Whitman's notes would record the winking in concrete particulars instead of weighing it. Seen in a published essay: "The picture winks at its audience incessantly; sometimes too much, I think." (found 2026-11-10).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Specimen Days (1882), Project Gutenberg #8813 via tools/gutenberg_shots.py.
