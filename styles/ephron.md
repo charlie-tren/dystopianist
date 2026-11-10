@@ -41,6 +41,8 @@ Source: pastiche written for this repo (still in copyright)
 - A reader of Nora Ephron would have expected a more conversational and humorous tone, perhaps with a specific example or anecdote, instead of a generic phrase. Seen in a published essay: "a paid stranger" (found 2026-10-03).
 - "Dundee marmalade" names a style, not a product; Ephron would name the actual jar, such as a specific maker's marmalade, as she does with real brands. Seen in a published essay: "I bought a jar of Dundee marmalade on the way home." (found 2026-10-22).
 - "the Tube escalator" is generic; Ephron would pin it to a named station or street, the way she names real places and brands. Seen in a published essay: "It wants you to say hello to a stranger on the Tube escalator" (found 2026-10-22).
+- A generic product description where Ephron would name the brand or model of the bed or mattress, as she does with the Pratesi sheets in the same sentence. Seen in a published essay: "a lumpy mattress" (found 2026-11-10).
+- The gown is left generic; Ephron would pin the complaint to a specific item or maker, not a category of object. Seen in a published essay: "complain about the hospital gown" (found 2026-11-10).
 ## Log
 
 - 25/08/2026 - added. Both samples are mine: she died in 2012 and is in copyright until 2083, so there is no free source. Expect a looser likeness than the writers with real prose.
