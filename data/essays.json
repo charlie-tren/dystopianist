@@ -3708,5 +3708,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-10"
+  },
+  {
+    "date": "2026-11-10",
+    "thinker": "bourdain",
+    "name": "Anthony Bourdain",
+    "dates": "1956-2018",
+    "object": "emojis",
+    "verdict": "digital garnish",
+    "score": 1.4,
+    "essay": "I have sent the thumbs-up to a man who had just told me his mother was in the hospital. Not proud of it. My thumb was faster than my conscience, and there it went, a little yellow fist of approval, off into the night with all the warmth of a rubber stamp at the DMV. That's the confession. Now the rest. The defense of these things is always the same: tone. Text is cold, they say, and the little faces put the heat back. Maybe. But I spent twenty years in kitchens where nobody had time for tone, and we managed to say everything. A cook who slams your pass with the flat of a sauté pan has told you his whole opinion of the fish. A look across the line at 9:40 on a Saturday carries a paragraph. That's language. It costs you something to produce. The crying-laughing face costs nothing. That's the problem. It is the garnish of the digital age: a sprig of parsley on every plate, whether the plate is a eulogy or a parking ticket. And like all garnish, it mostly exists to cover for the cook who had nothing to say. Say the thing. Or don't. But don't send me the little yellow guy.",
+    "generated": "2026-11-10T18:00:43+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-10"
   }
 ]
