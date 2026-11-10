@@ -52,6 +52,7 @@ a{color:inherit}
   padding:.42rem .82rem;border:1px solid var(--rule);border-radius:999px;background:transparent;
   color:var(--dim);font:500 12.5px/1 var(--sans);letter-spacing:.02em;text-transform:none}
 .theme-toggle .dot{width:8px;height:8px;border-radius:50%;background:var(--accent)}
+.theme-toggle .lbl[data-t]::after{content:attr(data-t)}
 .theme-toggle:hover{color:var(--ink);border-color:var(--accent)}
 h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0 .5rem;
   letter-spacing:-.01em;text-wrap:balance}
@@ -214,7 +215,7 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 <body>
 <div class="wrap">
   <div class="bar">
-    <button class="theme-toggle" id="tog" type="button" aria-label="Switch to light theme"><span class="dot" aria-hidden="true"></span><span class="lbl">Light</span></button>
+    <button class="theme-toggle" id="tog" type="button" aria-label="Switch to light theme"><span class="dot" aria-hidden="true"></span><span class="lbl" data-t="Light"></span></button>
     <a class="home" href="https://charlietrenorden.com/"><span class="back">&larr;</span>&nbsp;Other projects</a>
   </div>
   <h1 class="titled"><img class="face" src="../faces/suntzu.jpg" alt="" width="76" height="76" loading="lazy"><span>Sun Tzu</span></h1>
@@ -234,7 +235,7 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
   (function(){
     var r=document.documentElement,b=document.getElementById("tog");
     function sync(){var t=r.getAttribute("data-theme")==="dark"?"Light":"Dark";
-      b.querySelector(".lbl").textContent=t;b.setAttribute("aria-label","Switch to "+t.toLowerCase()+" theme");}
+      b.querySelector(".lbl").dataset.t=t;b.setAttribute("aria-label","Switch to "+t.toLowerCase()+" theme");}
     sync();
     b.addEventListener("click",function(){
       var light=r.getAttribute("data-theme")!=="light";
