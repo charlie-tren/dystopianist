@@ -2819,11 +2819,11 @@
     "name": "Leo Tolstoy",
     "dates": "1828-1910",
     "object": "group chats",
-    "verdict": "deception, not friendship",
-    "score": 0.7,
-    "essay": "A man who belongs to a group chat belongs to a crowd that he cannot leave without giving offence, and that he cannot remain in without giving up his time, his attention, and at last his judgement. Forty people, most of whom he would not cross the road to visit, send him through the day a stream of remarks, pictures and agreements, and he answers each of them, because to be silent is to be noticed, and to be noticed is the thing he fears. This is called friendship. It is not friendship. Friendship is the union of two souls in a common striving after the good; here there is no striving and no good, only the need not to be forgotten. The man who writes does not wish to say anything, and the man who reads does not wish to hear it; each pays the other with the same empty coin and each calls himself rich. Meanwhile the hours given to this exchange are taken from work, from the family, from the thought of how one ought to live. And who has made the instruments on which it is carried? Men who labour in mines and factories, for wages on which they cannot themselves buy rest. The idle are thus amused at the cost of the toiling, and are amused by nothing. Group chats unite no one. They deceive men into believing they are united, and that deception is their whole purpose and their whole effect.",
+    "verdict": "senseless chatter",
+    "score": 0.5,
+    "essay": "Men who do not work with their hands assemble in digital groups to send each other endless messages that express no genuine thought and serve no useful purpose. In these gatherings, dozens of idle people write without stopping, responding to every trifle and filling their hours with continuous, meaningless talk. They convince themselves that this constant exchange brings them together, but it does not bring them together; it only prevents them from ever remaining quiet with their own consciences or seeing the truth of their existence. A man who spends his day reading and sending hundreds of brief, empty remarks to a crowd of acquaintances becomes incapable of serious thought, incapable of silence, and incapable of true love for his neighbour. Meanwhile, the labouring people must plough the fields, bake the bread, and maintain the very physical machinery that enables these idle men to transmit their senseless chatter across distances. Whatever time a man devotes to this friction of trivial words is time stolen from his moral duties. It is a system designed to keep the privileged classes perpetually occupied with nothing, so that they may never realise the injustice of their lives or the futility of their daily existence.",
     "generated": "2026-10-18T23:11:42+00:00",
-    "provider": "claude",
+    "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-10-18"
   },
@@ -3197,11 +3197,11 @@
     "name": "Friedrich Nietzsche",
     "dates": "1844-1900",
     "object": "self-checkout machines",
-    "verdict": "obedience called independence",
-    "score": 1.1,
-    "essay": "The shop has discovered that the customer will work for nothing, and will thank it for the privilege. That is the whole invention; the rest is plastic and a scale that takes offence at a banana. Consider what was once exchanged across a counter: a glance, a remark about the weather, the small friction of one person being obliged to notice another. This was not a virtue, I grant; it was a habit of mutual recognition, and habits of that kind are the mortar of whatever we call a society. Now the mortar is dispensed with and the wall is declared more efficient. Observe the man at the machine. He scans, he bags, he is told by a patient female voice that an unexpected item has appeared in the bagging area, and he submits - he who would bristle at a clerk's tone accepts the reproach of a lamp and a speaker. Here is obedience that has learnt to call itself independence. He believes he has been freed from a queue; he has been promoted to an unpaid post, and has not even been given the dignity of a title. The owner, meanwhile, counts the wages he no longer pays. Both parties are content. That is what I find so instructive: nobody is deceived, and nobody minds.",
+    "verdict": "voluntary servitude",
+    "score": 1.4,
+    "essay": "The modern creature desires above all else to remain unseen: he has turned his daily trade into an exercise in stealth. Watch him stand before the glowing altar of the silent pedestal—he does not seek efficiency, whatever he may tell himself, but immunity. He prefers the cold, electronic chime of an unblinking sensor to the eyes of a clerk: in the glance of a living neighbour there is always friction, the terrifying risk of rank, of judgment, of an unscripted word. To exchange a coin with a man demands a momentary encounter between wills; to scan one's own loaf before an unfeeling glass demands only obedience. The machine commands him, reproaches him with its mechanical pulse, orders him to wait or replace his burden, and he obeys with a docility he would never show a master of flesh and blood. Convenience is the polite mask of cowardice. He has traded the trivial discipline of human fellowship for a voluntary servitude to copper and glass. In his terror of the smallest confrontation, the little man has built a world where he may buy his daily bread without ever risking the burden of a human glance: he is a master who has turned himself into his own shop-boy.",
     "generated": "2026-10-28T18:00:41+00:00",
-    "provider": "claude",
+    "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-10-28"
   },
@@ -3680,5 +3680,19 @@
     "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-11-09"
+  },
+  {
+    "date": "2026-11-10",
+    "thinker": "adams",
+    "name": "Douglas Adams",
+    "dates": "1952-2001",
+    "object": "audiobooks",
+    "verdict": "a hidden flaw",
+    "score": 3.0,
+    "essay": "The curious thing about being read to is that it was abolished, with great ceremony, at about the age of seven, on the grounds that one had learned to do it oneself, and has now been reinstated for adults on the grounds that they have not got the time. This is the real selling point. Nobody listens to a book because they want to hear it. They listen because the alternative was not reading it at all, and a person who has spent forty minutes on a motorway with a novel in the passenger seat feels, quite reasonably, that the book is now in some way in the car and the matter has been dealt with. The arrangement has a hidden flaw, which is that the book proceeds at the speed of a man in a studio, and not at the speed of the listener. A reader who encounters a dull paragraph skims it. A listener must sit through all of it while it is delivered, with perfect diction and unwavering sincerity, by someone who has been paid to find it fascinating and has done an excellent job. He also does the voices. Every character in the book is now somebody's impression of a person, and the heroine will sound like that for the rest of your life. Still, it is hard to condemn anything that has got a whole nation to finish a book while washing up. Whether they have read it is a question the dishes do not ask.",
+    "generated": "2026-11-10T00:43:24+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-10"
   }
 ]
