@@ -93,6 +93,9 @@ Source: "Pleasure Spots" (1946), Fifty Orwell Essays, Project Gutenberg Australi
 - 'Virtue' is an abstract noun that generalises the sensible man's motive; Orwell would show the motive in his conduct rather than name a quality. Seen in a published essay: "not out of any saintly virtue" (found 2026-11-09).
 - 'Squalid staircase' is a writerly, ornamental image; Orwell would stay with the plain fact of the knees and elbows jammed together. Seen in a published essay: "the whole cabin becomes a squalid staircase of tilted knees and jammed elbows" (found 2026-11-09).
 - 'Sense of mastery' is an abstract Latinate-leaning phrase, and the elaborate simile reaches for a flourish where Orwell would state the plain effect: the button makes you feel you have got your way. Seen in a published essay: "It gives a brief, false sense of mastery, like taking an inch of land in a crowd by putting your elbows out." (found 2026-11-09).
+- 'The ordinary person' is an abstraction. Orwell would name a concrete figure, such as the family in the cheap seats or the man who has paid for his ticket, rather than generalise. Seen in a published essay: "the movie pretends to strike a blow for the ordinary person" (found 2026-11-11).
+- The abstract noun 'cynicism' carries the point and drifts from 'the viewer' to 'he'. Orwell would show the smugness in a particular line or gesture from the film instead of naming a quality. Seen in a published essay: "a smug, modern cynicism that assures the viewer he is too clever to believe in traditional fables" (found 2026-11-11).
+- The balanced triad of adjectives is rhetorical polish. Orwell would give one plain, concrete fact about the studio's money, such as the tickets, the merchandise, or the sequels. Seen in a published essay: "an enterprise just as vast, slick, and calculated as his" (found 2026-11-11).
 ## Log
 
 - 25/08/2026 - migrated from config/thinkers.yaml; Avoid list seeded from the first batch.

@@ -3057,11 +3057,11 @@
     "name": "George Orwell",
     "dates": "1903-1950",
     "object": "The Matrix (1999)",
-    "verdict": "a flattering lie",
-    "score": 2.3,
-    "essay": "The green writing is the best thing in the film. It runs down the screen in a cascade of letters, and when Neo is shown how to read it he sees a woman in a red dress where the others see only code. After that the film has little left to show us, and spends two hours showing it anyway. The oddity is that the world inside the machine is so dull. A grey office, a grey boss, a cubicle, a telephone: this is the lie we are told to pity, and the film plainly believes it is the worst thing that could happen to a man. Yet when the rebels go in, they dress in black leather and sunglasses and walk through a lobby shooting the guards, who are ordinary men with wages and children, and nobody gives them a thought. They are only part of the program. This is convenient. A film that tells you the world is false has also told you that its inhabitants do not count. And the hero is chosen. He does nothing to earn it; he is told he is the One, and the prophecy comes true. The audience is not asked to wake up. It is asked to feel that it is already the sort of person who would, which is a flattering thing to be told by a company selling tickets.",
+    "verdict": "comforting fantasy",
+    "score": 1.6,
+    "essay": "A clerk sitting at his desk in a dark woollen coat likes to imagine that his real life is happening somewhere else. The picture houses profit from this belief by telling him that the office he works in, the rain outside, and the cold tea in his cup are all part of a vast lie invented by machine men to keep him quiet. It is a very comforting idea. If the world is merely a trick played upon your senses, you are no longer responsible for your own misery. You do not have to ask why you take orders from a manager you dislike, or why you spend your evenings in a draughty parlour; you can simply pretend that none of it is real. The trouble with this sort of fantasy is that it makes rebellion look too easy. You are invited to believe that by making a single brave choice, by swallowing a small coloured pill in a back room, you can shatter the whole machinery of state power. But real power is never broken by a trick of the mind. It is maintained by policemen, coal miners, and tax collectors, and if you want to change it, you have to do something far more exhausting than watching a man in black spectacles dodge bullets.",
     "generated": "2026-10-24T19:32:06+00:00",
-    "provider": "claude",
+    "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-10-24"
   },
@@ -3113,11 +3113,11 @@
     "name": "Virginia Woolf",
     "dates": "1882-1941",
     "object": "airport security",
-    "verdict": "shameful pause",
-    "score": 2.7,
-    "essay": "Consider the grey plastic tray, which has no business to be moving us as it does. Into it go the shoes, still warm from the foot, and the belt that held up one's dignity, and the little coins that have been rattling companionably in a pocket since morning; and there they lie, under the strip lights, like the contents of a drowned man's pockets laid out for identification. We stand in our socks. Nobody has told us to be humble, yet the floor, which is cold, has told us, and we shuffle forward in a line of strangers who have all, for the moment, become equally suspect and equally innocent. It is a curious rite, and the curiosity lies in its courtesy. Nobody is rude. A young woman with a tired, kind face asks whether there is anything in the pockets, and I find that I am searching them, genuinely searching, as if I might turn out to have forgotten a crime. Then the arch, the arms lifted like a saint's in a window, the small shameful pause while the machine considers my heart. Is it the buckle? Is it the intention? Beyond the glass the aeroplanes stand about on the wet concrete, enormous and indifferent, and I walk toward them with my shoes in my hand, feeling the grit of the carpet through my stocking.",
+    "verdict": "awkward surrender",
+    "score": 2.4,
+    "essay": "Consider the heavy wool coat, unbuttoned in haste and laid flat in a shallow grey tray. Alongside it goes the small, intimate clutter of our pockets—the brass keys, the folded letter, the pen with its nib safely retracted—exposed under the indifferent glare to strangers who do not know our names; yet we offer them up with a docile, almost rhythmic obedience. We step forward without our boots, feeling instantly diminished in height and absurdly delicate upon the cold floor, as though stripped not merely of leather, but of that protective varnish with which a civilised person moves through a crowd. What do we hope to prove by this awkward surrender? That we harbour no harm, perhaps; but the mind rebels against the cold inspection of the tall frame as we pass through its upright arch. One gathers the warm coat, buckles the belt once more, and slides the silver coins back into the dark of a pocket. The whole spectacle ends as abruptly as it began, leaving behind only the faint, foolish sensation of having stood bare-footed before an unseen judge.",
     "generated": "2026-10-25T23:16:17+00:00",
-    "provider": "claude",
+    "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-10-25"
   },
@@ -3736,5 +3736,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-10"
+  },
+  {
+    "date": "2026-11-11",
+    "thinker": "orwell",
+    "name": "George Orwell",
+    "dates": "1903-1950",
+    "object": "Shrek (2001)",
+    "verdict": "thoroughly commercialised rebellion",
+    "score": 2.8,
+    "essay": "The central joke of Shrek is that a fat, foul-smelling monster in a swamp is preferable to a neat tyrant in a castle. Lord Farquaad rules Duloc as a tidy municipal park where no one may drop a wrapper, while Shrek lives contentedly in his own mud. The film is rendered entirely by computer, yet its chief business is to mock the smooth, sanitised world that digital pictures usually produce. Every old fairy-tale rule is turned inside out to make the audience feel sharp for noticing the trick. When the story ends not with a handsome prince but with two ogres remaining green and heavy, the movie pretends to strike a blow for the ordinary person. Yet this rebellion is thoroughly commercialised. The film leans on loud pop tunes and a smug, modern cynicism that assures the viewer he is too clever to believe in traditional fables. We are asked to laugh at the rigid, artificial order of Lord Farquaad’s town, but we leave the theatre having paid our money to an enterprise just as vast, slick, and calculated as his.",
+    "generated": "2026-11-11T01:14:31+00:00",
+    "provider": "gemini",
+    "scored_by": "claude/100",
+    "reread": "2026-11-11"
   }
 ]
