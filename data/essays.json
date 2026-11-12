@@ -145,13 +145,14 @@
     "name": "Friedrich Nietzsche",
     "dates": "1844-1900",
     "object": "dating apps",
-    "verdict": "pathetic comfort",
-    "score": 0.7,
-    "essay": "The modern soul demands above all things that love be rendered painless—and in doing so, it destroys the very soil out of which love grows. What is this digital market of faces if not the final triumph of the small man, who trembles at the thought of rejection, of conflict, of the violent collision of two wills? He wishes to select his destiny as one selects a sausage at the butcher: pre-inspected, guaranteed, stripped of all dangerous ambiguity. One flicks a finger, and the troubling mystery of another human being is reduced to a flickering image, a commodity to be approved or dismissed without the slightest expenditure of spirit. This is the morality of the herd made invisible: the total elimination of risk. But where there is no risk, there is no value; where there is no danger, there is only the pathetic comfort of swine huddling together against the frost. You believe you are choosing a partner—in truth, you are merely organizing your own anaesthesia. You have traded the terrible magnificence of the encounter for a machine that promises you will never again have to suffer the agony of a gaze that does not look back.",
+    "verdict": "diminished instinct",
+    "score": 0.9,
+    "essay": "To select a lover from a gallery of silent miniatures: this is the true measure of a diminished instinct. One sits in comfort and dismisses with a finger every countenance that threatens to demand an effort, a struggle, or a tragedy. Love was once a dangerous combat, a wrestling of two wills where victory was rare and defeat was bloody; today it is reduced to a sanitised market where the customer is guaranteed against the insult of refusal. The modern creature demands that passion be delivered without the friction of the conquest. He turns his gaze to a harmless display of faces, each one polished to assure him of its safety, as if devotion were a transaction concluded before the encounter begins. He wants neither the wound nor the glory: he wants an arrangement. He fears the unpredictable neighbour; he requires a guarantee that his pride will remain unblemished. Thus the noble risk of devotion and hostility is traded for an endless inventory of trivial choices. In this silent theatre, every victory is hollow, because every adversary was pre-selected for her willingness to yield. He believes he is pursuing desire: in truth, he is curating his own cowardice.",
     "generated": "2026-08-25T20:54:20+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
-    "reread": "2026-09-03"
+    "reread": "2026-09-03",
+    "revoiced": "2026-11-12"
   },
   {
     "date": "2026-08-25",
@@ -159,13 +160,14 @@
     "name": "Friedrich Nietzsche",
     "dates": "1844-1900",
     "object": "escape rooms",
-    "verdict": "counterfeit agony",
-    "score": 0.8,
-    "essay": "To seek out a lock merely for the pleasure of finding its key—that is the final, pathetic refinement of a race that has forgotten how to bleed. The modern coward demands the thrill of the dungeon, but only on the condition that the gaoler holds the clock and guarantees his supper. Observe these voluntary prisoners: they gather in small, eager herds to solve petty riddles constructed by clerks as hollow as themselves; they cheer when a false door springs open, believing they have achieved a triumph of the spirit. It is not liberation they desire, but the illusion of peril without its terrible price. True overcoming is forged only in the furnace of necessity, where failure means ruin and the walls do not part for a fee. But the little man cannot bear necessity—his nerves are too fragile, his soul too soft. He requires a crisis with an appointment: a catastrophe that expires in sixty minutes. He pays his coin for this counterfeit agony so that he may return to his comfortable numbness, persuaded that he has wrestled with fate—when he has merely played at captivity.",
+    "verdict": "quiet desperation",
+    "score": 1.0,
+    "essay": "Modern man craves the sensation of overcoming, yet he trembles before actual danger: thus he invents a theatre of artificial panic. He pays a proprietor to lock him inside a painted cell with wooden padlocks: he desires the thrill of a crisis without suffering the agony of a single real consequence. He arranges his own mock-tribulation, watches a clock count down the minutes of a manufactured doom, and celebrates when a hidden latch releases him into a carpeted corridor. This play-acting reveals a quiet desperation: he can tolerate neither real freedom nor real struggle. He requires the illusion of an emergency to stir his sluggish blood, yet he ensures beforehand that an attendant watches through a glass lens, ready to intervene at the slightest sign of distress. He does not seek escape from the chamber: he seeks escape from the deadening safety of his own daily routine. He feigns captivity: genuine necessity would instantly crush his fragile spirit. When his hour expires and he is restored to the quiet street, he boasts of his cleverness—the jailer counts the money and prepares the prop for the next coward.",
     "generated": "2026-08-25T20:54:41+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
-    "reread": "2026-09-03"
+    "reread": "2026-09-03",
+    "revoiced": "2026-11-12"
   },
   {
     "date": "2026-08-25",
@@ -3789,6 +3791,20 @@
     "score": 3.2,
     "essay": "The man at the desk scanned my card twice, looked at me the way a customs dog looks at a suitcase that has begun to hum, and said I was welcome to the lounge. I did not believe him. Nobody who has spent six hours on a gate-C floor with a dead phone and a sandwich the color of wet cement believes a man who says welcome. Inside, it was all low light, walnut-flavored plastic, and the hush of people who have paid not to hear each other. A woman in a cashmere hood was eating almonds one at a time, like evidence. Two executives sat murmuring into their laps about synergy, or possibly murder. The free wine came in glasses so small they had clearly been designed to be forgotten, and the bartender watched me drink three of them with the calm of a coroner taking notes. That is the trick. They don't lock the door on you, they lock it on everybody else, and then they make you feel chosen for it. The soup is warm. The chairs are patient. Out past the glass, the unwashed are howling at a departures board, and you are nodding along to a chime, grateful, tamed, fed. I took the pretzels. All of them.",
     "generated": "2026-11-12T02:16:11+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-12"
+  },
+  {
+    "date": "2026-11-12",
+    "thinker": "franklin",
+    "name": "Benjamin Franklin",
+    "dates": "1706-1790",
+    "object": "Shrek (2001)",
+    "verdict": "diverts without cheating",
+    "score": 6.4,
+    "essay": "I went to this entertainment expecting a fairy tale, and found instead a lampoon of fairy tales, which cost me ninety minutes and, I think, repaid about sixty of them. The design is plain enough: a creature of the swamp, hideous and solitary by choice, is sent to fetch a princess for a petty lord, and discovers on the road that the beauty he was to deliver is hideous also, by a spell, and the better for it. The moral, that a man should be lov'd for what he is and not for his looks, is a sound one; I have preach'd it myself, though with fewer songs. What I admire is the economy of the joke. The picture borrows every nursery character the audience already knows, and spends their reputation as a merchant spends credit; the Gingerbread Man, the Three Bears and Pinocchio need no introduction, and so the scene is half done before it begins. The ass, who talks without ceasing, is the best invention in it, being at once a nuisance and a friend, as such creatures often are. I find less to commend in the habit of mocking the very thing it sells. The film laughs at the happy ending, and then supplies one, expecting us to be grateful for both. A candid piece would have chosen. Still, it teaches no vice, and diverts children without cheating their parents; of how many entertainments can as much be said?",
+    "generated": "2026-11-12T18:00:38+00:00",
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-12"
