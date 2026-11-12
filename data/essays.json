@@ -3491,11 +3491,11 @@
     "name": "Emily Dickinson",
     "dates": "1830-1886",
     "object": "the washing machine",
-    "verdict": "hands made idle",
-    "score": 2.8,
-    "essay": "It keeps a Tuesday inside it. Mother's Tuesday, I mean, with the copper boiling and the lye reddening her wrists, and the whole house made to hold its breath until the sheets were hung. Now a door is shut upon the matter, and the matter is private. I stood before it as before a small, white deacon. It hummed one note and meant it. Through the glass my own apron went round and round, a pale thing drowning without complaint, and I was not sorry for it, which surprised me. The soap is put in. The sorrows, if any, are not mentioned. It takes the stain and the name of the stain together, and returns the cloth with no memory of the berry. I am told it saves the hands. It does. Yet hands are a sort of speech, and Mother's, wrung red, said what no bureau drawer of folded linen says now. The linen is whiter. The hands are idle, and are learning what idle is, a garment that fits no one at first. It stops. A click, like a latch. Nothing is asked of me but to open, and I stand there, damp and unemployed.",
+    "verdict": "a trivial errand",
+    "score": 2.7,
+    "essay": "A stain is a faithful record; it remembers where the hem strayed and what the tea spilled. We used to wring such memories out with boiled water and sore knuckles, paying for clean linen with a day’s breath—a stiff penance for Tuesday. Now the tub accepts the dirty dress without a sermon. It shuts its iron door upon our small corruptions and begins its private storm. One hears the water slap against the dark—a tempest caught in a cupboard. It turns grease to froth and soil to nothing, indifferent to the knee that made the dirt. Purity was once a heavy coat, woven from long hours of steam and aching thumbs. This churn makes white a trivial errand. It strips the day’s journey from the collar, leaving only damp wool that has forgotten where it walked. I handle the wet sleeve when the storm subsides; it is cold and innocent, like a slate wiped before the scholar arrives. We have bought a swift absolution from an engine, but the heart retains its spot—it cannot be rinsed in a tub.",
     "generated": "2026-11-05T01:27:47+00:00",
-    "provider": "claude",
+    "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-11-05"
   },
@@ -3778,5 +3778,19 @@
     "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-11-11"
+  },
+  {
+    "date": "2026-11-12",
+    "thinker": "thompson",
+    "name": "Hunter S Thompson",
+    "dates": "1937-2005",
+    "object": "airport lounges",
+    "verdict": "tamed, grateful, fed",
+    "score": 3.2,
+    "essay": "The man at the desk scanned my card twice, looked at me the way a customs dog looks at a suitcase that has begun to hum, and said I was welcome to the lounge. I did not believe him. Nobody who has spent six hours on a gate-C floor with a dead phone and a sandwich the color of wet cement believes a man who says welcome. Inside, it was all low light, walnut-flavored plastic, and the hush of people who have paid not to hear each other. A woman in a cashmere hood was eating almonds one at a time, like evidence. Two executives sat murmuring into their laps about synergy, or possibly murder. The free wine came in glasses so small they had clearly been designed to be forgotten, and the bartender watched me drink three of them with the calm of a coroner taking notes. That is the trick. They don't lock the door on you, they lock it on everybody else, and then they make you feel chosen for it. The soup is warm. The chairs are patient. Out past the glass, the unwashed are howling at a departures board, and you are nodding along to a chime, grateful, tamed, fed. I took the pretzels. All of them.",
+    "generated": "2026-11-12T02:16:11+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-12"
   }
 ]
