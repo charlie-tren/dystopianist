@@ -32,6 +32,18 @@ Source: Preface to The Picture of Dorian Gray (1891), Project Gutenberg #174
 
 > There is no such thing as a moral or an immoral book. Books are well written, or badly written. That is all. We can forgive a man for making a useful thing as long as he does not admire it. The only excuse for making a useless thing is that one admires it intensely. All art is quite useless.
 
+### 2
+
+Source: The Critic as Artist, in Intentions (1891), Project Gutenberg #887
+
+> Ernest, you are quite delightful, but your views are terribly unsound. I am afraid that you have been listening to the conversation of some one older than yourself. That is always a dangerous thing to do, and if you allow it to degenerate into a habit you will find it absolutely fatal to any intellectual development. As for modern journalism, it is not my business to defend it. It justifies its own existence by the great Darwinian principle of the survival of the vulgarest. I have merely to do with literature.
+
+### 3
+
+Source: The Soul of Man under Socialism (1891), Project Gutenberg #1017
+
+> On the whole, an artist in England gains something by being attacked. His individuality is intensified. He becomes more completely himself. Of course, the attacks are very gross, very impertinent, and very contemptible. But then no artist expects grace from the vulgar mind, or style from the suburban intellect. Vulgarity and stupidity are two very vivid facts in modern life. One regrets them, naturally. But there they are. They are subjects for study, like everything else. And it is only fair to state, with regard to modern journalists, that they always apologise to one in private for what they have written against one in public.
+
 ## Avoid
 
 - "There is no such thing as a ... or an ..." - the sample's opening. Cloned verbatim on the first batch.

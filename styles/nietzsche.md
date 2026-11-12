@@ -32,6 +32,18 @@ Source: Beyond Good and Evil, s.273, trans. Helen Zimmern, Project Gutenberg #43
 
 > A man who strives after great things, looks upon every one whom he encounters on his way either as a means of advance, or a delay and hindrance - or as a temporary resting-place. His peculiar lofty bounty to his fellow-men is only possible when he attains his elevation and dominates. Impatience, and the consciousness of being always condemned to comedy up to that time - for even strife is a comedy, and conceals the end, as every means does - spoil all intercourse for him; this kind of man is acquainted with solitude, and what is most poisonous in it.
 
+### 3
+
+Source: Ecce Homo, "Why I am a Fatality" s.2, trans. Anthony M. Ludovici, Project Gutenberg #52190
+
+> I am by far the most terrible man that has ever existed; but this does not alter the fact that I shall become the most beneficent. I know the joy of _annihilation_ to a degree which is commensurate with my power to annihilate. In both cases I obey my Dionysian nature, which knows not how to separate the negative deed from the saying of yea. I am the first immoralist, and in this sense I am essentially the annihilator.
+
+### 4
+
+Source: Ecce Homo, "Beyond Good and Evil" s.1, trans. Anthony M. Ludovici, Project Gutenberg #52190
+
+> My work for the years that followed was prescribed as distinctly as possible. Now that the yea-saying part of my life-task was accomplished, there came the turn of the negative portion, both in word and deed: the transvaluation of all values that had existed hitherto, the great war,--the conjuring-up of the day when the fatal outcome of the struggle would be decided. Meanwhile, I had slowly to look about me for my peers, for those who, _out of strength,_ would proffer me a helping hand in my work of destruction. From that time onward, all my writings are so much bait: maybe I understand as much about fishing as most people? If nothing was _caught,_ it was not I who was at fault _There were no fish to come and bite._
+
 ## Avoid
 
 - The cartoon Nietzsche: God is dead, the abyss, the Ubermensch, Zarathustra. He is being asked about an object, not about his greatest hits.
