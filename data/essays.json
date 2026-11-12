@@ -441,13 +441,14 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "dating apps",
-    "verdict": "dreadful devices",
-    "score": 0.9,
-    "essay": "To fall in love is a charming mistake; to curate one's passions upon a glowing pane of glass is merely an administrative error. Romance was once a splendid madness, governed by the art of deception and the thrill of the unexpected. Today, it has been modernised into an exercise as dull and mechanical as bookkeeping. We are invited to inspect a gallery of miniature portraits, swiping aside living souls with the effortless cruelty usually reserved for unpaid bills. It is only superficial people who do not judge by appearances, yet these dreadful devices manage to render even vanity uninteresting. By offering an infinite supply of prospective lovers, they have succeeded in making love entirely tedious. Seduction requires patience, poetry, and a healthy disregard for the truth, none of which can survive an algorithm designed to save time. In our foolish zeal to eliminate the awkwardness of courtship, we have accidentally eliminated its pleasure. To be rejected in a dimly lit drawing room is a tragedy worthy of art, but to be discarded by a thumb is simply an indignity. We have managed to turn the sacred folly of passion into a civilised utility, and in doing so, we have made romance profoundly efficient and utterly intolerable.",
+    "verdict": "modern vanity",
+    "score": 1.4,
+    "essay": "To judge a suitor entirely by a photograph is not merely sensible; it is the only civilised method of courtship left to an overburdened age. Romance has always suffered from the tedious necessity of listening to a person’s conversation before one has determined whether their profile is flattering. By condensing a soul into a small glass portrait that may be banished with a careless flick of the thumb, modern vanity has finally elevated romance to its rightful place among the minor decorative arts. The real defect of traditional courting was never that lovers parted too soon, but that they lingered long enough to discover each other’s convictions. A glowing miniature never argues, nor does it express a distressing interest in public affairs. It merely offers itself for admiration. Moralists will no doubt lament that such swift selections lack sincerity, but sincerity has always been the last refuge of the hopelessly uninteresting. To demand depth from a passing fancy is a dreadful form of vulgarity. True passion requires an absolute devotion to surface, for it is only the exquisitely superficial who ever truly master the art of falling in love.",
     "generated": "2026-08-26T03:17:40+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
-    "reread": "2026-09-06"
+    "reread": "2026-09-06",
+    "revoiced": "2026-11-12"
   },
   {
     "date": "2026-08-26",
@@ -455,13 +456,14 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "group chats",
-    "verdict": "exquisite tyranny",
-    "score": 1.4,
-    "essay": "To be invited into a modern salon of unseen voices is to be offered a very exquisite form of tyranny. In the old days, one had the supreme luxury of being misunderstood by a single person at a time; now, one may achieve the distinction of disappointing a dozen acquaintances simultaneously. Nothing is so fatal to the charm of conversation as allowing everyone to speak at once. Gossip, which was once a delicate art reserved for the twilight and a chosen confidant, has been vulgarised into a public utility. It is distributed with the indiscriminate generosity of municipal water, and is usually of much the same quality. The true tragedy of these polite assemblies is not that they force us to listen to others, but that they compel us to pretend we are listening to ourselves. To leave such a gathering requires more courage than to enter a battle, for society readily pardons a coward, but it never forgives a man who prefers his own company to its noise. To remain silent is treated as a subtle insult, yet to contribute is to become complicit in the ruin of language. We have managed to automate intimacy, and in doing so, we have made solitude entirely unpardonable.",
+    "verdict": "democratic malice",
+    "score": 0.8,
+    "essay": "To be trapped in a salon where everyone speaks simultaneously, and from which one cannot depart without offending the host, is the ultimate triumph of democratic malice over private peace. Modern conversation has abandoned the exquisite art of the pause. In its place, we are offered a relentless tide of trivialities, poured incessantly into one's pocket by acquaintances one would normally take great care to avoid in the street. The chief terror of these collective parlours is not that people say foolish things—foolishness has always been the chief charm of human discourse—but that they expect one to acknowledge them immediately. A delayed response is treated as a moral failing, whereas in a truly civilised society, ignoring one's acquaintances is the very foundation of good manners. The vulgarity of the arrangement lies in its endlessness; it transforms the delicate pleasure of gossip into a laborious form of public service. Nothing is quite so fatal to charm as availability, yet here we are invited to be perpetually present at gatherings we never desired to attend. One must admire the ingenuity of a mechanism that allows fifty tedious people to be tedious to each other at the exact same moment, though I confess I prefer the solitary quiet of my own perfection.",
     "generated": "2026-08-26T03:18:10+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
-    "reread": "2026-09-06"
+    "reread": "2026-09-06",
+    "revoiced": "2026-11-12"
   },
   {
     "date": "2026-08-26",
@@ -3806,6 +3808,20 @@
     "essay": "I went to this entertainment expecting a fairy tale, and found instead a lampoon of fairy tales, which cost me ninety minutes and, I think, repaid about sixty of them. The design is plain enough: a creature of the swamp, hideous and solitary by choice, is sent to fetch a princess for a petty lord, and discovers on the road that the beauty he was to deliver is hideous also, by a spell, and the better for it. The moral, that a man should be lov'd for what he is and not for his looks, is a sound one; I have preach'd it myself, though with fewer songs. What I admire is the economy of the joke. The picture borrows every nursery character the audience already knows, and spends their reputation as a merchant spends credit; the Gingerbread Man, the Three Bears and Pinocchio need no introduction, and so the scene is half done before it begins. The ass, who talks without ceasing, is the best invention in it, being at once a nuisance and a friend, as such creatures often are. I find less to commend in the habit of mocking the very thing it sells. The film laughs at the happy ending, and then supplies one, expecting us to be grateful for both. A candid piece would have chosen. Still, it teaches no vice, and diverts children without cheating their parents; of how many entertainments can as much be said?",
     "generated": "2026-11-12T18:00:38+00:00",
     "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-12"
+  },
+  {
+    "date": "2026-11-12",
+    "thinker": "woolf",
+    "name": "Virginia Woolf",
+    "dates": "1882-1941",
+    "object": "anaesthesia",
+    "verdict": "a terrifying surrender",
+    "score": 2.7,
+    "essay": "A glass phial stands among the steel knives on the table, cold and innocent as rain. One turns the stopper, breathes, and the solid world of chairs, carpet, and afternoon clock instantly loses its weight. It is not sleep, which arrives with its own heavy slippers and familiar dreams; rather, it turns a key in the latch of consciousness and douses the lamp. For ten minutes, or an hour, the body lies stripped of its pain, an empty coat folded across a chair while the tailor works upon the cloth. We return to find our fingers cold, the pain managed in our absence like an unruly account settled by a stranger. Yet there is something terrifying in this total surrender of the fortress. We hand over the keys not to God, but to a draught of chemical mist, stepping off the ledge of our own identity without so much as a backward glance. The doctor leans down, asking if we feel the cold in the arm, but before the reply can shape itself upon the tongue, the room has evaporated. When light breaks again through the window, the hand belongs to us once more, but the hour between is lost forever.",
+    "generated": "2026-11-12T22:47:36+00:00",
+    "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-11-12"
   }
