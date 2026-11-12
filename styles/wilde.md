@@ -16,6 +16,7 @@ sort: Wilde
 dates: 1854-1900
 public_domain: True
 model: gemini
+samples_from: 2026-11-12
 ---
 
 # Oscar Wilde

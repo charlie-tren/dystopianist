@@ -190,6 +190,20 @@ def an_essay_by_the_wrong_primary_is_queued(fails):
     print("  wrong primary for a pinned voice: queued; right one or unpinned: not")
 
 
+def an_essay_older_than_its_samples_is_queued(fails):
+    """`samples_from:` queues essays written before it, and a rewrite dated after
+    it leaves the list."""
+    voice = dict(ROSTER[T], samples_from="2026-11-12")
+    old = dict(entry(GOOD), provider="gemini", generated="2026-10-01T03:00:00+00:00")
+    new = dict(old, generated="2026-11-13T03:00:00+00:00")
+    redone = dict(old, revoiced="2026-11-12")
+    if not revoice.listed(old, voice):
+        fails.append("an essay older than its samples was not queued")
+    if revoice.listed(new, voice) or revoice.listed(redone, voice):
+        fails.append("an essay written or rewritten after the samples was queued")
+    print("  older than the samples: queued; written or rewritten since: not")
+
+
 def it_refuses_the_other_primarys_rewrite(fails):
     """If the pinned model does not answer and the other primary does, nothing is
     accepted: that rewrite would put the essay straight back on the list."""
@@ -226,6 +240,7 @@ def it_refuses_the_other_primarys_rewrite(fails):
 def main() -> int:
     fails: list[str] = []
     for check in (an_essay_by_the_wrong_primary_is_queued,
+                  an_essay_older_than_its_samples_is_queued,
                   it_refuses_the_other_primarys_rewrite,
                   the_fallbacks_work_is_queued_even_when_it_passes,
                   a_rewrite_whose_verdict_is_a_grade_is_re_read,

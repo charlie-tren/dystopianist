@@ -51,6 +51,7 @@ import argparse
 import json
 import os
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -124,6 +125,12 @@ def listed(entry: dict, thinker: dict) -> list[str]:
     pref = thinker.get("model")
     if pref and entry.get("provider") in write_stage.PRIMARY_WRITERS and entry["provider"] != pref:
         why.append(f'written by {entry["provider"]}; {pref} writes this voice')
+    # `samples_from:` dates a sample change; essays written before it are rewritten
+    # against the new samples (12/11/2026, nietzsche/wilde at 0.38 on the voice floor).
+    since = str(thinker.get("samples_from") or "")
+    written = str(entry.get("revoiced") or entry.get("generated") or entry.get("date") or "")[:10]
+    if since and written < since:
+        why.append(f"written {written}, before the samples of {since}")
     return why
 
 
@@ -236,7 +243,8 @@ def main() -> int:
               f'{e.get("score")} -> {score}   {e.get("verdict","")!r} -> {verdict!r}')
         if not args.dry:
             e.update(essay=essay, verdict=verdict, score=score,
-                     provider=provider, scored_by=by)
+                     provider=provider, scored_by=by,
+                     revoiced=datetime.now(timezone.utc).date().isoformat())
         done += 1
 
     left = len(backlog) - (0 if args.dry else done)
