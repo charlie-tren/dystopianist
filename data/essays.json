@@ -499,13 +499,14 @@
     "name": "Friedrich Nietzsche",
     "dates": "1844-1900",
     "object": "LinkedIn",
-    "verdict": "voluntary degradation",
+    "verdict": "publicised servility",
     "score": 0.7,
-    "essay": "The modern servant no longer waits for a master to brand him: he brands himself, paints his own collar gold, and begs the market to applaud his obedience. What a spectacle of voluntary degradation! Here, every man becomes his own peddler, hawking his soul in neat, digestible tallies of function and compliance. They do not strive to conquer, nor to create out of abundance—they strive to be useful, which is to say, they strive to be consumed. Watch how meticulously they congratulate their neighbours on achieving new degrees of subjection: each public word of praise is merely a quiet pact of mutual appeasement, a promise never to demand anything noble or dangerous from one another. The fear of solitude—that supreme horror of the weak—forces them to assemble this digital cattle-market, where no one dare stand alone, where everyone must be seen labouring in the open field. They call this network a triumph of ambition; they fail to realise that ambition requires distance, silence, and the courage to be despised. The true creator hides his work until it is ripe: the slave hastens to show his half-baked duties to the herd, eager for a nod of approval from fellow prisoners. He believes he is building an empire of influence—in reality, he has only published his price.",
+    "essay": "The modern clerk does not merely sell his labour: he publishes his servility. He gathers his neighbours into a hall of mirrors where every slave praises the chains of every other. Consider this spectacle of domesticated ambition: men who lack the strength to command exchange manufactured tributes to their own docility. They call this networking—a euphemism invented by those who cannot endure solitude without trembling. In this digital bazaar, human worth is calculated by the number of witnesses to one's submissiveness. The herd demands a public confession of usefulness; it rewards the performative enthusiasm of the servant. A genuine spirit creates his own value in secret and imposes it upon the world: the weak man begs the market to assign him a price. He polishes his profile as a beggar polishes his cup, displaying every petty task as though it were a conquest. Thus the instinct for rank is inverted: the highest praise is reserved for the most thoroughly civilised draft animal. The final humiliation is not that he sells himself—it is that he demands to be applauded for the transaction.",
     "generated": "2026-08-26T03:19:39+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
-    "reread": "2026-09-06"
+    "reread": "2026-09-06",
+    "revoiced": "2026-11-13"
   },
   {
     "date": "2026-08-26",
@@ -527,13 +528,14 @@
     "name": "Friedrich Nietzsche",
     "dates": "1844-1900",
     "object": "painkillers",
-    "verdict": "bloodless peace",
-    "score": 0.9,
-    "essay": "To eliminate suffering is to amputate the very organ of creation: suffering remains the supreme measure of value, testing the resistance of the world against the force of a soul. The tiny chemical remedy offered to silence this conflict is not a triumph of reason, but a confession of frailty. Pain is no mere error in the biological machinery to be corrected by a chemist; it is the friction through which a man discovers whether he possesses weight or merely volume. The modern creature reaches instantly for quietude, unable to endure even an hour of his own physical reality without trembling. He demands an artificially smooth passage through existence, forgetting that every noble stature was forged solely through endurance. By silencing the signal, he does not cure the vessel: he merely severs the nerve that reports the fire. Such a creature achieves only a bloodless peace, a tranquillity fit for cattle in a shadowless field. He believes he has conquered discomfort: in truth, he has rendered himself too delicate to be touched by destiny. The ultimate victory of this convenient silence is the absolute triumph of the numbed flesh.",
+    "verdict": "tiny chemical indulgence",
+    "score": 0.7,
+    "essay": "Pain is the great disciplinary hammer: to break its blow with a tiny chemical indulgence is to betray the very engine of growth. The modern nerve, flabby and terrified of its own friction, demands immediate rescue from the furnace. It cannot endure the burning: it demands that the fire itself be declared a malfunction of existence. Consider what is traded away in this hasty quietus: the agony that formerly forced the mind into mastery is dismissed as an unnecessary inconvenience. Suffering was once the forge where rank was assigned—the strong proved their endurance, while the frail collapsed into obscurity. Now, the tiny capsule offers an artificial equality: the coward purchases the same tranquillity as the conqueror, paying only the petty price of his own numbness. This quiet eradication of agony is no triumph over nature: it is the total retreat of the spirit before the body's first complaint. The organism that cannot tolerate pain cannot tolerate creation. What remains when all resistance is chemically banished is a muted, harmless creature—a creature that mistakes its silent stupor for peace, incapable of ever building anything that outlasts its own brief, unblemished slumber.",
     "generated": "2026-08-26T04:17:30+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
-    "reread": "2026-09-06"
+    "reread": "2026-09-06",
+    "revoiced": "2026-11-13"
   },
   {
     "date": "2026-08-26",
@@ -3824,5 +3826,19 @@
     "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-11-12"
+  },
+  {
+    "date": "2026-11-13",
+    "thinker": "russell",
+    "name": "Bertrand Russell",
+    "dates": "1872-1970",
+    "object": "self-checkout machines",
+    "verdict": "abolished nothing",
+    "score": 2.2,
+    "essay": "The shop used to employ a woman to pass my cabbage over a glass plate; it now employs me. I receive no wages for the work, and I am told that I am being offered convenience. I have tried to feel grateful and have not succeeded. The arrangement has a certain logic. A customer who scans his own goods saves the owner a salary; the owner may then lower prices, though I have not noticed that he does. What I have noticed is that the machine accuses me. It announces an unexpected item in the bagging area, and a young person must come and forgive me. I am the only man in the building treated as a suspect and as a clerk at the same moment. I do not mourn the cashier's job as a noble one. It was tedious, and I would not wish it on anyone. But the remedy for a tedious job is a better one, not the transfer of its tedium to people who had not asked for it. A machine that abolishes dull work and leaves the dullness in existence has abolished nothing. There is one small advantage. Nobody asks me how I am, and I need not pretend to know. I find I miss the question.",
+    "generated": "2026-11-13T01:49:31+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-13"
   }
 ]
