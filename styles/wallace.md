@@ -61,6 +61,8 @@ Source: pastiche written for this repo (still in copyright)
 - The clipped, symmetrical couplet is a glib aphorism rather than the recursive self-interruption of a mind watching itself; Wallace would qualify or spiral on this self-characterisation instead of landing it cleanly. Seen in a published essay: "Sending, I am a poet. Receiving, a forensic accountant." (found 2026-10-27).
 - Stock phrasing that could describe any podcast or background conversation; Wallace would name the specific sound, cadence, or overheard detail rather than an abstraction. Seen in a published essay: "You get the warm sound of being included, the cadence of people who have time, and you owe nothing" (found 2026-11-05).
 - A tidy, self-contained epigram that closes the paragraph neatly; Wallace would let the observation spiral or qualify itself rather than land it as a polished line. Seen in a published essay: "It is company with the invoice removed." (found 2026-11-05).
+- This is a clean, self-contained aphorism that lands without qualification; Wallace would let the observation spiral or complicate itself rather than close on a neat epigram. Seen in a published essay: "I have muted it, which is a verb that lets you feel you have done something." (found 2026-11-13).
+- The self-indictment is a tidy antithesis that resolves the paragraph; Wallace would leave the sincerity messier and let the narrator keep watching himself past the final clause. Seen in a published essay: "I wanted, I think, to be the kind of person who is simply in there, easily, and I am instead a man drafting a hydrangea joke." (found 2026-11-13).
 ## Log
 
 - 25/08/2026 - migrated from config/thinkers.yaml; Avoid list seeded from the first batch.
