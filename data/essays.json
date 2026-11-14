@@ -1221,13 +1221,14 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "Wikipedia",
-    "verdict": "a parlour game",
-    "score": 2.4,
-    "essay": "To trust a crowd with the truth is to indulge in the most exquisite of modern delusions, for the public has never had the slightest talent for accuracy, though it possesses an insatiable enthusiasm for consensus. There is something delightfully absurd about a monument to human knowledge constructed entirely by committee. It reduces the magnificent tyranny of genius to the drab democracy of footnotes, replacing the brilliant lie with the dullest possible fact. Yet one cannot help but admire an institution that allows any passing stranger to rewrite history before tea and have it corrected by an accountant in Melbourne before dinner. It has turned the pursuit of erudition into a parlour game, where truth is not discovered, but merely voted upon by those with nothing better to do. To be completely accurate is the mark of a deeply uninteresting mind, yet here accuracy is endlessly debated by people who mistake information for culture. Its true virtue lies not in its utility, which is dreadfully vulgar, but in its charming instability. A truth that can be edited by anyone is the only kind of truth modern society truly deserves, since it demands no permanent commitment from those who read it.",
+    "verdict": "tyranny of exactness",
+    "score": 0.7,
+    "essay": "A consensus on facts is merely the agreement of the uninspired. To surrender the glorious romance of error to a committee of anonymous pedants is the final, tragic victory of democracy over charm. Truth is far too delicate a flower to be cultivated by the crowd; exposed to the brisk, efficient air of popular revision, it loses all its perfume and becomes a mere statistic. The modern passion for collective accuracy has quite ruined the art of invention. When thousands of industrious clerks assemble to correct one another's dates, history is reduced to a parish register written by a mob. One should always treat facts with the contempt they so richly deserve, for they are the resort of minds that possess no imagination whatever. An exquisite legend, polished by a single person of genius, will always remain vastly superior to a dull certainty certified by ten thousand unknown neighbours. Nothing is so fatal to conversation as an inescapable reference that resolves an argument before it has had time to become brilliant. We are threatened now by a tyranny of exactness, where mystery is forbidden and ignorance is no longer permitted to be charming. To know everything instantly is to appreciate nothing deeply, and to be entirely correct is the mark of a thoroughly civilised bore.",
     "generated": "2026-09-09T19:49:39+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
-    "reread": "2026-09-12"
+    "reread": "2026-09-12",
+    "revoiced": "2026-11-14"
   },
   {
     "date": "2026-09-09",
@@ -1249,13 +1250,14 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "Titanic (1997)",
-    "verdict": "extravagant vulgarity",
-    "score": 3.1,
-    "essay": "To drown in first class is merely an unfortunate error of etiquette, but to drown for love is the height of melodrama. Mr Cameron has constructed a spectacle of such extravagant vulgarity that one cannot help but admire the sheer expense of the disaster. The tragedy of the great vessel is not that it sank, but that it took three hours and an insufferable quantity of tears to do so. We are asked to weep for a young woman who prefers a penniless draughtsman to a remarkably wealthy suitor simply because the former knows how to hold a charcoal pencil and the latter merely owns the coal mines. It is a curiously vulgar delusion to mistake enormous financial expenditure for artistic genius. The icebergs of the Atlantic are cold, but they are positively warm compared to the icy indifference with which true art regards the tears of the public. Yet there is an undeniable grandeur in watching millions of sovereigns dissolved in salt water for the simple pleasure of seeing a sketch preserved. The work understands that the only thing more exquisite than a ruined life is a magnificent sapphire thrown back into the abyss by a woman who no longer requires its lustre.",
+    "verdict": "very expensive water",
+    "score": 2.4,
+    "essay": "To drown in the Atlantic is a vulgar mischance, but to drown in full evening dress, surrounded by velvet and violins, is very nearly an aesthetic triumph. The modern theatre has discovered that nothing moves the heart of the public so thoroughly as an enormous quantity of very expensive water. We are asked to weep for a young woman who casts a priceless sapphire into the ocean merely because she has finished telling her story; such extravagance is the only believable proof of true passion. Her suitor, a penniless youth who paints charmingly without the tedious encumbrance of a patron, commits the supreme romance of dying simply to avoid growing old and tedious. It is always a mistake to survive one's first great romance, for the second is invariably a compromise with comfort. The sentimentalists are terribly distressed by the coldness of the iceberg, yet the iceberg is the only actor in the piece who behaves with absolute impartiality toward the aristocracy. Disaster is extraordinarily democratic, which is precisely why the upper classes have always found it so thoroughly distasteful. Still, one must admire a spectacle that costs so many millions to arrange; it proves that while life is occasionally tragic, expensive ruin remains remarkably fashionable.",
     "generated": "2026-09-10T18:01:29+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
-    "reread": "2026-09-12"
+    "reread": "2026-09-12",
+    "revoiced": "2026-11-14"
   },
   {
     "date": "2026-09-10",
@@ -3885,6 +3887,20 @@
     "score": 2.7,
     "essay": "The label around the bear's neck, which asks that he be looked after, is the most reasonable request in the film, and it is also the one that takes longest to be granted. Nobody at Paddington station refuses him. They walk past, each with a train or a telephone, and the bear sits on his suitcase for the length of an afternoon, becoming no less a matter for someone else. I watched this part with attention, because it seemed to me that the film knew exactly what it was doing and did not hurry. Afterwards the family takes him in, but only for a night, then for another night, the father holding to a rule of risk that he restates every time the bathroom floods. Meanwhile a woman from the museum, who has a stuffed specimen and a form of her own, is permitted to approach him through every door in the house. Her patience is greater than the family's kindness. She waits behind a curtain, and it is the curtain that is frightening, not she. The film is made with great neatness, the dolls' house streets, the rooms opened like cabinets. It wants from us one thing only, that we should wish the bear a residence. I did wish it. Whether the stamp that finally comes was ever in doubt, I could not say, since the bear never asked to see it.",
     "generated": "2026-11-14T01:26:44+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-14"
+  },
+  {
+    "date": "2026-11-14",
+    "thinker": "whitman",
+    "name": "Walt Whitman",
+    "dates": "1819-1892",
+    "object": "Paddington (2014)",
+    "verdict": "no small thing",
+    "score": 9.1,
+    "essay": "Went to see the bear. Sat in the dark with a bag of sweets and a hundred strangers, children in front, grandfathers behind, and for ninety minutes the whole house laugh'd together, which I count no small thing. The bear arrives by ship from Peru, in a hat, with a jar of marmalade. London takes him up in pieces: Paddington station, the lost-property office, the luggage trolleys, the pigeons, the tube escalator, the revolving door, the bathtub, the sink, the taxidermist's stuffed beasts on their shelves. A dolls'-house of a street, Windsor Gardens, stairs and banisters cut open for the camera like a cake; a red-painted door; a bannister he slides down. Mr. Brown at his desk with his figures and his risk charts; Mrs. Brown with her sketchbook and her pink-dyed hair; Mrs. Bird; the neighbor at his window; the cab-driver; the Geographers' Society with its glass cases and its dusty maps. The bear is made of fur and wires and the pictures of a thousand artists, yet he sits at the breakfast table, his ears wet, his paws sticky, and I believed him. Ben Whishaw gives the voice, soft, courteous, a little sorry. Nicole Kidman comes with her knife and her dart-gun, and the chase goes over rooftops, drainpipes, a museum floor. I came out into the rain wanting a sandwich, and to be kind to somebody.",
+    "generated": "2026-11-14T18:00:29+00:00",
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-14"

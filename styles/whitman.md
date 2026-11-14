@@ -68,6 +68,10 @@ Source: Specimen Days (1882), Project Gutenberg #8813
 - This is a generalising antithesis, a tidy essayist's flourish; Whitman would name the songs seen (Smash Mouth, a Monkees tune, a Leonard Cohen thing) and let them stand without a contrast. Seen in a published essay: "Songs of the juke-box, not of the cathedral" (found 2026-11-10).
 - This is a critic's verdict on the work's effect; Whitman would show the joke in the things seen (the small man in the tall house) rather than appraise it. Seen in a published essay: "the joke is plain and it lands" (found 2026-11-10).
 - This is an evaluative judgment stated as opinion with a hedge; Whitman's notes would record the winking in concrete particulars instead of weighing it. Seen in a published essay: "The picture winks at its audience incessantly; sometimes too much, I think." (found 2026-11-10).
+- The simile 'like a cake' is a decorative comparison; Whitman would name the stairs and banisters as seen and let the sight stand without the figure. Seen in a published essay: "A dolls'-house of a street, Windsor Gardens, stairs and banisters cut open for the camera like a cake" (found 2026-11-14).
+- This is a run of adjectives describing a quality rather than a catalogue of seen nouns, which Whitman would not give. Seen in a published essay: "Ben Whishaw gives the voice, soft, courteous, a little sorry." (found 2026-11-14).
+- This is the essayist appraising the effect of his own perception; Whitman would show the bear at the table with its wet ears and sticky paws and leave belief implicit. Seen in a published essay: "and I believed him." (found 2026-11-14).
+- The ending turns to a tidy moral lesson stated as the writer's resolve, where Whitman's unembarrassed delight would close on a seen thing, such as the sandwich or the rain. Seen in a published essay: "and to be kind to somebody." (found 2026-11-14).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Specimen Days (1882), Project Gutenberg #8813 via tools/gutenberg_shots.py.
