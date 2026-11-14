@@ -1391,13 +1391,14 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "LinkedIn",
-    "verdict": "a civilised horror",
-    "score": 1.3,
-    "essay": "To boast of one’s virtues has always been considered bad taste, but to parade one’s employment is positively unforgivable. Industry is the last refuge of those who have no talent for leisure. On this curious exchange, men and women gather not to trade gossip or passions, but to congratulate each other on being exquisitely tedious. Nothing is more depressing than a crowd of clerks pretending to be visionaries, unless it is a visionary pretending to be a clerk. To read these digital testimonials is to discover a world entirely populated by modest geniuses and tireless pioneers, all of whom seem deeply humbled by their own astounding success. It is a charming delusion. To endorse a stranger for a skill one does not possess oneself is the very height of modern generosity. Vanity used to require a mirror and a touch of romance; now it requires only a list of obscure achievements and an absurdly cheerful photograph. One discovers that the highest ambition of the contemporary soul is to be thought useful by people one would never dream of inviting to dinner. Nothing spoils a conversation so completely as the mention of honest labour, yet here labour is raised to a fine art. It is a civilised horror, where everyone pretends to admire the hard work of others simply to ensure their own trivial triumphs do not go unapplauded.",
+    "verdict": "false humility",
+    "score": 1.1,
+    "essay": "The modern passion for relentless self-advertisement has at last provided the industrious with a stage where they may applaud themselves without the trouble of hiring an audience. To broadcast one's trivial promotions to a court of indifferent acquaintances is an extraordinary triumph of ambition over discretion. In this curious salon, every clerk imagines himself a philosopher, provided he can describe his daily drudgery in the vocabulary of inspiration. A man who has accomplished nothing of the slightest importance now feels compelled to celebrate his perseverance at immense length, carefully framing his modest employment as a sacred calling. It is a spectacle of false humility so perfectly cultivated that it achieves a kind of perverted art. One must admire the sheer devotion with which the tedious defend their right to be busy. To pretend to work is, of course, a very sensible occupation, but to pretend that one's work matters to the rest of humanity is an unpardonable lapse in manners. The truly civilised man conceals his achievements behind a veil of graceful indolence. To display one's enthusiasm for commerce so publicly is to confess that one has absolutely nothing better to do with one's leisure.",
     "generated": "2026-09-12T18:01:13+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
-    "reread": "2026-09-13"
+    "reread": "2026-09-13",
+    "revoiced": "2026-11-14"
   },
   {
     "date": "2026-09-12",
@@ -1405,13 +1406,14 @@
     "name": "Friedrich Nietzsche",
     "dates": "1844-1900",
     "object": "influencers",
-    "verdict": "obedient slaves",
-    "score": 0.8,
-    "essay": "To lead requires a solitude that today's public performers cannot endure. Look at these creatures who parade their lives before the eyes of thousands: they imagine themselves masters of attention, yet they are the most obedient slaves of the crowd. Every posture, every smile, every meal is offered up as a daily sacrifice to the appetite of the nameless many. The actor who demands constant spectators does not command; he begs. He has surrendered the quiet dignity of an inner life for the cheap currency of visible approval—a currency that vanishes the moment the public looks away. The herd does not follow such a figure because he is strong. Rather, the herd recognises in him its own superficial vanity, elevated to a theatre of self-congratulation. He reflects their shallowest longings back to them, neatly packaged, shorn of all genuine struggle and danger. True elevation separates a spirit from the multitude; this modern mime exists only by merging himself entirely with their vulgar instincts. He fears nothing so much as silence, for in silence he would be forced to confront his own profound nullity. He must be observed to exist at all. Take away the gaze of the spectators, and the idol collapses into nothingness.",
+    "verdict": "hollow pantomime",
+    "score": 0.9,
+    "essay": "To exhibit one's daily existence to the crowd is the ultimate confession of emptiness: the performer exists only when perceived. The herd demands an idol built in its own image—harmless, agreeable, perpetually visible, inviting the weak to admire a life that costs no heroic exertion. What is offered as leadership is merely a mirror reflecting the collective appetite for petty trivialities: clothing, cosmetics, the hollow pantomime of happiness. The spectator does not seek an exemplar of higher rank; he seeks a slave who flatters his own indolence by turning domestic vanity into a public duty. Such figures do not command—they solicit. They barter their private solitude for the applause of millions who are themselves too feeble to endure silence. The transaction is entirely transparent: the crowd buys the illusion of intimacy, while the performer pays with the only thing of genuine worth—the capacity for secret, unobserved growth. In this theatre of perpetual self-advertisement, victory belongs to the most superficial. The crowd gets precisely the master it deserves: a creature so thoroughly consumed by the gaze of others that, stripped of his audience, he ceases to be anything at all.",
     "generated": "2026-09-12T19:25:35+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
-    "reread": "2026-09-13"
+    "reread": "2026-09-13",
+    "revoiced": "2026-11-14"
   },
   {
     "date": "2026-09-12",
@@ -3901,6 +3903,20 @@
     "score": 9.1,
     "essay": "Went to see the bear. Sat in the dark with a bag of sweets and a hundred strangers, children in front, grandfathers behind, and for ninety minutes the whole house laugh'd together, which I count no small thing. The bear arrives by ship from Peru, in a hat, with a jar of marmalade. London takes him up in pieces: Paddington station, the lost-property office, the luggage trolleys, the pigeons, the tube escalator, the revolving door, the bathtub, the sink, the taxidermist's stuffed beasts on their shelves. A dolls'-house of a street, Windsor Gardens, stairs and banisters cut open for the camera like a cake; a red-painted door; a bannister he slides down. Mr. Brown at his desk with his figures and his risk charts; Mrs. Brown with her sketchbook and her pink-dyed hair; Mrs. Bird; the neighbor at his window; the cab-driver; the Geographers' Society with its glass cases and its dusty maps. The bear is made of fur and wires and the pictures of a thousand artists, yet he sits at the breakfast table, his ears wet, his paws sticky, and I believed him. Ben Whishaw gives the voice, soft, courteous, a little sorry. Nicole Kidman comes with her knife and her dart-gun, and the chase goes over rooftops, drainpipes, a museum floor. I came out into the rain wanting a sandwich, and to be kind to somebody.",
     "generated": "2026-11-14T18:00:29+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-14"
+  },
+  {
+    "date": "2026-11-14",
+    "thinker": "franklin",
+    "name": "Benjamin Franklin",
+    "dates": "1706-1790",
+    "object": "reclining a seat on a plane",
+    "verdict": "tax without consent",
+    "score": 2.5,
+    "essay": "The inches a man gains by tipping back his seat are taken from the man behind him; this is the whole of the matter, and I have never found that any argument added to it. The reclining passenger purchases perhaps four inches of slope, which he cannot see and seldom enjoys, since sleep in such a posture is brief and ill-natured; the passenger behind loses the same four inches of knee, and with them his table, his book, and, if he be tall, his temper. A bargain in which one party gains a trifle and the other loses a comfort is not a bargain but a tax, levied without consent by whoever sits forward. I have observed that custom, not law, governs the point, and custom is here divided. Some tip back without a glance; others ask leave, which is civil but nearly always idle, for who will refuse a stranger a thing he has already half done? A third sort keep upright, and are thanked by nobody. My own rule, after some experiment, is to recline only when the hour is late and the cabin dark, and then by half the allowance; the saving to my neighbour exceeds the cost to me, and I sleep as ill either way. Where the maker has sold the same space twice, the quarrel between passengers is the least of the fault.",
+    "generated": "2026-11-14T21:32:37+00:00",
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-14"
