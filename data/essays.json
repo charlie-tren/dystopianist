@@ -1079,13 +1079,14 @@
     "name": "Friedrich Nietzsche",
     "dates": "1844-1900",
     "object": "The Matrix (1999)",
-    "verdict": "flattering spectacle",
-    "score": 0.9,
-    "essay": "To offer a man the choice between a pleasant illusion and a bleak, subterranean truth is the oldest trick of the ascetic priest. The digital dream world is painted in sickly green, a bourgeois nightmare of cubicles and routine—yet its supposed antidote is merely a damp cave where men in rags eat porridge and revere a new dogma. One is expected to applaud the hero who awakens, who dodges bullets in slow motion and dons black leather as if vanity were a virtue of the liberated mind. But what has he truly gained? He has exchanged a comfortable tyranny for a militaristic cult, substituting the cold calculation of machines for the desperate fanaticism of the weak. The spectacle itself—this slick, rhythmic theatre of violence—serves only to flatter the spectator into believing he, too, can realise a hidden power. It is a philosophy for the impatient: it promises that reality can be mastered by swallowing a single pill. How typical of the modern mind to demand an instant awakening! They pretend to despise the machine, yet they can imagine salvation only through its mechanisms—wiring their skulls to leap across rooftops, turning human force into a mere program.",
+    "verdict": "cheap digital fantasy",
+    "score": 0.7,
+    "essay": "The mob demands a drama of awakening, but it demands it on the cheapest possible terms: a single pill, a sudden choice, an instant hero. To believe that truth is accessed through a secret mechanism is the oldest comfort of the weak—they wish to be liberated without the agony of self-overcoming. Consider this digital fantasy of mastery: a man slumbers, awakes, and receives discipline in a second through a wire. He does not earn his force—he downloads it: here is the ultimate ideal of the decadent mind, which imagines that strength is a program to be installed rather than a muscle forged through relentless suffering. Even their rebellion retains the stale odour of the theatre. They wear black leather, leap across rooftops, and imagine themselves dangerous: it is the vanity of the clerk playing at aristocracy. They pretend to despise the phantom world around them, yet they cannot conceive of an existence that is not staged by their tormentors. In truth, they do not crave reality—they crave an audience for their trembling hands. The spectacle does not shatter the illusion: it crowns it.",
     "generated": "2026-09-06T09:41:36+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
-    "reread": "2026-09-11"
+    "reread": "2026-09-11",
+    "revoiced": "2026-11-14"
   },
   {
     "date": "2026-09-06",
@@ -1121,13 +1122,14 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "emojis",
-    "verdict": "passion rendered redundant",
-    "score": 0.9,
-    "essay": "Modern conversation has at last achieved its ultimate refinement, which is to eliminate the tedious necessity of words altogether. Humanity laboured for centuries to construct a language capable of subtle nuance and exquisite deception, only to discover that a tiny yellow face with tilted eyes can convey an entire tragedy without the embarrassment of thought. To express grief by sending a painted tear is not a return to the primitive, but the supreme triumph of modern manners, for it spares one the vulgar discomfort of actually feeling anything at all. We have always known that speech was invented to disguise our passions, but these little painted symbols achieve something far grander: they render passion entirely redundant. A civilised man should never write what he can suggest with an absurdity, nor feel what he can summarise with a cartoon. Naturally, the pedants complain that such pictorial shorthand degrades the beauty of prose, but pedants have always mistaken the length of a sentence for the depth of a soul. In truth, these charming little emblems are the only true poetry left to a world too busy to read. They possess the rare virtue of being completely meaningless, which is precisely why they say everything worth hearing.",
+    "verdict": "charmingly absurd pictograms",
+    "score": 1.4,
+    "essay": "Human sentiment has always been far too complex to be entrusted to words, which have the unfortunate habit of meaning what they say. How delightful, then, that modern society has banished the tedious necessity of syntax in favour of charmingly absurd little pictograms. Sincerity in correspondence is the last refuge of the unimaginative. A written confession of love requires an immense deal of tedious labour, whereas a painted heart of alarming hue conveys precisely the right degree of shallow devotion without committing one to a single sensible thought. There is something exquisitely civilised about reducing a passion to a miniature grimace. It allows us to express profound grief without spoiling our linen, and to display enthusiasm without the vulgar inconvenience of feeling it. The pedants will no doubt complain that these colourful ornaments degrade our discourse, but discourse was degraded the moment people began using it to tell the truth. To replace an elaborate apology with a small weeping countenance is not a surrender of intellect. It is the highest form of courtesy, for it saves both writer and reader from the intolerable burden of conversation.",
     "generated": "2026-09-06T22:53:49+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
-    "reread": "2026-09-11"
+    "reread": "2026-09-11",
+    "revoiced": "2026-11-14"
   },
   {
     "date": "2026-09-07",
@@ -3872,5 +3874,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-13"
+  },
+  {
+    "date": "2026-11-14",
+    "thinker": "kafka",
+    "name": "Franz Kafka",
+    "dates": "1883-1924",
+    "object": "Paddington (2014)",
+    "verdict": "dolls' house sentiment",
+    "score": 2.7,
+    "essay": "The label around the bear's neck, which asks that he be looked after, is the most reasonable request in the film, and it is also the one that takes longest to be granted. Nobody at Paddington station refuses him. They walk past, each with a train or a telephone, and the bear sits on his suitcase for the length of an afternoon, becoming no less a matter for someone else. I watched this part with attention, because it seemed to me that the film knew exactly what it was doing and did not hurry. Afterwards the family takes him in, but only for a night, then for another night, the father holding to a rule of risk that he restates every time the bathroom floods. Meanwhile a woman from the museum, who has a stuffed specimen and a form of her own, is permitted to approach him through every door in the house. Her patience is greater than the family's kindness. She waits behind a curtain, and it is the curtain that is frightening, not she. The film is made with great neatness, the dolls' house streets, the rooms opened like cabinets. It wants from us one thing only, that we should wish the bear a residence. I did wish it. Whether the stamp that finally comes was ever in doubt, I could not say, since the bear never asked to see it.",
+    "generated": "2026-11-14T01:26:44+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-14"
   }
 ]
