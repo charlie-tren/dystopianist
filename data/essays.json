@@ -1561,13 +1561,14 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "self-checkout machines",
-    "verdict": "exquisitely vulgar",
-    "score": 0.7,
-    "essay": "Commerce is only delightful when it is entirely the responsibility of someone else. The modern urge to convert every customer into an unpaid clerk is not a triumph of efficiency, but a dreadful confession of society’s lack of style. We used to enter a shop to be flattered by those whose business it was to pretend we were important; today, we are invited to audit our own provisions under the suspicious eye of a glowing pedestal that perpetually accuses us of dishonesty. There is something exquisitely vulgar about weighing one’s own fruit. Romance lies in the illusion that things simply appear because one desires them, whereas counting one’s own loaves of bread reduces the soul to the dreary level of arithmetic. Nothing exposes the tragic decline of manners so clearly as a machine that politely commands us to wait for assistance after having insisted on doing without it. One must always be wary of any mechanism that demands our labour while suspecting our virtue. To pay for the privilege of working for a shopkeeper is a compromise no civilised person should ever be expected to forgive.",
+    "verdict": "unpaid servitude",
+    "score": 0.9,
+    "essay": "The modern world has achieved the remarkable feat of converting gentlemen into shopkeepers without the vulgar necessity of paying them a wage. To purchase a lemon was once a pleasantly mindless transaction; today, it is an exacting test of administrative competence. One is confronted by a pedantic, glowing altar that demands the performative labour of a clerk while suspecting one, with relentless persistence, of petty larceny. Nothing is quite so absurd as being scolded for an unexpected weight by a box that possesses neither taste nor tact. We used to employ others to manage our vulgarities; now we pay for the privilege of executing them ourselves. Efficiency is the last refuge of the hopelessly uninspired, and to save three minutes of waiting by enduring five minutes of unpaid servitude is a bargain only a democrat could admire. Commercial life has elevated suspicion to a public virtue, yet entrusted its administration to a mechanism that lacks even the grace to apologise when proved wrong. To be mistrusted by an instrument of glass and iron is intolerable, but to obey its monotonous orders is simply bad manners.",
     "generated": "2026-09-16T18:02:27+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
-    "reread": "2026-09-16"
+    "reread": "2026-09-16",
+    "revoiced": "2026-11-15"
   },
   {
     "date": "2026-09-16",
@@ -2107,13 +2108,14 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "airport security",
-    "verdict": "hopelessly uncivilised",
-    "score": 1.4,
-    "essay": "To be treated with suspicion by a man in a bad uniform is perhaps the highest compliment modern society can bestow upon a traveller, for it implies that one might actually be capable of an interesting crime. We live in an age so thoroughly obsessed with safety that it has rendered the act of departure entirely unromantic. Nothing could be more hopelessly uncivilised than the requirement to disrobe in a brightly lit queue, surrendering one's favourite cologne and leather belt to an apparatus that lacks both taste and discretion. It is a peculiar triumph of bureaucracy that we must all be stripped of our elegance simply to prove we carry no explosives. A gentleman should only ever be asked to remove his boots in the most intimate of circumstances, yet today he does so before a crowd of bored strangers, purely for the privilege of sitting in a cramped metal box for seven hours. Danger, after all, was always the only redeeming feature of travel; by eliminating the possibility of peril, we have merely ensured that everyone arrives safely at places they had no real desire to visit. Suspicion is the last remaining form of public flattery.",
+    "verdict": "institutional dread",
+    "score": 1.2,
+    "essay": "To be suspected of a crime is a compliment to one’s imagination, but to be searched for it in public is a serious offence against one’s tailor. We have arrived at an age where the highest virtue of a traveller is not charm or elegance, but an unblemished belt and a willingness to parade in one’s socks before strangers. Nothing could be more tedious than this grand ritual of institutional dread, in which perfectly harmless people are forced to present their small pots of lotion as though they were dangerous secrets. Mystery used to be an art; now it is merely a matter of transparent plastic bags. For my part, I find the entire spectacle dreadful, chiefly because it elevates the official to the rank of a critic and reduces the gentleman to an exhibit. Safety is, no doubt, a very respectable ideal for those who have nothing more interesting to live for, but it is achieved at a monstrous price when it requires us to unlace our boots in public. A man can endure almost any form of persecution, provided it is conducted with exquisite manners, but to be patted down by a person in an ill-fitting uniform is a trial beyond the endurance of polite society.",
     "generated": "2026-09-29T21:26:33+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
-    "reread": "2026-09-29"
+    "reread": "2026-09-29",
+    "revoiced": "2026-11-15"
   },
   {
     "date": "2026-09-30",
@@ -3920,5 +3922,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-14"
+  },
+  {
+    "date": "2026-11-15",
+    "thinker": "montaigne",
+    "name": "Michel de Montaigne",
+    "dates": "1533-1592",
+    "object": "audiobooks",
+    "verdict": "a lazier door",
+    "score": 4.6,
+    "essay": "I have never been able to read a page without my mind slipping off it somewhere about the third line, to follow a horse in the courtyard or a debt I owe, and I come back to find my eyes have gone on alone, like a servant who keeps sweeping after the master has left the room. So when I am told that a man may now have a book read into his ear while he rides, or walks his garden, or lies idle, I confess my first feeling is not scorn but envy; perhaps the voice will hold me where my own eyes cannot. Yet I am not certain it will, and I have my doubts of the envy too. For in reading, I stop, I turn back, I quarrel with the author in the margin, I put the book down because a single sentence has set me thinking for an hour; the voice, I suspect, goes on at its own pace, and I must either follow it like a child led by the hand or silence it and lose my place. And then there is the reader himself, whose breath and manner lay a colour over the author that may not be the author's: I might think a man grave who was only played so, or take for wit what was merely a clever tongue. Still, I recall that I learned most of what I know of the ancients by having them spoken to me before I could spell them, and I cannot say I was the poorer; so I leave the matter where I found it, uncertain whether the ear is a lazier door to the mind, or only an older one.",
+    "generated": "2026-11-15T01:02:24+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-15"
   }
 ]
