@@ -2727,13 +2727,14 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "the step counter",
-    "verdict": "arithmetic calamity",
-    "score": 0.8,
-    "essay": "Walking without a destination was once the charming prerogative of the idle, yet nowadays society has managed to transform the stroll into an arithmetic calamity. To measure one's movement by the thousand is to treat the soul as a ledger, and nothing is quite so vulgar as a soul that keeps accounts. The modern pedestrian no longer wanders to admire the lilies or to escape a creditor; he marches to satisfy a small, relentless auditor strapped to his wrist. It is a splendid triumph of pedantry over pleasure. I have always held that any effort required to move from an armchair to a sofa should be undertaken with exquisite reluctance, but to accumulate paces simply to boast of a total is a vice only a saint could invent and only a clerk could enjoy. Physical labour is the last refuge of the uninspired, and counting one's steps is merely labour without the dignity of an income. If one must walk, let it be to pursue a temptation or to avoid a bore, but never to achieve a figure. True refinement lies in arriving nowhere with infinite grace, leaving the arithmetic entirely to one's tailor.",
+    "verdict": "a vice",
+    "score": 0.9,
+    "essay": "To turn a delightful stroll into an arithmetical exercise is an obsession of the thoroughly unrefined. Walking is the only activity whose sole justification lies in its absolute aimlessness, yet modern pedantry has reduced it to a ledger of meaningless triumph. Nothing is so fatal to grace as the habit of measuring it. One steps onto the pavement not to reach a destination, nor to accumulate a grand total of strides, but to escape the tyranny of purpose altogether. To strap a tiny accountant to one's wrist merely to register the tedious repetition of footfalls is to betray the very spirit of flânerie. It belongs to that unfortunate class of inventions designed by people who believe that life is a series of duties to be tallied rather than pleasures to be wasted. To walk five thousand steps is a misfortune; to count them is a vice. The moment movement becomes a matter of calculation, it ceases to be an art and becomes a form of domestic labour. True elegance consists in wandering with sublime indifference to distance, secure in the knowledge that the only steps worth taking are those that lead nowhere in particular.",
     "generated": "2026-10-16T18:00:57+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
-    "reread": "2026-10-16"
+    "reread": "2026-10-16",
+    "revoiced": "2026-11-15"
   },
   {
     "date": "2026-10-16",
@@ -2755,13 +2756,14 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "Paddington (2014)",
-    "verdict": "splendidly frivolous spectacle",
-    "score": 8.7,
-    "essay": "Good manners are far too serious a matter to be entrusted to the English, who have always confused cold civility with true kindness; it takes a bear from Peru to instruct London in the art of hospitality. The film presents us with a metropolitan world painted in the most charming pastel hues, turning a dreary terrace house into a perfectly functioning dollhouse of human eccentricity. One must admire a creature who understands that a neatly tailored duffle coat and a jar of marmalade are far more essential to civilisation than all the gloomy archives of the Geographers' Guild. The true villain of the piece is not cruelty, but bad taste—specifically, the taxidermist's hideous ambition to reduce living grace into a stuffed trophy. Paddington's ruinous politeness, which demolishes bathrooms and terrifies commuters, proves that catastrophe is entirely forgivable so long as one remembers to raise one's hat. It is a splendidly frivolous spectacle that demands nothing of its audience except that they abandon their tedious cynicism in favour of immaculate decorum. In an age so hopelessly devoted to practicality, there is something magnificently heroic about a foreigner who conquers London armed with nothing more than flawless manners and an appetite for tea.",
+    "verdict": "virtue entirely enchanting",
+    "score": 9.1,
+    "essay": "To be thoroughly civilised in modern London requires either an immense fortune or an extraordinary blue duffle coat. It is the unpardonable fault of the English middle classes that they insist upon judging a stranger by his origins rather than by the cut of his hat. Yet when a remarkably well-mannered creature from Peru descends upon Paddington Station, equipped only with an appetite for marmalade and an infallible sense of decorum, he performs the one miracle London never anticipates: he makes virtue entirely enchanting. Society is always prepared to pardon a villain, provided his attire is well chosen, but it is routinely terrified by genuine innocence. The Browns, in their delightfully chaotic domesticity, represent that peculiar British habit of admiring good manners only after they have flooded the bathroom. Cruelty, in the form of a taxidermist with admirable taste in tailoring but atrocious moral instincts, attempts to reduce this artful innocent to a mere specimen. But true charm is indestructible; it refuses to be preserved or made useful. To watch a young bear conquer the metropolis merely by being polite is to realise that style is, after all, the ultimate form of self-defence. Good manners are the only true rebellion left to us.",
     "generated": "2026-10-16T23:35:26+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
-    "reread": "2026-10-16"
+    "reread": "2026-10-16",
+    "revoiced": "2026-11-15"
   },
   {
     "date": "2026-10-17",
@@ -3949,6 +3951,20 @@
     "score": 3.6,
     "essay": "The water heater in the house on Ninth Street was in the hall closet, and it came on with a sound like a hand laid flat against a door. My mother would say it was the pilot. She would say it the way she said most things, to no one, while she wiped a counter that was already wiped. At six the pipes began to knock. At ten past, if you had not used the hot, someone else had. I think now about the hour people stood in it. Not washing. Standing. Men who had said nothing at dinner stood in it until the mirror gave up its face. A woman I knew would run it until the tank was empty and then sit on the edge of the tub in her slip with the fan going, and when her husband knocked she said she was almost done. She had been almost done since March. The water was a hundred and ten degrees, or it was what the dial said when the dial worked. The towels were the color of oatmeal. Somebody had bought them in a set. What I remember is the sound afterward, the pipes ticking as they cooled, and how long it took before anyone opened the door.",
     "generated": "2026-11-15T18:00:39+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-15"
+  },
+  {
+    "date": "2026-11-15",
+    "thinker": "whitman",
+    "name": "Walt Whitman",
+    "dates": "1819-1892",
+    "object": "Titanic (1997)",
+    "verdict": "no valentine",
+    "score": 6.6,
+    "essay": "Sat three hours and fourteen minutes in the dark of a cinema, and came out with wet cheeks and no shame about it. Boilers first, and the stokers at them: shovels, coal, fire-doors, sweat, pistons going up and down like the limbs of a great animal. That is the part I would have kept for myself. Then the staircase, the clock, the chandelier, the dinner-jackets, the silver, the lifeboats lower'd on their ropes; a band on the slanting deck, playing; a dog; an old couple in a bed; a mother reading to children, the water coming up the corridor. The young painter and the girl are the thin part of it, I think--a sketchbook, a necklace, a motor-car in the hold, hands on a rail, hands on steamy glass. They talk like a valentine. Yet the ship is no valentine; the ship is rivets, plates, funnels, bolts, ten thousand separate bodies in the stern, going over, the sound of it. The picture wants the crying out of us, and gets it; wants us to hate the rich man, and we do, a little, over his coat and his pistol. Left the theatre into a parking-lot, rain, headlamps, a boy sweeping popcorn off the carpet.",
+    "generated": "2026-11-15T21:52:10+00:00",
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-15"
