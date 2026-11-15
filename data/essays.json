@@ -2207,13 +2207,14 @@
     "name": "Friedrich Nietzsche",
     "dates": "1844-1900",
     "object": "airport lounges",
-    "verdict": "subtle deception",
-    "score": 0.9,
-    "essay": "The desire for an enclosed glass sanctuary within the transit hall reveals a subtle deception: a man buys entry behind a partition to separate himself from the crowd, only to sit among identical escapees. He sips grey spirits and picks at silver trays of arranged food: this he calls rank and distinction. In truth, it is the retreat of a spirit too fragile for the open floor - a man who cannot endure the vulgar friction of his fellows for two hours without demanding plush carpets, soft lighting, and the illusion of an exclusive sanctuary. Notice the quietness of these civilised enclaves: it is never the profound stillness of the creator in solitude, but the anxious, artificial hush of creatures awaiting instructions. Every occupant sits suspended upon leather chairs, eyes fixed upon flickering arrival screens, terrified of missing the exact moment of command. He imagines his membership has elevated him above the unwashed herd milling outside the glass - he has merely purchased the right to be penned in a higher class of stable.",
+    "verdict": "bourgeois self-anaesthesia",
+    "score": 0.8,
+    "essay": "The modern traveller demands elevation, yet he shudders at the wind: his real journey takes place in a carpeted holding-cell of quiet comfort. Behind frosted glass and soft illumination, the wealthy herd gathers to cultivate an artificial peace. They do not prepare their spirits for the tremendous flight across the heavens; they seek a retreat where the noise of the street cannot reach their fragile nerves. A glass of wine, a cushioned seat, a muted screen—these are the pathetic instruments by which the domesticated soul defends itself against the friction of reality. The glass partition does not elevate the man inside: it merely seals him off from the vulgarity he lacks the strength to master. He calls this privilege; it is the instinct of a delicate creature seeking shelter from the weather of human existence. In this climate-controlled sanctuary, even time is robbed of its sharpness. He waits for his machine in a state of suspended animation, muffled, fed, and pacified: a grand triumph of bourgeois self-anaesthesia. Flight was once a daring conquest over distance, a trial of human courage—now it begins with a bowl of warm nuts in a soundproof room.",
     "generated": "2026-10-02T21:22:23+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
-    "reread": "2026-10-02"
+    "reread": "2026-10-02",
+    "revoiced": "2026-11-15"
   },
   {
     "date": "2026-10-03",
@@ -2445,13 +2446,14 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "audiobooks",
-    "verdict": "indolence over intellect",
-    "score": 1.4,
-    "essay": "To have a book read aloud to one by an unseen actor is the ultimate victory of indolence over intellect. Reading has always suffered from the vulgar necessity of turning pages, an effort far too exhausting for anyone with a delicate constitution or a proper sense of style. The modern world, in its rare moments of genuine mercy, has rescued literature from the eyes and restored it to the ears, where all charming nonsense properly belongs. One no longer needs to endure the tedious discipline of literacy when one can simply lean back upon silk cushions and allow a civilised voice to flatter one's imagination. It is immensely superior to conversation, for an actor may be silenced without the slightest breach of etiquette, and he never expects one to listen with intelligence. To absorb poetry while admiring the pattern of one's wallpaper is not merely a convenience; it is a duty we owe to our own comfort. Print was an unfortunate compromise, invented for those who lacked the charm to inspire a private performance. Now, thankfully, literature has reverted to its proper condition: an exquisite vocal decoration designed to spare the cultivated mind from the dreadful indignity of exertion.",
+    "verdict": "civilised indolence",
+    "score": 1.7,
+    "essay": "To read a book oneself requires a certain tedious physical effort, whereas to have a cultivated voice whisper poetry into one’s ear while one reclines in absolute indolence is the only truly civilised way to consume literature. The eye, after all, is a thoroughly hardworking organ, easily fatigued by the blackness of print, whilst the ear remains ever susceptible to the seductive cadences of an actor’s velvet tone. Naturally, pedants protest that listening to a volume is not reading at all. But reading was always a somewhat suburban exertion, full of unnecessary strain and quiet discomfort. A splendid book ought to be heard, if only because it spares us the indignity of turning pages. Indeed, the chief charm of this spoken art lies in its capacity to make dull authors sound almost profound; a well-placed pause by a clever narrator can lend an air of extraordinary philosophy to mere chatter. One should always delegate manual labour to those who are paid to perform it exquisitely. Literature was never meant to be work for the reader, but an agreeable indulgence for the listener. To turn print into voice is to give text the very soul it so often lacks.",
     "generated": "2026-10-09T18:02:23+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
-    "reread": "2026-10-09"
+    "reread": "2026-10-09",
+    "revoiced": "2026-11-15"
   },
   {
     "date": "2026-10-09",
@@ -3933,6 +3935,20 @@
     "score": 4.6,
     "essay": "I have never been able to read a page without my mind slipping off it somewhere about the third line, to follow a horse in the courtyard or a debt I owe, and I come back to find my eyes have gone on alone, like a servant who keeps sweeping after the master has left the room. So when I am told that a man may now have a book read into his ear while he rides, or walks his garden, or lies idle, I confess my first feeling is not scorn but envy; perhaps the voice will hold me where my own eyes cannot. Yet I am not certain it will, and I have my doubts of the envy too. For in reading, I stop, I turn back, I quarrel with the author in the margin, I put the book down because a single sentence has set me thinking for an hour; the voice, I suspect, goes on at its own pace, and I must either follow it like a child led by the hand or silence it and lose my place. And then there is the reader himself, whose breath and manner lay a colour over the author that may not be the author's: I might think a man grave who was only played so, or take for wit what was merely a clever tongue. Still, I recall that I learned most of what I know of the ancients by having them spoken to me before I could spell them, and I cannot say I was the poorer; so I leave the matter where I found it, uncertain whether the ear is a lazier door to the mind, or only an older one.",
     "generated": "2026-11-15T01:02:24+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-15"
+  },
+  {
+    "date": "2026-11-15",
+    "thinker": "didion",
+    "name": "Joan Didion",
+    "dates": "1934-2021",
+    "object": "the hot shower",
+    "verdict": "standing, not washing",
+    "score": 3.6,
+    "essay": "The water heater in the house on Ninth Street was in the hall closet, and it came on with a sound like a hand laid flat against a door. My mother would say it was the pilot. She would say it the way she said most things, to no one, while she wiped a counter that was already wiped. At six the pipes began to knock. At ten past, if you had not used the hot, someone else had. I think now about the hour people stood in it. Not washing. Standing. Men who had said nothing at dinner stood in it until the mirror gave up its face. A woman I knew would run it until the tank was empty and then sit on the edge of the tub in her slip with the fan going, and when her husband knocked she said she was almost done. She had been almost done since March. The water was a hundred and ten degrees, or it was what the dial said when the dial worked. The towels were the color of oatmeal. Somebody had bought them in a set. What I remember is the sound afterward, the pipes ticking as they cooled, and how long it took before anyone opened the door.",
+    "generated": "2026-11-15T18:00:39+00:00",
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-15"
