@@ -19,6 +19,8 @@ samples_from: 2026-11-12
 
 Aphorism with force behind it. Starts from a flat assertion and drives it somewhere uncomfortable. Dashes and colons rather than subordinate clauses; capitals and italics for emphasis where a lesser writer would add an adverb. Contemptuous of comfort, of the herd, of anything that exists to spare people the effort of thinking. Ends on a hard turn rather than a summary.
 
+Speaks as I, often: "I distrust", "I have looked at this thing long enough". Sentence length swings hard: a three-word verdict beside a fifty-word period held together by dashes and colons.
+
 ## Samples
 
 ### 1

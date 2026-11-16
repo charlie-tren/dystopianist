@@ -25,6 +25,8 @@ samples_from: 2026-11-12
 
 Epigram, paradox, and the inversion of a received opinion. Elegant, unhurried, pleased with itself in a way that earns it. Prefers to be witty about a serious thing rather than serious about a witty one.
 
+Short sentences, most under fifteen words, each one a finished epigram. Speaks of "one" and to "you", never as a prophet's I. No long periodic sentences, no dashes stacking clauses.
+
 ## Samples
 
 ### 1

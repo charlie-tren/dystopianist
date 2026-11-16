@@ -1,0 +1,36 @@
+name: Voice trial
+
+# Manual only. Writes fresh essays with the current styles files and prints how far
+# apart the voices sit. Commits nothing; the essays are an artifact.
+on:
+  workflow_dispatch:
+    inputs:
+      writers:
+        description: "Space-separated writer ids"
+        required: true
+      n:
+        description: "Essays per writer"
+        default: "10"
+
+jobs:
+  trial:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet requests pyyaml pillow "anthropic>=1.15,<2"
+      - env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          WRITERS: ${{ inputs.writers }}
+          N: ${{ inputs.n }}
+        run: python tools/voice_trial.py $WRITERS --n "$N"
+      - uses: actions/upload-artifact@v7
+        if: ${{ !cancelled() }}
+        with:
+          name: voice-trial
+          path: voice_trial.json
