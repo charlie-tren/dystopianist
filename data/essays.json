@@ -3984,5 +3984,19 @@
     "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-11-16"
+  },
+  {
+    "date": "2026-11-16",
+    "thinker": "thoreau",
+    "name": "Henry David Thoreau",
+    "dates": "1817-1862",
+    "object": "dating apps",
+    "verdict": "squandered living light",
+    "score": 1.4,
+    "essay": "I watched a man on the Fitchburg platform last week swipe his thumb across a lighted pane some forty times while the train stood twelve minutes, which is one face to every eighteen seconds, and not one of them did he look at long enough to learn the colour of its eyes. I have spent longer than that deciding whether a woodchuck was a woodchuck. Yet I will not pretend the thing is wholly base. Any creature that goes abroad at dusk calling for a mate is doing what the whip-poor-will does, and I honour the whip-poor-will; he sings three hundred times without pause, and has been known to be answered. The difference is that his call costs him only breath and the dark, while the man pays a monthly sum, about the price of two bushels of corn meal, for the privilege of being shown a great many strangers arranged like cranberries at the market, sorted by size. A cranberry bog I would cross a county to see; the sorting I can do without. Consider the hours. If he gives two a day to the pane, that is seven hundred and thirty in a year, or more than thirty days of living light, enough to walk to Katahdin and back and meet, on the way, a farmer's daughter at a well, who would have been quite as real and not so well lit.",
+    "generated": "2026-11-16T18:01:12+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-16"
   }
 ]
