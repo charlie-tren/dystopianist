@@ -4040,5 +4040,19 @@
     "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-11-17"
+  },
+  {
+    "date": "2026-11-17",
+    "thinker": "whitman",
+    "name": "Walt Whitman",
+    "dates": "1819-1892",
+    "object": "airport lounges",
+    "verdict": "comfort behind glass",
+    "score": 6.1,
+    "essay": "Gate B22 left behind, a card swiped, a door that opens by itself--and in. Carpet; a woman at a desk with a screen and a list of names; a rack of newspapers nobody has creased. Beyond her the long room: armchairs, low tables, a buffet of little sandwiches, soup in steel tureens, bowls of almonds, wine in the middle of the morning, coffee machines with their hiss. A man in a grey suit asleep with his mouth open, his shoes beside him. A girl with two phones and a charger snaking to the wall. Two pilots, hats on the table, eating crisps. A Sikh gentleman in a saffron turban reading a paperback; a boy with a tablet; an old couple from somewhere south, tickets held like a deed to a farm. Through the glass the aircraft--tails, wings, fuel trucks, baggage carts in a string, a man in orange wands waving, the tarmac wet. All that roar out there, and in here a spoon on a saucer. I like it, I say plainly; I like the free almonds and the plugs in the walls and the stranger's elbow on the next arm-rest. I like also that the door shuts on the other crowd, the shuffling lines at the gate, the sleepers on the floor with their coats for pillows--I see them yet through the glass, and do not forget them. Then the name called, the soup unfinished, the bag lifted, the jet-bridge.",
+    "generated": "2026-11-17T23:52:34+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-17"
   }
 ]

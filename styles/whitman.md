@@ -74,6 +74,8 @@ Source: Specimen Days (1882), Project Gutenberg #8813
 - The ending turns to a tidy moral lesson stated as the writer's resolve, where Whitman's unembarrassed delight would close on a seen thing, such as the sandwich or the rain. Seen in a published essay: "and to be kind to somebody." (found 2026-11-14).
 - The decorative simile 'like the limbs of a great animal' stops the noun-catalogue; Whitman would name the pistons and let the sight stand without the figure. Seen in a published essay: "pistons going up and down like the limbs of a great animal" (found 2026-11-15).
 - The comparison to a valentine is a tidy figure standing in for the seen thing; Whitman would record the young pair's talk or gestures directly rather than characterise it by simile. Seen in a published essay: "They talk like a valentine." (found 2026-11-15).
+- A decorative simile that stops the catalogue; Whitman would name the tickets and let the sight stand without the figure. Seen in a published essay: "tickets held like a deed to a farm" (found 2026-11-17).
+- A moral resolve stated as the writer's stance; Whitman's notes would close on the seen sleepers and coats rather than tell the reader what to remember. Seen in a published essay: "and do not forget them" (found 2026-11-17).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Specimen Days (1882), Project Gutenberg #8813 via tools/gutenberg_shots.py.
