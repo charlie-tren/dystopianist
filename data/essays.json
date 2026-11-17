@@ -4026,5 +4026,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-17"
+  },
+  {
+    "date": "2026-11-17",
+    "thinker": "wilde",
+    "name": "Oscar Wilde",
+    "dates": "1854-1900",
+    "object": "airport lounges",
+    "verdict": "gilded purgatory",
+    "score": 3.1,
+    "essay": "The modern sanctuary of transit is designed for those who wish to pretend they are nowhere at all. It is a magnificent triumph of plush carpet over public chaos. Here, behind glass doors, one is permitted to cultivate the delicate art of elegant waiting. The vulgarity of the crowd is kept at bay by a discreet fee and a coloured card. That is its chief charm. Mankind has always insisted upon equality in theory, only to spend fortunes avoiding it in practice. Inside, one finds free champagne of questionable vintage and small, precise sandwiches that exist to be admired rather than eaten. It is a delightful paradox. In order to escape the mob, one simply pays to sit in a smaller room with a wealthier mob. Yet there is real merit in this gilded purgatory. It turns the horror of delay into an exercise in quiet self-satisfaction. To do nothing while appearing terribly important is the highest achievement of civilised life. The journey itself may be a tedious necessity, but the lounge makes waiting feel positively fashionable.",
+    "generated": "2026-11-17T18:02:23+00:00",
+    "provider": "gemini",
+    "scored_by": "claude/100",
+    "reread": "2026-11-17"
   }
 ]
