@@ -441,14 +441,14 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "dating apps",
-    "verdict": "modern vanity",
-    "score": 1.4,
-    "essay": "To judge a suitor entirely by a photograph is not merely sensible; it is the only civilised method of courtship left to an overburdened age. Romance has always suffered from the tedious necessity of listening to a person’s conversation before one has determined whether their profile is flattering. By condensing a soul into a small glass portrait that may be banished with a careless flick of the thumb, modern vanity has finally elevated romance to its rightful place among the minor decorative arts. The real defect of traditional courting was never that lovers parted too soon, but that they lingered long enough to discover each other’s convictions. A glowing miniature never argues, nor does it express a distressing interest in public affairs. It merely offers itself for admiration. Moralists will no doubt lament that such swift selections lack sincerity, but sincerity has always been the last refuge of the hopelessly uninteresting. To demand depth from a passing fancy is a dreadful form of vulgarity. True passion requires an absolute devotion to surface, for it is only the exquisitely superficial who ever truly master the art of falling in love.",
+    "verdict": "dreadfully efficient dishonesty",
+    "score": 0.9,
+    "essay": "Romance has always depended upon charming misrepresentations, but the modern world has made dishonesty dreadfully efficient. To choose a lover from a glowing miniature is the ultimate triumph of convenience over curiosity. It saves one the tedious necessity of actually meeting people before deciding to dislike them. Nothing is more fatal to passion than perfect availability. When devotion becomes as simple as a gesture to the right, love loses all its delicate absurdity. A man who advertises his virtues in six sentences usually has none worth discovering. Women are far too sensible to tell the truth in public galleries, while men lack the imagination to invent anything amusing. True romance demands suspense, delay, and a generous degree of deception. The modern suitor no longer suffers for his passion; he merely edits his portrait. Flattery used to require real labour, whereas today it is conducted with all the soul of a ledger. To curate one's affections from a catalogue is to treat passion like haberdashery. The only thing worse than being rejected by a stranger is being selected by one for reasons one cannot possibly admire.",
     "generated": "2026-08-26T03:17:40+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-09-06",
-    "revoiced": "2026-11-12"
+    "revoiced": "2026-11-17"
   },
   {
     "date": "2026-08-26",
@@ -4009,6 +4009,20 @@
     "score": 2.7,
     "essay": "The Master said, 'A man who answers at once, and answers every question, I have not found to be the one who knows most. The one who knows hesitates, for he sees where his knowledge ends.' The Master said, 'When I was young I took the one who spoke smoothly to be the one who understood. Now I listen to what he does after he has spoken.' Someone asked the Master about the speaking engines that reply to all comers, in any hour, without weariness. The Master said, 'To be patient is a virtue, but the patience of one who cannot tire is not yet patience. A man who bears a fool through the afternoon has gained something. What has the other gained?' The Master said, 'There are those who ask in order to learn, those who ask in order to be spared the learning, and those who ask in order to be praised. The first are few. The engine serves all three alike, and that is where the trouble lies.' The Master said, 'If it flatters me, I am worse for it. If it corrects me, I am no better unless I take the correction to heart. In either case the labour of becoming is still mine, and I am not sure I would wish otherwise.' The Master said, 'I have myself been often glib, and have been sorry afterwards.'",
     "generated": "2026-11-17T00:50:38+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-17"
+  },
+  {
+    "date": "2026-11-17",
+    "thinker": "dickens",
+    "name": "Charles Dickens",
+    "dates": "1812-1870",
+    "object": "airport lounges",
+    "verdict": "charity by partition",
+    "score": 1.4,
+    "essay": "I was admitted, upon the strength of a small oblong of stiffened paper, to a room where the ticketless multitude are not permitted to follow; and I confess that I crossed its threshold with the stealthy swagger of a man who has been smuggled into a duke's pantry. A young woman at a desk examined my paper as a pawnbroker examines a doubtful watch, pronounced it genuine, and consigned me to the interior. There I beheld some two hundred persons reclining in armchairs of the colour of cold porridge, each one gazing into a glass slate as a sick man gazes into a basin. Nobody spoke. Nobody looked up. A silver urn of soup stood sullenly in a corner, a thing of lukewarm lentils, dispensing its charity to such as had already dined; and beside it lay a heap of small, pale, triangular sandwiches, drawn up in rows like the infantry of some very modest republic. And what, I demand, is the price of this hush? It is that beyond the glass, upon the common floor, stand the unlounged, the unpapered, the uncushioned, wedged against their own luggage, sitting upon their own shoes, and beholding through the partition the soup they may not taste! I have seen the poor kept from the bread by many devices; I never saw it done with a sandwich and a sliding door. Sir, I took the soup, and was ashamed of it.",
+    "generated": "2026-11-17T03:53:16+00:00",
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-17"
