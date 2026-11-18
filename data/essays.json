@@ -456,14 +456,14 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "group chats",
-    "verdict": "democratic malice",
-    "score": 0.8,
-    "essay": "To be trapped in a salon where everyone speaks simultaneously, and from which one cannot depart without offending the host, is the ultimate triumph of democratic malice over private peace. Modern conversation has abandoned the exquisite art of the pause. In its place, we are offered a relentless tide of trivialities, poured incessantly into one's pocket by acquaintances one would normally take great care to avoid in the street. The chief terror of these collective parlours is not that people say foolish things—foolishness has always been the chief charm of human discourse—but that they expect one to acknowledge them immediately. A delayed response is treated as a moral failing, whereas in a truly civilised society, ignoring one's acquaintances is the very foundation of good manners. The vulgarity of the arrangement lies in its endlessness; it transforms the delicate pleasure of gossip into a laborious form of public service. Nothing is quite so fatal to charm as availability, yet here we are invited to be perpetually present at gatherings we never desired to attend. One must admire the ingenuity of a mechanism that allows fifty tedious people to be tedious to each other at the exact same moment, though I confess I prefer the solitary quiet of my own perfection.",
+    "verdict": "perpetual committee meeting",
+    "score": 1.4,
+    "essay": "Nothing is quite so fatal to a secret as sharing it with six friends simultaneously. The modern desire to assemble in these invisible salons springs from a dreadful terror of solitude. One used to require a drawing room, a tea service, and at least three hours of elaborate preparation to ruin a reputation. Today, a dozen enthusiastic acquaintances can dismantle a character before one has even finished one's tea. It is the complete triumph of quantity over conversation. Persons who have nothing whatever to say to a single listener now insist on saying it to twenty. Silence is mistreated as bad manners, whilst a relentless stream of unconsidered trifles passes for charm. To abandon such a gathering is regarded as a moral outrage, yet to remain is to surrender the privilege of lying gracefully. One is endlessly summoned to applaud the trivial passions of people one barely tolerates in person. If an individual writes to you, you may answer tomorrow. When a mob writes, you must applaud immediately or be convicted of arrogance. True wit demands leisure, but these frantic assemblies demand instant delight. They have turned society into a perpetual committee meeting, without even the civilised relief of champagne.",
     "generated": "2026-08-26T03:18:10+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-09-06",
-    "revoiced": "2026-11-12"
+    "revoiced": "2026-11-18"
   },
   {
     "date": "2026-08-26",
@@ -499,14 +499,14 @@
     "name": "Friedrich Nietzsche",
     "dates": "1844-1900",
     "object": "LinkedIn",
-    "verdict": "publicised servility",
-    "score": 0.7,
-    "essay": "The modern clerk does not merely sell his labour: he publishes his servility. He gathers his neighbours into a hall of mirrors where every slave praises the chains of every other. Consider this spectacle of domesticated ambition: men who lack the strength to command exchange manufactured tributes to their own docility. They call this networking—a euphemism invented by those who cannot endure solitude without trembling. In this digital bazaar, human worth is calculated by the number of witnesses to one's submissiveness. The herd demands a public confession of usefulness; it rewards the performative enthusiasm of the servant. A genuine spirit creates his own value in secret and imposes it upon the world: the weak man begs the market to assign him a price. He polishes his profile as a beggar polishes his cup, displaying every petty task as though it were a conquest. Thus the instinct for rank is inverted: the highest praise is reserved for the most thoroughly civilised draft animal. The final humiliation is not that he sells himself—it is that he demands to be applauded for the transaction.",
+    "verdict": "servitude is stature",
+    "score": 0.6,
+    "essay": "I have observed this market of souls: it is the lowest form of slavery, for here the slave himself polishes his own chains and displays them for the applause of other captives. Man has achieved the ultimate self-reduction: he turns his labour, his thoughts, his very breath into a humble petition for employment. He calls this networking: I call it the vanity of the domestic animal. Consider how eagerly these creatures announce their small triumphs. Every trivial duty fulfilled is elevated to a public sermon of gratitude; every master is praised for granting the privilege of toil. They do not seek power: they seek a shepherd. A mind that requires the daily reassurance of a thousand strangers to believe in its own utility is a mind already broken, already emptied of all sovereign ambition. The ancient tyrant compelled obedience through force: the modern clerk performs his own subjugation in public, demanding that his neighbours observe how beautifully he kneels. He fears nothing so much as to be invisible to the herd: to exist outside a master's ledger is, for him, nonexistence. His connections are not alliances: they are a shared confession of weakness, a mutual agreement to pretend that servitude is stature. Let him refine his digital profile: he has forged a whip out of his own desire to be managed.",
     "generated": "2026-08-26T03:19:39+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-09-06",
-    "revoiced": "2026-11-13"
+    "revoiced": "2026-11-18"
   },
   {
     "date": "2026-08-26",
@@ -4079,6 +4079,20 @@
     "score": 1.4,
     "essay": "The great promise of the podcast was that nobody would ever again have to be alone with a thought, and it has kept this promise with a thoroughness that its inventors can scarcely have hoped for. Two people sit in adjacent rooms, or in the same room, or in rooms that are merely adjacent to each other in the sense that both have wifi, and talk for ninety minutes about a subject on which neither has been asked to qualify. The listener, meanwhile, is doing the washing-up. This is the crucial arrangement. A podcast is never listened to; it is accompanied, in the way that a man accompanies a dog he has not quite decided to own. The length is the remarkable part. Radio, having spent a century learning that people will stop paying attention after about four minutes, produced a medium in which nothing is ever said in fewer than seventy. The reasoning appears to be that since there is no one to stop them, stopping would be a kind of waste, like leaving a perfectly good tap running only in reverse. And yet the subscriber list grows, and the unlistened episodes accumulate in a queue of such patient size that it has begun to resemble a debt. Most people now own more hours of conversation than they will live to hear, and feel, quite accurately, that this is a form of wealth.",
     "generated": "2026-11-18T18:01:19+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-18"
+  },
+  {
+    "date": "2026-11-18",
+    "thinker": "child",
+    "name": "Julia Child",
+    "dates": "1912-2004",
+    "object": "airport security",
+    "verdict": "theatre, and fuss",
+    "score": 5.5,
+    "essay": "Take off your shoes, and do it before you reach the front of the line, not while the person behind you sighs through his teeth. That is the whole secret of the thing, and I am astonished how few people have grasped it. You are going to be asked for the same things every single time: the liquids in a bag, the laptop out, the belt in the tray. It is a mise en place, exactly like laying out your onions and your butter before the pan gets hot, and the traveller who stands there at the belt patting his pockets has simply not read the recipe. Now, I do not pretend to love it. A great deal of it is theatre, and I have no patience with theatre that confiscates a perfectly good jar of mustard and leaves the real question unasked. A rule should be there for a reason you can state in one sentence. Where it is, I am all for it. Where it is not, it is fuss. But the people at the machines are doing a tiring, exacting job, watching and watching, and nobody thanks them. Be brisk, be pleasant, put the little bag where it belongs, and you will be through in a trice and have time for a decent cup of coffee!",
+    "generated": "2026-11-18T23:25:06+00:00",
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-18"
