@@ -4054,5 +4054,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-17"
+  },
+  {
+    "date": "2026-11-18",
+    "thinker": "child",
+    "name": "Julia Child",
+    "dates": "1912-2004",
+    "object": "self-checkout machines",
+    "verdict": "not a convenience",
+    "score": 2.4,
+    "essay": "Look at what you are doing the next time you stand at one of those machines: you are weighing your own produce, finding the code for your own shallots, and bagging your own eggs, and nobody is paying you a penny for it. Now I have no objection to work. I have spent a good part of my life happily up to my elbows in it. But I do object to being handed the work of an employee and being told it is a convenience. The principle is sound enough. A shop is much like a kitchen, and a good one has someone at every station who knows the job. Take the cashier away and you have not removed the station, you have simply put an amateur at it, and that amateur is you, with a line of impatient people behind and a voice announcing that there is an unexpected item in the bagging area. There is no unexpected item! It is a lemon, and it has been a lemon all morning. If you are buying a loaf and a bottle of milk, use the thing and be glad of it. Quick, clean, done. But a full basket wants a human being who can tell a bunch of parsley from a bunch of cilantro and will say good morning while doing it. That, you will find, is worth keeping.",
+    "generated": "2026-11-18T02:53:47+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-18"
   }
 ]
