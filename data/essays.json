@@ -4068,5 +4068,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-18"
+  },
+  {
+    "date": "2026-11-18",
+    "thinker": "adams",
+    "name": "Douglas Adams",
+    "dates": "1952-2001",
+    "object": "podcasts",
+    "verdict": "resembles a debt",
+    "score": 1.4,
+    "essay": "The great promise of the podcast was that nobody would ever again have to be alone with a thought, and it has kept this promise with a thoroughness that its inventors can scarcely have hoped for. Two people sit in adjacent rooms, or in the same room, or in rooms that are merely adjacent to each other in the sense that both have wifi, and talk for ninety minutes about a subject on which neither has been asked to qualify. The listener, meanwhile, is doing the washing-up. This is the crucial arrangement. A podcast is never listened to; it is accompanied, in the way that a man accompanies a dog he has not quite decided to own. The length is the remarkable part. Radio, having spent a century learning that people will stop paying attention after about four minutes, produced a medium in which nothing is ever said in fewer than seventy. The reasoning appears to be that since there is no one to stop them, stopping would be a kind of waste, like leaving a perfectly good tap running only in reverse. And yet the subscriber list grows, and the unlistened episodes accumulate in a queue of such patient size that it has begun to resemble a debt. Most people now own more hours of conversation than they will live to hear, and feel, quite accurately, that this is a form of wealth.",
+    "generated": "2026-11-18T18:01:19+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-18"
   }
 ]
