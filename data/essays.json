@@ -528,14 +528,14 @@
     "name": "Friedrich Nietzsche",
     "dates": "1844-1900",
     "object": "painkillers",
-    "verdict": "tiny chemical indulgence",
-    "score": 0.7,
-    "essay": "Pain is the great disciplinary hammer: to break its blow with a tiny chemical indulgence is to betray the very engine of growth. The modern nerve, flabby and terrified of its own friction, demands immediate rescue from the furnace. It cannot endure the burning: it demands that the fire itself be declared a malfunction of existence. Consider what is traded away in this hasty quietus: the agony that formerly forced the mind into mastery is dismissed as an unnecessary inconvenience. Suffering was once the forge where rank was assigned—the strong proved their endurance, while the frail collapsed into obscurity. Now, the tiny capsule offers an artificial equality: the coward purchases the same tranquillity as the conqueror, paying only the petty price of his own numbness. This quiet eradication of agony is no triumph over nature: it is the total retreat of the spirit before the body's first complaint. The organism that cannot tolerate pain cannot tolerate creation. What remains when all resistance is chemically banished is a muted, harmless creature—a creature that mistakes its silent stupor for peace, incapable of ever building anything that outlasts its own brief, unblemished slumber.",
+    "verdict": "a chemical truce",
+    "score": 1.2,
+    "essay": "I have observed the modern sufferer: he cannot endure the smallest friction of his own body without demanding a chemical truce. Pain is the great sculptor, the sharp chisel that carves the spirit into an instrument of distinction—yet modern man demands that his flesh remain uncarved, soft, and perpetually silent. He swallows his tiny white remedy and imagines himself master of his nature: in truth, he has merely purchased a temporary quietus for his nerves at the expense of his strength. The man who cannot tolerate an hour of fever is a creature of glass, a fragile vessel that shudders before the first breath of winter. I distrust this universal eagerness to extinguish the fires of the flesh. To abolish suffering is to abolish the necessary resistance that forces the spirit upward: without friction, the intellect grows slack; without labour, the spirit rots in a civilised, domestic warmth. The herd calls this relief a triumph of reason—I call it the swift domestication of the species. He who flees every sting of existence renders himself incapable of greatness: he becomes a spectator to his own quiet decay, grateful only for the stupor that disguises his ruin.",
     "generated": "2026-08-26T04:17:30+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-09-06",
-    "revoiced": "2026-11-13"
+    "revoiced": "2026-11-19"
   },
   {
     "date": "2026-08-26",
@@ -613,14 +613,14 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "Shrek (2001)",
-    "verdict": "glorious vulgarity",
-    "score": 9.1,
-    "essay": "To insist that romance must always wear silk and speak in heroic verse is a dreadful mistake of the middle classes, who are perpetually confusing elegance with earnestness. True art has always preferred a splendid monster to a tedious prince. Indeed, there is something entirely captivating about a creature who resides in a swamp, slaps his face with mud, and utterly refuses to apologise for his temperament. The modern world has grown hopelessly burdened by delicate chivalry and tiresome dragons, both of which exist merely to give dull people an excuse to be heroic. To dismantle the sweet, sickly fables of our youth with a burst of glorious vulgarity is not a crime against romance, but its ultimate salvation. Beauty, after all, is merely a trick of the light, whereas a truly magnificent ugliness possesses a permanence that no mirror can diminish. To see noble knights reduced to absurd puppets and a princess taking genuine pleasure in the art of burping is to realise that sincerity is the last refuge of the unimaginative. One must always side with the ogre; he is the only person in the story who has the good taste to prefer his own company to that of a courtly monarch.",
+    "verdict": "exquisite squalor",
+    "score": 9.0,
+    "essay": "Beautiful people are enormously exhausting, for they expect the world to admire their faces while doing nothing to entertain their minds. An ogre, on the other hand, possesses the supreme virtue of being entirely unreasonable. To reject the tedious perfection of a palace for the exquisite squalor of a swamp is not a tragedy; it is the triumph of good sense over bad manners. We have been tortured for centuries by princes whose only talent was standing gracefully in sunlight. How refreshing to encounter a hero who prefers mud to melody, and who flatters no one, least of all himself. True romance does not consist in turning a beast into a gentleman. It consists in convincing a lady that civilised life is vastly overrated, and that a dragon makes a most amusing companion. Beauty is merely a promise of boredom, whereas genuine ugliness is an endless source of fascination. The world has always preferred a well-dressed lie to an unvarnished truth, yet here the unvarnished truth is wrapped in delightful green cheek. One must admire any spectacle that treats the conventional fairy tale with the utter contempt it so richly deserves. Sentimentality is the refuge of the unimaginative. To laugh at noblemen and fall in love with a brute is the highest form of critical taste.",
     "generated": "2026-08-27T23:36:45+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-09-07",
-    "revoiced": "2026-11-13"
+    "revoiced": "2026-11-19"
   },
   {
     "date": "2026-08-29",
