@@ -4110,5 +4110,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-19"
+  },
+  {
+    "date": "2026-11-19",
+    "thinker": "kafka",
+    "name": "Franz Kafka",
+    "dates": "1883-1924",
+    "object": "dating apps",
+    "verdict": "approval from nobody",
+    "score": 1.6,
+    "essay": "For some weeks now I have been permitted to be approved of, and I have not yet found out by whom. The permission came quickly, within an evening, after I had answered the questions put to me, some of which concerned my height and one my idea of a perfect Sunday, and when I had finished a small mark appeared beside my name to show that the answers had been received and were being considered. Since then the mark has not changed. I do not complain of it, for it would be unreasonable to complain of a mark, and I have noticed that on the days when I look at it less often it seems to remain exactly as steady as on the days when I look at it constantly. Once, towards midnight, a woman whose photograph showed her standing beside a river was said to have expressed interest in me. I wrote at once, carefully, and the reply, which came the next morning, informed me that she could no longer be reached by this route, though she remained, the message added, in the system, and that I might wish to continue looking. I have continued. Each evening I am shown another river, another person beside it, and I put my answer forward in good time, since I am told that the delay is never on the side of those who answer promptly, and that I am almost there.",
+    "generated": "2026-11-19T18:01:11+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-19"
   }
 ]
