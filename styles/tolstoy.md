@@ -64,6 +64,8 @@ Source: What Is Art? (1897, Maude translation), Project Gutenberg #64908
 - The coin metaphor and the ironic 'calls himself rich' soften the charge; Tolstoy would state it literally, e.g. 'each gives the other nothing and each believes he has received something.' Seen in a published essay: "each pays the other with the same empty coin and each calls himself rich" (found 2026-10-18).
 - The wry, domestic jab is the lightness the voice excludes; Tolstoy would state the fact flatly, e.g. 'Forty people, most of whom he has no wish to see.' Seen in a published essay: "Forty people, most of whom he would not cross the road to visit" (found 2026-10-18).
 - The balanced epigram is a witty turn; Tolstoy would deliver the verdict plainly, e.g. 'The idle live at the cost of the toiling and gain nothing from it.' Seen in a published essay: "The idle are thus amused at the cost of the toiling, and are amused by nothing." (found 2026-10-18).
+- This is a wry, ironic contrast that the voice excludes. Tolstoy would state the charge flatly, e.g. 'the film teaches that men must be woken, and then teaches them to kill.' Seen in a published essay: "and having taught this, it spends two hours and more in teaching him to shoot" (found 2026-11-19).
+- The personified figurative image softens the argument. Tolstoy would assert the claim literally, e.g. 'and that they feel the falseness of it.' Seen in a published essay: "and that something in them cries out against it" (found 2026-11-19).
 ## Log
 
 - 28/08/2026 - added at Charlie's request from a list of sixteen. Real prose, two passages from What Is Art? via `tools/gutenberg_shots.py`. Italic markup stripped from the quoted text.

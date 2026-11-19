@@ -4096,5 +4096,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-18"
+  },
+  {
+    "date": "2026-11-19",
+    "thinker": "tolstoy",
+    "name": "Leo Tolstoy",
+    "dates": "1828-1910",
+    "object": "The Matrix (1999)",
+    "verdict": "a new illusion",
+    "score": 0.8,
+    "essay": "The film teaches that the man who lives among shadows is deceived, and that he must be woken; and having taught this, it spends two hours and more in teaching him to shoot. This is its whole contradiction, and it is not an accident. The people who made it have understood that the world men live in is false, that they are slaves without knowing it, and that something in them cries out against it; and what do they offer as the way out? Not labour, not the renunciation of violence, not the simple recognition of other men as brothers, but a chosen young man, endowed with a power no one else possesses, who kills several hundred persons, called agents or soldiers, whose lives the audience is taught to count as nothing. The spectator is flattered that he too is secretly the chosen one. That is what the film wants from him, and he gives it gladly. The pictures are made with great expense and great ingenuity; but ingenuity of this kind serves only to make the killing agreeable to look at. A film that pretends to free men from illusion and in fact fills them with a new illusion, more attractive than the old, is worse than one that does not pretend. It does not unite people in any feeling; it excites them, and then dismisses them unchanged.",
+    "generated": "2026-11-19T02:34:37+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-19"
   }
 ]
