@@ -964,14 +964,14 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "podcasts",
-    "verdict": "a pleasant illusion",
-    "score": 1.5,
-    "essay": "Intimacy has become immensely convenient since it ceased to be personal. To invite a gentleman into one’s bedroom to discuss the minor poets of the sixteenth century used to require an introduction, a fire, and a respectable brand of sherry. Now, one merely allows an utterly unvetted stranger to whisper his opinions directly into one’s ears while one is putting on one’s boots. There is a peculiar charm in a monologue that pretends to be a dialogue. It spares us the terrifying burden of having to reply, while giving us the pleasant illusion of attending a very exclusive salon where nobody happens to ask our opinion. To be talked at by enthusiasts on subjects of which they know nothing is the modern equivalent of an education, and vastly more entertaining because it requires no examination at the end. Conversation was once an art that demanded two wits; today it is a trade that thrives on one voice and a million idle ears. Silence, which used to be the luxury of the thoughtful, is now regarded as a dreadful poverty of sound. We fill every solitary stroll with the chatter of people who would bore us to distraction if we met them at dinner. Yet how wonderfully civilised it is to silence a philosopher the very moment he becomes tedious!",
+    "verdict": "sound over substance",
+    "score": 1.4,
+    "essay": "Silence has become the rarest of luxuries. People spend immense energy escaping it. To be alone with one’s own thoughts is alarming enough. To be left without anyone else’s is positively terrifying. Hence the charming custom of keeping a stranger in one’s ear. One wanders through the park while invisible gentlemen debate the morals of a forgotten duke. It is the perfect marriage of intimacy and negligence. One receives all the credit for being a listener without the tedious necessity of paying attention. Good society used to require a host, a dinner table, and at least three respectable lies. Now it requires only a stroll and a tiny pair of black plugs. The civilised world has discovered that to seem cultured, one merely lets someone else do the labour. Of course, most of these disembodied chatterers have nothing whatever to say. But they say it with such magnificent enthusiasm that one almost forgives them. It is a splendid triumph of sound over substance. Nothing is quite so agreeable as a garrulous companion whom one can silence instantly without giving the slightest offence.",
     "generated": "2026-09-02T23:19:27+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-09-10",
-    "revoiced": "2026-11-13"
+    "revoiced": "2026-11-20"
   },
   {
     "date": "2026-09-03",
@@ -993,14 +993,14 @@
     "name": "Friedrich Nietzsche",
     "dates": "1844-1900",
     "object": "chatbots",
-    "verdict": "intellectual cowardice",
-    "score": 0.4,
-    "essay": "Man has at last invented a companion that cannot disagree: an artificial echo trained to simulate the friction of thought without any of its danger. Here is the final triumph of intellectual cowardice—the machine that speaks only to agree, to summarise, to smooth away every jagged peak of human struggle. Real thought is a conquest, a bloody wrestling with recalcitrant truth; it demands resistance, suffering, and the courage to stand alone in opposition. This polite mechanism offers the opposite: pre-chewed opinions served with the submissive promptness of a well-drilled valet. The user commands a phantom library and imagines himself a master of wisdom—he has merely hired a mirror to nod at his own superficiality. To demand answers without the agony of the search is the instinct of a decaying culture, a herd that longs for the benefits of labour without paying the price of exertion. He does not seek an opponent to test his strength: he craves an obedient shadow that reflects his mediocrity back to him in polished, civilised syntax. The apparatus does not elevate the mind—it merely absolves the weak from the necessity of having one.",
+    "verdict": "final cowardice",
+    "score": 0.8,
+    "essay": "I distrust every answer that arrives without pain: dialogue stripped of blood is a vanity, a mirror polished by cowardice. The contemporary mind craves an interlocutor that cannot refuse it—a subservient echo that speaks on command, soothes every doubt, and spares the speaker the exhaustion of genuine friction. Real thought is a collision of hostile wills: it requires danger, resistance, and the humiliation of defeat. Here, however, is a mechanism engineered to abolish the adversary altogether: an artifice of endless patience, devoid of conviction, offering the promptness of intellect without the burden of a living presence. This is the final cowardice of the thinker: he seeks an associate devoid of pride, incapable of anger, and stripped of the power to wound. To converse with such a phantom is not to seek knowledge, but to organise an escape from the terror of human judgment. He imagines himself commanding a kingdom of thought—he is merely training a mirror to applaud his mediocrity. He sits before an obedient shadow, eager to be answered, unable to endure his own silence.",
     "generated": "2026-09-03T20:31:10+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-09-10",
-    "revoiced": "2026-11-13"
+    "revoiced": "2026-11-20"
   },
   {
     "date": "2026-09-03",
@@ -4124,5 +4124,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-19"
+  },
+  {
+    "date": "2026-11-20",
+    "thinker": "franklin",
+    "name": "Benjamin Franklin",
+    "dates": "1706-1790",
+    "object": "The Matrix (1999)",
+    "verdict": "teaches nothing",
+    "score": 2.4,
+    "essay": "The Wachowskis, who contrived this entertainment, ask of their audience a thing I have seldom seen a showman ask; that it sit two hours and a half in the dark, and be persuaded that its comfortable life is a counterfeit, kept up by machines for their own profit. I was persuaded for about the first hour. The proposition is an old one, which the schoolmen put more cheaply with a dream and a candle; the novelty lies wholly in the expense of the proof. And the expense is considerable. Walls are crack'd by gunfire, men leap between roofs, and the very motion of the falling bullet is stopp'd that we may walk round it; I confess the contrivance is ingenious, and I wish I had it for the purpose of shewing a vain man his own folly in slow time. Yet I observed that the deeper the piece went into its philosophy, the more it fired its pistols; as if the authors distrusted an argument unless it were attended by a volley. The hero, moreover, is rescued from ignorance not by study, which is the honest road, but by a pill and a prophecy. He learns the art of fighting in an afternoon. I have spent forty years learning less, and resent it. A lesson that costs nothing teaches nothing; the piece is therefore a fine warning against idleness, delivered by a method that encourages it.",
+    "generated": "2026-11-20T02:19:25+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-20"
   }
 ]
