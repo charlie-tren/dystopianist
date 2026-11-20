@@ -1122,14 +1122,14 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "emojis",
-    "verdict": "charmingly absurd pictograms",
+    "verdict": "beautifully shallow",
     "score": 1.4,
-    "essay": "Human sentiment has always been far too complex to be entrusted to words, which have the unfortunate habit of meaning what they say. How delightful, then, that modern society has banished the tedious necessity of syntax in favour of charmingly absurd little pictograms. Sincerity in correspondence is the last refuge of the unimaginative. A written confession of love requires an immense deal of tedious labour, whereas a painted heart of alarming hue conveys precisely the right degree of shallow devotion without committing one to a single sensible thought. There is something exquisitely civilised about reducing a passion to a miniature grimace. It allows us to express profound grief without spoiling our linen, and to display enthusiasm without the vulgar inconvenience of feeling it. The pedants will no doubt complain that these colourful ornaments degrade our discourse, but discourse was degraded the moment people began using it to tell the truth. To replace an elaborate apology with a small weeping countenance is not a surrender of intellect. It is the highest form of courtesy, for it saves both writer and reader from the intolerable burden of conversation.",
+    "essay": "To communicate by tiny painted faces is the ultimate victory of style over syntax. Words are far too dangerous; they invite understanding, which is invariably the death of conversation. A small yellow countenance, weeping without grief or smiling without pleasure, is wonderfully civilised. It saves one the boredom of feeling what one says. Modern life is far too serious to be discussed in prose. A little red heart tells your neighbour that you are fond of them. It commits you to nothing more exhausting than a second tap. That is a great solace. Nothing degrades affection so rapidly as unvarnished candour. It is always the tedious people who insist on explaining their emotions at length. The truly refined prefer a gilded emblem. A dancing figure in a crimson gown expresses an evening of delightful folly without the indignity of grammar. We have at last invented a dialect that demands no intellect and spares us all vulgar sincerity. It is decorative, effortless, and beautifully shallow. To be understood is a minor tragedy, but to render oneself as a glowing slice of melon is an absolute triumph.",
     "generated": "2026-09-06T22:53:49+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-09-11",
-    "revoiced": "2026-11-14"
+    "revoiced": "2026-11-20"
   },
   {
     "date": "2026-09-07",
@@ -1221,14 +1221,14 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "Wikipedia",
-    "verdict": "tyranny of exactness",
-    "score": 0.7,
-    "essay": "A consensus on facts is merely the agreement of the uninspired. To surrender the glorious romance of error to a committee of anonymous pedants is the final, tragic victory of democracy over charm. Truth is far too delicate a flower to be cultivated by the crowd; exposed to the brisk, efficient air of popular revision, it loses all its perfume and becomes a mere statistic. The modern passion for collective accuracy has quite ruined the art of invention. When thousands of industrious clerks assemble to correct one another's dates, history is reduced to a parish register written by a mob. One should always treat facts with the contempt they so richly deserve, for they are the resort of minds that possess no imagination whatever. An exquisite legend, polished by a single person of genius, will always remain vastly superior to a dull certainty certified by ten thousand unknown neighbours. Nothing is so fatal to conversation as an inescapable reference that resolves an argument before it has had time to become brilliant. We are threatened now by a tyranny of exactness, where mystery is forbidden and ignorance is no longer permitted to be charming. To know everything instantly is to appreciate nothing deeply, and to be entirely correct is the mark of a thoroughly civilised bore.",
+    "verdict": "charming delusion",
+    "score": 1.4,
+    "essay": "To establish truth by popular vote is the most charming delusion of the modern age. Accuracy has become a communal labour. It is carried out by thousands of industrious strangers who have never encountered a single beautiful lie. One can forgive a falsehood if it is told with style, but a well documented fact is utterly unpardonable. The world has finally achieved what it always secretively desired: an endless library written entirely by the people who read it. Nothing is so fatal to conversation as an authority that can be edited by one’s neighbour. It represents the ultimate triumph of pedantry over imagination. Every subject is treated with the same cold, unblemished impartiality. A grand tragedy is reduced to a footnote, while a minor scandal receives six paragraphs of meticulous reference. Yet there is something grand about such magnificent vulgarity. It satisfies the modern craving to know everything while understanding nothing. To consult it is to enter a salon where everyone is talking at once, and everyone is entirely correct about things that do not matter in the slightest. Culture used to be an exclusive club; it has now become a crowded railway carriage.",
     "generated": "2026-09-09T19:49:39+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-09-12",
-    "revoiced": "2026-11-14"
+    "revoiced": "2026-11-20"
   },
   {
     "date": "2026-09-09",
@@ -4150,6 +4150,20 @@
     "essay": "A man who performs necessary labour to feed himself and his family does not count his steps, because every step he takes is already directed toward a useful end. It is only the idle man, who consumes the bread produced by the toil of others while doing no work himself, who finds it necessary to invent artificial movement to preserve his health. Having freed himself from physical labour, he suffers the bodily weakness caused by his unnatural way of living, and so he walks back and forth without purpose, recording each step upon a mechanical instrument. He looks at this number and feels satisfied, believing that by reaching a required figure he has accomplished something good. But this satisfaction is entirely false. Movement that does not serve to help one's neighbour or lessen the heavy burden of another has no moral value whatever. To measure one's own pointless walking and to take pride in the resulting tally is to turn a personal failure into a virtue. The man who counts his steps merely proves that his life contains no useful work.",
     "generated": "2026-11-20T18:02:01+00:00",
     "provider": "gemini",
+    "scored_by": "claude/100",
+    "reread": "2026-11-20"
+  },
+  {
+    "date": "2026-11-20",
+    "thinker": "suntzu",
+    "name": "Sun Tzu",
+    "dates": "c. 544-496 BC",
+    "object": "audiobooks",
+    "verdict": "campaign of reading",
+    "score": 6.8,
+    "essay": "A book heard is a book taken in through the ear while the hands remain free. The commander who understands this has gained hours he did not own before. The road, the kitchen, the long march to the field, the walk to the market: each was dead time, and each now carries a campaign of reading. If the hands are busy and the mind is idle, give the ear a book. If the ground is difficult and the eyes are needed, give the ear a book. If the matter is a chronicle of wars or a record of reigns, let it be heard; such works were made from speech and return to it easily. If the matter is a table of grain taxes, a map, or a plan of ranks, do not trust the ear. It cannot go back to a line and hold it. Take up the page. The voice that reads is a guide on unfamiliar ground. A steady guide brings the army through. A poor guide loses it in the hills, however sound the road. Test the reader before you commit the march. The man who listens at double speed gains days and loses the country he passed through. The man who listens while his mind is elsewhere has bought a book and read none of it. Judge your listening by what remains with you at evening, not by the number of hours spent.",
+    "generated": "2026-11-20T23:08:23+00:00",
+    "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-20"
   }
