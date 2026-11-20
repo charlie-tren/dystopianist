@@ -1050,14 +1050,14 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "influencers",
-    "verdict": "vanity without intellect",
-    "score": 0.9,
-    "essay": "To preach the gospel of oneself without the tedious burden of having a self to preach is an achievement that commands our most passionate envy. Society has always forgiven those who display extraordinary vanity, provided it is entirely unblemished by intellect. Today, the art of living beautifully has been delightfully simplified into the art of being observed living beautifully, which is infinitely less exhausting. One need not cultivate a mind when a camera can so easily cultivate an audience. To possess an opinion is a fatal error in a world that demands only a posture; convictions are terribly ageing, whereas a perfectly posed profile remains eternally young. It is a splendid thing to see how thoroughly the charm of personality has vanquished the tedious necessity of talent. The crowd no longer requires a prophet to lead them; they are perfectly content with a shadow that tells them what to wear while walking nowhere in particular. After all, the highest form of generosity is to allow total strangers to pay for one's breakfast merely by watching one pretend to enjoy it. In an age so hopelessly devoted to utility, there is something delightfully decadent about a life lived entirely for the applause of people one will never have the misfortune to meet.",
+    "verdict": "an exhausting trade",
+    "score": 1.7,
+    "essay": "Public vanity used to be a charming private luxury; today it has degenerated into an exhausting trade. To spend one's days curating an existence for the amusement of strangers is a curious form of self-sacrifice. It requires an extraordinary amount of labour to appear entirely effortless. One must admire the devotion of those who dress their breakfasts with more care than their minds. They have discovered that to be noticed is infinitely more profitable than to be interesting. Indeed, the secret of their success lies in their complete harmlessness. They offer the world a magnificent spectacle of perfection without the tedious encumbrance of intellect. Popularity, after all, is merely the crown bestowed upon those who reflect our own trivialities back to us with superior lighting. When everyone is eager to imitate, nobody takes the trouble to exist. Yet we cannot be altogether unkind to these charming phantoms of the screen. They perform a vital public service by taking the burden of self-love off the shoulders of the crowd. It is far easier to applaud another person's exquisite mirror than to polish one's own. Ultimately, they prove that style can exist without substance, provided one has enough enthusiasm and a sufficiently flattering angle.",
     "generated": "2026-09-05T19:05:11+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-09-10",
-    "revoiced": "2026-11-13"
+    "revoiced": "2026-11-20"
   },
   {
     "date": "2026-09-05",
@@ -1079,14 +1079,14 @@
     "name": "Friedrich Nietzsche",
     "dates": "1844-1900",
     "object": "The Matrix (1999)",
-    "verdict": "cheap digital fantasy",
-    "score": 0.7,
-    "essay": "The mob demands a drama of awakening, but it demands it on the cheapest possible terms: a single pill, a sudden choice, an instant hero. To believe that truth is accessed through a secret mechanism is the oldest comfort of the weak—they wish to be liberated without the agony of self-overcoming. Consider this digital fantasy of mastery: a man slumbers, awakes, and receives discipline in a second through a wire. He does not earn his force—he downloads it: here is the ultimate ideal of the decadent mind, which imagines that strength is a program to be installed rather than a muscle forged through relentless suffering. Even their rebellion retains the stale odour of the theatre. They wear black leather, leap across rooftops, and imagine themselves dangerous: it is the vanity of the clerk playing at aristocracy. They pretend to despise the phantom world around them, yet they cannot conceive of an existence that is not staged by their tormentors. In truth, they do not crave reality—they crave an audience for their trembling hands. The spectacle does not shatter the illusion: it crowns it.",
+    "verdict": "theatrical rebellion",
+    "score": 0.9,
+    "essay": "I distrust this theatrical rebellion: it offers the herd their favourite consolation—an instant transformation without the agony of the climb. Observe the underlying fantasy: a petty clerk discovers his whole existence is an illusion, yet his deliverance demands no brutal self-overcoming, merely the swallowing of a coloured pill. In a single moment, mastery is wired directly into his nervous system; he acquires the formidable skill of a warrior without paying the price of a single hour of discipline or labour. Real nobility of spirit is carved out through long suffering and hard solitude: it cannot be downloaded like a merchant's inventory. Even when these insurgents escape into their cold, ruined caverns, they remain slaves—they huddle together in the dark, waiting for a prophet to dictate their faith and an anointed saviour to fight their battles. They do not genuinely desire reality: they desire a grander theatre in which their smallness is proclaimed heroic. They pretend to smash the tyranny of the machine—in truth, they require its mechanisms to grant them a soul.",
     "generated": "2026-09-06T09:41:36+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-09-11",
-    "revoiced": "2026-11-14"
+    "revoiced": "2026-11-20"
   },
   {
     "date": "2026-09-06",
@@ -4136,6 +4136,20 @@
     "essay": "The Wachowskis, who contrived this entertainment, ask of their audience a thing I have seldom seen a showman ask; that it sit two hours and a half in the dark, and be persuaded that its comfortable life is a counterfeit, kept up by machines for their own profit. I was persuaded for about the first hour. The proposition is an old one, which the schoolmen put more cheaply with a dream and a candle; the novelty lies wholly in the expense of the proof. And the expense is considerable. Walls are crack'd by gunfire, men leap between roofs, and the very motion of the falling bullet is stopp'd that we may walk round it; I confess the contrivance is ingenious, and I wish I had it for the purpose of shewing a vain man his own folly in slow time. Yet I observed that the deeper the piece went into its philosophy, the more it fired its pistols; as if the authors distrusted an argument unless it were attended by a volley. The hero, moreover, is rescued from ignorance not by study, which is the honest road, but by a pill and a prophecy. He learns the art of fighting in an afternoon. I have spent forty years learning less, and resent it. A lesson that costs nothing teaches nothing; the piece is therefore a fine warning against idleness, delivered by a method that encourages it.",
     "generated": "2026-11-20T02:19:25+00:00",
     "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-20"
+  },
+  {
+    "date": "2026-11-20",
+    "thinker": "tolstoy",
+    "name": "Leo Tolstoy",
+    "dates": "1828-1910",
+    "object": "the step counter",
+    "verdict": "a personal failure",
+    "score": 0.8,
+    "essay": "A man who performs necessary labour to feed himself and his family does not count his steps, because every step he takes is already directed toward a useful end. It is only the idle man, who consumes the bread produced by the toil of others while doing no work himself, who finds it necessary to invent artificial movement to preserve his health. Having freed himself from physical labour, he suffers the bodily weakness caused by his unnatural way of living, and so he walks back and forth without purpose, recording each step upon a mechanical instrument. He looks at this number and feels satisfied, believing that by reaching a required figure he has accomplished something good. But this satisfaction is entirely false. Movement that does not serve to help one's neighbour or lessen the heavy burden of another has no moral value whatever. To measure one's own pointless walking and to take pride in the resulting tally is to turn a personal failure into a virtue. The man who counts his steps merely proves that his life contains no useful work.",
+    "generated": "2026-11-20T18:02:01+00:00",
+    "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-11-20"
   }
