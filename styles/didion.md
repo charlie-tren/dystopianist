@@ -44,6 +44,8 @@ Source: pastiche written for this repo (still in copyright)
 - The essay names its own unease as a feeling; a Didion reader would expect the dread to stay under the surface, carried by the reported detail (the wall going quiet) rather than confessed in the closing line. Seen in a published essay: "and I find that I am waiting." (found 2026-11-06).
 - This is a declared thesis delivered in an authorial aphorism; Didion would let the reader arrive at the significance of the voice through the repeated reported details, not announce it. Seen in a published essay: "The voice is the thing." (found 2026-11-06).
 - The personification is a lyrical flourish that breaks the flat, literal reporting; Didion would have written something plainer, such as 'until the mirror had fogged over completely.' Seen in a published essay: "until the mirror gave up its face" (found 2026-11-15).
+- The simile is a witty, self-aware flourish. Didion would report the bookcase flatly, with the brand or the spines' condition, and let the staged emptiness register without a clever comparison. Seen in a published essay: "a bookcase of books that had been bought by the yard" (found 2026-11-21).
+- The closing line lands as a tidy reversal with a punchline's shape. Didion would more likely end on a plain, unremarked detail and leave the irony for the reader to find. Seen in a published essay: "where it turned out that no one wanted the key back." (found 2026-11-21).
 ## Log
 
 - 25/08/2026 - migrated from config/thinkers.yaml; Avoid list seeded from the first batch.
