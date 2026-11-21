@@ -184,6 +184,11 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
   .opts{grid-template-columns:1fr}
   .opts button{height:62px}
 }
+/* Phones: 16px stops iOS zooming into a field; the back link gets a finger-sized hit area. */
+@media (pointer: coarse) {
+  .home { position: relative; }
+  .home::after { content: ""; position: absolute; inset: -14px -10px; }
+}
 """
 
 HEAD = """<!DOCTYPE html>
