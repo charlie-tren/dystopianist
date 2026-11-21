@@ -55,6 +55,8 @@ Source: The Autobiography of Benjamin Franklin, Project Gutenberg #20203
 - "I understand" signals second-hand report, which Franklin would not use for a cost he is grading; he would state the price directly, ideally with a figure. Seen in a published essay: "the cost, I understand, is small" (found 2026-11-03).
 - 'Picture' in the sense of a motion picture is a twentieth-century usage; Franklin would say 'the piece', 'the performance', or 'the play'. Seen in a published essay: "The picture borrows every nursery character the audience already knows" (found 2026-11-12).
 - 'Film' is an anachronistic word for Franklin's mouth; he would name the entertainment as a play, show, or performance. Seen in a published essay: "The film laughs at the happy ending, and then supplies one" (found 2026-11-12).
+- 'Tablet' in the sense of a lit screen device is a modern usage. Franklin would name the thing in terms he could know, such as a small slate, board, or written paper. Seen in a published essay: "my fellows sat each with his eyes upon a small glowing tablet" (found 2026-11-21).
+- 'Terminal' as a building for travellers is a twentieth-century usage. Franklin would say the station, the house, or the office of departure. Seen in a published essay: "set apart in the upper part of the terminal" (found 2026-11-21).
 ## Log
 
 - 28/08/2026 - added at Charlie's request from a list of sixteen. Real prose, two passages from the Autobiography via `tools/gutenberg_shots.py`.
