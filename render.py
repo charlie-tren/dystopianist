@@ -184,10 +184,11 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
   .opts{grid-template-columns:1fr}
   .opts button{height:62px}
 }
-/* Phones: 16px stops iOS zooming into a field; the back link gets a finger-sized hit area. */
+/* Phones: the back link and the section tabs get finger-sized hit areas. */
 @media (pointer: coarse) {
-  .home { position: relative; }
+  .home, .tabs a { position: relative; }
   .home::after { content: ""; position: absolute; inset: -14px -10px; }
+  .tabs a::after { content: ""; position: absolute; inset: -12px -8px -6px; }
 }
 """
 
