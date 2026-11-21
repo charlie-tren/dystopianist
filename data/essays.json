@@ -1406,14 +1406,14 @@
     "name": "Friedrich Nietzsche",
     "dates": "1844-1900",
     "object": "influencers",
-    "verdict": "hollow pantomime",
-    "score": 0.9,
-    "essay": "To exhibit one's daily existence to the crowd is the ultimate confession of emptiness: the performer exists only when perceived. The herd demands an idol built in its own image—harmless, agreeable, perpetually visible, inviting the weak to admire a life that costs no heroic exertion. What is offered as leadership is merely a mirror reflecting the collective appetite for petty trivialities: clothing, cosmetics, the hollow pantomime of happiness. The spectator does not seek an exemplar of higher rank; he seeks a slave who flatters his own indolence by turning domestic vanity into a public duty. Such figures do not command—they solicit. They barter their private solitude for the applause of millions who are themselves too feeble to endure silence. The transaction is entirely transparent: the crowd buys the illusion of intimacy, while the performer pays with the only thing of genuine worth—the capacity for secret, unobserved growth. In this theatre of perpetual self-advertisement, victory belongs to the most superficial. The crowd gets precisely the master it deserves: a creature so thoroughly consumed by the gaze of others that, stripped of his audience, he ceases to be anything at all.",
+    "verdict": "a fraud sustained by mutual need",
+    "score": 0.7,
+    "essay": "The shepherd of the herd has become a performing valet: a slave who erects an altar to his own trivial routine and invites others to bow before his breakfast. Here is neither noble command nor true distance—it is the commercialisation of smallness. An actor without a theatre, a priest without a god: he offers the crowd permission to remain weak, packaged as self-improvement. He does not lead: he anticipates the appetites of the mob and sells them their own envy at a profit. I distrust these prophets of the visible: their virtue is nothing more than a perpetual pose for the market. His stature is a fraud sustained by mutual need: the follower desires an exemplar who demands no sacrifice, while the leader requires ten thousand blinking eyes to convince himself that he exists. Deprived of those eyes, he dissolves into air—he possesses no private weight, no secret discipline, no capacity for solitude. He lives in terror of silence, for in silence there is nobody to applaud his vanity. The crowd imagines it is paying homage to a superior specimen: in truth, it is merely worshipping its own reflection in a polished stone.",
     "generated": "2026-09-12T19:25:35+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-09-13",
-    "revoiced": "2026-11-14"
+    "revoiced": "2026-11-21"
   },
   {
     "date": "2026-09-12",
@@ -1561,14 +1561,14 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "self-checkout machines",
-    "verdict": "unpaid servitude",
-    "score": 0.9,
-    "essay": "The modern world has achieved the remarkable feat of converting gentlemen into shopkeepers without the vulgar necessity of paying them a wage. To purchase a lemon was once a pleasantly mindless transaction; today, it is an exacting test of administrative competence. One is confronted by a pedantic, glowing altar that demands the performative labour of a clerk while suspecting one, with relentless persistence, of petty larceny. Nothing is quite so absurd as being scolded for an unexpected weight by a box that possesses neither taste nor tact. We used to employ others to manage our vulgarities; now we pay for the privilege of executing them ourselves. Efficiency is the last refuge of the hopelessly uninspired, and to save three minutes of waiting by enduring five minutes of unpaid servitude is a bargain only a democrat could admire. Commercial life has elevated suspicion to a public virtue, yet entrusted its administration to a mechanism that lacks even the grace to apologise when proved wrong. To be mistrusted by an instrument of glass and iron is intolerable, but to obey its monotonous orders is simply bad manners.",
+    "verdict": "vulgar self-reliance",
+    "score": 0.8,
+    "essay": "To play the grocer to oneself is a thoroughly vulgar form of self-reliance. Progress always insists that we do badly what servants once did with effortless mediocrity. The modern shop has achieved a bizarre triumph. It has persuaded the public to perform unpaid manual labour while convincing them it is a privilege. One stands before a glowing mirror of commerce, waving tins of biscuits like an amateur conjuror seeking applause. When the glass box announces an unexpected item in the bagging area, it is not protecting property. It is merely being rude. Stupidity in a clerk may be charmed away by polite conversation, but stupidity in a mechanism is entirely unpardonable. It lacks both the capacity for gossip and the elegance to offer an apology. We once paid others to spare us the indignity of handling our own trade. Today we queue eagerly for the pleasure of acting as our own footmen. To be cheated by a dishonest tradesman is a minor misfortune. To be scolded by an illuminated cabinet for the weight of one's own cheese is a humiliation no civilised person should tolerate.",
     "generated": "2026-09-16T18:02:27+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-09-16",
-    "revoiced": "2026-11-15"
+    "revoiced": "2026-11-21"
   },
   {
     "date": "2026-09-16",
