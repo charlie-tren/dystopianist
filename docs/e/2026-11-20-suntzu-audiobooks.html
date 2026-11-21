@@ -47,7 +47,7 @@ a{color:inherit}
 .home{font:500 13px/1 var(--sans);letter-spacing:.1em;text-transform:uppercase;
   color:var(--dim);text-decoration:none;display:inline-flex;align-items:center;gap:0}
 .home:hover{color:var(--accent)}
-.home .back{font-size:14px;position:relative;top:-1px}
+.home .back{font-size:15.5px;position:relative;top:-2.5px}
 .theme-toggle{appearance:none;cursor:pointer;display:inline-flex;align-items:center;gap:.45rem;
   padding:.42rem .82rem;border:1px solid var(--rule);border-radius:999px;background:transparent;
   color:var(--dim);font:500 12.5px/1 var(--sans);letter-spacing:.02em;text-transform:none}
@@ -202,6 +202,11 @@ h1{font-weight:400;font-size:clamp(2rem,5.5vw,2.9rem);line-height:1.1;margin:0 0
 @media (max-width:520px){
   .opts{grid-template-columns:1fr}
   .opts button{height:62px}
+}
+/* Phones: 16px stops iOS zooming into a field; the back link gets a finger-sized hit area. */
+@media (pointer: coarse) {
+  .home { position: relative; }
+  .home::after { content: ""; position: absolute; inset: -14px -10px; }
 }
 </style>
 <!-- Analytics, gated. Two kinds of visitor are not an audience and never load it:
