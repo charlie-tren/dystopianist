@@ -76,6 +76,9 @@ Source: Specimen Days (1882), Project Gutenberg #8813
 - The comparison to a valentine is a tidy figure standing in for the seen thing; Whitman would record the young pair's talk or gestures directly rather than characterise it by simile. Seen in a published essay: "They talk like a valentine." (found 2026-11-15).
 - A decorative simile that stops the catalogue; Whitman would name the tickets and let the sight stand without the figure. Seen in a published essay: "tickets held like a deed to a farm" (found 2026-11-17).
 - A moral resolve stated as the writer's stance; Whitman's notes would close on the seen sleepers and coats rather than tell the reader what to remember. Seen in a published essay: "and do not forget them" (found 2026-11-17).
+- This is an abstract moral about human longing that sums up the scene as a theme; Whitman would name the hands, the pane, or the thumbs as seen instead. Seen in a published essay: "the want of one hand to reach another" (found 2026-11-22).
+- This is a tidy generalising aphorism; Whitman's jotted notes would list the next seen things rather than close the thought with a neat epigram. Seen in a published essay: "Pictures before letters, and pictures after." (found 2026-11-22).
+- The refusal to name the thing is a modern hedge; Whitman catalogues by naming what he sees, so the reader expects the noun itself. Seen in a published essay: "a little pile of something I will not name" (found 2026-11-22).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Specimen Days (1882), Project Gutenberg #8813 via tools/gutenberg_shots.py.

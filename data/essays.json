@@ -2446,14 +2446,14 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "audiobooks",
-    "verdict": "civilised indolence",
-    "score": 1.7,
-    "essay": "To read a book oneself requires a certain tedious physical effort, whereas to have a cultivated voice whisper poetry into one’s ear while one reclines in absolute indolence is the only truly civilised way to consume literature. The eye, after all, is a thoroughly hardworking organ, easily fatigued by the blackness of print, whilst the ear remains ever susceptible to the seductive cadences of an actor’s velvet tone. Naturally, pedants protest that listening to a volume is not reading at all. But reading was always a somewhat suburban exertion, full of unnecessary strain and quiet discomfort. A splendid book ought to be heard, if only because it spares us the indignity of turning pages. Indeed, the chief charm of this spoken art lies in its capacity to make dull authors sound almost profound; a well-placed pause by a clever narrator can lend an air of extraordinary philosophy to mere chatter. One should always delegate manual labour to those who are paid to perform it exquisitely. Literature was never meant to be work for the reader, but an agreeable indulgence for the listener. To turn print into voice is to give text the very soul it so often lacks.",
+    "verdict": "triumphantly civilised",
+    "score": 7.3,
+    "essay": "Reading used to demand at least the appearance of industry. One was forced to sit in an armchair, hold a heavy volume, and pretend to be educated. Today, one may enjoy the finest romance while having one's boots polished or one's tea poured. It is the victory of charm over labour. To have a novel whispered into one's ear by a stranger is to turn literature into an exquisite domestic servant. Naturally, the pedantic imagine this is a disaster for the mind. They believe that exertion is necessary for appreciation, which is the sort of nonsense only the overworked could invent. Effort has never produced anything except fatigue. The true artist writes to be enjoyed without sweat. Of course, there is always the danger that the speaker possesses a voice like a rainy Tuesday in Birmingham. A tedious actor can murder a masterpiece in twenty minutes, whereas a bad author usually takes three whole volumes. But when the tone is melodious, the invention is triumphantly civilised. One receives all the credit for intellectual culture without incurring any of the inconvenience of concentration. It allows a gentleman to be thoroughly well-read while remaining exquisitely idle.",
     "generated": "2026-10-09T18:02:23+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-10-09",
-    "revoiced": "2026-11-15"
+    "revoiced": "2026-11-22"
   },
   {
     "date": "2026-10-09",
@@ -4194,5 +4194,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-21"
+  },
+  {
+    "date": "2026-11-22",
+    "thinker": "whitman",
+    "name": "Walt Whitman",
+    "dates": "1819-1892",
+    "object": "emojis",
+    "verdict": "pictures before letters",
+    "score": 8.1,
+    "essay": "Out on the ferry this morning, a deckhand, a girl with a bakery box, two clerks, a man in a black coat, each bent over a small lit pane, thumbs going. A yellow face with tears; a yellow face with a grin; a thumb; a heart; a pair of hands pressed together; an eggplant, a flame, a little pile of something I will not name. Sent across the water to a sister in Camden, a son in Chicago, a sweetheart in the next car. I confess it pleases me. The old letter had its ink, its blotted line, the stamp, the mail-sack, the wagon, the carrier's boots on the stair; and here is the same want, the want of one hand to reach another, scratching out a new alphabet on the spot. Hieroglyph on the temple wall, sailor's tattoo, anchor and swallow and name of the girl; the brand on the cattle at Abilene; the chalk mark on the gate that tells the tramp where bread is. Pictures before letters, and pictures after. The ferry bumps the pilings. Gulls, rope, the gangway rattling down, hats, baskets, the bakery box carried off level, and on the little panes the faces still going out, hundreds, to the people waiting.",
+    "generated": "2026-11-22T01:18:18+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-22"
   }
 ]
