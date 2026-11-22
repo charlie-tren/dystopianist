@@ -2771,14 +2771,14 @@
     "name": "Friedrich Nietzsche",
     "dates": "1844-1900",
     "object": "Jaws (1975)",
-    "verdict": "artificial terror",
-    "score": 1.5,
-    "essay": "The sea remains untamed: it recognises neither municipal law nor the petty commerce of the summer resort. Before the grey terror of the depths, that ancient creature of pure instinct, modern civilised man reveals his true posture: he shudders, he bargains, he summons his feeble machinery to defend his right to idle in safety. The herd gathers in the theatre to purchase a moment of artificial terror; what it truly demands is the consolation of the ending--the reassurance that three fragile men upon a splintered vessel may conquer the primal deep. Consider these defenders: a trembling policeman, a bloodless scholar, a coarse hunter driven by spite. They do not encounter the leviathan with nobility; they wage a frantic war against an indifferent appetite. The beast possesses an enviable purity: it does not hate, it does not negotiate, it simply devours. Man cannot endure an indifferent nature: he must invent a villain out of instinct so that he may feel righteous in his victory over it. He celebrates the destruction of the beast as the triumph of order: he has merely exposed his own terror of everything that refuses to submit to his small, comfortable world.",
+    "verdict": "the civilised herd",
+    "score": 1.7,
+    "essay": "I have watched the civilised herd gather in the dark to shiver before the sea. For generations they have laboured to eliminate terror from their lives: they build seawalls, draft ordinances, insure their fragile property against every chance encounter. Still, they cannot endure the flat monotony of their own security. They must pay for the image of a leviathan simply to feel their hearts beat. In that grey, silent water, nature reveals her true character: cold, indifferent, driven solely by hunger. The beast possesses no morality, no malice, no desire for vengeance: it simply consumes. Observe how the inhabitants of the shore meet this primitive force. The mayor worries for his holiday revenue: the scientist categorises the monster: the old hunter treats nature as a personal enemy to be insulted. They demand that the deep be made manageable, reduced to a problem for local governance and iron harpoons. When the creature finally explodes into splinters, the survivors rejoice: they believe they have triumphed over the wild. They return to their shallow beaches, persuaded that the world has been made safe for their leisure. They are mistaken: they have merely bought themselves another summer of self-deception.",
     "generated": "2026-10-17T18:00:49+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-10-17",
-    "revoiced": "2026-11-16"
+    "revoiced": "2026-11-22"
   },
   {
     "date": "2026-10-17",
@@ -3220,14 +3220,14 @@
     "name": "Friedrich Nietzsche",
     "dates": "1844-1900",
     "object": "self-checkout machines",
-    "verdict": "not liberation",
-    "score": 0.8,
-    "essay": "Modern man boasts of his independence before a glowing glass console: he imagines he has become master of his own daily transactions. In truth, he has merely fled from the tiny, intolerable burden of looking another human being in the eye. What he calls convenience is the final refinement of herd-timidity: the terror of the clerk, the dread of the small exchange, the pathological desire to pass through the world untouched, unobserved, and uncorrected. He prefers the cold, pedantic light of a scanner—a mechanism that commands him to wait, to weigh, to obey: a machine cannot judge his smallness, nor can it return his gaze. To stand before an automated pedestal, diligently scanning cardboard boxes under the supervision of a flashing lamp, is not liberation: it is the voluntary discipline of a domestic animal that has learned to groom itself. The herd man desires only to disappear into the crowd without leaving a trace of friction. He has traded the living voice of a neighbour for a synthetic chime: he has achieved at last the quiet, frictionless solitude of the thoroughly defeated.",
+    "verdict": "a coward's sanctuary",
+    "score": 0.9,
+    "essay": "I distrust this modern eagerness to exchange a human gaze for a lighted monitor: it is the clearest confession of a spirit too feeble to endure the mildest friction of an encounter. The buyer stands before the glass arbiter and calls his submission efficiency—he misinterprets his own cowardice as a triumph of reason. To look another man in the eye during the small transactions of life requires a fragment of force, a minimal exercise of willpower; to obey an automated prompt requires only the passivity of a trained beast. Modern man has grown so soft, so thoroughly unsettled by the living presence of his neighbour, that he constructs a silent overseer to handle his daily bread. He accepts the machine's red scolding without a protest—the individual who demands supreme deference from his equals submits without a murmur to a glowing chime. Convenience is the altar upon which he sacrifices the last remnants of his fortitude. He fancies himself a master commanding an obedient tool: he is a coward constructing a sanctuary where no human eye can ever reach him.",
     "generated": "2026-10-28T18:00:41+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-10-28",
-    "revoiced": "2026-11-16"
+    "revoiced": "2026-11-22"
   },
   {
     "date": "2026-10-28",
@@ -4220,6 +4220,20 @@
     "essay": "Thou hast been named a professional. Thou hast been named a leader. Thou hast not yet been named good. A man writes that he is humbled to announce his own promotion. Examine the word. Humility does not announce. Thou wilt read these lines and feel a small heat. It is envy. Call it by its name. Thou wilt also feel the wish to be seen in the same manner. That wish is the same disease, only younger. What is a post? It is a sound made so that others will turn their heads. The sound dies. The heads turn back to their own work, or to their own envy. A title is a word fixed to a man by other men. It was fixed yesterday. It will be removed. The man beneath it is unchanged. Count the people who are said to be thy connections. Few of them would stand by thee in a bad hour. Know this, and do not be deceived by the number. When thou dost the work well, it is complete. Nothing more is owed to it. Praise adds nothing to the deed. Speak of thy labour only when the speaking is of use. Otherwise be silent. Return to the task. It does not need an audience.",
     "generated": "2026-11-22T18:01:11+00:00",
     "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-22"
+  },
+  {
+    "date": "2026-11-22",
+    "thinker": "tolstoy",
+    "name": "Leo Tolstoy",
+    "dates": "1828-1910",
+    "object": "Paddington (2014)",
+    "verdict": "counterfeit goodness",
+    "score": 0.6,
+    "essay": "A picture that replaces a real living man with a mechanical deception of a beast cannot evoke true spiritual union among men. The makers of this film have expended immense sums of money and the physical labour of hundreds of workers to construct an elaborate falsity. They present a prosperous family in a luxurious house who are praised for displaying a superficial fondness toward a wild animal, yet this fond feeling requires nothing of them, changes nothing in their lives, and costs them nothing of real value. Real brotherhood demands self-sacrifice and the active love of one's neighbour, whereas this spectacle demands only that the spectator sit in an upholstered theatre and feel a false sympathy for a creature that does not exist. The educated classes applaud this depiction of kindness because it flatters their pride while leaving their unearned privileges entirely undisturbed. They pretend that by watching an artificial bear suffer minor mishaps in a city built on the toil of the working poor, they have partaken in goodness. But this is not goodness; it is a counterfeit of goodness designed to reassure the rich that they are gentle. A work that substitutes sentimental amusements for real duties to the poor is harmful.",
+    "generated": "2026-11-22T22:30:38+00:00",
+    "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-11-22"
   }

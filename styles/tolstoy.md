@@ -67,6 +67,9 @@ Source: What Is Art? (1897, Maude translation), Project Gutenberg #64908
 - This is a wry, ironic contrast that the voice excludes. Tolstoy would state the charge flatly, e.g. 'the film teaches that men must be woken, and then teaches them to kill.' Seen in a published essay: "and having taught this, it spends two hours and more in teaching him to shoot" (found 2026-11-19).
 - The personified figurative image softens the argument. Tolstoy would assert the claim literally, e.g. 'and that they feel the falseness of it.' Seen in a published essay: "and that something in them cries out against it" (found 2026-11-19).
 - The spec asks who has been made to pay, and the answer is the labouring poor. Tolstoy would name them (the peasant or labouring poor who grow and make the bread) rather than leave them as the vague 'others'. Seen in a published essay: "who consumes the bread produced by the toil of others" (found 2026-11-20).
+- 'Elaborate' is a mitigating adjective that concedes craft; Tolstoy would call it a falsity flatly, without admiring the workmanship. Seen in a published essay: "to construct an elaborate falsity" (found 2026-11-22).
+- 'Minor' softens the charge and makes the matter sound mild; Tolstoy would state the suffering literally, as plain mishaps or suffering, without qualifying it. Seen in a published essay: "suffer minor mishaps" (found 2026-11-22).
+- The upholstery is a sardonic, decorative detail that edges toward the wry touch the voice excludes; Tolstoy would name the place plainly, as a theatre, and let the argument carry the contempt. Seen in a published essay: "sit in an upholstered theatre" (found 2026-11-22).
 ## Log
 
 - 28/08/2026 - added at Charlie's request from a list of sixteen. Real prose, two passages from What Is Art? via `tools/gutenberg_shots.py`. Italic markup stripped from the quoted text.
