@@ -2727,14 +2727,14 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "the step counter",
-    "verdict": "a vice",
-    "score": 0.9,
-    "essay": "To turn a delightful stroll into an arithmetical exercise is an obsession of the thoroughly unrefined. Walking is the only activity whose sole justification lies in its absolute aimlessness, yet modern pedantry has reduced it to a ledger of meaningless triumph. Nothing is so fatal to grace as the habit of measuring it. One steps onto the pavement not to reach a destination, nor to accumulate a grand total of strides, but to escape the tyranny of purpose altogether. To strap a tiny accountant to one's wrist merely to register the tedious repetition of footfalls is to betray the very spirit of flânerie. It belongs to that unfortunate class of inventions designed by people who believe that life is a series of duties to be tallied rather than pleasures to be wasted. To walk five thousand steps is a misfortune; to count them is a vice. The moment movement becomes a matter of calculation, it ceases to be an art and becomes a form of domestic labour. True elegance consists in wandering with sublime indifference to distance, secure in the knowledge that the only steps worth taking are those that lead nowhere in particular.",
+    "verdict": "unpardonable insult",
+    "score": 0.6,
+    "essay": "Nothing is so completely fatal to the charm of a stroll as the vulgar ambition to measure it. To wander aimlessly is the highest achievement of a refined soul. The moment one begins to count one’s paces, locomotion ceases to be an art and becomes a trade. There is a terrible seriousness in this modern desire to reduce our leisurely rambles to mere arithmetic. Industry has persuaded the public that walking without a tally is a species of idleness, whereas it is, in truth, the only civilised way to spend an afternoon. A gentleman walks to escape his creditors, not to audit his own feet. To turn a promenade into a mathematical exercise is an unpardonable insult to the landscape. It converts a graceful inclination into a tedious duty. One ought to move through the world with supreme indifference to distance. The man who knows precisely how many steps he has taken today has clearly taken far too many. He has substituted the drudgery of the accountant for the joy of the idler. Physical exercise is merely the refuge of those who lack the imagination to remain beautifully still. Besides, any device that rewards one for achieving a numerical quota only encourages the disastrous habit of perseverance.",
     "generated": "2026-10-16T18:00:57+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-10-16",
-    "revoiced": "2026-11-15"
+    "revoiced": "2026-11-22"
   },
   {
     "date": "2026-10-16",
@@ -2756,14 +2756,14 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "Paddington (2014)",
-    "verdict": "virtue entirely enchanting",
+    "verdict": "sublime absurdities",
     "score": 9.1,
-    "essay": "To be thoroughly civilised in modern London requires either an immense fortune or an extraordinary blue duffle coat. It is the unpardonable fault of the English middle classes that they insist upon judging a stranger by his origins rather than by the cut of his hat. Yet when a remarkably well-mannered creature from Peru descends upon Paddington Station, equipped only with an appetite for marmalade and an infallible sense of decorum, he performs the one miracle London never anticipates: he makes virtue entirely enchanting. Society is always prepared to pardon a villain, provided his attire is well chosen, but it is routinely terrified by genuine innocence. The Browns, in their delightfully chaotic domesticity, represent that peculiar British habit of admiring good manners only after they have flooded the bathroom. Cruelty, in the form of a taxidermist with admirable taste in tailoring but atrocious moral instincts, attempts to reduce this artful innocent to a mere specimen. But true charm is indestructible; it refuses to be preserved or made useful. To watch a young bear conquer the metropolis merely by being polite is to realise that style is, after all, the ultimate form of self-defence. Good manners are the only true rebellion left to us.",
+    "essay": "To be truly civilised is simply a matter of possessing immaculate manners and an extravagant passion for marmalade. Nothing is quite so refreshing as a stranger who arrives in London equipped only with polite enthusiasm and a tag around his neck. The world insists upon treating hospitality as a dreary civic duty, yet here it is elevated to an exquisite art form. We must always admire a guest who wrecks a domestic bathroom with such flawless grace that catastrophe feels like a gesture of high breeding. Manners, after all, are far more vital than morals, and a bright blue duffle coat will cover a multitude of sins. The English have always preferred innocence when it comes dressed in felt and carries citrus conserve. It is dreadfully easy to be cynical, but to remain entirely good-natured without becoming tedious is a magnificent triumph of style. Society will always forgive a stranger who causes utter ruin, provided he does so with supreme courtesy and a hard stare. Realism in art has always been the refuge of the unimaginative. Give us instead the sublime absurdities of polite bears, for they remind us that life is far too important a thing ever to be discussed seriously.",
     "generated": "2026-10-16T23:35:26+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-10-16",
-    "revoiced": "2026-11-15"
+    "revoiced": "2026-11-22"
   },
   {
     "date": "2026-10-17",
@@ -4205,6 +4205,20 @@
     "score": 8.1,
     "essay": "Out on the ferry this morning, a deckhand, a girl with a bakery box, two clerks, a man in a black coat, each bent over a small lit pane, thumbs going. A yellow face with tears; a yellow face with a grin; a thumb; a heart; a pair of hands pressed together; an eggplant, a flame, a little pile of something I will not name. Sent across the water to a sister in Camden, a son in Chicago, a sweetheart in the next car. I confess it pleases me. The old letter had its ink, its blotted line, the stamp, the mail-sack, the wagon, the carrier's boots on the stair; and here is the same want, the want of one hand to reach another, scratching out a new alphabet on the spot. Hieroglyph on the temple wall, sailor's tattoo, anchor and swallow and name of the girl; the brand on the cattle at Abilene; the chalk mark on the gate that tells the tramp where bread is. Pictures before letters, and pictures after. The ferry bumps the pilings. Gulls, rope, the gangway rattling down, hats, baskets, the bakery box carried off level, and on the little panes the faces still going out, hundreds, to the people waiting.",
     "generated": "2026-11-22T01:18:18+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-22"
+  },
+  {
+    "date": "2026-11-22",
+    "thinker": "aurelius",
+    "name": "Marcus Aurelius",
+    "dates": "121-180",
+    "object": "LinkedIn",
+    "verdict": "the same disease",
+    "score": 1.2,
+    "essay": "Thou hast been named a professional. Thou hast been named a leader. Thou hast not yet been named good. A man writes that he is humbled to announce his own promotion. Examine the word. Humility does not announce. Thou wilt read these lines and feel a small heat. It is envy. Call it by its name. Thou wilt also feel the wish to be seen in the same manner. That wish is the same disease, only younger. What is a post? It is a sound made so that others will turn their heads. The sound dies. The heads turn back to their own work, or to their own envy. A title is a word fixed to a man by other men. It was fixed yesterday. It will be removed. The man beneath it is unchanged. Count the people who are said to be thy connections. Few of them would stand by thee in a bad hour. Know this, and do not be deceived by the number. When thou dost the work well, it is complete. Nothing more is owed to it. Praise adds nothing to the deed. Speak of thy labour only when the speaking is of use. Otherwise be silent. Return to the task. It does not need an audience.",
+    "generated": "2026-11-22T18:01:11+00:00",
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-22"
