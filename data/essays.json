@@ -3797,13 +3797,14 @@
     "name": "Oscar Wilde",
     "dates": "1854-1900",
     "object": "painkillers",
-    "verdict": "minor domestic alchemy",
-    "score": 5.6,
-    "essay": "Physical suffering has always struck me as an unpardonable lapse in good taste on the part of nature. It lacks both elegance and subtlety, insisting upon itself with the coarse persistence of a poorly dressed relative. Yet the modern habit of swallowing a tiny, chalky sphere to banish an ache is an even greater scandal, for it reduces the magnificent martyrdom of man to a matter of minor domestic alchemy. Tragic heroism was once a grand artistic achievement, requiring moonlight, tears, and several acts of poetic lamentation; today, it is quietly extinguished by a tumbler of water before dinner. We have become so civilised that we can no longer afford the luxury of a decent agony. Pain used to provide the dullest of men with a fleeting resemblance to a tragic poet, but now even the most dreadful migraine is denied its rightful drama. One cannot help feeling a slight regret at this triumph of comfort over high art. Still, if one must choose between an exquisite sorrow and a comfortable afternoon, any sensible person will choose the afternoon, provided the tea is properly brewed. A world devoid of pain may be entirely uninteresting, but it is undeniably agreeable, and to insist on suffering when relief is so conveniently packaged would be a dreadful waste of perfectly good agony.",
+    "verdict": "domestic hygiene",
+    "score": 1.4,
+    "essay": "Pain is the only sensation that reminds the uninspired that they exist. To banish it with a swallowed tablet is a triumph of comfort over tragedy. Modern humanity has developed a dread of suffering that is quite out of proportion to its aesthetic worth. We insist upon being comfortable at the precise moment when we ought to be dramatic. A headache was once a civilised excuse for solitude, or at least for a charming melancholy. Now it is merely a defect in one's chemistry, corrected in a moment by a bit of chalk. The result is terribly unromantic. When agony becomes optional, martyrs lose all their charm. One must respect any invention that allows a man to avoid his duties, but to evade one's own nerves seems rather vulgar. Suffering taught the ancients how to write poetry, whereas relief merely enables us to attend tedious dinners. To swallow quietness in a pill is to turn human drama into domestic hygiene. It leaves us with nothing to endure except our neighbour's good health, which is always insufferable.",
     "generated": "2026-11-11T23:30:55+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
-    "reread": "2026-11-11"
+    "reread": "2026-11-11",
+    "revoiced": "2026-11-23"
   },
   {
     "date": "2026-11-12",
@@ -3979,13 +3980,14 @@
     "name": "Friedrich Nietzsche",
     "dates": "1844-1900",
     "object": "Shrek (2001)",
-    "verdict": "false transgression",
-    "score": 1.2,
-    "essay": "The spectacle flatters the audience with a false transgression: it mocks the immaculate kingdom only to crown the swamp. The lord of Duloc measures virtue by uniform hedges and mechanical order—a tyrant of small stature who fears nothing so much as an unruly impulse. Against this sterile neatness stands the beast—not a force of tragic solitude or noble conquest, but a creature whose highest ambition is merely to be left undisturbed in his mire. The moving images lacquer every surface with synthetic perfection, yet the drama demands that we applaud the triumph of low instincts: it invites the herd to mock the palace while reassuring them that their own coarseness is a virtue. When the maiden sheds her golden illusion, she does not ascend to a higher condition of being: she willingly stoops to match the vulgarity of her rescuer. The popular tunes and easy laughter complete the surrender—an indulgence designed to make small men content with their mud. This is the revenge of the ordinary: beauty is unmasked as an absurd vanity, so that the base may celebrate their own retreat from greatness.",
+    "verdict": "a dwarf's farce",
+    "score": 0.6,
+    "essay": "The modern spectator has found his preferred mirror: he crowns the brute of the marsh and calls a sluggish laziness a victory. The beast in his mud does not master solitude: he merely defends his right to digest his meals without civilised interference. The entire spectacle flatters the weakness of the onlooker. It assures him that form and nobility are merely a dwarf’s farce, that refinement is an absurdity, and that the highest love demands nothing more than two creatures agreeing to wallow together. I have looked at this celebration of the coarse long enough: it is the revenge of the low against every ideal that requires elevation, discipline, and hard labour. The dragon is tamed for the amusement of a donkey; the princess casts off her splendour to embrace the mire; the herd leaves the theatre convinced that their own domestic grossness is a virtue. They do not seek freedom: they demand permission to remain small. The beast has conquered nothing—he has merely forced the world to lower its standards until his swamp resembles an empire.",
     "generated": "2026-11-16T01:02:13+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
-    "reread": "2026-11-16"
+    "reread": "2026-11-16",
+    "revoiced": "2026-11-23"
   },
   {
     "date": "2026-11-16",
@@ -4249,6 +4251,20 @@
     "score": 8.2,
     "essay": "The creature is shown least when the fear is greatest. For the first hour the water is empty, and the audience is made to fill it. Watch how the director spends his strength: a yellow barrel surfacing, a cable drawn taut, two notes from the low strings. Where the beast cannot be seen, it cannot be measured, and what cannot be measured is always larger than the beast. If the machine breaks, keep the film going. The mechanical shark failed in the salt, and the shots that remained were of a fin, a wake, a dock board torn away. Poverty of means became the discipline of the whole work. A commander who has fewer soldiers than he planned should hide the count, not apologise for it. There are three men in the boat: the officer who fears the water, the scientist who trusts his instruments, the hunter who is already half taken by the sea. Each is a different kind of weapon. The scientist is the shield, the hunter the spear, the officer the one who must go on after both are spent. Set them quarrelling and they reveal themselves; set them singing and they are one crew. When the first half frightens and the second half pursues, the audience is led out of the harbour and held at sea. It is given no rest. At the end the beast is killed and nothing is said. This is correct. After the stoop, the falcon does not speak.",
     "generated": "2026-11-23T01:41:56+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-23"
+  },
+  {
+    "date": "2026-11-23",
+    "thinker": "proust",
+    "name": "Marcel Proust",
+    "dates": "1871-1922",
+    "object": "the step counter",
+    "verdict": "undistinguished units",
+    "score": 3.8,
+    "essay": "It was at the end of a dinner, when I had drawn the little device from my pocket merely to learn the hour and found instead the figure of my day laid out in numerals, that I understood how the walking I had done, and which had seemed to me while I did it a drifting, an unaccountable wandering from the window to the stairs and from the stairs to the corner where the florist's boy sets out his buckets, had been all the while translated, step by step, into a language I had never consented to speak. So a provincial lady, who has spoken all her life a dialect of tender and approximate phrases, might hear herself rendered by a notary into the dry clauses of a deed, and recognise, with a shock that is not quite offence, every fact of her conduct and not one of its reasons. The number is exact; I do not dispute it. But my walk to the florist's was composed of hesitations before a lilac that reminded me of someone, of a pause to let a carriage pass, of a slowing which was really the beginning of a thought; and these the instrument had received as it receives all things, as undistinguished units, equal in dignity to the steps taken in fleeing a creditor. Yet I confess I looked at it a long while, as one looks at a stranger's portrait of oneself, and found, a half-moment past my indignation, that I was already planning tomorrow's walk to flatter it.",
+    "generated": "2026-11-23T18:01:10+00:00",
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-23"
