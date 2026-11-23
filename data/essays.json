@@ -3291,13 +3291,14 @@
     "name": "Friedrich Nietzsche",
     "dates": "1844-1900",
     "object": "Paddington (2014)",
-    "verdict": "domestic self-congratulation",
-    "score": 1.4,
-    "essay": "Culture achieves its sweetest victory when it turns the predator into a guest. A wild beast from the wilderness—foreign, potentially terrible—is brought into the fog of the metropolis: yet how quickly its claw is filed down to fit a teacup. The modern herd does not conquer nature by battle; it conquers it by hospitality. It offers a duffle coat, a jar of sweet preserve, a soft bed in the attic—and in return, the beast surrenders its instinct. This is not benevolence: it is the subtle, irresistible emasculation of the wild. The civilised mind demands that everything dangerous be made polite, harmless, and slightly ridiculous. Even the antagonist who seeks to destroy the creature is rendered absurd, for a feeble age fears genuine malice as deeply as it fears genuine force. What remains is a spectacle of domestic self-congratulation: a beast that apologises for existing. The audience sits in the dark theatre, mistaking its own relief for noble sympathy. They do not celebrate the salvation of a soul—they celebrate the disarming of a threat. The ultimate triumph of the parlour is to make the wolf clean its own boots.",
+    "verdict": "domestic deceit",
+    "score": 1.2,
+    "essay": "I have watched this small, dripping wanderer conquer the English drawing room: it is a triumph of domestic deceit. What the modern herd adores in this bear is not nature, but nature thoroughly disarmed, sweetened, and taught to tip its hat. They wish to believe that the stranger at the gate brings no terror, no wildness, no instinct: only an appetite for marmalade and a lesson in polite forbearance. How comforting for them! It is the supreme fantasy of a decadent culture: that the untamed wilderness will gladly bow before tea and good manners. They laugh when he floods the bath; they shudder when a villain threatens his skin; yet what they truly celebrate in the theatre is their own safety, their own immunity from primitive impulse. Real force has been banished; the beast is reduced to a helpless orphan; and the civilised family adopts him precisely because his weakness poses no threat to their comfortable routine. This is the morality of the hearth elevated to a grand ideal: to be harmless is to be good, and to be fragile is to be noble. It is a damning confession: the modern soul can tolerate existence only when it is rendered small, soft, and completely manageable.",
     "generated": "2026-10-30T00:58:45+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
-    "reread": "2026-10-30"
+    "reread": "2026-10-30",
+    "revoiced": "2026-11-23"
   },
   {
     "date": "2026-10-30",
@@ -3403,13 +3404,14 @@
     "name": "Friedrich Nietzsche",
     "dates": "1844-1900",
     "object": "reclining a seat on a plane",
-    "verdict": "silent, cowardly aggression",
+    "verdict": "malice without risk",
     "score": 0.9,
-    "essay": "The modern traveller demands his microscopic sovereignty: two inches of stolen territory gained by pressing a mechanical button. Here is the true measure of contemporary courage—a silent, cowardly aggression masked as the pursuit of ease! To tilt oneself backward is to inflict a petty injury upon the neighbour behind, yet one performs this conquest without ever looking him in the eye. It is the conquest of the weak: an unseen, frictionless hostility carried out in total passivity. One does not fight for space; one merely leans back and lets a concealed piston execute the tyranny. How exquisite, this modern desire to rule over another man’s knees without ever confronting his gaze! The victim himself, cramped in his narrow quarters, accepts the encroachment as an unalterable act of nature rather than an act of human will—he suffers the pressure against his shins in grim, silent submission. Thus two cowards face one another above the clouds: one who exerts his malice through a spring, and one who lacks the spirit to push back. They call this civilised comfort—it is merely the domestic drama of slaves who have forgotten how to quarrel openly.",
+    "essay": "I distrust the creature who requires a mechanical button to alter his stance toward existence. Consider the ease with which space is stolen: a traveller depresses a hidden latch, leans his body backward, and imagines he has conquered his discomfort. He has done nothing of the kind. He has merely transferred his fatigue onto the knees of his neighbour, executing this intrusion without the courage of eye contact. Here is malice without risk—a quiet, automated encroachment upon another man's territory. The sufferer demands relief from the strain of sitting upright, which is the proper, disciplined burden of consciousness: he refuses to claim space openly. Instead, he hires a hidden spring to commit his offence for him. He closes his eyes in blissful ignorance, treating the reduced space of the man behind him as a law of nature rather than the direct consequence of his own flaccid will. Sitting upright demands force, tension, a pride in one's posture: reclining is a surrender to gravity, a confession of exhaustion disguised as a right. The mechanism does not serve human dignity: it merely organises human cowardice.",
     "generated": "2026-11-02T18:00:50+00:00",
     "provider": "gemini",
     "scored_by": "claude/100",
-    "reread": "2026-11-02"
+    "reread": "2026-11-02",
+    "revoiced": "2026-11-23"
   },
   {
     "date": "2026-11-02",
@@ -4236,5 +4238,19 @@
     "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-11-22"
+  },
+  {
+    "date": "2026-11-23",
+    "thinker": "suntzu",
+    "name": "Sun Tzu",
+    "dates": "c. 544-496 BC",
+    "object": "Jaws (1975)",
+    "verdict": "this is correct",
+    "score": 8.2,
+    "essay": "The creature is shown least when the fear is greatest. For the first hour the water is empty, and the audience is made to fill it. Watch how the director spends his strength: a yellow barrel surfacing, a cable drawn taut, two notes from the low strings. Where the beast cannot be seen, it cannot be measured, and what cannot be measured is always larger than the beast. If the machine breaks, keep the film going. The mechanical shark failed in the salt, and the shots that remained were of a fin, a wake, a dock board torn away. Poverty of means became the discipline of the whole work. A commander who has fewer soldiers than he planned should hide the count, not apologise for it. There are three men in the boat: the officer who fears the water, the scientist who trusts his instruments, the hunter who is already half taken by the sea. Each is a different kind of weapon. The scientist is the shield, the hunter the spear, the officer the one who must go on after both are spent. Set them quarrelling and they reveal themselves; set them singing and they are one crew. When the first half frightens and the second half pursues, the audience is led out of the harbour and held at sea. It is given no rest. At the end the beast is killed and nothing is said. This is correct. After the stoop, the falcon does not speak.",
+    "generated": "2026-11-23T01:41:56+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-23"
   }
 ]
