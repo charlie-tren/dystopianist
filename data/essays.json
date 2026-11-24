@@ -4283,5 +4283,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-24"
+  },
+  {
+    "date": "2026-11-24",
+    "thinker": "thompson",
+    "name": "Hunter S Thompson",
+    "dates": "1937-2005",
+    "object": "anaesthesia",
+    "verdict": "robbed of tuesday",
+    "score": 3.4,
+    "essay": "The anesthesiologist, a soft pink man with a Rotary Club pin and the eyes of a bank examiner, told me to count backward from ten, and I knew right then that I was being robbed. Not of money. Of Tuesday. They take a slice out of your life the size of a hospital lunch, hand you back the body with the stitches in it, and swear nothing happened, and you are supposed to say thank you. I got to seven. I remember seven. After seven there is nothing, no dark, no dream, no clock ticking in the corner, just a clean white hole where a man used to be, and somewhere in that hole a stranger with a scalpel and a radio playing soft rock was going through my insides like a customs agent. Who was in charge? Who was holding the leash on my pulse? A kid named Kevin, probably, on his third double shift, staring at a green line and thinking about lunch. I woke up weeping and ravenous, a stranger to my own jaw. Still, I will say this. Before the gas, men bit leather and prayed. I would take the theft. Give me the hole. Just count the change on the way out.",
+    "generated": "2026-11-24T05:19:34+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-24"
   }
 ]
