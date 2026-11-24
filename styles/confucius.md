@@ -86,6 +86,7 @@ exists - a guess about a failure is worth much less than a quotation of it.
 - The absolute 'wholly good' and 'wholly cold' declare people good or bad outright, where the voice should grade them by degree in parallel clauses. Seen in a published essay: "Where the good are wholly good and the unworthy wholly cold, there is little for the viewer to weigh." (found 2026-11-06).
 - "Becoming" is an abstract, Western-essayistic term; the voice should name the work concretely through conduct, such as the labour of self-cultivation or of correcting oneself. Seen in a published essay: "In either case the labour of becoming is still mine" (found 2026-11-17).
 - The idiom "that is where the trouble lies" is a modern essayist's closing turn; the voice should grade the matter through parallel clauses or a concrete image from ordinary or seasonal life. Seen in a published essay: "The engine serves all three alike, and that is where the trouble lies." (found 2026-11-17).
+- The flat 'this is only' declares the conduct outright; the voice should grade it by degree in parallel clauses, as in 'to hear much and reform little is to be fed without growing much.' Seen in a published essay: "To hear much and reform nothing,-- this is only to be fed and not to grow." (found 2026-11-24).
 ## Log
 
 - 11/09/2026 - added at Charlie's request alongside Sun Tzu. Two real samples from

@@ -4297,5 +4297,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-24"
+  },
+  {
+    "date": "2026-11-24",
+    "thinker": "confucius",
+    "name": "Confucius",
+    "dates": "551-479 BC",
+    "object": "podcasts",
+    "verdict": "fed, not grown",
+    "score": 3.6,
+    "essay": "The Master said, 'A man walks to the fields with another man's voice in his ear, and arrives having kept no company at all.' The Master said, 'There are those who listen in order to learn, those who listen in order to be spared their own thoughts, and those who listen in order to be seen listening. The first are rare; the second are many; the third are not hard to find at any gate.' The Master said, 'When I was young I heard a good saying in the morning and tried to carry it out by evening. Now a man may hear a hundred in a month, and not one of them has yet touched his hands.' The Master said, 'A voice that speaks for three hours is like a meal that is never cleared from the table. The guest cannot say whether he has eaten.' The Master said, 'I do not blame the one who speaks well and at length. I blame myself, who have often been pleased to hear a thing said and have not gone on to do it. To hear much and reform nothing,-- this is only to be fed and not to grow.' The Master said, 'Let him who listens ask three things: is the speaker honest, is he learned, and does he leave me better in my dealings with my family? If the answer is yes to one, listen for a season. If to all, listen with care, and then be silent.'",
+    "generated": "2026-11-24T18:01:11+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-24"
   }
 ]
