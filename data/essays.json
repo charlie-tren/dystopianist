@@ -4325,5 +4325,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-25"
+  },
+  {
+    "date": "2026-11-25",
+    "thinker": "kafka",
+    "name": "Franz Kafka",
+    "dates": "1883-1924",
+    "object": "Wikipedia",
+    "verdict": "opened willingly",
+    "score": 2.4,
+    "essay": "I had only wished to confirm the year in which the customs house at the northern gate was demolished, a matter of no importance and one that I had intended to settle before the clerk returned from his lunch, and so I opened the entry, which was there at once, as it always is, and which gave the year without hesitation. Beside it, however, stood a small note, in a bracket, saying that the year was needed to be supported, and I understood that I could not rely on it until someone had supported it, and that the someone could be myself. I followed the number that led to the support. It led to a book that led to another entry, in which the customs house was mentioned in a sentence that had itself been marked as requiring support, and the mark was dated, I saw, from a time before I had begun to look. I do not say that anyone prevented me. Every page opened willingly, and each had at its foot a long row of further pages, all open, all written by persons whose names were given only as numbers, who had, I gathered, been over the same ground and left the question where they found it, though tidier. By the time the clerk returned I had read for two hours and was still a little short of the year, which I had had at the beginning and now no longer felt entitled to.",
+    "generated": "2026-11-25T04:11:04+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-25"
   }
 ]
