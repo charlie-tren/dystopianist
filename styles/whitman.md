@@ -79,6 +79,10 @@ Source: Specimen Days (1882), Project Gutenberg #8813
 - This is an abstract moral about human longing that sums up the scene as a theme; Whitman would name the hands, the pane, or the thumbs as seen instead. Seen in a published essay: "the want of one hand to reach another" (found 2026-11-22).
 - This is a tidy generalising aphorism; Whitman's jotted notes would list the next seen things rather than close the thought with a neat epigram. Seen in a published essay: "Pictures before letters, and pictures after." (found 2026-11-22).
 - The refusal to name the thing is a modern hedge; Whitman catalogues by naming what he sees, so the reader expects the noun itself. Seen in a published essay: "a little pile of something I will not name" (found 2026-11-22).
+- An abstract summary of the scene as a theme. Whitman would name the readers and their things in the order seen, not state what the scene means. Seen in a published essay: "the voice restored to the page" (found 2026-11-25).
+- A generalising statement about literature's history. A Whitman note would stay with the seen people and objects rather than comment on the trend. Seen in a published essay: "Printed words had gone quiet so long." (found 2026-11-25).
+- A hedging gloss that corrects the place into a modern equivalent. Whitman would name the one place he stood in, with no qualifying aside. Seen in a published essay: "or its modern cousin, the bus shelter" (found 2026-11-25).
+- A tidy evaluative verdict closing the catalogue. Whitman's delight would show in the next seen things, not in an approving judgment on them. Seen in a published essay: "Good. Let them." (found 2026-11-25).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from Specimen Days (1882), Project Gutenberg #8813 via tools/gutenberg_shots.py.
