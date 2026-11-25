@@ -4339,5 +4339,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-25"
+  },
+  {
+    "date": "2026-11-25",
+    "thinker": "dickinson",
+    "name": "Emily Dickinson",
+    "dates": "1830-1886",
+    "object": "painkillers",
+    "verdict": "courteous thief",
+    "score": 4.0,
+    "essay": "The tablet is smaller than the seed of the apple, and it has been told to do what the orchard could not. I took one this morning for a tooth that kept its own hours. By the second bell it had gone quiet, not gone. That is the thing I notice. The ache did not leave the house; it was moved to a back room, and the door shut, and I can hear it breathing through the plaster. My mother's headaches had no such door. She lay with a cloth over the eyes and the whole family walked in stockings. Pain was then a guest of the household, fed and spoken low to. Now it is a tenant, and the rent is a glass of water. I am not ungrateful. A woman who has once sat up with a toothache till the window turned gray knows what a mercy is, and it is white, and round, and keeps in a drawer. Yet I wonder at a sorrow so easily lent a muffler. The hurt had something to tell me, I think, about the tooth. The tablet answers, Hush. I hush. It is a courteous thief. It takes the one hour and leaves the clock.",
+    "generated": "2026-11-25T18:01:32+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-25"
   }
 ]
