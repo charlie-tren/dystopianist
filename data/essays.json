@@ -4346,13 +4346,14 @@
     "name": "Emily Dickinson",
     "dates": "1830-1886",
     "object": "painkillers",
-    "verdict": "courteous thief",
-    "score": 4.0,
-    "essay": "The tablet is smaller than the seed of the apple, and it has been told to do what the orchard could not. I took one this morning for a tooth that kept its own hours. By the second bell it had gone quiet, not gone. That is the thing I notice. The ache did not leave the house; it was moved to a back room, and the door shut, and I can hear it breathing through the plaster. My mother's headaches had no such door. She lay with a cloth over the eyes and the whole family walked in stockings. Pain was then a guest of the household, fed and spoken low to. Now it is a tenant, and the rent is a glass of water. I am not ungrateful. A woman who has once sat up with a toothache till the window turned gray knows what a mercy is, and it is white, and round, and keeps in a drawer. Yet I wonder at a sorrow so easily lent a muffler. The hurt had something to tell me, I think, about the tooth. The tablet answers, Hush. I hush. It is a courteous thief. It takes the one hour and leaves the clock.",
+    "verdict": "a false noon",
+    "score": 3.8,
+    "essay": "A drop of chalk—no larger than a cherry stone—will dismiss the Agony that took three days to build. I put the white wafer on the tongue. It has no taste, yet it strikes the Nerve like a sudden Frost, turning the red Rebellion into a sleep. Pain had a Voice, loud as a Bell in the Steeple, demanding the whole House to listen. This small Servant enters the Room and turns the Bell down. We trade the Truth of the Flesh for a quiet Hour, paying with a little dust. The Body was meant to wrestle its own Dark until the Morning breaks—the pellet steals the Night and gives us a false Noon. Father says the hurt has an errand, but the wafer does not care for errands. I hold the small white bit in my palm. It is lighter than a Feather, yet it weighs more than the Sorrow it slays. To banish a Kingdom of Torment with a swallow of water seems an impudence to the Sovereign who sent the Thistle to teach us of the Rose. Yet the throat moves, the pulse slackens, and the parlor belongs once more to the clock.",
     "generated": "2026-11-25T18:01:32+00:00",
-    "provider": "claude",
+    "provider": "gemini",
     "scored_by": "claude/100",
-    "reread": "2026-11-25"
+    "reread": "2026-11-25",
+    "revoiced": "2026-11-26"
   },
   {
     "date": "2026-11-26",
@@ -4364,6 +4365,20 @@
     "score": 6.8,
     "essay": "The English bathroom of my boyhood was the coldest room in the house, and nobody thought this a defect. You ran two inches of water, which was warm for about a minute, and you washed quickly, with one eye on the door and your breath showing. A man who lingered in the bath was suspected of something. Cold was supposed to be good for you, in the way that bad food and hard beds were good for you, and the people who said so were generally those who had never been made to get into the water. I cannot pretend that I would prefer that now. Anyone who has stood under a steady spray of really hot water on a January morning, with the whole length of his back being beaten warm, knows that something has been gained which no argument will take away. It is the one luxury that costs the rich man and the labourer exactly the same, once the pipes are in. The miner who comes up black from the pit ought to have it at the pithead, and in a few places does. But I notice that people stay in it. They stand there ten and fifteen minutes, long after they are clean, doing nothing, thinking of nothing, while the hot water runs down the drain. It is the only place where a modern man is certain nobody will ring him, and I suspect that is the real attraction.",
     "generated": "2026-11-26T01:04:32+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-26"
+  },
+  {
+    "date": "2026-11-26",
+    "thinker": "franklin",
+    "name": "Benjamin Franklin",
+    "dates": "1706-1790",
+    "object": "the hot shower",
+    "verdict": "agreeable, costly idleness",
+    "score": 6.6,
+    "essay": "I took the cold bath daily for many years, and recommended it to my friends as a thing that hardened the body and cost nothing; but a warm shower, falling continually upon the head and shoulders from a height, with the heat drawn from some fire out of sight, would have shaken that opinion, and I confess it would have done so on the first morning. The saving is plain enough. A bath wants a tub, a quantity of water carried up and carried down, and a servant to do the carrying; the shower asks only a pipe, a furnace, and a few minutes of the bather's own time. A man may be clean and dressed before his coffee cools. I have computed that a quarter hour a day, in forty years, comes to above ten weeks of waking life; and if the shower returns but half of that, it pays better than most of the projects I have subscribed to. The cost lies elsewhere, and I would not hide it. Fuel is burned to heat water that runs, unused, into the drain while the bather stands lost in thought; for the warmth is so agreeable that it invites idleness, and I suspect more good reflections have been drowned there than were ever hatched. A man should not stay in it longer than his business requires. That rule, I fear, would be kept about as well as the rule against a second glass.",
+    "generated": "2026-11-26T03:34:01+00:00",
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-26"
