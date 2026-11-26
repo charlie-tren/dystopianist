@@ -87,6 +87,7 @@ exists - a guess about a failure is worth much less than a quotation of it.
 - "Becoming" is an abstract, Western-essayistic term; the voice should name the work concretely through conduct, such as the labour of self-cultivation or of correcting oneself. Seen in a published essay: "In either case the labour of becoming is still mine" (found 2026-11-17).
 - The idiom "that is where the trouble lies" is a modern essayist's closing turn; the voice should grade the matter through parallel clauses or a concrete image from ordinary or seasonal life. Seen in a published essay: "The engine serves all three alike, and that is where the trouble lies." (found 2026-11-17).
 - The flat 'this is only' declares the conduct outright; the voice should grade it by degree in parallel clauses, as in 'to hear much and reform little is to be fed without growing much.' Seen in a published essay: "To hear much and reform nothing,-- this is only to be fed and not to grow." (found 2026-11-24).
+- This describes a modern collaborative text such as a wiki, which is outside the ordinary and seasonal imagery the voice calls for; a reader of Confucius would expect the image to come from daily life, such as a shared road, a well, or a meal. Seen in a published essay: "I have heard of a record kept by the many, in which any man may strike out another's words and put down his own." (found 2026-11-26).
 ## Log
 
 - 11/09/2026 - added at Charlie's request alongside Sun Tzu. Two real samples from

@@ -4361,13 +4361,14 @@
     "name": "George Orwell",
     "dates": "1903-1950",
     "object": "the hot shower",
-    "verdict": "the one luxury",
-    "score": 6.8,
-    "essay": "The English bathroom of my boyhood was the coldest room in the house, and nobody thought this a defect. You ran two inches of water, which was warm for about a minute, and you washed quickly, with one eye on the door and your breath showing. A man who lingered in the bath was suspected of something. Cold was supposed to be good for you, in the way that bad food and hard beds were good for you, and the people who said so were generally those who had never been made to get into the water. I cannot pretend that I would prefer that now. Anyone who has stood under a steady spray of really hot water on a January morning, with the whole length of his back being beaten warm, knows that something has been gained which no argument will take away. It is the one luxury that costs the rich man and the labourer exactly the same, once the pipes are in. The miner who comes up black from the pit ought to have it at the pithead, and in a few places does. But I notice that people stay in it. They stand there ten and fifteen minutes, long after they are clean, doing nothing, thinking of nothing, while the hot water runs down the drain. It is the only place where a modern man is certain nobody will ring him, and I suspect that is the real attraction.",
+    "verdict": "comfort that shames",
+    "score": 3.5,
+    "essay": "A miner returning from the pit used to scrub his back in two inches of grey water heated over a kitchen fire. He sat in a zinc tub, his knees under his chin, while his wife tipped a kettle over his neck. Today a clerk steps into a glass cubicle, turns a metal tap, and lets a torrent of hot water run down his spine for twenty minutes. It is impossible to deny the physical comfort of it. The warmth reaches right into the bones, and for a few minutes a man forgets his mortgage, his boss, and the rain outside. Yet this effortless cleanliness changes how we look at each other. When hot water cost labour and fuel, dirty hands were merely the mark of hard work. Now that any man can wash off a day of coal dust in five minutes without lighting a fire, dirt is no longer an accident of trade; it has become a sign of personal neglect. We have turned a rare luxury into a daily necessity, and in doing so we have made poor hygiene a moral fault rather than a misfortune of poverty. A man who can command steaming water with one turn of his wrist soon begins to think that any coldness in life is an insult aimed directly at himself.",
     "generated": "2026-11-26T01:04:32+00:00",
-    "provider": "claude",
+    "provider": "gemini",
     "scored_by": "claude/100",
-    "reread": "2026-11-26"
+    "reread": "2026-11-26",
+    "revoiced": "2026-11-26"
   },
   {
     "date": "2026-11-26",
@@ -4379,6 +4380,20 @@
     "score": 6.6,
     "essay": "I took the cold bath daily for many years, and recommended it to my friends as a thing that hardened the body and cost nothing; but a warm shower, falling continually upon the head and shoulders from a height, with the heat drawn from some fire out of sight, would have shaken that opinion, and I confess it would have done so on the first morning. The saving is plain enough. A bath wants a tub, a quantity of water carried up and carried down, and a servant to do the carrying; the shower asks only a pipe, a furnace, and a few minutes of the bather's own time. A man may be clean and dressed before his coffee cools. I have computed that a quarter hour a day, in forty years, comes to above ten weeks of waking life; and if the shower returns but half of that, it pays better than most of the projects I have subscribed to. The cost lies elsewhere, and I would not hide it. Fuel is burned to heat water that runs, unused, into the drain while the bather stands lost in thought; for the warmth is so agreeable that it invites idleness, and I suspect more good reflections have been drowned there than were ever hatched. A man should not stay in it longer than his business requires. That rule, I fear, would be kept about as well as the rule against a second glass.",
     "generated": "2026-11-26T03:34:01+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-26"
+  },
+  {
+    "date": "2026-11-26",
+    "thinker": "confucius",
+    "name": "Confucius",
+    "dates": "551-479 BC",
+    "object": "Wikipedia",
+    "verdict": "fit to drink",
+    "score": 6.7,
+    "essay": "The Master said, 'A village well is drunk from by all, and so it is cleaned by all, or by none. Where each man draws water and one in ten returns to clear the leaves from it, the water is still fit to drink.' The Master said, 'I have heard of a record kept by the many, in which any man may strike out another's words and put down his own. Those who write there without seeking a name are to be commended. Those who write to win a quarrel are less to be commended. Those who write what they have not learned are to be pitied.' The Master said, 'In my own day I looked for a teacher in every third person on the road. Their good points I followed; their faults I turned upon myself. Now the road is long and the persons are past counting, and yet the same rule holds.' The Master said, 'To read much and ask whence it came is to eat with care. To read much and ask nothing is to eat whatever is set down. I am not certain I always ask.' The Master said, 'It is a good thing that the door stands open. It is a better thing that those who enter wipe their feet.'",
+    "generated": "2026-11-26T18:01:07+00:00",
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-26"
