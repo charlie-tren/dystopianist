@@ -4353,5 +4353,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-25"
+  },
+  {
+    "date": "2026-11-26",
+    "thinker": "orwell",
+    "name": "George Orwell",
+    "dates": "1903-1950",
+    "object": "the hot shower",
+    "verdict": "the one luxury",
+    "score": 6.8,
+    "essay": "The English bathroom of my boyhood was the coldest room in the house, and nobody thought this a defect. You ran two inches of water, which was warm for about a minute, and you washed quickly, with one eye on the door and your breath showing. A man who lingered in the bath was suspected of something. Cold was supposed to be good for you, in the way that bad food and hard beds were good for you, and the people who said so were generally those who had never been made to get into the water. I cannot pretend that I would prefer that now. Anyone who has stood under a steady spray of really hot water on a January morning, with the whole length of his back being beaten warm, knows that something has been gained which no argument will take away. It is the one luxury that costs the rich man and the labourer exactly the same, once the pipes are in. The miner who comes up black from the pit ought to have it at the pithead, and in a few places does. But I notice that people stay in it. They stand there ten and fifteen minutes, long after they are clean, doing nothing, thinking of nothing, while the hot water runs down the drain. It is the only place where a modern man is certain nobody will ring him, and I suspect that is the real attraction.",
+    "generated": "2026-11-26T01:04:32+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-26"
   }
 ]
