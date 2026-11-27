@@ -4425,5 +4425,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-27"
+  },
+  {
+    "date": "2026-11-27",
+    "thinker": "suntzu",
+    "name": "Sun Tzu",
+    "dates": "c. 544-496 BC",
+    "object": "alarm clocks",
+    "verdict": "clear, without sweetness",
+    "score": 6.4,
+    "essay": "The alarm sounds before the light. This is the first engagement of the day, and most men lose it. If you wake at the first sound, the morning is yours. If you strike the device and sleep again, you have given up the ground before the sun has seen you stand on it. If you strike it twice, the second defeat is easier than the first, and the third is already written. Set the hour you can keep. A commander who orders a march at dawn and cannot rise by dawn has ordered nothing. If the hour is too early, he will be obeyed for three days and ignored for thirty. If the hour is late, the day is spent before it begins. Place the device beyond the reach of the sleeping arm. The sleeper cannot be trusted to the end of his own bed. Make him cross the floor, and the cold will finish the waking that the sound began. If the sound is harsh, you will wake in anger. If the sound is soft, you will wake into sleep again. Choose the note that is clear and without sweetness, as a drum is clear. Do not set a dozen alarms. A general who sends twelve messengers with one order teaches the army that no order is final. One sound, one hour, one rising.",
+    "generated": "2026-11-27T18:01:08+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-27"
   }
 ]
