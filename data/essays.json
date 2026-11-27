@@ -4397,5 +4397,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-26"
+  },
+  {
+    "date": "2026-11-27",
+    "thinker": "twain",
+    "name": "Mark Twain",
+    "dates": "1835-1910",
+    "object": "airport security",
+    "verdict": "the republic saved",
+    "score": 2.4,
+    "essay": "I took off my shoes last month for a young man who had never met me and who regarded my feet with the settled suspicion of a creditor. I did it cheerfully. I have noticed that a man who is asked politely to undress in public will generally oblige, provided the request comes from somebody in a uniform and the line behind him is long enough to supply witnesses. The belt came next, then the watch, then the coins, then a small bottle of hair tonic that I was told was a danger to the republic. I surrendered it. I had carried that bottle across two continents and never once suspected it of ambition. I am a slow man, and I will admit there is a piece of this I cannot work out. Everybody on the line was a stranger, and every stranger was stripped to his stockings and made to hold up his hands like a man in a bad Western. Now if a villain were among us, he would surely be the one fellow who looked cheerful about it. I was cheerful. I have been wondering since whether I was searched twice on purpose. Still, I felt safer. I cannot say from what. But I put my shoes on at the far end, and the hair tonic was gone, and the republic was saved, and I was out only four hours.",
+    "generated": "2026-11-27T01:02:23+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-27"
   }
 ]
