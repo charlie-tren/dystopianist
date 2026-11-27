@@ -4411,5 +4411,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-27"
+  },
+  {
+    "date": "2026-11-27",
+    "thinker": "confucius",
+    "name": "Confucius",
+    "dates": "551-479 BC",
+    "object": "dating apps",
+    "verdict": "mere painted fruit",
+    "score": 2.2,
+    "essay": "The Master said, 'A man who wishes to find a wife by looking at many faces in an evening has not yet asked what he wishes to find.' The Master said, 'In choosing a companion, the wise look to character; the virtuous look to how it is kept in trouble; and the bold look to whether they can bear to be seen as they are.' The Master said, 'To be liked by a stranger for an hour is a little thing. To be known by a neighbour through a hard winter is a larger thing. To be known by one's own household in the morning, before one has composed one's face, is larger still.' The Master said, 'I have seen men arrange their portraits with great care, and say little of their parents, their work, or their faults. When the portrait is finished it resembles the man as a painted fruit resembles one that can be eaten.' The Master said, 'If I were to put forward my own picture, I fear it would show a man more patient than I am. Let him who would do so first ask whether he can become what the picture says.' The Master said, 'To meet many and be known to none is to walk through a market and come home hungry.'",
+    "generated": "2026-11-27T03:38:25+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-27"
   }
 ]
