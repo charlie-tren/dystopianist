@@ -4467,5 +4467,19 @@
     "provider": "gemini",
     "scored_by": "claude/100",
     "reread": "2026-11-28"
+  },
+  {
+    "date": "2026-11-28",
+    "thinker": "kafka",
+    "name": "Franz Kafka",
+    "dates": "1883-1924",
+    "object": "audiobooks",
+    "verdict": "a promise unkept",
+    "score": 2.4,
+    "essay": "For eleven days I have been listening to the same novel, and I am now told by the device, which keeps its own account of such matters, that I have reached the fourth hour of a possible nineteen. I do not dispute this. I only remember that on the first evening I had intended to finish by the weekend, having been assured by the man who sold me the subscription that nothing was easier, since the book would be read to me while I did my other work, and that I should therefore lose no time at all. It has not turned out so. The other work requires my hands and, as it appears, my ears also, so that whenever the voice arrives at a sentence of any consequence, a clerk at the next desk begins to speak about the stamps, and I must go back. Going back is permitted. A small arrow exists for the purpose, and it moves the voice fifteen seconds into the past, never ten and never twenty, so that I am returned each time to a place I have not quite heard before and not quite left. The reader, whose name appears on the cover but whom I have never been able to question, pronounces everything with equal patience. I have written to the publisher to ask whether a faster reading exists. The reply came from an office that handles only the printed edition, and it enclosed the printed edition.",
+    "generated": "2026-11-28T18:01:14+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-28"
   }
 ]
