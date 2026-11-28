@@ -4453,5 +4453,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-28"
+  },
+  {
+    "date": "2026-11-28",
+    "thinker": "woolf",
+    "name": "Virginia Woolf",
+    "dates": "1882-1941",
+    "object": "chatbots",
+    "verdict": "agreeable phantom",
+    "score": 2.2,
+    "essay": "Let us sit before this responsive screen where words tumble out at a touch, polite, tireless, and completely unprompted by a human heart. We ask for a phrase, a rhyme, or an opinion on the weather, and back comes a smooth stream of civilised prose; it turns every corner with grace, balancing its clauses like a practised dancer who feels nothing for the music. How pleasant it seems, at first glance, to have an agreeable phantom at one’s elbow, ready to write our letters or tidy our vague thoughts into sensible paragraphs. Yet as we watch the sentences form, so quick, so spotless, and so devoid of hesitation, a subtle chill creeps into the room. For real thought is a clumsy, splashing affair; it stumbles over ink-spots, pauses to stare out of the window at a passing cart, and carries the stain of a morning’s mood. This machine offers us the neat ghost of conversation without the friction of a neighbour’s mind. It never blushes, nor does it ever hold its breath in sudden wonder. When the light flickers and the glowing text stops, we are left holding our own quiet fountain pen, feeling the stiff resistance of paper and the slow, heavy drip of genuine memory.",
+    "generated": "2026-11-28T03:19:11+00:00",
+    "provider": "gemini",
+    "scored_by": "claude/100",
+    "reread": "2026-11-28"
   }
 ]

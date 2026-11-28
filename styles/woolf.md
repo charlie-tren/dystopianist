@@ -72,6 +72,8 @@ Source: The Common Reader (1925), Project Gutenberg #64457
 - The feeling is named ('terrifying') rather than rendered from inside the body, where Woolf would convey the dread through a felt sensation or image. Seen in a published essay: "Yet there is something terrifying in this total surrender of the fortress." (found 2026-11-12).
 - 'Our own identity' is an abstract category, where Woolf would give the sensation of the ledge and the drop concretely, from inside. Seen in a published essay: "stepping off the ledge of our own identity without so much as a backward glance" (found 2026-11-12).
 - The essay closes on a tidy abstract verdict about loss, where Woolf would end on a concrete sensation, such as the returning hand, rather than a conclusion. Seen in a published essay: "but the hour between is lost forever." (found 2026-11-12).
+- The chill is named as 'subtle' rather than rendered from inside the body or the room; a Woolf reader would expect a more specific felt sensation, such as a draught or a cooling of the hands. Seen in a published essay: "a subtle chill creeps into the room" (found 2026-11-28).
+- 'Genuine' is an abstract label that argues for the value of memory; a Woolf reader would expect the memory itself rendered through its sensory texture, with the adjective left out. Seen in a published essay: "the slow, heavy drip of genuine memory" (found 2026-11-28).
 ## Log
 
 - 26/08/2026 - added. Samples pulled verbatim from The Common Reader (1925), Project Gutenberg #64457 via tools/gutenberg_shots.py.
