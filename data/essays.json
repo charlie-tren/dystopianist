@@ -4439,5 +4439,19 @@
     "provider": "claude",
     "scored_by": "claude/100",
     "reread": "2026-11-27"
+  },
+  {
+    "date": "2026-11-28",
+    "thinker": "wallace",
+    "name": "David Foster Wallace",
+    "dates": "1962-2008",
+    "object": "LinkedIn",
+    "verdict": "coat-check humility",
+    "score": 2.2,
+    "essay": "Last Tuesday a man I sat behind in a seventh-grade geometry class, a man whose single distinguishable trait was that he ate paste, or at least was believed to, announced that he was \"humbled and honored\" to begin a new role as Director of Synergy Enablement at a firm whose name I won't give here. Four hundred and twelve people had liked this. I was the four hundred and thirteenth. I want that on the record, because what follows is partly about contempt, and I would like it understood that contempt was not my first or even my second move. My first move was a small hot bloom of congratulation, which I clicked. My second was to check his salary range against mine by inference, using the firm's headshot lighting as a rough guide. The lighting was good. His teeth had been resolved, somehow, into a single unbroken white surface. Humbled is the word I keep circling. Nobody on there is humbled. The word is a kind of coat check: you hand over the humility at the door, get a little numbered ticket, and walk into the room free to brag. And I know this, I can diagram it, and I still sat there for eleven minutes composing a post of my own, three drafts, the second one containing the phrase \"grateful for the journey,\" which I deleted, and then restored, and then deleted again, not out of principle exactly but because I couldn't tell whether I was lying or just practicing.",
+    "generated": "2026-11-28T00:34:05+00:00",
+    "provider": "claude",
+    "scored_by": "claude/100",
+    "reread": "2026-11-28"
   }
 ]
